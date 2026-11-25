@@ -54,7 +54,7 @@ Every mechanism and every decision is one example with a stable id, such as `202
 A model finds examples in two ways:
 
 1. Run `python tools/compendium.py find --function deliver --text "align without stopping"`. Results are JSON, best match first. It matches words, with more weight on rare words and on a mechanism's name and the problem it solves; it does not know that two phrases mean the same thing, so try the terms teams use.
-2. Fetch the published index by URL when it has no checkout. (Planned: the same index as static JSON on the site.)
+2. Fetch the published index by URL when it has no checkout: https://ehartye.github.io/frc-bot-compendium/llms.txt lists the files.
 
 ## The story: six beats, in this order
 
