@@ -221,6 +221,24 @@
       "url": "https://www.chiefdelphi.com/t/508474",
       "publisher": "Chief Delphi",
       "read": "2026-11-25"
+    },
+    "s37": {
+      "title": "Onshape document",
+      "url": "https://cad.onshape.com/documents/2fc7c67cf0caa47d6fd88b44/w/50f8171b9e5f18a6a9f1f1d8/e/6bf3af59f010e7afe9e0d482",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s38": {
+      "title": "Page this picture is from",
+      "url": "https://www.chiefdelphi.com/t/460678/19",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s39": {
+      "title": "Page this picture is from",
+      "url": "https://www.chiefdelphi.com/t/445350/13",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -236,7 +254,7 @@
     ],
     "demand": [
       {
-        "text": "Be the best note scorer possible and leave the trap: it is hard, and climbing beside a partner plus a last speaker cycle gives up 1 point against climb and trap.",
+        "text": "At kickoff: be the best note scorer possible and leave the trap. It is hard, and climbing beside a partner plus a last speaker cycle gives up 1 point against climb and trap.",
         "basis": "team",
         "src": [
           "s5",
@@ -306,7 +324,8 @@
         "text": "The arm hooks the chain and pulls down; alone, it climbed with 2 to 3 seconds left.",
         "basis": "team",
         "src": [
-          "s26"
+          "s26",
+          "s32"
         ]
       },
       {
@@ -370,6 +389,7 @@
         "text": "An Alpha robot with a fixed-angle shooter was dropped in January: poor centering and a handoff sensitive to shooter angle.",
         "basis": "team",
         "src": [
+          "s7",
           "s8"
         ]
       },
@@ -597,6 +617,13 @@
           "basis": "team",
           "src": [
             "s27"
+          ]
+        },
+        {
+          "text": "The robot browned out a bit at the end of its first two Galileo playoff matches; playing only front court runs the shooter and intake motors much more than cycling",
+          "basis": "team",
+          "src": [
+            "s29"
           ]
         }
       ],
@@ -888,6 +915,13 @@
           "src": [
             "s29"
           ]
+        },
+        {
+          "text": "The team wrote later that all agree the time spent on it was detrimental to its performance",
+          "basis": "team",
+          "src": [
+            "s36"
+          ]
         }
       ],
       "does": [
@@ -949,6 +983,13 @@
           "basis": "team",
           "src": [
             "s15"
+          ]
+        },
+        {
+          "text": "Longer-range shooting was worse at the championship than at the district championship; the team blames improving automation without enough time or a detailed plan",
+          "basis": "team",
+          "src": [
+            "s36"
           ]
         }
       ],
@@ -1045,14 +1086,14 @@
       ],
       "cost": [
         {
-          "text": "Metal shavings in a USB port shorted the RoboRIO between New England finals; the team sat out a match and then bought port plugs",
+          "text": "Metal shavings in a USB port shorted the RoboRIO between New England division finals matches; the team sat out one and then bought port plugs",
           "basis": "team",
           "src": [
             "s27"
           ]
         },
         {
-          "text": "A loose CAN wire with a snapped crimp clip stopped the robot in the Galileo playoffs; it ran under the arm gearbox with no slack",
+          "text": "A loose CAN wire with a snapped crimp clip stopped the robot in the Galileo playoffs; it ran under the arm gearbox with little to no slack",
           "basis": "team",
           "src": [
             "s29"
@@ -1091,7 +1132,7 @@
   ],
   "decisions": [
     {
-      "choice": "Leave the trap out of the robot",
+      "choice": "Put note scoring ahead of the trap at kickoff",
       "because": "it is hard to reach, and skipping it loses only 1 point when the team climbs beside a partner after one more speaker cycle",
       "instead_of": "geometry to score in the trap",
       "cost": "seeding first is difficult at competitive events, the team wrote later, without the trap or a climb with a partner on the same chain",
@@ -1234,6 +1275,88 @@
         "format": "video",
         "state": "listed",
         "src": "s26"
+      },
+      {
+        "what": "Onshape preview of the full robot, spare swerve modules alongside",
+        "url": "https://cad.onshape.com/documents/2fc7c67cf0caa47d6fd88b44/w/50f8171b9e5f18a6a9f1f1d8/e/6bf3af59f010e7afe9e0d482",
+        "img": "https://cad.onshape.com/api/thumbnails/d/2fc7c67cf0caa47d6fd88b44/w/50f8171b9e5f18a6a9f1f1d8/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s37",
+        "kind": "cad",
+        "hero": true
+      },
+      {
+        "what": "Table of robot tasks with priorities, difficulty and notes",
+        "url": "https://www.chiefdelphi.com/t/445350/17",
+        "img": "https://lh7-us.googleusercontent.com/H6j6nKSXkznpnS-NfbLJTpECH8WO5jf-DUZCpLSkkJH7fKzq5qqZNfZ2C3unHp7YQgPrcx5sHHwE5mfJvZA930SKeK4FfC7rXqFhXhViRK1rR42Or37Tpnp0YhQEQUgi112SzomDtwCS77Lky_OX-58",
+        "format": "image",
+        "state": "opened",
+        "src": "s5",
+        "kind": "diagram"
+      },
+      {
+        "what": "Side view CAD study of the climber against the stage",
+        "url": "https://www.chiefdelphi.com/t/445350/20",
+        "img": "https://lh7-us.googleusercontent.com/A6prir9JfXhYlXrTqB06yI9KY6u5oPRhr5bp0OBOXHfWjKXDCwQ7hliVCpIYCsitXRBvPxso9x12b3P4rYRHUkYG35hhHTUe79MRPJ_n2DmUM2yHFOP5oXvC9aItD6fDRacVPTu8S8JVkSlkjATd_tY",
+        "format": "image",
+        "state": "opened",
+        "src": "s6",
+        "kind": "drawing"
+      },
+      {
+        "what": "Two 775-size motors held side by side",
+        "url": "https://www.chiefdelphi.com/t/460678",
+        "img": "https://lh7-us.googleusercontent.com/UxetQwRN_OvbRZEJxnx_06SZJC31OhpYoAmAMEwy2pFk8hMeGBDo4809NKrndyPlwz-Ye_y4xjdBzR0EFiOEb8vlQmQ6QmtXkUA5u2jMMWm9gdUls74V-_v5zscgEilJZwMmd-BHAtAcspE-hk9v1F4",
+        "format": "image",
+        "state": "opened",
+        "src": "s31",
+        "kind": "mechanism"
+      },
+      {
+        "what": "CAD of the shooter with a leaf blower mounted behind it",
+        "url": "https://www.chiefdelphi.com/t/460678/19",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/6/4/64acfa42c82af38dfaa0e11b8b63ac3e5444c448_2_690x352.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s38",
+        "kind": "cad"
+      },
+      {
+        "what": "Early CAD of the chassis with a pivoting shooter holding a note",
+        "url": "https://www.chiefdelphi.com/t/445350/13",
+        "img": "https://lh7-us.googleusercontent.com/vZ8ak3yf6l42IJ7TUa6rCfKWDojSdFhAMOeEt5K-roKFBpIRN2DEKGCEEnsMDhbdkbOzGHH7yrxwJnAPS5xPNVMSrFdSNAqOcPL8pcH3_d90cxmP_c_BSxp7lOC8LAcF1C0SHJeoJJUk11mcsWg7ULQ",
+        "format": "image",
+        "state": "opened",
+        "src": "s39",
+        "kind": "cad"
+      },
+      {
+        "what": "Leaf blower taken apart on a bench",
+        "url": "https://www.chiefdelphi.com/t/460678",
+        "img": "https://lh7-us.googleusercontent.com/NER4JhwnFyt5DbswBWWIdwVxP7ByjLKc28nqG1Yh_ax-pJLZJ-vgh7JIffeZm_6c9UAVIibxBskLmwxatxxuKVvahnkNa-nGoypuf1ptJYd1bHwa_qN4B6Ji0-UL32S4KChuvYKGACDcSOhjiVYZGl8",
+        "format": "image",
+        "state": "opened",
+        "src": "s31",
+        "kind": "mechanism"
+      },
+      {
+        "what": "CAD of an intake with four rollers",
+        "url": "https://www.chiefdelphi.com/t/445350/13",
+        "img": "https://lh7-us.googleusercontent.com/0ngrgVjsIqkMUGIyAQ7VnR2CUiLtr-WUFd2Vl7wutBQDr-GMdYdWGL49dt9p0mob48oL3B76AsWV9KDzopX4fUvQH7EwwobaOc970cJYg-XWZd_kMBfJaWoF0dlAhj5ijfEh_ghhusJL77OWt7Jxc_o",
+        "format": "image",
+        "state": "opened",
+        "src": "s39",
+        "kind": "cad"
+      },
+      {
+        "what": "Robot moving on a practice field in front of a wooden stage",
+        "url": "https://www.chiefdelphi.com/t/460678",
+        "img": "https://img.youtube.com/vi/kcLbfZc4Y1A/maxresdefault.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s31",
+        "kind": "robot-photo"
       }
     ],
     "documents": [

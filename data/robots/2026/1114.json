@@ -137,6 +137,42 @@
       "url": "https://resources.simbotics.org/robots",
       "publisher": "Team 1114",
       "read": "2026-11-25"
+    },
+    "s23": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/DPhEQBo",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s24": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/E8vOusF",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s25": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/UrV2T0c",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s26": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/ZfvgeV3",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s27": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/lgg9un0",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s28": {
+      "title": "Onshape document",
+      "url": "https://cad.onshape.com/documents/7959d159451177786d52dd9a/w/535bc31b66b0cc442967f1d0/e/a263c1a625ed8cf2484ae82f",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -297,7 +333,7 @@
           ]
         },
         {
-          "text": "The intake can vibrate, to push balls faster into the indexer or to free a robot stuck on the bump or on balls",
+          "text": "The intake can vibrate, to push balls faster into the indexer or to free a robot stuck on the bump or beached",
           "basis": "team",
           "src": [
             "s4"
@@ -429,7 +465,7 @@
           ]
         },
         {
-          "text": "Rollers with cat tongue push balls down into it, added because of trouble feeding faster",
+          "text": "Rollers with cat tongue push balls down towards the shooter, added because of trouble feeding faster",
           "basis": "team",
           "src": [
             "s4"
@@ -614,20 +650,6 @@
     "graphics": [
       {
         "what": "Photo listed on the team page (not opened)",
-        "url": "https://imgur.com/DPhEQBo",
-        "format": "image",
-        "state": "listed",
-        "src": "s1"
-      },
-      {
-        "what": "Photo listed on the team page (not opened)",
-        "url": "https://imgur.com/E8vOusF",
-        "format": "image",
-        "state": "listed",
-        "src": "s1"
-      },
-      {
-        "what": "Photo listed on the team page (not opened)",
         "url": "https://imgur.com/FvYb4GA",
         "format": "image",
         "state": "listed",
@@ -643,27 +665,6 @@
       {
         "what": "Photo listed on the team page (not opened)",
         "url": "https://imgur.com/KCQ6uyx",
-        "format": "image",
-        "state": "listed",
-        "src": "s1"
-      },
-      {
-        "what": "Photo listed on the team page (not opened)",
-        "url": "https://imgur.com/UrV2T0c",
-        "format": "image",
-        "state": "listed",
-        "src": "s1"
-      },
-      {
-        "what": "Photo listed on the team page (not opened)",
-        "url": "https://imgur.com/ZfvgeV3",
-        "format": "image",
-        "state": "listed",
-        "src": "s1"
-      },
-      {
-        "what": "Photo listed on the team page (not opened)",
-        "url": "https://imgur.com/lgg9un0",
         "format": "image",
         "state": "listed",
         "src": "s1"
@@ -723,6 +724,88 @@
         "format": "video",
         "state": "listed",
         "src": "s17"
+      },
+      {
+        "what": "Robot driving among fuel, hopper cover raised, dark bumpers",
+        "url": "https://imgur.com/DPhEQBo",
+        "img": "https://i.imgur.com/DPhEQBoh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s23",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Robot with a full hopper, red bumpers",
+        "url": "https://imgur.com/E8vOusF",
+        "img": "https://i.imgur.com/E8vOusFh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s24",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot with hopper full of fuel, red bumpers",
+        "url": "https://imgur.com/UrV2T0c",
+        "img": "https://i.imgur.com/UrV2T0ch.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s25",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Robot with part-filled hopper, another team's robot behind",
+        "url": "https://imgur.com/ZfvgeV3",
+        "img": "https://i.imgur.com/ZfvgeV3h.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s26",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Simbot Tim from the intake side, red bumpers",
+        "url": "https://imgur.com/lgg9un0",
+        "img": "https://i.imgur.com/lgg9un0h.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s27",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot CAD without bumpers, intake side",
+        "url": "https://cad.onshape.com/documents/7959d159451177786d52dd9a/w/535bc31b66b0cc442967f1d0/e/a263c1a625ed8cf2484ae82f",
+        "img": "https://cad.onshape.com/api/thumbnails/d/7959d159451177786d52dd9a/w/535bc31b66b0cc442967f1d0/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s28",
+        "kind": "cad"
+      },
+      {
+        "what": "Hopper and shooter from the side, some fuel marked by hand",
+        "url": "https://www.chiefdelphi.com/t/522887/5",
+        "img": "https://www.chiefdelphi.com/uploads/default/original/4X/7/3/d/73dae9a6f520ec5cfe0d6cbaa85aa179a667fe83.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s15",
+        "kind": "mechanism"
+      },
+      {
+        "what": "Robot with full hopper from above, beside a wooden hub",
+        "url": "https://www.chiefdelphi.com/t/522887",
+        "img": "https://img.youtube.com/vi/kd0H5UeTNJ8/maxresdefault.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s17",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Robot with full hopper on a practice field, text overlay",
+        "url": "https://www.chiefdelphi.com/t/522887",
+        "img": "https://img.youtube.com/vi/_j7Bqc7DJWo/maxresdefault.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s17",
+        "kind": "robot-photo"
       }
     ],
     "documents": [

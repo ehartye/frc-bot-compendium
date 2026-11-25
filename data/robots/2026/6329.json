@@ -131,6 +131,24 @@
       "url": "https://github.com/Bucks-Wrath/2026DriveCode",
       "publisher": "Team 6329 on GitHub",
       "read": "2026-11-25"
+    },
+    "s22": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/Md41EOq",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s23": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/N5xJsTU",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s24": {
+      "title": "Page this picture is from",
+      "url": "https://www.chiefdelphi.com/t/515342/4",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -219,7 +237,7 @@
         ]
       },
       {
-        "text": "In the New England final a defender held it at the bump; its drive coach calls it a pin that cost a cycle.",
+        "text": "In the New England final a defender held it at the bump; its drive coach calls it a pin that cost a cycle. It was not called.",
         "basis": "team",
         "src": [
           "s19"
@@ -330,17 +348,18 @@
           ]
         },
         {
-          "text": "Arms are stacked plates of SRPP and polycarbonate with 3/8 in spacers through the pivot, driven by SplineXL",
+          "text": "The pivot stack has 3/8 in spacers through the SRPP and polycarbonate, with a SplineXL drive",
           "basis": "team",
           "src": [
             "s8"
           ]
         },
         {
-          "text": "Wheels are cast by the team in VytaFlex 30",
+          "text": "Wheels are cast by the team in VytaFlex 30, by its forum post; in the interview a team member says silicone",
           "basis": "team",
           "src": [
-            "s12"
+            "s12",
+            "s14"
           ]
         },
         {
@@ -348,6 +367,13 @@
           "basis": "team",
           "src": [
             "s14"
+          ]
+        },
+        {
+          "text": "On the intake kicker, a 95A TPU print joins the polycarbonate arm to the tube to handle impacts",
+          "basis": "team",
+          "src": [
+            "s12"
           ]
         }
       ]
@@ -438,7 +464,7 @@
           ]
         },
         {
-          "text": "Rollers (which ones is not said) have spread-out flex wheels for an uneven surface and less taping, with grip tape",
+          "text": "Rollers (which ones is not said) have spread-out flex wheels with grip tape; a team member thinks the wheels were for an uneven surface and less taping",
           "basis": "team",
           "src": [
             "s12"
@@ -649,7 +675,7 @@
     },
     {
       "choice": "Cast intake wheels",
-      "because": "the old wheels walked on the dead-axle tubes and there were not enough for two robots",
+      "because": "a team member mostly wanted to try casting; the old wheels also walked on the dead-axle tubes and there were not enough for two robots",
       "cost": "about one event plus practice of life",
       "basis": "team",
       "src": [
@@ -675,20 +701,6 @@
       }
     ],
     "graphics": [
-      {
-        "what": "Photo listed on the team page (not opened)",
-        "url": "https://imgur.com/Md41EOq",
-        "format": "image",
-        "state": "listed",
-        "src": "s1"
-      },
-      {
-        "what": "Photo listed on the team page (not opened)",
-        "url": "https://imgur.com/N5xJsTU",
-        "format": "image",
-        "state": "listed",
-        "src": "s1"
-      },
       {
         "what": "Reveal, CAD release and questions thread",
         "url": "https://www.chiefdelphi.com/t/515342",
@@ -716,6 +728,52 @@
         "format": "video",
         "state": "listed",
         "src": "s6"
+      },
+      {
+        "what": "Full robot on white, wide roller on top, blue bumpers",
+        "url": "https://imgur.com/Md41EOq",
+        "img": "https://i.imgur.com/Md41EOqh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s22",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Full robot on white from the intake side, blue bumpers",
+        "url": "https://imgur.com/N5xJsTU",
+        "img": "https://i.imgur.com/N5xJsTUh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s23",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Earlier turret version, full robot CAD, intake out",
+        "url": "https://www.chiefdelphi.com/t/515342",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/4/b/a/4ba0cc8bb0ffeb6d538cd78254cb21728230d1dc_2_647x500.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
+      },
+      {
+        "what": "Earlier version, turret base CAD, close-up",
+        "url": "https://www.chiefdelphi.com/t/515342/4",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/1/7/1/171ea526178594c00d1158ea230ef85679a0a909_2_647x500.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s24",
+        "kind": "cad"
+      },
+      {
+        "what": "Earlier turret version in the shop, red bumpers",
+        "url": "https://www.risingtide.media/news1/bucksport-high-school-robotics-team-big-roman-win-031126",
+        "img": "https://images.squarespace-cdn.com/content/v1/686594761ddfc0377270fe06/f0c1c1ab-99ed-487a-a8a8-4a05ea148cb7/Roman+after+the+competition%2C+before+the+rebuild.jpeg?format=2500w",
+        "format": "image",
+        "state": "opened",
+        "src": "s15",
+        "kind": "robot-photo"
       }
     ],
     "documents": [

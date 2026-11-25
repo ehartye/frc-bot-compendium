@@ -101,6 +101,24 @@
       "url": "https://www.chiefdelphi.com/t/457863/16",
       "publisher": "Chief Delphi",
       "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/fPIFRn8",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "Onshape document",
+      "url": "https://5940.onshape.com/documents/fc2ed487a3bcc1f0e49a6d9d/w/6c480d72591c00009984731f/e/6eefccfefe0d553debd9163f?aa=true",
+      "publisher": "5940.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "Page this picture is from",
+      "url": "https://www.chiefdelphi.com/t/457863",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -292,7 +310,7 @@
           "unit": "ft/s"
         },
         {
-          "text": "Four centering wheels of 3 and 4 in, 4.8:1; surface speed",
+          "text": "Four centering wheels, listed as \"3+4\" in, 4.8:1; surface speed",
           "basis": "team",
           "src": [
             "s4"
@@ -633,13 +651,6 @@
     ],
     "graphics": [
       {
-        "what": "Photo listed on the team page (not opened)",
-        "url": "https://imgur.com/fPIFRn8",
-        "format": "image",
-        "state": "listed",
-        "src": "s1"
-      },
-      {
         "what": "Reveal video (not watched)",
         "url": "https://www.youtube.com/watch?v=b_z8SFSKbFU",
         "format": "video",
@@ -666,6 +677,34 @@
         "format": "video",
         "state": "listed",
         "src": "s8"
+      },
+      {
+        "what": "Robot on the field holding a note, blue bumpers",
+        "url": "https://imgur.com/fPIFRn8",
+        "img": "https://i.imgur.com/fPIFRn8h.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s17",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Full robot CAD, shooter raised on the elevator",
+        "url": "https://5940.onshape.com/documents/fc2ed487a3bcc1f0e49a6d9d/w/6c480d72591c00009984731f/e/6eefccfefe0d553debd9163f?aa=true",
+        "img": "https://cad.onshape.com/api/thumbnails/d/fc2ed487a3bcc1f0e49a6d9d/w/6c480d72591c00009984731f/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s18",
+        "kind": "cad"
+      },
+      {
+        "what": "Roti, intake and shooter assembly, close-up",
+        "url": "https://www.chiefdelphi.com/t/457863",
+        "img": "https://i.ytimg.com/vi/b_z8SFSKbFU/hqdefault.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s19",
+        "kind": "mechanism"
       }
     ],
     "documents": [

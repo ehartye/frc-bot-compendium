@@ -89,19 +89,49 @@
       "url": "https://www.teamrush27.net/resources/technical-resources",
       "publisher": "Team RUSH",
       "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/Ao4LSKb",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/EseeFpy",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/Nvv59DA",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/WBww3D9",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/kQpjEpI",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
     }
   },
   "story": {
     "bet": [
       {
-        "text": "An efficient roller floor and indexer, for the most fuel per second.",
+        "text": "The scoring subteam's focus: an efficient roller floor and indexer, for the most fuel per second with the highest accuracy.",
         "basis": "team",
         "src": [
           "s3"
         ]
       },
       {
-        "text": "The stated objective: score 20+ fuel per second with 90%+ accuracy, as far as the Tower.",
+        "text": "Launcher objective: score 20+ fuel per second at 90%+ accuracy, as far as the Tower.",
         "basis": "team",
         "src": [
           "s4"
@@ -149,7 +179,7 @@
         ]
       },
       {
-        "text": "In one Chelsea playoff match, an analyst says, it dumped whole hoppers back, angled into a corner where a fixed shooter can collect, turn slightly and shoot, and herded fuel with its bumpers.",
+        "text": "In one Chelsea playoff match, an analyst says, it dumped whole hoppers back (not advised in a closer match), angled into a corner where a fixed shooter can collect, turn slightly and shoot, and herded fuel with its bumpers.",
         "basis": "observer",
         "src": [
           "s8"
@@ -197,7 +227,7 @@
         ]
       },
       {
-        "text": "In build week 5 the first functional climb prototype was done for the practice robot.",
+        "text": "In build week 5 the first functional climb prototype was done for the practice robot, still unfinished.",
         "basis": "team",
         "src": [
           "s10"
@@ -290,7 +320,7 @@
           ]
         },
         {
-          "text": "Deploy speed is limited by its chain",
+          "text": "Deploy speed is somewhat limited by its chain",
           "basis": "team",
           "src": [
             "s5"
@@ -487,7 +517,7 @@
           ]
         },
         {
-          "text": "Compression changes along the path: about 5/8, 3/8 and a final 1/2 (units not spoken)",
+          "text": "Compression changes along the path: about 5/8, 3/8 and a final 1/2 (unit unclear in the captions)",
           "basis": "team",
           "src": [
             "s5"
@@ -501,7 +531,7 @@
           ]
         },
         {
-          "text": "The team's undated tech documentation differs from the interview: up to 20 fuel per second through a launcher three fuel wide, wheels on a REV MAXSpline axle, a three-stage collapsible hood that scores and feeds from the front or back, and a Hall effect sensor for hood angle",
+          "text": "The team's undated tech documentation adds: up to 20 fuel per second through a launcher three fuel wide, wheels on a REV MAXSpline axle, a three-stage collapsible hood that scores and feeds from the front or back, and a Hall effect sensor for hood angle",
           "basis": "team",
           "src": [
             "s4"
@@ -791,7 +821,7 @@
   "decisions": [
     {
       "choice": "A floor of connected polycarbonate rollers",
-      "because": "it has been really successful",
+      "because": "the team says it has been really successful for them (no other reason given)",
       "instead_of": "belt, \"sushi roll\" and chain ideas",
       "basis": "team",
       "src": [
@@ -860,41 +890,6 @@
     "graphics": [
       {
         "what": "Photo listed on the team page (not opened)",
-        "url": "https://imgur.com/Ao4LSKb",
-        "format": "image",
-        "state": "listed",
-        "src": "s1"
-      },
-      {
-        "what": "Photo listed on the team page (not opened)",
-        "url": "https://imgur.com/EseeFpy",
-        "format": "image",
-        "state": "listed",
-        "src": "s1"
-      },
-      {
-        "what": "Photo listed on the team page (not opened)",
-        "url": "https://imgur.com/Nvv59DA",
-        "format": "image",
-        "state": "listed",
-        "src": "s1"
-      },
-      {
-        "what": "Photo listed on the team page (not opened)",
-        "url": "https://imgur.com/WBww3D9",
-        "format": "image",
-        "state": "listed",
-        "src": "s1"
-      },
-      {
-        "what": "Photo listed on the team page (not opened)",
-        "url": "https://imgur.com/kQpjEpI",
-        "format": "image",
-        "state": "listed",
-        "src": "s1"
-      },
-      {
-        "what": "Photo listed on the team page (not opened)",
         "url": "https://imgur.com/zQPTt6K",
         "format": "image",
         "state": "listed",
@@ -913,6 +908,52 @@
         "format": "video",
         "state": "listed",
         "src": "s1"
+      },
+      {
+        "what": "Robot with full hopper in a pile of fuel, blue bumpers",
+        "url": "https://imgur.com/Ao4LSKb",
+        "img": "https://i.imgur.com/Ao4LSKbh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s15",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot on white, red tape on hopper, red bumpers",
+        "url": "https://imgur.com/EseeFpy",
+        "img": "https://i.imgur.com/EseeFpyh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s16",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot from the side, fuel in hopper, blue bumpers",
+        "url": "https://imgur.com/Nvv59DA",
+        "img": "https://i.imgur.com/Nvv59DAh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s17",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Robot from the intake side, hopper extended, red bumpers",
+        "url": "https://imgur.com/WBww3D9",
+        "img": "https://i.imgur.com/WBww3D9h.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s18",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Robot launching a stream of fuel into the hub",
+        "url": "https://imgur.com/kQpjEpI",
+        "img": "https://i.imgur.com/kQpjEpIh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s19",
+        "kind": "robot-photo"
       }
     ],
     "documents": [

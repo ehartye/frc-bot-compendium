@@ -4,7 +4,7 @@
   "team": "5687",
   "team_name": "The Outliers",
   "robot_name": "Glenn",
-  "variant": "Glenn, the robot revealed on 6 March 2026; posters say the team brought another robot to week 0 as well",
+  "variant": "Glenn, the robot revealed on 6 March 2026; a poster says the team brought another robot to week 0 as well",
   "sources": {
     "s1": {
       "title": "Team 5687 in 2026",
@@ -137,6 +137,12 @@
       "url": "https://www.chiefdelphi.com/t/515683/47",
       "publisher": "Chief Delphi",
       "read": "2026-11-25"
+    },
+    "s23": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/78Dan4m",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -173,7 +179,7 @@
         ]
       },
       {
-        "text": "In another, partners herded fuel and counter-defended for it.",
+        "text": "In a Burns division match, a partner herded fuel and counter-defended for it.",
         "basis": "observer",
         "src": [
           "s5"
@@ -189,7 +195,7 @@
         ]
       },
       {
-        "text": "It had autos that it never ran.",
+        "text": "It had autos that it never ran, and \"some shoot\" that it never used in a match.",
         "basis": "team",
         "src": [
           "s7"
@@ -212,7 +218,7 @@
     ],
     "changed": [
       {
-        "text": "Posters call it a rebuild from week 0, where the team brought both robots.",
+        "text": "One poster calls it a rebuild from week 0; another says the team brought both robots and drove this one in some matches.",
         "basis": "observer",
         "src": [
           "s9",
@@ -476,7 +482,7 @@
           "unit": "Hz"
         },
         {
-          "text": "Interpolating maps of hood and flywheel with drivetrain velocity compensation, for shoot on the move",
+          "text": "Interpolating maps of hood and flywheel with drivetrain velocity compensation, for shoot on the move; the same post says it had \"some shoot\" never used in a match",
           "basis": "team",
           "src": [
             "s7"
@@ -559,13 +565,6 @@
     "cad": [],
     "graphics": [
       {
-        "what": "Photo listed on the team page (not opened)",
-        "url": "https://imgur.com/78Dan4m",
-        "format": "image",
-        "state": "listed",
-        "src": "s1"
-      },
-      {
         "what": "Reveal thread, read in full (images not read)",
         "url": "https://www.chiefdelphi.com/t/515683",
         "format": "thread",
@@ -599,6 +598,25 @@
         "format": "thread",
         "state": "listed",
         "src": "s15"
+      },
+      {
+        "what": "Full robot on white, red top roller, blue bumpers",
+        "url": "https://imgur.com/78Dan4m",
+        "img": "https://i.imgur.com/78Dan4mh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s23",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Robot on a practice field among fuel, seen from afar",
+        "url": "https://www.chiefdelphi.com/t/515683",
+        "img": "https://img.youtube.com/vi/OtsBO5IAR44/maxresdefault.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s21",
+        "kind": "robot-photo"
       }
     ],
     "documents": [

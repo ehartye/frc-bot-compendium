@@ -64,7 +64,7 @@
   "story": {
     "bet": [
       {
-        "text": "Have a very good shooter first: a rotating turret developed from the team's 2020 robot.",
+        "text": "Have a very good shooter first, with a rotating turret similar to the team's 2020 robot's.",
         "basis": "team",
         "src": [
           "s3"
@@ -82,7 +82,7 @@
     ],
     "cycle": [
       {
-        "text": "The intake centers cargo into the elevator, the turret aims by Limelight, and a wrong-color ball is missed on purpose.",
+        "text": "The intake centers cargo into the elevator, a Limelight gives tracking and distance, and a wrong-color ball is missed on purpose.",
         "basis": "team",
         "src": [
           "s3"
@@ -98,7 +98,7 @@
     ],
     "endgame": [
       {
-        "text": "Two kinds of hooks work rung by rung to traversal; the fastest time given is about 10 to 15 seconds.",
+        "text": "Two kinds of hanging arms work rung by rung to traversal; the fastest time given is about 10 to 15 seconds.",
         "basis": "team",
         "src": [
           "s3"
@@ -181,10 +181,11 @@
           ]
         },
         {
-          "text": "Robot weight",
+          "text": "Robot weight, by the team's history page; a newspaper report gives a 120-pound robot",
           "basis": "team",
           "src": [
-            "s4"
+            "s4",
+            "s5"
           ],
           "value": 125,
           "unit": "lb"
@@ -233,8 +234,7 @@
       ],
       "type": "mecanum centering intake",
       "serves": [
-        "hub-upper",
-        "hub-lower"
+        "hub-upper"
       ],
       "facts": [
         {
@@ -477,13 +477,6 @@
   "assets": {
     "cad": [],
     "graphics": [
-      {
-        "what": "Photo listed on the team page (not opened)",
-        "url": "https://imgur.com/98FDwkk",
-        "format": "image",
-        "state": "listed",
-        "src": "s1"
-      },
       {
         "what": "Behind the Bumpers interview (transcript read, not watched)",
         "url": "https://www.youtube.com/watch?v=yiXl7dlhDzY",

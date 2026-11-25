@@ -388,7 +388,7 @@
       ],
       "cost": [
         {
-          "text": "In a Hopper playoff match a partner lining up to climb got stuck underneath it and their climb points were lost",
+          "text": "In a Hopper playoff match a partner lining up to climb got stuck underneath it, and the alliance got no climb points",
           "basis": "observer",
           "src": [
             "s10"
@@ -423,7 +423,7 @@
       ],
       "facts": [
         {
-          "text": "The bar pushes small hooks, which lock behind it so it cannot escape while the robot rotates",
+          "text": "The bar pushes small hooks, which lock in place so it cannot escape while the robot rotates",
           "basis": "team",
           "src": [
             "s3"
@@ -505,6 +505,16 @@
         "format": "video",
         "state": "listed",
         "src": "s6"
+      },
+      {
+        "what": "Quickdraw, full robot with turret and raised intake",
+        "url": "https://www.chiefdelphi.com/t/404469",
+        "img": "https://img.youtube.com/vi/tVhXE8RNocU/maxresdefault.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "robot-photo",
+        "hero": true
       }
     ],
     "documents": [

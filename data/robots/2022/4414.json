@@ -89,6 +89,18 @@
       "url": "https://www.chiefdelphi.com/t/438049/7",
       "publisher": "Chief Delphi",
       "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/3uEONcK",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/EOE34N4",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -213,10 +225,11 @@
         ]
       },
       {
-        "text": "The climber reached a third version.",
+        "text": "The climber reached a third version; a team machinist counts at least four iterations of the whole robot.",
         "basis": "team",
         "src": [
-          "s7"
+          "s7",
+          "s3"
         ]
       }
     ],
@@ -296,7 +309,7 @@
       ],
       "facts": [
         {
-          "text": "A Falcon, chain and sprocket and a cross shaft move both sides",
+          "text": "A Falcon, chain and sprocket and a cross shaft move both sides, a design the team looked at from 148",
           "basis": "team",
           "src": [
             "s3"
@@ -420,7 +433,7 @@
       "name": "Dead zone wheel",
       "solves": [
         {
-          "text": "Feed a ball past the gap under the turret",
+          "text": "Get the ball out of the turret's dead zone",
           "basis": "team",
           "src": [
             "s4"
@@ -810,20 +823,6 @@
     "cad": [],
     "graphics": [
       {
-        "what": "Photo listed on the team page (not opened)",
-        "url": "https://imgur.com/3uEONcK",
-        "format": "image",
-        "state": "listed",
-        "src": "s1"
-      },
-      {
-        "what": "Photo listed on the team page (not opened)",
-        "url": "https://imgur.com/EOE34N4",
-        "format": "image",
-        "state": "listed",
-        "src": "s1"
-      },
-      {
         "what": "Cutback reveal video (not watched)",
         "url": "https://www.youtube.com/watch?v=0e666EBIfzE",
         "format": "video",
@@ -836,6 +835,25 @@
         "format": "video",
         "state": "listed",
         "src": "s3"
+      },
+      {
+        "what": "Full robot in the pit, intake out, red bumpers",
+        "url": "https://imgur.com/3uEONcK",
+        "img": "https://i.imgur.com/3uEONcKh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s15",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Robot on the field, intake down, under the rungs",
+        "url": "https://imgur.com/EOE34N4",
+        "img": "https://i.imgur.com/EOE34N4h.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s16",
+        "kind": "robot-photo"
       }
     ],
     "documents": [

@@ -125,6 +125,18 @@
       "url": "https://www.chiefdelphi.com/t/413406/5",
       "publisher": "Chief Delphi",
       "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "FUNalysis Texas DCMP Grand Finals 2: 148 tips back over",
+      "url": "https://www.youtube.com/watch?v=W0x1eumyPxk",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s22": {
+      "title": "Onshape document",
+      "url": "https://cad.onshape.com/documents/a347ccbaf68f245233aadb8b/w/1078dadff6a13b8f52a83991/e/24ed58654cf353cf1731c47c",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -187,7 +199,7 @@
         ]
       },
       {
-        "text": "In April, at full power with software automation, about seven seconds from the ground.",
+        "text": "At the Texas Championship, at full power with software automation, about seven seconds from the ground.",
         "basis": "team",
         "src": [
           "s6"
@@ -202,11 +214,18 @@
           "s16",
           "s13"
         ]
+      },
+      {
+        "text": "After winning the Texas Championship the drive team said the playoffs were a little rough, with some reliability issues.",
+        "basis": "team",
+        "src": [
+          "s19"
+        ]
       }
     ],
     "changed": [
       {
-        "text": "The March document lists a NEO 550 intake at 2:1, a NEO indexer and 13 degrees of hood; the April interview gives a Falcon intake at 4:3 after five or six versions, a Falcon indexer and about 24 degrees.",
+        "text": "The March document lists a NEO 550 intake at 2:1, a NEO indexer and 13 degrees of hood; the Texas Championship interview gives a Falcon intake at 4:3 after five or six versions, a Falcon indexer and about 24 degrees.",
         "basis": "team",
         "src": [
           "s4",
@@ -214,7 +233,7 @@
         ]
       },
       {
-        "text": "The climb was under manual control in mid March and automated by April. Black tread was added where cargo enters, because compression varied.",
+        "text": "The climb was under manual control in mid March and automated by the Texas Championship. Black tread was added where cargo enters, because compression varied.",
         "basis": "team",
         "src": [
           "s8",
@@ -670,7 +689,7 @@
       "name": "Climber",
       "solves": [
         {
-          "text": "Reach the traversal rung; about seven seconds from the ground by April",
+          "text": "Reach the traversal rung; about seven seconds from the ground by the Texas Championship",
           "basis": "team",
           "src": [
             "s6"
@@ -749,10 +768,19 @@
           ]
         },
         {
-          "text": "Gearbox sits 1.25 in off the ground, level with the bumpers, for low weight and full extension",
+          "text": "Gearbox sits 1.25 in off the ground, level with the bumpers, to lower the center of gravity and gain every inch of extension",
           "basis": "team",
           "src": [
             "s8"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "In the second Texas final, a tipped partner being righted pulled out wires to its climber, and it could not climb",
+          "basis": "observer",
+          "src": [
+            "s21"
           ]
         }
       ]
@@ -845,7 +873,7 @@
     },
     {
       "choice": "L4 drive ratio",
-      "because": "an L2 tested before the season was too slow for its demands, L3 was out of stock, and the robot would be small and light enough",
+      "because": "an L2 tested before the season was not enough for its demands for a fast, maneuverable robot, L3 was out of stock, and the robot would be small and light enough",
       "instead_of": "L2 or L3",
       "basis": "team",
       "src": [
@@ -937,6 +965,25 @@
         "format": "video",
         "state": "listed",
         "src": "s6"
+      },
+      {
+        "what": "Onshape preview of the robot with layout sketches",
+        "url": "https://cad.onshape.com/documents/a347ccbaf68f245233aadb8b/w/1078dadff6a13b8f52a83991/e/24ed58654cf353cf1731c47c",
+        "img": "https://cad.onshape.com/api/thumbnails/d/a347ccbaf68f245233aadb8b/w/1078dadff6a13b8f52a83991/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s22",
+        "kind": "cad"
+      },
+      {
+        "what": "Diablo, full robot with intake out, red bumpers",
+        "url": "https://www.chiefdelphi.com/t/404621",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/d/f/df19ade217d6fb112e03759cb5149d7c74dc7413_2_690x460.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s7",
+        "kind": "robot-photo",
+        "hero": true
       }
     ],
     "documents": [

@@ -3,7 +3,7 @@
   "season": 2025,
   "team": "1771",
   "team_name": "North Gwinnett Robotics",
-  "robot_name": null,
+  "robot_name": "Driftwood",
   "variant": null,
   "sources": {
     "s1": {
@@ -34,6 +34,30 @@
       "title": "What's the best way to make a twisting wrist or arm, post 3",
       "url": "https://www.chiefdelphi.com/t/501812/3",
       "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "North Gwinnett Robotics home page (photo captions)",
+      "url": "https://team1771.com",
+      "publisher": "North Gwinnett Robotics",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/WXirrh6",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/drXHkNG",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/nLR1B0r",
+      "publisher": "The Blue Alliance / Imgur",
       "read": "2026-11-25"
     }
   },
@@ -76,7 +100,7 @@
     ],
     "fallback": [
       {
-        "text": "In that match, as captain, it trapped 3005 with flat bumper contact against the wall and later passed the job to 3478, giving up its own scoring for a while, the analyst says.",
+        "text": "In that match, as captain, it trapped 3005 with flat bumper contact against the wall and later passed the job to 3478, giving up its own scoring for a while, the analyst says; he credits the plan to backup 166.",
         "basis": "observer",
         "src": [
           "s4"
@@ -464,7 +488,7 @@
     },
     {
       "choice": "As captain, defend 3005 instead of scoring for part of a Curie playoff match",
-      "because": "it took away 3005's scoring, an analyst says",
+      "because": "it took away 3005's scoring, an analyst says; he credits the plan to the alliance's backup robot, 166",
       "basis": "observer",
       "src": [
         "s4"
@@ -474,27 +498,6 @@
   "assets": {
     "cad": [],
     "graphics": [
-      {
-        "what": "Photo listed on the team page (not opened)",
-        "url": "https://imgur.com/WXirrh6",
-        "format": "image",
-        "state": "listed",
-        "src": "s1"
-      },
-      {
-        "what": "Photo listed on the team page (not opened)",
-        "url": "https://imgur.com/drXHkNG",
-        "format": "image",
-        "state": "listed",
-        "src": "s1"
-      },
-      {
-        "what": "Photo listed on the team page (not opened)",
-        "url": "https://imgur.com/nLR1B0r",
-        "format": "image",
-        "state": "listed",
-        "src": "s1"
-      },
       {
         "what": "Behind the Bumpers interview, championship (captions read)",
         "url": "https://www.youtube.com/watch?v=2W807-oy25U",
@@ -508,9 +511,45 @@
         "format": "video",
         "state": "listed",
         "src": "s1"
+      },
+      {
+        "what": "Robot on the field, arm lowered to the intake, red bumpers",
+        "url": "https://imgur.com/WXirrh6",
+        "img": "https://i.imgur.com/WXirrh6h.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s7",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot beside a banner, red bumpers",
+        "url": "https://imgur.com/drXHkNG",
+        "img": "https://i.imgur.com/drXHkNGh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot on the field holding a coral, red bumpers",
+        "url": "https://imgur.com/nLR1B0r",
+        "img": "https://i.imgur.com/nLR1B0rh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s9",
+        "kind": "robot-photo",
+        "hero": true
       }
     ],
-    "documents": [],
+    "documents": [
+      {
+        "what": "Team home page; a photo caption names the 2025 robot Driftwood",
+        "url": "https://team1771.com",
+        "format": "web page",
+        "state": "opened",
+        "src": "s6"
+      }
+    ],
     "code": [
       {
         "what": "Team GitHub account (no season release identified)",

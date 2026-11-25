@@ -107,6 +107,18 @@
       "url": "https://www.chiefdelphi.com/t/502824/14",
       "publisher": "Chief Delphi",
       "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "Team 604, The Flush: post 17",
+      "url": "https://www.chiefdelphi.com/t/502824/17",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "Onshape document",
+      "url": "https://cad.onshape.com/documents/456258752934a9d51b4e2c35/w/fc69fa497b3a80cf764a6ecd/e/946f925a33bc7c7ba6066a21",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -202,7 +214,7 @@
         ]
       },
       {
-        "text": "Scoring does not need a visible AprilTag, so with odometry far off it can score feet away from the reef: its only two L2 to L4 misses at the last two events.",
+        "text": "Scoring does not need a visible AprilTag, so with odometry far off it can try to score feet away from the reef: its only two L2 to L4 misses at the last two events.",
         "basis": "team",
         "src": [
           "s5"
@@ -498,7 +510,7 @@
       ],
       "cost": [
         {
-          "text": "The original gripper had too little compression on algae and could not make up for a slight lack of reach, so the team always threw algae into the barge",
+          "text": "The original gripper had too little compression on algae and could not make up for a slight lack of reach, so the team always threw algae into the barge; after the grip was improved it never tried placing",
           "basis": "team",
           "src": [
             "s9"
@@ -848,8 +860,10 @@
       "because": "the ratio, motor properties and mechanism inertia give the maximum velocity and acceleration, which also start the tuning on the real robot",
       "basis": "team",
       "src": [
-        "s17"
-      ]
+        "s17",
+        "s18"
+      ],
+      "cost": "a later team post calls the current scripts pretty sloppy, with a number of oversimplifications"
     },
     {
       "choice": "Run almost all control loops on the motor controllers",
@@ -869,8 +883,8 @@
       ]
     },
     {
-      "choice": "Skip vision scoring tests in the pit",
-      "because": "system checks confirm each sensor and mechanism, and a ground algae plus processor run moves all scoring axes",
+      "choice": "Generally skip vision scoring tests in the pit",
+      "because": "system checks confirm each sensor and mechanism, and a ground algae plus processor run moves all scoring axes; when vision scoring did need a test, the team borrowed a portable reef or used a practice field",
       "basis": "team",
       "src": [
         "s7"
@@ -936,6 +950,133 @@
         "format": "video",
         "state": "listed",
         "src": "s12"
+      },
+      {
+        "what": "Full robot CAD, elevator up and arm swung forward",
+        "url": "https://cad.onshape.com/documents/456258752934a9d51b4e2c35/w/fc69fa497b3a80cf764a6ecd/e/946f925a33bc7c7ba6066a21",
+        "img": "https://cad.onshape.com/api/thumbnails/d/456258752934a9d51b4e2c35/w/fc69fa497b3a80cf764a6ecd/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s19",
+        "kind": "cad"
+      },
+      {
+        "what": "Arm tubes and large sprockets on an axle during assembly",
+        "url": "https://www.chiefdelphi.com/t/502824/20",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/5/4/9/5493c46187ab218d82d28eb155cc4861eb9b7b7b_2_375x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "mechanism"
+      },
+      {
+        "what": "Full robot CAD, elevator down, funnel behind",
+        "url": "https://www.chiefdelphi.com/t/502824",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/0/7/6/076d7aa1137bb2cede7c2ba3f82ca9cb4c3897a1_2_647x500.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad",
+        "hero": true
+      },
+      {
+        "what": "CAD with the chassis and swerve modules highlighted",
+        "url": "https://www.chiefdelphi.com/t/502824",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/1/7/2/1725959315547366a8a0fc45d0242dcd110fcc3c_2_647x500.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
+      },
+      {
+        "what": "Travel time against gear ratio, swerve drive",
+        "url": "https://www.chiefdelphi.com/t/502824",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/b/f/8/bf8f153e35ced2788e587d7e14256e8687422418_2_312x250.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "diagram"
+      },
+      {
+        "what": "CAD with the elevator highlighted",
+        "url": "https://www.chiefdelphi.com/t/502824",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/6/4/d/64d22f9bd71a4b0fa36686b9ae041fd03fca2c76_2_647x500.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
+      },
+      {
+        "what": "Travel time against gear ratio, elevator",
+        "url": "https://www.chiefdelphi.com/t/502824",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/c/f/6/cf6d47cea432af2658c153c7659155aaeae5e744_2_312x250.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "diagram"
+      },
+      {
+        "what": "CAD with the arm highlighted",
+        "url": "https://www.chiefdelphi.com/t/502824",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/1/9/d/19d32b8e81b88ee53493899df59a2b9a793b79c0_2_647x500.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
+      },
+      {
+        "what": "Travel time against gear ratio, arm",
+        "url": "https://www.chiefdelphi.com/t/502824",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/6/b/a/6bad49b97cfeaac89b644d168155187a7ba103b4_2_312x250.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "diagram"
+      },
+      {
+        "what": "CAD with the gripper highlighted",
+        "url": "https://www.chiefdelphi.com/t/502824",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/0/b/a/0ba5605a549c16a099b6ac06b91c6bce11696929_2_647x500.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
+      },
+      {
+        "what": "Open-top gripper placing a coral on a branch, close-up",
+        "url": "https://www.chiefdelphi.com/t/502824",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/a/2/5/a250879bd8242328bc3b2c58ca6fb31687184713_2_246x250.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "mechanism"
+      },
+      {
+        "what": "CAD with the funnel highlighted",
+        "url": "https://www.chiefdelphi.com/t/502824",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/0/a/c/0ac211ee4cb8c3c5bb957eca1b80a69be35be46e_2_647x500.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
+      },
+      {
+        "what": "Rear ramp and climb chain, seen from above",
+        "url": "https://www.chiefdelphi.com/t/502824",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/3/4/e/34ecffc5c7febac02d5b53d7ed0e3ae3203c6255_2_345x246.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "mechanism"
+      },
+      {
+        "what": "CAD with the climb mechanism highlighted, rear view",
+        "url": "https://www.chiefdelphi.com/t/502824",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/b/9/7/b97ca3955444a55eecdce3bd7a1adae23c3d9cb8_2_647x500.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
       }
     ],
     "documents": [],

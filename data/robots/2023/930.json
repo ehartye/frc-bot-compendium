@@ -81,7 +81,7 @@
     ],
     "cycle": [
       {
-        "text": "Arm, wrist and elevator move together to preset positions. The substation preset reaches one way and the arm also goes backwards; in teleop the team prefers to pick up in front. The drop-off preset angles the cone over the pole.",
+        "text": "Arm, intake and elevator go to preset positions. The substation preset reaches one way and the arm also goes backwards; in teleop the team prefers to pick up in front. The drop-off preset angles the cone over the pole.",
         "basis": "team",
         "src": [
           "s5"
@@ -508,6 +508,25 @@
         "format": "video",
         "state": "listed",
         "src": "s1"
+      },
+      {
+        "what": "Full robot CAD render, arm raised, blue bumpers",
+        "url": "https://www.chiefdelphi.com/t/438584",
+        "img": "https://lh4.googleusercontent.com/UpB1LYGULT5MgwTazkB7eoaX0XjjtwmFGxaD_-GLscm1Fob_D25F9QdI6NEaNV7M4-tHmRD7VfJqfDeC9rJO5fztAQosqP7kWxhzvPWT4oOv3K861hOBVrRqXV1k-dxBD72jN376LMMqL1C17n9TBcM",
+        "format": "image",
+        "state": "opened",
+        "src": "s6",
+        "kind": "cad",
+        "hero": true
+      },
+      {
+        "what": "Belt routing of the extending tubes, side view",
+        "url": "https://www.chiefdelphi.com/t/438584/3",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/a/4/a49937aa42d6b6316f7ad741311da397fb3853f2_2_136x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s7",
+        "kind": "drawing"
       }
     ],
     "documents": [

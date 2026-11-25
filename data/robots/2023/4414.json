@@ -248,7 +248,7 @@
         ]
       },
       {
-        "text": "At the championship the lead mentor called cones its weak spot. With most cubes covered, and the supply of cubes running out, its alliance sought third and fourth robots that could do cones.",
+        "text": "After the season the lead mentor called cones its weak spot. With most cubes covered, and the supply of cubes running out, its championship alliance sought third and fourth robots that could do cones.",
         "basis": "team",
         "src": [
           "s4"
@@ -420,7 +420,7 @@
           "unit": "ft/s"
         },
         {
-          "text": "The first module was a clip-on unit, made before the team knew whether it was any good or left enough motors",
+          "text": "The first module was a clip-on unit, made before the team knew whether it would be any good or whether enough motors would be left over",
           "basis": "team",
           "src": [
             "s4"
@@ -595,7 +595,7 @@
       ],
       "solves": [
         {
-          "text": "Take cones that stand up or lie tipped towards the robot, and reach feeder and scoring positions, with one arm motion",
+          "text": "Take cones that stand up or lie tipped towards the robot, and reach feeder and scoring positions",
           "basis": "team",
           "src": [
             "s3"

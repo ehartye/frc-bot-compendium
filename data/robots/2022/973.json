@@ -83,7 +83,7 @@
     ],
     "endgame": [
       {
-        "text": "Climbs to level 2 and level 3, returning with about 15 to 10 seconds left, as listed before its third regional. The driver steps through the climb states with a button.",
+        "text": "Climbs to level 2 and level 3, \"return at around 15-10 seconds\", as listed before its third regional. The driver steps through the climb states with a button.",
         "basis": "team",
         "src": [
           "s3",
@@ -406,6 +406,16 @@
         "format": "web page",
         "state": "listed",
         "src": "s4"
+      },
+      {
+        "what": "Robot on the field, roller intake in front, red bumpers",
+        "url": "https://www.greybots.com/the-robots.html",
+        "img": "https://www.greybots.com/uploads/6/3/1/1/63118437/wildfire_orig.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "robot-photo",
+        "hero": true
       }
     ],
     "documents": [

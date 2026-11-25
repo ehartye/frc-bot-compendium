@@ -95,6 +95,12 @@
       "url": "https://www.chiefdelphi.com/t/429565",
       "publisher": "Chief Delphi",
       "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/LOsi28j",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -182,7 +188,7 @@
     ],
     "gave_up": [
       {
-        "text": "L2 gearing is slower but helped keep a pretty tall robot steady; a ballast of about seven or eight pounds and a stainless belly pan were added against tipping.",
+        "text": "L2 gearing, a slower speed in the team's words, helped keep a pretty tall robot steady; a ballast of about seven or eight pounds and a stainless belly pan were added against tipping.",
         "basis": "team",
         "src": [
           "s4"
@@ -282,7 +288,7 @@
       ],
       "cost": [
         {
-          "text": "L2 is the slower gear ratio",
+          "text": "The team calls L2 a slower speed, without saying slower than what",
           "basis": "team",
           "src": [
             "s4"
@@ -590,11 +596,9 @@
             "s7",
             "s6"
           ]
-        }
-      ],
-      "cost": [
+        },
         {
-          "text": "A valve on the chassis with tubing up an arm added around a second or two to the release",
+          "text": "The team's suction work found the vent valve must sit near the cup: on an arm, a valve on the chassis with tubing up the arm added around a second or two to release",
           "basis": "team",
           "src": [
             "s6"
@@ -606,7 +610,7 @@
       "name": "Forks",
       "solves": [
         {
-          "text": "Lift and tilt the robot away from the floor under a partner",
+          "text": "Lift and tilt the robot away from the floor, with rods that fit under an alliance partner",
           "basis": "team",
           "src": [
             "s7"
@@ -806,8 +810,7 @@
     {
       "choice": "L2 swerve gearing",
       "because": "it helps keep the robot steady while it sprints across the field",
-      "instead_of": "L1 at the reveal",
-      "cost": "a slower speed",
+      "cost": "a slower speed, the team says (slower than what is not said); a team post says the robot moved from L1 to L2 after the reveal",
       "basis": "team",
       "src": [
         "s4",
@@ -850,13 +853,6 @@
       }
     ],
     "graphics": [
-      {
-        "what": "Photo listed on the team page (not opened)",
-        "url": "https://imgur.com/LOsi28j",
-        "format": "image",
-        "state": "listed",
-        "src": "s1"
-      },
       {
         "what": "Robonauts Recap, Channelview 2023 (not watched)",
         "url": "https://www.youtube.com/watch?v=IzC9Ru_KzCs",
@@ -912,6 +908,25 @@
         "format": "video",
         "state": "listed",
         "src": "s14"
+      },
+      {
+        "what": "Two robots side by side, arms folded, bumpers read Echo and Robonauts",
+        "url": "https://imgur.com/LOsi28j",
+        "img": "https://i.imgur.com/LOsi28jh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s16",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Echo, full robot without bumpers",
+        "url": "https://www.chiefdelphi.com/t/429565",
+        "img": "https://img.youtube.com/vi/f98i5S6zu9A/maxresdefault.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s15",
+        "kind": "robot-photo",
+        "hero": true
       }
     ],
     "documents": [

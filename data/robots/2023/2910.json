@@ -4,7 +4,7 @@
   "team": "2910",
   "team_name": "Jack in the Bot",
   "robot_name": "Phantom",
-  "variant": "Phantom, which the team calls its main robot; the team also named a second robot, Loki, and its posts read here do not say what Loki is. The 12-motor drive at IRI is off-season.",
+  "variant": "Phantom, the competition robot; the team built two identical robots, and Loki was the practice robot. The 12-motor drive at IRI is off-season.",
   "sources": {
     "s1": {
       "title": "Team 2910 in 2023",
@@ -407,6 +407,90 @@
       "url": "https://frcteam2910.org/2023/02/19/2023-build-season-week-7/",
       "publisher": "FRC Team 2910",
       "read": "2026-11-25"
+    },
+    "s68": {
+      "title": "2910 Robot Reveal, 2025, Spectre, post 154",
+      "url": "https://www.chiefdelphi.com/t/494648/154",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s69": {
+      "title": "Competition History",
+      "url": "https://frcteam2910.org/competition-history/",
+      "publisher": "FRC Team 2910",
+      "read": "2026-11-25"
+    },
+    "s70": {
+      "title": "2910 Robot Reveal, 2025, Spectre, post 63",
+      "url": "https://www.chiefdelphi.com/t/494648/63",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s71": {
+      "title": "2910 Robot Reveal, 2025, Spectre, post 66",
+      "url": "https://www.chiefdelphi.com/t/494648/66",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s72": {
+      "title": "2910 Robot Reveal, 2025, Spectre, post 68",
+      "url": "https://www.chiefdelphi.com/t/494648/68",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s73": {
+      "title": "2910 Robot Reveal, 2025, Spectre, post 71",
+      "url": "https://www.chiefdelphi.com/t/494648/71",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s74": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/Jum0f3Z",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s75": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/fTkuph0",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s76": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/h6VagDH",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s77": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/iqYxsvl",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s78": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/mUl5x7U",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s79": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/tNcQODZ",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s80": {
+      "title": "Onshape document",
+      "url": "https://cad.onshape.com/documents/28a885d3b8ad7de567efebbd/w/33b7dd39d54ec1ab15f2e2aa/e/3a56292a14fcabb1906c6575",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s81": {
+      "title": "Page this picture is from",
+      "url": "https://www.chiefdelphi.com/t/436653",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -507,6 +591,14 @@
         "basis": "observer",
         "src": [
           "s13"
+        ]
+      },
+      {
+        "text": "A second, identical robot, Loki, was the practice robot.",
+        "basis": "team",
+        "src": [
+          "s68",
+          "s69"
         ]
       }
     ],
@@ -683,10 +775,11 @@
       ],
       "cost": [
         {
-          "text": "The steel-cord belt of the first stage broke on occasion, once in competition; no root cause was found, and hold-position current limits were adjusted",
+          "text": "The steel-cord extension belt broke a few times in practice and in SunDome final 1; a 2023 post says no true root cause was found and hold-position current limits were adjusted, and a 2025 post concludes the belt was overloaded",
           "basis": "team",
           "src": [
-            "s32"
+            "s32",
+            "s70"
           ]
         },
         {
@@ -748,10 +841,11 @@
           ]
         },
         {
-          "text": "All belts of the extension are HTD, width",
+          "text": "Width of the extension belts (a 2023 post calls them HTD; a 2025 post names Gates GT2 5 mm with steel cord)",
           "basis": "team",
           "src": [
-            "s24"
+            "s24",
+            "s71"
           ],
           "value": 15,
           "unit": "mm"
@@ -1089,7 +1183,7 @@
           "unit": "lb"
         },
         {
-          "text": "A later talk gives about 90 lb at inspection in championship form, with 10 lb of brass at the front included",
+          "text": "A later talk gives about 90 lb at inspection in championship form, and about 95 lb off-season with extra drive motors, including 10 lb of brass at the front",
           "basis": "team",
           "src": [
             "s4"
@@ -1430,12 +1524,15 @@
       "instead_of": "two motors, which would have run fine",
       "basis": "team",
       "src": [
-        "s16"
-      ]
+        "s16",
+        "s72",
+        "s73"
+      ],
+      "cost": "a 2025 team post says the four motors gave no benefit; once the forks were dropped, removing them was not worth the time"
     },
     {
       "choice": "No counterbalance on the pivot",
-      "because": "with four motors it was not needed and would only add complexity",
+      "because": "the team does not think it was ever discussed: with four motors committed early it was not really necessary and would only have added complexity",
       "basis": "team",
       "src": [
         "s30"
@@ -1535,48 +1632,6 @@
       },
       {
         "what": "Photo listed on the team page (not opened)",
-        "url": "https://imgur.com/Jum0f3Z",
-        "format": "image",
-        "state": "listed",
-        "src": "s1"
-      },
-      {
-        "what": "Photo listed on the team page (not opened)",
-        "url": "https://imgur.com/fTkuph0",
-        "format": "image",
-        "state": "listed",
-        "src": "s1"
-      },
-      {
-        "what": "Photo listed on the team page (not opened)",
-        "url": "https://imgur.com/h6VagDH",
-        "format": "image",
-        "state": "listed",
-        "src": "s1"
-      },
-      {
-        "what": "Photo listed on the team page (not opened)",
-        "url": "https://imgur.com/iqYxsvl",
-        "format": "image",
-        "state": "listed",
-        "src": "s1"
-      },
-      {
-        "what": "Photo listed on the team page (not opened)",
-        "url": "https://imgur.com/mUl5x7U",
-        "format": "image",
-        "state": "listed",
-        "src": "s1"
-      },
-      {
-        "what": "Photo listed on the team page (not opened)",
-        "url": "https://imgur.com/tNcQODZ",
-        "format": "image",
-        "state": "listed",
-        "src": "s1"
-      },
-      {
-        "what": "Photo listed on the team page (not opened)",
         "url": "https://imgur.com/zwofaNr",
         "format": "image",
         "state": "listed",
@@ -1658,6 +1713,88 @@
         "format": "video",
         "state": "listed",
         "src": "s65"
+      },
+      {
+        "what": "Robot in the air above the charge station, holding a cube",
+        "url": "https://imgur.com/Jum0f3Z",
+        "img": "https://i.imgur.com/Jum0f3Zh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s74",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Stowed robot on its cart, blue bumpers, seen from above",
+        "url": "https://imgur.com/fTkuph0",
+        "img": "https://i.imgur.com/fTkuph0h.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s75",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Stowed robot on its cart, red bumpers, seen from behind",
+        "url": "https://imgur.com/h6VagDH",
+        "img": "https://i.imgur.com/h6VagDHh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s76",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Stowed robot on the field with a cone in its rollers",
+        "url": "https://imgur.com/iqYxsvl",
+        "img": "https://i.imgur.com/iqYxsvlh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s77",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Robot with a cone driving off the charge station",
+        "url": "https://imgur.com/mUl5x7U",
+        "img": "https://i.imgur.com/mUl5x7Uh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s78",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Robot with its arm raised, red bumpers",
+        "url": "https://imgur.com/tNcQODZ",
+        "img": "https://i.imgur.com/tNcQODZh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s79",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot CAD, stowed, seen from behind",
+        "url": "https://cad.onshape.com/documents/28a885d3b8ad7de567efebbd/w/33b7dd39d54ec1ab15f2e2aa/e/3a56292a14fcabb1906c6575",
+        "img": "https://cad.onshape.com/api/thumbnails/d/28a885d3b8ad7de567efebbd/w/33b7dd39d54ec1ab15f2e2aa/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s80",
+        "kind": "cad"
+      },
+      {
+        "what": "Full robot CAD, stowed, gripper rollers in front",
+        "url": "https://www.chiefdelphi.com/t/436653",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/d/2/d2673b90d604b043355a34663d1635c3ef358b04_2_690x381.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s81",
+        "kind": "cad"
+      },
+      {
+        "what": "Robot on the field holding a cube",
+        "url": "https://www.chiefdelphi.com/t/443663",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/1/0/102b81b82a197b7d79e6b1c1b39af721753220ee_2_690x460.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s66",
+        "kind": "robot-photo"
       }
     ],
     "documents": [

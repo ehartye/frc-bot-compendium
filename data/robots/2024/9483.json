@@ -2,9 +2,9 @@
   "id": "2024-9483",
   "season": 2024,
   "team": "9483",
-  "team_name": "Overcharge",
+  "team_name": "İstanbul Wildcats",
   "robot_name": "Snapfire",
-  "variant": "Competed in 2024 as İstanbul Wildcats (formerly Beşiktaş Rsports); Overcharge is a later team name",
+  "variant": "Competed in 2024 as İstanbul Wildcats (formerly Beşiktaş Rsports); the team is now listed as Overcharge",
   "sources": {
     "s1": {
       "title": "Team 9483 in 2024",
@@ -83,6 +83,12 @@
       "url": "https://www.frc9483.com/robots.html",
       "publisher": "Team 9483",
       "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "Team 9483 presents Snapfire, post 12",
+      "url": "https://www.chiefdelphi.com/t/457771/12",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -104,14 +110,14 @@
         ]
       },
       {
-        "text": "Replies to a February video, before the robot's reveal, call it a seven-note auto.",
+        "text": "A reply to a February video, before the robot's reveal, compares it with the replier's own seven-note auto.",
         "basis": "observer",
         "src": [
           "s4"
         ]
       },
       {
-        "text": "The team says it ran slightly out of time for an eighth note, and doubted such autos would be part of higher-level play.",
+        "text": "The team says it ran slightly out of time for an eighth note, and was unsure an eighth was worth it, since such autos would not be part of higher-level play.",
         "basis": "team",
         "src": [
           "s5"
@@ -315,6 +321,13 @@
           "src": [
             "s6"
           ]
+        },
+        {
+          "text": "A forum poster says the team proved amp scoring from the intake could be done consistently; the team still calls it its weakest link",
+          "basis": "observer",
+          "src": [
+            "s14"
+          ]
         }
       ],
       "cost": [
@@ -517,6 +530,16 @@
         "format": "video",
         "state": "listed",
         "src": "s12"
+      },
+      {
+        "what": "Full robot, shooter rollers and intake, black bumpers",
+        "url": "https://www.frc9483.com/robots.html",
+        "img": "https://www.frc9483.com/img/snapfire.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s13",
+        "kind": "robot-photo",
+        "hero": true
       }
     ],
     "documents": [

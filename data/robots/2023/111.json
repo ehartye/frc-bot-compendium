@@ -36,12 +36,6 @@
       "publisher": "Chief Delphi",
       "read": "2026-11-25"
     },
-    "s6": {
-      "title": "WildStang Robotics Program: Team 111 and 112 Build Blog 2023, post 76",
-      "url": "https://www.chiefdelphi.com/t/420243/76",
-      "publisher": "Chief Delphi",
-      "read": "2026-11-25"
-    },
     "s7": {
       "title": "WildStang Robotics Program: Team 111 and 112 Build Blog 2023, post 80",
       "url": "https://www.chiefdelphi.com/t/420243/80",
@@ -275,6 +269,18 @@
       "url": "https://www.chiefdelphi.com/t/444588/14",
       "publisher": "Chief Delphi",
       "read": "2026-11-25"
+    },
+    "s46": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/KRZKAyh",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s47": {
+      "title": "Onshape document",
+      "url": "https://cad.onshape.com/documents/5ae68917e8b44208b1678234/w/287d82b951af3794d3b1c016",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -327,6 +333,13 @@
         "src": [
           "s34"
         ]
+      },
+      {
+        "text": "Before the championship, generating paths at the start cost about 0.8 s.",
+        "basis": "team",
+        "src": [
+          "s38"
+        ]
       }
     ],
     "cycle": [
@@ -354,7 +367,7 @@
         ]
       },
       {
-        "text": "A fan's table gives 8.3 teleop pieces per championship qualification match.",
+        "text": "A forum table gives 8.3 teleop pieces per championship qualification match.",
         "basis": "observer",
         "src": [
           "s44"
@@ -379,7 +392,7 @@
     ],
     "fallback": [
       {
-        "text": "The driver's stick shifts the automatic alignment for pieces held off center, and an override turns automatic driving off.",
+        "text": "The driver's stick shifts the automatic alignment to correct slight misalignment, and an override turns automatic driving off.",
         "basis": "team",
         "src": [
           "s23",
@@ -403,7 +416,7 @@
         ]
       },
       {
-        "text": "The open-top lift is loose at the top; fast strafing with the arm out could pop the carriage out of the lift.",
+        "text": "The open-top lift is loose at the top; before the sliders, fast strafing with the arm out could pop the carriage out of the lift.",
         "basis": "team",
         "src": [
           "s20",
@@ -478,7 +491,7 @@
           ]
         },
         {
-          "text": "Module issues were mostly motor keys; all drive motors were replaced before the championship",
+          "text": "Module issues were mostly motor keys and nothing show-stopping; all drive motors were replaced before the championship",
           "basis": "team",
           "src": [
             "s37",
@@ -639,7 +652,7 @@
       ],
       "solves": [
         {
-          "text": "Reach every node and pickup on both sides",
+          "text": "Reach every node, with pickups from the front and the back",
           "basis": "team",
           "src": [
             "s5",
@@ -656,7 +669,7 @@
           ]
         },
         {
-          "text": "Hex inserts and the planetary output rounded out, adding backlash the arm is sensitive to",
+          "text": "Hex inserts and the planetary output looked to be starting to round out, adding backlash the arm is sensitive to",
           "basis": "team",
           "src": [
             "s33",
@@ -675,11 +688,11 @@
       ],
       "facts": [
         {
-          "text": "Carbon fiber tube with printed Onyx end caps and joints",
+          "text": "Carbon fiber tube with 3D printed end caps and Onyx joints",
           "basis": "team",
           "src": [
-            "s6",
-            "s21"
+            "s21",
+            "s22"
           ]
         },
         {
@@ -691,7 +704,7 @@
           ]
         },
         {
-          "text": "A destructive test took four to five overhead swings into concrete to break the end caps",
+          "text": "A destructive test of an earlier epoxied arm took four to five overhead swings into concrete to break the end caps",
           "basis": "team",
           "src": [
             "s8"
@@ -801,6 +814,13 @@
           "src": [
             "s36"
           ]
+        },
+        {
+          "text": "At Midwest a pickup on the side away from the driver was difficult to judge",
+          "basis": "team",
+          "src": [
+            "s28"
+          ]
         }
       ],
       "does": [
@@ -893,7 +913,7 @@
       ],
       "facts": [
         {
-          "text": "Motions fall into types where arm, lift or wrist waits for another",
+          "text": "Motions fall into four types; in three of them arm, lift or wrist waits for another or is moved aside",
           "basis": "team",
           "src": [
             "s11"
@@ -911,6 +931,13 @@
           "basis": "team",
           "src": [
             "s40"
+          ]
+        },
+        {
+          "text": "At the double substation the lift is partly extended, so it can collapse as a crumple zone",
+          "basis": "team",
+          "src": [
+            "s36"
           ]
         }
       ]
@@ -1017,7 +1044,7 @@
       "choice": "Full frame, no cutouts",
       "because": "it maximizes electrical space and leaves the end effector free to change over the season",
       "instead_of": "bumper cutouts that align the frame to the grid",
-      "cost": "software alignment is needed, the robot sticks out further into the scoring lane, and its two-stage lift may raise the center of gravity",
+      "cost": "software alignment is needed, and the robot sticks out further into the scoring lane",
       "basis": "team",
       "src": [
         "s5"
@@ -1101,13 +1128,6 @@
     ],
     "graphics": [
       {
-        "what": "Photo listed on the team page (not opened)",
-        "url": "https://imgur.com/KRZKAyh",
-        "format": "image",
-        "state": "listed",
-        "src": "s1"
-      },
-      {
         "what": "Behind the Bumpers interview (transcript read, not watched)",
         "url": "https://www.youtube.com/watch?v=iKxRiTgii4k",
         "format": "video",
@@ -1127,6 +1147,25 @@
         "format": "video",
         "state": "listed",
         "src": "s36"
+      },
+      {
+        "what": "Full robot on white, arm raised, blue bumpers",
+        "url": "https://imgur.com/KRZKAyh",
+        "img": "https://i.imgur.com/KRZKAyhh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s46",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Full robot CAD, arm raised, red bumpers",
+        "url": "https://cad.onshape.com/documents/5ae68917e8b44208b1678234/w/287d82b951af3794d3b1c016",
+        "img": "https://cad.onshape.com/api/thumbnails/d/5ae68917e8b44208b1678234/w/287d82b951af3794d3b1c016/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s47",
+        "kind": "cad"
       }
     ],
     "documents": [

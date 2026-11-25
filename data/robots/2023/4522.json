@@ -3,7 +3,7 @@
   "season": 2023,
   "team": "4522",
   "team_name": "Team SCREAM",
-  "robot_name": null,
+  "robot_name": "Grip Reaper",
   "variant": null,
   "sources": {
     "s1": {
@@ -253,7 +253,7 @@
         "src": "s1"
       },
       {
-        "what": "2023 competition code; README read at one commit",
+        "what": "2023 competition code, described as the code for the 2023 robot Grip Reaper; README read at one commit",
         "url": "https://github.com/TeamSCREAMRobotics/4522_2023Competition",
         "format": "GitHub",
         "state": "listed",

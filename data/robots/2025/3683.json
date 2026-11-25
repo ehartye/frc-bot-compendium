@@ -83,6 +83,12 @@
       "url": "https://github.com/FRC3683/Dave2025Public",
       "publisher": "Team 3683 on GitHub",
       "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "Page this picture is from",
+      "url": "https://teamdave.ca/2025/03/14/2025-niagara-college-event/",
+      "publisher": "teamdave.ca",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -97,14 +103,14 @@
     ],
     "auto": [
       {
-        "text": "Four coral from the station: the far back of the reef first, two on the direct line from the source, then the back again. The order cuts driving time, and the back keeps clear of partners who score on the front.",
+        "text": "Four coral from the station: the far back of the reef first, two on the direct line from the source, then the back again. The order cuts driving time, and the back keeps clear of other teams that score on the front.",
         "basis": "team",
         "src": [
           "s6"
         ]
       },
       {
-        "text": "It dropped PathPlanner for a method seen on 2056.",
+        "text": "It dropped PathPlanner for a method it saw OP Robotics use the year before.",
         "basis": "team",
         "src": [
           "s6"
@@ -120,7 +126,7 @@
         ]
       },
       {
-        "text": "An analyst shows it scoring the algae in the net, then turning to place the coral on L4 seconds later, in two 249 point matches at Waterloo.",
+        "text": "An analyst of two 249 point Waterloo matches shows it scoring the algae in the net, then turning to place the coral seconds later, on L4 in one, and also notes a dropped algae and a missed coral.",
         "basis": "observer",
         "src": [
           "s9"
@@ -129,7 +135,7 @@
     ],
     "endgame": [
       {
-        "text": "No climb at the first event. A deep cage climb was added by the Ontario championship, where it helped secure the barge ranking point in five of six matches on the first day.",
+        "text": "The reveal thread said there would be no climb at the first event. A deep cage climb was added by the Ontario championship, where it helped secure the barge ranking point in five of six matches on the first day.",
         "basis": "team",
         "src": [
           "s4",
@@ -164,7 +170,7 @@
         ]
       },
       {
-        "text": "The donut climb planned at first did not work, so it started the season without one.",
+        "text": "The first donut climb did not work, and the team said it would start the season without a climb.",
         "basis": "team",
         "src": [
           "s4"
@@ -318,7 +324,7 @@
           ]
         },
         {
-          "text": "It is attached to the elevator uprights by a servo linkage and can drop at the end to let the cage in",
+          "text": "At the reveal: it is attached to the elevator uprights by a servo linkage and can drop at the end to let the cage in",
           "basis": "team",
           "src": [
             "s4"
@@ -430,7 +436,7 @@
           ]
         },
         {
-          "text": "One Kraken X44 drives the coral rollers and the algae roller through printed bevel gears",
+          "text": "One Kraken X44 drives the belted coral rollers and the algae roller; 3D printed bevel gears carry the rotation from the roller to the other wheels",
           "basis": "team",
           "src": [
             "s6"
@@ -501,7 +507,7 @@
       ],
       "solves": [
         {
-          "text": "Score four coral without meeting partners at the front of the reef",
+          "text": "Score four coral without meeting other teams at the front of the reef",
           "basis": "team",
           "src": [
             "s6"
@@ -536,7 +542,7 @@
   "decisions": [
     {
       "choice": "Score auto coral on the back of the reef",
-      "because": "partners such as 2056 score on the front and two robots do not fit there",
+      "because": "teams such as 2056 have four-piece autos that score on the front, and two robots do not fit there",
       "basis": "team",
       "src": [
         "s6"
@@ -561,7 +567,7 @@
     },
     {
       "choice": "Drop PathPlanner",
-      "because": "the method seen on 2056 worked well there",
+      "because": "it saw the method work well for OP Robotics the year before",
       "instead_of": "PathPlanner, used the year before",
       "basis": "team",
       "src": [
@@ -599,6 +605,43 @@
         "format": "video",
         "state": "listed",
         "src": "s9"
+      },
+      {
+        "what": "Robot at the reef from the side, red bumpers",
+        "url": "https://teamdave.ca/2025/03/14/2025-niagara-college-event/",
+        "img": "https://teamdave.ca/wp-content/uploads/2025/03/suzuki-l1-lets-go-2025.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s14",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Gripper holding a coral, close-up, red bumpers",
+        "url": "https://teamdave.ca/2025/04/22/2025-ontario-provincial-championship/",
+        "img": "https://lh3.googleusercontent.com/pw/AP1GczP3h2UW8J_Nv0br2FceL2tmkw7f3ytzmR12P8GfsItQaVMy3UifF4IntjOE7TzpzOAfCu0dNMjr4auswTmO8QMLp_dukLQIPo2V05lEAYGRySmohgHY-Xtj1AgQYlQqsAD__WGXyeYxyedTUKpvQZdH=w1418-h945-s-no-gm?authuser=0",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "mechanism"
+      },
+      {
+        "what": "Full robot on the field holding a coral, red bumpers",
+        "url": "https://teamdave.ca/first/2025-reefscape/2025-robot-suzuki/",
+        "img": "https://teamdave.ca/wp-content/uploads/2025/03/IMG_2037.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s7",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Suzuki on a practice field, dark reveal title card",
+        "url": "https://www.chiefdelphi.com/t/493251",
+        "img": "https://img.youtube.com/vi/g7N1Je1avWc/maxresdefault.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s2",
+        "kind": "robot-photo"
       }
     ],
     "documents": [],

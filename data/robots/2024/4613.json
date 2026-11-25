@@ -107,6 +107,12 @@
       "url": "https://github.com/Team4613-BarkerRedbacks/Crescendo2024-Public",
       "publisher": "GitHub",
       "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/vp9KVxO",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -435,13 +441,6 @@
     "cad": [],
     "graphics": [
       {
-        "what": "Photo listed on the team page (not opened)",
-        "url": "https://imgur.com/vp9KVxO",
-        "format": "image",
-        "state": "listed",
-        "src": "s1"
-      },
-      {
         "what": "Reveal video, February 2024 (not watched; two posts say the championship robot differs)",
         "url": "https://www.youtube.com/watch?v=AaAfX_DwbJ0",
         "format": "video",
@@ -468,6 +467,16 @@
         "format": "thread",
         "state": "listed",
         "src": "s8"
+      },
+      {
+        "what": "Full robot, shooter rollers and raised hook, red bumpers",
+        "url": "https://imgur.com/vp9KVxO",
+        "img": "https://i.imgur.com/vp9KVxOh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s18",
+        "kind": "robot-photo",
+        "hero": true
       }
     ],
     "documents": [],

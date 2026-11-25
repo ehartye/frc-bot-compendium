@@ -209,12 +209,24 @@
       "url": "https://www.chiefdelphi.com/t/501460",
       "publisher": "Chief Delphi",
       "read": "2026-11-25"
+    },
+    "s35": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/yfEWDaU",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s36": {
+      "title": "Onshape document",
+      "url": "https://cad.onshape.com/documents/07beed2a16f5d7898cc42c9c/w/a74e4d796ba952dabae8ff7e/e/42c6b0e68334934d197bf369?renderMode=0&uiState=681d78400ee2693e5d5605f0",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
     }
   },
   "story": {
     "bet": [
       {
-        "text": "A wide ground intake: match simulations right after kickoff showed defense would hurt a robot with only a source pickup, and a human player can launch coral towards the reef.",
+        "text": "A ground intake: match simulations right after kickoff showed defense would hurt a robot with only a source pickup, and a human player can launch coral towards the reef.",
         "basis": "team",
         "src": [
           "s4"
@@ -571,7 +583,7 @@
           "unit": ":1"
         },
         {
-          "text": "Range limits are given differently: 700 degrees in March, 580 in the release thread, to protect the power wires",
+          "text": "Range limits are given differently: 700 degrees in March, for safety; 580 in the release thread, short of where the power wires would break",
           "basis": "team",
           "src": [
             "s27",
@@ -784,13 +796,6 @@
     ],
     "graphics": [
       {
-        "what": "Photo listed on the team page (not opened)",
-        "url": "https://imgur.com/yfEWDaU",
-        "format": "image",
-        "state": "listed",
-        "src": "s1"
-      },
-      {
         "what": "Reveal thread, read in full (images not read)",
         "url": "https://www.chiefdelphi.com/t/493591",
         "format": "thread",
@@ -831,6 +836,43 @@
         "format": "video",
         "state": "listed",
         "src": "s16"
+      },
+      {
+        "what": "Full robot on its cart, roller intake raised, blue bumpers",
+        "url": "https://imgur.com/yfEWDaU",
+        "img": "https://i.imgur.com/yfEWDaUh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s35",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Full robot CAD, intake lowered over the bumper",
+        "url": "https://cad.onshape.com/documents/07beed2a16f5d7898cc42c9c/w/a74e4d796ba952dabae8ff7e/e/42c6b0e68334934d197bf369?renderMode=0&uiState=681d78400ee2693e5d5605f0",
+        "img": "https://cad.onshape.com/api/thumbnails/d/07beed2a16f5d7898cc42c9c/w/a74e4d796ba952dabae8ff7e/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s36",
+        "kind": "cad"
+      },
+      {
+        "what": "CAD of the ground intake rollers and belts, close-up",
+        "url": "https://www.chiefdelphi.com/t/493591/10",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/6/f/6f87931f3bbe47d638470778f8bb44f5a0ccd79f_2_517x326.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s21",
+        "kind": "cad"
+      },
+      {
+        "what": "Full robot CAD, intake folded up",
+        "url": "https://www.chiefdelphi.com/t/501460",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/5/7/e/57eb6549b6237a8ca0164cc2a65ee9f75592c653_2_485x375.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s34",
+        "kind": "cad"
       }
     ],
     "documents": [],

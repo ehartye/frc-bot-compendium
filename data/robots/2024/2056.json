@@ -121,8 +121,8 @@
       "read": "2026-11-25"
     },
     "s20": {
-      "title": "FRC Design in the Modern Era (2024)",
-      "url": "https://2056.ca/wp-content/uploads/2025/07/FRC-Design-in-the-Modern-Era-2024-Tyler-Holtzman-2056.pdf",
+      "title": "FRC Design in the Modern Era (2024), slides linked from the team's conference page",
+      "url": "https://2056.ca/conference/",
       "publisher": "Team 2056",
       "read": "2026-11-25"
     },
@@ -198,11 +198,12 @@
     ],
     "endgame": [
       {
-        "text": "Drive into the chain late with hooks up; when power is lost at the buzzer the cylinders retract and lift the robot. The center hook lets it hang with a partner, and the team says late climbs earned a few ranking points.",
+        "text": "Drive into the chain late with hooks up, lining up about five seconds before the end with a partner; when power is lost at the buzzer the cylinders retract and lift the robot. The center hook lets it hang with a partner, and the team says late climbs earned a few ranking points.",
         "basis": "team",
         "src": [
           "s3",
-          "s6"
+          "s6",
+          "s19"
         ]
       }
     ],
@@ -227,7 +228,7 @@
         ]
       },
       {
-        "text": "On Einstein, a fan says, a partner had trouble with shuttled notes and an opponent stole them. Another wonders whether it should have cycled rather than passed.",
+        "text": "On Einstein, a post says, both losses were close, a partner had trouble with shuttled notes and an opponent stole them. Another wonders whether it should have cycled rather than passed.",
         "basis": "observer",
         "src": [
           "s23",
@@ -846,7 +847,7 @@
           ]
         },
         {
-          "text": "Holding the amp or pass button turns the chassis to a set heading, nearly every time",
+          "text": "Holding the amp or pass button turns the chassis to a set heading; it is used nearly every time the robot amps or passes",
           "basis": "team",
           "src": [
             "s6"
@@ -1076,6 +1077,34 @@
         "format": "video",
         "state": "listed",
         "src": "s19"
+      },
+      {
+        "what": "Low-Key on the binder title page, dark studio lighting",
+        "url": "https://www.chiefdelphi.com/t/465867",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/c/3/c31f507058cf0341c7f3ba3bf7491cbd81f46862_2_289x375.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "CAD of a spur gear bolted to a hex hub, front",
+        "url": "https://www.chiefdelphi.com/t/465867/21",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/4/b/4b6cdf50b813aaa07f4eeec0e0e0adca442a9761_2_288x250.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s5",
+        "kind": "cad"
+      },
+      {
+        "what": "CAD of a spur gear with a hex hub, back",
+        "url": "https://www.chiefdelphi.com/t/465867/21",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/f/d/fde2a8fc004309d00cd3027d0ea66297757a4ca8_2_272x250.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s5",
+        "kind": "cad"
       }
     ],
     "documents": [
@@ -1087,8 +1116,8 @@
         "src": "s3"
       },
       {
-        "what": "FRC Design in the Modern Era, slides with the 2024 robot as a case (text read)",
-        "url": "https://2056.ca/wp-content/uploads/2025/07/FRC-Design-in-the-Modern-Era-2024-Tyler-Holtzman-2056.pdf",
+        "what": "FRC Design in the Modern Era, slides with the 2024 robot as a case, linked from the team's conference page (text read)",
+        "url": "https://2056.ca/conference/",
         "format": "PDF",
         "state": "opened",
         "src": "s20"
