@@ -1,0 +1,763 @@
+{
+  "id": "2023-2767",
+  "season": 2023,
+  "team": "2767",
+  "team_name": "Stryke Force",
+  "robot_name": "Snake Eyes",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 2767 in 2023",
+      "url": "https://www.thebluealliance.com/team/2767/2023",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Daly Division 2023",
+      "url": "https://www.thebluealliance.com/event/2023dal",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "2767 Stryke Force CAD/Code Release 2023",
+      "url": "https://www.chiefdelphi.com/t/2767-stryke-force-cad-code-release-2023/437202",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Stryke Force 2767 - Robot Reveal 2023",
+      "url": "https://www.chiefdelphi.com/t/stryke-force-2767-robot-reveal-2023/429639",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "2767 strykeforce/chargedup",
+      "url": "https://github.com/strykeforce/chargedup",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Stryke Force SmugMug",
+      "url": "https://strykeforce.smugmug.com",
+      "publisher": "strykeforce.smugmug.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "2767 Off- Season CAD Release",
+      "url": "https://www.chiefdelphi.com/t/2767-off-season-cad-release/447459",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "2023 World Championship Recap!",
+      "url": "https://www.strykeforce.org/blog/2023/2023-world-championship-recap/",
+      "publisher": "strykeforce.org",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Onshape document",
+      "url": "https://cad.onshape.com/documents/04a54b2035c31e128e1dfced/w/505caf917c2302fdb0b5bdd9/e/4c7eedc3e2c9f9a4836827bf?renderMode=0&uiState=646420daf044046083189339",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Behind the Bumpers | 2767 Stryke Force | Charged Up Robot Overview",
+      "url": "https://www.youtube.com/watch?v=ngHZf3pnI14",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "2024 Configurable Chassis (Onshape)",
+      "url": "https://cad.onshape.com/documents/9cbbec3ed4ea54a2991dedd8/w/2c2c5adc550cdfcd56da52e1/e/b995f39625c9f74bc911bc69",
+      "publisher": "Team 2767 / Onshape",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "A very reliable robot that scores at a high pace, on an elevator because the team already knew how to build one.",
+        "basis": "team",
+        "src": [
+          "s11"
+        ]
+      }
+    ],
+    "demand": [],
+    "auto": [
+      {
+        "text": "At the St. Joseph event the main routine scored a cone, then a cube, then tried to balance. Balancing worked in the shop but less well at the event, and an auto-level using the gyro was in work.",
+        "basis": "team",
+        "src": [
+          "s11"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "Cubes go through a wide intake to the end effector. At the substation sensors see the cone and the claw closes by itself.",
+        "basis": "team",
+        "src": [
+          "s11"
+        ]
+      },
+      {
+        "text": "Code places pieces automatically using AprilTags.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "An unsigned reply that reads as the team's says the driver drives and the drive team starts each sequence.",
+        "basis": "observer",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "endgame": [],
+    "fallback": [
+      {
+        "text": "An unsigned reply that reads as the team's says manual controls are there if a sequence fails.",
+        "basis": "observer",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "The team knew a tall robot over the charge station could be a problem and answered with carbon fiber and lighter parts.",
+        "basis": "team",
+        "src": [
+          "s11"
+        ]
+      },
+      {
+        "text": "An unsigned reply that reads as the team's says a 20 lb plate was added under the belly pan for stability.",
+        "basis": "observer",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "By the St. Joseph event, belts had replaced elbow gears whose teeth kept breaking, and wheels had replaced claw forks.",
+        "basis": "team",
+        "src": [
+          "s11"
+        ]
+      },
+      {
+        "text": "Unsigned replies that read as the team's call the interview video out of date and list changes from there to worlds: a larger curved rack, sturdier elbow gearboxes, a camera on the elevator for tags in auto, and larger bevel gears in the claw.",
+        "basis": "observer",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "52-14-0 in official play; ranked 15 of the pooled top 20 (OPR 71.39, Daly).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Swerve",
+      "solves": [
+        {
+          "text": "Absorb hard impacts, as when going on and off the charge station",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "drive"
+      ],
+      "type": "custom swerve, mostly printed Onyx",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Mostly printed Onyx",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Lighter than the team's earlier modules",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "No suspension in the module; the aluminium frame it bolts to takes hard impacts",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Frame",
+      "does": [
+        "structure"
+      ],
+      "type": "chromoly steel frame",
+      "serves": [],
+      "facts": [
+        {
+          "text": "The CAD release lists a chromoly steel frame; the earlier interview speaks of an aluminium frame under the swerve modules",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s11"
+          ]
+        },
+        {
+          "text": "The team says the chassis it made parametric for 2024 is unchanged from the one it ran in 2023",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cube intake",
+      "pieces": [
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Pick up soft cubes across a wide area",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "wide deployed intake with belts, cubes only",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Belts run over printed pieces on an aluminium bar",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "A bag motor deploys it and a Falcon drives the belts",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Space was left for a cube to leave the robot instead of getting trapped",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "End effector",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Hold a cone so it does not fall out",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "retain",
+        "deliver"
+      ],
+      "type": "claw with powered wheels",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Wheels can keep rotating inward to hold the piece",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Sensors see a cone at the substation and close the claw automatically",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "The team experimented with printed bevel gears in it",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elevator",
+      "solves": [
+        {
+          "text": "Score reliably at a high pace with a design the team was comfortable building",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "carbon fiber single-stage elevator",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "A printed Onyx gearbox on the carriage moves the arm",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "A tall robot over the charge station may be a problem",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sector gear",
+      "solves": [
+        {
+          "text": "Bring the piece closer to the second and third levels without relying only on the arm",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "printed sector gears that pivot the elevator",
+      "serves": [
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Printed Onyx laid with Kevlar and carbon fiber",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Clamped and glued onto carbon fiber",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elbow",
+      "solves": [
+        {
+          "text": "Carry the end effector with more grip area than gears gave",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "belt-driven arm joint",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Timing belts on both sides, on one Falcon",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Carbon fiber shaft",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Unsigned replies that read as the team's: the interview video is out of date, and the elbow gearboxes had lots of little durability changes by worlds",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Earlier gear teeth kept breaking under the end effector's weight",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Auto place",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "AprilTag detection with PhotonVision",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Automatic placing from AprilTags",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "State machines for the robot and the arm",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health check",
+      "solves": [
+        {
+          "text": "An unsigned reply that reads as the team's says the goal is to find failures before they affect matches",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "automated axis test",
+      "serves": [],
+      "facts": [
+        {
+          "text": "The release lists an automated health check",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "An unsigned reply that reads as the team's says it runs each axis open loop, records current and velocity and allows comparison with history",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Elevator",
+      "because": "the team had built elevators, including carbon fiber ones, and wanted reliability",
+      "cost": "a tall robot over the charge station may be a problem",
+      "basis": "team",
+      "src": [
+        "s11"
+      ]
+    },
+    {
+      "choice": "Wide intake for cubes",
+      "because": "cubes are soft like the balls its wide intakes handled in 2020 and 2022",
+      "basis": "team",
+      "src": [
+        "s11"
+      ]
+    },
+    {
+      "choice": "Wheels in the end effector",
+      "because": "they keep turning inward, while a claw that stops lets cones fall out",
+      "instead_of": "polycarbonate forks",
+      "basis": "team",
+      "src": [
+        "s11"
+      ]
+    },
+    {
+      "choice": "Timing belts at the elbow",
+      "because": "they give more surface area of grip",
+      "instead_of": "gears, whose teeth kept breaking",
+      "basis": "team",
+      "src": [
+        "s11"
+      ]
+    },
+    {
+      "choice": "Bag motor to deploy the intake",
+      "because": "high speed was not wanted there",
+      "basis": "team",
+      "src": [
+        "s11"
+      ]
+    },
+    {
+      "choice": "Elevator stage on the arm",
+      "because": "an unsigned reply that reads as the team's says it kept the tilt of the first axis small and shortened the second",
+      "basis": "observer",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Move CAD to Onshape",
+      "because": "the team wanted its CAD more accessible; an unsigned reply that reads as the team's says several people could work on one subsystem and students started in minutes",
+      "cost": "the master sketch was not kept up to date, which caused problems while prototyping",
+      "basis": "observer",
+      "src": [
+        "s4"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "Comp Robot",
+        "url": "https://cad.onshape.com/documents/04a54b2035c31e128e1dfced/w/505caf917c2302fdb0b5bdd9/e/4c7eedc3e2c9f9a4836827bf?renderMode=0&uiState=646420daf044046083189339",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "CAD listed on the team page",
+        "url": "https://cad.onshape.com/documents/04a54b2035c31e128e1dfced/w/505caf917c2302fdb0b5bdd9",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "2767 Stryke Force CAD/Code Release 2023",
+        "url": "https://www.chiefdelphi.com/t/2767-stryke-force-cad-code-release-2023/437202",
+        "format": "thread",
+        "state": "listed",
+        "src": "s4",
+        "holds": "Onshape"
+      },
+      {
+        "what": "2767 off-season CAD release, January 2024 (mostly 2024 preparation)",
+        "url": "https://www.chiefdelphi.com/t/2767-off-season-cad-release/447459",
+        "format": "thread",
+        "state": "listed",
+        "src": "s8",
+        "holds": "Onshape"
+      },
+      {
+        "what": "Configurable chassis, 2023 off-season release (team says unchanged from the 2023 chassis)",
+        "url": "https://cad.onshape.com/documents/9cbbec3ed4ea54a2991dedd8/w/2c2c5adc550cdfcd56da52e1/e/b995f39625c9f74bc911bc69",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s12"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=ngHZf3pnI14",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/IYVrB37",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Stryke Force 2767 - Robot Reveal 2023",
+        "url": "https://www.chiefdelphi.com/t/stryke-force-2767-robot-reveal-2023/429639",
+        "format": "thread",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "Stryke Force SmugMug",
+        "url": "https://strykeforce.smugmug.com",
+        "format": "web page",
+        "state": "listed",
+        "src": "s7"
+      },
+      {
+        "what": "2023 World Championship Recap!",
+        "url": "https://www.strykeforce.org/blog/2023/2023-world-championship-recap/",
+        "format": "web page",
+        "state": "opened",
+        "src": "s9"
+      },
+      {
+        "what": "Full robot CAD view, arm raised",
+        "url": "https://cad.onshape.com/documents/04a54b2035c31e128e1dfced/w/505caf917c2302fdb0b5bdd9/e/4c7eedc3e2c9f9a4836827bf?renderMode=0&uiState=646420daf044046083189339",
+        "img": "https://cad.onshape.com/api/thumbnails/d/04a54b2035c31e128e1dfced/w/505caf917c2302fdb0b5bdd9/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s10",
+        "kind": "cad",
+        "hero": true
+      },
+      {
+        "what": "CAD of motors and frame around the arm base",
+        "url": "https://www.chiefdelphi.com/t/2767-stryke-force-cad-code-release-2023/437202",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/b/a/ba615cd9484f08616ecd5928ac5ced1524611a00_2_690x427.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
+      },
+      {
+        "what": "CAD close-up of a tube end joint",
+        "url": "https://www.chiefdelphi.com/t/2767-stryke-force-cad-code-release-2023/437202",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/2/4/24f6cf694410c2b4dbe4c784e19372f65e9d654f_2_690x393.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
+      },
+      {
+        "what": "CAD close-up of a rack and clamp block",
+        "url": "https://www.chiefdelphi.com/t/2767-stryke-force-cad-code-release-2023/437202",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/b/5/b5e9e91d478894e52bbc1754853c16c3d2594c47_2_690x387.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
+      },
+      {
+        "what": "CAD close-up of a tube joint and drive gears",
+        "url": "https://www.chiefdelphi.com/t/2767-stryke-force-cad-code-release-2023/437202",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/a/7/a725e12ba17a85a7ddc2ca31c51c7ef14f2d055c_2_690x387.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
+      },
+      {
+        "what": "Reveal video (not watched)",
+        "url": "https://youtu.be/GA9Gb1CZZx4",
+        "format": "video",
+        "state": "listed",
+        "src": "s5"
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/strykeforce",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "2767 strykeforce/chargedup",
+        "url": "https://github.com/strykeforce/chargedup",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s6"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: Chief Delphi \"Stryke binder\" post search (0 posts), one open web search, 29 pages of the team site; none found",
+    "interview captions read, video not watched (filmed early at the first event)"
+  ],
+  "results": {
+    "division": "Daly",
+    "division_opr": 71.39,
+    "opr_rank": 15,
+    "record": "52-14-0",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

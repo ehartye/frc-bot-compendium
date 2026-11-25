@@ -1,0 +1,528 @@
+{
+  "id": "2024-33",
+  "season": 2024,
+  "team": "33",
+  "team_name": "Killer Bees",
+  "robot_name": "Buzz XXIX",
+  "variant": "As changed from Livonia to the championship (new shooter, side climb, front roller); the interview shows the earlier version at Kettering #1",
+  "sources": {
+    "s1": {
+      "title": "Team 33 in 2024",
+      "url": "https://www.thebluealliance.com/team/33/2024",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Hopper Division 2024",
+      "url": "https://www.thebluealliance.com/event/2024hop",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "33 The Killer Bees: 2024 Robot Buzz XXIX",
+      "url": "https://www.chiefdelphi.com/t/33-the-killer-bees-2024-robot-buzz-xxix/456707",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/e4Z8CM7",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Behind the Bumpers | 33 Killer Bees | CRESCENDO FRC Robot",
+      "url": "https://www.youtube.com/watch?v=vvNEMzutrEE",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "CRESCENDO is a passing game, not a cycling game: pass notes to your own side fast, then shoot them all at once.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "Speaker scoring with the amplification bonus. The team believed notes already waiting on its side make the maximum bonus much easier to get. A small, very fast robot would move them there.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "An unsigned update that reads as the team's says the auto path ended behind the truss in a few championship matches and the shots still went in.",
+        "basis": "observer",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "At Kettering the under-bumper intake either passed across the field through its own rollers or sent the note to the main shooter, which Limelights aimed, setting speed by distance to about 12 ft.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      },
+      {
+        "text": "Per an unsigned update that reads as the team's, the Livonia shooter was consistent back to the wing line.",
+        "basis": "observer",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "Per an unsigned update that reads as the team's, a fast last-second side climb from Livonia on: a mast whose spring-loaded hook pops out and grabs one chain link.",
+        "basis": "observer",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "fallback": [],
+    "gave_up": [
+      {
+        "text": "The trap mechanism had to go, so the robot did not score in the trap at Kettering.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      },
+      {
+        "text": "Small size meant tight packaging: the intake looks chaotic so the note can get through every bend ready to shoot.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "By Kettering a flip-up hood had replaced an amp diverter that did not work well.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      },
+      {
+        "text": "Per an unsigned update that reads as the team's, Livonia brought a new shooter and the climb, the state championship a fourth Limelight, and a full-width compliant roller replaced intake flappers that let notes fly off on new carpet.",
+        "basis": "observer",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "49-17-2 in official play; ranked 9 of the pooled top 20 (OPR 56.14, Hopper).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Intake",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Win contested notes against other teams",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "transfer"
+      ],
+      "type": "under-the-bumper intake",
+      "serves": [
+        "speaker"
+      ],
+      "facts": [
+        {
+          "text": "Three Krakens, because the intake also works as a shooter",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Unsigned update, reads as the team's: a full-width compliant front roller replaced the vertical flappers after week 1 and worked for the rest of the season",
+          "basis": "observer",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Notes go through tight bends and reach the shooter ready to shoot",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Unsigned update, reads as the team's: the first version's flappers worked in the shop, but new notes on new carpet flew away",
+          "basis": "observer",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pooper",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Move notes to the team's own side as fast as possible",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "second shooter built into the intake, for passing",
+      "serves": [
+        "speaker"
+      ],
+      "facts": [
+        {
+          "text": "Passes notes across the field without using the main shooter",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Shown at Kettering #1; the later update does not mention it",
+          "basis": "inference",
+          "src": [
+            "s5",
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Unsigned update, reads as the team's: shoot consistently from as far back as the wing line",
+          "basis": "observer",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "polycarbonate box shooter, from Livonia on",
+      "serves": [
+        "speaker"
+      ],
+      "facts": [
+        {
+          "text": "Unsigned update, reads as the team's: a tab-and-slot polycarbonate box with a Teflon skin compresses the note side to side to this width",
+          "basis": "observer",
+          "src": [
+            "s3"
+          ],
+          "value": 12,
+          "unit": "in"
+        },
+        {
+          "text": "Unsigned update, reads as the team's: four Kraken X60s let each set of wheels be driven independently",
+          "basis": "observer",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Amp hood",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Turn the main shooter's note into the amp consistently",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "flip-up hood on a four-bar with spinning rollers",
+      "serves": [
+        "amp"
+      ],
+      "facts": [
+        {
+          "text": "Redirects a note from the shooter straight down into the amp",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Shown at Kettering #1, with no problems reported",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Side climb",
+      "solves": [
+        {
+          "text": "Unsigned update, reads as the team's: improve the chance of ranking high after dropping the trap",
+          "basis": "observer",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "mast with a spring-loaded hook",
+      "serves": [
+        "onstage"
+      ],
+      "facts": [
+        {
+          "text": "Unsigned update, reads as the team's: the hook pops out and grabs a single chain link, similar to 1678 and other teams",
+          "basis": "observer",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Unsigned update, reads as the team's: the mast is similar to the team's 2020 robot",
+          "basis": "observer",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vision",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Assist the driver with aiming",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "Limelights for position and aiming",
+      "serves": [
+        "speaker"
+      ],
+      "facts": [
+        {
+          "text": "Aims at the speaker and changes shooter speed by distance, up to about",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 12,
+          "unit": "ft"
+        },
+        {
+          "text": "Unsigned update, reads as the team's: a fourth Limelight in the centre was added for the state championship for TargetPose",
+          "basis": "observer",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "The driver can watch a POV camera and both front cameras",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Unsigned update, reads as the team's: hours and hours of software development",
+          "basis": "observer",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Play a passing game",
+      "because": "the team believed passing notes to its side and shooting them all at once scores fastest",
+      "instead_of": "a cycling game",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Small, tightly packaged robot",
+      "because": "the team wanted an incredibly fast machine to get notes to its side",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Under-bumper intake",
+      "because": "the team thought it the easiest way to get contested notes",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Flip-up amp hood",
+      "because": "other robots used one well and it would be more consistent",
+      "instead_of": "a small diverter piece that did not work well",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "One more roller on one side of the first shooter, later replaced",
+      "because": "it adds a little spin without software, so shots fly flatter",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Full-width compliant front roller",
+      "because": "the flappers let notes fly off on new carpet, per an unsigned update that reads as the team's",
+      "instead_of": "vertical flappers",
+      "basis": "observer",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "New shooter with independently driven wheels",
+      "because": "it made shots more consistent back to the wing line, per an unsigned update that reads as the team's",
+      "basis": "observer",
+      "src": [
+        "s3"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=vvNEMzutrEE",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/5BEb1c9",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "33 The Killer Bees: 2024 Robot Buzz XXIX",
+        "url": "https://www.chiefdelphi.com/t/33-the-killer-bees-2024-robot-buzz-xxix/456707",
+        "format": "thread",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "Robot with mechanism raised to the opening in a red wall",
+        "url": "https://imgur.com/e4Z8CM7",
+        "img": "https://i.imgur.com/e4Z8CM7h.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Poster with robot render, drivetrain, intake and shooter views",
+        "url": "https://www.chiefdelphi.com/t/33-the-killer-bees-2024-robot-buzz-xxix/456707",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/f/a/fa251d83b2043167c1fb86d536163e9165ce3aff_2_333x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s3",
+        "kind": "cad"
+      }
+    ],
+    "documents": [],
+    "code": []
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: Chief Delphi \"Killer Bees binder\" post search, number searches mostly returned other teams, 7 pages of the team site; none found",
+    "interview captions read, video not watched"
+  ],
+  "results": {
+    "division": "Hopper",
+    "division_opr": 56.14,
+    "opr_rank": 9,
+    "record": "49-17-2",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

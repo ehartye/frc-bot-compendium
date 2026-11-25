@@ -1,0 +1,892 @@
+{
+  "id": "2026-6800",
+  "season": 2026,
+  "team": "6800",
+  "team_name": "Valor",
+  "robot_name": "Downpour",
+  "variant": "Drum robot, built for the FIRST in Texas District Championship and played there and at the FIRST Championship. The turret robot that played the district events was also called Downpour at first and is now called Drizzle; its mechanisms are not in this record.",
+  "sources": {
+    "s1": {
+      "title": "Team 6800 in 2026",
+      "url": "https://www.thebluealliance.com/team/6800/2026",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Curie Division 2026",
+      "url": "https://www.thebluealliance.com/event/2026cur",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "6800 2026 tech packet (Downpour), Drive",
+      "url": "https://drive.google.com/file/d/11rQrMwCIseY18JbKFytGLXSd__x1JP1S/view",
+      "publisher": "drive.google.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Valor 6800 - 2026 Robot",
+      "url": "https://sites.google.com/view/valor6800/robot/2026-robot",
+      "publisher": "sites.google.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "6800 2026 Engineering Operations Binder (PDF)",
+      "url": "https://www.chiefdelphi.com/uploads/short-url/zRXS9EDDTsf8BBjRApjXpcmsiJA.pdf",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "6800 2026 'Drizzle' (Manor version of Downpour), Onshape workspace",
+      "url": "https://cad.onshape.com/documents/15cd41462dc24ff986a4e549/w/4d637c0ad0806dbfe69f6666/e/8fdecbfb5ab3c774cb6a4551",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Elite Alliance Mic'd Up | 6800 Valor + 2468 & 10340 | Behind the Glass",
+      "url": "https://www.youtube.com/watch?v=RNHKZpqeS-8",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/KGjbFfs",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Onshape document",
+      "url": "https://cad.onshape.com/documents/15cd41462dc24ff986a4e549/w/1b79a7ae373e0026664ccfff/e/8fdecbfb5ab3c774cb6a4551?configuration=default&renderMode=0&uiState=6a03d46676e39c6e5b24e23c",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "FRC 6800 Valor - 2026 Robot CAD Release",
+      "url": "https://www.chiefdelphi.com/t/frc-6800-valor-2026-robot-cad-release/520715",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "6800 Valor | Behind the Bumpers | Curie Winners",
+      "url": "https://www.youtube.com/watch?v=mPNj9xn-3dk",
+      "publisher": "FUN Robotics Network (auto-caption transcript)",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "Disabled robots on Einstein, post 41",
+      "url": "https://www.chiefdelphi.com/t/disabled-robots-on-einstein/519830/41",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "Rebuilt: Rock, Paper, Scissors",
+      "url": "https://www.chiefdelphi.com/t/rebuilt-rock-paper-scissors/521173",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Replace the single-stream turret with a drum shooter, so the robot scores more fuel per second, runs more cycles and negates fuel starvation.",
+        "basis": "team",
+        "src": [
+          "s4",
+          "s5"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "Throughput into the hub. After district events the team judged that its turret could not stay competitive with higher scoring robots and that opponents limited it by starving it of fuel. A drum lets it score larger loads, run more cycles, shuttle fuel during the other alliance's shift and starve opponents itself.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "A custom path follower blends go-to-point with timing, so a robot stuck on fuel continues to its next path; the team says it can miss its first grab and still score around 40 to 50. A tool overlays partner autos to find collisions.",
+        "basis": "team",
+        "src": [
+          "s13"
+        ]
+      },
+      {
+        "text": "One recorded alliance plan has it go to the middle twice.",
+        "basis": "observer",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The intake takes four fuel at once into the hopper; a four-wide indexer speeds them up toward the feeder and the drum shoots them. During the other alliance's active shift it shuttles fuel to its own side.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "The packet describes two pivoting hooks, linked to a static shaft by surgical tubing and stowed by a Dyneema spool, meant to climb from several tower positions and hold the robot after the match.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "With the hood rollers out of the way it can shoot toward the other side of the robot, a last resort against defense and shot blockers, then at about 50% accuracy.",
+        "basis": "team",
+        "src": [
+          "s13"
+        ]
+      },
+      {
+        "text": "A reply that reads as the team's says it was not consistent enough to use in a match.",
+        "basis": "observer",
+        "src": [
+          "s12"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "With the drum as its only flywheel, the team relies on software tuning to handle velocity spikes.",
+        "basis": "team",
+        "src": [
+          "s13"
+        ]
+      },
+      {
+        "text": "A post says 1323 and 4065 used shot blockers against 6800 and 254 in Einstein playoff match 8, and calls blocking the counter to the dominant scoring archetype.",
+        "basis": "observer",
+        "src": [
+          "s15"
+        ]
+      },
+      {
+        "text": "A reply disputes the post: in the Archimedes finals one alliance countered drum shooters by constantly rotating them.",
+        "basis": "observer",
+        "src": [
+          "s15"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "It began with a turret and wanted more throughput after its first competition.",
+        "basis": "team",
+        "src": [
+          "s13"
+        ]
+      },
+      {
+        "text": "Its packet dates the drum after district events.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "A reply that reads as the team's: development began week 3.",
+        "basis": "observer",
+        "src": [
+          "s12"
+        ]
+      },
+      {
+        "text": "A linear intake that shredded teeth and took hopper space became a slapdown; four rollers became one.",
+        "basis": "team",
+        "src": [
+          "s13"
+        ]
+      },
+      {
+        "text": "A post that reads as the team's: hard driving blew the main breaker on Einstein; lower supply limits fixed it.",
+        "basis": "observer",
+        "src": [
+          "s14"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "62-10-0 in official play; won the Curie division; captain of the Curie alliance on Einstein; ranked 12 of the pooled top 20 (OPR 313.95, Curie).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Chassis",
+      "solves": [
+        {
+          "text": "Survive high-speed collisions and drive over the bump quickly with a low center of gravity",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "drive",
+        "structure"
+      ],
+      "type": "square swerve drive",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Square frame side, sized for fuel capacity",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 27,
+          "unit": "in"
+        },
+        {
+          "text": "WCP Swerve X2c modules and 2 x 2 in chassis rails",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "For intake efficiency and to keep fuel from being compressed under the chassis, bumpers were lowered to",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 1.25,
+          "unit": "in"
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Take in a mass of fuel quickly instead of controlling the path of each piece",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "single powered-roller slapdown intake",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Width, for four fuel at once",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s5"
+          ],
+          "value": 25.5,
+          "unit": "in"
+        },
+        {
+          "text": "One powered 2 in roller and one static 1 in aluminum tube; two Kraken X60s at 1.23:1",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s5"
+          ]
+        },
+        {
+          "text": "Deploys on a single pivot from one low-mounted Kraken X60 through two ThriftyBot cycloidal gearboxes, 69:1, under the feeder rollers",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s5"
+          ]
+        },
+        {
+          "text": "A custom spline shaft connects the two cycloidals",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "An earlier crash bar bent inward and stalled the rollers; a 1 in round tube, moved above the rollers and with extra bracing on the motor plates, replaced the 2 x 1 tube",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hopper",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Carry more fuel while still passing under the trench when the bump is defended",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s5"
+          ]
+        },
+        {
+          "text": "Keep fuel from falling straight from the hub into the robot, which could draw penalties",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "retain",
+        "structure"
+      ],
+      "type": "expanding hopper with top net and bumper-mounted panels",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Volume unextended",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s5"
+          ],
+          "value": 4613.4,
+          "unit": "in3"
+        },
+        {
+          "text": "Volume extended",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s5"
+          ],
+          "value": 8683.9,
+          "unit": "in3"
+        },
+        {
+          "text": "The net adds about 15 fuel, for about 75 in all",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Walls are 1/8 in, tied to the shooter and intake",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Indexer",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Move four fuel at once from intake to feeder while staying low for hopper room",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "four-wide accelerating roller bed",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Two Kraken X44s at 2.5:1; a mix of 2 in and 1.25 in rollers speeds fuel up gradually",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s5"
+          ]
+        },
+        {
+          "text": "Faster on the shooter side and slower on the intake side, so there are no choke points",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Held by four screws, two on each side, which lets the electronics sit on top of the belly pan for service",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Feeder and Shooter",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "A single-stream turret did not score enough fuel per second",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "deliver",
+        "position"
+      ],
+      "type": "four-wide drum shooter with adjustable hood",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "The drum is a single aluminum tube, wrapped in grip tape, of diameter",
+          "basis": "team",
+          "src": [
+            "s13"
+          ],
+          "value": 4,
+          "unit": "in"
+        },
+        {
+          "text": "Three Kraken X60s at 3:2 drive the shooter; two Kraken X60s at 20:9 drive the feeder; feeder rollers are 2 in",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s5"
+          ]
+        },
+        {
+          "text": "One Kraken X44 at 1580:21 moves the hood through",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s5"
+          ],
+          "value": 80,
+          "unit": "deg"
+        },
+        {
+          "text": "Spin-up time about",
+          "basis": "team",
+          "src": [
+            "s13"
+          ],
+          "value": 0.4,
+          "unit": "s"
+        },
+        {
+          "text": "The team says it scores up to about three times the fuel per second of the turret robot",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "A reply that reads as the team's says spacers pull the shooter plates inward and the pulleys sit close to the robot edge, to fit a shooter four fuel wide in a square chassis",
+          "basis": "observer",
+          "src": [
+            "s12"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "A reply that reads as the team's blames polycarbonate feeder rollers, which vary compression and exit angle, for the inconsistent reverse shot",
+          "basis": "observer",
+          "src": [
+            "s12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Climb from several tower positions to leave room for partners, deploy quickly, and not slip after the match ends",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "two pivoting hooks with surgical tubing and spool",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Hooks are 3/8 in aluminum plates; surgical tubing links them to a static shaft and a spool winds Dyneema to stow them",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Kraken X44 through a 23:1 cycloidal and two gears, total reduction 74.1:1",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Design requirement: weight under",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 5,
+          "unit": "lb"
+        }
+      ]
+    },
+    {
+      "name": "Electrical panel",
+      "solves": [
+        {
+          "text": "Protect electronics from bump damage and from fuel hitting the bottom of the robot",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "single belly pan, electronics on top",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Most components sit on a single belly pan, with protective plates for crossing the bump",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "A reply that reads as the team's says a battery swap means turning the robot over, removing four screws from a bottom plate and cutting a zip tie that keeps the lead from falling out on the bump",
+          "basis": "observer",
+          "src": [
+            "s12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Valkyrie software library",
+      "solves": [
+        {
+          "text": "Keep an auto going after the robot gets stuck on fuel",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "open library for motor control, logging and paths",
+      "serves": [],
+      "facts": [
+        {
+          "text": "All motors use torque FOC control",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Its trajectory generator can make paths on the fly; a background script nudges path points to save time",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "A script reads match logs for time to score, time to align and flywheel energy lost",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "One button runs an automated pit check of drive, hood, pivot and shooter",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Drum shooter",
+      "because": "it raises fuel per second, so the robot scores larger loads and is less limited by fuel starvation",
+      "instead_of": "a single-stream turret",
+      "basis": "team",
+      "src": [
+        "s4",
+        "s5"
+      ]
+    },
+    {
+      "choice": "Low-inertia drum with three motors",
+      "because": "the team trusts software tuning to handle velocity spikes and still spins up in about 0.4 s",
+      "instead_of": "a separate flywheel and four or more motors",
+      "basis": "team",
+      "src": [
+        "s13"
+      ]
+    },
+    {
+      "choice": "Single-roller intake",
+      "because": "when a mass of fuel comes in, it only has to get into the hopper, not be controlled piece by piece",
+      "instead_of": "four rollers at district events",
+      "basis": "team",
+      "src": [
+        "s13"
+      ]
+    },
+    {
+      "choice": "Slapdown intake deployment",
+      "because": "the linear intake shredded teeth and took hopper space when deployed",
+      "instead_of": "a linear intake",
+      "basis": "team",
+      "src": [
+        "s13"
+      ]
+    },
+    {
+      "choice": "Hopper that fits under the trench",
+      "because": "it lets the robot cross the field when the bump is defended",
+      "basis": "team",
+      "src": [
+        "s4",
+        "s5"
+      ]
+    },
+    {
+      "choice": "Stationary hopper panels on the bumpers",
+      "because": "they add storage, and bumper mounting hardware does not count toward the weight limit",
+      "basis": "team",
+      "src": [
+        "s4",
+        "s5"
+      ]
+    },
+    {
+      "choice": "Static roller on the intake",
+      "because": "the powered one helped less than expected; a static one saves weight and leaves current for other subsystems",
+      "instead_of": "a powered roller",
+      "basis": "team",
+      "src": [
+        "s4",
+        "s5"
+      ]
+    },
+    {
+      "choice": "Pivoting climbing hooks",
+      "because": "they reduce weight and complexity and are more compact",
+      "instead_of": "a telescoping climber, prototyped early but never competed with",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "Electrical panel flipped right side up",
+      "because": "it protects the electronics from the bump and from fuel under the robot",
+      "basis": "team",
+      "src": [
+        "s4",
+        "s5"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "Comp Robot – Downpour",
+        "url": "https://cad.onshape.com/documents/15cd41462dc24ff986a4e549/w/1b79a7ae373e0026664ccfff/e/8fdecbfb5ab3c774cb6a4551?configuration=default&renderMode=0&uiState=6a03d46676e39c6e5b24e23c",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "CAD listed on the team page",
+        "url": "https://cad.onshape.com/documents/15cd41462dc24ff986a4e549/w/1b79a7ae373e0026664ccfff",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "6800 2026 'Drizzle' (Manor version of Downpour), Onshape workspace",
+        "url": "https://cad.onshape.com/documents/15cd41462dc24ff986a4e549/w/4d637c0ad0806dbfe69f6666/e/8fdecbfb5ab3c774cb6a4551",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s7"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=mPNj9xn-3dk",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/WTOU4cG",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Valor 6800 - 2026 Robot",
+        "url": "https://sites.google.com/view/valor6800/robot/2026-robot",
+        "format": "web page",
+        "state": "opened",
+        "src": "s5"
+      },
+      {
+        "what": "Elite Alliance Mic'd Up | 6800 Valor + 2468 & 10340 | Behind the Glass",
+        "url": "https://www.youtube.com/watch?v=RNHKZpqeS-8",
+        "format": "video",
+        "state": "listed",
+        "src": "s8"
+      },
+      {
+        "what": "Full robot, hood marked Downpour, netted hopper",
+        "url": "https://imgur.com/KGjbFfs",
+        "img": "https://i.imgur.com/KGjbFfsh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s9",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Full robot CAD, hood marked Downpour, intake extended",
+        "url": "https://cad.onshape.com/documents/15cd41462dc24ff986a4e549/w/1b79a7ae373e0026664ccfff/e/8fdecbfb5ab3c774cb6a4551?configuration=default&renderMode=0&uiState=6a03d46676e39c6e5b24e23c",
+        "img": "https://cad.onshape.com/api/thumbnails/d/15cd41462dc24ff986a4e549/w/1b79a7ae373e0026664ccfff/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s11",
+        "kind": "cad"
+      },
+      {
+        "what": "Curved bracket highlighted on frame, CAD close-up",
+        "url": "https://www.chiefdelphi.com/t/frc-6800-valor-2026-robot-cad-release/520715",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/0/7/c/07c680e3efe3076f3336152b38f36260cb143e76_2_538x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s12",
+        "kind": "cad"
+      },
+      {
+        "what": "Mounting block highlighted, CAD close-up",
+        "url": "https://www.chiefdelphi.com/t/frc-6800-valor-2026-robot-cad-release/520715",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/0/9/d/09d92ac42166e1dbf402ded7f2cf14acd36057ff_2_690x453.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s12",
+        "kind": "cad"
+      }
+    ],
+    "documents": [
+      {
+        "what": "6800 2026 tech packet (Downpour)",
+        "url": "https://drive.google.com/file/d/11rQrMwCIseY18JbKFytGLXSd__x1JP1S/view",
+        "format": "Google Drive",
+        "state": "opened",
+        "src": "s4"
+      },
+      {
+        "what": "6800 2026 Engineering Operations Binder (PDF)",
+        "url": "https://www.chiefdelphi.com/uploads/short-url/zRXS9EDDTsf8BBjRApjXpcmsiJA.pdf",
+        "format": "PDF",
+        "state": "opened",
+        "src": "s6"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/valor6800",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)"
+  ],
+  "results": {
+    "division": "Curie",
+    "division_opr": 313.95,
+    "opr_rank": 12,
+    "record": "62-10-0",
+    "einstein": {
+      "division": "Curie",
+      "role": "captain"
+    },
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

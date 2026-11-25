@@ -1,0 +1,569 @@
+{
+  "id": "2024-1756",
+  "season": 2024,
+  "team": "1756",
+  "team_name": "Argos",
+  "robot_name": null,
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 1756 in 2024",
+      "url": "https://www.thebluealliance.com/team/1756/2024",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Johnson Division 2024",
+      "url": "https://www.thebluealliance.com/event/2024joh",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Team 1756 Argos 2024 Robot Reveal",
+      "url": "https://www.chiefdelphi.com/t/team-1756-argos-2024-robot-reveal/457292",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Behind the Bumpers | 1756 Argos | CRESCENDO FRC Robot (filmed at Central Illinois)",
+      "url": "https://www.youtube.com/watch?v=Vnbv20qEBwQ",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "1756 Argos 2024-Robot (C++)",
+      "url": "https://github.com/FRC1756-Argos/2024-Robot",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Argos - FIRST Robotics Team 1756",
+      "url": "https://teamargos.org/docs/robot_doc/Argos_Robots/",
+      "publisher": "teamargos.org",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Argos 2024 Judge Handout v2 (PDF)",
+      "url": "https://teamargos.org/assets/files/2024_Judge_Handout_v2-6eb999525fb9b664076ea43ff13bb179.pdf",
+      "publisher": "teamargos.org",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/irOL97Z",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/kWF0A5U",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "auto": [
+      {
+        "text": "Autonomous paths adapt to missing notes and advance to later notes. Latency-compensated odometry at 200 Hz runs in a background thread for accurate paths.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The under-bumper intake centers a note and a beam break lights LEDs. The launcher rotates in line with the intake, takes the handoff and keeps the note ready for amp, speaker or trap. Undefended speaker shots are automated, with targeting that does not need a stop.",
+        "basis": "team",
+        "src": [
+          "s8",
+          "s5"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "Raise the hooks to the chain, pull the robot up, raise the launcher until its intake side meets the trap, and roll the note in. The sequence is automated; the operator only presses continue.",
+        "basis": "team",
+        "src": [
+          "s8",
+          "s5"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "A preset shooting location backs up vision. When defended, the launcher rises to full height and shoots at one set angle.",
+        "basis": "team",
+        "src": [
+          "s8",
+          "s5"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "The team tried top and bottom, left and right, and wind-up shooters; top and bottom worked best with compression and spin. The roller was once filled with wheels, and some came out for weight with little or no loss of accuracy.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "35-11-1 in official play; ranked 3 of the pooled top 20 (OPR 59.54, Johnson).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drivetrain",
+      "solves": [
+        {
+          "text": "Increased mobility",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Swerve drive",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Funnel a note to the center so it can leave in only one position",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "fixed under-bumper roller intake",
+      "serves": [
+        "speaker",
+        "amp",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "Solid rollers between the swerve modules do not move out",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Omni wheels, an HDPE surface and 3D printed wedges funnel notes sideways",
+          "basis": "team",
+          "src": [
+            "s8",
+            "s5"
+          ]
+        },
+        {
+          "text": "The intake will not run when a note is already held",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Launcher",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Serve the speaker, amp and trap from one carriage",
+          "basis": "team",
+          "src": [
+            "s8",
+            "s5"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The wheels are heavy, so those that barely touch the note were removed",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "deliver",
+        "retain",
+        "position"
+      ],
+      "type": "top and bottom wheel shooter on a fully rotating carriage",
+      "serves": [
+        "speaker",
+        "amp",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "Handoff rollers stage the note and feed the launching wheels, and run in reverse for the trap",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Launching wheels sit on non-parallel axles to add a stabilizing spin",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "The carriage can rotate all the way around",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "The interview says that for the amp it rises and flips, and intake wheels, not shooter wheels, roll the note out for more control; the handout says the handoff rollers feed the launching wheels for the amp",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Wheels are spaced for the ratio of contact to weight",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elevator",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Reach the trap, and shoot over defense",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "linear rail elevator",
+      "serves": [
+        "trap",
+        "speaker",
+        "amp"
+      ],
+      "facts": [
+        {
+          "text": "Raises to the height limit",
+          "basis": "team",
+          "src": [
+            "s8"
+          ],
+          "value": 4,
+          "unit": "ft"
+        },
+        {
+          "text": "Linear rails constrain twisting",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Elevator and climber are driven by hex shafts that run under the belly pan",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Climb and still leave the launcher free to score in the trap",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "linear rail climber with two hooks",
+      "serves": [
+        "onstage",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "Compact and centered, independent of the launcher elevator",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "A cutout in the polycarbonate hooks is the width of the chain, so the robot does not move after climbing",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Climb and elevator moves are split to avoid the chain",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vision and controls",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Aim the launcher and automate handoff and scoring",
+          "basis": "team",
+          "src": [
+            "s8",
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "AprilTag aiming with automated handoff",
+      "serves": [
+        "speaker",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "The handout says a Limelight sets the launcher angle and 200 Hz odometry runs for autonomous; the interview says two Limelights and, when asked about odometry, only the AprilTag",
+          "basis": "team",
+          "src": [
+            "s8",
+            "s5"
+          ]
+        },
+        {
+          "text": "Two beam breaks detect the note and automate the handoff",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Motion-aware targeting scores in the speaker without stopping",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Omni wheels in the intake",
+      "because": "they let the note move sideways while wedges funnel it to the center",
+      "instead_of": "mecanum and rubber wheels, both tried",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Top and bottom shooter wheels",
+      "because": "they gave the best mix of compression and spin",
+      "instead_of": "left and right and wind-up shooters",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Remove shooter wheels that barely touch the note",
+      "because": "wheels are heavy, and accuracy did not drop much if at all",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Climber separate from the launcher elevator",
+      "because": "it allows trap scoring",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    },
+    {
+      "choice": "Raise the launcher to shoot when defended",
+      "because": "it lets the robot score at a set angle, as a counter to teams that block it",
+      "basis": "team",
+      "src": [
+        "s8",
+        "s5"
+      ]
+    },
+    {
+      "choice": "Score the amp with the intake wheels",
+      "because": "they give more control and roll the note in",
+      "instead_of": "the shooter wheels",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "Comp Robot",
+        "url": "https://a360.co/3u6Vbgm",
+        "format": "Fusion",
+        "state": "listed",
+        "src": "s7"
+      },
+      {
+        "what": "Argos - FIRST Robotics Team 1756",
+        "url": "https://teamargos.org/docs/robot_doc/Argos_Robots/",
+        "format": "web page",
+        "state": "listed",
+        "src": "s7"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=_mAsaiEyiTg",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Team 1756 Argos 2024 Robot Reveal",
+        "url": "https://www.chiefdelphi.com/t/team-1756-argos-2024-robot-reveal/457292",
+        "format": "thread",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "Behind the Bumpers | 1756 Argos | CRESCENDO FRC Robot",
+        "url": "https://www.youtube.com/watch?v=Vnbv20qEBwQ",
+        "format": "video",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "Full robot on a white background, red bumpers",
+        "url": "https://imgur.com/irOL97Z",
+        "img": "https://i.imgur.com/irOL97Zh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s9",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot on a black background, red bumpers",
+        "url": "https://imgur.com/kWF0A5U",
+        "img": "https://i.imgur.com/kWF0A5Uh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s10",
+        "kind": "robot-photo",
+        "hero": true
+      }
+    ],
+    "documents": [
+      {
+        "what": "Argos 2024 Judge Handout v2 (PDF)",
+        "url": "https://teamargos.org/assets/files/2024_Judge_Handout_v2-6eb999525fb9b664076ea43ff13bb179.pdf",
+        "format": "PDF",
+        "state": "opened",
+        "src": "s8"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/frc1756-argos",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "1756 Argos 2024-Robot (C++)",
+        "url": "https://github.com/FRC1756-Argos/2024-Robot",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s6"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binder search: Chief Delphi post search \"Argos binder\" (2 topics), title search \"1756\" (3 topics), team site home page only"
+  ],
+  "results": {
+    "division": "Johnson",
+    "division_opr": 59.54,
+    "opr_rank": 3,
+    "record": "35-11-1",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

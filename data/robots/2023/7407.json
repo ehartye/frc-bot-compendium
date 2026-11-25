@@ -1,0 +1,1161 @@
+{
+  "id": "2023-7407",
+  "season": 2023,
+  "team": "7407",
+  "team_name": "Wired Boars",
+  "robot_name": "Toben / Capyboara",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 7407 in 2023",
+      "url": "https://www.thebluealliance.com/team/7407/2023",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Hopper Division 2023",
+      "url": "https://www.thebluealliance.com/event/2023hop",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "7407 (The Wired Boars) Open Alliance Build Thread 2023 (129)",
+      "url": "https://www.chiefdelphi.com/t/7407-the-wired-boars-open-alliance-build-thread-2023/421571",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Toben, 2023 Charged Up",
+      "url": "https://robotics.choate.edu/2023-charged-up/",
+      "publisher": "robotics.choate.edu",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "7407 Wired Boars 2023 Reveal: Toben/Capybora",
+      "url": "https://www.chiefdelphi.com/t/7407-wired-boars-2023-reveal-toben-capybora/428846",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "7407 Wired Boars 2023 Technical Binder (Toben / Capyboara)",
+      "url": "https://drive.google.com/file/d/11biMlG-46t7_wTHimFI70R8YOEPH9r11/view",
+      "publisher": "drive.google.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "FRC7407 Open Alliance Show 01.24.2023 slides",
+      "url": "https://docs.google.com/presentation/d/1d7Ll0qv_AGlNX9d2TdscnFJhe-cmKpVULn2F6sAeoTg",
+      "publisher": "docs.google.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "FRC7407 2023 Strategic & Functional Requirements",
+      "url": "https://docs.google.com/spreadsheets/d/1W4tIfDbaxzdiqkMakCEBA3ZlrHV2pPQJxFIpFME28no/edit?usp=sharing",
+      "publisher": "docs.google.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "7407-DriveCode-ChargedUp (Python)",
+      "url": "https://github.com/Choate-Robotics/7407-DriveCode-ChargedUp",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Toben, 2023 Charged Up (robotics.choate)",
+      "url": "https://robotics.choate.edu/?p=4012",
+      "publisher": "robotics.choate.edu",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/XLzS8F7",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/xvdfWkR",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "Onshape document",
+      "url": "https://cad.onshape.com/documents/fa7d33b6bb1299e32a4568b2/w/e531a55bf52e394438f276b3",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "7407 (The Wired Boars) Open Alliance Build Thread 2023, post 129",
+      "url": "https://www.chiefdelphi.com/t/7407-the-wired-boars-open-alliance-build-thread-2023/421571/129",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "Behind the Bumpers | 7407 Wired Boars | Charged Up Robot",
+      "url": "https://www.youtube.com/watch?v=1TtIvbGLx_o",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Play as many parts of the game as possible with a full-size robot, and hang off the side of the charge station on buddy forks for the triple balance.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "Score high, mid and low with both cones and cubes, and take cubes from the floor so low cube cycles are extremely efficient.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      },
+      {
+        "text": "Its kickoff requirements sheet also lists cones from the double station, accurate auto movement, docking and engaging in auto and teleop, a side or late climb, and attaching to a partner to climb.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "Main routines are mobility and engage, two pieces, and three pieces, on the cable-guard side or the other. Waypoints are set relative to the start, so routines mirror and recalibrate quickly. PhotonVision corrects error, which the team says makes three pieces over the cable guard consistent.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "Cubes: floor intake, then straight to a low node, or the claw reaches in for mid and high. Cones: claw at the double station. An infrared sensor closes the claw. The operator picks a target on a numpad, the driver holds a button, and the robot routes there; gyro angle picks the arm side.",
+        "basis": "team",
+        "src": [
+          "s6",
+          "s15"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "Two partners balance first. The robot comes to the side of the charge station, puts its forks under a partner and winches itself up, held only by that partner and the station. The team says the winch climbs in under 1 second and the triple balance takes under 10.",
+        "basis": "team",
+        "src": [
+          "s15",
+          "s7",
+          "s6"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "Pneumatic fork deployment, retraction and locking let the team abort a climb, and a pneumatic ratchet allows more than one try. The intake's shield lets it hold a cube and score low without the arm or claw.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "Full size (29 x 29 in) makes a triple balance and tight spaces harder; the team took that for stability at full arm extension and for playing through defense.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      },
+      {
+        "text": "The forks came off before the first event, over weight and no time to program them; the binder later counts several successful climbs.",
+        "basis": "team",
+        "src": [
+          "s14",
+          "s6"
+        ]
+      },
+      {
+        "text": "A larger intake roller was faster in the open but worse at letting the claw move cubes sideways.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "After SE Mass a shield kept cubes out of the robot and opened low scoring without the claw. At Hartford a sequential handoff replaced a simultaneous one.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      },
+      {
+        "text": "Carbon fork tubes deflected, so dowels and aluminum jackets were added. Cut cubes led to a pulley cover, then a planned belt guard. A claw and wrist over 2 lb lighter were made for fork weight; the binder lists them as backups.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "42-25-3 in official play; ranked 20 of the pooled top 20 (OPR 70.01, Hopper).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drivetrain",
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "SDS MK4i modules with NEO motors and L2 gearing, for maneuverability",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Frame is 29 x 29 in, of REV light 2x1 tube to save weight",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Steel tubes across all four fore-aft rails stiffen the chassis against climbing loads",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Spare blue nitrile tread wore out fast and was swapped again mid-championship at New England; SDS black tread had not",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arm Rotary Joint",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Score or pick up on either side of the robot and stay put during drive maneuvers while extended",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "chain-driven rotary joint with a disc brake",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Two NEOs through MAXPlanetary gearboxes with 5:1 and 4:1 stages, a 28:34 gear stage, then dual #25 chain at 72:22",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "A mountain bike disc brake holds the shoulder angle while driving with the arm out, and holds it with the robot off",
+          "basis": "team",
+          "src": [
+            "s6",
+            "s15"
+          ]
+        },
+        {
+          "text": "The brake cylinder is spring extended and applies the brake on retraction",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "13 of 22 teeth on the brake axle sprocket engage the chain, so it is less likely to skip",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Backlash took several fixes: Loctite 620 did not hold the gears, epoxy on knurled shafts did, and the gearbox mount changed twice more",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "About plus or minus 2 degrees of gearbox backlash remained; the team accepted it and starts with the arm vertical",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elevator",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Reach the high nodes, and be replaced quickly after a catastrophic failure",
+          "basis": "team",
+          "src": [
+            "s6",
+            "s15"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "modified Thrifty elevator used as a linear arm",
+      "serves": [
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "One NEO through a 5:1 MAXPlanetary stage and 30:38 gears",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "The January slides state the reduction as",
+          "basis": "team",
+          "src": [
+            "s7"
+          ],
+          "value": 6.33,
+          "unit": ":1"
+        },
+        {
+          "text": "Spring-retracted energy chain for high speed motion",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "The center 2x2, wrist and claw swap as one unit",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The cantilevered gearbox flexed and needed another plate, and a pulley shaft failed at a tapped hole",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wrist",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "planetary and printed-gear wrist",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "NEO 550 with a 20:1 MAXPlanetary and a 10:40 printed helical gear; overall reduction",
+          "basis": "team",
+          "src": [
+            "s6"
+          ],
+          "value": 80,
+          "unit": ":1"
+        },
+        {
+          "text": "Wires and air leave at the center of rotation through a large bearing",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Absolute encoder on the large gear shaft",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "An UltraPlanetary gearbox tried for weight failed from over-torque after several days",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Claw",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Take pieces over a wide range and turn cones upright for easy placement",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "retain",
+        "deliver"
+      ],
+      "type": "gear-linked claw with squish wheels and belts",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "16 in wingspan plus 4 in squish wheels gives an intake range over",
+          "basis": "team",
+          "src": [
+            "s6"
+          ],
+          "value": 20,
+          "unit": "in"
+        },
+        {
+          "text": "Four 15 mm belts grip the piece",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Two layers of belt turn a cone upright",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Gear cutouts on the polycarbonate arms keep them in step",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "NEO 550 drives wheels and belts at",
+          "basis": "team",
+          "src": [
+            "s6"
+          ],
+          "value": 12,
+          "unit": ":1"
+        },
+        {
+          "text": "Infrared thresholds differ by pickup place and by cone or cube, so the claw closes by itself",
+          "basis": "team",
+          "src": [
+            "s6",
+            "s15"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Drag in a serpentine belt drew 18 A; changes cut it to 10 A before the motor became a NEO 550",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Printed pulleys broke on station contact, and fast rollers popped cubes until flanges were rounded and thickened",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "At SE Mass the sensor seemed to close the claw early in auto, which lost the second piece a couple of times before it was fixed",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Floor Intake",
+      "pieces": [
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Make low cube cycles extremely efficient",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "transfer",
+        "deliver"
+      ],
+      "type": "over-the-bumper four-bar cube intake",
+      "serves": [
+        "grid-low"
+      ],
+      "facts": [
+        {
+          "text": "Two pneumatic cylinders with 2 in stroke and 1.0625 in bore extend it as they retract",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "1.5 in polycarbonate roller with rings of foam rubber, NEO at 11:24 by belt",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "A free PVC roller on a 3/8 in hex shaft is there to stop cubes ejecting upward; moving it about 2 in away from the powered roller drastically reduced ejections",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "A shield behind the retracted intake lets it hold a cube and score low by itself",
+          "basis": "team",
+          "src": [
+            "s6",
+            "s15"
+          ]
+        },
+        {
+          "text": "Polycarbonate four-bar arms reduce damage from impacts",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The team's most iterated system: pulleys and then the belt cut cubes, and the motor blocked cubes from the side",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "It swung out in fast turns until it was made lighter and the cylinders larger",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Forks",
+      "solves": [
+        {
+          "text": "Let a full-size robot complete a triple balance from the side of the charge station",
+          "basis": "team",
+          "src": [
+            "s6",
+            "s15"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "winch-driven buddy climb forks",
+      "serves": [
+        "charge-station"
+      ],
+      "facts": [
+        {
+          "text": "Dual winch spools on a NEO through a MAXPlanetary at",
+          "basis": "team",
+          "src": [
+            "s6"
+          ],
+          "value": 16,
+          "unit": ":1"
+        },
+        {
+          "text": "Stated climb time is under",
+          "basis": "team",
+          "src": [
+            "s6"
+          ],
+          "value": 1,
+          "unit": "s"
+        },
+        {
+          "text": "A 125 lb robot can climb on any robot of 85 lb or more",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Each fork is a wooden dowel in carbon fiber tube inside aluminum square tube, with a factor of safety over 2.2",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Independently tensioned cables keep the fork frame from twisting",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "A ratchet on a pneumatic cylinder holds after disable and allows retries",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Tips taper so they are less likely to catch a partner's middle wheel",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "A pancake cylinder locks the forks up in fast turns",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "They were off the robot at SE Mass for weight and programming time; the binder later counts several successful climbs",
+          "basis": "team",
+          "src": [
+            "s14",
+            "s6"
+          ]
+        },
+        {
+          "text": "The forks twisted under load, so the wing plates were modified to stop it",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PhotonVision odometry",
+      "solves": [
+        {
+          "text": "Run autos over the cable guard consistently and reject ghost frames",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "two-camera AprilTag pose with gyro filter",
+      "serves": [],
+      "facts": [
+        {
+          "text": "A camera frame is used only if it falls within this much of the Pigeon2 angle",
+          "basis": "team",
+          "src": [
+            "s6"
+          ],
+          "value": 2,
+          "unit": "deg"
+        },
+        {
+          "text": "Poses are blended with odometry by a weighted average found by testing",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Used in auto and for teleop routing",
+          "basis": "team",
+          "src": [
+            "s15",
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Numpad routing",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Bring the robot to a chosen node or station point while the driver only holds a button",
+          "basis": "team",
+          "src": [
+            "s6",
+            "s15"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "operator-selected automatic driving",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "The robot locks to a cardinal direction and lowers its top speed in this mode",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "It can still route after being pushed by another robot",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Arm and wrist direction follow gyro angle, so one button works on either side",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Full-size robot",
+      "because": "it plays through defense and is stable with the arm fully extended",
+      "cost": "triple balance and tight areas of the field are harder",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    },
+    {
+      "choice": "Buddy climb forks",
+      "because": "in the January slides, three robots cannot easily fit on the charge station, and a fast last-second climb does not depend on partners' sizes",
+      "cost": "the binder limits it by weight: a 125 lb robot needs a partner of 85 lb or more",
+      "basis": "team",
+      "src": [
+        "s7",
+        "s6"
+      ]
+    },
+    {
+      "choice": "Sequential cube handoff",
+      "because": "taking the cube with the intake first and then reaching in with the claw was far more consistent",
+      "instead_of": "claw and intake grabbing the cube at the same time",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    },
+    {
+      "choice": "Wheeled and belted claw",
+      "because": "a post that reads as the team's says a pneumatic clamp needed precise grip height and centering on cones",
+      "instead_of": "a pneumatic clamp with swiveling pads",
+      "basis": "observer",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "Belts in place of some claw wheels",
+      "because": "a post that reads as the team's says squish wheels worked very well but a lighter claw was wanted",
+      "cost": "the same post says the early belts quickly shed their Plastidip coating, and a cone met base-first could not be turned upright",
+      "basis": "observer",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "Thrifty elevator kit, modified",
+      "because": "it let them build the elevator in under two weeks once build season started",
+      "cost": "the kit's bearing shoulder bolts deformed over time, and two blocks were redone with 1/4-20 bolts",
+      "basis": "team",
+      "src": [
+        "s15",
+        "s6"
+      ]
+    },
+    {
+      "choice": "CAN bus wired in a mix of parallel and series, soldered wherever possible",
+      "because": "one disconnected swerve pod motor cannot take down the rest of the bus",
+      "cost": "at SE Mass a failed swerve pod CAN connection broke everything; motor inversions at boot, all season, looked like CAN errors but were probably a RoboRIO 2.0 buffer issue",
+      "basis": "team",
+      "src": [
+        "s6",
+        "s14"
+      ]
+    },
+    {
+      "choice": "Positions relative to the auto start",
+      "because": "routines mirror for alliance and side, and calibrate fast on a new field",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "CAD listed on the team page",
+        "url": "https://cad.onshape.com/documents/fa7d33b6bb1299e32a4568b2/w/e531a55bf52e394438f276b3",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "7407 (The Wired Boars) Open Alliance Build Thread 2023 (129)",
+        "url": "https://www.chiefdelphi.com/t/7407-the-wired-boars-open-alliance-build-thread-2023/421571",
+        "format": "thread",
+        "state": "listed",
+        "src": "s3",
+        "holds": "Onshape"
+      },
+      {
+        "what": "Drivetrain CAD",
+        "url": "https://cad.onshape.com/documents/20eb94d3cb8a875a366fbc91",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "Claw prototype versions CAD (linked in an unsigned thread reply)",
+        "url": "https://cad.onshape.com/documents/1f379f0008d00f1438bb322f/w/2bc4eac3d8f648b3365adfed/e/e84751d7f596d68ed54a3bff",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "Intake CAD, week 1 (linked in an unsigned thread reply)",
+        "url": "https://cad.onshape.com/documents/c4c054790dafd4a6b47962f4",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=-HpeQnS88Is",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=1TtIvbGLx_o",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=6iNQo_YLQAk",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=XfJoRLmXTMc",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=XfxKbkD0jxM",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=ZZ5yS1dAx08",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/BTRsUBr",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/IsreKiK",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/LMBUpHr",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/S4kG5DC",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/lvOpYGI",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/mxq0J8e",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/qtXvz5P",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/umpueSc",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "7407 Wired Boars 2023 Reveal: Toben/Capybora",
+        "url": "https://www.chiefdelphi.com/t/7407-wired-boars-2023-reveal-toben-capybora/428846",
+        "format": "thread",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "Full robot with blue 7407 bumpers holding a purple cube",
+        "url": "https://imgur.com/XLzS8F7",
+        "img": "https://i.imgur.com/XLzS8F7h.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s11",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Robot gripping a yellow cone at floor level",
+        "url": "https://imgur.com/xvdfWkR",
+        "img": "https://i.imgur.com/xvdfWkRh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s12",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot CAD, arm raised and extended",
+        "url": "https://cad.onshape.com/documents/fa7d33b6bb1299e32a4568b2/w/e531a55bf52e394438f276b3",
+        "img": "https://cad.onshape.com/api/thumbnails/d/fa7d33b6bb1299e32a4568b2/w/e531a55bf52e394438f276b3/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s13",
+        "kind": "cad"
+      },
+      {
+        "what": "Black plug with holes inserted in a perforated aluminum tube",
+        "url": "https://www.chiefdelphi.com/t/7407-the-wired-boars-open-alliance-build-thread-2023/421571",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/d/9/d964459f13cd0e687e06aaf043afc8e3017e8778_2_375x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s3",
+        "kind": "mechanism"
+      },
+      {
+        "what": "Linear rail test rig with a cylinder and two padded arms, open",
+        "url": "https://www.chiefdelphi.com/t/7407-the-wired-boars-open-alliance-build-thread-2023/421571",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/f/0/f0dd521b5ef667ca800041751a68c565c0c5f718_2_375x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s3",
+        "kind": "mechanism"
+      },
+      {
+        "what": "Painted drive rails leaning against a wall",
+        "url": "https://www.chiefdelphi.com/t/7407-the-wired-boars-open-alliance-build-thread-2023/421571",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/9/a/9a587174a2c09a71c8b330b0e511c68874e94615_2_666x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s3",
+        "kind": "mechanism"
+      }
+    ],
+    "documents": [
+      {
+        "what": "Toben, 2023 Charged Up",
+        "url": "https://robotics.choate.edu/2023-charged-up/",
+        "format": "web page",
+        "state": "opened",
+        "src": "s4"
+      },
+      {
+        "what": "7407 Wired Boars 2023 Technical Binder (Toben / Capyboara)",
+        "url": "https://drive.google.com/file/d/11biMlG-46t7_wTHimFI70R8YOEPH9r11/view",
+        "format": "Google Drive",
+        "state": "opened",
+        "src": "s6"
+      },
+      {
+        "what": "FRC7407 Open Alliance Show 01.24.2023 slides",
+        "url": "https://docs.google.com/presentation/d/1d7Ll0qv_AGlNX9d2TdscnFJhe-cmKpVULn2F6sAeoTg",
+        "format": "Google Slides",
+        "state": "opened",
+        "src": "s7"
+      },
+      {
+        "what": "FRC7407 2023 Strategic & Functional Requirements",
+        "url": "https://docs.google.com/spreadsheets/d/1W4tIfDbaxzdiqkMakCEBA3ZlrHV2pPQJxFIpFME28no/edit?usp=sharing",
+        "format": "Google Sheet",
+        "state": "opened",
+        "src": "s8"
+      },
+      {
+        "what": "Toben, 2023 Charged Up (robotics.choate)",
+        "url": "https://robotics.choate.edu/?p=4012",
+        "format": "web page",
+        "state": "opened",
+        "src": "s10"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/choate-robotics",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "7407-DriveCode-ChargedUp (Python)",
+        "url": "https://github.com/Choate-Robotics/7407-DriveCode-ChargedUp",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s9"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)"
+  ],
+  "results": {
+    "division": "Hopper",
+    "division_opr": 70.01,
+    "opr_rank": 20,
+    "record": "42-25-3",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

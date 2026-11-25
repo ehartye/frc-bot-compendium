@@ -1,0 +1,846 @@
+{
+  "id": "2026-254",
+  "season": 2026,
+  "team": "254",
+  "team_name": "The Cheesy Poofs",
+  "robot_name": "Overload",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 254 in 2026",
+      "url": "https://www.thebluealliance.com/team/254/2026",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Curie Division 2026",
+      "url": "https://www.thebluealliance.com/event/2026cur",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "2026 REBUILT",
+      "url": "https://www.team254.com/frc/2026/",
+      "publisher": "team254.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "825 New REBUILT WR | 254 1323 2367 | FRC FUNalysis Match Analysis",
+      "url": "https://www.youtube.com/watch?v=OwHXYmbLk4w",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/5UpB1Jk",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/BQxxojQ",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/ntNSCmK",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Team 254 Presents: Overload (post 105)",
+      "url": "https://www.chiefdelphi.com/t/team-254-presents-overload/516252/105",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Team 254 Presents: Overload",
+      "url": "https://www.chiefdelphi.com/t/team-254-presents-overload/516252",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "254 The Cheesy Poofs | Behind the Bumpers | Curie Division Winners",
+      "url": "https://www.youtube.com/watch?v=TTjfNHw9jxM",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Team 254 Presents: Overload (post 85)",
+      "url": "https://www.chiefdelphi.com/t/team-254-presents-overload/516252/85",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Most Common Issues Seen 2026",
+      "url": "https://www.chiefdelphi.com/t/most-common-issues-seen-2026/520595",
+      "publisher": "Chief Delphi, opening post by the mentor of Team 254's CheesyCare group",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "Rebuilt: Rock, Paper, Scissors",
+      "url": "https://www.chiefdelphi.com/t/rebuilt-rock-paper-scissors/521173",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Shoot several streams of fuel at once: the team predicted a ceiling of about 30 to 35 balls per second, against about 18 for a turret.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "Score from anywhere in the alliance zone and pass across the court efficiently. The team picked robustness as its difference: tied on scoring, it would outlast opponents that broke. Against championship defense it put fast, precise alignment first.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "Two full swipes of the middle, then a partial third that loads fuel for the driver. If knocked too far off its path, the robot drives to a known recovery pose and goes back to collecting instead of emptying its hopper where it cannot score.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The Intake pulls fuel off the ground into the hopper. The robot aligns its heading on the hub and shoots while not moving. Pulling the Intake in while shooting lifts the hopper floor, so gravity helps with the last balls.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "It does not shoot on the move, because of current limits and practicality. Packaging for width left about 1.25 in on either side of the feeder plates.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      },
+      {
+        "text": "A post that reads as the team's says shooter motors drew 100 A each at spin-up before limits, and the robot browned out within a minute of play before SVR. A commenter notes shot blockers were used against it on Einstein.",
+        "basis": "observer",
+        "src": [
+          "s11",
+          "s13"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "The hopper floor went through four versions, the first on the Alphabot; the third still let balls under it, and the fourth, for Worlds, fixed that. Broken polycarbonate intake racks became SRPP and titanium, a second intake roller came before the third event, and a net raised capacity. Corner-centered turning was added the week before the championship.",
+        "basis": "team",
+        "src": [
+          "s8",
+          "s10"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "65-6-0 in official play; won the Curie division; pick 1 of the Curie alliance on Einstein; ranked 10 of the pooled top 20 (OPR 321.71, Curie).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drivetrain",
+      "solves": [
+        {
+          "text": "Leave room for a continuous powered hopper floor",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Four SDS MK5n modules",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "The front modules were reoriented wide-ways on the competition robot so the whole hopper floor could be powered",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Pull fuel off the ground fast without breaking in collisions",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The most iterated part of the robot: polycarbonate racks broke consistently and aluminum kicker plates kept bending",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "full-width, linearly deploying roller intake",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Racks are two layers of about 1/4 in SRPP and one layer of about 1/8 in titanium",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "A main roller of about 3 in feeds kicker bars tuned for low compression without dead spots",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "A second roller keeps fuel already in the hopper out of the way of fuel coming in",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "The rollers are dual driven by Kraken X60s",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Deployment became fully gear driven mid-season, because impacts sheared timing belt teeth",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hopper",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Hold fuel robustly, with fewer parts to interfere with each other",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "does": [
+        "retain",
+        "structure"
+      ],
+      "type": "net hopper on fixed bumper panels",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "The team site says 70+ fuel; the interview says about 75 to 80 with the net, up from about 50",
+          "basis": "team",
+          "src": [
+            "s3",
+            "s10"
+          ]
+        },
+        {
+          "text": "Panels rise from the bumpers, which adds width and cuts interference",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "A carbon fiber hoop adds rigidity, and carbon fiber corners replaced polycarbonate ones that cracked",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Two sizes of one brand of zip ties broke on the net; another brand solved it",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hopper floor",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Move fuel to the feeder with no dead spots, and empty the last balls",
+          "basis": "team",
+          "src": [
+            "s10",
+            "s8"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The Alphabot version bound and let belts climb off pulleys; the next jammed on balls trapped underneath and fell apart in an event final when a set screw backed out",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "After strengthening it probably weighed about the same as roller floors; the team would maybe use another design",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "pivoting belt floor linked to the intake",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "The floor pivots with intake deploy: the intake stows under it, and retracting while shooting lifts it",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "On the Silicon Valley event version, evenly spaced belts were slightly better than belts grouped into four lanes; number found sufficient",
+          "basis": "team",
+          "src": [
+            "s8"
+          ],
+          "value": 8,
+          "unit": "belts"
+        },
+        {
+          "text": "Rubber-backed belts give fuel more continuity than rollers",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "The Worlds version has fixed belt centers, welded triangular plates, glued pulleys and a fully captured cam follower",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Carbon tube rollers on the Silicon Valley event version were chosen partly for weight, while the team was still trying to fit a 12 lb L3 climber",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Feeder and drum shooter",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Bring many balls to the same speed at once, from anywhere in the zone and for passing",
+          "basis": "team",
+          "src": [
+            "s10",
+            "s3"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "A post that reads as the team's describes early brownouts from the shooter, free-spinning floor and feeder together",
+          "basis": "observer",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "deliver",
+        "transfer"
+      ],
+      "type": "full-width drum shooter with adjustable hood",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Width of the shooter",
+          "basis": "team",
+          "src": [
+            "s10"
+          ],
+          "value": 4,
+          "unit": "balls"
+        },
+        {
+          "text": "Each ball touches the main drum, bottom feeder roller and top hood roller at once, so it does not wobble",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "A double-sided belt drives the drum on one face and the hood rollers in reverse on the other, because a pulley plus a gear did not fit",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Cat tongue replaced bare polycarbonate on the feeder backing, which slipped",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "At the championship the team put its rate at about 25 to 28 balls per second with fresh balls",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vision",
+      "solves": [
+        {
+          "text": "Locate the robot well enough to aim shots and passes and run autonomous",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "four AprilTag cameras on a Jetson",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Two cameras of about 120 fps on the shooter side and two of about 60 fps on the sides, all grayscale and global shutter",
+          "basis": "team",
+          "src": [
+            "s10",
+            "s3"
+          ]
+        },
+        {
+          "text": "Custom GPU-accelerated tag detection on one Jetson Orin Nano keeps the shooter-side cameras above about",
+          "basis": "team",
+          "src": [
+            "s10"
+          ],
+          "value": 100,
+          "unit": "fps"
+        },
+        {
+          "text": "Single-tag estimates are thrown out; only multi-tag poses are used",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Poses go to the robot controller by UDP, where they are filtered",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Heading control",
+      "solves": [
+        {
+          "text": "Align quickly and precisely under defense, since the robot cannot shoot on the move",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "does": [
+        "position",
+        "sense"
+      ],
+      "type": "predicted-pose heading control with a movable center of rotation",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "It looks ahead to a predicted pose and adds feedforward from where the driver is moving",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "It can pivot about a chosen corner when in front of the tower, beside a robot or being bumped",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Autonomous routines",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Win the race to the middle without wasting fuel when knocked off path",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "pre-optimized paths with recovery",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Paths are optimized ahead of time, not computed on the fly as in 2025",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "If the robot's pose is too far from the path, it moves to a recovery path and resumes the later stages",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Wide multi-stream shooter",
+      "because": "the predicted ceiling was about 30 to 35 balls per second, against about 18 for a turret with no gaps between balls",
+      "instead_of": "a turret, the initial plan",
+      "basis": "team",
+      "src": [
+        "s10"
+      ]
+    },
+    {
+      "choice": "Make robustness the difference",
+      "because": "even when tied on scoring, a robot that does not break can outlast its opponents",
+      "basis": "team",
+      "src": [
+        "s10"
+      ]
+    },
+    {
+      "choice": "SRPP in the intake racks",
+      "because": "its fibers take load around bolt holes, where polycarbonate cracked; it is lighter and more impact resistant",
+      "instead_of": "polycarbonate",
+      "basis": "team",
+      "src": [
+        "s10"
+      ]
+    },
+    {
+      "choice": "Belts for the hopper floor",
+      "because": "they give fuel more continuity than bobbling along rollers",
+      "instead_of": "rollers",
+      "cost": "several redesigns; the team would maybe choose differently",
+      "basis": "team",
+      "src": [
+        "s10",
+        "s8"
+      ]
+    },
+    {
+      "choice": "Even belt spacing across the floor",
+      "because": "slow motion video and ball rate counts showed it slightly better",
+      "instead_of": "belts paired into four lanes to match the shooter",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    },
+    {
+      "choice": "Continuous dead axle on the floor",
+      "because": "a split axle joined by a set screw bowed, then came apart in a final",
+      "instead_of": "a split shaft with a set screw, which the team urges others not to use",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    },
+    {
+      "choice": "Fixed belt centers for Worlds",
+      "because": "the team chose to set the tension once, with welded triangular plates adding rigidity",
+      "instead_of": "adjustable tension",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    },
+    {
+      "choice": "Dynamic current limits",
+      "because": "identifying the worst offenders by telemetry was not enough; limits on free-spinning subsystems and swerve change with zone, shot, motion and auto (from a post that reads as the team's)",
+      "basis": "observer",
+      "src": [
+        "s11"
+      ]
+    },
+    {
+      "choice": "Drive intake deployment entirely by gears",
+      "because": "impacts on linear intakes sheared timing belt teeth",
+      "instead_of": "a timing belt",
+      "basis": "team",
+      "src": [
+        "s12"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=TTjfNHw9jxM",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/72hb2vC",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/8dD535Q",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/OySSYGT",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/hbaHzV8",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/l2RTGzw",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/uaiGElf",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "2026 REBUILT",
+        "url": "https://www.team254.com/frc/2026/",
+        "format": "web page",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "825 New REBUILT WR | 254 1323 2367 | FRC FUNalysis Match Analysis",
+        "url": "https://www.youtube.com/watch?v=OwHXYmbLk4w",
+        "format": "video",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "Full robot on white, red 254 bumpers",
+        "url": "https://imgur.com/5UpB1Jk",
+        "img": "https://i.imgur.com/5UpB1Jkh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s5",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot, side view, blue bumpers, hopper filled with yellow balls",
+        "url": "https://imgur.com/BQxxojQ",
+        "img": "https://i.imgur.com/BQxxojQh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s6",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot on white with blue bumpers, OVERLOAD title above",
+        "url": "https://imgur.com/ntNSCmK",
+        "img": "https://i.imgur.com/ntNSCmKh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s7",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "CAD of a full-width belted floor with blue end plates",
+        "url": "https://www.chiefdelphi.com/t/team-254-presents-overload/516252/105",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/3/8/9/3891ffd7a84f12dcaf5d281a441908617ae4ceca_2_690x402.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "cad"
+      },
+      {
+        "what": "CAD top view of a full-width belted floor",
+        "url": "https://www.chiefdelphi.com/t/team-254-presents-overload/516252/105",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/1/b/f/1bf11c6054f7f63a2066aeecdf533c68caaf29b4_2_690x443.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "cad"
+      },
+      {
+        "what": "CAD close-up of a belt pulley and blue end plate",
+        "url": "https://www.chiefdelphi.com/t/team-254-presents-overload/516252/105",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/e/a/f/eafd01d214982ce456d5dcdcee1f48675ab84003_2_690x437.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "cad"
+      },
+      {
+        "what": "Video on the team's season page",
+        "url": "https://www.youtube.com/watch?v=GBFg7AJoOjI",
+        "format": "video",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "Reveal thread",
+        "url": "https://www.chiefdelphi.com/t/team-254-presents-overload/516252",
+        "format": "thread",
+        "state": "listed",
+        "src": "s9"
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/team254",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binder search: Chief Delphi title search \"254\" (34 topics), one web search, the season page and 29 pages of the team site; a team post of 2026-07-21 mentions a 2026 Tech Binder, but no public link was found"
+  ],
+  "results": {
+    "division": "Curie",
+    "division_opr": 321.71,
+    "opr_rank": 10,
+    "record": "65-6-0",
+    "einstein": {
+      "division": "Curie",
+      "role": "pick 1"
+    },
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

@@ -1,0 +1,693 @@
+{
+  "id": "2025-111",
+  "season": 2025,
+  "team": "111",
+  "team_name": "WildStang",
+  "robot_name": null,
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 111 in 2025",
+      "url": "https://www.thebluealliance.com/team/111/2025",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Johnson Division 2025",
+      "url": "https://www.thebluealliance.com/event/2025joh",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "WildStang and Plus One 2025 Robot Reveals",
+      "url": "https://www.chiefdelphi.com/t/wildstang-and-plus-one-2025-robot-reveals/492790",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "111 2025_111_robot_software",
+      "url": "https://github.com/wildstang/2025_111_robot_software",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "WildStang Robotics Program: 2024–2025 Competition Season Highlights – WildStang Robotics Program",
+      "url": "https://www.wildstang.org/ws_wp/2025/06/02/wildstang-robotics-program-2024-2025-competition-season-highlights/",
+      "publisher": "wildstang.org",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/1fRSSxW",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/IwCTZX5",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Onshape document",
+      "url": "https://cad.onshape.com/documents/cd6b1c3bcec743ac3a6bc559/w/f05c609292ec4546e43f6541/e/7ef5d3d77b01fa800eb213c4",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "111 WildStang | Behind the Bumpers | 2025 FRC REEFSCAPE (auto-caption, Midwest Regional)",
+      "url": "https://www.youtube.com/watch?v=LQM4GOc4akg",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "WildStang Build Blog 2025, post 392 (ground intake failures)",
+      "url": "https://www.chiefdelphi.com/t/wildstang-robotics-program-team-111-and-112-build-blog-2025/477716/392",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "WildStang Build Blog 2025, post 427 (championship failures and upgrades)",
+      "url": "https://www.chiefdelphi.com/t/wildstang-robotics-program-team-111-and-112-build-blog-2025/477716/427",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "WildStang Robotics Program: Team 111 and 112 Build Blog - 2025",
+      "url": "https://www.chiefdelphi.com/t/wildstang-robotics-program-team-111-and-112-build-blog-2025/477716",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [],
+    "demand": [],
+    "auto": [
+      {
+        "text": "At the championship the robot ran what the team calls a 4.5 coral auto, a few times reaching 4.83: four coral plus a coral and an algae pickup. The team calls it extremely consistent in qualification, but it scored one coral over all playoffs, after camera disconnects and a reef the team thinks had shifted.",
+        "basis": "team",
+        "src": [
+          "s12"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The operator selects things like L1 and L4; position on the field and sensors also decide what the robot does. In a super cycle it picks up algae, scores the coral it already holds in one motion, then scores the algae.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "A redesigned climber holds with a servo-engaged ratchet, added because the robot sometimes disengaged while climbing.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      }
+    ],
+    "fallback": [],
+    "gave_up": [
+      {
+        "text": "The robot was about 115 lb at its first event and the ground intake added about 16 lb, so that much had to come off elsewhere.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      },
+      {
+        "text": "A post that reads as the team's says there was no time to make many spare intake parts before Midwest; plates and tubes slowly broke and the intake broke in finals 2.",
+        "basis": "observer",
+        "src": [
+          "s11"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "The first event's robot took coral only from the human player station, which suffered in teleop under defense; a ground intake came before Midwest. The climber was redesigned, and algae gripper compression reduced because algae fell out.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      },
+      {
+        "text": "At the championship a borrowed intake roller got four bolts and glue after rollers pulled out of their prints, and it lasted the event; belt tension was raised.",
+        "basis": "team",
+        "src": [
+          "s12"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "39-7-0 in official play; ranked 20 of the pooled top 20 (OPR 98.26, Johnson).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Ground intake",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Stop depending on lining up with the human player station under defense",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "transfer",
+        "deliver"
+      ],
+      "type": "ground intake with floating roller and polycarbonate centering",
+      "serves": [
+        "reef-l1",
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "A floating roller lets in coral lying perpendicular to the intake",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "A bottom roller, instead of just a pad, lifts perpendicular coral",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "A polycarbonate centering piece replaces centering wheels",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Two motors: one set of rollers forward and the other backward keeps a coral in the middle, ready for L1",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Added weight, about",
+          "basis": "team",
+          "src": [
+            "s10"
+          ],
+          "value": 16,
+          "unit": "lb"
+        }
+      ],
+      "cost": [
+        {
+          "text": "A post that reads as the team's says it broke a lot at Midwest, mostly from sideswipes; raising the intake when unused mostly avoids them but is not always possible",
+          "basis": "observer",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "The same post says bearing retainer prints tore out until bolts with washers held them, belts jumped off small pulley flanges, and the floating roller's hardstop bolt should sit in a slot so the roller is hard to dislodge",
+          "basis": "observer",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "At Midwest, the championship and in practice, rollers sometimes pulled out of their prints because the bolt sits 1/4 in from the tube end",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "The bottom belt walked off in one match; a bent part added against it got the robot stuck on the reef after L1 a few times, so it was removed and belt tension raised",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Coral gripper",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Hold coral through an algae pickup and score it in the same motion",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "does": [
+        "retain",
+        "deliver"
+      ],
+      "type": "gripper with internal rollers",
+      "serves": [
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "Rollers inside the gripper give more traction on the coral, which is upside down while algae is picked up",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Offset from the algae gripper",
+          "basis": "team",
+          "src": [
+            "s10"
+          ],
+          "value": 6,
+          "unit": "in"
+        },
+        {
+          "text": "Made of a composite lighter than polycarbonate",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Algae gripper",
+      "pieces": [
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Keep algae from falling out of the claw, and score it",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "retain",
+        "deliver"
+      ],
+      "type": "gripper on the other end of the arm",
+      "serves": [],
+      "facts": [
+        {
+          "text": "A laser sensor detects algae",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "At the first event algae often fell out or could not be scored, so compression was reduced",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lift",
+      "solves": [
+        {
+          "text": "Raise quickly for faster cycles",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "Spectra-rigged lift",
+      "serves": [
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "Two Vortex motors, an aluminum barrel and Spectra rigging",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Stop the robot disengaging from the climb",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "cage climber with servo ratchet",
+      "serves": [
+        "cage"
+      ],
+      "facts": [
+        {
+          "text": "A servo engages a ratchet so the climb holds",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Lighter composite parts; weight was cut from the first event's climber",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Covered belly pan",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Protect the electronics from loose coral",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "electronics on the underside with a polycarbonate piece added",
+      "serves": [],
+      "facts": [
+        {
+          "text": "If a coral gets stuck on top, lifting the arm a little frees it",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reef localization",
+      "solves": [
+        {
+          "text": "Always see a tag while scoring on either branch",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "two crossed front Limelights",
+      "serves": [
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "Crossing the cameras keeps a tag in view when scoring the left or right branch",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Coral detection",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Find coral on the floor for a planned four to five piece ground-intake auto",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "acquire"
+      ],
+      "type": "third Limelight for object detection",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Gives a field position for a coral, which the robot drives to in auto",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Can switch to tags when not intaking, for three tag cameras",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "A coral hit made it disconnect in practice, until another camera was borrowed; a bad power path did so again in early championship playoffs",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Add a ground intake between events",
+      "because": "teleop under defense suffered, and other teams were doing well with ground intakes",
+      "instead_of": "loading only from the human player station",
+      "cost": "about 16 lb to remove elsewhere",
+      "basis": "team",
+      "src": [
+        "s10"
+      ]
+    },
+    {
+      "choice": "Center coral with polycarbonate",
+      "because": "no wheels are needed after the intake",
+      "instead_of": "centering wheels",
+      "basis": "team",
+      "src": [
+        "s10"
+      ]
+    },
+    {
+      "choice": "Make the carriage, coral gripper and climber from a lighter composite",
+      "because": "the ground intake's weight had to come off elsewhere",
+      "instead_of": "an aluminum carriage",
+      "basis": "team",
+      "src": [
+        "s10"
+      ]
+    },
+    {
+      "choice": "Offset coral and algae grippers",
+      "because": "the robot can pick up algae and score coral in one fluid motion",
+      "instead_of": "picking up the algae, backing away and moving the arm",
+      "basis": "team",
+      "src": [
+        "s10"
+      ]
+    },
+    {
+      "choice": "Cross the two front cameras",
+      "because": "a tag is always in view on the left or right branch",
+      "basis": "team",
+      "src": [
+        "s10"
+      ]
+    },
+    {
+      "choice": "Raise belt tension on the bottom roller",
+      "because": "a bent guard got the robot stuck on the reef after L1",
+      "instead_of": "a bent guard against belt walking",
+      "basis": "team",
+      "src": [
+        "s12"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "WildStang 2025 CAD — 25W - WildStang 2025, 26W0000 - Master Sketches",
+        "url": "https://cad.onshape.com/documents/cd6b1c3bcec743ac3a6bc559/w/f05c609292ec4546e43f6541/e/7ef5d3d77b01fa800eb213c4",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "CAD listed on the team page",
+        "url": "https://cad.onshape.com/documents/cd6b1c3bcec743ac3a6bc559/w/f05c609292ec4546e43f6541",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s1"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=LQM4GOc4akg",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/dvInzlr",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "WildStang and Plus One 2025 Robot Reveals",
+        "url": "https://www.chiefdelphi.com/t/wildstang-and-plus-one-2025-robot-reveals/492790",
+        "format": "thread",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "WildStang Robotics Program: 2024–2025 Competition Season Highlights – WildStang Robotics Program",
+        "url": "https://www.wildstang.org/ws_wp/2025/06/02/wildstang-robotics-program-2024-2025-competition-season-highlights/",
+        "format": "web page",
+        "state": "listed",
+        "src": "s6"
+      },
+      {
+        "what": "Full robot, studio view, blue bumpers, arm with green wheels raised",
+        "url": "https://imgur.com/1fRSSxW",
+        "img": "https://i.imgur.com/1fRSSxWh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s7",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Full robot, red bumpers, beside hanging red cage",
+        "url": "https://imgur.com/IwCTZX5",
+        "img": "https://i.imgur.com/IwCTZX5h.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot CAD, intake lowered and arm raised",
+        "url": "https://cad.onshape.com/documents/cd6b1c3bcec743ac3a6bc559/w/f05c609292ec4546e43f6541/e/7ef5d3d77b01fa800eb213c4",
+        "img": "https://cad.onshape.com/api/thumbnails/d/cd6b1c3bcec743ac3a6bc559/w/f05c609292ec4546e43f6541/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s9",
+        "kind": "cad"
+      },
+      {
+        "what": "Championship auto video (not watched)",
+        "url": "https://www.youtube.com/watch?v=FIfwP9b8D7s",
+        "format": "video",
+        "state": "listed",
+        "src": "s12"
+      }
+    ],
+    "documents": [
+      {
+        "what": "2025 build blog (shared with Team 112)",
+        "url": "https://www.chiefdelphi.com/t/wildstang-robotics-program-team-111-and-112-build-blog-2025/477716",
+        "format": "thread",
+        "state": "listed",
+        "src": "s13"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/wildstang",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "111 2025_111_robot_software",
+        "url": "https://github.com/wildstang/2025_111_robot_software",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s5"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: Chief Delphi title search \"111\" (first page only), which returned CADathon and combined-team binders; 29 pages of the team site (cut off at that limit)"
+  ],
+  "results": {
+    "division": "Johnson",
+    "division_opr": 98.26,
+    "opr_rank": 20,
+    "record": "39-7-0",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

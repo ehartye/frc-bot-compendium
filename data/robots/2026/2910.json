@@ -1,0 +1,1191 @@
+{
+  "id": "2026-2910",
+  "season": 2026,
+  "team": "2910",
+  "team_name": "Jack in the Bot",
+  "robot_name": "Re•Blitz",
+  "variant": "Re•Blitz, the rebuild that played the PNW District Championship and the FIRST Championship. Blitz, the first robot, played the first two district events and appears only under what changed. The season win-loss record includes those two events.",
+  "sources": {
+    "s1": {
+      "title": "Team 2910 in 2026",
+      "url": "https://www.thebluealliance.com/team/2910/2026",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Newton Division 2026",
+      "url": "https://www.thebluealliance.com/event/2026new",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FIRST: Newton match timing, what happened (2026)",
+      "url": "https://www.chiefdelphi.com/t/frc-blog-newton-match-timing-what-happened-and-what-s-next/522088",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "2910 2026 Blitz Tech Binder, Drive",
+      "url": "https://drive.google.com/file/d/1jPf-aOGhz0dntoAgahFBgRhJiJv9rGpj/view",
+      "publisher": "drive.google.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "2910 2026 Re-Blitz Tech Binder, Drive",
+      "url": "https://drive.google.com/file/d/1r-6zR4afbr_BpeZfWwcM5XL1N74FjScI/view",
+      "publisher": "drive.google.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "We Rebuilt our Robot. Then we went to Einstein.",
+      "url": "https://frcteam2910.org/2026/05/03/we-rebuilt-our-robot-then-we-went-to-einstein/",
+      "publisher": "frcteam2910.org",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "2910 2026CompetitionRobot-Public (Re-Blitz)",
+      "url": "https://github.com/FRCTeam2910/2026CompetitionRobot-Public",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "How to Win a World Championship | FRC Strategy Analysis",
+      "url": "https://www.youtube.com/watch?v=-Cm-RuiSNlU",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "PNW Champs Mic'd Up | 2910 Jack in the Bot | Behind the Glass",
+      "url": "https://www.youtube.com/watch?v=OXOg9MklcLo",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/m0gtD6c",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/qv7dT05",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "Onshape document",
+      "url": "https://2910.onshape.com/documents/dfb391aac173a4555d00a5b5/w/3dc64f602735252892b0e47b/e/6c654da4eb6b1710fb0900bd?configuration=List_gTJHVM5EzW0JZB%3DMax_Hood_Angle&renderMode=0&uiState=6a23004ccae613be8b3519ec",
+      "publisher": "2910.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "Onshape document",
+      "url": "https://2910.onshape.com/documents/28894ad47d9c63a665e2a36b/w/078272beb4618ea6cffc78e0/e/aea9a72f86f273a5a9484208?configuration=default&renderMode=0&uiState=6a22ffe07389e39f66605a90",
+      "publisher": "2910.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "2910 CAD and Tech Binder Release 2026, post 32",
+      "url": "https://www.chiefdelphi.com/t/2910-cad-and-tech-binder-release-2026/521705/32",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "2910 Robot Reveal, 2026: Blitz",
+      "url": "https://www.chiefdelphi.com/t/2910-robot-reveal-2026-blitz/516325",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "2910 CAD and Tech Binder Release 2026",
+      "url": "https://www.chiefdelphi.com/t/2910-cad-and-tech-binder-release-2026/521705",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "2910 Jack in the Bot | Behind the Bumpers | FRC REBUILT Robot",
+      "url": "https://www.youtube.com/watch?v=tKCFKqK_sXs",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "2910 CAD and Tech Binder Release 2026, post 62",
+      "url": "https://www.chiefdelphi.com/t/2910-cad-and-tech-binder-release-2026/521705/62",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "2910 CAD and Tech Binder Release 2026, post 116",
+      "url": "https://www.chiefdelphi.com/t/2910-cad-and-tech-binder-release-2026/521705/116",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s22": {
+      "title": "Team 2910 Code Release 2026",
+      "url": "https://www.chiefdelphi.com/t/team-2910-code-release-2026/521778",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s23": {
+      "title": "The 10 Best FRC Robots of 2026",
+      "url": "https://www.youtube.com/watch?v=DLTgYLVH-Z0",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Maximum throughput from a self-sufficient, aggressively simple scorer with a hopper, instead of a passer that relies on its alliance partners.",
+        "basis": "team",
+        "src": [
+          "s7"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "Two weeks into the competition season the team put throughput first and valued being self-sufficient, because elevating partners had not been enough against strong scoring robots. It judged that winning auto is not vital but that what the robot does in auto is. It also wanted a hopper, to resist defense in a hub-scoring role.",
+        "basis": "team",
+        "src": [
+          "s7"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "Point-to-point paths are built for two center sweeps: under the trench on the way out to preserve odometry, over the bump on the way back, where relocalizing is easier.",
+        "basis": "team",
+        "src": [
+          "s7"
+        ]
+      },
+      {
+        "text": "A rotation turns the camera to the back hub tags before the bump, to recover from center-line collisions.",
+        "basis": "team",
+        "src": [
+          "s19"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The intake fills the hopper and sensors preload the feeder. With a valid tag seen and tolerances met, the feeder runs and the intake retracts to compress fuel toward the shooter. In passing mode it aims at the closest corner of the alliance zone.",
+        "basis": "team",
+        "src": [
+          "s7"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "The binder describes no climber; in its extracted text, 'Climb' falls in the no-design-effort list, whose table columns were lost.",
+        "basis": "inference",
+        "src": [
+          "s7"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "A failsafe mode fires from set positions with preset flywheel speeds and hood angles, without vision. The tag requirement can be overridden by hand, and the wheels can lock in an X under defense.",
+        "basis": "team",
+        "src": [
+          "s7"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "The team set aside its 'Familiar' and 'Lightweight' objectives.",
+        "basis": "team",
+        "src": [
+          "s7"
+        ]
+      },
+      {
+        "text": "A reply that reads as the team's says prototyping was skipped and driver practice limited.",
+        "basis": "observer",
+        "src": [
+          "s18"
+        ]
+      },
+      {
+        "text": "In one member's view, localization was the biggest limit at Champs.",
+        "basis": "team",
+        "src": [
+          "s20"
+        ]
+      },
+      {
+        "text": "An outside list notes a small hopper and no net.",
+        "basis": "observer",
+        "src": [
+          "s23"
+        ]
+      },
+      {
+        "text": "A commentator says 4065's defense held it to essentially one hopper in a finals 2 shift.",
+        "basis": "observer",
+        "src": [
+          "s10"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "Blitz, a passer with two side four-bar intakes, a serpentine path and no hopper, was limited by intake and shoot-on-the-move speed.",
+        "basis": "team",
+        "src": [
+          "s7",
+          "s19",
+          "s6"
+        ]
+      },
+      {
+        "text": "The team's interview and a team post date the rebuild decision to after the first event; its blog speaks of the first two competitions.",
+        "basis": "team",
+        "src": [
+          "s19",
+          "s16",
+          "s8"
+        ]
+      },
+      {
+        "text": "Breaking deploy chains were Blitz's biggest intake fault, a team post says.",
+        "basis": "team",
+        "src": [
+          "s21"
+        ]
+      },
+      {
+        "text": "A reply that reads as the team's says the four-bar broke every match.",
+        "basis": "observer",
+        "src": [
+          "s18"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "53-23-0 in official play; won the Newton division; championship finalist; captain of the Newton alliance on Einstein; ranked 2 of the pooled top 20 (OPR 408.46, Newton).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drivebase",
+      "solves": [
+        {
+          "text": "Stay fast and robust, with a smooth underside that does not get stuck on fuel",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ],
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "27.5 x 27 in chassis, modified from Blitz with the modules rotated 90 degrees",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "MK5n modules with R1 gearing, the lowest ratio, to minimize current draw",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Four Kraken X60 drive, four X44 steer",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Custom lowering blocks and a polycarbonate bellypan keep fuel from getting under the robot and stop it getting stuck",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Withstand impacts by strength; a powered bottom roller was added so that it could intake at maximum robot speed",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "slap-down over-the-bumper roller intake",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Takes up to this many at once",
+          "basis": "team",
+          "src": [
+            "s7"
+          ],
+          "value": 4,
+          "unit": "fuel"
+        },
+        {
+          "text": "Deployed by one Kraken X60 with a #35 chain final reduction",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Deploy gear ratio",
+          "basis": "team",
+          "src": [
+            "s7"
+          ],
+          "value": 40,
+          "unit": ":1"
+        },
+        {
+          "text": "One 2 in main roller and two 1.25 in lower dead-axle rollers, on two Kraken X60",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Billet side plates about 0.6 in thick, split in two sections joined by five bolts each",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "A 2 x 2 box-tube 'bash bar' sits over the main roller to protect it",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "A championship interview calls it a four-bar once; the binder says a slap-down replaced the four-bar",
+          "basis": "team",
+          "src": [
+            "s7",
+            "s19"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "A team post says it was massively overdesigned to make sure that it would not break",
+          "basis": "team",
+          "src": [
+            "s21"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hopper",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Resist defense and separate scoring from driving and shooting on the move",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ],
+      "does": [
+        "retain"
+      ],
+      "type": "one-piece polycarbonate hopper, passively deployed",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Stows above the shooter and slides out on bearings when the intake deploys",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Catchers lock it out so that it cannot be pushed back into the shooter",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Capacity given in the team's championship interview (captioned), about",
+          "basis": "team",
+          "src": [
+            "s19"
+          ],
+          "value": 55,
+          "unit": "balls"
+        },
+        {
+          "text": "An outside list says just over 50 balls",
+          "basis": "observer",
+          "src": [
+            "s23"
+          ]
+        },
+        {
+          "text": "Light-tinted panels show how much fuel is inside; sheet metal brackets with flush nuts let damaged panels be replaced easily",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "An outside list says the hopper is small for a dumper, so the robot must cycle extremely quickly",
+          "basis": "observer",
+          "src": [
+            "s23"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Feeder",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Raise throughput over the serpentine path, which moved fuel needlessly before the shot",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "inclined powered roller floor",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Incline",
+          "basis": "team",
+          "src": [
+            "s7"
+          ],
+          "value": 15,
+          "unit": "deg"
+        },
+        {
+          "text": "Ten 1.25 in rollers and an indexing roller with nine 2.25 in 35A compliant wheels, four balls wide",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "All chained together at 1:1 on four Kraken X60",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Teflon-covered backing boards in the tower and hopper improved consistency and throughput, the team says",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "A front backing board slides balls into the shooter more quickly",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Preload",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Fit more fuel into each hopper cycle",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "transfer"
+      ],
+      "type": "two CANrange sensors",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "When the hopper sensor trips, at around 80% full, the feeder runs until its own sensor trips, just before the flywheel",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        },
+        {
+          "text": "Adds two rows of four per hopper cycle",
+          "basis": "team",
+          "src": [
+            "s19"
+          ],
+          "value": 8,
+          "unit": "balls"
+        }
+      ]
+    },
+    {
+      "name": "Shooter",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Keep exit velocity consistent across many shots",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "four-wide drum shooter with hood",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "4 in aluminum drum with 1.5 in hood rollers",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Flywheel overdrive ratio",
+          "basis": "team",
+          "src": [
+            "s7"
+          ],
+          "value": 6.7,
+          "unit": ":1"
+        },
+        {
+          "text": "Sustained maximum over a full hopper, as the team states it",
+          "basis": "team",
+          "src": [
+            "s7"
+          ],
+          "value": 34,
+          "unit": "balls/s"
+        },
+        {
+          "text": "The interviewer and an outside list say about 35 balls/s",
+          "basis": "observer",
+          "src": [
+            "s19",
+            "s23"
+          ]
+        },
+        {
+          "text": "The flywheel started at a lower ratio, was raised with the original stainless wheel for the district championship, and ended as a custom balanced brass one; a less extreme overspeed would also work",
+          "basis": "team",
+          "src": [
+            "s21"
+          ]
+        },
+        {
+          "text": "Aluminum supports hold the backing plates where feeder rollers once were, per a reply that reads as the team's",
+          "basis": "observer",
+          "src": [
+            "s18"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Rollers used before the backing plates made exit velocity inconsistent and spread the shot",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vision relocalization",
+      "solves": [
+        {
+          "text": "Keep the robot's position good enough to aim after collisions",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "one front Limelight 4 measuring tag distance",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Distance comes from the pixel height of the tag, looked up in a table",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        },
+        {
+          "text": "Averaging the tag's height to its middle fixed distortion when the hub tags are seen at an angle",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        },
+        {
+          "text": "Tag distance resets odometry translation, which sets shot parameters and corrects the auto path",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "The robot may not shoot without a visible tag unless overridden",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "One team member says that with more time the team would have put a lot of effort into more cameras, since localization was the biggest limit at Champs",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base Subsystems and state machine",
+      "solves": [
+        {
+          "text": "Program only the logic specific to each subsystem",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "code templates with finite state machines",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Servo and roller parent classes generate motor interfaces and logging from IDs, ratios and limits",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Bring-up to basic functionality took about (captioned)",
+          "basis": "team",
+          "src": [
+            "s19"
+          ],
+          "value": 2,
+          "unit": "h"
+        },
+        {
+          "text": "A button pushes a wanted state to the superstructure, which passes wanted states to subsystems",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pass-on-the-move",
+      "pieces": [
+        "fuel"
+      ],
+      "does": [
+        "sense",
+        "deliver"
+      ],
+      "type": "pose extrapolation with a lookup table",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Pose is extrapolated forward by a time-of-flight constant, then a passing table and a rotation calculation give shooter speed and rotation",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Multi-ratio gearboxes",
+      "solves": [
+        {
+          "text": "Change speeds quickly without remaking gearbox plates",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "gearboxes designed for several ratios",
+      "serves": [],
+      "facts": [
+        {
+          "text": "All gearboxes accept multiple ratios, so speeds change without remaking plates",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Rebuild the robot mid-season",
+      "because": "the strategy was mostly right but Blitz could not execute it well enough",
+      "instead_of": "iterating Blitz",
+      "cost": "about three weeks for design, assembly and bring-up",
+      "basis": "team",
+      "src": [
+        "s7",
+        "s8",
+        "s16"
+      ]
+    },
+    {
+      "choice": "Aggressively simple design drawn from 254, 1678 and 6328",
+      "because": "the timeline was extreme and those architectures had already proven themselves by Week 2",
+      "cost": "an architecture that was not familiar to the team",
+      "basis": "team",
+      "src": [
+        "s7"
+      ]
+    },
+    {
+      "choice": "Slap-down intake",
+      "because": "it is simpler and more robust, taking impacts by strength",
+      "instead_of": "a four-bar that collapses on impact",
+      "basis": "team",
+      "src": [
+        "s7"
+      ]
+    },
+    {
+      "choice": "Single intake",
+      "because": "two did not raise throughput, complicated the robot and constrained iteration",
+      "instead_of": "two side intakes",
+      "basis": "team",
+      "src": [
+        "s7",
+        "s6"
+      ]
+    },
+    {
+      "choice": "Add a hopper",
+      "because": "it makes the robot more defense resistant and separates scoring from shooting on the move",
+      "instead_of": "using the alliance and neutral zones as the hopper",
+      "basis": "team",
+      "src": [
+        "s7"
+      ]
+    },
+    {
+      "choice": "Powered feeder floor",
+      "because": "it prioritizes throughput",
+      "instead_of": "a passive polycarbonate floor",
+      "basis": "team",
+      "src": [
+        "s7"
+      ]
+    },
+    {
+      "choice": "Widen the shooter and feeder to four balls",
+      "because": "it prioritizes throughput",
+      "instead_of": "three balls wide",
+      "basis": "team",
+      "src": [
+        "s7"
+      ]
+    },
+    {
+      "choice": "Chain-driven rollers",
+      "because": "chain has less rolling resistance, which made the system more power-efficient",
+      "instead_of": "belts",
+      "basis": "team",
+      "src": [
+        "s7"
+      ]
+    },
+    {
+      "choice": "Backing plates in the shooter tower",
+      "because": "more rollers did not help balls per second and made exit velocity inconsistent",
+      "instead_of": "rollers",
+      "basis": "team",
+      "src": [
+        "s19"
+      ]
+    },
+    {
+      "choice": "Tag pixel height for distance",
+      "because": "the team tried MegaTag and calls it reliable, but says its simple solution works very well",
+      "instead_of": "MegaTag",
+      "basis": "team",
+      "src": [
+        "s19"
+      ]
+    },
+    {
+      "choice": "No dye rotor",
+      "because": "it was discussed on day 1 and judged beyond the team's experience and design resources that season, per one member's post",
+      "basis": "team",
+      "src": [
+        "s20"
+      ]
+    },
+    {
+      "choice": "R1 gearing",
+      "because": "the lowest ratio minimizes current draw",
+      "basis": "team",
+      "src": [
+        "s7"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "Comp Robot – Blitz & Re•Blitz (2 robots)",
+        "url": "https://2910.onshape.com/documents/dfb391aac173a4555d00a5b5/w/3dc64f602735252892b0e47b/e/6c654da4eb6b1710fb0900bd?configuration=List_gTJHVM5EzW0JZB%3DMax_Hood_Angle&renderMode=0&uiState=6a23004ccae613be8b3519ec",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "Comp Robot – Blitz & Re•Blitz (2 robots)",
+        "url": "https://2910.onshape.com/documents/28894ad47d9c63a665e2a36b/w/078272beb4618ea6cffc78e0/e/aea9a72f86f273a5a9484208?configuration=default&renderMode=0&uiState=6a22ffe07389e39f66605a90",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "Comp Robot – Blitz & Re•Blitz (2 robots)",
+        "url": "https://drive.google.com/file/d/1r-6zR4afbr_BpeZfWwcM5XL1N74FjScI/view?usp=sharing",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "Comp Robot – Blitz & Re•Blitz (2 robots)",
+        "url": "https://drive.google.com/file/d/1jPf-aOGhz0dntoAgahFBgRhJiJv9rGpj/view?usp=sharing",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "CAD listed on the team page",
+        "url": "https://cad.onshape.com/documents/28894ad47d9c63a665e2a36b/w/078272beb4618ea6cffc78e0",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "CAD listed on the team page",
+        "url": "https://cad.onshape.com/documents/dfb391aac173a4555d00a5b5/w/3dc64f602735252892b0e47b",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s1"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=1rzbSWugDUQ",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=pTbovFqceX8",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=tKCFKqK_sXs",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/2UoIQrs",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "We Rebuilt our Robot. Then we went to Einstein.",
+        "url": "https://frcteam2910.org/2026/05/03/we-rebuilt-our-robot-then-we-went-to-einstein/",
+        "format": "web page",
+        "state": "listed",
+        "src": "s8"
+      },
+      {
+        "what": "How to Win a World Championship | FRC Strategy Analysis",
+        "url": "https://www.youtube.com/watch?v=-Cm-RuiSNlU",
+        "format": "video",
+        "state": "listed",
+        "src": "s10"
+      },
+      {
+        "what": "PNW Champs Mic'd Up | 2910 Jack in the Bot | Behind the Glass",
+        "url": "https://www.youtube.com/watch?v=OXOg9MklcLo",
+        "format": "video",
+        "state": "listed",
+        "src": "s11"
+      },
+      {
+        "what": "Full robot, blue bumpers, intake with purple roller collecting yellow balls",
+        "url": "https://imgur.com/m0gtD6c",
+        "img": "https://i.imgur.com/m0gtD6ch.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s12",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot with clear hopper marked ReBlitz, holding yellow balls",
+        "url": "https://imgur.com/qv7dT05",
+        "img": "https://i.imgur.com/qv7dT05h.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s13",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Full robot CAD, green bumpers, hopper enclosed",
+        "url": "https://2910.onshape.com/documents/dfb391aac173a4555d00a5b5/w/3dc64f602735252892b0e47b/e/6c654da4eb6b1710fb0900bd?configuration=List_gTJHVM5EzW0JZB%3DMax_Hood_Angle&renderMode=0&uiState=6a23004ccae613be8b3519ec",
+        "img": "https://cad.onshape.com/api/thumbnails/d/dfb391aac173a4555d00a5b5/w/3dc64f602735252892b0e47b/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s14",
+        "kind": "cad"
+      },
+      {
+        "what": "Full robot CAD, green bumpers, upper rollers visible",
+        "url": "https://2910.onshape.com/documents/28894ad47d9c63a665e2a36b/w/078272beb4618ea6cffc78e0/e/aea9a72f86f273a5a9484208?configuration=default&renderMode=0&uiState=6a22ffe07389e39f66605a90",
+        "img": "https://cad.onshape.com/api/thumbnails/d/28894ad47d9c63a665e2a36b/w/078272beb4618ea6cffc78e0/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s15",
+        "kind": "cad"
+      },
+      {
+        "what": "Roller mechanism with arm, CAD",
+        "url": "https://www.chiefdelphi.com/t/2910-cad-and-tech-binder-release-2026/521705/32",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/a/9/5/a9524ccd618947f10f20128b43c98ffd996605b6_2_517x354.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s16",
+        "kind": "cad"
+      },
+      {
+        "what": "Full robot render, intake lowered, titled Blitz",
+        "url": "https://www.chiefdelphi.com/t/2910-robot-reveal-2026-blitz/516325",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/c/b/1/cb15e0ed84fd84a48e00155d5dc514d5253993e3_2_500x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s17",
+        "kind": "cad"
+      },
+      {
+        "what": "Full robot, red bumpers, rollers with green hubs",
+        "url": "https://www.chiefdelphi.com/t/2910-cad-and-tech-binder-release-2026/521705",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/c/1/3/c13c6cf472605e20d3208b3293176a15fd2e4f75_2_690x459.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s18",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Belt and pulley path highlighted, side view CAD",
+        "url": "https://www.chiefdelphi.com/t/2910-cad-and-tech-binder-release-2026/521705",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/e/3/4/e34e3400c4ae12b967b405604b18e4b037864d35_2_690x301.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s18",
+        "kind": "cad"
+      },
+      {
+        "what": "Lightened side plate and pulley, CAD close-up",
+        "url": "https://www.chiefdelphi.com/t/2910-cad-and-tech-binder-release-2026/521705",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/8/6/d/86ddacb1b21e448b4f22f0f334c32d0fef3d1c59_2_690x352.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s18",
+        "kind": "cad"
+      },
+      {
+        "what": "Two tubes highlighted, rest of CAD faded",
+        "url": "https://www.chiefdelphi.com/t/2910-cad-and-tech-binder-release-2026/521705",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/7/6/9/7690a679db248e50e13346b2e0ef97f32241a165_2_622x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s18",
+        "kind": "cad"
+      },
+      {
+        "what": "Intake side plate and rollers, CAD close-up",
+        "url": "https://www.chiefdelphi.com/t/2910-cad-and-tech-binder-release-2026/521705",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/0/4/6/046f3a32a93f5190d99da64fb6a38bec1e2158af_2_647x500.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s18",
+        "kind": "cad"
+      }
+    ],
+    "documents": [
+      {
+        "what": "2910 2026 Blitz Tech Binder",
+        "url": "https://drive.google.com/file/d/1jPf-aOGhz0dntoAgahFBgRhJiJv9rGpj/view",
+        "format": "Google Drive",
+        "state": "opened",
+        "src": "s6"
+      },
+      {
+        "what": "2910 2026 Re-Blitz Tech Binder",
+        "url": "https://drive.google.com/file/d/1r-6zR4afbr_BpeZfWwcM5XL1N74FjScI/view",
+        "format": "Google Drive",
+        "state": "opened",
+        "src": "s7"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/frcteam2910",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "2910 2026CompetitionRobot-Public (Re-Blitz)",
+        "url": "https://github.com/FRCTeam2910/2026CompetitionRobot-Public",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s9"
+      },
+      {
+        "what": "Team 2910 Code Release 2026 (Re•Blitz)",
+        "url": "https://www.chiefdelphi.com/t/team-2910-code-release-2026/521778",
+        "format": "thread",
+        "state": "listed",
+        "src": "s22"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "Re-Blitz and Blitz tech binders, text extraction (figures not read; requirement tables not used, since the marks for unmet requirements were lost)"
+  ],
+  "results": {
+    "division": "Newton",
+    "division_opr": 408.46,
+    "opr_rank": 2,
+    "record": "53-23-0",
+    "einstein": {
+      "division": "Newton",
+      "role": "captain"
+    },
+    "src": [
+      "s1",
+      "s2",
+      "s3"
+    ],
+    "note": "Several 2026 Newton division matches ran longer than expected. FIRST replayed one and says it could not tell which outcomes changed, so whether this moved any OPR is not known."
+  }
+}

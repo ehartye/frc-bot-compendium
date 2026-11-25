@@ -1,0 +1,1123 @@
+{
+  "id": "2025-1690",
+  "season": 2025,
+  "team": "1690",
+  "team_name": "Orbit",
+  "robot_name": "Whisper",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 1690 in 2025",
+      "url": "https://www.thebluealliance.com/team/1690/2025",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Johnson Division 2025",
+      "url": "https://www.thebluealliance.com/event/2025joh",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Orbit 1690 2025 Season Recap",
+      "url": "https://www.chiefdelphi.com/t/1690-2025-season-recap/501661",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Orbit 1690 4 L4 Coral Auto",
+      "url": "https://www.chiefdelphi.com/t/orbit-1690-4-l4-coral-auto/491151",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Orbit 1690 2025 Championship strategy (translated)",
+      "url": "https://docs.google.com/document/d/1-d0H4FX96-tHJPqhPXiLpwrVw2h3RaA4godHjeTWT8A/edit",
+      "publisher": "docs.google.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "1690orbit.com 2025 Reefscape page",
+      "url": "https://www.1690orbit.com/2025-reefscape",
+      "publisher": "1690orbit.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Robots (7d54950)",
+      "url": "https://www.1690orbit.com/robots",
+      "publisher": "1690orbit.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "FUNalysis Match Breakdown | ISR 1 M1 High Score | 5614 1690 5928 |REEFSCAPE 2025",
+      "url": "https://www.youtube.com/watch?v=3Hqi4BVWlzQ",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "The Best 3 Matches of Reefscape EVER  | FRC Strategy Analysis",
+      "url": "https://www.youtube.com/watch?v=SQure1sSDpk",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Breaking down IRI Finals! | FRC Strategy Analysis",
+      "url": "https://www.youtube.com/watch?v=ZTCIVjEjDjg",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "224 High Score Breakdown | ISR 3 M1 | FUNalysis | 1690 5990 5135 | REEFSCAPE 2025",
+      "url": "https://www.youtube.com/watch?v=qxhcmMeo_HU",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/G2ptyzC",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "FRC Orbit 1690 2025 Robot CAD Release",
+      "url": "https://www.chiefdelphi.com/t/frc-orbit-1690-2025-robot-cad-release/501057",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "1690 Orbit | Behind the Bumpers | FRC 2025 REEFSCAPE (auto-caption)",
+      "url": "https://www.youtube.com/watch?v=cR4SveW2Rjc",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "Orbit 1690 2025 Robot Reveal - \"WHISPER\"",
+      "url": "https://www.chiefdelphi.com/t/orbit-1690-2025-robot-reveal-whisper/492064",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "Orbit 1690 2025 Robot Reveal, post 79 (ISR 1 recap)",
+      "url": "https://www.chiefdelphi.com/t/orbit-1690-2025-robot-reveal-whisper/492064/79",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "Orbit 1690 2025 Robot Reveal, post 160 (championship recap)",
+      "url": "https://www.chiefdelphi.com/t/orbit-1690-2025-robot-reveal-whisper/492064/160",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "FRC Orbit 1690 2025 Robot CAD Release, post 35 (intake development)",
+      "url": "https://www.chiefdelphi.com/t/frc-orbit-1690-2025-robot-cad-release/501057/35",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "The fastest, shortest coral cycles that are hard to defend, from a ground intake and the lightest, fastest arm and elevator possible, with every motor kept low.",
+        "basis": "team",
+        "src": [
+          "s15"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "Coral came first, without over-compromising on algae. It wanted to be sure of the climb, for its 12 points and the ranking point.",
+        "basis": "team",
+        "src": [
+          "s15"
+        ]
+      },
+      {
+        "text": "At the championship it expected division seeding to come down to tie breakers, so it took the co-op bonus whenever it could and seeded first on it alone.",
+        "basis": "team",
+        "src": [
+          "s18"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "No planned paths: the team picks a start, a feeder and allowed branches, and the robot finds coral by camera and takes the closest branch.",
+        "basis": "team",
+        "src": [
+          "s15"
+        ]
+      },
+      {
+        "text": "The team's average was 4.73 pieces in auto at Johnson and 4.83 on Einstein.",
+        "basis": "team",
+        "src": [
+          "s18"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The driver steers toward a coral with assistance and the robot takes it in. The arm picks it from the conveyor and goes to placing position. When the driver allows, the robot curves to the nearest face and places at the highest allowed free level.",
+        "basis": "team",
+        "src": [
+          "s15"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "Two tubes latch the cage with a magnet and centering prints, and a ratcheted winch climbs. Pressed with three seconds or less left, the climb runs at double acceleration and velocity, avoided otherwise because of the forces.",
+        "basis": "team",
+        "src": [
+          "s15"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "When a false sensor reading stuck the intake closed at ISR 1, the robot played only algae cycles and once took one from the ground, which it was not designed for. The operator could have overridden the sensor on the dashboard.",
+        "basis": "team",
+        "src": [
+          "s17"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "It was not designed for algae from the floor; in Einstein final 2 an opponent took its lollipop algae that way.",
+        "basis": "team",
+        "src": [
+          "s17",
+          "s18"
+        ]
+      },
+      {
+        "text": "The elevator belt's joint broke before ISR 1, a hot-welded replacement began failing there, and a seam began to delaminate before the Einstein finals.",
+        "basis": "team",
+        "src": [
+          "s17",
+          "s18"
+        ]
+      },
+      {
+        "text": "Climber plates thinned to 4 mm for weight bent.",
+        "basis": "team",
+        "src": [
+          "s17"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "The intake first tried to orient coral and jammed at steep angles, so a V indexer took over; after ISR 3 the front roller became all stars.",
+        "basis": "team",
+        "src": [
+          "s19"
+        ]
+      },
+      {
+        "text": "At ISR 1 the climber got 6 mm plates, aluminum rings and rubber tires, and a zip-tie failure point that snapped by itself was dropped.",
+        "basis": "team",
+        "src": [
+          "s17"
+        ]
+      },
+      {
+        "text": "Wide wedges later stopped the cage slipping out.",
+        "basis": "team",
+        "src": [
+          "s15"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "62-9-0 in official play; won the Johnson division; championship finalist; captain of the Johnson alliance on Einstein; ranked 8 of the pooled top 20 (OPR 110.15, Johnson).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Swerve drive",
+      "does": [
+        "drive"
+      ],
+      "type": "custom swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Free speed",
+          "basis": "team",
+          "src": [
+            "s8"
+          ],
+          "value": 4.2,
+          "unit": "m/s"
+        },
+        {
+          "text": "Four Kraken X60 drive motors and four Falcon steering motors",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Same modules as 2024, regeared for acceleration over top speed because cycles are short",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Weight distribution",
+      "solves": [
+        {
+          "text": "Keep the center of gravity low with a tall elevator",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "maximum frame perimeter with motors low",
+      "serves": [],
+      "facts": [
+        {
+          "text": "The team says it can drive at full speed with elevator and arm fully extended without tipping",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "The highest motor, on the intake, sits at about",
+          "basis": "team",
+          "src": [
+            "s15"
+          ],
+          "value": 10,
+          "unit": "in"
+        },
+        {
+          "text": "Custom bearing hubs weigh about half as much as off-the-shelf ones and also carry the elevator pulleys",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "An unsigned post that reads as the team's says 3 kg had to be found across the whole robot during build",
+          "basis": "observer",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Take coral in any orientation, near a wall, the reef or a defender",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "collapsing four-bar ground intake",
+      "serves": [
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "Plates of 1/4 in polycarbonate with brass bushings; the linkage collapses inward on impact and the plates flex in side hits",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "A slot lets the top roller slide up for vertical coral",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Star compliant wheels replaced round ones for the most flexibility in the least space, says an unsigned post that reads as the team's",
+          "basis": "observer",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "A third roller was added at the back to fix a dead spot found on the robot",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "An unsigned post that reads as the team's calls the intake and suction cup the main development focus for most of the season",
+          "basis": "observer",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Conveyor",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Center the coral on the robot every time",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "V-shaped wheel indexer",
+      "serves": [
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "Two sets of wheels in a V center the coral on the robot",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Two Kraken X44 motors, so each side can be driven separately if a coral gets stuck",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Comes off with four screws because the motors below drive it through hex shaft and printed couplers",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Chosen over horizontal rollers pushing the coral into a wall",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Differential elevator and arm",
+      "solves": [
+        {
+          "text": "Move elevator and arm with no motors or gearboxes on the parts that go up",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "three-stage differential elevator and arm on one belt loop",
+      "serves": [
+        "reef-branches",
+        "processor",
+        "net"
+      ],
+      "facts": [
+        {
+          "text": "Driven by two Kraken X60 motors at the bottom; moving both sides of the belt together lifts, a difference rotates the arm",
+          "basis": "team",
+          "src": [
+            "s8",
+            "s15"
+          ]
+        },
+        {
+          "text": "Continuous HTD belt loop length",
+          "basis": "team",
+          "src": [
+            "s8"
+          ],
+          "value": 9,
+          "unit": "m"
+        },
+        {
+          "text": "The arm is one carbon fiber tube with printed parts",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Each motor's acceleration and top speed are changed during the move so the two motions stay in step and neither overshoots",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The belt broke, began failing or began to delaminate on three occasions in the season",
+          "basis": "team",
+          "src": [
+            "s17",
+            "s18"
+          ]
+        },
+        {
+          "text": "An untested move from L4 to L3 exceeded acceleration limits and skipped an untensioned belt in the elevator transmission",
+          "basis": "team",
+          "src": [
+            "s17"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Suction cup",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Hold coral and algae without a motor on the arm",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "retain",
+        "deliver"
+      ],
+      "type": "vacuum end effector for both pieces",
+      "serves": [
+        "reef-l1",
+        "reef-branches",
+        "processor",
+        "net"
+      ],
+      "facts": [
+        {
+          "text": "An off-the-shelf cup for coral inside a silicone seal for algae",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "The seal is molded in the shop in about a day, so it could be iterated quickly",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Carriage, arm and manipulator together weigh about",
+          "basis": "team",
+          "src": [
+            "s15"
+          ],
+          "value": 2.5,
+          "unit": "lb"
+        },
+        {
+          "text": "A valve opens to release the piece",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "It dropped one algae at the championship, in Einstein final 3",
+          "basis": "team",
+          "src": [
+            "s18"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vacuum pump",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Make steady vacuum at the base of the robot",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ],
+      "does": [
+        "retain"
+      ],
+      "type": "two pneumatic pistons driven by a Scotch yoke",
+      "serves": [],
+      "facts": [
+        {
+          "text": "A motor at the base drives both pistons, half a cycle apart, because one could not hold constant suction",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "A vacuum sensor shows whether a piece is held; algae is held at more vacuum than coral",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "The pistons speed up on a leak and stop when vacuum holds, to save energy and wear",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Vacuum reaches the end effector through 1/4 in tubing",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Align to the cage quickly and stay up after the match",
+          "basis": "team",
+          "src": [
+            "s15",
+            "s8"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "two-tube cage latch with ratcheted winch",
+      "serves": [
+        "cage"
+      ],
+      "facts": [
+        {
+          "text": "Two aluminum tubes with centering prints and a magnet latch onto the cage",
+          "basis": "team",
+          "src": [
+            "s15",
+            "s8"
+          ]
+        },
+        {
+          "text": "Climb rate by the team's count: 64.7% at ISR 1, 100% at Johnson and Einstein",
+          "basis": "team",
+          "src": [
+            "s18"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "At ISR 1 tape slipped on the official cages, tilting the robot into the chain; separately, bent 4 mm plates made it fall while climbing",
+          "basis": "team",
+          "src": [
+            "s17"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reef cameras",
+      "solves": [
+        {
+          "text": "Place precisely on a target with little room for error",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "Limelight tag cameras",
+      "serves": [
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "Two Limelight 3G see the reef tags until the end of placing",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "A Limelight 3 on the other side, over the intake, also gives a precise location",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Coral detection",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Help the driver line up with coral and collect it in auto",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "acquire"
+      ],
+      "type": "color-mask camera",
+      "serves": [],
+      "facts": [
+        {
+          "text": "A camera on an Orange Pi 5 with PhotonVision finds coral because nothing else on the floor is white",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "In teleop the assist acts across the robot's velocity and slows the driver when approaching fast; in auto the robot drives to the coral",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reef automation",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Let the driver choose only the reef face",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "deliver"
+      ],
+      "type": "robot-kept map of the reef",
+      "serves": [
+        "reef-l1",
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "The robot remembers where it placed, the operator adds what other teams did, and it picks the nearest face and highest allowed free level",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "It drives to a point short of the target in a smooth curve, then straight in",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Designed failure point",
+      "solves": [
+        {
+          "text": "Protect the arm from big impacts",
+          "basis": "team",
+          "src": [
+            "s17"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "zip-tied joint meant to break in an arm impact",
+      "serves": [],
+      "facts": [
+        {
+          "text": "It saved the robot from several catastrophic failures in testing",
+          "basis": "team",
+          "src": [
+            "s17"
+          ]
+        },
+        {
+          "text": "The permanent fix was one piece of tube",
+          "basis": "team",
+          "src": [
+            "s17"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "A zip tie snapped by itself in one match and the joint did not fail when needed in another",
+          "basis": "team",
+          "src": [
+            "s17"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Vacuum for both coral and algae",
+      "because": "it keeps the arm and manipulator as light as possible",
+      "basis": "team",
+      "src": [
+        "s15"
+      ]
+    },
+    {
+      "choice": "Differential belt elevator and arm",
+      "because": "motors and gearboxes stay at the bottom",
+      "cost": "a belt that broke, began failing or began to delaminate on three occasions",
+      "basis": "team",
+      "src": [
+        "s15",
+        "s17",
+        "s18"
+      ]
+    },
+    {
+      "choice": "Let the intake accept coral any way round and orient it in a separate indexer",
+      "because": "an intake that oriented coral got stuck at steep angles and was only marginally faster than driving to the station",
+      "instead_of": "an intake that does the orienting",
+      "basis": "team",
+      "src": [
+        "s19"
+      ]
+    },
+    {
+      "choice": "V indexer",
+      "because": "it orients coral and is much better at centering it",
+      "instead_of": "horizontal rollers against a wall",
+      "basis": "team",
+      "src": [
+        "s19"
+      ]
+    },
+    {
+      "choice": "Two vacuum pistons half a cycle apart",
+      "because": "one piston could not create constant suction",
+      "instead_of": "one piston",
+      "basis": "team",
+      "src": [
+        "s15"
+      ]
+    },
+    {
+      "choice": "No path planning in auto",
+      "because": "the robot goes to the closest branch instead of a set one, which saves time",
+      "instead_of": "planned paths",
+      "basis": "team",
+      "src": [
+        "s15"
+      ]
+    },
+    {
+      "choice": "Gear for acceleration",
+      "because": "cycles are short",
+      "instead_of": "top speed",
+      "basis": "team",
+      "src": [
+        "s15"
+      ]
+    },
+    {
+      "choice": "Floor pickup",
+      "because": "not having to fight through defense for every piece mattered, seen in a match with a dedicated defender",
+      "basis": "team",
+      "src": [
+        "s17"
+      ]
+    },
+    {
+      "choice": "Limit the third robot to loading-station cycles in one lane",
+      "because": "it stopped getting in the way of the two ground-pickup scorers and output improved dramatically",
+      "instead_of": "sending it for algae and opponent coral, or to defend",
+      "basis": "team",
+      "src": [
+        "s18"
+      ]
+    },
+    {
+      "choice": "Plan each prototype around a test",
+      "because": "prototypes built poorly or without anything to prove wasted a lot of time",
+      "basis": "team",
+      "src": [
+        "s19"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "Comp Robot",
+        "url": "https://cad.onshape.com/documents/76609fe05a6594c5f9c4062a/w/437a97728f1629348e9dd7cf/e/465d3a35c190dab8355f1e5c",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "Top level x_t files",
+        "url": "https://drive.google.com/file/d/18I7GmIrRfM7bVn9VmSPJua8I7O3O3a7O/view?usp=sharing",
+        "format": "x_t",
+        "state": "listed",
+        "src": "s14"
+      },
+      {
+        "what": "CAD release thread",
+        "url": "https://www.chiefdelphi.com/t/frc-orbit-1690-2025-robot-cad-release/501057",
+        "format": "thread",
+        "state": "listed",
+        "src": "s14"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=Tnl4hQlI1Gc",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=cR4SveW2Rjc",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Orbit 1690 2025 Season Recap",
+        "url": "https://www.chiefdelphi.com/t/1690-2025-season-recap/501661",
+        "format": "thread",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "Orbit 1690 4 L4 Coral Auto",
+        "url": "https://www.chiefdelphi.com/t/orbit-1690-4-l4-coral-auto/491151",
+        "format": "thread",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "1690orbit.com 2025 Reefscape page",
+        "url": "https://www.1690orbit.com/2025-reefscape",
+        "format": "web page",
+        "state": "listed",
+        "src": "s7"
+      },
+      {
+        "what": "Robots (7d54950)",
+        "url": "https://www.1690orbit.com/robots",
+        "format": "web page",
+        "state": "listed",
+        "src": "s8"
+      },
+      {
+        "what": "FUNalysis Match Breakdown | ISR 1 M1 High Score | 5614 1690 5928 |REEFSCAPE 2025",
+        "url": "https://www.youtube.com/watch?v=3Hqi4BVWlzQ",
+        "format": "video",
+        "state": "listed",
+        "src": "s9"
+      },
+      {
+        "what": "The Best 3 Matches of Reefscape EVER  | FRC Strategy Analysis",
+        "url": "https://www.youtube.com/watch?v=SQure1sSDpk",
+        "format": "video",
+        "state": "listed",
+        "src": "s10"
+      },
+      {
+        "what": "Breaking down IRI Finals! | FRC Strategy Analysis",
+        "url": "https://www.youtube.com/watch?v=ZTCIVjEjDjg",
+        "format": "video",
+        "state": "listed",
+        "src": "s11"
+      },
+      {
+        "what": "224 High Score Breakdown | ISR 3 M1 | FUNalysis | 1690 5990 5135 | REEFSCAPE 2025",
+        "url": "https://www.youtube.com/watch?v=qxhcmMeo_HU",
+        "format": "video",
+        "state": "listed",
+        "src": "s12"
+      },
+      {
+        "what": "Full robot with blue 1690 bumpers holding a white pipe",
+        "url": "https://imgur.com/G2ptyzC",
+        "img": "https://i.imgur.com/G2ptyzCh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s13",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Full robot CAD render, red 1690 bumpers",
+        "url": "https://www.1690orbit.com/robots",
+        "img": "https://static.wixstatic.com/media/41168b_d3aa14d7aeaf47c68f7f5396804e3274~mv2.png/v1/fill/w_600,h_337,al_c,lg_1,q_85,enc_avif,quality_auto/41168b_d3aa14d7aeaf47c68f7f5396804e3274~mv2.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "cad"
+      },
+      {
+        "what": "Elevator CAD with one brace tube highlighted",
+        "url": "https://www.chiefdelphi.com/t/frc-orbit-1690-2025-robot-cad-release/501057",
+        "img": "https://www.chiefdelphi.com/uploads/default/original/4X/5/9/d/59d6bfd21448680fdcfa43503eccfa5c9ee6982e.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s14",
+        "kind": "cad"
+      },
+      {
+        "what": "CAD close-up of a tube end cap with slotted hole",
+        "url": "https://www.chiefdelphi.com/t/frc-orbit-1690-2025-robot-cad-release/501057",
+        "img": "https://www.chiefdelphi.com/uploads/default/original/4X/a/b/8/ab8951ad2143adafb2d4d9232a555b03d819b2e4.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s14",
+        "kind": "cad"
+      },
+      {
+        "what": "Intake development, every iteration with video links",
+        "url": "https://www.chiefdelphi.com/t/frc-orbit-1690-2025-robot-cad-release/501057/35",
+        "format": "thread",
+        "state": "listed",
+        "src": "s19"
+      },
+      {
+        "what": "Four-coral L4 auto video (not watched)",
+        "url": "https://www.youtube.com/watch?v=MZ63P2KEr2M",
+        "format": "video",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "Robot reveal thread and event recaps",
+        "url": "https://www.chiefdelphi.com/t/orbit-1690-2025-robot-reveal-whisper/492064",
+        "format": "thread",
+        "state": "listed",
+        "src": "s16"
+      }
+    ],
+    "documents": [
+      {
+        "what": "Orbit 1690 2025 Championship strategy (translated)",
+        "url": "https://docs.google.com/document/d/1-d0H4FX96-tHJPqhPXiLpwrVw2h3RaA4godHjeTWT8A/edit",
+        "format": "Google Doc",
+        "state": "opened",
+        "src": "s6"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/team1690",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)"
+  ],
+  "results": {
+    "division": "Johnson",
+    "division_opr": 110.15,
+    "opr_rank": 8,
+    "record": "62-9-0",
+    "einstein": {
+      "division": "Johnson",
+      "role": "captain"
+    },
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

@@ -1,0 +1,660 @@
+{
+  "id": "2024-1706",
+  "season": 2024,
+  "team": "1706",
+  "team_name": "Ratchet Rockers",
+  "robot_name": "Riot",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 1706 in 2024",
+      "url": "https://www.thebluealliance.com/team/1706/2024",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Johnson Division 2024",
+      "url": "https://www.thebluealliance.com/event/2024joh",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "1706 CAD Release",
+      "url": "https://www.chiefdelphi.com/t/1706-cad-release/467163",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "1706 Ratchet Rockers 2024 Robot Reveal: Riot",
+      "url": "https://www.chiefdelphi.com/t/1706-ratchet-rockers-2024-robot-reveal-riot/457440",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "1706 2024-Riot",
+      "url": "https://github.com/rr1706/2024-Riot",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "2024 Ratchet Rocker Robot - Riot",
+      "url": "https://www.youtube.com/watch?v=s1pZHbQDQNk",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/0ahlo92",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/RXwhqmU",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Onshape document",
+      "url": "https://cad.onshape.com/documents/a41c17fdc034d46f856ebcc7/w/934e52886a6f6873c4be7558/e/a351f37bcb33c52e479db756?renderMode=0&uiState=665dd1087662a93f584874ec",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "1706 Ratchet Rockers | Behind the Bumpers | FRC CRESCENDO Robot",
+      "url": "https://www.youtube.com/watch?v=C-kz6RLoH24",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Two intakes instead of a turret: take notes from front or back for fast cleanup cycles on a simpler robot.",
+        "basis": "team",
+        "src": [
+          "s12"
+        ]
+      }
+    ],
+    "demand": [],
+    "auto": [
+      {
+        "text": "About 20 autos with different note orders, made at championships to beat other teams to the center line. Note detection proved too slow in auto, so odometry takes over after the wing line.",
+        "basis": "team",
+        "src": [
+          "s12"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "A note enters from front or back and stages in the shooter. The team then chooses on the fly: shoot it at the speaker, or feed it back a little and pop it up into the carriage on the elevator for the amp. The team says it can do all four notes of an amplified period in about 5 seconds.",
+        "basis": "team",
+        "src": [
+          "s12"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "Climb, raise the elevator over the trap's ledge, then spin the note out.",
+        "basis": "team",
+        "src": [
+          "s12"
+        ]
+      },
+      {
+        "text": "A reply that reads as the team's says the trap was very manual: after the climb, holding a button sent the elevator to full height.",
+        "basis": "observer",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "When a defender blocks the AprilTags, aiming continues from odometry.",
+        "basis": "team",
+        "src": [
+          "s12"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "No turret. The team said one would add a lot of complexity and make the handoff and intake harder; it judged its robot not quite the same as another team's turret but pretty close, and much simpler.",
+        "basis": "team",
+        "src": [
+          "s12"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "At earlier events notes without spin dove and flipped on long shots, so the shooter became differential.",
+        "basis": "team",
+        "src": [
+          "s12"
+        ]
+      },
+      {
+        "text": "Replies that read as the team's say the hood rack skipped teeth and got a higher DP and a steel shaft in mid-season, and that the elevator mechanism was not on the robot until the Friday before the Central Missouri Regional.",
+        "basis": "observer",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "44-4-0 in official play; ranked 11 of the pooled top 20 (OPR 55.09, Johnson).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Swerve drive",
+      "does": [
+        "drive"
+      ],
+      "type": "beltless swerve (Thrifty beta)",
+      "serves": [],
+      "facts": [
+        {
+          "text": "The interviewer calls the team one of the beta testers of the Thrifty swerve",
+          "basis": "observer",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "It runs a middle gearing for an even balance of torque and speed",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "It likes the beltless layout, the grip of its wheels of about an inch and a half, and gears with steel outside and aluminum inside to save weight",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Front and back intakes",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Pick up from both sides for smooth cleanup cycles without a turret",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "two roller intakes",
+      "serves": [
+        "speaker",
+        "amp",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "Notes come in from the front or the back",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "The front has an extra roller so a note against a wall does not stay under the robot",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The front roller came a couple of weeks later and took a while to perfect because it added a lot of tension",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Differential shooter",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Spin the note so it does not dive or flip on long shots",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "two-speed side-to-side wheel shooter",
+      "serves": [
+        "speaker"
+      ],
+      "facts": [
+        {
+          "text": "One side powers the axle all the way across; a Kraken under the shooter spins the other side at another rate on that same axle",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter hood",
+      "pieces": [
+        "note"
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "rack-and-pinion hood",
+      "serves": [
+        "speaker"
+      ],
+      "facts": [
+        {
+          "text": "A reply that reads as the team's says the hood used only a P gain, though it should also have arm feedforward because its center of gravity swings",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A reply that reads as the team's says they would redesign it so the pinion moves with the shooter",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "A reply that reads as the team's says the rack skipped teeth; the team raised the DP and used a steel shaft with three times the stiffness",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Handoff",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Decide on the fly between the speaker and the amp with one intake path",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "shooter-to-carriage roller handoff",
+      "serves": [
+        "amp",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "The note stages in the shooter; then rollers feed it back a little and up so it flops into the orange roller in the carriage",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elevator and carriage",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Score amp and trap from one fairly compact mechanism",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ],
+      "does": [
+        "position",
+        "deliver"
+      ],
+      "type": "belt-driven elevator with roller carriage",
+      "serves": [
+        "amp",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "A gearbox below drives a belt up through the tubes over custom blocks, with a tensioner on each side of the carriage; the design drew on High Tide's previous robot",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "A reply that reads as the team's says the carriage is clamped to the belt and rises first, then each stage is pushed up; the motor stalls at full height, which is used for the trap; a later one says the elevator broke at an off-season practice day and its motors became 550s",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A reply that reads as the team's says the two sides were not linked, so belt turnbuckles and free rolling needed fine tuning or the elevator would rack or skip teeth",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "It took a lot of tuning and engineering time",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vision and odometry",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Aim at the goal and find notes when tags or notes are out of sight",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "Limelight pose, note detection and odometry",
+      "serves": [
+        "speaker"
+      ],
+      "facts": [
+        {
+          "text": "Limelights on the front and bottom estimate pose from AprilTags; one on the back mainly tracks the source and feeding",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Odometry tracks the pose when tags are blocked, so aim stays on the goal; the team calls it always somewhat accurate",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Object detection gives a note's position so the robot can drive itself to it when the driver cannot see it",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Plate structure",
+      "does": [
+        "structure"
+      ],
+      "type": "machined plate bracing",
+      "serves": [],
+      "facts": [
+        {
+          "text": "A reply that reads as the team's says there were zero structural failures all season; the question was about plate bracing and cross members",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A reply that reads as the team's says bushings were not tight press fits, shafts had axial float, and no bushing needed replacing",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Two intakes and no turret",
+      "because": "a turret would add a lot of complexity and make handoff and intake harder",
+      "instead_of": "a turret",
+      "cost": "not quite the same as another team's turret, by the team's account",
+      "basis": "team",
+      "src": [
+        "s12"
+      ]
+    },
+    {
+      "choice": "Differential shooter",
+      "because": "notes without spin dove and flipped on long shots",
+      "instead_of": "a shooter that gave no spin",
+      "basis": "team",
+      "src": [
+        "s12"
+      ]
+    },
+    {
+      "choice": "Odometry for auto note pickup",
+      "because": "note detection was way too slow in auto; used when the team expects to reach the line first",
+      "instead_of": "driving by note detection",
+      "basis": "team",
+      "src": [
+        "s12"
+      ]
+    },
+    {
+      "choice": "Plain bushings in a compact mount",
+      "because": "compactness was preferred, with care on shaft alignment; this comes from a reply that reads as the team's",
+      "instead_of": "a spherical bushing mount",
+      "basis": "observer",
+      "src": [
+        "s4"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "Comp Robot",
+        "url": "https://cad.onshape.com/documents/a41c17fdc034d46f856ebcc7/w/934e52886a6f6873c4be7558/e/a351f37bcb33c52e479db756?renderMode=0&uiState=665dd1087662a93f584874ec",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "CAD listed on the team page",
+        "url": "https://cad.onshape.com/documents/a41c17fdc034d46f856ebcc7/w/934e52886a6f6873c4be7558",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "1706 CAD Release",
+        "url": "https://www.chiefdelphi.com/t/1706-cad-release/467163",
+        "format": "thread",
+        "state": "listed",
+        "src": "s4",
+        "holds": "Onshape"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=C-kz6RLoH24",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "1706 Ratchet Rockers 2024 Robot Reveal: Riot",
+        "url": "https://www.chiefdelphi.com/t/1706-ratchet-rockers-2024-robot-reveal-riot/457440",
+        "format": "thread",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "2024 Ratchet Rocker Robot - Riot",
+        "url": "https://www.youtube.com/watch?v=s1pZHbQDQNk",
+        "format": "video",
+        "state": "listed",
+        "src": "s8"
+      },
+      {
+        "what": "Full robot on cart, seen from intake side",
+        "url": "https://imgur.com/0ahlo92",
+        "img": "https://i.imgur.com/0ahlo92h.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s9",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot under chain, orange ring between orange shooter wheels",
+        "url": "https://imgur.com/RXwhqmU",
+        "img": "https://i.imgur.com/RXwhqmUh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s10",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Full robot CAD, blue bumpers, orange shooter wheels",
+        "url": "https://cad.onshape.com/documents/a41c17fdc034d46f856ebcc7/w/934e52886a6f6873c4be7558/e/a351f37bcb33c52e479db756?renderMode=0&uiState=665dd1087662a93f584874ec",
+        "img": "https://cad.onshape.com/api/thumbnails/d/a41c17fdc034d46f856ebcc7/w/934e52886a6f6873c4be7558/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s11",
+        "kind": "cad"
+      },
+      {
+        "what": "Roller assembly in frame, front view CAD, small red marking",
+        "url": "https://www.chiefdelphi.com/t/1706-cad-release/467163",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/f/3/f3b12854e3967f501e31145c50c1f1714d351150_2_690x475.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
+      },
+      {
+        "what": "Robot interior CAD, frame area highlighted in yellow",
+        "url": "https://www.chiefdelphi.com/t/1706-cad-release/467163",
+        "img": "https://www.chiefdelphi.com/uploads/default/original/3X/7/7/7726d045d3e5f57b0f2757d339d7e90b9786a13b.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
+      },
+      {
+        "what": "Curved rack pair on shaft highlighted, rest faded",
+        "url": "https://www.chiefdelphi.com/t/1706-cad-release/467163",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/d/9/d99b48f75469cf7ede9f23e322c889769dbe2b45_2_690x424.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
+      },
+      {
+        "what": "Side view CAD of nested upright tubes",
+        "url": "https://www.chiefdelphi.com/t/1706-cad-release/467163",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/b/5/b5b327fb08e9092f77f4e986086381b9d54b39ca_2_211x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/rr1706",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "1706 2024-Riot",
+        "url": "https://github.com/rr1706/2024-Riot",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s6"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: Chief Delphi title search for 1706 (14 results) and post search \"1706 binder\" (0 results); the team site was a placeholder"
+  ],
+  "results": {
+    "division": "Johnson",
+    "division_opr": 55.09,
+    "opr_rank": 11,
+    "record": "44-4-0",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

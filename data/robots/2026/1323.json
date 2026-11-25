@@ -1,0 +1,310 @@
+{
+  "id": "2026-1323",
+  "season": 2026,
+  "team": "1323",
+  "team_name": "MadTown Robotics",
+  "robot_name": null,
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 1323 in 2026",
+      "url": "https://www.thebluealliance.com/team/1323/2026",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Daly Division 2026",
+      "url": "https://www.thebluealliance.com/event/2026dal",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "How to Win a World Championship | FRC Strategy Analysis",
+      "url": "https://www.youtube.com/watch?v=-Cm-RuiSNlU",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "825 New REBUILT WR | 254 1323 2367 | FRC FUNalysis Match Analysis",
+      "url": "https://www.youtube.com/watch?v=OwHXYmbLk4w",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/R6IoG5z",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/afnr2QW",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "The 10 Best FRC Robots of 2026",
+      "url": "https://www.youtube.com/watch?v=DLTgYLVH-Z0",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "How does 1323 get away with such a complicated robot?",
+      "url": "https://www.chiefdelphi.com/t/how-does-1323-get-away-with-such-a-complicated-robot/523445",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "An Outlier's take on the '26 worlds strategic situation",
+      "url": "https://www.chiefdelphi.com/t/an-outliers-take-on-the-26-worlds-strategic-situation/519681",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Rebuilt: Rock, Paper, Scissors",
+      "url": "https://www.chiefdelphi.com/t/rebuilt-rock-paper-scissors/521173",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Disabled robots on Einstein",
+      "url": "https://www.chiefdelphi.com/t/disabled-robots-on-einstein/519830",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [],
+    "demand": [],
+    "auto": [
+      {
+        "text": "An analyst says it cut in front of a slower opponent and went around, leaving one corner but clearing more of its side. The contact upset 2910's auto in two matches; in finals 1 the robot beached instead.",
+        "basis": "observer",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "At Central Valley an analyst saw it stop passing about 10 seconds before its shift to fill the hopper, then shoot on the move while collecting.",
+        "basis": "observer",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "On Einstein it and 4414 swept the neutral zone, leaving little fuel there for opponents.",
+        "basis": "observer",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "endgame": [],
+    "fallback": [],
+    "gave_up": [],
+    "changed": [
+      {
+        "text": "It stopped in auto of Einstein finals 1, came back and stopped again, a commenter says; a reviewer puts the loss of that match down to the breakdown.",
+        "basis": "observer",
+        "src": [
+          "s11",
+          "s7"
+        ]
+      },
+      {
+        "text": "A commenter says the blocking strategy was not viable until a rule change a few weeks before the championship; a reply says it was only riskier before.",
+        "basis": "observer",
+        "src": [
+          "s10"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "69-4-0 in official play; won the Daly division, won the championship; pick 1 of the Daly alliance on Einstein; ranked 6 of the pooled top 20 (OPR 331.99, Daly).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Dye rotor turret",
+      "does": [
+        "transfer",
+        "position",
+        "deliver"
+      ],
+      "type": "dye rotor feeding a turret",
+      "pieces": [
+        "fuel"
+      ],
+      "serves": [
+        "hub"
+      ],
+      "solves": [
+        {
+          "text": "Shoot and pass without stopping in one place",
+          "basis": "observer",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "A commenter describes a turreted dye rotor with a shot blocker",
+          "basis": "observer",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Analysts saw it shoot on the move, and pass fuel back to its own side while sweeping the neutral zone",
+          "basis": "observer",
+          "src": [
+            "s3",
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Four-bar intake",
+      "does": [
+        "acquire"
+      ],
+      "type": "four-bar linkage intake",
+      "pieces": [
+        "fuel"
+      ],
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "A season reviewer calls its four-bar linkage intake unique",
+          "basis": "observer",
+          "src": [
+            "s7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Netted hopper",
+      "does": [
+        "retain"
+      ],
+      "type": "netted hopper with chamfered corners",
+      "pieces": [
+        "fuel"
+      ],
+      "serves": [
+        "hub"
+      ],
+      "solves": [
+        {
+          "text": "Keep stored fuel inside the robot instead of in the alliance zone",
+          "basis": "observer",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "A commenter says it stockpiles fuel inside the robot, in a netted hopper much bigger than those of drum shooters because of chamfered corners",
+          "basis": "observer",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Bring out shot blockers with 4065 in Einstein match 8",
+      "because": "a commenter says it countered high-scoring opponents instead of only trying to outscore them",
+      "basis": "observer",
+      "src": [
+        "s10"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "How to Win a World Championship | FRC Strategy Analysis",
+        "url": "https://www.youtube.com/watch?v=-Cm-RuiSNlU",
+        "format": "video",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "825 New REBUILT WR | 254 1323 2367 | FRC FUNalysis Match Analysis",
+        "url": "https://www.youtube.com/watch?v=OwHXYmbLk4w",
+        "format": "video",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "Full robot on white, red 1323 bumpers, dark hopper extended",
+        "url": "https://imgur.com/R6IoG5z",
+        "img": "https://i.imgur.com/R6IoG5zh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s5",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Full robot on white, other side, blue 1323 bumpers",
+        "url": "https://imgur.com/afnr2QW",
+        "img": "https://i.imgur.com/afnr2QWh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s6",
+        "kind": "robot-photo"
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/team1323",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binder searches: Chief Delphi titles for 1323, posts for 1323 tech binder, titles for 1323 binder, one web search, 28 pages of the team site",
+    "only outsiders' accounts of this robot were found"
+  ],
+  "results": {
+    "division": "Daly",
+    "division_opr": 331.99,
+    "opr_rank": 6,
+    "record": "69-4-0",
+    "einstein": {
+      "division": "Daly",
+      "role": "pick 1"
+    },
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

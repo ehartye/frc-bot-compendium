@@ -1,0 +1,469 @@
+{
+  "id": "2025-7457",
+  "season": 2025,
+  "team": "7457",
+  "team_name": "suPURDUEper Robotics",
+  "robot_name": null,
+  "variant": "Described at an offseason event (Boilerbot Battle); the sources do not say what had changed since the championship",
+  "sources": {
+    "s1": {
+      "title": "Team 7457 in 2025",
+      "url": "https://www.thebluealliance.com/team/7457/2025",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Curie Division 2025",
+      "url": "https://www.thebluealliance.com/event/2025cur",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "7457 suPURDUEper 2025-Robot-Code",
+      "url": "https://github.com/suPURDUEper/2025-Robot-Code",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/rQXEEzu",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "7457 suPURDUEper Robotics | Behind the Bumpers | REEFSCAPE Robot",
+      "url": "https://www.youtube.com/watch?v=6BZlD7MsDrE",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Keep the center of gravity low, with an extremely low chassis, so a robot geared for acceleration does not tip.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "demand": [],
+    "auto": [],
+    "cycle": [
+      {
+        "text": "Coral enters the funnel and goes into a dual end effector, where two beam breaks place it the same way every time. The elevator places it on L2 to L4. The same end effector takes algae. Vision readings too far from odometry are ignored.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "The driver drives into the cage and presses nothing. Triggers on the climber start the climb: hooks pull in, wheels turn to grab the cage, and it pulls down.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "Redundancy is part of every design step: sensors on both sides of the climber, two beam breaks, encoders besides motor positions, three Limelights, and motor current that shows when algae is held.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "L3 swerve gearing puts acceleration ahead of top velocity.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "L1 was the largest change: during the season they found space in the funnel where a coral fits and can be launched with motors already wired. Metal plates became laser-cut SRPP. Printed TPU guards were added because coral could hit and break a Limelight, and a top piece keeps coral off electronics.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "60-6-0 in official play; ranked 6 of the pooled top 20 (OPR 112.60, Curie).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Chassis",
+      "solves": [
+        {
+          "text": "Accelerate without tipping",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "drive"
+      ],
+      "type": "very low swerve chassis",
+      "serves": [],
+      "facts": [
+        {
+          "text": "L3 gearing, for acceleration over top velocity",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Funnel",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Feed the end effector, and add L1 without a new mechanism",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "deliver"
+      ],
+      "type": "tilting funnel that also scores L1",
+      "serves": [
+        "reef-l1",
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "Encoders besides the motors track its tilt",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "A coral dropped into its open space is launched back out onto L1",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "L1 needed no new wiring",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dual end effector",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Handle both pieces in one mechanism",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "retain",
+        "deliver"
+      ],
+      "type": "coral and algae end effector",
+      "serves": [
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "Two beam breaks keep coral in the same spot every time",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "A hoop that barely fits the algae gives compression",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Polycarbonate guides the coral in",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Stator current spikes show when algae is held",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elevator",
+      "pieces": [
+        "coral"
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "elevator",
+      "serves": [
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "Places coral on L2, L3 and L4",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Climb without the driver pressing a button",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "self-triggered cage climber with hooks and wheels",
+      "serves": [
+        "cage"
+      ],
+      "facts": [
+        {
+          "text": "Limit switches on both sides start the climb",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Hooks pull in, wheels grip the cage, then it pulls down",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vision with odometry check",
+      "solves": [
+        {
+          "text": "Stop a bad reading from upsetting the robot",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "three Limelights with outlier rejection",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Two cameras face front and one faces back",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "A vision reading too far from odometry is ignored",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Coral can hit and break a Limelight, so TPU guards were added",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SRPP plates",
+      "solves": [
+        {
+          "text": "Lower the center of gravity and the chance of tipping",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "laser-cut SRPP plates",
+      "serves": [],
+      "facts": [
+        {
+          "text": "They replaced metal plates, called steel in one place and aluminum in others",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Light and able to take a beating",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "SRPP plates instead of metal",
+      "because": "SRPP is much lighter, so there is less chance of tipping",
+      "instead_of": "aluminum plates",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "L3 gearing",
+      "because": "acceleration was put ahead of top velocity",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Climb starts without a button",
+      "because": "the less the driver has to press, the more the driver can drive",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Software dead zones for CAD collisions",
+      "because": "constraints found in CAD can then never be reached",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "L1 from the existing funnel",
+      "because": "the space and wired motors were already there",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=6BZlD7MsDrE",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Full robot with gold frame, elevator and funnel",
+        "url": "https://imgur.com/rQXEEzu",
+        "img": "https://i.imgur.com/rQXEEzuh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "robot-photo",
+        "hero": true
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/supurdueper",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "7457 suPURDUEper 2025-Robot-Code",
+        "url": "https://github.com/suPURDUEper/2025-Robot-Code",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s3"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: Chief Delphi title search for 7457 (2 topics) and '7457 binder' (0 posts); the team site timed out"
+  ],
+  "results": {
+    "division": "Curie",
+    "division_opr": 112.6,
+    "opr_rank": 6,
+    "record": "60-6-0",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

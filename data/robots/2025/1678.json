@@ -1,0 +1,999 @@
+{
+  "id": "2025-1678",
+  "season": 2025,
+  "team": "1678",
+  "team_name": "Citrus Circuits",
+  "robot_name": "SubLime",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 1678 in 2025",
+      "url": "https://www.thebluealliance.com/team/1678/2025",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Daly Division 2025",
+      "url": "https://www.thebluealliance.com/event/2025dal",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "1678 Citrus Circuits 2025 CAD, Code and Strategy Release",
+      "url": "https://www.chiefdelphi.com/t/1678-citrus-circuits-2025-cad-code-and-strategy-release/502199",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "2025 Robot",
+      "url": "https://www.citruscircuits.org/2025-robot",
+      "publisher": "citruscircuits.org",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "CAD & Code Release",
+      "url": "https://www.citruscircuits.org/cad-code-release",
+      "publisher": "citruscircuits.org",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "1678 2025 scouting and strategy whitepaper (PDF)",
+      "url": "https://www.citruscircuits.org/_files/ugd/146bfa_f8ccc9ba56bd49f58f56b9a6362e2627.pdf",
+      "publisher": "citruscircuits.org",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "1678 2025 Champs Strategy Readme Release",
+      "url": "https://docs.google.com/document/d/1JqUtr4BaSGkASMayYlGjsIe2AIxkic20AcP2u6Pr44c/edit",
+      "publisher": "docs.google.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "1678 2025 strategy resources, Drive folder",
+      "url": "https://drive.google.com/drive/folders/1Lf4-Wr4ZjeDkTyA1g3DZ_MruF3Ru5oiY",
+      "publisher": "drive.google.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "1678 C2025-Public (SubLime)",
+      "url": "https://github.com/frc1678/C2025-Public",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Citrus Circuits 2025 Season Recap",
+      "url": "https://www.chiefdelphi.com/t/citrus-circuits-2025-season-recap/504242",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "Build Blog 2025",
+      "url": "https://www.citruscircuits.org/build-blog-2025",
+      "publisher": "citruscircuits.org",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "CAD & Code Release (cad-and-code-release)",
+      "url": "https://www.citruscircuits.org/cad-and-code-release.html",
+      "publisher": "citruscircuits.org",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "2025 Season",
+      "url": "https://www.citruscircuits.org/history/2025-season",
+      "publisher": "citruscircuits.org",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/LTjVEkF",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "Onshape document",
+      "url": "https://1678.onshape.com/documents/0d5fb3dc444f66866c3df100/w/3aa4dce6ea2c22f3ef57d096/e/0f84fb27f2a02ead9cf842de?aa=true",
+      "publisher": "1678.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "Page with pictures of this robot",
+      "url": "https://www.chiefdelphi.com/t/1678-citrus-circuits-2025-robot-sublime/493150",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "1678 Citrus Circuits | Behind the Bumpers | 2025 FRC REEFSCAPE Robot",
+      "url": "https://www.youtube.com/watch?v=gUJUAoHRq8I",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "demand": [
+      {
+        "text": "At the championship the robot starts at L4, splits the reef with its alliance and works down to L2, trusting the reef will still fill. Algae that gets in the way goes into the net.",
+        "basis": "team",
+        "src": [
+          "s20"
+        ]
+      },
+      {
+        "text": "The scouting paper leaves L4 out of its offensive second-pick rating because the team usually scores L4 itself.",
+        "basis": "team",
+        "src": [
+          "s7"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "A Limelight estimates the pose of each coral it detects and the robot drives to them. Each auto limits the field areas where detections count, which keeps it compatible with partners a lot of the time. LEDs confirm the pivot and vision before the match.",
+        "basis": "team",
+        "src": [
+          "s20"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The floor intake takes coral in any orientation; a ramp and indexer turn it into the end effector. One button then auto-aligns the coral score or the algae pull, while LEDs show which branch is targeted.",
+        "basis": "team",
+        "src": [
+          "s5",
+          "s20"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "Wings steer the cage into two spinning wheels and a latch holds it; the climber pulls the deep cage back and down toward the robot's center. The championship climb takes about 10 seconds.",
+        "basis": "team",
+        "src": [
+          "s20",
+          "s5"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "By week five, when the reef was filling, the robot's last option was to take algae off the ground and put it in the net.",
+        "basis": "team",
+        "src": [
+          "s20"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "The architecture kept the elevator fairly narrow, so it wobbled, especially at L4 and net height. The four-bar intake absorbs frontal hits, but a single change takes about 30 to 45 minutes; the interviewed student would make it more serviceable.",
+        "basis": "team",
+        "src": [
+          "s20"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "The intake was redesigned after the first event to remove an indexer dead spot. Its carbon fiber cracked at Contra Costa and was thickened. The second climber takes about 10 seconds instead of about 20.",
+        "basis": "team",
+        "src": [
+          "s20"
+        ]
+      },
+      {
+        "text": "An unsigned reply that reads as the team's says earlier revisions had a Rembrandts climber and a WCP end effector.",
+        "basis": "observer",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "A CAN failure in Daly playoff match eight dropped the alliance to the lower bracket.",
+        "basis": "team",
+        "src": [
+          "s15"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "57-8-0 in official play; ranked 5 of the pooled top 20 (OPR 113.54, Daly).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drivetrain",
+      "does": [
+        "drive",
+        "structure"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "26 in by 26 in with WCP X2t modules",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "1/16 in pocketed belly pan with electronics on top, reached by removing a few bolts that hold the indexer",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "A 5/16 in pocketed 7075 plate under the elevator is also its hard stop",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Coral intake",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Grab coral from almost anywhere, with room for driver error, and survive frontal hits",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "full-width four-bar roller intake",
+      "serves": [
+        "reef-l1",
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "Takes coral from the ground in all orientations",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Hit from the front, it collapses up into the robot",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        },
+        {
+          "text": "A ramp and flanges start turning the coral at the front of the intake",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        },
+        {
+          "text": "Second design, after the first competition",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Complex to service: a single change takes about 30 to 45 minutes",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        },
+        {
+          "text": "The carbon fiber in the middle bent and cracked at Contra Costa and was made thicker",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Indexer and ramp",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Remove the dead spot where coral bounced around in the larger indexer",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        }
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "polycarbonate ramp and compact indexer",
+      "serves": [
+        "reef-l1",
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "The ramp works with the indexer as a funnel that reorients coral into the end effector",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Much smaller than the first event's version",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elevator",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Fast, light lift with a low center of gravity",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "two-stage continuous string-powered elevator",
+      "serves": [
+        "reef-l1",
+        "reef-branches",
+        "net"
+      ],
+      "facts": [
+        {
+          "text": "2x1 tubes, with a 2x2 tube carriage; the motor and gearbox mount below the top half of the carriage",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        },
+        {
+          "text": "An unsigned reply that reads as the team's: two Krakens with 12T pulleys drive a printed 36T pulley",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "The same reply: rope ties off at a standoff and large washer riveted to an aluminum tube drum",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Another unsigned reply that reads as the team's: Dyneema rope, shielded by the elevator support plate and sponsor panel, replaced once in the season",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "An adjustable strut, and top-plate holes moved inward about 0.02 in, pinch the tubes to cut wiggle",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Kept narrow by the architecture, it wobbled a lot at L4 and net height",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        },
+        {
+          "text": "An unsigned reply that reads as the team's says the rope stretched slightly and was tensioned now and then",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "End effector",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Hold and score both pieces with one light mechanism",
+          "basis": "team",
+          "src": [
+            "s20",
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "retain",
+        "position",
+        "deliver",
+        "acquire"
+      ],
+      "type": "two-sided coral and algae end effector",
+      "serves": [
+        "reef-l1",
+        "reef-branches",
+        "net",
+        "processor"
+      ],
+      "facts": [
+        {
+          "text": "One motor powers the coral side and the algae side",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        },
+        {
+          "text": "Two 2 in compliant wheels grip coral from the inside",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Polycarbonate, MAXComposite and 3D-printed parts keep it light",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        },
+        {
+          "text": "Pivots on a dead-axle tube on the elevator carriage",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "An unsigned reply that reads as the team's credits Teams 4481 and 111 for the current design",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Algae intake",
+      "pieces": [
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Reach ground algae once the reef is filling up",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "deliver"
+      ],
+      "type": "pivoting ground algae intake",
+      "serves": [
+        "processor",
+        "net"
+      ],
+      "facts": [
+        {
+          "text": "On the opposite end from the coral intake; it pivots out",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Two simple plates on a gearbox, in a flexible composite that takes hits while running",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        },
+        {
+          "text": "Takes algae from the ground into the end effector's algae side, or scores the processor",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Little used until week five, because most time went to filling the reef",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Line up quickly and leave time for a couple more cycles",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "wheel and latch deep cage climber",
+      "serves": [
+        "cage"
+      ],
+      "facts": [
+        {
+          "text": "Large wings guide the cage into spinning wheels, then it latches and holds to the end of the match",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        },
+        {
+          "text": "Pulls the cage back and down toward the robot's center",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Two motors",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Climb time at the championship, about",
+          "basis": "team",
+          "src": [
+            "s20"
+          ],
+          "value": 10,
+          "unit": "s"
+        },
+        {
+          "text": "Climb time of the first version at the week 1 and 3 events, about",
+          "basis": "team",
+          "src": [
+            "s20"
+          ],
+          "value": 20,
+          "unit": "s"
+        }
+      ]
+    },
+    {
+      "name": "Vision and auto-align",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Find coral on the floor and line up on the reef without driver precision",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "two Limelight 4 cameras",
+      "serves": [
+        "reef-branches",
+        "reef-l1"
+      ],
+      "facts": [
+        {
+          "text": "One camera, low on the robot, reads reef AprilTags for scoring on both branches",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        },
+        {
+          "text": "The other handles coral detection and auto pose estimation",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        },
+        {
+          "text": "All coral scores and reef algae pulls align automatically from one button",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        },
+        {
+          "text": "In build season the software group was creating a controller to merge Choreo trajectories with its own pure pursuit scoring",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Driver interface",
+      "solves": [
+        {
+          "text": "Fit many robot functions on one controller for a single driver",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "one dual-mode controller with LED feedback",
+      "serves": [],
+      "facts": [
+        {
+          "text": "The same buttons do different actions depending on the game piece",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Several scoring functions are on rear buttons so thumbs stay on the sticks",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "LEDs show targets and mode; an Elastic dashboard shows detail",
+          "basis": "team",
+          "src": [
+            "s5",
+            "s20"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Four-bar coral intake",
+      "because": "a hit from the front collapses it up into the robot instead of in on itself, as with some slap-down intakes",
+      "cost": "a single change takes about 30 to 45 minutes",
+      "basis": "team",
+      "src": [
+        "s20"
+      ]
+    },
+    {
+      "choice": "Start indexing at the front of the intake",
+      "because": "a ramp and flanges let the indexer be much smaller and remove a dead spot",
+      "instead_of": "the first event's much larger indexer",
+      "basis": "team",
+      "src": [
+        "s20"
+      ]
+    },
+    {
+      "choice": "Dyneema rope to power the elevator",
+      "because": "an unsigned reply that reads as the team's says the team is most familiar with it and it is a lighter option",
+      "cost": "the reply says it stretched slightly and had to be tensioned",
+      "basis": "observer",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "Bend aluminum parts from 5052 sheet",
+      "because": "an unsigned reply that reads as the team's says it is more ductile than 6061 and no cracking was seen; a later poster says 6061 bends with a larger radius",
+      "instead_of": "6061",
+      "basis": "observer",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "Limit where auto coral detections count",
+      "because": "it keeps autos compatible with partners a lot of the time",
+      "basis": "team",
+      "src": [
+        "s20"
+      ]
+    },
+    {
+      "choice": "Build on Teams 4481 and 111 for the end effector",
+      "because": "an unsigned reply that reads as the team's says the current end effector would not exist without them",
+      "instead_of": "an earlier WCP end effector",
+      "basis": "observer",
+      "src": [
+        "s4"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "Comp Robot",
+        "url": "https://1678.onshape.com/documents/0d5fb3dc444f66866c3df100/w/3aa4dce6ea2c22f3ef57d096/e/0f84fb27f2a02ead9cf842de?aa=true",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "CAD listed on the team page",
+        "url": "https://cad.onshape.com/documents/0d5fb3dc444f66866c3df100/w/3aa4dce6ea2c22f3ef57d096",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "1678 Citrus Circuits 2025 CAD, Code and Strategy Release",
+        "url": "https://www.chiefdelphi.com/t/1678-citrus-circuits-2025-cad-code-and-strategy-release/502199",
+        "format": "thread",
+        "state": "listed",
+        "src": "s4",
+        "holds": "Onshape"
+      },
+      {
+        "what": "2025 Robot",
+        "url": "https://www.citruscircuits.org/2025-robot",
+        "format": "web page",
+        "state": "listed",
+        "src": "s5",
+        "holds": "Onshape"
+      },
+      {
+        "what": "CAD & Code Release",
+        "url": "https://www.citruscircuits.org/cad-code-release",
+        "format": "web page",
+        "state": "listed",
+        "src": "s6",
+        "holds": "Onshape"
+      },
+      {
+        "what": "CAD & Code Release (cad-and-code-release)",
+        "url": "https://www.citruscircuits.org/cad-and-code-release.html",
+        "format": "web page",
+        "state": "listed",
+        "src": "s14",
+        "holds": "Onshape"
+      },
+      {
+        "what": "Ghost Coral Intake (listed with the 2025 robot)",
+        "url": "https://1678.onshape.com/documents/d215c211b1d9a52a9ded2eea/w/f43e86b13bd9c9507f75dcef/e/34d7db3c431882c4da6cbbb8?renderMode=0&uiState=682e54101902544c71e87cc0",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s6"
+      },
+      {
+        "what": "Rembrandts Climber (listed with the 2025 robot)",
+        "url": "https://1678.onshape.com/documents/73be7aa2a89c3cbd0e9743fd/w/8b4ef973d4546e58bd832506/e/cd081f166783c758a1198ab6?renderMode=0&uiState=682e55476b48334af71e0489",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s6"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=gUJUAoHRq8I",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Citrus Circuits 2025 Season Recap",
+        "url": "https://www.chiefdelphi.com/t/citrus-circuits-2025-season-recap/504242",
+        "format": "thread",
+        "state": "listed",
+        "src": "s12"
+      },
+      {
+        "what": "Build Blog 2025",
+        "url": "https://www.citruscircuits.org/build-blog-2025",
+        "format": "web page",
+        "state": "listed",
+        "src": "s13"
+      },
+      {
+        "what": "2025 Season",
+        "url": "https://www.citruscircuits.org/history/2025-season",
+        "format": "web page",
+        "state": "listed",
+        "src": "s15"
+      },
+      {
+        "what": "Full robot with green SUBLIME bumpers and lit elevator",
+        "url": "https://imgur.com/LTjVEkF",
+        "img": "https://i.imgur.com/LTjVEkFh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s17",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Full robot CAD with a thin outline cone drawn around it",
+        "url": "https://1678.onshape.com/documents/0d5fb3dc444f66866c3df100/w/3aa4dce6ea2c22f3ef57d096/e/0f84fb27f2a02ead9cf842de?aa=true",
+        "img": "https://cad.onshape.com/api/thumbnails/d/0d5fb3dc444f66866c3df100/w/3aa4dce6ea2c22f3ef57d096/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s18",
+        "kind": "cad"
+      },
+      {
+        "what": "Full robot CAD render with green 1678 bumpers",
+        "url": "https://www.citruscircuits.org/2025-robot",
+        "img": "https://static.wixstatic.com/media/146bfa_a5babe9123644a14a9fc2ffe50b876fb~mv2.png/v1/fill/w_319,h_413,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/146bfa_a5babe9123644a14a9fc2ffe50b876fb~mv2.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s5",
+        "kind": "cad"
+      },
+      {
+        "what": "CAD close-up of the battery set in the frame",
+        "url": "https://www.chiefdelphi.com/t/1678-citrus-circuits-2025-cad-code-and-strategy-release/502199",
+        "img": "https://www.chiefdelphi.com/uploads/default/original/4X/4/5/a/45ace2bf7494e22f9e6edbb67850b4aea613d23a.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
+      },
+      {
+        "what": "CAD close-up of three gears beside a large sprocket",
+        "url": "https://www.chiefdelphi.com/t/1678-citrus-circuits-2025-cad-code-and-strategy-release/502199",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/1/0/c/10ca085f101dab2a1783fa3247850c587e99c58f_2_517x203.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
+      },
+      {
+        "what": "Close-up of a blue-wound winch drum above green bumpers",
+        "url": "https://www.chiefdelphi.com/t/1678-citrus-circuits-2025-robot-sublime/493150",
+        "img": "https://www.chiefdelphi.com/uploads/default/original/3X/c/0/c0cdebecbd91baa20b9a55fa4d0fd9890862a9b5.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s19",
+        "kind": "mechanism"
+      },
+      {
+        "what": "CAD of a long arm on a perforated tower",
+        "url": "https://www.citruscircuits.org/2025-robot",
+        "img": "https://static.wixstatic.com/media/146bfa_7aa6186fcc8d414f86a3abf437e68a4a~mv2.png/v1/fill/w_216,h_216,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/146bfa_7aa6186fcc8d414f86a3abf437e68a4a~mv2.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s5",
+        "kind": "cad"
+      },
+      {
+        "what": "CAD of the elevator alone",
+        "url": "https://www.citruscircuits.org/2025-robot",
+        "img": "https://static.wixstatic.com/media/146bfa_9d860fd24c934515adcb7281adfe0841~mv2.png/v1/fill/w_216,h_216,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/146bfa_9d860fd24c934515adcb7281adfe0841~mv2.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s5",
+        "kind": "cad"
+      }
+    ],
+    "documents": [
+      {
+        "what": "1678 2025 scouting and strategy whitepaper (PDF)",
+        "url": "https://www.citruscircuits.org/_files/ugd/146bfa_f8ccc9ba56bd49f58f56b9a6362e2627.pdf",
+        "format": "PDF",
+        "state": "listed",
+        "src": "s7"
+      },
+      {
+        "what": "1678 2025 Champs Strategy Readme Release",
+        "url": "https://docs.google.com/document/d/1JqUtr4BaSGkASMayYlGjsIe2AIxkic20AcP2u6Pr44c/edit",
+        "format": "Google Doc",
+        "state": "opened",
+        "src": "s8"
+      },
+      {
+        "what": "1678 2025 strategy resources folder",
+        "url": "https://drive.google.com/drive/folders/1Lf4-Wr4ZjeDkTyA1g3DZ_MruF3Ru5oiY",
+        "format": "Google Drive",
+        "state": "listed",
+        "src": "s9"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/frc1678",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "1678 C2025-Public (SubLime)",
+        "url": "https://github.com/frc1678/C2025-Public",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s11"
+      },
+      {
+        "what": "1678 server-2025-public (scouting)",
+        "url": "https://github.com/frc1678/server-2025-public",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s6"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: Chief Delphi title search for 1678, post search \"1678 binder\" and a 29-page crawl of the team site found no 2025 binder"
+  ],
+  "results": {
+    "division": "Daly",
+    "division_opr": 113.54,
+    "opr_rank": 5,
+    "record": "57-8-0",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

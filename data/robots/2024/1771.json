@@ -1,0 +1,520 @@
+{
+  "id": "2024-1771",
+  "season": 2024,
+  "team": "1771",
+  "team_name": "North Gwinnett Robotics",
+  "robot_name": null,
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 1771 in 2024",
+      "url": "https://www.thebluealliance.com/team/1771/2024",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Daly Division 2024",
+      "url": "https://www.thebluealliance.com/event/2024dal",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "1771 North Gwinnett Robotics | Behind the Bumpers | FRC CRESCENDO Robot",
+      "url": "https://www.youtube.com/watch?v=GWJxVlSt0uE",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/90n8YVP",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Undefeated Teams 2024",
+      "url": "https://www.chiefdelphi.com/t/undefeated-teams-2024/458807",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Did the 2 passing bots strategy by Citrus and Cheesy just broke the game?",
+      "url": "https://www.chiefdelphi.com/t/did-the-2-passing-bots-strategy-by-citrus-and-cheesy-just-broke-the-game/461687",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "One centrally located pivoting mechanism that intakes, shoots and scores the amp, kept away from other robots and field elements.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "Objectives were chosen at kickoff: the speaker, the amp, and fast movement around other robots. They expected more high-speed collisions, so the intake had to be reliable and need little repair. The trap was a long-term aim, helpful but not the most important task.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "Consistency comes first. Tuning goes in steps: single modules, path following without correction, odometry, then vision. Routines are built from pieces by a procedural method, with about 74,000 or more combinations, so they can work with partners and against opponents.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "With the arm down the note comes in under the raised bumper and runs along polycord into the shooter. Raised part way it shoots the speaker; fully up it scores the amp.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      },
+      {
+        "text": "A post credits 1771's accuracy as a feeder, dropping notes between the amp and the subwoofer from the center line.",
+        "basis": "observer",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "A 'chameleon' climber built on carbon fiber boat hooks lifts the robot high enough for the arm to score the trap.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "fallback": [],
+    "gave_up": [
+      {
+        "text": "The robot was not built around the trap; that had to wait until a climber could lift it to the right height.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "The first climber, a motor and spool alone, was not sturdy at Gwinnett in week 3. Before Albany in week 5 they tried other spools, added a constant-force spring and improved the intake, then climbed and trapped in many matches.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      },
+      {
+        "text": "In the Gwinnett finals they traced a fault to the RoboRIO and skipped a match to replace it, according to a poster writing as 1771.",
+        "basis": "observer",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "58-7-0 in official play; ranked 18 of the pooled top 20 (OPR 52.78, Daly).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Swerve drive",
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "MK4i modules",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Modules are tuned to follow speed and rotation before any path work",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Under-the-bumper intake",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Stay reliable through high-speed collisions and rarely need repair",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "under-the-bumper intake with raised bumpers",
+      "serves": [
+        "speaker",
+        "amp",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "The bumpers are raised so a note passes beneath",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "The lowered arm acts as part of it",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Polycord conveyor",
+      "pieces": [
+        "note"
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "polycord conveyor",
+      "serves": [
+        "speaker",
+        "amp",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "Runs the note straight into the shooter",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pivoting arm",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Cover intake, speaker and amp in one mechanism that moves smoothly",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "single long arm on a high pivot",
+      "serves": [
+        "speaker",
+        "amp",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "The arm is more than a foot long",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Most of the motors sit next to the pivot and long belts drive the intake end",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Down for intake, part way for the speaker, fully up for amp or trap",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Make shots consistent",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "two-sided stealth wheel shooter",
+      "serves": [
+        "speaker"
+      ],
+      "facts": [
+        {
+          "text": "Stealth wheels of about 3 in",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "A Kraken on each side lets it put spin on the note",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chameleon climber",
+      "solves": [
+        {
+          "text": "Lift the robot to the height the arm needs for the trap",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "carbon fiber boat hook climber with spool",
+      "serves": [
+        "onstage",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "A motor and spool with constant-force spring assist",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "3D printed, which helped the team iterate on it",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "A motor and spool alone was not sturdy, and spring force took tuning so it helped without overpowering the climber",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wood structure",
+      "solves": [
+        {
+          "text": "Design freely and repair fast",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "mostly wood robot cut on a router",
+      "serves": [],
+      "facts": [
+        {
+          "text": "A broken part can be patched by screwing on another piece of wood",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "A new part can be cut and ready in a couple of minutes",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Procedural autonomous",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Fit around partners and opponents without programming being the limit",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "routines assembled from pieces",
+      "serves": [
+        "speaker"
+      ],
+      "facts": [
+        {
+          "text": "Upwards of about 74,000 combinations of notes and positions",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Mostly wood construction",
+      "because": "it is easy to design around, quick to cut and easy to patch",
+      "instead_of": "aluminum, where bending has to be considered",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "Under-the-bumper intake with raised bumpers",
+      "because": "fast collisions were expected and the team wanted it reliable, with little repair",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "Most motors at the pivot",
+      "because": "keeping mass near the pivot makes a long arm smooth to control",
+      "cost": "long belt runs to power the intake end",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "Spin from separately driven sides",
+      "because": "prototypes and other teams' threads showed spin mattered for consistent shots",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "Boat hook climber",
+      "because": "other climbers on offer would not lift the robot to the right height for the trap",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/yyU29GF",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "1771 North Gwinnett Robotics | Behind the Bumpers | FRC CRESCENDO Robot",
+        "url": "https://www.youtube.com/watch?v=GWJxVlSt0uE",
+        "format": "video",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "Full robot on the field, an orange ring in the air",
+        "url": "https://imgur.com/90n8YVP",
+        "img": "https://i.imgur.com/90n8YVPh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "robot-photo",
+        "hero": true
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/team1771",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: Chief Delphi title search for 1771 (1 topic) and '1771 binder' (0 posts), one grouped web search; only the home page of the team site was read"
+  ],
+  "results": {
+    "division": "Daly",
+    "division_opr": 52.78,
+    "opr_rank": 18,
+    "record": "58-7-0",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

@@ -1,0 +1,354 @@
+{
+  "id": "2023-1731",
+  "season": 2023,
+  "team": "1731",
+  "team_name": "Fresta Valley Robotics Club",
+  "robot_name": null,
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 1731 in 2023",
+      "url": "https://www.thebluealliance.com/team/1731/2023",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Daly Division 2023",
+      "url": "https://www.thebluealliance.com/event/2023dal",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "Team 1731 Alexander Graham Cowbell (2023)",
+      "url": "https://www.chiefdelphi.com/t/team-1731-fresta-valley-robotics-club-alexander-graham-cowbell/428655",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "1731 FRC2023",
+      "url": "https://github.com/team1731/FRC2023",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Team 1731 Alexander Graham Cowbell post for TBA",
+      "url": "https://www.chiefdelphi.com/t/team-1731-alexander-graham-cowbell-post-for-tba/433207",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Behind the Bumpers | 1731 Fresta Valley Robotics Club | CHS DCMP Winners",
+      "url": "https://www.youtube.com/watch?v=Vnk96ijqEZw",
+      "publisher": "FUN Robotics Network (auto-caption transcript)",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "demand": [
+      {
+        "text": "The team says it focuses mainly on cones and is fast. For alliance selection at its second event it mainly wanted a cube robot, so it could fill the top of the grid with cones while the partner placed cubes.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "The arm can start all the way back, clipped by a magnet. The team says this saves about a second of auto.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "In one high-scoring match it filled its own area of the grid, three high, three mid and three low, then helped its partners by filling low nodes.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "The intake is the fifth version. The first design used wheels meant to drop the cone straight down, and it did not work out. The hand was first angled, then made flat so it could lie on the ground and pick up a tipped cone.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "48-16-0 in official play; ranked 11 of the pooled top 20 (OPR 75.02, Daly).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Arm",
+      "pieces": [
+        "cone"
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "carbon fiber arm, each arm moving independently",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Inspired by 971's 2018 robot; the team says the carbon fiber is about half the weight of aluminum and four times as strong",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "A custom gearbox controls the arm at about 90 to 1",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arm point recording",
+      "solves": [
+        {
+          "text": "Control the movements of arms that move independently",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "position"
+      ],
+      "type": "taught positions",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Someone moves the arm by hand and the robot records the points to repeat later",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "pieces": [
+        "cone"
+      ],
+      "solves": [
+        {
+          "text": "Pick up a tipped cone from the floor",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "retain"
+      ],
+      "type": "motorized roller hand",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "A NEO 550 drives the rollers; spinning one way takes cones with a plain roller and 2 in wheels",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "A pulley drives a further roller",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "It squeezes a cone tightly",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "It took five versions",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wrist",
+      "pieces": [
+        "cone"
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "motorized wrist",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "A NEO 550 rotates the wrist so the hand has its full range of motion",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lights",
+      "does": [
+        "sense"
+      ],
+      "type": "driver feedback lights",
+      "serves": [],
+      "facts": [
+        {
+          "text": "They show the driver when the robot is picking up, when it holds a piece and when something is wrong with the arm",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Flat hand",
+      "because": "it can lie on the ground and pick up a tipped cone, one of the main things the team wanted",
+      "instead_of": "an angled hand",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    },
+    {
+      "choice": "Carbon fiber arm",
+      "because": "it is extremely light and strong",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    },
+    {
+      "choice": "Start auto with the arm all the way back on a magnet",
+      "because": "it saves about a second",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=64Kfj257VHk",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=Vnk96ijqEZw",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/YdUfE7L",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Team 1731 Alexander Graham Cowbell (2023)",
+        "url": "https://www.chiefdelphi.com/t/team-1731-fresta-valley-robotics-club-alexander-graham-cowbell/428655",
+        "format": "thread",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "Team 1731 Alexander Graham Cowbell post for TBA",
+        "url": "https://www.chiefdelphi.com/t/team-1731-alexander-graham-cowbell-post-for-tba/433207",
+        "format": "thread",
+        "state": "listed",
+        "src": "s5"
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/team1731",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "1731 FRC2023",
+        "url": "https://github.com/team1731/FRC2023",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s4"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "Chief Delphi title search \"1731\", post search \"1731 binder\" and a crawl of the team site (9 pages)",
+    "one interview transcript from the district championship; the two robot threads were not read"
+  ],
+  "results": {
+    "division": "Daly",
+    "division_opr": 75.02,
+    "opr_rank": 11,
+    "record": "48-16-0",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

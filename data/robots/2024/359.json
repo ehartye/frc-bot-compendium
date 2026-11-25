@@ -1,0 +1,725 @@
+{
+  "id": "2024-359",
+  "season": 2024,
+  "team": "359",
+  "team_name": "Hawaiian Kids",
+  "robot_name": "POI POUNDER XXV",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 359 in 2024",
+      "url": "https://www.thebluealliance.com/team/359/2024",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Newton Division 2024",
+      "url": "https://www.thebluealliance.com/event/2024new",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC Team 359 - 2024 Robot Reveal (46)",
+      "url": "https://www.chiefdelphi.com/t/frc-team-359-2024-robot-reveal/455664",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Team 359 2024 Technical Booklet: POI POUNDER XXV",
+      "url": "https://drive.google.com/file/d/1e8ZrADJcjnSTFEuvgEEZYLZNTUhG3JB1/view",
+      "publisher": "drive.google.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "2024 FRC World Championship",
+      "url": "https://www.waialuarobotics.com/2024-frc-world-championship",
+      "publisher": "waialuarobotics.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "FRC Robots",
+      "url": "https://www.waialuarobotics.com/robot",
+      "publisher": "waialuarobotics.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Behind the Bumpers: 359 Hawaiian Kids, CRESCENDO, filmed at the San Diego Regional (auto-caption read)",
+      "url": "https://www.youtube.com/watch?v=0QAU0Ql9xy4",
+      "publisher": "FUN Robotics Network (YouTube)",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "FRC Team 359 2024 Robot Reveal, post 46",
+      "url": "https://www.chiefdelphi.com/t/frc-team-359-2024-robot-reveal/455664/46",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "outcome": [
+      {
+        "text": "68-10-1 in official play; ranked 19 of the pooled top 20 (OPR 52.42, Newton).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "bet": [
+      {
+        "text": "Start from 2910's robot, which the team ran in the off-season, because it already had several subsystems this game needed.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "Ranking points first: as many notes as possible in teleop, then the stage. The trap matters because one trap note with two robots onstage can earn a ranking point. The three goals were adaptable autos, tolerant cycles and quick stage engagement.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "The team wrote many autos from amp, center and stage starts to fit its partners, up to the preload plus four more notes. Odometry enables trajectory following, and Path Planner 2.0 speeds up creating and testing autos.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The robot turns to a note seen by the Limelight, and the intake takes it and flips in to feed the shooter. A live firing solution sets the subsystems and fires as soon as all are ready. Intake and shooter on opposite sides mean less spinning.",
+        "basis": "team",
+        "src": [
+          "s4",
+          "s8"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "Pose estimation lines the robot up with the stage. One button moves everything into position; on the chain, a second one climbs. Carbon fiber rods prop under the stage and hold the robot near the trap.",
+        "basis": "team",
+        "src": [
+          "s4",
+          "s8"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "If pose estimation fails, setpoints tuned to known field spots still score, and operators can switch to manual. A second CAN bus covers a break in the first.",
+        "basis": "team",
+        "src": [
+          "s8",
+          "s4"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "After the Canadian Pacific event one shooter wheel was moved over to add spin, for longer, more consistent shots. The forks came late in build season.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      },
+      {
+        "text": "On real stages the trap proved harder than at home: notes stuck to the polycarbonate.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      },
+      {
+        "text": "A servo that opens the trap door, added at San Diego, greatly improved consistency.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drivetrain",
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Module speed, as stated",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 18.1,
+          "unit": "ft/s"
+        },
+        {
+          "text": "SDS MK4i modules with 16-tooth pinions, Kraken X60 drive at 5.36:1 and Kraken X60 steering at 7:1",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s8"
+          ]
+        },
+        {
+          "text": "28 by 26 in frame of 1 by 2 in aluminum tube, the same size as the 2910 robot's",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s8"
+          ]
+        },
+        {
+          "text": "A heading controller resists being turned by defense",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pivot point",
+      "solves": [
+        {
+          "text": "Hold the arm stiffly so software can move it faster and more precisely",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "position",
+        "structure"
+      ],
+      "type": "dead-axle arm pivot",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Gear ratio, four Kraken X60s",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 111.88,
+          "unit": ":1"
+        },
+        {
+          "text": "A #35 chain drives the last stage, tensioned by a screw-driven swing arm",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A cradle takes impacts in the collect and stowed positions and is the hard stop for homing",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "The whole arm comes off with a single bolt",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arm",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Carry the intake from stowed to amp and trap, and set the shooter angle",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "telescoping arm on a pivot",
+      "serves": [
+        "amp",
+        "trap",
+        "speaker"
+      ],
+      "facts": [
+        {
+          "text": "Full extension in under",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 0.13,
+          "unit": "s"
+        },
+        {
+          "text": "Gear ratio, one Kraken X60",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 4.27,
+          "unit": ":1"
+        },
+        {
+          "text": "Extends only for the amp and the trap",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Tubes of 2.5 and 3 in box aluminum, 0.125 in thick and pocketed, with cascade rigging",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wrist",
+      "pieces": [
+        "note"
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "180 degree articulating joint",
+      "serves": [
+        "amp"
+      ],
+      "facts": [
+        {
+          "text": "Articulation",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 180,
+          "unit": "deg"
+        },
+        {
+          "text": "Gear ratio, one Kraken X60",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 39.51,
+          "unit": ":1"
+        },
+        {
+          "text": "The motor sits close to the pivot to cut torque and inertia",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Collect, feed the shooter and score the amp with no handoff for the amp",
+          "basis": "team",
+          "src": [
+            "s8",
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "retain",
+        "transfer",
+        "deliver"
+      ],
+      "type": "folding roller intake",
+      "serves": [
+        "speaker",
+        "amp"
+      ],
+      "facts": [
+        {
+          "text": "Three roller sets: two in front collect and index to the shooter, one in back scores the amp",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Gear ratio, one Kraken X60",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 2.5,
+          "unit": ":1"
+        },
+        {
+          "text": "Geometry is from the 2910 robot, with the width changed for the note and side guides to center it",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "A time-of-flight sensor reads where the note sits sideways; another sees approaching robots and folds the intake in",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Shoot accurately over a large range with good compression and quick spin-up",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "top and bottom wheel shooter",
+      "serves": [
+        "speaker"
+      ],
+      "facts": [
+        {
+          "text": "Compression on the note",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 0.25,
+          "unit": "in"
+        },
+        {
+          "text": "Eight 4 in solid urethane wheels",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Two NEO Vortexes at 1.47:1",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Hang with the robot placed to score the trap",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "two spring-raised hooks with prop rods",
+      "serves": [
+        "onstage",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "Constant-force springs of 3.5 lb raise the hooks; two NEO Vortexes at 25:1 drive the spools",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Servos drop 23 in carbon fiber rods that keep the robot from tipping back and close to the trap",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A magnetic limit switch on each side keeps the hooks level",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A linear servo opens the trap door",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Trap scoring had trouble on real stages, where notes stuck to the polycarbonate more than at home",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vision and automation",
+      "does": [
+        "sense"
+      ],
+      "type": "AprilTag pose plus note detection",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Front and rear cameras, each with its own Orange Pi, feed pose for autonomous and automatic shots",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "A Limelight 3 with a Google Coral finds notes and turns the robot to them",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "A Kalman filter combines PhotonVision pose with drivetrain odometry",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Redundant CAN buses",
+      "solves": [
+        {
+          "text": "Keep running after a bus breaks, with no time to fix it",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "doubled wiring",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Two CAN buses run from the base up the arm to the intake",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Disconnects let the arm be swapped quickly",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Build on 2910's robot",
+      "because": "it already had subsystems this game needed",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    },
+    {
+      "choice": "One-stage telescoping arm",
+      "because": "the robot did not need to extend that far out of its frame to score",
+      "instead_of": "a third stage",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    },
+    {
+      "choice": "Top and bottom shooter",
+      "because": "prototypes gave the best compression, and the pivot can flatten the shot",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    },
+    {
+      "choice": "Fold the intake when a robot approaches",
+      "because": "it prevents damage in midline rushes",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    },
+    {
+      "choice": "Intake and shooter on opposite sides",
+      "because": "it minimizes spinning the robot",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "Offset dead-axle pivot",
+      "because": "it is stiffer, sits low when stowed and reaches farther when scoring",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "Setpoints for almost every control",
+      "because": "they cut human error and adjust easily between fields",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=0QAU0Ql9xy4",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=_hxATpue968",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/XyEVz57",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/nUmJRkL",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "FRC Team 359 - 2024 Robot Reveal (46)",
+        "url": "https://www.chiefdelphi.com/t/frc-team-359-2024-robot-reveal/455664",
+        "format": "thread",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "2024 FRC World Championship",
+        "url": "https://www.waialuarobotics.com/2024-frc-world-championship",
+        "format": "web page",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "Full robot with red 359 bumpers holding an orange ring",
+        "url": "https://www.waialuarobotics.com/robot",
+        "img": "https://images.squarespace-cdn.com/content/v1/665fa11318d0c003384f948b/265a84b0-ef8e-46de-8d57-42b75aa923f1/champswebsite-23.jpg?format=2500w",
+        "format": "image",
+        "state": "opened",
+        "src": "s6",
+        "kind": "robot-photo",
+        "hero": true
+      }
+    ],
+    "documents": [
+      {
+        "what": "Team 359 2024 Technical Booklet: POI POUNDER XXV",
+        "url": "https://drive.google.com/file/d/1e8ZrADJcjnSTFEuvgEEZYLZNTUhG3JB1/view",
+        "format": "Google Drive",
+        "state": "opened",
+        "src": "s4"
+      },
+      {
+        "what": "FRC Robots",
+        "url": "https://www.waialuarobotics.com/robot",
+        "format": "web page",
+        "state": "opened",
+        "src": "s6"
+      }
+    ],
+    "code": []
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: Chief Delphi \"359 binder\" and a title search, and 29 pages of the team site, where the booklet is"
+  ],
+  "results": {
+    "division": "Newton",
+    "division_opr": 52.42,
+    "opr_rank": 19,
+    "record": "68-10-1",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

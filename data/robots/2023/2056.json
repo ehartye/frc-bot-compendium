@@ -1,0 +1,878 @@
+{
+  "id": "2023-2056",
+  "season": 2023,
+  "team": "2056",
+  "team_name": "OP Robotics",
+  "robot_name": "UPPERCUT",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 2056 in 2023",
+      "url": "https://www.thebluealliance.com/team/2056/2023",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Archimedes Division 2023",
+      "url": "https://www.thebluealliance.com/event/2023arc",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "2056 OP Robotics 2023 Technical Binder (UPPERCUT) PDF",
+      "url": "https://2056.ca/wp-content/uploads/2023/05/2023_Tech_Binder_OPR2056.pdf",
+      "publisher": "2056.ca",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Team 2056 OP Robotics Technical Binder Release",
+      "url": "https://www.chiefdelphi.com/t/team-2056-op-robotics-technical-binder-release/437553",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Behind the Bumpers | 2056 OP Robotics | Charged Up Robot",
+      "url": "https://www.youtube.com/watch?v=IfX5bYZahtg",
+      "publisher": "FUN Robotics Network (auto-caption transcript)",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Team 2056 OP Robotics Technical Binder Release, post 26",
+      "url": "https://www.chiefdelphi.com/t/team-2056-op-robotics-technical-binder-release/437553/26",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Why 2056 is the best to ever do it, post 35",
+      "url": "https://www.chiefdelphi.com/t/why-2056-is-the-best-to-ever-do-it/496352/35",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Design mechanisms that are easy to control, so time goes into scoring instead of arm tuning (an undated thread reply that reads as the team's).",
+        "basis": "observer",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "The binder ranks no objectives. Its requirements are an arm that scores in any position and picks up from the floor and the single human player station, and an intake that holds cones and cubes while crossing the field and scores them on any node.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "Autonomous driving uses a simple drive-to-point algorithm on the team's own swerve odometry.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      },
+      {
+        "text": "The LEDs flash the alliance color of the auto that is set, in case the wrong one is chosen.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      },
+      {
+        "text": "No game piece detection is used (a thread reply that reads as the team's).",
+        "basis": "observer",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "Pick up from the floor or the single human player station. A switch detects a cube; a photo-eye detects a cone and closes the intake. The driver holds the high or mid button, and the chassis drives to a computed scoring pose while the arm moves. Then release and send the arm home.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "The operator can home the shoulder and elbow, move both by hand, run and open the intake by hand, and reset the gyro.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      },
+      {
+        "text": "A thread reply that reads as the team's says the gyro reset was mainly for practice and used once or twice all season in matches.",
+        "basis": "observer",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "The arm does not go all the way around. The team says this did not matter to it, and that an arm pivoting in both directions is harder to counterbalance.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "The gripper dropped cones at the first event, so gears were added to link its two sides.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      },
+      {
+        "text": "A steel bar was added at the rear to lower the center of gravity.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      },
+      {
+        "text": "Between the Ontario and world championships, small horns were added because the rollers caught on the swerve modules and ripped.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "61-8-0 in official play; ranked 1 of the pooled top 20 (OPR 83.47, Archimedes).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drivetrain",
+      "solves": [
+        {
+          "text": "Cross the cable track and charge station and maneuver in the community with traction, agility and stability",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "SDS MK4i L2 modules on Falcon 500s, speed",
+          "basis": "team",
+          "src": [
+            "s3"
+          ],
+          "value": 15,
+          "unit": "ft/s"
+        },
+        {
+          "text": "Frame is 27-3/4 in wide by 31-3/4 in long, in 2 x 1 x 1/8 in aluminum tube",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "A 1/8 in solid aluminum baseplate keeps the center of gravity low",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Odometry accuracy and repeatability improved significantly after adopting Phoenix Pro time sync (a thread reply that reads as the team's)",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A driver button locks the wheels at 45 degrees",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "First swerve year: the team put swerve on a wooden chassis and says it took about three months to get it moving",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Swerve module covers",
+      "solves": [
+        {
+          "text": "Keep debris out of the swerve modules and grease in",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "drive",
+        "structure"
+      ],
+      "type": "3D printed enclosure",
+      "serves": [],
+      "facts": [
+        {
+          "text": "The covers completely enclose the modules",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "The top cover came off before and after each event to inspect the modules (a thread reply that reads as the team's)",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "The top screws catch about one thread and never came out; a boss with a heat-set insert was planned (a thread reply that reads as the team's)",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tower",
+      "solves": [
+        {
+          "text": "Give the arm a stable pivot at the right height and angle",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "lightened aluminum tube tower",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Lightened 2 x 1 x 1/8 in tube, with a 2 x 2 x 1/8 in rear lower support for rigidity",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "A 7/8 in dead axle is bolted to the tower with 3/8 in bolts",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Fastened with 1/4 in aluminum rivets and bolted to the drivetrain through 1/8 in formed sheet metal",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arm",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Score in any position and pick up from the floor and the single human player station while staying rigid and light",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "two-joint arm, counterbalanced at the shoulder",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Lightened 2 x 2 x 1/8 in tube; each pivot is three tubes bolted together to carry torque",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Pocketed aluminum sprockets are bolted to the arm",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Both joints turn on solid dead axles with press fit bronze bushings",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Two 50 lb gas shocks counterbalance the shoulder and also hold it in the starting configuration; two magnets hold the elbow",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Geometry and design are heavily based on the team's 2011 robot",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "A crack and a slightly deformed tube wall showed at the top pivot of the practice robot, so 1/4 in aluminum plates were added (a thread reply that reads as the team's)",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shoulder Gearbox",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Move the shoulder fast with so little backlash that no external encoder is needed",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "custom gearbox with two chain stages",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Falcon 500, about 18:1 in the gearbox, then 2:1 in #25 chain and nearly 4:1 in #35 chain; 133:1 overall",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Gears are bonded to the shaft with retaining compound, and the final gear has a wide custom broached hub",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "An idler adds chain wrap on the driving sprocket",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elbow Gearbox",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Move the elbow fast with so little backlash that no external encoder is needed",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "custom gearbox with one chain stage",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Falcon 500, about 34:1 in the gearbox, then 4:1 in #25 chain; 138:1 overall",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "A 1/4 in pocketed aluminum plate with a 3/16 in polycarbonate top plate and a 3D printed cover",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Pick up cones and cubes quickly from the floor and station, and hold them while crossing the field",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "retain",
+        "deliver"
+      ],
+      "type": "pneumatic pinching roller gripper",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "A pneumatic top roller in carbon fiber and silicone tubing adds grip on cubes and assists the 4 in compliant wheels",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Pneumatic side rollers pinch and center cones; a four-bar with two polycarbonate sector gears times the two sides",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "One Falcon 500 drives the top roller and one drives both side rollers",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Almost all pocketed 1/4 in polycarbonate, with side plates bolted into tapped edges",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "The team looked at the robot the Cheesy Poofs ran in 2019 and built around it",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "It dropped cones at the first event, before the two sides were linked by gears",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "A fan's account says collisions broke the claw in the second of its two division playoff losses, and the robot could not pick up after that",
+          "basis": "observer",
+          "src": [
+            "s7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Piece sensing",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Detect that a piece is held and act on it automatically",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "retain"
+      ],
+      "type": "bumper switch and photo-eye",
+      "serves": [],
+      "facts": [
+        {
+          "text": "A bumper switch detects a cube and stops the rollers so they do not damage it",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "A photo-eye detects a cone and closes the intake",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Auto Aim",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Drive to the scoring position while the arm is still moving",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "position"
+      ],
+      "type": "Limelight pose alignment",
+      "serves": [
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "A Limelight V3 tracks reflective tape for cones and AprilTags for cubes",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "The robot computes a scoring pose from distance and heading to the target, and drives there while the arm moves",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "The Limelight sits in the drivetrain, angled up (a thread reply that reads as the team's)",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arm and gripper control",
+      "solves": [
+        {
+          "text": "Control the arm with the easiest control scheme available (a thread reply that reads as the team's)",
+          "basis": "observer",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "position"
+      ],
+      "type": "state machine with Motion Magic",
+      "serves": [],
+      "facts": [
+        {
+          "text": "A finite state machine runs arm and gripper; Motion Magic moves both joints to set positions",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "No position feedforward on either joint; the gas springs also damp the shoulder, so gains and acceleration could be fairly aggressive (a thread reply that reads as the team's)",
+          "basis": "observer",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LEDs",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "driver feedback lights",
+      "serves": [],
+      "facts": [
+        {
+          "text": "They signal cone or cube across the field and turn red if the Limelight is not connected",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "They flash white when a piece is held, for pickups the driver cannot see (a thread reply that reads as the team's)",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "SDS MK4i modules",
+      "because": "they have a lower center of gravity, better stability and known reliability",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "Minimal backlash in both arm gearboxes",
+      "because": "the motor encoders can then position the joints with no external encoder",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "Counterbalance and damp the shoulder",
+      "because": "designing the whole system to need no elaborate control scheme is often easier than tuning an advanced one (a thread reply that reads as the team's)",
+      "instead_of": "an elaborate control scheme",
+      "basis": "observer",
+      "src": [
+        "s6"
+      ]
+    },
+    {
+      "choice": "Polycarbonate gears linking the two gripper sides",
+      "because": "the robot dropped cones at its first event",
+      "instead_of": "a locking mechanism",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Bronze bushings on the arm pivots",
+      "because": "their size and weight suit high loads where low friction is not required",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "Timing belts on the top roller",
+      "because": "they need no tensioning and weigh less",
+      "instead_of": "chain",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "Side plates bolted into tapped polycarbonate edges",
+      "because": "it removes the need for aluminum brackets",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "Own swerve code",
+      "because": "the team found the code was not the most accurate",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "No game piece detection",
+      "because": "the Limelight is angled up at cone nodes and tags, and detection was not found necessary (a thread reply that reads as the team's)",
+      "basis": "observer",
+      "src": [
+        "s4"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "STL files of the swerve module covers",
+        "url": "https://2056.ca/wp-content/uploads/2023/05/OP_ROBOTICS_2056_MK4i_Swerve_Covers_2023.zip",
+        "format": "STL (zip)",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "Onshape module covers based on the STLs, by someone not on the team",
+        "url": "https://tldsb.onshape.com/documents/6751825a3d4ad839c7e8d45e/w/72d56c81f3f17b36b895a3fd/e/49a0d5458a9d55ff93eb5abf",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s4"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=IfX5bYZahtg",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/VDCBNOM",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Binder cover photo of the robot carrying a yellow cone",
+        "url": "https://www.chiefdelphi.com/t/team-2056-op-robotics-technical-binder-release/437553",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/9/c/9c6f93c5e7918cd128f558d0ea0aa594ff6dbc41_2_386x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "CAD close-up of the arm joint and lightened plates",
+        "url": "https://www.chiefdelphi.com/t/team-2056-op-robotics-technical-binder-release/437553",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/a/c/acaa010d86ec1ede961d42a19d0e99b8242385c5_2_517x370.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
+      }
+    ],
+    "documents": [
+      {
+        "what": "2056 OP Robotics 2023 Technical Binder (UPPERCUT) PDF",
+        "url": "https://2056.ca/wp-content/uploads/2023/05/2023_Tech_Binder_OPR2056.pdf",
+        "format": "PDF",
+        "state": "opened",
+        "src": "s3"
+      },
+      {
+        "what": "Binder release thread with questions and answers",
+        "url": "https://www.chiefdelphi.com/t/team-2056-op-robotics-technical-binder-release/437553",
+        "format": "thread",
+        "state": "listed",
+        "src": "s4"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/team2056",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Robot code: a reply in the binder thread that reads as the team's says there was no plan to release it",
+        "url": "https://www.chiefdelphi.com/t/team-2056-op-robotics-technical-binder-release/437553",
+        "format": "thread",
+        "state": "withheld",
+        "src": "s4"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "2023 technical binder, text extraction (figures not read); binder thread, first page and post 26",
+    "Chief Delphi post search \"2056 binder\" and team site crawl"
+  ],
+  "results": {
+    "division": "Archimedes",
+    "division_opr": 83.47,
+    "opr_rank": 1,
+    "record": "61-8-0",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

@@ -1,0 +1,863 @@
+{
+  "id": "2026-2046",
+  "season": 2026,
+  "team": "2046",
+  "team_name": "Bear Metal",
+  "robot_name": "Bearricade Mk.II",
+  "variant": "rebuilt during the season; this is the drum-shooter robot of the championship, not the earlier double shooter",
+  "sources": {
+    "s1": {
+      "title": "Team 2046 in 2026",
+      "url": "https://www.thebluealliance.com/team/2046/2026",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Newton Division 2026",
+      "url": "https://www.thebluealliance.com/event/2026new",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FIRST: Newton match timing, what happened (2026)",
+      "url": "https://www.chiefdelphi.com/t/frc-blog-newton-match-timing-what-happened-and-what-s-next/522088",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "2046 2026 Bearricade Mk.II Tech Binder (Google Drive)",
+      "url": "https://drive.google.com/file/d/1YBlY312kMTiV29boVv6xRt87foDIU9lk/view",
+      "publisher": "drive.google.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "2046 2026 Bearricade Mk.II CAD file",
+      "url": "https://drive.google.com/file/d/1heATIApMaUC-STLuVx7_C361IcmWv8U0/view",
+      "publisher": "drive.google.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Tahoma Robotics gallery - Auburn 2026",
+      "url": "https://tahomarobotics.org/gallery/auburn-district-event-2026-sjcrc",
+      "publisher": "tahomarobotics.org",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "How to Win a World Championship | FRC Strategy Analysis",
+      "url": "https://www.youtube.com/watch?v=-Cm-RuiSNlU",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/ZjWNet2",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Page with pictures of this robot",
+      "url": "https://www.chiefdelphi.com/t/2046-cad-and-tech-binder-release-2026/523823",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "2046 Bear Metal | Behind the Bumpers | World Finalists",
+      "url": "https://www.youtube.com/watch?v=HD-UhOpBiZ0",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Get the highest throughput and volume for the development time spent, with a superstructure of one roller and one drum.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "Self-sufficiency first: rank high without relying on partners and still compete in playoffs. Then large volume and fast passing and shooting.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "The team also wanted a full hopper at the start of every active shift, when it expected the least defense.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "Three-stage choosers mix paths into over 200 combinations, mirrored when needed. The robot starts at 45 degrees to cut initial rotation and distance to the field center. Current limits are bypassed for the first 4 to 6 second sprint and return after the shots to prevent brown-out.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The collector extends the hopper as it pivots out. The floor rollers feed an S-shaped superstructure and the drum.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "Auto alignment aims at the hub, or at the alliance wall to pass in inactive shifts, and the robot passes on the move.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "Shoot: the team expected everyone to score in the endgame with little passing, and it dropped its climber.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "Under heavy defense the robot goes against the hub, locks its wheels and shoots backward with the hood at -10 degrees, so, the team says, defense has no effect on it.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "The climber. The team judged that 6 pounds and hopper volume for a mechanism that scores 10 points was not worth it.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "A commentator on the Einstein matches says two clean-up turrets on the other alliance left 2046 with little neutral-zone fuel; in the match its alliance won, one of those turrets was disabled.",
+        "basis": "observer",
+        "src": [
+          "s7"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "The first event robot, a double shooter, lacked throughput. The drum robot took about eight days between competition weeks 1 and 3.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      },
+      {
+        "text": "A reply that reads as the team's says it planned the rebuild before week 1.",
+        "basis": "observer",
+        "src": [
+          "s9"
+        ]
+      },
+      {
+        "text": "Earlier versions had a belt-bed floor and a triple shooter; indexing limited it and current draw was high.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "A commentator says 2046's robot malfunctioned in the last Einstein final; far shots fell short.",
+        "basis": "observer",
+        "src": [
+          "s7"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "78-16-0 in official play; won the Newton division; championship finalist; pick 1 of the Newton alliance on Einstein; ranked 19 of the pooled top 20 (OPR 287.91, Newton).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Chassis",
+      "does": [
+        "drive",
+        "structure"
+      ],
+      "type": "swerve with skids",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Square frame side",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 27,
+          "unit": "in"
+        },
+        {
+          "text": "Four SDS MK5n modules with the L1 ratio and 4 in spike wheels, to maximize torque to the ground",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Kraken X60s drive and X44s steer",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "HDPE skids underneath keep the robot from getting stuck on the bump",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bumpers",
+      "solves": [
+        {
+          "text": "Keep the robot from beaching on fuel or the bump, and protect it from defense",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "raised chamfered bumpers",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Height above the ground",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 1.4,
+          "unit": "in"
+        },
+        {
+          "text": "1/2 in HDPE backing with 1 in chamfered polyethylene foam",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Collector",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Intake fuel quickly and extend the hopper as it pivots out",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "three-roller pivoting collector",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Front and bottom back rollers of 2 in outside diameter; a 1.25 in roller guides the ball to the top",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "The binder says one motor drives the collector; the interview says two Kraken X60s power it",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s10"
+          ]
+        },
+        {
+          "text": "Half-inch polycarbonate with aluminum plates at contact points takes hits without a front bar",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Dead-axle polycarbonate rollers absorb impacts",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A reply that reads as the team's says the deploy is a slap-down pivot arm on a sprocket on a stationary dead axle with two Kraken X44s",
+          "basis": "observer",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hopper",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Hold a high amount of fuel and detach easily for service",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "retain"
+      ],
+      "type": "hopper extended by the collector linkage",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Polycarbonate plates with ball-bearing slides; a linkage from the collector extends it and a net keeps balls in",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "The binder says 60 balls under the trench and 75 to 80 over the bump; the interview says about 50 to 60 under the trench and 70 to 80 fully loaded",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s10"
+          ]
+        },
+        {
+          "text": "It extends about 11.5 in or a little more, less than the full 12 in, so a flexing front plate does not go over",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Indexer",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Move balls to the superstructure as fast as possible in little space",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "stepped roller floor",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Each roller is stepped up 21:20 over the last, from 1410 RPM at the front to 2297 RPM at the back; the binder counts 10 tubes, the interview 11 rollers",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s10"
+          ]
+        },
+        {
+          "text": "Tubes of 1.25 in outside diameter with cat tongue tape and silicone, on two Kraken X44s",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "The floor pivots up to reach the battery",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Wheels were removed because agitation slowed balls catching on the superstructure roller",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "A reply that reads as the team's says moving to two motors on the floor after the district championship added a little weight but saved significant current and let the floor spin faster",
+          "basis": "observer",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Superstructure",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Lift balls from hopper to shooter quickly with little hopper volume",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "single-roller S-curve lift",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Two X60s power it; the shooter and superstructure share plates for a light design",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "One roller lifts all balls; several rollers were tried first and one gave more throughput with less jamming",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "A printed backing and an S curve reduce the volume it takes",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fuel Shooter",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Launch balls at the rate they are indexed from any position on the alliance side",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "deliver",
+        "position"
+      ],
+      "type": "drum shooter with hood",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "The drum is 4 in aluminum tubing coated in cat tongue tape",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Speed held by the shooter",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 3000,
+          "unit": "RPM"
+        },
+        {
+          "text": "The hood moves from -10 to 60 degrees; -10 shoots backward at the hub and 60 passes nearly bump to bump",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s10"
+          ]
+        },
+        {
+          "text": "The interview says about 24 to 25 balls per second on average and peaks of about 29 to 30",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "A reply that reads as the team's says it was about 23 to 25 balls per second at Worlds, with accuracy close to 95 percent",
+          "basis": "observer",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "A reply that reads as the team's says with no separate flywheel, shooter tuning that did not oscillate in its idle state was the biggest accuracy problem",
+          "basis": "observer",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Localization",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Set shot distance and aim target from the robot's position",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "Limelight 4 with Pigeon odometry",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "MegaTag1 heading reconvergence is limited to when the robot is disabled or its chassis is stopped, to reduce inaccuracies",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "AprilTag ambiguity is filtered and standard deviations set the trust in MegaTag1 and MegaTag2",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A secondary controller adjusts the shooter table for small differences between fields",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Subsystem commands and match logs",
+      "solves": [
+        {
+          "text": "Perform the same way every match",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "command interfaces and logging",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Subsystems never talk to each other, only to their own command interface",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Members check the logs of every match for motors that draw too much or too little current before they fail",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Underside electronics",
+      "solves": [
+        {
+          "text": "Keep wiring reliable and easy to reach",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "electronics on the underside",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Wires are crimped to the terminals instead of soldered to extensions, with 10 AWG on drive and shooter",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A removable polycarbonate panel gives access; a folded sheet metal part holds the battery",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "One drum instead of two channels",
+      "because": "the two-channel robot lacked throughput, and other teams' less accurate drums still scored more on average",
+      "instead_of": "a two-channel shooter",
+      "basis": "team",
+      "src": [
+        "s10"
+      ]
+    },
+    {
+      "choice": "No climber",
+      "because": "6 pounds and hopper volume for 10 points was not worth it",
+      "instead_of": "a climber with a loop",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "No L3 climb",
+      "because": "the strategy calculator showed that even a climb of about 5 seconds would lose an Einstein-level match in lost scoring time",
+      "basis": "team",
+      "src": [
+        "s10"
+      ]
+    },
+    {
+      "choice": "S-curve superstructure",
+      "because": "throughput differed little from a J curve and the S left more room for fuel",
+      "instead_of": "a J curve",
+      "basis": "team",
+      "src": [
+        "s10"
+      ]
+    },
+    {
+      "choice": "One lift roller",
+      "because": "it gave more throughput with less jamming and more hopper volume",
+      "instead_of": "several rollers",
+      "basis": "team",
+      "src": [
+        "s10"
+      ]
+    },
+    {
+      "choice": "Smooth printed hood",
+      "because": "rollers on the hood reduced shot accuracy; the printed backing also reduces bounce-outs",
+      "instead_of": "a hood with rollers",
+      "basis": "team",
+      "src": [
+        "s10",
+        "s4"
+      ]
+    },
+    {
+      "choice": "Roller floor",
+      "because": "the belt floor needed difficult tensioning, balls spun in place and the axles were under significant stress",
+      "instead_of": "a belt bed",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "Aim for about 25 balls per second",
+      "because": "the team's graph showed the gain drops off there, so a better collector helps more",
+      "instead_of": "a 40 balls per second shooter",
+      "basis": "team",
+      "src": [
+        "s10"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "2046 2026 Bearricade Mk.II CAD file",
+        "url": "https://drive.google.com/file/d/1heATIApMaUC-STLuVx7_C361IcmWv8U0/view",
+        "format": "Google Drive",
+        "state": "listed",
+        "src": "s5",
+        "holds": "Google Drive file, format not stated"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=HD-UhOpBiZ0",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/PmSkPeg",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Tahoma Robotics gallery - Auburn 2026",
+        "url": "https://tahomarobotics.org/gallery/auburn-district-event-2026-sjcrc",
+        "format": "web page",
+        "state": "listed",
+        "src": "s6"
+      },
+      {
+        "what": "How to Win a World Championship | FRC Strategy Analysis",
+        "url": "https://www.youtube.com/watch?v=-Cm-RuiSNlU",
+        "format": "video",
+        "state": "listed",
+        "src": "s7"
+      },
+      {
+        "what": "Full robot on field, blue bumpers, netted hopper full of yellow balls",
+        "url": "https://imgur.com/ZjWNet2",
+        "img": "https://i.imgur.com/ZjWNet2h.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Arm mechanism with motor and gear, CAD",
+        "url": "https://www.chiefdelphi.com/t/2046-cad-and-tech-binder-release-2026/523823",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/7/b/a/7ba9ef3ffc2c19562320d998778f734a2d8bf004_2_585x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s9",
+        "kind": "cad"
+      },
+      {
+        "what": "Arm mechanism above swerve module, CAD",
+        "url": "https://www.chiefdelphi.com/t/2046-cad-and-tech-binder-release-2026/523823",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/1/d/9/1d90b99e05f781154f272f58cad10c235d95557e_2_690x451.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s9",
+        "kind": "cad"
+      },
+      {
+        "what": "Arm mechanism side plate mounted on frame, CAD",
+        "url": "https://www.chiefdelphi.com/t/2046-cad-and-tech-binder-release-2026/523823",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/2/2/b/22bcbe4e52c897d2d3a72570a53763af2bd76975_2_690x481.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s9",
+        "kind": "cad"
+      }
+    ],
+    "documents": [
+      {
+        "what": "2046 2026 Bearricade Mk.II Tech Binder",
+        "url": "https://drive.google.com/file/d/1YBlY312kMTiV29boVv6xRt87foDIU9lk/view",
+        "format": "Google Drive",
+        "state": "opened",
+        "src": "s4"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/bear-metal-2046",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: the 2026 binder was read as text only, figures and drawings not seen; 20 pages of the team site"
+  ],
+  "results": {
+    "division": "Newton",
+    "division_opr": 287.91,
+    "opr_rank": 19,
+    "record": "78-16-0",
+    "einstein": {
+      "division": "Newton",
+      "role": "pick 1"
+    },
+    "src": [
+      "s1",
+      "s2",
+      "s3"
+    ],
+    "note": "Several 2026 Newton division matches ran longer than expected. FIRST replayed one and says it could not tell which outcomes changed, so whether this moved any OPR is not known."
+  }
+}

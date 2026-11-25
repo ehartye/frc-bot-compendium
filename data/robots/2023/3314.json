@@ -1,0 +1,402 @@
+{
+  "id": "2023-3314",
+  "season": 2023,
+  "team": "3314",
+  "team_name": "Mechanical Mustangs",
+  "robot_name": null,
+  "variant": "Described in an interview recorded after the championship; the second cube shooter's date is not stated",
+  "sources": {
+    "s1": {
+      "title": "Team 3314 in 2023",
+      "url": "https://www.thebluealliance.com/team/3314/2023",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Daly Division 2023",
+      "url": "https://www.thebluealliance.com/event/2023dal",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "Behind the Bumpers: 3314 Mechanical Mustangs (2023)",
+      "url": "https://www.chiefdelphi.com/t/behind-the-bumpers-3314-mechanical-mustangs-fma-dcmp-winners/444370",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Behind the Bumpers | 3314 Mechanical Mustangs | Charged Up Robot",
+      "url": "https://www.youtube.com/watch?v=0wM5AB82ATA",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/GmUu0Mw",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Full Grids",
+      "url": "https://www.chiefdelphi.com/t/full-grids/434074",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [],
+    "demand": [],
+    "auto": [],
+    "cycle": [
+      {
+        "text": "Two ways to score: the extending arm reaches mid and high nodes, and a separate cube shooter shoots cubes. One button homes the arm inside the frame after scoring.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "A post on a full grid at the Mid-Atlantic championship gives 3314 ten pieces, mostly mid and high, starting from the bump side.",
+        "basis": "observer",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "endgame": [],
+    "fallback": [],
+    "gave_up": [],
+    "changed": [
+      {
+        "text": "The cube shooter shown is a second version, with bottom rollers added so cubes leave straighter and more predictably. The cube intake was the most damaged part and was repaired once during a competition.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "67-20-2 in official play; ranked 16 of the pooled top 20 (OPR 71.11, Daly).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Arm",
+      "pieces": [
+        "cone"
+      ],
+      "solves": [
+        {
+          "text": "Reach mid and high nodes and return inside the frame",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "rotating arm extended by a lead screw",
+      "serves": [
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "A Falcon at the back of the arm turns the lead screw",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A chain, gearbox and Falcon rotate it",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Separate presets for mid and high nodes, and one button to home",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "The students report no structural damage to it",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cone manipulator",
+      "pieces": [
+        "cone"
+      ],
+      "solves": [
+        {
+          "text": "Grip a cone well and hold it at one known angle",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "retain",
+        "deliver"
+      ],
+      "type": "six rubber wheels at the arm's end",
+      "serves": [
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "The wheels draw the cone in to a fixed angle that suits scoring at any level",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Running all six wheels outward scores the piece",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cube shooter",
+      "pieces": [
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Intake cubes and shoot them predictably",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "deliver"
+      ],
+      "type": "two-motor roller cube intake and shooter",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Two Falcons drive the top and bottom rollers separately",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Bottom rollers were added in the second version for a straighter shot",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Separate pairs of pneumatics bring it back and bring it up",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "It goes back up by itself once it detects a cube",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The team's most damaged part, built to be easy to repair",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cube sensors",
+      "pieces": [
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Know whether a cube is held and where it sits",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "three sensors that locate the cube",
+      "serves": [],
+      "facts": [
+        {
+          "text": "One says a cube is inside; the other two say which side, and neither means it is centered",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LED signals",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Show a held piece that is hard to see",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "LEDs for driver and human player",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Lights tell the driver a piece is held",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Purple and yellow tell the human player which piece to feed",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Bottom rollers on the cube shooter",
+      "because": "they make shots more stable, straight and predictable",
+      "instead_of": "the first version without bottom rollers",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/0AjdkWk",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/CVbDB8k",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/Na2bbIK",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/d5ct7WB",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/o86N0oL",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Behind the Bumpers: 3314 Mechanical Mustangs (2023)",
+        "url": "https://www.chiefdelphi.com/t/behind-the-bumpers-3314-mechanical-mustangs-fma-dcmp-winners/444370",
+        "format": "thread",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "Behind the Bumpers | 3314 Mechanical Mustangs | Charged Up Robot",
+        "url": "https://www.youtube.com/watch?v=0wM5AB82ATA",
+        "format": "video",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "Photo page (picture not shown here)",
+        "url": "https://imgur.com/GmUu0Mw",
+        "format": "image",
+        "state": "opened",
+        "src": "s5"
+      }
+    ],
+    "documents": [],
+    "code": []
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: Chief Delphi title search for 3314 (1 topic) and '3314 binder' (0 posts), one web search; the team site could not be reached"
+  ],
+  "results": {
+    "division": "Daly",
+    "division_opr": 71.11,
+    "opr_rank": 16,
+    "record": "67-20-2",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

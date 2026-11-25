@@ -1,0 +1,70 @@
+{
+  "year": 2025,
+  "name": "REEFSCAPE",
+  "manual": {
+    "url": "https://firstfrc.blob.core.windows.net/frc2025/Manual/2025GameManual.pdf",
+    "publisher": "FIRST",
+    "read": "2026-11-25",
+    "note": "Cited by link and restated in our words."
+  },
+  "pieces": [
+    {
+      "id": "coral",
+      "shape": "pipe",
+      "size": "11 7/8 in long, 4 1/2 in outside",
+      "compliance": "rigid"
+    },
+    {
+      "id": "algae",
+      "shape": "ball",
+      "size": "16 1/4 in diameter",
+      "compliance": "soft"
+    }
+  ],
+  "phases": [
+    "auto",
+    "teleop",
+    "endgame"
+  ],
+  "objectives": [
+    {
+      "id": "leave",
+      "label": "Leave the starting line in auto",
+      "auto_points": 3
+    },
+    {
+      "id": "reef-l1",
+      "label": "Score coral in the trough (L1)",
+      "auto_points": 3,
+      "teleop_points": 2
+    },
+    {
+      "id": "reef-branches",
+      "label": "Score coral on branches L2 to L4",
+      "note": "Auto 4, 6, 7; teleop 3, 4, 5"
+    },
+    {
+      "id": "processor",
+      "label": "Score algae in the processor",
+      "auto_points": 6,
+      "teleop_points": 6
+    },
+    {
+      "id": "net",
+      "label": "Score algae in the net",
+      "auto_points": 4,
+      "teleop_points": 4
+    },
+    {
+      "id": "cage",
+      "label": "Climb a cage",
+      "teleop_points": 12,
+      "note": "Deep cage; shallow is 6"
+    },
+    {
+      "id": "park",
+      "label": "Park in the barge zone",
+      "teleop_points": 2
+    }
+  ]
+}

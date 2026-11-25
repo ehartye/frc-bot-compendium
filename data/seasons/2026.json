@@ -1,0 +1,48 @@
+{
+  "year": 2026,
+  "name": "REBUILT",
+  "manual": {
+    "url": "https://firstfrc.blob.core.windows.net/frc2026/Manual/2026GameManual.pdf",
+    "publisher": "FIRST",
+    "read": "2026-11-25",
+    "note": "Cited by link and restated in our words."
+  },
+  "pieces": [
+    {
+      "id": "fuel",
+      "shape": "ball",
+      "size": "5.91 in diameter",
+      "compliance": "foam"
+    }
+  ],
+  "phases": [
+    "auto",
+    "teleop",
+    "endgame"
+  ],
+  "objectives": [
+    {
+      "id": "hub",
+      "label": "Score fuel in the active hub",
+      "auto_points": 1,
+      "teleop_points": 1,
+      "note": "Nothing while the hub is inactive"
+    },
+    {
+      "id": "tower-1",
+      "label": "Climb the tower, level 1",
+      "auto_points": 15,
+      "teleop_points": 10
+    },
+    {
+      "id": "tower-2",
+      "label": "Climb the tower, level 2",
+      "teleop_points": 20
+    },
+    {
+      "id": "tower-3",
+      "label": "Climb the tower, level 3",
+      "teleop_points": 30
+    }
+  ]
+}

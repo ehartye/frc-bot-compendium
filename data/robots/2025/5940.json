@@ -1,0 +1,877 @@
+{
+  "id": "2025-5940",
+  "season": 2025,
+  "team": "5940",
+  "team_name": "BREAD",
+  "robot_name": "Taiyaki",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 5940 in 2025",
+      "url": "https://www.thebluealliance.com/team/5940/2025",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Milstein Division 2025",
+      "url": "https://www.thebluealliance.com/event/2025mil",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "2025",
+      "url": "https://www.team5940.org/2025",
+      "publisher": "team5940.org",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "5940 2025 Tech Binder (Taiyaki), Drive",
+      "url": "https://drive.google.com/file/d/1_SqgJesNe7Tdq_ZP9_-2ZuEF4tBZFTFI/view",
+      "publisher": "drive.google.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "The Cookbook: Team 5940 2025 Competition Documentation",
+      "url": "https://docs.google.com/document/d/18huhav5gS_oqeh6UDCMZ6rl0mssR_yKqCvNB3_Cicug/edit",
+      "publisher": "docs.google.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "5940 BREAD 2025-Public (Taiyaki)",
+      "url": "https://github.com/BREAD5940/2025-Public",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Einstein Level Plays at SVR F2 | FUNalysis | FRC REEFSCAPE 2025",
+      "url": "https://www.youtube.com/watch?v=sDixBoAT8s4",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "The Cookbook: Team 5940 2025 Competition Documentation",
+      "url": "https://www.chiefdelphi.com/t/the-cookbook-team-5940-2025-competition-documentation/505675",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Onshape document",
+      "url": "https://cad.onshape.com/documents/96a5f9f437337066b2987626/w/9644a0c5069d0349ab3cf5a6/e/01df3e1fb18f1f03077c9c5d",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "Page with pictures of this robot",
+      "url": "https://www.chiefdelphi.com/t/team-5940-bread-2025-cad-release/501347",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "Team 5940 BREAD 2025 CAD Release",
+      "url": "https://www.chiefdelphi.com/t/team-5940-bread-2025-cad-release/501347",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [],
+    "demand": [],
+    "auto": [
+      {
+        "text": "In a Silicon Valley final a host shows three coral and an algae removal, and later calls it a feeder-station auto.",
+        "basis": "observer",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "A full-width ground intake feeds an indexer that orients and stores coral, then feeds it to the end effector. Cameras on AprilTags position the robot to score.",
+        "basis": "team",
+        "src": [
+          "s5",
+          "s4"
+        ]
+      },
+      {
+        "text": "In a Silicon Valley final a host shows it carrying coral while scoring algae in the processor, then scoring the coral and removing another algae.",
+        "basis": "observer",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "Spear and fly swatter plates center the deep cage, a gearbox spools string to retract the climber, and friction from the robot's mass keeps the cage from sliding out.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "fallback": [],
+    "gave_up": [],
+    "changed": [
+      {
+        "text": "Replies that read as the team's say star and flex wheels gave way to printed TPU rollers; a rolling tensioner stopped, in normal use, chain skip found on the practice robot; a planned depth camera was dropped; the carriage motor went from X60 to X44 for weight; and a roller hard stop that was delaminating the side plate was removed for Worlds.",
+        "basis": "observer",
+        "src": [
+          "s14"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "46-5-0 in official play; ranked 14 of the pooled top 20 (OPR 103.23, Milstein).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drivebase",
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "WCP X2i modules, X60 drive and X44 steer (the team site calls the modules SwerveX), free speed",
+          "basis": "team",
+          "src": [
+            "s5",
+            "s4"
+          ],
+          "value": 15,
+          "unit": "ft/s"
+        },
+        {
+          "text": "Square frame side",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 29.5,
+          "unit": "in"
+        },
+        {
+          "text": "1 x 1 tubes drop the swerve to reduce ground clearance and lower the center of gravity",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Pick up coral from any angle and miss fewer pickups",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "full-width ground roller intake",
+      "serves": [
+        "reef-l1",
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "The front roller is free to pivot, and polycarbonate wedges center the coral",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "TPU rollers wrapped in silicone add grip and stay light",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Deploys through dual #25 chain at 65.33:1",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Front rollers are 1 in and 1.25 in polycarbonate tubes with 2 in and 3 in TPU rollers pressed on (reads as the team's reply)",
+          "basis": "observer",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Slits separate the printed wheel sections, which the post thinks adds compliance (reads as the team's reply)",
+          "basis": "observer",
+          "src": [
+            "s14"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Pressing the TPU segments onto the tubes is very hard, even in 3 in lengths (reads as the team's reply)",
+          "basis": "observer",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "L1 bar",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Score L1 by stopping coral from going into the intake",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "carbon fiber blocking bar on the intake",
+      "serves": [
+        "reef-l1"
+      ],
+      "facts": [
+        {
+          "text": "Deployed by a Kraken X44 and a polycarbonate sector gear",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Hooks on the bar stop the front roller pivoting up, so coral does not bounce out",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Indexer",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Receive, orient and store coral, and hand it off consistently",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "transfer",
+        "retain"
+      ],
+      "type": "star and flex wheel indexer",
+      "serves": [
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "Front star wheels turn the coral; 2 in flex wheels feed the end effector",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "A bent polycarbonate tray keeps handoffs consistent",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "An asymmetric roller layout reduces jams",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "A beam break triggers automatic ejection when more than one coral is taken in",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "All shafts geared 2:1",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elevator",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Reach L4, and use momentum to score algae in the net",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "two-stage cascade elevator",
+      "serves": [
+        "reef-branches",
+        "net"
+      ],
+      "facts": [
+        {
+          "text": "Reaches full height in",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 0.5,
+          "unit": "s"
+        },
+        {
+          "text": "Two Kraken X60 at 7:1",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Two 10 lb constant-force springs counterbalance it and cut current draw",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "A rolling tensioner keeps the chain from skipping at high acceleration",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Tensioner spring rate (reads as the team's reply)",
+          "basis": "observer",
+          "src": [
+            "s14"
+          ],
+          "value": 38,
+          "unit": "lb/in"
+        },
+        {
+          "text": "A 1/4 in plate sits less than one link from the sprocket so the chain cannot skip (reads as the team's reply)",
+          "basis": "observer",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pivot",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "chain-driven cantilevered pivot on the carriage",
+      "serves": [
+        "reef-branches",
+        "net",
+        "processor"
+      ],
+      "facts": [
+        {
+          "text": "Overall reduction 52.08:1, ending in #25 chain with a sliding tensioner",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "X-contact bearing supports the cantilevered end effector; inside diameter",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 3.5,
+          "unit": "in"
+        },
+        {
+          "text": "A three-stage gearbox and the bearing fit in a 7 x 7.5 x 2 space, unit not given (reads as the team's reply)",
+          "basis": "observer",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Only the end effector wires limit rotation; an elastic string shows how far it has turned (reads as the team's reply)",
+          "basis": "observer",
+          "src": [
+            "s14"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Probably a few degrees of backlash on the final stage (reads as the team's reply)",
+          "basis": "observer",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "End effector",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Place coral and grab algae in quick succession",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "deliver",
+        "retain",
+        "acquire"
+      ],
+      "type": "single-motor coral and algae end effector",
+      "serves": [
+        "reef-branches",
+        "processor",
+        "net"
+      ],
+      "facts": [
+        {
+          "text": "One Kraken X60, 6.66:1 on the algae side and 5.55:1 on the coral side",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "3D printed gear and pulley combinations cut weight",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Inspired by the Penn State RI3D robot",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "The team site adds algae pickup from the ground",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Center the deep cage and lift the robot",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "spear climber retracted by string",
+      "serves": [
+        "cage"
+      ],
+      "facts": [
+        {
+          "text": "Weight",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 6,
+          "unit": "lb"
+        },
+        {
+          "text": "Time to lift the robot fully",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 1.5,
+          "unit": "s"
+        },
+        {
+          "text": "A torsion spring deploys it after the match starts; a 25:1 MAXPlanetary spools the string",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "A 1 in round tube and a 0.125 in aluminum gusset touch one cage tube",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "The team site says dyneema rotates it in and twists the cage",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Inspired by the Rusthounds RI3D design",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pi Motel",
+      "solves": [
+        {
+          "text": "Fit four vision computers in a slightly smaller space than three Orange Pis took in 2024 (reads as the team's reply)",
+          "basis": "observer",
+          "src": [
+            "s14"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "AprilTag cameras on four Rock 5C computers",
+      "serves": [
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "Cameras on the front swerve modules see the reef AprilTags",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Four Rock 5C computers, powered over PCIe by a custom PCB (the team site says Orange Pis)",
+          "basis": "team",
+          "src": [
+            "s5",
+            "s4"
+          ]
+        },
+        {
+          "text": "One camera per computer, three monochrome and one color, running PhotonVision (reads as the team's reply)",
+          "basis": "observer",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Underside electronics",
+      "solves": [
+        {
+          "text": "Serviceability and reliability",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "electronics facing the floor behind removable panels",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Mounted this way since 2023; mechanisms on top do not block access (reads as the team's reply)",
+          "basis": "observer",
+          "src": [
+            "s14"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Some holes in the 1/16 in panels egged out and broke after a few weeks, so gaff tape held them (reads as the team's reply)",
+          "basis": "observer",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Printed TPU rollers on polycarbonate tube (reads as the team's reply)",
+      "because": "gapless flex wheels were needed for coral arriving across the intake but would be too heavy, and hex shafts bent in impacts",
+      "instead_of": "flex wheels on 1/2 in hex shaft",
+      "cost": "press fitting the segments is very hard",
+      "basis": "observer",
+      "src": [
+        "s14"
+      ]
+    },
+    {
+      "choice": "TPU roller on top of the intake (reads as the team's reply)",
+      "because": "star wheels picked up inconsistently in auto, which the post puts down to intermittent contact",
+      "instead_of": "star wheels",
+      "basis": "observer",
+      "src": [
+        "s14"
+      ]
+    },
+    {
+      "choice": "Rolling chain tensioner (reads as the team's reply)",
+      "because": "stretch over a long chain run let it skip and the elevator lost its zero, even with an inline tensioner fully tight",
+      "instead_of": "an inline tensioner alone, or heavier #35 chain",
+      "basis": "observer",
+      "src": [
+        "s14"
+      ]
+    },
+    {
+      "choice": "Drop the depth camera (reads as the team's reply)",
+      "because": "many teams placed coral accurately with vision alone, and the camera, its computer and a 10 ft cable added weight",
+      "instead_of": "an Intel RealSense planned for field tolerance",
+      "basis": "observer",
+      "src": [
+        "s14"
+      ]
+    },
+    {
+      "choice": "Epoxied printed roller hubs (reads as the team's reply)",
+      "because": "aluminum tube plugs cracked around the screw holes",
+      "instead_of": "aluminum plugs held by two screws",
+      "basis": "observer",
+      "src": [
+        "s14"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "Comp Robot",
+        "url": "https://cad.onshape.com/documents/96a5f9f437337066b2987626/w/9644a0c5069d0349ab3cf5a6/e/01df3e1fb18f1f03077c9c5d",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "CAD listed on the team page",
+        "url": "https://cad.onshape.com/documents/96a5f9f437337066b2987626/w/9644a0c5069d0349ab3cf5a6",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Team 5940 BREAD 2025 CAD Release",
+        "url": "https://www.chiefdelphi.com/t/team-5940-bread-2025-cad-release/501347",
+        "format": "thread",
+        "state": "listed",
+        "src": "s14",
+        "holds": "Onshape"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/9RXJcPw",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/I7UkSLJ",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "2025",
+        "url": "https://www.team5940.org/2025",
+        "format": "web page",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "Einstein Level Plays at SVR F2 | FUNalysis | FRC REEFSCAPE 2025",
+        "url": "https://www.youtube.com/watch?v=sDixBoAT8s4",
+        "format": "video",
+        "state": "listed",
+        "src": "s9"
+      },
+      {
+        "what": "Full robot CAD with blue bumpers, elevator lowered",
+        "url": "https://cad.onshape.com/documents/96a5f9f437337066b2987626/w/9644a0c5069d0349ab3cf5a6/e/01df3e1fb18f1f03077c9c5d",
+        "img": "https://cad.onshape.com/api/thumbnails/d/96a5f9f437337066b2987626/w/9644a0c5069d0349ab3cf5a6/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s12",
+        "kind": "cad",
+        "hero": true
+      },
+      {
+        "what": "CAD of a spring-loaded plate with a sprocket",
+        "url": "https://www.chiefdelphi.com/t/team-5940-bread-2025-cad-release/501347",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/e/f/7/ef7436e3dcc86c07ce261c71c5ee3ddbf9eff7df_2_493x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s13",
+        "kind": "cad"
+      },
+      {
+        "what": "CAD of a carriage with motors, one part circled in red",
+        "url": "https://www.chiefdelphi.com/t/team-5940-bread-2025-cad-release/501347",
+        "img": "https://www.chiefdelphi.com/uploads/default/original/4X/0/e/0/0e0149a65f8f13b7ddfc1f31b7e6b5776da08845.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s13",
+        "kind": "cad"
+      },
+      {
+        "what": "CAD close-up of intake rollers, one highlighted",
+        "url": "https://www.chiefdelphi.com/t/team-5940-bread-2025-cad-release/501347",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/7/c/d/7cdd047e37307b712390e14c2e64af1aa62b28e4_2_690x391.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s13",
+        "kind": "cad"
+      }
+    ],
+    "documents": [
+      {
+        "what": "5940 2025 Tech Binder (Taiyaki)",
+        "url": "https://drive.google.com/file/d/1_SqgJesNe7Tdq_ZP9_-2ZuEF4tBZFTFI/view",
+        "format": "Google Drive",
+        "state": "opened",
+        "src": "s5"
+      },
+      {
+        "what": "The Cookbook: 2025 competition documentation (owner blocks export; link only)",
+        "url": "https://docs.google.com/document/d/18huhav5gS_oqeh6UDCMZ6rl0mssR_yKqCvNB3_Cicug/edit",
+        "format": "Google Doc",
+        "state": "listed",
+        "src": "s7"
+      },
+      {
+        "what": "The Cookbook: Team 5940 2025 Competition Documentation",
+        "url": "https://www.chiefdelphi.com/t/the-cookbook-team-5940-2025-competition-documentation/505675",
+        "format": "thread",
+        "state": "listed",
+        "src": "s11"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/bread5940",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "5940 BREAD 2025-Public (Taiyaki)",
+        "url": "https://github.com/BREAD5940/2025-Public",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s8"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "2025 technical binder, text extraction (figures not read); CAD thread, first page",
+    "the Cookbook is linked only: its owner blocks export, and the thread says it leaves out robot engineering",
+    "binders: Chief Delphi searches for 5940 in titles and 5940 tech binder, 29 team-site pages"
+  ],
+  "results": {
+    "division": "Milstein",
+    "division_opr": 103.23,
+    "opr_rank": 14,
+    "record": "46-5-0",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

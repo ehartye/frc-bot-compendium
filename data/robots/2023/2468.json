@@ -1,0 +1,427 @@
+{
+  "id": "2023-2468",
+  "season": 2023,
+  "team": "2468",
+  "team_name": "Team Appreciate",
+  "robot_name": null,
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 2468 in 2023",
+      "url": "https://www.thebluealliance.com/team/2468/2023",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Archimedes Division 2023",
+      "url": "https://www.thebluealliance.com/event/2023arc",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "2468 Charged-Up-2023 (LabVIEW)",
+      "url": "https://github.com/frc2468/Charged-Up-2023",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "2023 ARCHIMEDES Q65 / FRC 2468 TEAM APPRECIATE / CLEAN ROBOT VIDEO",
+      "url": "https://www.youtube.com/watch?v=RAFjZgB_72w",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Behind the Glass | 2468 Team Appreciate | IRI Q102 | Charged Up",
+      "url": "https://www.youtube.com/watch?v=ZJfNO-CL6Uw",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Behind the Bumpers: 2468 Team Appreciate, filmed at FiT Dallas (auto-caption read)",
+      "url": "https://www.youtube.com/watch?v=LvGNxp2PQ7I",
+      "publisher": "FUN Robotics Network (YouTube)",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "outcome": [
+      {
+        "text": "53-9-3 in official play; ranked 5 of the pooled top 20 (OPR 77.86, Archimedes).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "Picking up both pieces was very important from the start, sideways cones above all, because the team expected many to be knocked over. It also wanted to reach between the hybrid nodes and rescore pieces from the bottom row.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "The team's path planner draws clothoid paths with heading waypoints, and the robot follows them with encoders and the IMU. The dashboard shows pitch and roll so auto engage can be checked before a match.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The human player drops pieces at the single substation with the cone tip toward the robot; the driver takes them off the ground and backs out. One button sets an intake position, the cascade has presets, and the robot remembers the last piece, so there are no separate outtake buttons.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "A full-width intake: fitting between the hybrid nodes limits width to about 18 in. The robot picks up only from the ground.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "Belts could not handle the intake's weight in some orientations, so the arm gearing ends in chain. The team moved to MAXSpline tubing, which transfers torque better and lasts the season. The dashboard was restarted many times.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Intake",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Collect sideways cones and cubes, and rescore pieces from the bottom row",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "deliver"
+      ],
+      "type": "narrow ground roller intake",
+      "serves": [
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Width limit to fit between hybrid nodes, about",
+          "basis": "team",
+          "src": [
+            "s9"
+          ],
+          "value": 18,
+          "unit": "in"
+        },
+        {
+          "text": "Takes cones off the ground, and cubes, and also scores them",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Two plates line up between the hybrid nodes",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Ground pickup only",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arm and wrist",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "static arm with a wrist",
+      "serves": [
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "MAXSpline tubing; an X brace keeps a hit from turning the arm into a parallelogram",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "A motor drives through a gear train and then chain",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Shims between gears and hex stock cut play in the wrist for the programmers",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cascade",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Reach both cone poles by moving along one line",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "tilted two-stage cascade elevator",
+      "serves": [
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Tilt, matched to the line between the cone poles, about",
+          "basis": "team",
+          "src": [
+            "s9"
+          ],
+          "value": 57,
+          "unit": "deg"
+        },
+        {
+          "text": "Both stages move together on West Coast Products bearing blocks",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Made as wide as possible so it attaches to the drive rail",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Presets and piece memory",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Make the robot as easy as possible for the drivers",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "stored state in place of a piece sensor",
+      "serves": [],
+      "facts": [
+        {
+          "text": "The robot stores the last piece taken and picks presets from it, with no detection",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Presets are table values, quick to change",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Path planner",
+      "solves": [
+        {
+          "text": "Draw and run autonomous routines more easily",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "clothoid path planner",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Waypoints set the heading at each point along the path",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Cascade mounted at an angle",
+      "because": "it is more stable with less slop",
+      "instead_of": "a telescope on a pivot near the base, which would be a long moment arm",
+      "basis": "team",
+      "src": [
+        "s9"
+      ]
+    },
+    {
+      "choice": "Static arm with no joint at its base",
+      "because": "the team thought it could get the best geometry that way",
+      "basis": "team",
+      "src": [
+        "s9"
+      ]
+    },
+    {
+      "choice": "Narrow intake",
+      "because": "it reaches between the hybrid nodes to rescore pieces",
+      "instead_of": "a full-width intake",
+      "basis": "team",
+      "src": [
+        "s9"
+      ]
+    },
+    {
+      "choice": "Chain drive on the arm",
+      "because": "belts could not handle the intake's weight in some orientations",
+      "instead_of": "belts",
+      "basis": "team",
+      "src": [
+        "s9"
+      ]
+    },
+    {
+      "choice": "Clothoid paths",
+      "because": "they are easier to implement",
+      "instead_of": "splines",
+      "basis": "team",
+      "src": [
+        "s9"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=LvGNxp2PQ7I",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/LTmu8zM",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "2023 ARCHIMEDES Q65 / FRC 2468 TEAM APPRECIATE / CLEAN ROBOT VIDEO",
+        "url": "https://www.youtube.com/watch?v=RAFjZgB_72w",
+        "format": "video",
+        "state": "listed",
+        "src": "s7"
+      },
+      {
+        "what": "Behind the Glass | 2468 Team Appreciate | IRI Q102 | Charged Up",
+        "url": "https://www.youtube.com/watch?v=ZJfNO-CL6Uw",
+        "format": "video",
+        "state": "listed",
+        "src": "s8"
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/frc2468",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "2468 Charged-Up-2023 (LabVIEW)",
+        "url": "https://github.com/frc2468/Charged-Up-2023",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s3"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: Chief Delphi \"2468 binder\" and \"2468 tech binder\", a title search, and 28 pages of the team site"
+  ],
+  "results": {
+    "division": "Archimedes",
+    "division_opr": 77.86,
+    "opr_rank": 5,
+    "record": "53-9-3",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

@@ -1,0 +1,434 @@
+{
+  "id": "2025-422",
+  "season": 2025,
+  "team": "422",
+  "team_name": "The Mech Tech Dragons",
+  "robot_name": "Wisp",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 422 in 2025",
+      "url": "https://www.thebluealliance.com/team/422/2025",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Newton Division 2025",
+      "url": "https://www.thebluealliance.com/event/2025new",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "FRC 422 Robot Reveal (Wisp)",
+      "url": "https://www.chiefdelphi.com/t/frc-422-robot-reveal/497928",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Coral flap test video (422, 2025)",
+      "url": "https://drive.google.com/file/d/1qyxd9e9rxVyrj5HEZshPOVA84WShiWSd/view",
+      "publisher": "drive.google.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "422 FRC-25 (Wisp)",
+      "url": "https://github.com/team422/FRC-25",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/3K2rBRa",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/CobOgYC",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Onshape document",
+      "url": "https://cad.onshape.com/documents/2bae4024a467119e47dc96b0/w/6c850cd2bf85d2162a5bb7d6/e/b4c78beff50beb69b98ad0b6?renderMode=0&uiState=6813b0c22a917549817ba5a7",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Page with pictures of this robot",
+      "url": "https://www.chiefdelphi.com/t/422-mech-tech-dragons-cad-tech-binder-release/501340",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [],
+    "demand": [],
+    "auto": [],
+    "cycle": [],
+    "endgame": [],
+    "fallback": [],
+    "gave_up": [],
+    "changed": [
+      {
+        "text": "Per unsigned replies that read as the team's, the intake pivot carried an algae roller at the first few events and a coral ground intake later. Pose estimation failed on day one of the first event, leaving no auto score and no autos; after a replay that night the team moved to 6328's estimator and has had no localization issues since.",
+        "basis": "observer",
+        "src": [
+          "s10"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "60-8-0 in official play; ranked 16 of the pooled top 20 (OPR 101.45, Newton).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Coral ground intake",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Unsigned reply, reads as the team's: balance rigidity and flex so a flap both holds coral and lets it through",
+          "basis": "observer",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "retain",
+        "transfer"
+      ],
+      "type": "ground intake with a passive polycarbonate flap",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Unsigned reply, reads as the team's: the flap is 1/16 in polycarbonate",
+          "basis": "observer",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Unsigned reply, reads as the team's: the flap is just stiff enough to hold coral at low motor current, and higher current pushes the coral right through",
+          "basis": "observer",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake pivot",
+      "does": [
+        "structure"
+      ],
+      "type": "SplineXL extrusion press-fit on machined hubs",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Unsigned reply, reads as the team's: hubs were bought in the OD size and machined down to the ID size for a press fit",
+          "basis": "observer",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Unsigned reply, reads as the team's: a drilled and tapped set screw was added when the coral intake replaced the algae roller",
+          "basis": "observer",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber mount",
+      "does": [
+        "endgame",
+        "structure"
+      ],
+      "type": "tube plug and keyed gearbox plates",
+      "serves": [
+        "cage"
+      ],
+      "facts": [
+        {
+          "text": "Unsigned reply, reads as the team's: the belly pan bolts to a hidden 2x2 tube plug",
+          "basis": "observer",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Unsigned reply, reads as the team's: the ends of the gearbox plates key into the belly pan",
+          "basis": "observer",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Battery strap",
+      "does": [
+        "structure"
+      ],
+      "type": "nylon strap with a zip tie as the buckle",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Unsigned reply, reads as the team's: a billet part was made earlier in the season, but the robot ran out of weight to install it",
+          "basis": "observer",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pose estimation",
+      "solves": [
+        {
+          "text": "Unsigned reply, reads as the team's: the 2025 WPILib estimator often got stuck when bad reprojections were picked, with no good camera filtering at the time",
+          "basis": "observer",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "AprilTag pose estimation with 6328's estimator",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Unsigned reply, reads as the team's: it locks into position way quicker than before",
+          "basis": "observer",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Unsigned reply, reads as the team's: replaying the match that night showed the new code would have worked",
+          "basis": "observer",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Unsigned reply, reads as the team's: it takes more CPU time, more than reasonable after a little tuning",
+          "basis": "observer",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Switch to 6328's pose estimator during the first event",
+      "because": "replay of the failed match showed it worked, per an unsigned reply that reads as the team's",
+      "instead_of": "the 2025 WPILib pose estimator",
+      "cost": "more CPU time, more than reasonable after a little tuning",
+      "basis": "observer",
+      "src": [
+        "s10"
+      ]
+    },
+    {
+      "choice": "Set screw in the intake pivot hub",
+      "because": "it is more secure for the coral intake, per an unsigned reply that reads as the team's",
+      "instead_of": "the press fit alone, good enough for the algae roller",
+      "basis": "observer",
+      "src": [
+        "s10"
+      ]
+    },
+    {
+      "choice": "Strap and zip tie for the battery",
+      "because": "the robot ran out of weight, per an unsigned reply that reads as the team's",
+      "instead_of": "a billet part already made",
+      "basis": "observer",
+      "src": [
+        "s10"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "Comp Robot",
+        "url": "https://cad.onshape.com/documents/2bae4024a467119e47dc96b0/w/6c850cd2bf85d2162a5bb7d6/e/b4c78beff50beb69b98ad0b6?renderMode=0&uiState=6813b0c22a917549817ba5a7",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "CAD listed on the team page",
+        "url": "https://cad.onshape.com/documents/2bae4024a467119e47dc96b0/w/6c850cd2bf85d2162a5bb7d6",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s1"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=0N1d85trM1c",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=7JRAZ4r6hdw",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "FRC 422 Robot Reveal (Wisp)",
+        "url": "https://www.chiefdelphi.com/t/frc-422-robot-reveal/497928",
+        "format": "thread",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "Full robot with red bumpers, elevator and wide funnel",
+        "url": "https://imgur.com/3K2rBRa",
+        "img": "https://i.imgur.com/3K2rBRah.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s7",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot with blue bumpers, elevator and clear funnel",
+        "url": "https://imgur.com/CobOgYC",
+        "img": "https://i.imgur.com/CobOgYCh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Full robot CAD, elevator lowered",
+        "url": "https://cad.onshape.com/documents/2bae4024a467119e47dc96b0/w/6c850cd2bf85d2162a5bb7d6/e/b4c78beff50beb69b98ad0b6?renderMode=0&uiState=6813b0c22a917549817ba5a7",
+        "img": "https://cad.onshape.com/api/thumbnails/d/2bae4024a467119e47dc96b0/w/6c850cd2bf85d2162a5bb7d6/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s9",
+        "kind": "cad"
+      },
+      {
+        "what": "Plates and gear at the base of a tube, CAD close-up",
+        "url": "https://www.chiefdelphi.com/t/422-mech-tech-dragons-cad-tech-binder-release/501340",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/2/e/5/2e52f0fa1273eb0a10a7f9754ca7791b460a3f54_2_657x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s10",
+        "kind": "cad"
+      },
+      {
+        "what": "Battery and its bracket, CAD close-up",
+        "url": "https://www.chiefdelphi.com/t/422-mech-tech-dragons-cad-tech-binder-release/501340",
+        "img": "https://www.chiefdelphi.com/uploads/default/original/4X/d/f/7/df78a1907fe13c3cf6fa9b3f003b7e2a876c03c8.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s10",
+        "kind": "cad"
+      },
+      {
+        "what": "Tube plug highlighted between plates, CAD close-up",
+        "url": "https://www.chiefdelphi.com/t/422-mech-tech-dragons-cad-tech-binder-release/501340",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/3/e/e/3ee0e762716761cc1d46d232ecfb1f37fbcb71ff_2_295x250.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s10",
+        "kind": "cad"
+      },
+      {
+        "what": "Battery with a machined metal plate on the robot frame",
+        "url": "https://www.chiefdelphi.com/t/422-mech-tech-dragons-cad-tech-binder-release/501340",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/5/b/d/5bda8146863fab9888c39a2a9bd141f829818a6b_2_375x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s10",
+        "kind": "mechanism"
+      },
+      {
+        "what": "Roller end hub on a carbon fiber plate, CAD close-up",
+        "url": "https://www.chiefdelphi.com/t/422-mech-tech-dragons-cad-tech-binder-release/501340",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/c/6/2/c626899163aa0edbbcd17c61d2f2b2fa01869f22_2_690x291.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s10",
+        "kind": "cad"
+      },
+      {
+        "what": "Coral flap test video",
+        "url": "https://drive.google.com/file/d/1qyxd9e9rxVyrj5HEZshPOVA84WShiWSd/view",
+        "format": "video",
+        "state": "listed",
+        "src": "s5"
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/team422",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "422 FRC-25 (Wisp)",
+        "url": "https://github.com/team422/FRC-25",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s6"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: the team linked a technical binder in its CAD release thread, but its owner has deleted it (HTTP 410)",
+    "Chief Delphi title search for 422; team site unreachable (DNS)"
+  ],
+  "results": {
+    "division": "Newton",
+    "division_opr": 101.45,
+    "opr_rank": 16,
+    "record": "60-8-0",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

@@ -1,0 +1,941 @@
+{
+  "id": "2025-2056",
+  "season": 2025,
+  "team": "2056",
+  "team_name": "OP Robotics",
+  "robot_name": "LIGHTNING",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 2056 in 2025",
+      "url": "https://www.thebluealliance.com/team/2056/2025",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Daly Division 2025",
+      "url": "https://www.thebluealliance.com/event/2025dal",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "2056 OP Robotics 2025 CAD Drawing Package PDF",
+      "url": "https://2056.ca/wp-content/uploads/2025/05/OPR25-2056-Drawing-Package-comp.pdf",
+      "publisher": "2056.ca",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "2056 OP Robotics 2025 Technical Binder (LIGHTNING) PDF",
+      "url": "https://2056.ca/wp-content/uploads/2025/05/OPR25-2056-Technical-Binder.pdf",
+      "publisher": "2056.ca",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "2056 PublicCodeBank (C++)",
+      "url": "https://github.com/Team2056/PublicCodeBank",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Let's Review REEFSCAPE's Elite Robots. Which bot do you wish your team had built?",
+      "url": "https://www.chiefdelphi.com/t/lets-review-reefscapes-elite-robots-which-bot-do-you-wish-your-team-had-built/500055",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Breaking down IRI Finals! | FRC Strategy Analysis",
+      "url": "https://www.youtube.com/watch?v=ZTCIVjEjDjg",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "How did 2056 win a banner as a 6th Captain? | FRC Strategy Analysis",
+      "url": "https://www.youtube.com/watch?v=dB1lmxKE_I0",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "FRC 2056 Robot Reveal: LIGHTNING",
+      "url": "https://www.chiefdelphi.com/t/frc-2056-robot-reveal-lightning/494583",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "2056 2025 photo album (Google Photos)",
+      "url": "https://photos.app.goo.gl/wrmUoBtabkHanNUcA",
+      "publisher": "photos.app.goo.gl",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Team 2056 OP Robotics - 2025 Technical Binder Release",
+      "url": "https://www.chiefdelphi.com/t/team-2056-op-robotics-2025-technical-binder-release/502550",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "Team 2056 OP Robotics - 2025 Technical Binder Release, post 120",
+      "url": "https://www.chiefdelphi.com/t/team-2056-op-robotics-2025-technical-binder-release/502550/120",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "2056 OP Robotics | Behind the Bumpers | FRC 2025 REEFSCAPE",
+      "url": "https://www.youtube.com/watch?v=qcZ93ukPebg",
+      "publisher": "FUN Robotics Network (auto-caption transcript)",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Pick up coral in any orientation, to speed up cycles as much as possible. The team says it wanted this from the beginning of the season.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "The binder requires reach to the net, the processor and every reef level, and a climb that stays up after the buzzer.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "The team floor feeds and judged a human player on each side essential.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "One specific auto scores five pieces. It starts farther away at an angle, so the robot rotates less and scores the first piece faster, and it places after about 40 ms aligned.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      },
+      {
+        "text": "Driving is PID to a chain of points. A coral the Limelight sees updates the target point.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "Intake, straightenator, cradle, gripper handoff, then hold to auto-align; LEDs turn blue when ready to score.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "Hybrid cycles take an algae and a coral together and score both at the back, for two cycles at about the cost of one.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "Surgical tubing deploys the climber and a Dyneema winch lifts the robot. A ratchet stops back-driving.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "Horns guide the cage in, a protrusion stops it rotating, and a magnet secures it. It works at any cage angle, but the team prefers square.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "One button homes the intake, arm and elevator and another purges the intake. The driver can override the chosen left or right branch.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "Algae is held by stalling the gripper motor, which the team says it can do only for a limited time.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      },
+      {
+        "text": "A match analyst calls the vertical L1 drop inconsistent in general and credits 2056's stacking to practice, driver skill and arm geometry.",
+        "basis": "observer",
+        "src": [
+          "s8"
+        ]
+      },
+      {
+        "text": "A forum poster puts 2056 10 to 15 points behind two robots, likely from L1 stacking; a reply disputes that, and a later post says only 6 points.",
+        "basis": "observer",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "To save weight, the arm went from 2 x 2 x 1/8 in tube to formed sheet metal, and the gripper from an X60 at 11.5:1 to an X44 at 19.5:1.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "The straightenator went from one motor to one per side, because coral entering parallel to the intake jammed.",
+        "basis": "team",
+        "src": [
+          "s13"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "68-7-0 in official play; won the Daly division; captain of the Daly alliance on Einstein; ranked 1 of the pooled top 20 (OPR 137.23, Daly).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drivetrain",
+      "solves": [
+        {
+          "text": "Stay stable when scoring, with a low center of mass",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "SDS MK4i L2 modules on Kraken X60s, top speed",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 15,
+          "unit": "ft/s"
+        },
+        {
+          "text": "Chassis 32 in long by 28 in wide in 3 x 1 x 1/8 in tube, with a 1/16 in solid baseplate as shear plate",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "X44 steering on a shifted adapter plate with a 12 tooth pinion saves nearly 2 lb",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Acquire coral in any orientation without jamming, and survive high energy impacts",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "slapdown roller intake",
+      "serves": [
+        "reef-l1",
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "Width",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 20,
+          "unit": "in"
+        },
+        {
+          "text": "A floating top roller, kicker roller and smooth ramp take coral even perpendicular to the intake",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Rollers: X60 with a 4:1 belt on a shaft coaxial with the pivot; pivot: X44 at 51:1 through #25 chain",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "1/4 in polycarbonate held by large aluminum clamping plates; star wheels on a polycarbonate tube at the front",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "It retracts by itself when a beam break sees a coral",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Straightenator",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Align coral quickly for a repeatable handoff, without jamming",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "uncoupled two-sided coral straightener",
+      "serves": [
+        "reef-l1",
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "One X44 per side at 3:1, with compliant and star wheels",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "On a current spike the two sides briefly run in opposite directions to unjam and align the coral",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "It feeds the coral under the elevator into the cradle",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The first version, with both sides coupled to one motor, jammed on coral that entered parallel to the intake",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Coral Cradle",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Keep the coral constrained for a repeatable handoff from intake to gripper",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "retain",
+        "transfer"
+      ],
+      "type": "printed cradle",
+      "serves": [
+        "reef-l1",
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "Two-piece PA-CF print, aligned and glued on dowel pins",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A lip stops the coral and a step keeps it from bouncing back",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "One beam break stops or slows the coral; a second automates the handoff",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gripper Arm",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Hold both game pieces with one mechanism",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "retain",
+        "deliver",
+        "position"
+      ],
+      "type": "one compliant-wheel gripper on a sheet metal arm",
+      "serves": [
+        "reef-l1",
+        "reef-branches",
+        "processor",
+        "net"
+      ],
+      "facts": [
+        {
+          "text": "Arm of riveted 1/16 in formed sheet metal on a 3/4 in tube, X44 at 59:1",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A floating dead axle in slots, with a jack screw, tensions the #25 chain",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "3 in compliant wheels on an X44 at 19.5:1 pinch algae",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "When scoring coral the wheels outtake at the velocity of the chassis to release smoothly",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A beam break detects algae and automates the coral handoff",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Algae is held by stalling the motor, for a limited time only",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elevator",
+      "solves": [
+        {
+          "text": "The elevator could limit cycle time, so the aim was to move it as quickly as possible",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "two-stage continuous elevator with internal belt",
+      "serves": [
+        "reef-l1",
+        "reef-branches",
+        "processor",
+        "net"
+      ],
+      "facts": [
+        {
+          "text": "Two X60s at 5:1 on a 30T pulley, 18 mm wide 5 mm HTD belt",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Full range of motion in about",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 0.6,
+          "unit": "s"
+        },
+        {
+          "text": "SDS bearing blocks, billet corner gussets, knee braces and a 3/8 in U plate against splay",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "The fixed frame is 2 x 2 tube for lateral stiffness",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Line up easily, lift the robot off the ground and stay up after the buzzer",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "winch climber with ratchet",
+      "serves": [
+        "cage"
+      ],
+      "facts": [
+        {
+          "text": "Surgical tubing deploys it; 1/8 in Dyneema on a 3/4 in spool lifts, X44 at 18:1",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A 1/2 in ratchet prevents back-driving",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A magnet stops the cage bouncing out, and collars stop it slipping out",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Large 3D printed guides eliminate catch points and speed up lining up",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Climber weight",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 4.5,
+          "unit": "lb"
+        }
+      ]
+    },
+    {
+      "name": "Auto Aim and Vision",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Never lose sight of the tag while scoring",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "position"
+      ],
+      "type": "Limelight 2D tracking",
+      "serves": [
+        "reef-l1",
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "Two Limelight 3Gs track reef tags, and a Limelight 4 with a Hailo accelerator tracks coral",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "All vision uses 2D tracking; position comes from the vector to the tag, robot heading and tag location",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "While the intake button is held and a coral is seen, the chassis shifts to line up with it, in proportion to its speed",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Limelights on both elevator uprights keep a tag in sight while aligning",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Driver feedback",
+      "solves": [
+        {
+          "text": "Tell the driver when the robot is ready to score",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "LEDs and controller rumble",
+      "serves": [],
+      "facts": [
+        {
+          "text": "LEDs go from red to blue and the controller rumbles when position and elevator errors are small enough to score",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "White means a coral is acquired and green an algae",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Weight Reduction",
+      "solves": [
+        {
+          "text": "Fit 150 lb of robot into a 115 lb box without losing stiffness or scoring function",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "pocketing, formed sheet and lighter parts",
+      "serves": [],
+      "facts": [
+        {
+          "text": "X44s where possible, for 1/2 lb less per motor",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Hollow shafts, pocketed ribs, printed gears and pulleys, tapped plates in place of nuts, nylon and aluminum bolts",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Sponsor panel and coral covers were counted as bumper weight",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "One mechanism for both game pieces",
+      "because": "the team did not want to over complicate the robot",
+      "basis": "team",
+      "src": [
+        "s9"
+      ]
+    },
+    {
+      "choice": "Uncoupled straightenator sides",
+      "because": "coral can slip independently, which makes jamming much less likely",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "Fast elevator",
+      "because": "the team saw early how much the elevator could limit cycles",
+      "basis": "team",
+      "src": [
+        "s9"
+      ]
+    },
+    {
+      "choice": "Internal elevator belts",
+      "because": "packaging was a big concern",
+      "basis": "team",
+      "src": [
+        "s9"
+      ]
+    },
+    {
+      "choice": "L2 swerve gearing",
+      "because": "it balances speed and acceleration for the game's short cycles",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "Gripper motor mounted away from the gripper",
+      "because": "it protects the motor and reduces the moment on the pivot",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "Drive-to-point autos",
+      "because": "strings of points are simple to write and easy to adapt",
+      "basis": "team",
+      "src": [
+        "s9"
+      ]
+    },
+    {
+      "choice": "No tracking of where pieces were scored",
+      "because": "a piece that is knocked off then needs no update",
+      "cost": "the driver has to keep eyes up",
+      "basis": "team",
+      "src": [
+        "s9"
+      ]
+    },
+    {
+      "choice": "One driver and two human players",
+      "because": "the robot floor feeds, so a human player on each side felt essential",
+      "cost": "every function has to fit on one controller",
+      "basis": "team",
+      "src": [
+        "s9"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "2056 OP Robotics 2025 CAD Drawing Package PDF",
+        "url": "https://2056.ca/wp-content/uploads/2025/05/OPR25-2056-Drawing-Package-comp.pdf",
+        "format": "PDF",
+        "state": "listed",
+        "src": "s3"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=qcZ93ukPebg",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=zMFky_YAr40",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/1K3GIQD",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Let's Review REEFSCAPE's Elite Robots. Which bot do you wish your team had built?",
+        "url": "https://www.chiefdelphi.com/t/lets-review-reefscapes-elite-robots-which-bot-do-you-wish-your-team-had-built/500055",
+        "format": "thread",
+        "state": "listed",
+        "src": "s6"
+      },
+      {
+        "what": "Breaking down IRI Finals! | FRC Strategy Analysis",
+        "url": "https://www.youtube.com/watch?v=ZTCIVjEjDjg",
+        "format": "video",
+        "state": "listed",
+        "src": "s7"
+      },
+      {
+        "what": "How did 2056 win a banner as a 6th Captain? | FRC Strategy Analysis",
+        "url": "https://www.youtube.com/watch?v=dB1lmxKE_I0",
+        "format": "video",
+        "state": "listed",
+        "src": "s8"
+      },
+      {
+        "what": "FRC 2056 Robot Reveal: LIGHTNING",
+        "url": "https://www.chiefdelphi.com/t/frc-2056-robot-reveal-lightning/494583",
+        "format": "thread",
+        "state": "opened",
+        "src": "s10"
+      },
+      {
+        "what": "2056 2025 photo album (Google Photos)",
+        "url": "https://photos.app.goo.gl/wrmUoBtabkHanNUcA",
+        "format": "photos",
+        "state": "listed",
+        "src": "s11"
+      }
+    ],
+    "documents": [
+      {
+        "what": "2056 OP Robotics 2025 Technical Binder (LIGHTNING) PDF",
+        "url": "https://2056.ca/wp-content/uploads/2025/05/OPR25-2056-Technical-Binder.pdf",
+        "format": "PDF",
+        "state": "opened",
+        "src": "s4"
+      },
+      {
+        "what": "Binder and drawing release thread",
+        "url": "https://www.chiefdelphi.com/t/team-2056-op-robotics-2025-technical-binder-release/502550",
+        "format": "thread",
+        "state": "listed",
+        "src": "s12"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/team2056",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "2056 PublicCodeBank (C++)",
+        "url": "https://github.com/Team2056/PublicCodeBank",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s5"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "2025 technical binder, text extraction (figures not read); binder thread, first page and post 120",
+    "Chief Delphi post search \"2056 binder\" and team site crawl"
+  ],
+  "results": {
+    "division": "Daly",
+    "division_opr": 137.23,
+    "opr_rank": 1,
+    "record": "68-7-0",
+    "einstein": {
+      "division": "Daly",
+      "role": "captain"
+    },
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

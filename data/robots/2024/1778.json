@@ -1,0 +1,642 @@
+{
+  "id": "2024-1778",
+  "season": 2024,
+  "team": "1778",
+  "team_name": "Chill Out",
+  "robot_name": "Zappy Feet",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 1778 in 2024",
+      "url": "https://www.thebluealliance.com/team/1778/2024",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Newton Division 2024",
+      "url": "https://www.thebluealliance.com/event/2024new",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "1778 CAD/Code Release",
+      "url": "https://www.chiefdelphi.com/t/1778-cad-code-release/466727",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "1778 2024-Robot-Code-Public (Kotlin)",
+      "url": "https://github.com/FIRST1778/2024-Robot-Code-Public",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "ROBOTS old",
+      "url": "https://www.chillout1778.org/1778robots",
+      "publisher": "chillout1778.org",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/DIquEvi",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/jgADh0D",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Onshape document",
+      "url": "https://cad.onshape.com/documents/bcbf24dd5a87e45bf4e7feb1/w/ffa6c81a1dfe71234cde9aca/e/e925d7cf2a2b03135bc67046",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Onshape document",
+      "url": "https://cad.onshape.com/documents/bcbf24dd5a87e45bf4e7feb1/w/c29c8b5cb760f02b2f3f08a6",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "1778 Chill Out | Behind the Bumpers | FRC CRESCENDO Robot (captions)",
+      "url": "https://www.youtube.com/watch?v=EEC-2XpqYQ0",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Design for redundancy: as few failure modes as possible, and a backup for everything.",
+        "basis": "team",
+        "src": [
+          "s11"
+        ]
+      }
+    ],
+    "demand": [],
+    "auto": [
+      {
+        "text": "Eight autos, with those that go for the middle notes given priority. Each must work three times in a row on the practice field before it counts as ready. Shooting from as far as the wing line helps the higher-note ones.",
+        "basis": "team",
+        "src": [
+          "s11"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The intake passes a note up into the shooter, where indexer rollers hold it. The robot turns itself to the source or amp angle, or locks on to the speaker and stops the shot to re-aim if bumped.",
+        "basis": "team",
+        "src": [
+          "s11"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "Two climbers make a harmony climb easy and cope with a chain that is not perfectly aligned. Either can lift the robot alone.",
+        "basis": "team",
+        "src": [
+          "s11"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "If the intake fails, the shooter tilts back to take notes from the source. A note stuck in the intake can be spat out. One climber is enough to climb.",
+        "basis": "team",
+        "src": [
+          "s11"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "A forum reply says the robot did not score in the trap.",
+        "basis": "observer",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "At Bonney Lake a climber broke and was taken off for repair; the robot still climbed for the next three matches.",
+        "basis": "team",
+        "src": [
+          "s11"
+        ]
+      },
+      {
+        "text": "Replies that read as the team's say the chosen layout had no amp bar until a tested RI3D idea inspired one, and that a second bottom shooter roller was added after a prototype shot above the bar.",
+        "basis": "observer",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "43-22-0 in official play; ranked 20 of the pooled top 20 (OPR 52.33, Newton).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Intake",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Pick up notes with few rollers, so it pivots quickly and stays inside the robot as much as possible",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "over-bumper pivoting roller intake",
+      "serves": [
+        "speaker",
+        "amp"
+      ],
+      "facts": [
+        {
+          "text": "Early prototyping showed only this many rollers were needed",
+          "basis": "team",
+          "src": [
+            "s11"
+          ],
+          "value": 4,
+          "unit": "rollers"
+        },
+        {
+          "text": "Note compression (reads as the team's reply)",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ],
+          "value": 0.2,
+          "unit": "in"
+        }
+      ]
+    },
+    {
+      "name": "Indexer rollers",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Score the amp with no additional mechanism to fail",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "retain",
+        "transfer",
+        "deliver"
+      ],
+      "type": "rollers in the shooter shared by holding and amp scoring",
+      "serves": [
+        "amp",
+        "speaker"
+      ],
+      "facts": [
+        {
+          "text": "They hold the note in the shooter and eject it behind the amp bar",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Amp bar",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Keep the ejected note in the amp without adding a motor",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "bar deployed by a virtual four-bar",
+      "serves": [
+        "amp"
+      ],
+      "facts": [
+        {
+          "text": "The virtual four-bar runs back to the main pivot axle, so the bar needs no motor of its own",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Inspired by an RI3D idea the team tested (reads as the team's reply)",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Give stable shots from as far as the wing line",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "deliver",
+        "position",
+        "acquire"
+      ],
+      "type": "pivoting wheeled shooter with separate top and bottom motors",
+      "serves": [
+        "speaker"
+      ],
+      "facts": [
+        {
+          "text": "Stealth wheels, diameter about",
+          "basis": "team",
+          "src": [
+            "s11"
+          ],
+          "value": 2,
+          "unit": "in"
+        },
+        {
+          "text": "A separate NEO drives each axle",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "One side has two wheels and the other five, which spins the note",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "It can tilt back and take notes from the source",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Two rollers on the bottom and one on top; the second bottom one helps the note bend into the amp and sped up intaking (reads as the team's reply)",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Note compression, with none horizontally (reads as the team's reply)",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ],
+          "value": 0.5,
+          "unit": "in"
+        }
+      ]
+    },
+    {
+      "name": "Climbers",
+      "solves": [
+        {
+          "text": "Still climb when one climber has failed",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "two independent two-motor climbers",
+      "serves": [
+        "onstage"
+      ],
+      "facts": [
+        {
+          "text": "Each climber has two NEOs",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "With one climber off the robot, it climbed for three matches at Bonney Lake",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Speaker lock",
+      "solves": [
+        {
+          "text": "Avoid shooting when the robot has been bumped, turned away or lost the tag",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "position"
+      ],
+      "type": "Limelight field pose with a lock-on check",
+      "serves": [
+        "speaker"
+      ],
+      "facts": [
+        {
+          "text": "The field pose is compared with the speaker tag's pose; through brief tag loss the robot re-angles toward the speaker",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "If the lock is lost it stops shooting and re-angles",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Field angle alignment",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Make source pickup and amp scoring easier",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "position"
+      ],
+      "type": "automatic turn to source and amp angles",
+      "serves": [
+        "amp"
+      ],
+      "facts": [
+        {
+          "text": "The robot turns to the set angle by itself",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Over-bumper intake",
+      "because": "it was proven and the team knew it could build it",
+      "basis": "team",
+      "src": [
+        "s11"
+      ]
+    },
+    {
+      "choice": "Amp scoring with the indexer rollers",
+      "because": "it removes a point of failure",
+      "instead_of": "an additional amp mechanism",
+      "basis": "team",
+      "src": [
+        "s11"
+      ]
+    },
+    {
+      "choice": "Amp bar on a virtual four-bar",
+      "because": "there is no extra motor to burn out and it is simple to control",
+      "instead_of": "an additional motor",
+      "basis": "team",
+      "src": [
+        "s11"
+      ]
+    },
+    {
+      "choice": "Two motors per climber",
+      "because": "one climber can lift the robot if the other fails",
+      "basis": "team",
+      "src": [
+        "s11"
+      ]
+    },
+    {
+      "choice": "Unequal wheel counts on the two sides of the shooter",
+      "because": "the note spins, which makes shots much more stable",
+      "basis": "team",
+      "src": [
+        "s11"
+      ]
+    },
+    {
+      "choice": "Second bottom shooter roller (reads as the team's reply)",
+      "because": "the one-roller prototype shot above the amp bar and could not score the amp",
+      "instead_of": "one roller on the bottom",
+      "basis": "observer",
+      "src": [
+        "s4"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "Comp Robot",
+        "url": "https://cad.onshape.com/documents/bcbf24dd5a87e45bf4e7feb1/w/ffa6c81a1dfe71234cde9aca/e/e925d7cf2a2b03135bc67046",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "CAD listed on the team page",
+        "url": "https://cad.onshape.com/documents/bcbf24dd5a87e45bf4e7feb1/w/c29c8b5cb760f02b2f3f08a6",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "CAD listed on the team page",
+        "url": "https://cad.onshape.com/documents/bcbf24dd5a87e45bf4e7feb1/w/ffa6c81a1dfe71234cde9aca",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "1778 CAD/Code Release",
+        "url": "https://www.chiefdelphi.com/t/1778-cad-code-release/466727",
+        "format": "thread",
+        "state": "listed",
+        "src": "s4",
+        "holds": "Onshape"
+      },
+      {
+        "what": "ROBOTS old",
+        "url": "https://www.chillout1778.org/1778robots",
+        "format": "web page",
+        "state": "listed",
+        "src": "s6",
+        "holds": "Onshape"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=A6M1BSTaMFw",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=EEC-2XpqYQ0",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Full robot, blue bumpers, intake rollers in front",
+        "url": "https://imgur.com/DIquEvi",
+        "img": "https://i.imgur.com/DIquEvih.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s7",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Full robot CAD, intake rollers in front, two hooks",
+        "url": "https://imgur.com/jgADh0D",
+        "img": "https://i.imgur.com/jgADh0Dh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "cad"
+      },
+      {
+        "what": "Roller mechanism between uprights, CAD",
+        "url": "https://cad.onshape.com/documents/bcbf24dd5a87e45bf4e7feb1/w/ffa6c81a1dfe71234cde9aca/e/e925d7cf2a2b03135bc67046",
+        "img": "https://cad.onshape.com/api/thumbnails/d/bcbf24dd5a87e45bf4e7feb1/w/ffa6c81a1dfe71234cde9aca/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s9",
+        "kind": "cad"
+      },
+      {
+        "what": "Robot CAD without bumpers, intake lowered, rear mechanism raised",
+        "url": "https://cad.onshape.com/documents/bcbf24dd5a87e45bf4e7feb1/w/c29c8b5cb760f02b2f3f08a6",
+        "img": "https://cad.onshape.com/api/thumbnails/d/bcbf24dd5a87e45bf4e7feb1/w/c29c8b5cb760f02b2f3f08a6/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s10",
+        "kind": "cad"
+      },
+      {
+        "what": "Colored block model of robot layout",
+        "url": "https://www.chiefdelphi.com/t/1778-cad-code-release/466727",
+        "img": "https://www.chiefdelphi.com/uploads/default/original/3X/f/1/f17b72c8fafd5f2ed8d94b90971ce8d4347c84c7.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/first1778",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "1778 2024-Robot-Code-Public (Kotlin)",
+        "url": "https://github.com/FIRST1778/2024-Robot-Code-Public",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s5"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "CAD and code thread (pictures not read); interview captions from the district championship",
+    "binders: Chief Delphi searches for 1778 binder and 1778 in titles, 9 team-site pages"
+  ],
+  "results": {
+    "division": "Newton",
+    "division_opr": 52.33,
+    "opr_rank": 20,
+    "record": "43-22-0",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

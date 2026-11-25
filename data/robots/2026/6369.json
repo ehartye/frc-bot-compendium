@@ -1,0 +1,563 @@
+{
+  "id": "2026-6369",
+  "season": 2026,
+  "team": "6369",
+  "team_name": "Mercenary Robotics",
+  "robot_name": null,
+  "variant": "Rebuilt drum robot, as described at the FIRST in Texas District Championship; the team's earlier robot that season used a turret.",
+  "sources": {
+    "s1": {
+      "title": "Team 6369 in 2026",
+      "url": "https://www.thebluealliance.com/team/6369/2026",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Curie Division 2026",
+      "url": "https://www.thebluealliance.com/event/2026cur",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "6369 Mercenary 2026-FRC-6369-Bravo",
+      "url": "https://github.com/MercsMavs-MSA/2026-FRC-6369-Bravo",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "6369 Mercenary 2026-FRC-6369-Charlie",
+      "url": "https://github.com/MercsMavs-MSA/2026-FRC-6369-Charlie",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/X0ygOOd",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "6369 Mercenary Robotics | Behind the Bumpers | FRC REBUILT Robot",
+      "url": "https://www.youtube.com/watch?v=FpoHvjmMULY",
+      "publisher": "FUN Robotics Network (auto-caption transcript)",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "A drum instead of a turret: more throughput, less software, simpler and more reliable.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "Carry as much fuel as possible and empty it fast. The team wanted a full 12 in of hopper extension and a floor that moves fuel to the shooter in the least time, and calls the raised net very useful for overfill cycles over the bump.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "Autos run paths and then use the same auto-aim as teleop, so a path that ends a little off is corrected before shooting.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The slapdown intake lifts fuel high into the hopper, the rolling floor carries it to tilted transfer rollers, and a drum shoots it. One button points the robot with an X lock against defense; the flywheels are already at speed and the transfer starts on target.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "None at the FIRST in Texas championship: the level 1 climber was taken off because the robot was overweight.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "fallback": [],
+    "gave_up": [
+      {
+        "text": "The climber. The robot weighed around 105 lb in the shop with everything on it but about 124 lb at event check-in, so the climber was the first thing to go.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "The team rebuilt for the FIRST in Texas championship: a drum replaced the turret, and the slapdown intake was kept. This year it also swapped WCP swerve modules for SDS ones. Brass flywheels wore on the last robot, so this one uses stainless steel.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "77-9-0 in official play; ranked 16 of the pooled top 20 (OPR 292.81, Curie).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drivebase",
+      "solves": [
+        {
+          "text": "Modules that are easy to replace, with enough speed and torque",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Swerve Drive Specialties MK5n modules at ratio 2, in place of WCP modules",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Keep contact and compression on the fuel as long as possible",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "three-bar slapdown intake with full ramp",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Three bars lift fuel high, so the rolling floor can empty the hopper with little help from the intake",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "It can push balls into the indexer",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Its jackshaft is hidden inside a floor roller, so the floor keeps the full width",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rolling floor",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Move as much fuel as possible to the shooter in the least time, by the simplest method the team saw on other robots",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "floor of belted stub rollers",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Custom 3D printed stub rollers joined by 42-tooth belts",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "One roller pivots with the intake and spins with the floor",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hopper",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Fit as much fuel as possible",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "retain"
+      ],
+      "type": "extending hopper with a raising net",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Extension, moving passively with the intake",
+          "basis": "team",
+          "src": [
+            "s6"
+          ],
+          "value": 12,
+          "unit": "in"
+        },
+        {
+          "text": "About 50 to 55 balls with the net down and up to 78 with it raised, staying within 30 in",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Transfer",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Bring balls from the hopper into the drum channel",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "backward-tilted feed rollers",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Two 2 in rollers and one 1.25 in roller, on two Kraken X60s at about 1.33:1",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "The rollers tilt backward, so balls funnel passively from the hopper into the drum channel",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Drum shooter",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "The drum alone did not have enough momentum to hold shot speed for around 60 to 70 balls",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "drum with side flywheel",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "3 in aluminum drum on four Kraken X60s at 1:1",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Stainless steel flywheel on the side, about",
+          "basis": "team",
+          "src": [
+            "s6"
+          ],
+          "value": 1.5,
+          "unit": "lb"
+        },
+        {
+          "text": "Two 1.25 in back rollers wrapped in silicone, with a polycarbonate hood ramp",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "The motors sit directly under the drum, leaving room for Limelights, battery and radio",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber (removed)",
+      "does": [
+        "endgame"
+      ],
+      "type": "tube-in-tube level 1 climber",
+      "serves": [
+        "tower-1"
+      ],
+      "facts": [
+        {
+          "text": "Kraken X60 packaged behind the battery and under the ramp",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Taken off at the FIRST in Texas championship because the robot was overweight",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Point aim",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Hold aim against defense, and correct small path errors in auto",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "position"
+      ],
+      "type": "full-field localization with one-button aim",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Three Limelight 4s give full-field position in auto and teleop",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "One button points the robot with an X lock; the transfer starts once on target, with flywheels already at speed",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Drum shooter",
+      "because": "it has higher throughput than a turret, needs less software, and is simpler and more reliable",
+      "instead_of": "the turret used at earlier competitions",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    },
+    {
+      "choice": "Full kicker ramp on the intake",
+      "because": "it gives the most contact time and sustained compression",
+      "instead_of": "a kicker bar, or going around the bumper",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    },
+    {
+      "choice": "Added flywheel",
+      "because": "the drum did not have enough momentum to hold shot speed for around 60 to 70 balls",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    },
+    {
+      "choice": "Stainless steel flywheel",
+      "because": "brass flywheels wore down on the last robot",
+      "instead_of": "brass",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    },
+    {
+      "choice": "Rolling floor",
+      "because": "it looked like the simplest and most reliable method on other teams' robots",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    },
+    {
+      "choice": "Take off the climber",
+      "because": "the robot checked in overweight",
+      "cost": "no level 1 climb",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    },
+    {
+      "choice": "MK5n swerve modules",
+      "because": "they are easy to replace and give enough speed and torque",
+      "instead_of": "WCP modules",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=FpoHvjmMULY",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/cxQuGdA",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Full robot with black hopper panels, award in front",
+        "url": "https://imgur.com/X0ygOOd",
+        "img": "https://i.imgur.com/X0ygOOdh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s5",
+        "kind": "robot-photo",
+        "hero": true
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/mercs6369",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "6369 Mercenary 2026-FRC-6369-Bravo",
+        "url": "https://github.com/MercsMavs-MSA/2026-FRC-6369-Bravo",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "6369 Mercenary 2026-FRC-6369-Charlie",
+        "url": "https://github.com/MercsMavs-MSA/2026-FRC-6369-Charlie",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s4"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binder searches: Chief Delphi titles for 6369, posts for 6369 binder, one web search; no team site found"
+  ],
+  "results": {
+    "division": "Curie",
+    "division_opr": 292.81,
+    "opr_rank": 16,
+    "record": "77-9-0",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

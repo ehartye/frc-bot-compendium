@@ -1,0 +1,403 @@
+{
+  "id": "2024-103",
+  "season": 2024,
+  "team": "103",
+  "team_name": "Cybersonics",
+  "robot_name": null,
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 103 in 2024",
+      "url": "https://www.thebluealliance.com/team/103/2024",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Daly Division 2024",
+      "url": "https://www.thebluealliance.com/event/2024dal",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "Behind the Bumpers | 103 Cybersonics | CRESCENDO FRC Robot",
+      "url": "https://www.youtube.com/watch?v=wOmF_T-YujU",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "103 Cybersonics 2024-Robot",
+      "url": "https://github.com/Cybersonics/2024-Robot",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Cybersonics 103 robots page",
+      "url": "https://www.cybersonics.net/robots.html",
+      "publisher": "cybersonics.net",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [],
+    "demand": [],
+    "auto": [
+      {
+        "text": "The video description credits the team with a four-note auto; the interview does not describe it.",
+        "basis": "observer",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The under-bumper intake sweeps a note up into the pivoting shooter, which shoots from the subwoofer or from about the end of the stage.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      },
+      {
+        "text": "The video description says the team shuttled notes through the whole Allentown event, which it won.",
+        "basis": "observer",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "endgame": [],
+    "fallback": [],
+    "gave_up": [],
+    "changed": [
+      {
+        "text": "About nine shooter iterations: side shooters lacked range, then top-and-bottom shooters flipped notes in the air, so the team added spin for a flatter, longer shot. Notes jammed in the transfer until orange straps went in. At Allentown, spacers in the pneumatics raised the shooter to recover its home-field shot.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "40-20-2 in official play; ranked 12 of the pooled top 20 (OPR 54.85, Daly).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Custom drive module",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Leave room for the note to pass under the bumpers to the intake",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "drive"
+      ],
+      "type": "custom drive module",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Yokes, main plate and top plate are made on a Tormach",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Yokes were made a little bigger so that the note fits under the bumpers more easily",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Under-bumper intake and transfer",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Move a note from the floor to the shooter without it sticking in the transfer",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "transfer"
+      ],
+      "type": "under-the-bumper roller intake",
+      "serves": [
+        "speaker",
+        "amp"
+      ],
+      "facts": [
+        {
+          "text": "The top intake roller sweeps the note under into a bottom roller, then up into two more rollers",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Sushi rollers on one roller sped the note up by a surprising amount, the team says",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Orange straps sit where notes used to jam; dead rollers were tried first",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Stop notes flipping in the air and gain range",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "deliver",
+        "position"
+      ],
+      "type": "pivoting shooter that spins the note",
+      "serves": [
+        "speaker",
+        "amp"
+      ],
+      "facts": [
+        {
+          "text": "Pivots up and down: the close shot is at the subwoofer and the long shot reaches about the end of the stage",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Spin is meant to keep the note flat for longer shots",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Small spacers in the pneumatics raised the shooter slightly at Allentown",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Amp bar",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Keep a note from bouncing out of the amp",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "pneumatic flip-over bar",
+      "serves": [
+        "amp"
+      ],
+      "facts": [
+        {
+          "text": "The bar goes against the amp; with the shooter up, the note is fired in, and the bar blocks the bounce so that the note drops",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Two pneumatic cylinders, each acting in one direction, flip the bar forward and back",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "The idea came from another team's robot and was tuned for rotation and arm length",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chamber sensor",
+      "pieces": [
+        "note"
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "note sensor with lights",
+      "serves": [
+        "amp"
+      ],
+      "facts": [
+        {
+          "text": "The amp bar can rise only when a note is detected in the chamber, and it flips back by itself once the note leaves",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Lights are meant to turn on when a note is detected",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bumper guards",
+      "does": [
+        "structure"
+      ],
+      "type": "welded guards",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Bumper guards welded by team members",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Make custom drive modules",
+      "because": "students learn to design a drive, and larger yokes let the note pass under the bumpers more easily",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "Add spin to the shot",
+      "because": "notes flipped in the air and the team wanted flatter, longer shots",
+      "instead_of": "two side shooters, which lacked distance, and then top and bottom shooters",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "Orange straps in the transfer",
+      "because": "notes stuck and jammed at that point",
+      "instead_of": "dead rollers, among other things tried",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/MKmrKEt",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Behind the Bumpers | 103 Cybersonics | CRESCENDO FRC Robot",
+        "url": "https://www.youtube.com/watch?v=wOmF_T-YujU",
+        "format": "video",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "Cybersonics 103 robots page",
+        "url": "https://www.cybersonics.net/robots.html",
+        "format": "web page",
+        "state": "listed",
+        "src": "s5"
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/cybersonics",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "103 Cybersonics 2024-Robot",
+        "url": "https://github.com/Cybersonics/2024-Robot",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s4"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "Behind the Bumpers auto-captions (one interview at the Allentown district event)",
+    "binders: Cybersonics by name and bare number 103 on Chief Delphi, 13 pages of the team site"
+  ],
+  "results": {
+    "division": "Daly",
+    "division_opr": 54.85,
+    "opr_rank": 12,
+    "record": "40-20-2",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

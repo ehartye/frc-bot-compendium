@@ -1,0 +1,688 @@
+{
+  "id": "2026-7558",
+  "season": 2026,
+  "team": "7558",
+  "team_name": "ALT-F4",
+  "robot_name": "Vanguard",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 7558 in 2026",
+      "url": "https://www.thebluealliance.com/team/7558/2026",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Johnson Division 2026",
+      "url": "https://www.thebluealliance.com/event/2026joh",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "ALT-F4 — 2026 Technical Binder",
+      "url": "https://binder.team7558.com",
+      "publisher": "binder.team7558.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Vanguard (2026)",
+      "url": "https://www.team7558.com/bots/vanguard",
+      "publisher": "team7558.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/RmifER5",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/avwfUsm",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/ogwZaKO",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "7558 ALT-F4 Behind the Bumpers, filmed at the championship (auto-caption read)",
+      "url": "https://www.youtube.com/watch?v=6FvCHCjxjvc",
+      "publisher": "FUN Robotics Network (YouTube)",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "outcome": [
+      {
+        "text": "51-17-0 in official play; ranked 7 of the pooled top 20 (OPR 326.83, Johnson).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "bet": [],
+    "auto": [
+      {
+        "text": "PathPlanner autos replaced drive-to-point ones, which did not behave the same in simulation and on the field. The robot detects crossing the bump from its tilt, waits a set time, then resets its pose. A second, side Limelight made autos more accurate.",
+        "basis": "team",
+        "src": [
+          "s8",
+          "s3"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "Fuel goes from a sliding intake through the indexer to a drum four fuel wide. Pose gives distance and heading, and a lookup table sets hood and flywheel, held at speed while driving. The feeder runs only at speed, and the intake moves inward during the shot.",
+        "basis": "team",
+        "src": [
+          "s3",
+          "s8"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "The robot tracks motor current and temperature and switches to a lower power mode on a brownout or from that data, so the battery drains much more slowly.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "A little top speed: the drive is geared 7.13:1 so the robot gets moving faster out of every stop.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "The first design, Vibez, a turret fed by a spindexer with an L1 hang, was shelved because its ceiling was too low.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      },
+      {
+        "text": "After the first event a steep intake that jammed when hit was made more horizontal. The hopper went from no net to a stiff net to a stretchy one. Silicone-tubing feed rollers lost grip to debris; the main one is now grip tape, secondary ones still silicone.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drivetrain",
+      "does": [
+        "drive",
+        "structure"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "SDS MK5N modules, gear ratio",
+          "basis": "team",
+          "src": [
+            "s3"
+          ],
+          "value": 7.13,
+          "unit": ":1"
+        },
+        {
+          "text": "The belly pan carries the roboRIO, power distribution and battery low in the frame",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Eight quick-release nuts hold the bumpers; the team says a swap takes thirty seconds",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Collect without jamming when hit, and let the front hopper squeeze fuel harder for more fuel per second",
+          "basis": "team",
+          "src": [
+            "s8",
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "linear sliding intake",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "A 2 in polycarbonate roller on a dead axle, driven by two Kraken X60s at 1.67:1",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "A laminated Lexan rack with 10 DP teeth, driven by one Kraken X60 at 15:1; a through-shaft links both sides so it cannot skew",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Tilt",
+          "basis": "team",
+          "src": [
+            "s3"
+          ],
+          "value": 2,
+          "unit": "deg"
+        },
+        {
+          "text": "A churro kicker bar wrapped in cat-tongue tape hangs on a pivot, held by surgical tubing",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The steeper version used at the first event jammed a lot",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hopper",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Go under the trench empty, then carry extra fuel above the walls without it spilling",
+          "basis": "team",
+          "src": [
+            "s8",
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "retain"
+      ],
+      "type": "moving and stationary hopper with a stretchy net",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Capacity with the stretchy net, up to about",
+          "basis": "team",
+          "src": [
+            "s8"
+          ],
+          "value": 75,
+          "unit": "fuel"
+        },
+        {
+          "text": "Diamond-lattice Lexan walls, part fixed to the shooter and part moving with the intake",
+          "basis": "team",
+          "src": [
+            "s3",
+            "s8"
+          ]
+        },
+        {
+          "text": "Comes off with four bolts",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Indexer",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Feed fast from the hopper to the shooter without slipping",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "five grip-tape rollers",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "One Kraken X60 drives all five rollers at the same surface speed",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Each roller drops out on its own; the team says in under a minute",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Feeder",
+      "pieces": [
+        "fuel"
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "continuous feeder pinch",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Two Kraken X60s drive the feeder rollers at 12:20",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "An agitation roller off the main feeder, through 1.5:1, pushes fuel down instead of letting it popcorn",
+          "basis": "team",
+          "src": [
+            "s3",
+            "s8"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Silicone tubing collected fuel debris, and balls slipped or jammed; the secondary rollers are still silicone tubing",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Drum shooter",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Keep shots consistent as the hopper empties",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "does": [
+        "deliver",
+        "position"
+      ],
+      "type": "four-wide drum shooter with adjustable hood",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Four Kraken X60s drive the drum 1:1",
+          "basis": "team",
+          "src": [
+            "s3",
+            "s8"
+          ]
+        },
+        {
+          "text": "A custom-cut steel flywheel, 1/2 in thick and 4 in, is geared 3:1 from the drum",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "The drum is geared 1.56:1 to the back hood rollers so fuel leaves with minimum spin",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Hood travel",
+          "basis": "team",
+          "src": [
+            "s3"
+          ],
+          "value": 26,
+          "unit": "deg"
+        }
+      ]
+    },
+    {
+      "name": "Shot lookup table",
+      "solves": [
+        {
+          "text": "Aim from distance with no ballistics math on the robot",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "position"
+      ],
+      "type": "interpolated lookup table",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Rows come from measured test shots; the code interpolates between the nearest entries",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "The flywheel is held at table speed while moving, so a shot waits only on the feeder",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Localization",
+      "solves": [
+        {
+          "text": "Autos were inconsistent on one camera",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "two Limelights fused with odometry",
+      "serves": [],
+      "facts": [
+        {
+          "text": "A front Limelight aligns to the hub; a side one was added",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Each camera rejects outliers, picks MegaTag 1 or 2 with hysteresis, and feeds the pose estimator",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Power modes",
+      "solves": [
+        {
+          "text": "Many running motors drain the battery very quickly",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "automatic power management",
+      "serves": [],
+      "facts": [
+        {
+          "text": "A web app shows supply current, current limits and temperature for each motor",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Off-the-shelf swerve modules",
+      "because": "there is no custom-module risk in build season",
+      "instead_of": "custom modules",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "A higher drive reduction",
+      "because": "the robot gets moving faster out of every stop",
+      "cost": "a little top speed",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "A nearly horizontal intake",
+      "because": "the steeper one jammed when the robot crashed or was hit",
+      "instead_of": "a steeper angle",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    },
+    {
+      "choice": "A steel flywheel on the drum",
+      "because": "without it shots spread more and the last ones missed as the wheel slowed",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    },
+    {
+      "choice": "Hood rollers that cancel spin",
+      "because": "shots are more accurate with no spin",
+      "instead_of": "backspin",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    },
+    {
+      "choice": "A lookup table for shots",
+      "because": "adding a distance is one more row, not a retune",
+      "instead_of": "ballistics math at runtime",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "PathPlanner autos",
+      "because": "simulation and the real robot match better, and the team has no field",
+      "instead_of": "drive-to-point autos",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    },
+    {
+      "choice": "Grip tape on the main feeder roller",
+      "because": "it has worked best of three materials",
+      "instead_of": "silicone tubing",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=6FvCHCjxjvc",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/3vEEF9E",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/LnKSX4N",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/xWHgllS",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Vanguard (2026)",
+        "url": "https://www.team7558.com/bots/vanguard",
+        "format": "web page",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "Full robot driving, netted hopper heaped with yellow balls",
+        "url": "https://imgur.com/RmifER5",
+        "img": "https://i.imgur.com/RmifER5h.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s5",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot, blue bumpers, seen from shooter corner",
+        "url": "https://imgur.com/avwfUsm",
+        "img": "https://i.imgur.com/avwfUsmh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s6",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot driving through scattered yellow balls",
+        "url": "https://imgur.com/ogwZaKO",
+        "img": "https://i.imgur.com/ogwZaKOh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s7",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot, red bumpers, hopper full, shooter corner view",
+        "url": "https://www.team7558.com/bots/vanguard",
+        "img": "https://www.team7558.com/_next/image?url=%2Fimages%2Fbots%2F2026.jpg&w=3840&q=75&dpl=dpl_BGapTBB7n3EGDN3VEwWyNvUzNMQM",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Full robot driving, side view of shooter plates and hopper",
+        "url": "https://www.team7558.com/bots/vanguard",
+        "img": "https://www.team7558.com/_next/image?url=%2Fimages%2Fbots%2F2026-field.jpg&w=3840&q=75&dpl=dpl_BGapTBB7n3EGDN3VEwWyNvUzNMQM",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "robot-photo"
+      }
+    ],
+    "documents": [
+      {
+        "what": "ALT-F4 — 2026 Technical Binder",
+        "url": "https://binder.team7558.com",
+        "format": "web page",
+        "state": "listed",
+        "src": "s3"
+      }
+    ],
+    "code": []
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: a Chief Delphi title search, one web search and 11 pages of the team site, where the binder is"
+  ],
+  "results": {
+    "division": "Johnson",
+    "division_opr": 326.83,
+    "opr_rank": 7,
+    "record": "51-17-0",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

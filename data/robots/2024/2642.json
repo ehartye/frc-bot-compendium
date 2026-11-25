@@ -1,0 +1,111 @@
+{
+  "id": "2024-2642",
+  "season": 2024,
+  "team": "2642",
+  "team_name": "Pitt Pirates",
+  "robot_name": null,
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 2642 in 2024",
+      "url": "https://www.thebluealliance.com/team/2642/2024",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Johnson Division 2024",
+      "url": "https://www.thebluealliance.com/event/2024joh",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "2642 Pitt Pirates 2024Robot",
+      "url": "https://github.com/FRC2642/2024Robot",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/3ia8IzU",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [],
+    "demand": [],
+    "auto": [],
+    "cycle": [],
+    "endgame": [],
+    "fallback": [],
+    "gave_up": [],
+    "changed": [],
+    "outcome": [
+      {
+        "text": "42-19-0 in official play; ranked 16 of the pooled top 20 (OPR 52.80, Johnson).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [],
+  "decisions": [],
+  "assets": {
+    "graphics": [
+      {
+        "what": "Robot photo",
+        "url": "https://imgur.com/JhKo0p8",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Full robot, red bumpers, orange ring held at top",
+        "url": "https://imgur.com/3ia8IzU",
+        "img": "https://i.imgur.com/3ia8IzUh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "robot-photo",
+        "hero": true
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/frc2642",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "2642 Pitt Pirates 2024Robot",
+        "url": "https://github.com/FRC2642/2024Robot",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s3"
+      }
+    ],
+    "cad": [],
+    "documents": []
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet, 2642 and 2024",
+    "binders: Chief Delphi title search \"2642\" and post search \"2642 binder\", both 0; one grouped web search, weak; team home page gives no robot description"
+  ],
+  "results": {
+    "division": "Johnson",
+    "division_opr": 52.8,
+    "opr_rank": 16,
+    "record": "42-19-0",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

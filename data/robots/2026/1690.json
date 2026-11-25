@@ -1,0 +1,1156 @@
+{
+  "id": "2026-1690",
+  "season": 2026,
+  "team": "1690",
+  "team_name": "Orbit",
+  "robot_name": "Kepler",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 1690 in 2026",
+      "url": "https://www.thebluealliance.com/team/1690/2026",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Galileo Division 2026",
+      "url": "https://www.thebluealliance.com/event/2026gal",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Orbit 1690 2026 OffSeason practice Robot: \\\"Blitzer\\\"",
+      "url": "https://www.chiefdelphi.com/t/orbit-1690-2026-offseason-practice-robot-blitzer/526099",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Team1690 2026-scouting-simulator",
+      "url": "https://github.com/Team1690/2026-scouting-simulator",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Team1690 StrategyEngine-2026",
+      "url": "https://github.com/Team1690/StrategyEngine-2026",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Orbit 1690 new custom swerve reveal",
+      "url": "https://www.chiefdelphi.com/t/orbit-1690-new-custom-swerve-reveal/508927",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "1690 did 590 Points alone... without a dumper. | FRC Strategy Analysis",
+      "url": "https://www.youtube.com/watch?v=MVBEPikDEGY",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/jJiksKT",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/nGnBPZM",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Onshape document",
+      "url": "https://orbit1690.onshape.com/documents/d09a47dbfc1b125f63a78ac7/w/d71d2275472653904f9b717a/e/03166dd8363262636c9f6b66",
+      "publisher": "orbit1690.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "FRC Orbit 1690 2026 Robot CAD Release",
+      "url": "https://www.chiefdelphi.com/t/frc-orbit-1690-2026-robot-cad-release/520673",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "Orbit 1690 2026 Robot Reveal - \"KEPLER\"",
+      "url": "https://www.chiefdelphi.com/t/orbit-1690-2026-robot-reveal-kepler/515277",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "1690 Orbit | Behind the Bumpers | Galileo Winners (auto-caption)",
+      "url": "https://www.youtube.com/watch?v=n5HWLSWU4eg",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "FRC Orbit 1690 2026 Robot CAD Release, post 39 (turret zeroing)",
+      "url": "https://www.chiefdelphi.com/t/frc-orbit-1690-2026-robot-cad-release/520673/39",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "Orbit 1690 2026 Robot Reveal, post 103 (static and CANivore)",
+      "url": "https://www.chiefdelphi.com/t/orbit-1690-2026-robot-reveal-kepler/515277/103",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "Orbit 1690 Double Swipe Auto",
+      "url": "https://www.chiefdelphi.com/t/orbit-1690-double-swipe-auto/514759",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Expect heavy defense: shoot on the move, carry a very large hopper, be extremely durable, and still fit under the trench.",
+        "basis": "team",
+        "src": [
+          "s14"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "The team expected an aggressive game in which defense had a huge impact, and designed around that. It started with a level 3 climb, found it too heavy and complex for a real game, and changed to level 1 mid-season.",
+        "basis": "team",
+        "src": [
+          "s14"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "Paths are drawn in the team's own planner. If it collides in the opening rush to the neutral zone, the robot can shorten its path instead of fighting for the same fuel.",
+        "basis": "team",
+        "src": [
+          "s14"
+        ]
+      },
+      {
+        "text": "The team posted a double swipe teaser in February; an unsigned reply that reads as the team's says the path ends at a still unfinished climb.",
+        "basis": "observer",
+        "src": [
+          "s17"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The intake feeds fuel into the hopper; it then goes along the roller floor, between two vertical belts and up an active ramp to the turret, which shoots while moving.",
+        "basis": "team",
+        "src": [
+          "s14"
+        ]
+      },
+      {
+        "text": "In a solo match a video analyst saw it drive circles without stopping, pass fuel back, herd it through the trench and miss a decent amount.",
+        "basis": "observer",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "A level 1 climber on a threaded rod of 2 mm pitch, which does all the reduction.",
+        "basis": "team",
+        "src": [
+          "s14"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "Against defense the drive locks in an X, which cancels shooting on the move but empties the hopper faster and accurately. Two rear cameras cover for the turret camera.",
+        "basis": "team",
+        "src": [
+          "s14"
+        ]
+      },
+      {
+        "text": "An unsigned post that reads as the team's says a lost turret position is recovered manually: turned by eye, then zeroed; it worked well enough in some practice matches.",
+        "basis": "observer",
+        "src": [
+          "s15"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "The level 3 climb, and some of the driver automation it had the year before.",
+        "basis": "team",
+        "src": [
+          "s14"
+        ]
+      },
+      {
+        "text": "An unsigned post that reads as the team's says the turret zeroes only within about ±30 degrees, and starting elsewhere broke the energy chain a few times, not at the championship.",
+        "basis": "observer",
+        "src": [
+          "s15"
+        ]
+      },
+      {
+        "text": "A post that reads as the team's says grounding wires helped little against suspected static, and it lost its CANivore in Einstein match 7.",
+        "basis": "observer",
+        "src": [
+          "s16"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "Its own custom swerve modules with thin tread were easily pushed in training, so it swapped to MK5 with wide spiked tread mid-season.",
+        "basis": "team",
+        "src": [
+          "s14"
+        ]
+      },
+      {
+        "text": "A moving intake ramp became a kicker that stays open. The indexer took three or four iterations.",
+        "basis": "team",
+        "src": [
+          "s14"
+        ]
+      },
+      {
+        "text": "Off-season: drivetrain and conveyor went into a practice robot, Blitzer.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "47-5-0 in official play; won the Galileo division; pick 1 of the Galileo alliance on Einstein; ranked 8 of the pooled top 20 (OPR 323.27, Galileo).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drive base",
+      "solves": [
+        {
+          "text": "Not be pushed easily when defended",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ],
+      "does": [
+        "drive"
+      ],
+      "type": "SDS MK5 swerve with spiked tread",
+      "serves": [],
+      "facts": [
+        {
+          "text": "29.5 by 24.5 in, with the intake on the wide side",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "The MK5 fit almost perfectly because the old custom module had similar dimensions, and the swap took a weekend, says an unsigned post that reads as the team's",
+          "basis": "observer",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Module top plates were integrated, which also made them stronger",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Spikes are kept clean and new because their condition has a massive impact on grip, says an unsigned post that reads as the team's",
+          "basis": "observer",
+          "src": [
+            "s12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hopper",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Carry a very large amount of fuel on a robot that fits under the trench",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ],
+      "does": [
+        "retain",
+        "structure"
+      ],
+      "type": "hopper walls of thin polycarbonate and net",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Holds about 60 fuel, by the student's estimate",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "The walls' flexibility maximizes capacity",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Bumper padding attaches to the hopper walls, so they come off together for access",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Be wide and durable, collapse on impact and swap quickly when broken",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "two-roller intake on a rack and gear",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Two silicone-coated rollers on an X60",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Polycarbonate racks with aluminum and brass gears, made in the team's shop",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "A 25 x 50 mm front extrusion, and sides of two 6 mm polycarbonate and two 1.5 mm aluminum plates",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "The whole U-shaped frame lifts off after three screws on each side",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kicker roller",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Replace a moving ramp that was a problem when the intake opened above fuel",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "passive bottom roller that drops once",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Opens once at the beginning of the match and stays there",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "A plain aluminum roller pulled down by surgical tubing, says an unsigned post that reads as the team's",
+          "basis": "observer",
+          "src": [
+            "s12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Roller floor",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Move fuel to the shooter fast without jams where the path narrows",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "powered roller floor",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Active silicone-coated carbon fiber rollers",
+          "basis": "team",
+          "src": [
+            "s14"
+          ],
+          "value": 11,
+          "unit": "rollers"
+        },
+        {
+          "text": "One X60 at two to one; 3 mm GT2 belts between rollers, chosen over 5 mm HTD for efficiency on small radii",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "A slight speed reduction between rollers limits jams from four balls wide to three and a half",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Two rollers are slick, not silicone-coated, to cut friction",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Three or four iterations of ratios and belts; at the start it was really not working well",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vertical belts",
+      "pieces": [
+        "fuel"
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "two vertical HTD belts with separate motors",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Belts 30 mm wide on two X44 motors, surface speed",
+          "basis": "team",
+          "src": [
+            "s14"
+          ],
+          "value": 8,
+          "unit": "m/s"
+        },
+        {
+          "text": "Fuel is pressed by around",
+          "basis": "team",
+          "src": [
+            "s14"
+          ],
+          "value": 10,
+          "unit": "mm"
+        },
+        {
+          "text": "Prototypes joined the belts, which worked all right; separate motors make the belts easier to remove and assemble outside, says an unsigned post that reads as the team's",
+          "basis": "observer",
+          "src": [
+            "s12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vertical kicker roller",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Mitigate jams in the indexer",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "powered vertical roller beside the belts",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Reuses a shooter roller from the 2024 robot, on an X44",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Active ramp",
+      "pieces": [
+        "fuel"
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "powered ramp into the turret",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Three rows of 2 1/4 in flexible wheels and two rows of 2 in stealth wheels on one X60",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Ball speed",
+          "basis": "team",
+          "src": [
+            "s14"
+          ],
+          "value": 8,
+          "unit": "m/s"
+        },
+        {
+          "text": "An opposing roller makes the ball reach the turret with zero spin",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Turret shooter",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Make the turret's outer diameter as small as possible for more ball rate and fuel capacity",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ],
+      "does": [
+        "deliver",
+        "position"
+      ],
+      "type": "compact turret with hood, nearly no spin",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "The ball path is offset on an 8 in bearing so the turret sits further into the corner, leaving room for indexing",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "The back rollers are driven from the main shooter wheel by belts and gears, which saves weight and space",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Motors sit close to the wheels in an SLS print to cut the diameter",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "The turret is a two-plate sandwich on the bearing, and tight slots made the thin bearing stiff until scraped smooth, says an unsigned post that reads as the team's",
+          "basis": "observer",
+          "src": [
+            "s12"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The printed hood guide was replaced quite a few times because its upper teeth kept hitting the trench, says an unsigned post that reads as the team's",
+          "basis": "observer",
+          "src": [
+            "s12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Turret energy chain",
+      "solves": [
+        {
+          "text": "Wire the turret and still allow a wide range of rotation",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ],
+      "does": [
+        "position",
+        "structure"
+      ],
+      "type": "custom printed energy chain on a narrow neck",
+      "serves": [],
+      "facts": [
+        {
+          "text": "14 gauge motor wires, where 12 or 10 is standard, keep the links small",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "The interview gives about 640 degrees of rotation and also 360 or more each way",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Turret zeroing",
+      "solves": [
+        {
+          "text": "Know the turret's angle; an unsigned post that reads as the team's calls this design one to improve",
+          "basis": "observer",
+          "src": [
+            "s15"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "through-bore encoder read in a narrow window",
+      "serves": [],
+      "facts": [
+        {
+          "text": "The encoder zeroes properly only within about 30 degrees either side, says an unsigned post that reads as the team's",
+          "basis": "observer",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "During a match the turret is turned by eye toward the intake and then zeroed on the encoder, the same post says",
+          "basis": "observer",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "The same post says a Hall effect sensor, or two gears with the Chinese remainder theorem, would have been better",
+          "basis": "observer",
+          "src": [
+            "s15"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Starting or zeroing at another angle broke the energy chain a few times during the season, though not at the championship, the same post says",
+          "basis": "observer",
+          "src": [
+            "s15"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Replace a level 3 climb that was too heavy and complex",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "level 1 climber on a threaded rod",
+      "serves": [
+        "tower-1"
+      ],
+      "facts": [
+        {
+          "text": "Rod pitch",
+          "basis": "team",
+          "src": [
+            "s14"
+          ],
+          "value": 2,
+          "unit": "mm"
+        },
+        {
+          "text": "The rod does all the reduction, so the motor has none",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shoot-on-the-move simulation",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Shoot while moving without heavy computing on the robot",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "deliver"
+      ],
+      "type": "off-robot trajectory simulation fitted to polynomials",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Simulates gravity, air resistance and Magnus effect for a range of distances and robot velocities, and picks the best trajectory by cost functions for scoring or passing",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "The robot computes only the fitted polynomials",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Robot acceleration was added this year, which improves shooting on the move against defense",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Turret camera",
+      "does": [
+        "sense"
+      ],
+      "type": "camera on the turret plus two rear cameras",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Runs PhotonVision on an Orange Pi; on the turret because of the number of AprilTags on the hub",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Rear cameras cover blind spots and turret camera disconnects, which happened a few times",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tilt and bump detection",
+      "pieces": [
+        "fuel"
+      ],
+      "does": [
+        "sense",
+        "deliver"
+      ],
+      "type": "tilt-aware shooting",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Lets the robot shoot while tilted on the bump",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Bought MK5 modules with spiked tread",
+      "because": "training with the team's defense robot showed how easily its own modules were pushed, and wide spiked tread digs into the carpet",
+      "instead_of": "its own custom modules with thin tread",
+      "basis": "team",
+      "src": [
+        "s14"
+      ]
+    },
+    {
+      "choice": "A slower drive ratio",
+      "because": "an unsigned post that reads as the team's says trench and bump force slowing and turning, so the fast ratio's peak speed was unreachable; the slower one was much more agile",
+      "instead_of": "a fast ratio chosen for long drives",
+      "basis": "observer",
+      "src": [
+        "s12"
+      ]
+    },
+    {
+      "choice": "Rack and gear intake",
+      "because": "slap-down intakes do not collapse well on impact",
+      "instead_of": "a slap-down intake",
+      "basis": "team",
+      "src": [
+        "s14"
+      ]
+    },
+    {
+      "choice": "Almost no spin on the shot",
+      "because": "prototypes showed it was the most consistent with the lowest energy loss",
+      "basis": "team",
+      "src": [
+        "s14"
+      ]
+    },
+    {
+      "choice": "Simulate shots off the robot",
+      "because": "it saves computing power on the robot",
+      "basis": "team",
+      "src": [
+        "s14"
+      ]
+    },
+    {
+      "choice": "Separate motors for the two vertical belts",
+      "because": "an unsigned post that reads as the team's says they can be treated as separate modules, assembled outside and put in",
+      "instead_of": "joining the belts, which worked all right in prototypes",
+      "basis": "observer",
+      "src": [
+        "s12"
+      ]
+    },
+    {
+      "choice": "Plain HTD vertical belts",
+      "because": "silicone-coated ones could not reach Israel fast enough",
+      "instead_of": "silicone-coated belts",
+      "basis": "team",
+      "src": [
+        "s14"
+      ]
+    },
+    {
+      "choice": "Level 1 climb",
+      "because": "the level 3 climb was too heavy and too complex to work in a real game",
+      "instead_of": "a level 3 climb",
+      "basis": "team",
+      "src": [
+        "s14"
+      ]
+    },
+    {
+      "choice": "Rigid supports and high-efficiency drives on first stages",
+      "because": "an unsigned post that reads as the team's says friction is felt most on first stages and on fast-moving parts; anything stiff at assembly is rebuilt, though less strictly on the first robot",
+      "basis": "observer",
+      "src": [
+        "s12"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "Comp Robot",
+        "url": "https://orbit1690.onshape.com/documents/d09a47dbfc1b125f63a78ac7/w/d71d2275472653904f9b717a/e/03166dd8363262636c9f6b66",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "CAD listed on the team page",
+        "url": "https://cad.onshape.com/documents/d09a47dbfc1b125f63a78ac7/w/d71d2275472653904f9b717a",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Orbit 1690 new custom swerve reveal",
+        "url": "https://www.chiefdelphi.com/t/orbit-1690-new-custom-swerve-reveal/508927",
+        "format": "thread",
+        "state": "listed",
+        "src": "s7",
+        "holds": "Onshape"
+      },
+      {
+        "what": "x_t files",
+        "url": "https://drive.google.com/drive/folders/12x8BS28Hf7YlxVM24ocRf43Jw6wtTlyj?usp=sharing",
+        "format": "x_t",
+        "state": "listed",
+        "src": "s12"
+      },
+      {
+        "what": "MK16.90 swerve module, replaced mid-season",
+        "url": "https://orbit1690.onshape.com/documents/fd19db344f429f12403febcb/w/46a3898e28f9fa5897d1cc18/e/d6e0bfe1cc4113e4669fcfa6",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s7"
+      },
+      {
+        "what": "CAD release thread",
+        "url": "https://www.chiefdelphi.com/t/frc-orbit-1690-2026-robot-cad-release/520673",
+        "format": "thread",
+        "state": "listed",
+        "src": "s12"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=n5HWLSWU4eg",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=yW90nd563wI",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "1690 did 590 Points alone... without a dumper. | FRC Strategy Analysis",
+        "url": "https://www.youtube.com/watch?v=MVBEPikDEGY",
+        "format": "video",
+        "state": "listed",
+        "src": "s8"
+      },
+      {
+        "what": "Full robot among yellow balls, hopper extended, turret at right",
+        "url": "https://imgur.com/jJiksKT",
+        "img": "https://i.imgur.com/jJiksKTh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s9",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Side view of the robot launching a yellow ball",
+        "url": "https://imgur.com/nGnBPZM",
+        "img": "https://i.imgur.com/nGnBPZMh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s10",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot CAD seen from underneath",
+        "url": "https://orbit1690.onshape.com/documents/d09a47dbfc1b125f63a78ac7/w/d71d2275472653904f9b717a/e/03166dd8363262636c9f6b66",
+        "img": "https://cad.onshape.com/api/thumbnails/d/d09a47dbfc1b125f63a78ac7/w/d71d2275472653904f9b717a/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s11",
+        "kind": "cad"
+      },
+      {
+        "what": "Shaft collar on a shaft, CAD close-up",
+        "url": "https://www.chiefdelphi.com/t/frc-orbit-1690-2026-robot-cad-release/520673",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/d/8/b/d8b0fa54a4cf90170e3468c58aa985ce0f046fa0_2_690x437.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s12",
+        "kind": "cad"
+      },
+      {
+        "what": "Top view of the robot with yellow balls in the hopper",
+        "url": "https://www.chiefdelphi.com/t/orbit-1690-2026-robot-reveal-kepler/515277",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/3/3/2/3325c481b96b4e6b10c06878ccc50ae90f8fa2a2_2_690x370.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s13",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "42-tooth gear with a shaped center hole, CAD close-up",
+        "url": "https://www.chiefdelphi.com/t/frc-orbit-1690-2026-robot-cad-release/520673",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/0/c/d/0cd63dc3d44aff000e53e9d1548bbbd7de778aeb_2_446x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s12",
+        "kind": "cad"
+      },
+      {
+        "what": "Small wheel against a dark bar, CAD close-up",
+        "url": "https://www.chiefdelphi.com/t/frc-orbit-1690-2026-robot-cad-release/520673",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/1/b/e/1be6289537b1aca4f95144e7e0b3ec086287f3a6_2_287x250.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s12",
+        "kind": "cad"
+      },
+      {
+        "what": "CAD view with two roller belts highlighted in orange",
+        "url": "https://www.chiefdelphi.com/t/frc-orbit-1690-2026-robot-cad-release/520673",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/2/0/9/2090bc722b3148832dba62e593fb6936d7a765d6_2_690x368.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s12",
+        "kind": "cad"
+      },
+      {
+        "what": "CAD section view of a bearing between plates",
+        "url": "https://www.chiefdelphi.com/t/frc-orbit-1690-2026-robot-cad-release/520673",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/1/b/b/1bbd3367e4061b9ec1eb6936d618114b776d9e74_2_345x208.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s12",
+        "kind": "cad"
+      },
+      {
+        "what": "Double swipe auto video (not watched)",
+        "url": "https://www.youtube.com/watch?v=Xjly7BCU3xQ",
+        "format": "video",
+        "state": "listed",
+        "src": "s17"
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/team1690",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Team1690 2026-scouting-simulator",
+        "url": "https://github.com/Team1690/2026-scouting-simulator",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "Team1690 StrategyEngine-2026",
+        "url": "https://github.com/Team1690/StrategyEngine-2026",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s6"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)"
+  ],
+  "results": {
+    "division": "Galileo",
+    "division_opr": 323.27,
+    "opr_rank": 8,
+    "record": "47-5-0",
+    "einstein": {
+      "division": "Galileo",
+      "role": "pick 1"
+    },
+    "src": [
+      "s1",
+      "s2"
+    ],
+    "note": "Its first official matches were at the championship (16-4 there). The Blue Alliance lists no matches at its March event, and its district events in June and July, after the championship, account for 31 of its 47 wins."
+  }
+}

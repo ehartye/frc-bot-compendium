@@ -1,0 +1,919 @@
+{
+  "id": "2026-9470",
+  "season": 2026,
+  "team": "9470",
+  "team_name": "Ctrl-Alt-Defeat",
+  "robot_name": null,
+  "variant": "Drum-shooter robot of the NorCal district championship and the championship, with the intake reinforced for the championship. A triple-shooter robot played weeks 1 and 2.",
+  "sources": {
+    "s1": {
+      "title": "Team 9470 in 2026",
+      "url": "https://www.thebluealliance.com/team/9470/2026",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Archimedes Division 2026",
+      "url": "https://www.thebluealliance.com/event/2026arc",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "CTRL-ALT-DEFEAT",
+      "url": "https://team9470.com",
+      "publisher": "team9470.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "9470 Alpha2026 code",
+      "url": "https://github.com/frc9470/Alpha2026",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "9470 Beta2026 code",
+      "url": "https://github.com/frc9470/Beta2026",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "FRC 9470 · Ctrl-Alt-Defeat",
+      "url": "https://9470techbinder.vercel.app/",
+      "publisher": "9470techbinder.vercel.app",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "FRC 9470 · Ctrl-Alt-Defeat (process)",
+      "url": "https://9470techbinder.vercel.app/process/",
+      "publisher": "9470techbinder.vercel.app",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/EcZPt3X",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/qPJ0jX3",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/shO6Dch",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Onshape document",
+      "url": "https://cad.onshape.com/documents/df5df9d647afc82eacfe76aa/w/20fc10e9586929e958bf55cb/e/e5fa7af36676060afb455bc2",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "9470 Ctrl Alt Defeat | Behind the Bumpers | Archimedes Winners (auto-caption)",
+      "url": "https://www.youtube.com/watch?v=XGmvdWVnzsw",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Ship a simple robot before week 1 and protect driver practice: every hour spent inventing is an hour drivers do not get.",
+        "basis": "team",
+        "src": [
+          "s7"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "The team says top-tier matches score 250 to 300 points and aimed to reach that line consistently rather than chase a higher peak, with a forgiving wide intake feeding a high-rate fixed shooter. A level 1 climb's 25 points was not worth fitting a climber before week 1.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "Preplanned Choreo trajectories that account for the robot's physical parameters.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "One button deploys the intake and one shoots. Periodically the code senses by current whether there are 20 or more balls, then stages about 12 in the feeder for the next shot. Beyond the scoring zone a separate shot map feeds instead.",
+        "basis": "team",
+        "src": [
+          "s13",
+          "s8"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "No climber; the team left it out.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "If a hit makes the hopper ride over the intake, another collision lets it recover during the match.",
+        "basis": "team",
+        "src": [
+          "s13"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "A climber, and turret and dual shooters.",
+        "basis": "team",
+        "src": [
+          "s7",
+          "s8"
+        ]
+      },
+      {
+        "text": "Before the championship it dropped a hopper redesign, geometry tweaks and weight reduction because each risked a working robot.",
+        "basis": "team",
+        "src": [
+          "s7"
+        ]
+      },
+      {
+        "text": "Choreo paths are tuned to one configuration, so a mid-season rebuild forces a re-tune.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      },
+      {
+        "text": "In weeks 1 and 2 the driver stayed more on the home half because the intake was fragile.",
+        "basis": "team",
+        "src": [
+          "s13"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "The triple shooter and its three-channel hopper floor were replaced by a drum before the district championship.",
+        "basis": "team",
+        "src": [
+          "s7",
+          "s8"
+        ]
+      },
+      {
+        "text": "The intake shaft bent at the first event, and the intake exploded at the district championship; it was rebuilt with plates that flex. The process page calls that the only mechanism change afterward; the interview also describes a slot that stiffened the hood.",
+        "basis": "team",
+        "src": [
+          "s8",
+          "s13"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "60-13-0 in official play; won the Archimedes division; pick 1 of the Archimedes alliance on Einstein; ranked 9 of the pooled top 20 (OPR 321.90, Archimedes).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drivetrain",
+      "does": [
+        "drive"
+      ],
+      "type": "MK5N swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Uses the CTRE Swerve Tuner; switched to FOC control mid-season",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Survive corner and wall hits at competition",
+          "basis": "team",
+          "src": [
+            "s7",
+            "s8"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "tube roller intake on flexing plates",
+      "serves": [],
+      "facts": [
+        {
+          "text": "The tube flips over, so a hit does not mean removing the shaft",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Compliant wheels, down from 2.25 in to make room for the tube",
+          "basis": "team",
+          "src": [
+            "s8"
+          ],
+          "value": 2,
+          "unit": "in"
+        },
+        {
+          "text": "Two 0.25 in SRP plates stacked on each side flex like a leaf spring instead of fighting impact",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "The roller assembly detaches, so it survives plate swaps",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "The arm homes by a current spike at the hardstop",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "While deployed in hold mode, the heading locks to the direction of movement",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Four iterations through the district championship: polycarbonate plates did not last, the roller shaft kept taking hits, and the fourth version exploded",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hopper walls",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Expand the hopper with the intake",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ],
+      "does": [
+        "retain"
+      ],
+      "type": "polycarbonate walls pushed out by the intake",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Material 1/8 in polycarbonate; the intake pushes the walls out as it deploys",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "A lower front part makes it ride over the intake less often after a hit",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The intake sometimes stuck on rivets, which were flipped around",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hopper floor",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Funnel balls into the feeder and still reach the electronics",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "roller floor that pivots up",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Three flex-wheel rollers in front push fuel better; weight kept the team from making all of them live axles",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Two screws release the floor so it pivots up for the electronics",
+          "basis": "team",
+          "src": [
+            "s8",
+            "s13"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Each shooter rebuild forced a hopper redesign, because feed geometry has to match the shooter",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Feeder",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Empty the hopper faster than the first robot's single X44 could",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "three feeder rollers on two motors",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Two Kraken X60 motors, one on each side, at a 12 to 30 ratio",
+          "basis": "team",
+          "src": [
+            "s13",
+            "s7"
+          ]
+        },
+        {
+          "text": "Compression was lowered from the first design so balls move more easily",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Drum shooter",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "An open fuel path with no settling step and a higher ceiling than three channels",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "full-width drum with pivoting hood rollers",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Full-width roller diameter",
+          "basis": "team",
+          "src": [
+            "s8"
+          ],
+          "value": 3,
+          "unit": "in"
+        },
+        {
+          "text": "Four Kraken X60 motors and two pivoting hood rollers",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "A jack shaft carries power to a brass flywheel on the other side, to stay inside the frame perimeter",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "A slot in the hood stops it vibrating left and right, which had spread shots",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Early shooter pulleys (the page does not say on which version) chewed themselves up and were rebuilt with more infill and two 0.25 in square steel shafts inside",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ball staging",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Stage balls only when there are enough to be worth it",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "transfer"
+      ],
+      "type": "beam break and current sensing",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Extra capacity from holding balls in the feeder, about",
+          "basis": "team",
+          "src": [
+            "s13"
+          ],
+          "value": 12,
+          "unit": "balls"
+        },
+        {
+          "text": "Hopper current is sensed periodically; above a threshold, 20 or more balls are in the hopper",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AutoAim",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Align to the hub with one button and little tuning",
+          "basis": "team",
+          "src": [
+            "s13",
+            "s7"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "position"
+      ],
+      "type": "interpolated shot map and two hub-facing cameras",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "The shot map is measured and tuned by hand, not modeled",
+          "basis": "team",
+          "src": [
+            "s7",
+            "s8"
+          ]
+        },
+        {
+          "text": "A first-shot compensation from data",
+          "basis": "team",
+          "src": [
+            "s7"
+          ],
+          "value": 250,
+          "unit": "RPM"
+        },
+        {
+          "text": "Two OV2311 global-shutter cameras angled inward at the hub tags, on PhotonVision",
+          "basis": "team",
+          "src": [
+            "s7",
+            "s13"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shoot on the Move",
+      "pieces": [
+        "fuel"
+      ],
+      "does": [
+        "sense",
+        "deliver"
+      ],
+      "type": "time-of-flight maps with look-ahead",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Adapted from 6328 and the NINJAS, with iterative target shifting and gates on when to fire",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Safeguards and filtering were added against electrical and dynamic edge cases",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Feeding map",
+      "pieces": [
+        "fuel"
+      ],
+      "does": [
+        "sense",
+        "deliver"
+      ],
+      "type": "separate shot map outside the scoring zone",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Turns on by itself past the allowed scoring zone, so the driver does not switch modes",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Robot supervisor",
+      "solves": [
+        {
+          "text": "Change mechanisms mid-season without rewriting the controls",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "central state and command layer",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Subsystems publish state to one supervisor, so mechanism swaps did not need the controls rewired",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Simple first robot",
+      "because": "weeks 1 and 2 were early and practice time mattered; the driver says it gave about two full weeks of practice, the binder more than three",
+      "instead_of": "a turret or drum, which the team was about to over-scope",
+      "basis": "team",
+      "src": [
+        "s13",
+        "s7"
+      ]
+    },
+    {
+      "choice": "No single turret",
+      "because": "its indexer was too complex and there was no way to prototype, assemble and tune it before week 1; the team says scrapping it freed about three weeks",
+      "instead_of": "a single turret shooter",
+      "basis": "team",
+      "src": [
+        "s7"
+      ]
+    },
+    {
+      "choice": "No dual shooter",
+      "because": "its ball rate ceiling was too low and funneling added a bottleneck",
+      "basis": "team",
+      "src": [
+        "s7"
+      ],
+      "instead_of": "a dual shooter"
+    },
+    {
+      "choice": "Rebuild from triple to drum",
+      "because": "the drum had the higher ceiling: an open fuel path and no settling step",
+      "instead_of": "the triple shooter, which had no logjams and was right for week 1",
+      "basis": "team",
+      "src": [
+        "s7"
+      ]
+    },
+    {
+      "choice": "Change only what the drum needed",
+      "because": "the binder says it changed only what it had to, hopper hubs and floor wheels; the process page says each shooter rebuild forced a hopper redesign",
+      "basis": "team",
+      "src": [
+        "s7",
+        "s8"
+      ]
+    },
+    {
+      "choice": "No climber",
+      "because": "25 points from a level 1 climb was not worth the cost of fitting one before week 1",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    },
+    {
+      "choice": "Measured shot map",
+      "because": "it caught ball variation, release behavior and field conditions better than physics in the time available",
+      "instead_of": "modeling the projectile",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    },
+    {
+      "choice": "Only robustness work before the championship",
+      "because": "optimization ideas each risked a working robot, and the intake was the proven failure point",
+      "instead_of": "a hopper redesign, geometry tweaks and weight reduction",
+      "basis": "team",
+      "src": [
+        "s7"
+      ]
+    },
+    {
+      "choice": "SRP intake plates",
+      "because": "polycarbonate plates started cracking",
+      "instead_of": "polycarbonate",
+      "cost": "more expensive",
+      "basis": "team",
+      "src": [
+        "s13"
+      ]
+    },
+    {
+      "choice": "Two cameras crossed inward on the hub",
+      "because": "they give a good field of view and focus the processing on hub tags",
+      "instead_of": "more co-processors running at once",
+      "basis": "team",
+      "src": [
+        "s13"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "CMP Comp Robot",
+        "url": "https://cad.onshape.com/documents/df5df9d647afc82eacfe76aa/w/20fc10e9586929e958bf55cb/e/e5fa7af36676060afb455bc2",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "CAD listed on the team page",
+        "url": "https://cad.onshape.com/documents/df5df9d647afc82eacfe76aa/w/20fc10e9586929e958bf55cb",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s1"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=XGmvdWVnzsw",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "CTRL-ALT-DEFEAT",
+        "url": "https://team9470.com",
+        "format": "web page",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "Full robot cut-out with blue bumpers, clear hopper panels",
+        "url": "https://imgur.com/EcZPt3X",
+        "img": "https://i.imgur.com/EcZPt3Xh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s9",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Full robot cut-out with red bumpers, opposite side",
+        "url": "https://imgur.com/qPJ0jX3",
+        "img": "https://i.imgur.com/qPJ0jX3h.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s10",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Robot with three shooter wheels and a ball hopper",
+        "url": "https://imgur.com/shO6Dch",
+        "img": "https://i.imgur.com/shO6Dchh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s11",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot CAD with translucent purple hopper panels",
+        "url": "https://cad.onshape.com/documents/df5df9d647afc82eacfe76aa/w/20fc10e9586929e958bf55cb/e/e5fa7af36676060afb455bc2",
+        "img": "https://cad.onshape.com/api/thumbnails/d/df5df9d647afc82eacfe76aa/w/20fc10e9586929e958bf55cb/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s12",
+        "kind": "cad"
+      },
+      {
+        "what": "Annotated robot CAD with subsystems labeled",
+        "url": "https://9470techbinder.vercel.app/process/",
+        "img": "https://9470techbinder.vercel.app/assets/process/hardware-overview.webp",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "diagram"
+      },
+      {
+        "what": "Shooter CAD with full-width roller and pivoting hood rollers",
+        "url": "https://9470techbinder.vercel.app/process/",
+        "img": "https://9470techbinder.vercel.app/assets/process/shooter-specs.webp",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "cad"
+      },
+      {
+        "what": "Drum shooter CAD",
+        "url": "https://9470techbinder.vercel.app/process/",
+        "img": "https://9470techbinder.vercel.app/assets/act2/drum_shooter_cad.webp",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "cad"
+      },
+      {
+        "what": "Single turret shooter concept CAD",
+        "url": "https://9470techbinder.vercel.app/process/",
+        "img": "https://9470techbinder.vercel.app/assets/act1/turret_cad.webp",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "cad"
+      }
+    ],
+    "documents": [
+      {
+        "what": "FRC 9470 · Ctrl-Alt-Defeat",
+        "url": "https://9470techbinder.vercel.app/",
+        "format": "web page",
+        "state": "listed",
+        "src": "s7"
+      },
+      {
+        "what": "FRC 9470 · Ctrl-Alt-Defeat (process)",
+        "url": "https://9470techbinder.vercel.app/process/",
+        "format": "web page",
+        "state": "opened",
+        "src": "s8"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/frc9470",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "9470 Alpha2026 code",
+        "url": "https://github.com/frc9470/Alpha2026",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "9470 Beta2026 code",
+        "url": "https://github.com/frc9470/Beta2026",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s6"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)"
+  ],
+  "results": {
+    "division": "Archimedes",
+    "division_opr": 321.9,
+    "opr_rank": 9,
+    "record": "60-13-0",
+    "einstein": {
+      "division": "Archimedes",
+      "role": "pick 1"
+    },
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

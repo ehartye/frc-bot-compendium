@@ -1,0 +1,1033 @@
+{
+  "id": "2025-118",
+  "season": 2025,
+  "team": "118",
+  "team_name": "Robonauts",
+  "robot_name": "Firefly",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 118 in 2025",
+      "url": "https://www.thebluealliance.com/team/118/2025",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Milstein Division 2025",
+      "url": "https://www.thebluealliance.com/event/2025mil",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "ROBOTS",
+      "url": "https://www.118robonauts.org/robots",
+      "publisher": "118robonauts.org",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "118 Firefly 2025 Technical Binder PDF",
+      "url": "https://www.118robonauts.org/_files/ugd/209e0c_ff6a7ed55a25483eb584cfd9978bceeb.pdf",
+      "publisher": "118robonauts.org",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "118 Firefly: community Onshape import of the released STEP",
+      "url": "https://cad.onshape.com/documents/1e988601e3d85cd69cdb4091/w/700381b41231bcf62805592b/e/bea07b1ee2eafb426dcea43d",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "The Robonauts 118: 2025 Video",
+      "url": "https://www.chiefdelphi.com/t/the-robonauts-118-2025-video/493588",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Is Defense Still Viable in REEFSCAPE? | FUNalysis | FiT Manor Finals | 2025 FRC",
+      "url": "https://www.youtube.com/watch?v=ztjAqeZ6psw",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/xpiCM7w",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "2025 Robonauts CAD and Code Release",
+      "url": "https://www.chiefdelphi.com/t/2025-robonauts-cad-and-code-release/502317",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "118 Robonauts | Behind the Bumpers | 2025 FRC REEFSCAPE Robot",
+      "url": "https://www.youtube.com/watch?v=UQoFvZiMdpA",
+      "publisher": "FUN Robotics Network (auto-caption transcript)",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "The robot should never wait for a game piece to reach the scoring mechanism. The binder lists this first among its architecture goals.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "Qualifications: maximize ranking points by scoring more coral and algae, leaving time in auto to push partners off the line, minimizing coral cycle time, scoring in the opposing processor for Coopertition, and climbing a deep cage. Eliminations: maximize alliance score.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "Auto sequences are scripted in Lua. Algae autos were developed on April 10 and a four-piece coral auto on April 12, before the championship.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      },
+      {
+        "text": "The robot lines up on a station tag, always at the same slot, so autos could be sped up without worry about slipping.",
+        "basis": "team",
+        "src": [
+          "s13"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The coral intake takes coral in any orientation and hands it to the end effector. The goal was a direct handoff with no staging.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      },
+      {
+        "text": "The driver holds a button once a reef tag is in view. The robot lines up, raises and places; release is automatic or one button press.",
+        "basis": "team",
+        "src": [
+          "s13"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "Rollers with embedded magnets pull the cage into two one-way latches. Limit switches confirm both latches, and a Spectra winch lifts the robot.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      },
+      {
+        "text": "The binder gives less than 2 seconds for the automatic climb; an interviewed member says about 3 seconds.",
+        "basis": "team",
+        "src": [
+          "s5",
+          "s13"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "An architecture goal was to keep the most functions if one mechanism is lost in a match.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      },
+      {
+        "text": "A button pad is kept for peripheral and backup controls.",
+        "basis": "team",
+        "src": [
+          "s13"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "The algae floor intake was first used heavily at the championship, partly because its handoff sequence took a long time to dial in.",
+        "basis": "team",
+        "src": [
+          "s13"
+        ]
+      },
+      {
+        "text": "The silver robot, the first of three built, was originally 8 pounds overweight, and the team chased small weight savings all season (a thread reply that reads as the team's).",
+        "basis": "observer",
+        "src": [
+          "s12",
+          "s5"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "A re-orienting belt joined the coral intake after the reveal, because drivers struggled with perpendicular coral. The first climb had side fingers and was mostly driver operated; intake wheels, limit switches, magnets and software sped it up.",
+        "basis": "team",
+        "src": [
+          "s13"
+        ]
+      },
+      {
+        "text": "On March 26 both robots swapped from L2+ to L1+ gearing.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "110-12-0 in official play; won the Milstein division; captain of the Milstein alliance on Einstein; ranked 12 of the pooled top 20 (OPR 105.38, Milstein).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Chassis",
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "SDS MK4-C modules at L1+, Kraken X60 propulsion and Kraken X44 steering, on a 29 x 29 in frame",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Garolite spacers lower the frame by 3/4 in",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Custom hubs in Grip Lock wheels eliminate tire flex",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Kraken shafts are cut down to eliminate spacers, saving about 1/2 lb across the robot",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Hubs printed in Onyx had their bearing holes wallow out after the first event, stock hubs ran at the second with noticeably lower accuracy, and a new print in PA6-CF20 lasted the season (a thread reply that reads as the team's)",
+          "basis": "observer",
+          "src": [
+            "s12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lift",
+      "does": [
+        "position"
+      ],
+      "type": "single-stage elevator",
+      "serves": [
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "One Kraken X44, SDS bearing blocks, 0.040 in wall 1 x 2 in MAXTube",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Constant force springs off-load it",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "A vernier scale system tensions the arm and elevator belts",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "An interviewed member says it stays down for stages one to three and moves only for stage four",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "No upper hard stop was designed; the belt clamps meeting the constant force springs act as one (a thread reply that reads as the team's)",
+          "basis": "observer",
+          "src": [
+            "s12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arm",
+      "solves": [
+        {
+          "text": "Keep the center of gravity low",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "pivoting arm on the elevator carriage",
+      "serves": [
+        "reef-branches",
+        "processor",
+        "net"
+      ],
+      "facts": [
+        {
+          "text": "One Kraken X44 drives the pivot through two custom cycloidal gearboxes",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "The arm reduction is about 50 to 1",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Pivot, coral and algae motors sit in the base of the carriage, and belts run through the box tube to the end effector",
+          "basis": "team",
+          "src": [
+            "s5",
+            "s13"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cycloidal",
+      "solves": [
+        {
+          "text": "Be more compact and lighter than bought planetary gearboxes",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "position",
+        "structure"
+      ],
+      "type": "custom cycloidal gearbox",
+      "serves": [],
+      "facts": [
+        {
+          "text": "23:1 reduction, used twice on the arm pivot and once on the coral intake pivot",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Backlash, about",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 0.3,
+          "unit": "deg"
+        },
+        {
+          "text": "Two offset discs in heat-treated 4140 steel reduce vibration; steel tubes roll on dowel pins",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Designed in the 2024 off-season",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Coral Intake",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Collect coral in any orientation and keep control of it through the handoff",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "transfer",
+        "deliver"
+      ],
+      "type": "floor roller intake with re-orienting belt",
+      "serves": [
+        "reef-l1",
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "A sideways re-orienting belt takes coral in any orientation; perpendicular coral is knocked sideways",
+          "basis": "team",
+          "src": [
+            "s5",
+            "s13"
+          ]
+        },
+        {
+          "text": "One Kraken X60 and one Kraken X44 drive the rollers; a Kraken X44 drives the pivot through a 23:1 cycloidal",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Two roller motors let the coral stop in the intake, to be scored in L1 or handed off",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "For L1 the two sides spin opposite ways, which the team calls hot dog position",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Bent and twisted belts drive off-axis shafts from motors in the chassis",
+          "basis": "team",
+          "src": [
+            "s5",
+            "s13"
+          ]
+        },
+        {
+          "text": "Rollers are pool noodle and custom TPU covered in silicone tubing",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Algae Intake",
+      "pieces": [
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Take algae from the floor in a small space that the climb also passes through",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "transfer"
+      ],
+      "type": "two counter-rotating floor rollers",
+      "serves": [
+        "processor",
+        "net"
+      ],
+      "facts": [
+        {
+          "text": "One Kraken X44 drives the rollers and one drives the pivot",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Custom 3D printed 15T bevel gears have reinforced teeth",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "The algae wedges into two prints, and a print on the climb ramps it into the end effector",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Roller current and a sensor show where the algae is, so the sequence can step without dropping it",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The jackshaft had to be split in three to fit around the climb",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "The automated handoff took a long time to dial in",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "End-Effector",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Add compliance while placing coral on L4",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "retain",
+        "deliver"
+      ],
+      "type": "internal coral gripper with algae rollers",
+      "serves": [
+        "reef-branches",
+        "processor",
+        "net"
+      ],
+      "facts": [
+        {
+          "text": "It grips the inside of the coral, from the floor intake or the human player station",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "It takes algae from the reef and the floor intake, and scores in the processor and barge",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Mostly polycarbonate, to save weight and resist impact",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "X belts let material be cut away so the coral can tip over an L4 branch",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "The algae side is wide, with cone wheels in grip tape, geared for three times the coral side's torque",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Two springs react on the bar of the barge, so the wheels dunk the algae over",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Two drives pass through a 2 in gap by splitting the shaft in the middle",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climb",
+      "solves": [
+        {
+          "text": "Capture a swinging cage with the driver only driving straight into it",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "winched cage intake with one-way latches",
+      "serves": [
+        "cage"
+      ],
+      "facts": [
+        {
+          "text": "Kraken X44 at 33.6:1, shared by deploy and final rotation; a Spectra winch rotates the cage intake",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Torsion springs deploy it",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Custom TPU rollers with embedded rare-earth magnets pull the cage into two one-way latches",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Magnets at the back add resistance so the cage does not swing back, and magnets in the lower wheels catch a swinging cage",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "After the first limit switch the wheels reverse, to torque the cage into the top latch",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Avionics",
+      "does": [
+        "structure"
+      ],
+      "type": "custom power and CAN boards",
+      "serves": [],
+      "facts": [
+        {
+          "text": "An 18-channel CAN node gives a star topology, one channel per device or subsystem",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "A power board feeds low-current devices, with six switchable channels, protection and status LEDs",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Single devices can be power cycled",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automated scoring",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Let a single driver run sequences that took a driver and an operator before",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "position"
+      ],
+      "type": "Limelight alignment with scripted sequences",
+      "serves": [
+        "reef-branches",
+        "net"
+      ],
+      "facts": [
+        {
+          "text": "Two Limelight 4s automate coral scoring",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "They face the reef about 6 or 7 in from robot center, so one is centered on the tag when scoring on a branch",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Branch positions are measured during field calibration and the offsets go into code",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "A CANrange measures barge distance for net scoring",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Current in the end effector wheels shows that the coral is held",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Coral intake delivers directly to the end effector",
+      "because": "an integration goal was no staging of the piece for the handoff",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Avoid passing game pieces through the lift",
+      "because": "it was one of the binder's system integration goals",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Motors low in the chassis and carriage",
+      "because": "it keeps the center of gravity low",
+      "basis": "team",
+      "src": [
+        "s5",
+        "s13"
+      ]
+    },
+    {
+      "choice": "Single driver",
+      "because": "many sequences are automated and easy to run from one controller",
+      "instead_of": "a driver and an operator",
+      "basis": "team",
+      "src": [
+        "s13"
+      ]
+    },
+    {
+      "choice": "Stiff custom wheel hubs",
+      "because": "tire flex is amplified at L4 height and lowers automated scoring accuracy (a thread reply that reads as the team's)",
+      "basis": "observer",
+      "src": [
+        "s12"
+      ]
+    },
+    {
+      "choice": "Change the algae end effector roller ratio from 5.6:1 to 15:1",
+      "because": "the handoff largely set the geometry, and it cut calculated stall current from 35 A to 13 A, though the writer thinks 15 or 20 A was run (a thread reply that reads as the team's)",
+      "basis": "observer",
+      "src": [
+        "s12"
+      ]
+    },
+    {
+      "choice": "Shortened Kraken shafts on the swerve modules",
+      "because": "removing 1/2 in spacers gave most of the weight saving, and a mount without small spacers slightly improves cooling (a thread reply that reads as the team's)",
+      "instead_of": "1/2 in motor spacers",
+      "basis": "observer",
+      "src": [
+        "s12"
+      ]
+    },
+    {
+      "choice": "Non-inverted swerve modules",
+      "because": "they are lighter, have fewer parts and take less width (a thread reply that reads as the team's)",
+      "instead_of": "inverted modules",
+      "basis": "observer",
+      "src": [
+        "s12"
+      ],
+      "cost": "motor shafts interfere with the steering pulley and drive gears unless spaced or shortened"
+    },
+    {
+      "choice": "About 1 pound of weight margin kept all season",
+      "because": "there was then always weight to solve problems with (a thread reply that reads as the team's)",
+      "basis": "observer",
+      "src": [
+        "s12"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "Comp Robot",
+        "url": "https://grabcad.com/library/robonauts-118-2025-robot-firefly-1",
+        "format": "STEP/IGES",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "ROBOTS",
+        "url": "https://www.118robonauts.org/robots",
+        "format": "web page",
+        "state": "listed",
+        "src": "s4",
+        "holds": "STEP (also GrabCAD)"
+      },
+      {
+        "what": "118 Firefly: community Onshape import of the released STEP",
+        "url": "https://cad.onshape.com/documents/1e988601e3d85cd69cdb4091/w/700381b41231bcf62805592b/e/bea07b1ee2eafb426dcea43d",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s6"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=O0gFRTjCo9w",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=UQoFvZiMdpA",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=ndos8iP0w88",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/SAXPusa",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/kCB53Dr",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/ymdddyl",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "The Robonauts 118: 2025 Video",
+        "url": "https://www.chiefdelphi.com/t/the-robonauts-118-2025-video/493588",
+        "format": "thread",
+        "state": "listed",
+        "src": "s9"
+      },
+      {
+        "what": "Is Defense Still Viable in REEFSCAPE? | FUNalysis | FiT Manor Finals | 2025 FRC",
+        "url": "https://www.youtube.com/watch?v=ztjAqeZ6psw",
+        "format": "video",
+        "state": "listed",
+        "src": "s10"
+      },
+      {
+        "what": "Full robot in studio light, elevator and arm raised",
+        "url": "https://imgur.com/xpiCM7w",
+        "img": "https://i.imgur.com/xpiCM7wh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s11",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Full robot CAD view with elevator lowered and red bumpers",
+        "url": "https://cad.onshape.com/documents/1e988601e3d85cd69cdb4091/w/700381b41231bcf62805592b/e/bea07b1ee2eafb426dcea43d",
+        "img": "https://cad.onshape.com/api/thumbnails/d/1e988601e3d85cd69cdb4091/w/700381b41231bcf62805592b/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s6",
+        "kind": "cad"
+      },
+      {
+        "what": "Full robot in studio light, elevator lowered",
+        "url": "https://www.118robonauts.org/robots",
+        "img": "https://static.wixstatic.com/media/209e0c_ea1f4c76021a4694add06d20c09c2e06~mv2.jpg/v1/fill/w_457,h_462,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Firefly_JPG.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Motor shaft held in a lathe chuck",
+        "url": "https://www.chiefdelphi.com/t/2025-robonauts-cad-and-code-release/502317",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/1/f/7/1f778b79930294526bb2d9bd79597f1246b71b3a_2_666x499.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s12",
+        "kind": "mechanism"
+      },
+      {
+        "what": "Gold spacers, bolts and shaft pieces on a scale",
+        "url": "https://www.chiefdelphi.com/t/2025-robonauts-cad-and-code-release/502317",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/f/5/a/f5a5ea02874be9e464b5e057d5f8481683ff0a05_2_375x499.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s12",
+        "kind": "mechanism"
+      },
+      {
+        "what": "CAD close-up of swerve module gears and motors",
+        "url": "https://www.chiefdelphi.com/t/2025-robonauts-cad-and-code-release/502317",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/7/1/4/71436b5f48c5c329ce7910e51cdf2a0b90388e50_2_690x381.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s12",
+        "kind": "cad"
+      },
+      {
+        "what": "Photos and video of the robot's development",
+        "url": "https://photos.app.goo.gl/hDrWsSoe5fheBfW46",
+        "format": "photos",
+        "state": "listed",
+        "src": "s12"
+      }
+    ],
+    "documents": [
+      {
+        "what": "118 Firefly 2025 Technical Binder PDF",
+        "url": "https://www.118robonauts.org/_files/ugd/209e0c_ff6a7ed55a25483eb584cfd9978bceeb.pdf",
+        "format": "PDF",
+        "state": "opened",
+        "src": "s5"
+      },
+      {
+        "what": "CAD, code and binder release thread with questions and answers",
+        "url": "https://www.chiefdelphi.com/t/2025-robonauts-cad-and-code-release/502317",
+        "format": "thread",
+        "state": "listed",
+        "src": "s12"
+      },
+      {
+        "what": "2025 technical binder, Chief Delphi upload",
+        "url": "https://www.chiefdelphi.com/uploads/short-url/5VYfconlxrh4QdiOcvuLGWunsv1.pdf",
+        "format": "PDF",
+        "state": "listed",
+        "src": "s12"
+      }
+    ],
+    "code": []
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "2025 technical binder, OCR text (figures not read; lift ratio unreadable)",
+    "release thread, partial capture"
+  ],
+  "results": {
+    "division": "Milstein",
+    "division_opr": 105.38,
+    "opr_rank": 12,
+    "record": "110-12-0",
+    "einstein": {
+      "division": "Milstein",
+      "role": "captain"
+    },
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

@@ -1,0 +1,621 @@
+{
+  "id": "2026-2481",
+  "season": 2026,
+  "team": "2481",
+  "team_name": "Roboteers",
+  "robot_name": "Clyde",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 2481 in 2026",
+      "url": "https://www.thebluealliance.com/team/2481/2026",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Milstein Division 2026",
+      "url": "https://www.thebluealliance.com/event/2026mil",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "History – Team 2481 Roboteers",
+      "url": "https://team2481.com/history/",
+      "publisher": "team2481.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "2056 just played and WE should be scared. | FRC Strategy Analysis",
+      "url": "https://www.youtube.com/watch?v=6CqUFVsKZ0o",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/5ZOkuvb",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/69cQrxE",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/ZxU1SqA",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "2481 Roboteers | Behind the Bumpers | Milstein Winners",
+      "url": "https://www.youtube.com/watch?v=phBgiNvrYCc",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "2026 Turret Vs Fixed Debate - Technical, post 221",
+      "url": "https://www.chiefdelphi.com/t/2026-turret-vs-fixed-debate/510640/221",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "A big, wide hopper that picks up as many balls as possible, about 115, on a robot that only crosses the bump.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "Fuel volume: the team wanted to fill the hopper to its maximum so it could shoot as many balls as possible.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
+    "auto": [],
+    "cycle": [
+      {
+        "text": "The wide intake takes balls rather than pushing them, the robot crosses the bump, and a four-wide shooter empties the hopper.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      },
+      {
+        "text": "A post that says it is from 2481 reports that 2481 and 1678 screened for each other, and one dump each per period was enough with a combined 160 or more balls, though defense cost a few seconds.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "endgame": [],
+    "fallback": [
+      {
+        "text": "When a defender sits on the bump, partners set picks to knock it out of the way.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "Crossing only the bump invites a defender there, and the weight of the balls made the team gear the drive low.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      },
+      {
+        "text": "An analyst of a week 3 match says one defender, and fuel left along the far walls, kept 2481 without a full hopper for about 40 seconds.",
+        "basis": "observer",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "The first hopper, of aluminium angle, had durability trouble, caught on things and racked, so it was rebuilt mostly in tube. The intake motor stalled, so a second was added. Shooter side plates and brackets were made heavier after breaking, and a linear actuator replaced a pneumatic piston.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "44-8-0 in official play; won the Milstein division; pick 1 of the Milstein alliance on Einstein; ranked 15 of the pooled top 20 (OPR 297.50, Milstein).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Custom swerve",
+      "solves": [
+        {
+          "text": "Push a robot full of balls over the bump without stalling the motors",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "does": [
+        "drive"
+      ],
+      "type": "custom swerve with a large wheel",
+      "serves": [],
+      "facts": [
+        {
+          "text": "The ratio can be set from about 32 ft/s down to about 12 ft/s",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Designed in the 2024 off-season",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Geared low in 2026",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Collect as many balls as possible without pushing them away",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "wide roller over a ramp, extending past the frame",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Roller diameter, wrapped in grip tape, about",
+          "basis": "team",
+          "src": [
+            "s8"
+          ],
+          "value": 3,
+          "unit": "in"
+        },
+        {
+          "text": "Powered by two Kraken X60s",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Extension, about",
+          "basis": "team",
+          "src": [
+            "s8"
+          ],
+          "value": 12,
+          "unit": "in"
+        },
+        {
+          "text": "Balls are compressed between the roller and the ramp",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Motors stalled at first; a second motor and a plate that helps with balls pushing on the roller were added",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hopper",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Carry as many balls as possible",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "does": [
+        "retain",
+        "structure"
+      ],
+      "type": "very large flexing hopper",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Capacity",
+          "basis": "team",
+          "src": [
+            "s8",
+            "s3"
+          ],
+          "value": 115,
+          "unit": "balls"
+        },
+        {
+          "text": "Width",
+          "basis": "team",
+          "src": [
+            "s8"
+          ],
+          "value": 5,
+          "unit": "balls"
+        },
+        {
+          "text": "Thin side walls flex outward by about",
+          "basis": "team",
+          "src": [
+            "s8"
+          ],
+          "value": 1.25,
+          "unit": "in"
+        },
+        {
+          "text": "Front bars are spaced so balls bulge out slightly",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "The robot is about 33 1/2 by 21 3/8 in and becomes a square with the intake out",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Extra weight, answered with low drive gearing and mass placed low",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cut-out hopper bars",
+      "solves": [
+        {
+          "text": "Cross the bump without getting beached",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "hopper bars notched for the bump",
+      "serves": [],
+      "facts": [
+        {
+          "text": "The cut-out makes the bars miss the bump; a straight bar could leave the robot beached",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Indexer",
+      "pieces": [
+        "fuel"
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "interlocking wheels under the shooter",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "One X60 drives it, hidden under the shooter",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Shoot balls with very consistent spin",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "four-ball-wide shooter",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Rate the team gives, about",
+          "basis": "team",
+          "src": [
+            "s8"
+          ],
+          "value": 20,
+          "unit": "balls/s"
+        },
+        {
+          "text": "Width",
+          "basis": "team",
+          "src": [
+            "s8",
+            "s3"
+          ],
+          "value": 4,
+          "unit": "balls"
+        },
+        {
+          "text": "Balls are accelerated over four rollers",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "The team estimates a PVC pipe added about 10 percent accuracy, and grip tape about 40 percent early in the season",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Side plates and brackets broke at an earlier event and were made heavier",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shot adjustment",
+      "pieces": [
+        "fuel"
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "two-position linear actuator",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Motor speed covers the shots between the two positions",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Low centre of gravity",
+      "solves": [
+        {
+          "text": "Keep a heavy load of balls from tipping the robot",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "mass placed low",
+      "serves": [],
+      "facts": [
+        {
+          "text": "A 2 by 2 rear frame bar, and X44 motors used to move weight lower",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Very large hopper on a bump-only robot",
+      "because": "the team wanted to pick up as many balls as possible",
+      "cost": "a defender can sit on the bump",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    },
+    {
+      "choice": "Gear the swerve low",
+      "because": "the weight of the balls needs torque over the bump and lower current draw",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    },
+    {
+      "choice": "Linear actuator for the shot position",
+      "because": "it saves weight",
+      "instead_of": "a pneumatic piston",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    },
+    {
+      "choice": "PVC pipe at the shooter",
+      "because": "it raised accuracy by about 10 percent, by the team's estimate",
+      "instead_of": "rollers there, as other teams had",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    },
+    {
+      "choice": "Spend the time after the first event on driver practice",
+      "because": "after a week of fixes, the team credits its faster cycles to practice collecting balls",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=phBgiNvrYCc",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "History – Team 2481 Roboteers",
+        "url": "https://team2481.com/history/",
+        "format": "web page",
+        "state": "opened",
+        "src": "s3"
+      },
+      {
+        "what": "2056 just played and WE should be scared. | FRC Strategy Analysis",
+        "url": "https://www.youtube.com/watch?v=6CqUFVsKZ0o",
+        "format": "video",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "Full robot on the field, red 2481 bumpers, clear hopper empty",
+        "url": "https://imgur.com/5ZOkuvb",
+        "img": "https://i.imgur.com/5ZOkuvbh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s5",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Robot collecting yellow balls, clear hopper partly filled",
+        "url": "https://imgur.com/69cQrxE",
+        "img": "https://i.imgur.com/69cQrxEh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s6",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot with red 2481 bumpers, clear hopper full of yellow balls",
+        "url": "https://imgur.com/ZxU1SqA",
+        "img": "https://i.imgur.com/ZxU1SqAh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s7",
+        "kind": "robot-photo",
+        "hero": true
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/frc2481",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: Chief Delphi \"2481 binder\" post search, one open web search, 7 pages of the team site; none found",
+    "interview captions read, video not watched"
+  ],
+  "results": {
+    "division": "Milstein",
+    "division_opr": 297.5,
+    "opr_rank": 15,
+    "record": "44-8-0",
+    "einstein": {
+      "division": "Milstein",
+      "role": "pick 1"
+    },
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

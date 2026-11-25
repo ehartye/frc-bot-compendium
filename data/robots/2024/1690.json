@@ -1,0 +1,994 @@
+{
+  "id": "2024-1690",
+  "season": 2024,
+  "team": "1690",
+  "team_name": "Orbit",
+  "robot_name": "Doppler",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 1690 in 2024",
+      "url": "https://www.thebluealliance.com/team/1690/2024",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Daly Division 2024",
+      "url": "https://www.thebluealliance.com/event/2024dal",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "FRC Orbit 1690 2024 Robot CAD Release",
+      "url": "https://www.chiefdelphi.com/t/frc-orbit-1690-2024-robot-cad-release/464838",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Orbit 1690 Presents: 2024 robot reveal (106)",
+      "url": "https://www.chiefdelphi.com/t/orbit-1690-presents-2024-robot-reveal-doppler/455350",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Orbit 1690 7 Note Auto",
+      "url": "https://www.chiefdelphi.com/t/orbit-1690-7-note-auto/453679",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Orbit 1690 2024 Championship strategy document",
+      "url": "https://docs.google.com/document/d/1ZX10VGj4KNYNVqDw72xCPDGtOhb2xrV0/edit",
+      "publisher": "docs.google.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "ORBIT Sessions Part II: Pose Tracking and Shooting on the Move (slides)",
+      "url": "https://docs.google.com/presentation/d/1kpp356hh0bBkDWlKVqkmHecnrtOz0XQfSBNcZiH5zPM/edit",
+      "publisher": "docs.google.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "1690orbit.com 2024 Crescendo page",
+      "url": "https://www.1690orbit.com/2024-crescendo",
+      "publisher": "1690orbit.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "1690 Orbit | Champions Interview | FRC CRESCENDO",
+      "url": "https://www.youtube.com/watch?v=xnAG-tWoZpo",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/HQdDpMT",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/vIHnwa2",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "Onshape document",
+      "url": "https://cad.onshape.com/documents/065fb1a7f111b2de05ba208b/w/67f48a3bae8c68dc38e22239/e/e16d7c04df2851292695e2e5",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "Orbit 1690 Presents: 2024 robot reveal, post 106",
+      "url": "https://www.chiefdelphi.com/t/orbit-1690-presents-2024-robot-reveal-doppler/455350/106",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "1690 Orbit | World Champions | Behind the Bumpers | FRC CRESCENDO Robot (auto-caption)",
+      "url": "https://www.youtube.com/watch?v=jB7OqueRYf0",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "Orbit 1690 - year in review (16 actually)",
+      "url": "https://www.chiefdelphi.com/t/orbit-1690-year-in-review-16-actually/464915",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "Orbit 1690 Presents: 2024 robot reveal, post 263",
+      "url": "https://www.chiefdelphi.com/t/orbit-1690-presents-2024-robot-reveal-doppler/455350/263",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Build the shortest, lowest, lightest (to a reasonable extent) and simplest robot possible, with climb and trap only as additions on the main systems.",
+        "basis": "team",
+        "src": [
+          "s16",
+          "s15"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "The team decided early not to compromise speaker, amp and fast cycles for anything else. The trap was a \"nice to have\" on top of existing mechanisms. It set a good-enough shooting distance and focused on making its shots, even if that meant driving a few extra feet.",
+        "basis": "team",
+        "src": [
+          "s15",
+          "s16"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "A seven-piece routine. If the robot reaches the midline and has not picked up a note, it turns, looks for one, leaves the planned path to collect it, then returns to the path, shoots and carries on.",
+        "basis": "team",
+        "src": [
+          "s15"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "An under-bumper intake takes the note and the trigger rollers feed it at almost any arm angle. The driver drives and presses one button; the robot sets shooter angle, heading and wheel speed. Shots use the estimated pose, so they work without seeing tags.",
+        "basis": "team",
+        "src": [
+          "s15",
+          "s8"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "Light arms open, the hooks pull off magnets as the climb starts, and winches are corrected for roll. One servo releases spring-driven slides and fingers that open the trap door, and the shooter fires in time with the swing.",
+        "basis": "team",
+        "src": [
+          "s15"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "The championship plan: coming back with under 18 seconds and no amplification in sight, take that note to the trap (under 10 seconds if another note is easy to reach).",
+        "basis": "team",
+        "src": [
+          "s7"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "Squeezing the note so the shooter stows between the modules meant spin was not reliable, so the shot has none.",
+        "basis": "team",
+        "src": [
+          "s15"
+        ]
+      },
+      {
+        "text": "An unsigned post that reads as the team's warns copiers that other spin shooters, larger intakes, downward amp mechanisms and closer trap mechanisms work better; only being very low was perfected. A reply counters that its true strength is being fast and controllable.",
+        "basis": "observer",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "Both losses before the championship came from a note stuck beneath the shooter; a servo-lifted plate now lets it slide out. Rubber-coated shooter tubes inflated at speed and were replaced by vulcanized rubber. Note-centering wheels came just before the championship.",
+        "basis": "team",
+        "src": [
+          "s15"
+        ]
+      },
+      {
+        "text": "The trap mostly quit at the championship.",
+        "basis": "team",
+        "src": [
+          "s16"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "66-5-1 in official play; won the Daly division, won the championship; captain of the Daly alliance on Einstein; ranked 14 of the pooled top 20 (OPR 54.09, Daly).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Swerve drive",
+      "does": [
+        "drive"
+      ],
+      "type": "custom swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Drive ratio of about 1 to 5.4",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "MA3 absolute encoders, 12-bit PWM; an unsigned post that reads as the team's says the move from the 10-bit analog version was not really justified",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Low packaging",
+      "solves": [
+        {
+          "text": "Keep the robot very low without a second mechanism for the amp",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "shooter stows between the swerve modules",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Whole robot height with the shooter stowed, under",
+          "basis": "team",
+          "src": [
+            "s15"
+          ],
+          "value": 1,
+          "unit": "ft"
+        },
+        {
+          "text": "Swerve top plates were changed so the whole shooter fits between the modules",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "A post that reads as the team's says the tube facing the intake (50 x 25 x 3 mm 6061) bent very slightly from impacts and was replaced during pre-championship maintenance in March",
+          "basis": "observer",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "The same post says the main gear plates probably took much of the impact; the area was built strong so hits would not move the plates and hurt shooting",
+          "basis": "observer",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Take notes without exposing a mechanism outside the bumpers",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "under-bumper roller intake",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Two powered wheels center the note when it comes in at the side; diameter",
+          "basis": "team",
+          "src": [
+            "s15"
+          ],
+          "value": 2,
+          "unit": "in"
+        },
+        {
+          "text": "Almost nothing leaves the bumpers during a match",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Trigger",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Hold a note and feed the shooter at any arm angle without another motor",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ],
+      "does": [
+        "transfer",
+        "retain"
+      ],
+      "type": "feed rollers shared with the intake motors",
+      "serves": [
+        "speaker",
+        "amp",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "The arm pivot is concentric with the intake, so a note feeds at almost any angle from travel to amp",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Two infrared sensors stop the note",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "The 20 ms robot loop sometimes missed a sensor reading, so the intake code runs at",
+          "basis": "team",
+          "src": [
+            "s15"
+          ],
+          "value": 5,
+          "unit": "ms"
+        }
+      ]
+    },
+    {
+      "name": "Shooter",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "One system for speaker, amp and trap that still stows low",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "four horizontal rollers, no spin",
+      "serves": [
+        "speaker",
+        "amp",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "The note is compressed to about 0.8 of its original width",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Two contact points hold the note until the last moment, which gives stability",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Rollers are vulcanized rubber fused to aluminum tubes, after rubber coating on aluminum inflated at high speed",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The compression means spin cannot be added reliably",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arm pivot",
+      "solves": [
+        {
+          "text": "Drive the arm with parts the team can remake and change during the season",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "rack and pinion arm",
+      "serves": [
+        "speaker",
+        "amp",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "Steel parts made on the team's own CNC router; the idea came from 971's 2017 turret",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Each pinion is two plates with steel pins between them as teeth, says an unsigned post that reads as the team's",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Note deflector",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Clear a note stuck beneath the shooter, which caused both losses before the championship",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "servo-lifted plate that becomes a slide",
+      "serves": [],
+      "facts": [
+        {
+          "text": "When the shooter closes, two servos with spoon-like prints catch the plate that protected the power distribution hub and pull it up, so notes slide out",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climb",
+      "solves": [
+        {
+          "text": "Climb with something light and compact added onto the main systems",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "four-bar carbon tube arms with magnet-held hooks and winches",
+      "serves": [
+        "onstage"
+      ],
+      "facts": [
+        {
+          "text": "Arms of carbon tube and prints open straight up in a four-bar motion",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Magnets hold the hooks, which pull off when the climb starts, so the arms only have to open",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Winch positions are corrected from the robot's roll",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Trap mechanism",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Score the trap with the shooter used for everything else",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ],
+      "does": [
+        "endgame",
+        "deliver"
+      ],
+      "type": "spring-driven trap door opener released by one servo",
+      "serves": [
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "One servo releases two linear slides on constant-force springs and torsion-spring fingers that open the trap door; the rest is passive",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "The same shooter scores the trap, in sync with the robot's swing on the chain",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The coach says the trap mostly quit at the championship",
+          "basis": "team",
+          "src": [
+            "s16"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pose tracker",
+      "solves": [
+        {
+          "text": "Shoot, pick up and drive from a trusted field position instead of the camera image",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "odometry, gyro and tag cameras merged by confidence",
+      "serves": [],
+      "facts": [
+        {
+          "text": "One Limelight and two other cameras, one for notes and one for tags, the latter two on an Orange Pi with PhotonVision",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Each source reports how far off it may be in meters; the positions are merged by that weight",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Skids show when the translation parts of the module speeds disagree; the skidding modules are left out of the average",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "A collision is an accelerometer spike over",
+          "basis": "team",
+          "src": [
+            "s8"
+          ],
+          "value": 2,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "name": "Shooting on the move",
+      "pieces": [
+        "note"
+      ],
+      "does": [
+        "sense",
+        "position",
+        "deliver"
+      ],
+      "type": "pose-based shot with robot velocity subtracted",
+      "serves": [
+        "speaker"
+      ],
+      "facts": [
+        {
+          "text": "Robot velocity is subtracted from the three-dimensional shot vector",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Tolerance is checked as meters missed at the target, so it is easier to meet up close",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Shots run without seeing tags, which helps against defenders whose flag blocks the low camera",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "The championship interview says a physics model sets shooter speed and angle; the June 2024 slides say note flight was too unstable to model and describe a heuristic speed curve",
+          "basis": "team",
+          "src": [
+            "s15",
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Note detection",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Recover a missed note in auto and drive to notes without overshoot",
+          "basis": "team",
+          "src": [
+            "s15",
+            "s8"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "acquire"
+      ],
+      "type": "camera that places notes in field coordinates",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Distance comes from the note's width, or from pitch when the image edge cuts the note off",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "The robot drives to the note's field position, which is smoother than closing a loop on the camera",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Stow the shooter between the swerve modules",
+      "because": "it gives a low center of gravity and one system for speaker, amp and potentially trap",
+      "cost": "the note is compressed so far that spin is not reliable",
+      "basis": "team",
+      "src": [
+        "s15"
+      ]
+    },
+    {
+      "choice": "Four horizontal rollers",
+      "because": "two contact points give a shot without spin more stability",
+      "instead_of": "two rollers",
+      "basis": "team",
+      "src": [
+        "s15"
+      ]
+    },
+    {
+      "choice": "Rack and pinion arm",
+      "because": "it is made in the team's own workshop, so it can be changed through the season",
+      "instead_of": "a standard sprocket and chain",
+      "basis": "team",
+      "src": [
+        "s15"
+      ]
+    },
+    {
+      "choice": "Build climb and trap on top of the main systems",
+      "because": "the team would not compromise speaker, amp and fast cycles, and remembered its 2018 buddy climb",
+      "basis": "team",
+      "src": [
+        "s15",
+        "s16"
+      ]
+    },
+    {
+      "choice": "Do not try to outsmart the game with a complicated design",
+      "because": "2023's robot was super complicated with no real advantage and caused burnout",
+      "basis": "team",
+      "src": [
+        "s15",
+        "s16"
+      ]
+    },
+    {
+      "choice": "Weight each sensor's position by confidence",
+      "because": "it is simpler to implement than a Kalman filter and still good enough",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    },
+    {
+      "choice": "Run the intake code at 5 ms",
+      "because": "the 20 ms loop sometimes missed the sensor call that locates the note",
+      "instead_of": "the robot's 20 ms loop",
+      "basis": "team",
+      "src": [
+        "s15"
+      ]
+    },
+    {
+      "choice": "Keep it simple and play with a defender on Einstein",
+      "because": "its alliance's offense was notably lower than the others', so out-scoring them made no sense",
+      "instead_of": "a passing style, which it had tried mainly as an experiment",
+      "basis": "team",
+      "src": [
+        "s10",
+        "s17"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "Comp Robot",
+        "url": "https://cad.onshape.com/documents/065fb1a7f111b2de05ba208b/w/67f48a3bae8c68dc38e22239/e/e16d7c04df2851292695e2e5",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "Comp Robot",
+        "url": "https://drive.google.com/drive/folders/1C_xHdk4QR7U1bARSKUKYtQAMGgItq_bM?usp=sharing",
+        "format": "SolidWorks",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "CAD listed on the team page",
+        "url": "https://cad.onshape.com/documents/065fb1a7f111b2de05ba208b/w/67f48a3bae8c68dc38e22239",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "FRC Orbit 1690 2024 Robot CAD Release",
+        "url": "https://www.chiefdelphi.com/t/frc-orbit-1690-2024-robot-cad-release/464838",
+        "format": "thread",
+        "state": "listed",
+        "src": "s4",
+        "holds": "Onshape plus Parasolid x_t"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=1iyUdlndgBE",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=jB7OqueRYf0",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/8V0OHXW",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Orbit 1690 Presents: 2024 robot reveal (106)",
+        "url": "https://www.chiefdelphi.com/t/orbit-1690-presents-2024-robot-reveal-doppler/455350",
+        "format": "thread",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "Orbit 1690 7 Note Auto",
+        "url": "https://www.chiefdelphi.com/t/orbit-1690-7-note-auto/453679",
+        "format": "thread",
+        "state": "listed",
+        "src": "s6"
+      },
+      {
+        "what": "1690orbit.com 2024 Crescendo page",
+        "url": "https://www.1690orbit.com/2024-crescendo",
+        "format": "web page",
+        "state": "listed",
+        "src": "s9"
+      },
+      {
+        "what": "1690 Orbit | Champions Interview | FRC CRESCENDO",
+        "url": "https://www.youtube.com/watch?v=xnAG-tWoZpo",
+        "format": "video",
+        "state": "listed",
+        "src": "s10"
+      },
+      {
+        "what": "Robot on the field with shooter raised",
+        "url": "https://imgur.com/HQdDpMT",
+        "img": "https://i.imgur.com/HQdDpMTh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s11",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Full robot driving, mechanism folded flat",
+        "url": "https://imgur.com/vIHnwa2",
+        "img": "https://i.imgur.com/vIHnwa2h.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s12",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot CAD view, mechanism folded flat",
+        "url": "https://cad.onshape.com/documents/065fb1a7f111b2de05ba208b/w/67f48a3bae8c68dc38e22239/e/e16d7c04df2851292695e2e5",
+        "img": "https://cad.onshape.com/api/thumbnails/d/065fb1a7f111b2de05ba208b/w/67f48a3bae8c68dc38e22239/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s13",
+        "kind": "cad"
+      },
+      {
+        "what": "Robot under the chain with arms raised, ring above",
+        "url": "https://www.chiefdelphi.com/t/orbit-1690-presents-2024-robot-reveal-doppler/455350",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/9/a/9af4e8b82b7a24e43fd14e2f8967da85afb5176f_2_333x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s5",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Chassis tube with dents beside the robot, close-up",
+        "url": "https://www.chiefdelphi.com/t/orbit-1690-presents-2024-robot-reveal-doppler/455350/106",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/0/5/0570a060df8ac1ef7232a8428445e7d76e3080c1_2_225x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s14",
+        "kind": "mechanism"
+      },
+      {
+        "what": "Dented chassis tube, close-up",
+        "url": "https://www.chiefdelphi.com/t/orbit-1690-presents-2024-robot-reveal-doppler/455350/106",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/8/7/8703e0723620d8bdd2b72d3615cf020c43885b5a_2_225x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s14",
+        "kind": "mechanism"
+      },
+      {
+        "what": "Robot front on a bench without bumpers, rollers visible",
+        "url": "https://www.chiefdelphi.com/t/orbit-1690-presents-2024-robot-reveal-doppler/455350/106",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/e/2/e2c69c880da1569ab9287545b0ba008cc6215b1e_2_690x387.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s14",
+        "kind": "mechanism"
+      },
+      {
+        "what": "Seven-note auto video (not watched)",
+        "url": "https://www.youtube.com/watch?v=5Tr1hTOGwac",
+        "format": "video",
+        "state": "listed",
+        "src": "s6"
+      }
+    ],
+    "documents": [
+      {
+        "what": "Orbit 1690 2024 Championship strategy document",
+        "url": "https://docs.google.com/document/d/1ZX10VGj4KNYNVqDw72xCPDGtOhb2xrV0/edit",
+        "format": "Google Doc",
+        "state": "opened",
+        "src": "s7"
+      },
+      {
+        "what": "ORBIT Sessions Part II: Pose Tracking and Shooting on the Move (slides)",
+        "url": "https://docs.google.com/presentation/d/1kpp356hh0bBkDWlKVqkmHecnrtOz0XQfSBNcZiH5zPM/edit",
+        "format": "Google Slides",
+        "state": "opened",
+        "src": "s8"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/team1690",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)"
+  ],
+  "results": {
+    "division": "Daly",
+    "division_opr": 54.09,
+    "opr_rank": 14,
+    "record": "66-5-1",
+    "einstein": {
+      "division": "Daly",
+      "role": "captain"
+    },
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

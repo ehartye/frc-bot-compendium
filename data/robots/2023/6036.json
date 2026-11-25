@@ -1,0 +1,720 @@
+{
+  "id": "2023-6036",
+  "season": 2023,
+  "team": "6036",
+  "team_name": "Peninsula Robotics",
+  "robot_name": "Dum-E",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 6036 in 2023",
+      "url": "https://www.thebluealliance.com/team/6036/2023",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Archimedes Division 2023",
+      "url": "https://www.thebluealliance.com/event/2023arc",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "6036 Peninsula Robotics CAD Release 2023",
+      "url": "https://www.chiefdelphi.com/t/6036-peninsula-robotics-cad-release-2023/436345",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "6036 Hueneme Port Regional Recap",
+      "url": "https://www.chiefdelphi.com/t/6036-hueneme-port-regional-recap/430395",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "6036 FRC-2023-Public (Dum-E)",
+      "url": "https://github.com/team6036/FRC-2023-Public",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "6036 presents: DUM-E",
+      "url": "https://www.chiefdelphi.com/t/6036-presents-dum-e/428854",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/1HYkBSZ",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/I3l6k5v",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/U6UjJJc",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Behind the Bumpers | 6036 Peninsula Robotics | Charged Up Robot",
+      "url": "https://www.youtube.com/watch?v=eQnNk1OwPT0",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "What I learned from 3 years on 6036",
+      "url": "https://www.chiefdelphi.com/t/what-i-learned-from-3-years-on-6036/466064",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "A double-jointed arm, run at its mechanical limits to match the speed of an elevator, with some of the iteration moved into software.",
+        "basis": "team",
+        "src": [
+          "s11"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "Place on all three levels, and reach every set point from pickup in under a second. Cones came from the double substation because floor cones would take too much driver alignment, especially with midfield defense.",
+        "basis": "team",
+        "src": [
+          "s11"
+        ]
+      }
+    ],
+    "auto": [],
+    "cycle": [
+      {
+        "text": "Load at the double substation. The operator picks one of 27 grid buttons and the driver confirms. Two cameras align the robot to AprilTags; it drives over, swings the arm up and then down, places, retracts clear of the nodes and drives out.",
+        "basis": "team",
+        "src": [
+          "s11"
+        ]
+      }
+    ],
+    "endgame": [],
+    "fallback": [],
+    "gave_up": [
+      {
+        "text": "No cone pickup from the floor. Driving each joint from one side doubles the load on its chain, a risk the team took to save weight and complexity.",
+        "basis": "team",
+        "src": [
+          "s11"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "The cube intake was added after a few competitions. Its flaps let cubes run into the robot or spin out, and a rigid shaft popped them; a truck strap wrapped in duct tape worked.",
+        "basis": "team",
+        "src": [
+          "s11"
+        ]
+      },
+      {
+        "text": "The arm first ran on PID and motion profiles, later on optimised trajectories.",
+        "basis": "team",
+        "src": [
+          "s12"
+        ]
+      },
+      {
+        "text": "An unsigned reply that reads as the team's says cameras moved to the back after two competitions for a better view.",
+        "basis": "observer",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "49-18-1 in official play; ranked 2 of the pooled top 20 (OPR 81.60, Archimedes).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Swerve",
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Swerve modules",
+          "basis": "team",
+          "src": [
+            "s11"
+          ],
+          "value": 4,
+          "unit": "modules"
+        }
+      ]
+    },
+    {
+      "name": "Double-jointed arm",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Place on all three levels as fast as an elevator without tipping the robot",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "pass-through double-jointed arm",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Both joints are driven from one gearbox, which takes weight off the first joint",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "The roller gearbox sits across the pivot and counterbalances the second joint",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Each joint is driven from one side only",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Goal for reaching any set point from pickup, under",
+          "basis": "team",
+          "src": [
+            "s11"
+          ],
+          "value": 1,
+          "unit": "s"
+        }
+      ],
+      "cost": [
+        {
+          "text": "Twice the load on each chain as driving from both sides",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "An unsigned reply that reads as the team's says the cantilevered chain tensioner likely wore the idler standoffs, though not enough to replace them",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rollers",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Grip cones securely",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "retain",
+        "deliver"
+      ],
+      "type": "high-ratio rollers on the arm",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "A high gear ratio lets them grip cones without dropping them",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Dead weight from the motors and gears, placed to balance the arm",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cube intake",
+      "pieces": [
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Pick up cubes with little driver alignment",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "transfer"
+      ],
+      "type": "full-width floor intake with flaps, cubes only",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Polycarbonate flaps bring the cube to the middle",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "A truck strap wrapped in duct tape guides the cube; the tape adds grip and resists twisting",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Flaps alone let cubes run into the robot or spin out the back",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automatic placement",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Take alignment out of the driver's hands",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "position"
+      ],
+      "type": "camera-aligned driving and placing",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Two cameras with AprilTags",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Operator buttons cover the whole grid",
+          "basis": "team",
+          "src": [
+            "s11"
+          ],
+          "value": 27,
+          "unit": "buttons"
+        },
+        {
+          "text": "Alignment was only a P and a D gain, and the software captain says it placed consistently faster than any human",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arm trajectories",
+      "solves": [
+        {
+          "text": "Make placing faster than linear mechanisms such as elevators",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "numerically optimised arm paths",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Trajectories come from numerical optimisation solvers",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Code for the double-jointed arm was ready in week 2 or 3, using simple simulation",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Status screen",
+      "solves": [
+        {
+          "text": "Know everything is good before rolling out to a match",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "pre-match check screen",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Four check marks show that each swerve module is initialised",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Graphs show that each software thread is running",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Added for the championship",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arm at one end",
+      "solves": [
+        {
+          "text": "Leave space to iterate through the season",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "compact arm packaging",
+      "serves": [],
+      "facts": [
+        {
+          "text": "The arm sits at one end of the robot, which left room to add the cube intake later",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Double-jointed arm",
+      "because": "its range of motion lets the team iterate in software with little mechanical change",
+      "instead_of": "a tilted elevator",
+      "basis": "team",
+      "src": [
+        "s11"
+      ]
+    },
+    {
+      "choice": "Pass the arm through the robot",
+      "because": "swinging over would flip the robot, even with the ballast added",
+      "instead_of": "passing over the top",
+      "basis": "team",
+      "src": [
+        "s11"
+      ]
+    },
+    {
+      "choice": "Drive each joint from one side",
+      "because": "it saves weight and complexity",
+      "instead_of": "driving from both sides",
+      "cost": "twice the load on the chain",
+      "basis": "team",
+      "src": [
+        "s11"
+      ]
+    },
+    {
+      "choice": "Full-width cube intake and no floor cones",
+      "because": "floor cones would take too much driver alignment, especially under defense",
+      "instead_of": "a floor cone intake",
+      "basis": "team",
+      "src": [
+        "s11"
+      ]
+    },
+    {
+      "choice": "Put placing in software",
+      "because": "software can be consistent when a driver cannot",
+      "basis": "team",
+      "src": [
+        "s11"
+      ]
+    },
+    {
+      "choice": "Optimised arm trajectories",
+      "because": "the team wanted placing faster than linear mechanisms",
+      "instead_of": "simple PID and motion profiles",
+      "basis": "team",
+      "src": [
+        "s12"
+      ]
+    },
+    {
+      "choice": "Plain P and D gains for alignment",
+      "because": "something simpler can work better; it placed consistently faster than any human",
+      "instead_of": "trajectory generation or profiling",
+      "basis": "team",
+      "src": [
+        "s12"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "Comp Robot",
+        "url": "https://drive.google.com/file/d/1NGKDbl50dAI0oS8JyQaHTgHGxmoA06Pc/view",
+        "format": "STEP/IGES",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "CAD listed on the team page",
+        "url": "https://grabcad.com/library/6036-dum-e-2023-competition-robot-1",
+        "format": "GrabCAD",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "6036 Peninsula Robotics CAD Release 2023",
+        "url": "https://www.chiefdelphi.com/t/6036-peninsula-robotics-cad-release-2023/436345",
+        "format": "thread",
+        "state": "listed",
+        "src": "s4",
+        "holds": "STEP"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=9VhH9l_nOBk",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=JjuG2zb0xWs",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=JloaVc9Jmds",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=NYMEL3RhIls",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=eQnNk1OwPT0",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/Llr7HpM",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "6036 Hueneme Port Regional Recap",
+        "url": "https://www.chiefdelphi.com/t/6036-hueneme-port-regional-recap/430395",
+        "format": "thread",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "6036 presents: DUM-E",
+        "url": "https://www.chiefdelphi.com/t/6036-presents-dum-e/428854",
+        "format": "thread",
+        "state": "listed",
+        "src": "s7"
+      },
+      {
+        "what": "Full robot render, jointed arm folded over the base",
+        "url": "https://imgur.com/1HYkBSZ",
+        "img": "https://i.imgur.com/1HYkBSZh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "cad"
+      },
+      {
+        "what": "Full robot on the field, side view, jointed arm folded",
+        "url": "https://imgur.com/I3l6k5v",
+        "img": "https://i.imgur.com/I3l6k5vh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s9",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Full robot holding a yellow cone on a practice field",
+        "url": "https://imgur.com/U6UjJJc",
+        "img": "https://i.imgur.com/U6UjJJch.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s10",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Gearbox plate with a rectangular hole, CAD close-up",
+        "url": "https://www.chiefdelphi.com/t/6036-peninsula-robotics-cad-release-2023/436345",
+        "img": "https://www.chiefdelphi.com/uploads/default/original/3X/5/2/526afa6e7fa4f3a15e6e76b0655355392131beb3.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/team6036",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "6036 FRC-2023-Public (Dum-E)",
+        "url": "https://github.com/team6036/FRC-2023-Public",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s6"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: Chief Delphi \"6036 tech binder\", \"6036 binder\" in titles, \"6036 technical binder\" in first posts and \"Peninsula Robotics tech binder\"; no 2023 binder found; team site unreachable (404)",
+    "interview captions read, video not watched"
+  ],
+  "results": {
+    "division": "Archimedes",
+    "division_opr": 81.6,
+    "opr_rank": 2,
+    "record": "49-18-1",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

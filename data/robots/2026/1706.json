@@ -1,0 +1,719 @@
+{
+  "id": "2026-1706",
+  "season": 2026,
+  "team": "1706",
+  "team_name": "Ratchet Rockers",
+  "robot_name": "Mirage",
+  "variant": "mechanisms as described at the St. Louis Regional; replies in the CAD thread describe the championship version",
+  "sources": {
+    "s1": {
+      "title": "Team 1706 in 2026",
+      "url": "https://www.thebluealliance.com/team/1706/2026",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Hopper Division 2026",
+      "url": "https://www.thebluealliance.com/event/2026hop",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "1706 Ratchet Rockers 2026 CAD Release - Mirage (Champs Version)",
+      "url": "https://www.chiefdelphi.com/t/1706-ratchet-rockers-2026-cad-release-mirage-champs-version/522276",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "1706 Ratchet Rockers | Behind the Bumpers | FRC REBUILT Robot",
+      "url": "https://www.youtube.com/watch?v=O2KMy1tlU9M",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "1706 RRFusionLibrary (Fusion CAM tool libraries)",
+      "url": "https://github.com/rr1706/RRFusionLibrary",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Double Turret Robot Mic'd Up | 1706 Ratchet Rockers | Behind the Glass",
+      "url": "https://www.youtube.com/watch?v=0biZNNNzaZQ",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Onshape document",
+      "url": "https://cad.onshape.com/documents/23ba2ed5b3893ab97929c8b6/w/d7012e1e8978e09c9756ee4c/e/70526e43c92b434a946b53a6?renderMode=0&uiState=6a4551305d34dab275300f85",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Two separately controlled turrets that shoot on the move, so if one jams the other is ready.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "demand": [],
+    "auto": [
+      {
+        "text": "At the St. Louis Regional: start at the trench at about a 90 degree angle, go straight into the pile, return over the bump, shoot on the move to the other trench, collect another load, cross the bump again, then depot or climb. The robot could climb and shoot together.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The full-width intake fills a hopper that the intake's extension enlarges. Cones push balls through the spindexer onto two ramps, one to each shooter. Each turret aims on its own and shoots on the move; near its turning limit it decides whether to keep turning or flip around.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "At the St. Louis Regional the robot had an L1 climber.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "The turrets run separately, so if one jams the other still shoots.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "The St. Louis version climbed only to L1. The team says it saved weight, seemed to work better for auto and was much quicker than flipping upside down.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "The spindexer moved from bristle brushes, which jammed, to stacked wheels, then to a cone, later ribbed, to raise the feed rate.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      },
+      {
+        "text": "Replies that read as the team's say the championship CAD keeps a tube that is a remnant of the climber, and that a sloped plate after the intake reduced jamming as the intake pulled in, after a few iterations.",
+        "basis": "observer",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "45-2-0 in official play; ranked 11 of the pooled top 20 (OPR 314.96, Hopper).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Swerve drive",
+      "does": [
+        "drive"
+      ],
+      "type": "Thrifty Narrow swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "A reply that reads as the team's says the narrow modules let the team put their bulk where it wanted and keep the spindexer as large as possible",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Pick up balls at any robot speed without pushing them away or jamming",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "full-width four-bar roller intake",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Two Kraken X60s: one for pitch, one for the rollers",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Four silicone-wrapped rollers: three carbon fiber, one polycarbonate",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Roller voltage rises linearly with chassis speed, from about 6.5 V to a maximum of about 12 V",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "A reply that reads as the team's says the intake plates clip the bumper slightly, pushing into its foam to keep a good hole-to-edge distance",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hopper",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Hold more fuel with few moving parts",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "retain"
+      ],
+      "type": "hopper extended by the intake",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "The intake's extension expands the hopper, so there are fewer moving parts",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "SRPP walls and an expandable net on the roof instead of a rising roof",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "The intake can jump up and down to hold more balls and agitate them",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Spindexer",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Feed two turrets from one hopper without jams",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "ribbed-cone spindexer",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Ribbed cones agitate, pull balls down and push them into the shooter; cone, floor and gearbox are one system on an X44",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "A taped SRPP disc drives balls against an outer polycarbonate rim, with two ramps, one into each shooter",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "A more extreme cone made balls bounce too much; a smaller, rounder cone put too little energy into them",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "A reply that reads as the team's says a plate sloped up out of the intake reduces jamming as the intake pulls in",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "It was changed several times: bristle brushes jammed and let balls keep circling, and stacked wheels of about 4, 3 and 2 in were less effective",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Turrets",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Track the hub on the move with either turret",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "two independent turrets",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Rotation in each direction before a turret must flip all the way around, about",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 200,
+          "unit": "deg"
+        },
+        {
+          "text": "At about 190 degrees an algorithm decides whether to keep turning or flip around",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "The energy chain runs down, up and down to the front of the robot; polycarbonate panels protect the wiring at the front",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "A reply that reads as the team's says each turret has two CANcoders, combined with the Chinese remainder theorem for accurate position",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A reply that reads as the team's says everything on a shooter had to fit a 12 in diameter cylinder, a strict design constraint",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooters",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Shoot at the hub while moving, and over its own hopper",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "flywheel shooter with hood",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Aluminum flywheels, size about",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 6,
+          "unit": "in"
+        },
+        {
+          "text": "An X60 drives the shooter and an X44 drives the rack for its vertical angle",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Hood travel is about 10 to 45 degrees",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Each turret has a front and a back kicker wheel",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "A reply that reads as the team's says the front wheel and the rear accelerator wheels run at different speeds",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Moving-shot code and localization",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Aim two turrets while the robot moves",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "vector aiming with odometry and Limelight 4",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Vectors from hub to robot center and then to each turret give distance; a linear interpolation table gives voltage, power and angle",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Each turret runs its own command",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Three Limelight 4 cameras and swerve odometry estimate pose; MegaTag2 is trusted only in very good conditions",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Undermounted battery and electronics",
+      "solves": [
+        {
+          "text": "Package the battery around the spindexers and shooters",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "battery and electronics below the robot",
+      "serves": [],
+      "facts": [
+        {
+          "text": "A machined plate with four pins holds the battery; popping one pin on each side releases the panel",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Electronics are also underneath, clear of other mechanisms and with straight wire runs",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Two separately operated turrets",
+      "because": "if one jams, the other is still ready",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "L1 climb only",
+      "because": "it saves weight, seems to work better for auto and is much quicker than flipping upside down (St. Louis version)",
+      "instead_of": "a climb that flips upside down",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Aluminum flywheels",
+      "because": "steel ones were too heavy",
+      "instead_of": "steel flywheels",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Ribbed cone in the spindexer",
+      "because": "it kept more constant contact and raised the feed rate",
+      "instead_of": "bristle brushes, then stacked wheels",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Net roof on the hopper",
+      "because": "it expands capacity without a rising roof",
+      "instead_of": "a rising roof",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Undermounted battery",
+      "because": "packaging was very difficult around the spindexers and shooters; the team says batteries never fall out or move",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "Comp Robot",
+        "url": "https://cad.onshape.com/documents/23ba2ed5b3893ab97929c8b6/w/d7012e1e8978e09c9756ee4c/e/70526e43c92b434a946b53a6?renderMode=0&uiState=6a4551305d34dab275300f85",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "CAD listed on the team page",
+        "url": "https://cad.onshape.com/documents/23ba2ed5b3893ab97929c8b6/w/d7012e1e8978e09c9756ee4c",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "1706 Ratchet Rockers 2026 CAD Release - Mirage (Champs Version)",
+        "url": "https://www.chiefdelphi.com/t/1706-ratchet-rockers-2026-cad-release-mirage-champs-version/522276",
+        "format": "thread",
+        "state": "listed",
+        "src": "s4",
+        "holds": "Onshape"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/weh70Ff",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "1706 Ratchet Rockers | Behind the Bumpers | FRC REBUILT Robot",
+        "url": "https://www.youtube.com/watch?v=O2KMy1tlU9M",
+        "format": "video",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "Double Turret Robot Mic'd Up | 1706 Ratchet Rockers | Behind the Glass",
+        "url": "https://www.youtube.com/watch?v=0biZNNNzaZQ",
+        "format": "video",
+        "state": "listed",
+        "src": "s7"
+      },
+      {
+        "what": "Full robot CAD with blue bumpers and a tall grey hopper",
+        "url": "https://cad.onshape.com/documents/23ba2ed5b3893ab97929c8b6/w/d7012e1e8978e09c9756ee4c/e/70526e43c92b434a946b53a6?renderMode=0&uiState=6a4551305d34dab275300f85",
+        "img": "https://cad.onshape.com/api/thumbnails/d/23ba2ed5b3893ab97929c8b6/w/d7012e1e8978e09c9756ee4c/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "cad",
+        "hero": true
+      },
+      {
+        "what": "CAD view between two blue guides and pulleys beside a center post",
+        "url": "https://www.chiefdelphi.com/t/1706-ratchet-rockers-2026-cad-release-mirage-champs-version/522276",
+        "img": "https://www.chiefdelphi.com/uploads/default/original/4X/d/4/f/d4f4feb344ee2340e79db3b414e40ae3a2e198a1.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
+      },
+      {
+        "what": "CAD of a lightened center post with blue guides",
+        "url": "https://www.chiefdelphi.com/t/1706-ratchet-rockers-2026-cad-release-mirage-champs-version/522276",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/3/3/2/332aa5213a292c9d009a831d774984d8324b4bc7_2_335x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
+      },
+      {
+        "what": "CAD of a Limelight camera mount, one plate highlighted",
+        "url": "https://www.chiefdelphi.com/t/1706-ratchet-rockers-2026-cad-release-mirage-champs-version/522276",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/b/8/5/b854c8531c46e06538da8e82d4977f33f1fbb515_2_651x499.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
+      },
+      {
+        "what": "CAD close-up of a small gear and two boxed parts below it",
+        "url": "https://www.chiefdelphi.com/t/1706-ratchet-rockers-2026-cad-release-mirage-champs-version/522276",
+        "img": "https://www.chiefdelphi.com/uploads/default/original/4X/6/a/2/6a29215f2c20efe06e9dae8c5910689fc9a4eddd.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
+      },
+      {
+        "what": "CAD side view of an arm with rollers past the bumper",
+        "url": "https://www.chiefdelphi.com/t/1706-ratchet-rockers-2026-cad-release-mirage-champs-version/522276",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/d/b/7/db7aa5aad99aa1f8a589bd2171e3e4c647975ee3_2_635x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
+      },
+      {
+        "what": "CAD of a sloped plate and round discs behind rollers",
+        "url": "https://www.chiefdelphi.com/t/1706-ratchet-rockers-2026-cad-release-mirage-champs-version/522276",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/1/2/3/1234cc2a9e2e8c727e3557beaa8f1d556f83aed1_2_504x499.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/rr1706",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "1706 RRFusionLibrary (Fusion CAM tool libraries)",
+        "url": "https://github.com/rr1706/RRFusionLibrary",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s6"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: Chief Delphi title search for 1706 (14 results) and post search \"1706 binder\" (0 results); the team site was a placeholder"
+  ],
+  "results": {
+    "division": "Hopper",
+    "division_opr": 314.96,
+    "opr_rank": 11,
+    "record": "45-2-0",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

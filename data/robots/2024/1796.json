@@ -1,0 +1,551 @@
+{
+  "id": "2024-1796",
+  "season": 2024,
+  "team": "1796",
+  "team_name": "RoboTigers",
+  "robot_name": "Encore",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 1796 in 2024",
+      "url": "https://www.thebluealliance.com/team/1796/2024",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Johnson Division 2024",
+      "url": "https://www.thebluealliance.com/event/2024joh",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "RoboTigers Team 1796 Presents - Encore (2024)",
+      "url": "https://www.chiefdelphi.com/t/robotigers-team-1796-presents-encore-2024/457510",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/2tAuZmx",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "1796 RoboTigers | Behind the Bumpers | FRC CRESCENDO Robot",
+      "url": "https://www.youtube.com/watch?v=BTC9HzUGt04",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "A back pass-through: every note goes to the elevator in the middle, which sends it to the amp or trap, or on to the shooter.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "The team designs and practices around playing through any defense, because its matches are more likely than not to be defended.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "A camera at the top of the elevator looks for notes, and the robot takes another path to the center line if a target note is gone.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The under-bumper intake centers a note and passes it to the elevator's rollers. From there it is spat out at the amp, or passed through to the shooter, whose pivot is set from the distance to the speaker.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "The climb goes up and a sequence leads to the trap: wheels roll on the stage so that the mechanism enters the flap door and drops the note in.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "It had only front and back AprilTag cameras for a while. Pose was inconsistent when robots or defense blocked one, so cameras were added on both sides. This was the team's first year without a welded frame; bends in playoffs had affected the frame and the intake.",
+        "basis": "team",
+        "src": [
+          "s3",
+          "s5"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "49-9-0 in official play; ranked 5 of the pooled top 20 (OPR 57.65, Johnson).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drivetrain",
+      "solves": [
+        {
+          "text": "Replace bent parts easily during competitions",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "drive",
+        "structure"
+      ],
+      "type": "swerve with an unwelded frame",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Krakens for both drive and steering",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "The elevator, climb and shooter sit on one plate, so frames can be switched more easily",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Take notes from nearly the full frame width and center them",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "under-bumper roller intake",
+      "serves": [
+        "speaker",
+        "amp",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "Rollers below and a gripped aluminum bar above pull the note in and center it",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "3D printed wedges center notes from the side or the middle",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "An offset plate keeps pulleys away from the note, which leaves the intake slightly short of full width",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Parts the student calls bananas stop the bars bending and the belts losing tension",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elevator",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Reach the amp and trap and leave the back open for the pass-through",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "position",
+        "transfer"
+      ],
+      "type": "three-stage continuous belt elevator",
+      "serves": [
+        "amp",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "Belts run inside the tubing",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "One Kraken drives both sides at 1:1",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Belt clamps are printed with carbon fiber so that belts hold tension",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Amp and trap rollers",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Score the amp and trap with one mechanism",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "deliver",
+        "retain"
+      ],
+      "type": "three-roller carriage",
+      "serves": [
+        "amp",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "Three rollers on the carriage set the spit-out angle for both",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Wheels on it roll along the stage to enter the trap's flap door",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Shoot straight and accurately into the speaker",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "deliver",
+        "position"
+      ],
+      "type": "pivoting dual-wheel-set shooter",
+      "serves": [
+        "speaker"
+      ],
+      "facts": [
+        {
+          "text": "Two Krakens run two sets of wheels at different speeds to spin the note",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Feeder wheels accelerate the note, or send it back to the amp and trap rollers",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Maximum pivot angle, about",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 50,
+          "unit": "deg"
+        },
+        {
+          "text": "The pivot's custom belt box uses water-jet and 3D printed pulleys",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Lift the robot for the trap sequence",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Thick bearing plates were needed for the axle and were pocketed because weight was a concern",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "belt-driven climber tubes",
+      "serves": [
+        "onstage",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "The belt runs through the tube and is held by toothed clamp plates",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "One motor on each side",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Bearings in each bearing block, about",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 16,
+          "unit": "bearings"
+        },
+        {
+          "text": "A magnetic sensor zeroes it while the robot is disabled",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vision",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Keep at least two tags in view when defended",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "four AprilTag cameras and one note camera",
+      "serves": [
+        "speaker"
+      ],
+      "facts": [
+        {
+          "text": "Limelights on the robot",
+          "basis": "team",
+          "src": [
+            "s3"
+          ],
+          "value": 5,
+          "unit": "cameras"
+        },
+        {
+          "text": "One AprilTag camera on each side of the robot gives odometry, and distance to the speaker sets the shooter pivot",
+          "basis": "team",
+          "src": [
+            "s3",
+            "s5"
+          ]
+        },
+        {
+          "text": "The fifth points down from the top of the elevator to detect notes",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Rig the elevator inside its tubes",
+      "because": "a back pass-through to the shooter ruled out the rigging on the back that the team always used",
+      "instead_of": "rigging through the back",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Do not weld the frame",
+      "because": "parts bent in competition are much easier to replace",
+      "instead_of": "a welded frame, as in earlier years",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Add side AprilTag cameras",
+      "because": "pose was inconsistent when defense blocked one camera, and the team wanted always to see at least two tags",
+      "instead_of": "only front and back cameras",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "Belts for the shooter pivot",
+      "because": "chain has slack, and the shooter needed accuracy",
+      "instead_of": "chain",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Spin the note",
+      "because": "it shoots straighter and more accurately",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=BTC9HzUGt04",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "RoboTigers Team 1796 Presents",
+        "url": "https://www.chiefdelphi.com/t/robotigers-team-1796-presents-encore-2024/457510",
+        "format": "thread",
+        "state": "opened",
+        "src": "s3"
+      },
+      {
+        "what": "Full robot without bumpers, orange wheels raised",
+        "url": "https://imgur.com/2tAuZmx",
+        "img": "https://i.imgur.com/2tAuZmxh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Rollers and green frame, close-up",
+        "url": "https://www.chiefdelphi.com/t/robotigers-team-1796-presents-encore-2024/457510",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/4/c/4c3f6b1c9ac277b475de40c84000f9a9a4683ac7_2_345x230.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s3",
+        "kind": "mechanism"
+      }
+    ],
+    "documents": [],
+    "code": []
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binder search: Chief Delphi post search \"1796 binder\" (3 topics), title search \"1796\" (5 topics), 17 pages of the team site"
+  ],
+  "results": {
+    "division": "Johnson",
+    "division_opr": 57.65,
+    "opr_rank": 5,
+    "record": "49-9-0",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

@@ -1,0 +1,501 @@
+{
+  "id": "2023-2046",
+  "season": 2023,
+  "team": "2046",
+  "team_name": "Bear Metal",
+  "robot_name": null,
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 2046 in 2023",
+      "url": "https://www.thebluealliance.com/team/2046/2023",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Hopper Division 2023",
+      "url": "https://www.thebluealliance.com/event/2023hop",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "Team 2046 Teaser 2023",
+      "url": "https://www.chiefdelphi.com/t/team-2046-teaser/429375",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "2046 Bear Metal robot-2023",
+      "url": "https://github.com/bear-metal-2046/robot-2023",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Tahoma Robotics gallery - Bonney Lake 2023",
+      "url": "https://tahomarobotics.org/gallery/frc-bonney-lake-2023",
+      "publisher": "tahomarobotics.org",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/4uXi9oK",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Behind the Bumpers | 2046 Bear Metal | Side Climber | Charged Up Robot",
+      "url": "https://www.youtube.com/watch?v=2NLt-NnRgAo",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Climb the charge station from its side: partners only need to balance two robots while this one runs another cycle or two.",
+        "basis": "team",
+        "src": [
+          "s7"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "For scoring, the team put a very light arm first: it has to reach all three levels without tipping the robot.",
+        "basis": "team",
+        "src": [
+          "s7"
+        ]
+      }
+    ],
+    "auto": [],
+    "cycle": [
+      {
+        "text": "The arm collects inside the frame perimeter. It then extends while the robot drives into the community, so the robot can score at once; the elbow does most of the moving.",
+        "basis": "team",
+        "src": [
+          "s7"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "An automated sequence: two paws come down and push the robot up until the front wheel gets over, belts raise its angle along the charge station, then the arm tips back onto hard stops to level it and it keeps climbing. Climbing the side does not affect the tilt.",
+        "basis": "team",
+        "src": [
+          "s7"
+        ]
+      }
+    ],
+    "fallback": [],
+    "gave_up": [
+      {
+        "text": "The belts under the chassis were the hardest part of the climb. If it breaks, the team cannot really replace it, but it presumed the climb would be pretty reliable.",
+        "basis": "team",
+        "src": [
+          "s7"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "The interview is from the Bonney Lake event, which the interviewer calls the team's second; the championship version is not described.",
+        "basis": "observer",
+        "src": [
+          "s7"
+        ]
+      },
+      {
+        "text": "By its second event this was the third intake on the arm and about the seventh prototype; the claw had been designed and made in about a week. The team was considering separate motors for the two sides of the belt drive, instead of linked sides.",
+        "basis": "team",
+        "src": [
+          "s7"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "61-21-2 in official play; ranked 9 of the pooled top 20 (OPR 75.88, Hopper).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Swerve drive",
+      "solves": [
+        {
+          "text": "Give the ground clearance the side climb needs",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ],
+      "does": [
+        "drive"
+      ],
+      "type": "REV swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Chosen over SDS swerve for ground clearance and compact size",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bumper mounts",
+      "solves": [
+        {
+          "text": "Fit bumpers quickly and make room outside the frame for the climb gearboxes",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "bracket, standoff and toggle clamp",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Brackets with a standoff slide into a hole in the chassis and toggles snap down to hold them",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "3D-printed inserts at the swerve modules space the bumpers from the chassis, leaving room outside for the climb gearboxes",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Side climber",
+      "solves": [
+        {
+          "text": "Get onto the charge station from its side so partners need only a two-robot balance",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "paws and underside belts",
+      "serves": [
+        "charge-station"
+      ],
+      "facts": [
+        {
+          "text": "Two independent paws, each on one NEO with a gear reduction and chain",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Belts run in 2x2 tubes under the chassis, driven by a 775 motor through a VersaPlanetary to 3D-printed pulleys",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The belt drive was the hardest part and cannot really be replaced if it breaks, though the team presumed it would be pretty reliable",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arm",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Reach all three levels while light enough not to tip, even when extending on the move",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "jointed arm with shoulder and elbow",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Mass of joint, tubes, wrist and claw, about",
+          "basis": "team",
+          "src": [
+            "s7"
+          ],
+          "value": 17,
+          "unit": "lb"
+        },
+        {
+          "text": "Both gearboxes are at the bottom of the robot, with motors no higher off the ground than about",
+          "basis": "team",
+          "src": [
+            "s7"
+          ],
+          "value": 5,
+          "unit": "in"
+        },
+        {
+          "text": "Two NEOs run the shoulder and one NEO runs the elbow",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "The solid axle that stiffens the structure is about",
+          "basis": "team",
+          "src": [
+            "s7"
+          ],
+          "value": 1,
+          "unit": "in"
+        }
+      ]
+    },
+    {
+      "name": "Claw",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Take and hold cones and cubes with a light, compact claw",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "retain",
+        "deliver"
+      ],
+      "type": "three-roller claw",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Two plates of about 1/4 in on standoffs carry three rollers; the two top ones take an upright cone or one from a feeder",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "A second roller holds a cube at a compression that keeps it in without popping it",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "An L shape rests on the bumper wood, not the foam, to set the floor collecting position",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Climb from the side",
+      "because": "its reading of the rules ruled out the stinger it would have liked",
+      "instead_of": "a stinger",
+      "basis": "team",
+      "src": [
+        "s7"
+      ]
+    },
+    {
+      "choice": "REV swerve",
+      "because": "it gives the ground clearance the climb needs and leaves more room at the sides",
+      "instead_of": "SDS swerve",
+      "basis": "team",
+      "src": [
+        "s7"
+      ]
+    },
+    {
+      "choice": "Two independent paws",
+      "because": "tipping would not break a linkage between them",
+      "instead_of": "linked paws",
+      "basis": "team",
+      "src": [
+        "s7"
+      ]
+    },
+    {
+      "choice": "Gearboxes at the bottom of the robot",
+      "because": "a light arm must reach out and up without tipping",
+      "basis": "team",
+      "src": [
+        "s7"
+      ]
+    },
+    {
+      "choice": "Rest the claw on the bumper wood",
+      "because": "the programming stays simple and the claw does not move around",
+      "instead_of": "resting on the foam",
+      "basis": "team",
+      "src": [
+        "s7"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=2NLt-NnRgAo",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=5q7ZXwgqmWs",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=F9DNdwHCTHM",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=jE__rEETeCw",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/Luf4Q1f",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/O6N3Wk2",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/aRb6aXj",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Team 2046 Teaser 2023",
+        "url": "https://www.chiefdelphi.com/t/team-2046-teaser/429375",
+        "format": "thread",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "Tahoma Robotics gallery - Bonney Lake 2023",
+        "url": "https://tahomarobotics.org/gallery/frc-bonney-lake-2023",
+        "format": "web page",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "Full robot without bumpers on a cart, jointed arm raised",
+        "url": "https://imgur.com/4uXi9oK",
+        "img": "https://i.imgur.com/4uXi9oKh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s6",
+        "kind": "robot-photo",
+        "hero": true
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/bear-metal-2046",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "2046 Bear Metal robot-2023",
+        "url": "https://github.com/bear-metal-2046/robot-2023",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s4"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: Chief Delphi title search for 2046 (6 results, no binder query), 20 pages of the team site"
+  ],
+  "results": {
+    "division": "Hopper",
+    "division_opr": 75.88,
+    "opr_rank": 9,
+    "record": "61-21-2",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

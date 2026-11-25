@@ -1,0 +1,933 @@
+{
+  "id": "2024-2974",
+  "season": 2024,
+  "team": "2974",
+  "team_name": "Walton Robotics",
+  "robot_name": "Shosty",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 2974 in 2024",
+      "url": "https://www.thebluealliance.com/team/2974/2024",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Newton Division 2024",
+      "url": "https://www.thebluealliance.com/event/2024new",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "2974 Walton Robotics- Build Blog 2024 (23)",
+      "url": "https://www.chiefdelphi.com/t/2974-walton-robotics-build-blog-2024/452466",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Behind the Glass | 2974 Walton Robotics | PCH Anderson Q59",
+      "url": "https://www.youtube.com/watch?v=w0AFxJFMOqg",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "2974 Walton Robotics 2023-2024 Engineering Summary (Worlds), PDF",
+      "url": "https://www.chiefdelphi.com/uploads/short-url/966NS5N4H99qr8jvZFz0omQlSOA.pdf",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "2974 Walton Robotics 2024 robot, Fusion share link",
+      "url": "https://a360.co/47HlwPZ",
+      "publisher": "a360.co",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "2974 WaltonRobotics/Crescendo",
+      "url": "https://github.com/WaltonRobotics/Crescendo",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/3A3Z1M6",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "2974 Walton Robotics Build Blog 2024, post 23",
+      "url": "https://www.chiefdelphi.com/t/2974-walton-robotics-build-blog-2024/452466/23",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [],
+    "demand": [
+      {
+        "text": "The goal was to be an alliance captain at Worlds. In qualifications: every ranking point, from speaker and amp notes, a spotlit climb and wins. At 25 notes (21 with coopertition) they judged cooperation necessary with some partners, and climb plus trap imperative at championships. In playoffs autonomous came first; clearing the field puts up 61 points.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "Choreo paths followed with PathPlanner on wheel odometry, starting from the center, amp side or source side.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      },
+      {
+        "text": "Midline routines came before Carrollton, where they wrote one in eliminations to fit a partner.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      },
+      {
+        "text": "Posts that read as the team's describe growth from three to 3.5, four and five pieces.",
+        "basis": "observer",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "One button intakes: the conveyor beam break stops the note and pulls it back from the flywheels. A second button spins up once the note is clear and feeds once spun up and aimed at a preset.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      },
+      {
+        "text": "A post that reads as the team's says the shooter flips down to force a note into the amp.",
+        "basis": "observer",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "Rods flip out to put hooks on the chain, and two winches pull the robot up. For the trap, a two-part arm on the shooter opens the trap door so the shooter can shoot into it.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "fallback": [],
+    "gave_up": [
+      {
+        "text": "Space was left for a climber while note scoring came first. It was designed before Anderson but, still in testing, was not attached until the district championship.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      },
+      {
+        "text": "A behind-the-bumper intake means the frame perimeter is not the same as the drive base.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      },
+      {
+        "text": "In late March the team still planned to add a camera for aiming; the Worlds summary lists cameras.",
+        "basis": "team",
+        "src": [
+          "s9",
+          "s5"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "The conveyor's idler slowed notes and its polybelt melted, so it became guide plates and one belt-driven roller. Winches turned 90 degrees to fit. Notes stuck to the trap door, so a door-opening arm was added.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      },
+      {
+        "text": "A post that reads as the team's says a stripped pivot belt became chain.",
+        "basis": "observer",
+        "src": [
+          "s3"
+        ]
+      },
+      {
+        "text": "Being fed at the district championship gave their highest note average, so they moved toward collecting passes and shooting.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "60-6-0 in official play; ranked 17 of the pooled top 20 (OPR 52.79, Newton).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drivetrain",
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "SDS MK4i modules, L3 ratio, Kraken drive and Falcon 500 steer",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Frame perimeter is 28.5 x 28.5 in",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "1/8 in aluminum belly plate without pockets",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Touch it, own it: take a note with a large area of acceptable contact",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "behind-the-bumper dual beater bars",
+      "serves": [
+        "speaker",
+        "amp"
+      ],
+      "facts": [
+        {
+          "text": "Compression on the note in testing",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 0.2,
+          "unit": "in"
+        },
+        {
+          "text": "Two carbon fiber rods with grippy tube rubber, slick tape, one Kraken",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Two printed side pieces funnel the note",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "A post that reads as the team's credits the wide span, which lets drivers grab notes without slowing to align, for quick cycles",
+          "basis": "observer",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The frame perimeter is not the same as the drive base",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "A post that reads as the team's says a hit at Anderson bowed the tubes above the intake by up to about a quarter inch; it calls the front fairly robust and planned identical replacements",
+          "basis": "observer",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Conveyor",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Carry the note straight from intake to shooter, including uncentered notes",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "guide plates with one powered top roller",
+      "serves": [
+        "speaker",
+        "amp"
+      ],
+      "facts": [
+        {
+          "text": "NEO with a custom gearbox at",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 2,
+          "unit": ":1"
+        },
+        {
+          "text": "18T pulleys and a 55T timing belt; 1/16 in HDPE top and bottom guides",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Runs at the same time as the intake, at the shooter's width",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "It took several versions: a wheeled idler slowed the note, HDPE bowed, and a polybelt melted and snapped",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Shoot every intaken note consistently, with range and accuracy",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "top and bottom dual flywheel shooter",
+      "serves": [
+        "speaker",
+        "amp",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "Two Falcon 500s with 2:1 speed-up pulleys",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "85T belts to the top flywheels; a 30T belt and 32T gears to the bottom",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Assembly is 20.25 in high and 16.50 in wide",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Four carbon fiber feed rollers, NEO at",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 3,
+          "unit": ":1"
+        },
+        {
+          "text": "A post that reads as the team's says guide plates went from HDPE to 1/16 in polycarbonate so drivers see whether the note is centered",
+          "basis": "observer",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "A post that reads as the team's says the design is inspired by 6328",
+          "basis": "observer",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "A post that reads as the team's says flipping the shooter down into the amp, after ORBIT, is extremely consistent; a later post says the amp shot was adjusted at Carrollton",
+          "basis": "observer",
+          "src": [
+            "s3",
+            "s9"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "A post that reads as the team's says off-center notes in practice had to be scored from nearly underneath the speaker",
+          "basis": "observer",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter Pivot",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Move quickly with little backlash while carrying the whole shooter",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "belt-driven pivot",
+      "serves": [
+        "speaker",
+        "amp",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "Falcon 500 reduction",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 125,
+          "unit": ":1"
+        },
+        {
+          "text": "A 100T belt joins a 24T pulley to a 61T pulley on the shooter side plate",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "A post that reads as the team's plans a hard stop so the shooter cannot go below",
+          "basis": "observer",
+          "src": [
+            "s3"
+          ],
+          "value": 22.5,
+          "unit": "deg"
+        },
+        {
+          "text": "The absolute encoder is coupled to the shooter angle, so gearbox backlash does not affect control",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "A printed axle attachment rubbing on old tread damps backlash",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Posts that read as the team's say belts skipped until tension was raised, and a 36T belt stripped and was replaced by chain",
+          "basis": "observer",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "A post that reads as the team's says the belt repair needed the intake and front modules off, so access holes were added",
+          "basis": "observer",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Climb as high as possible toward the trap, from parts on hand or easily made, and be easy to attach and remove",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "two winches with flip-out hooks",
+      "serves": [
+        "onstage",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "NEO gearbox",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 36,
+          "unit": ":1"
+        },
+        {
+          "text": "Printed spool, and printed inserts with embedded nuts so it comes off easily",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "The rods are called bent fiberglass, carbon fiber and 1/4 in polycarbonate in different places of the same summary",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "It was not attached until the district championship, after testing",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Trap",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Open the trap door so a note does not stick to it",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "double actuating arm that opens the trap door",
+      "serves": [
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "The first arm pivots on an axial spring joined to the shooter; the second on an elastic band around a pulley",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Note-tracking state machine",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Never spin the flywheels on an unready note or feed before they are up to speed",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "photoelectric and beam break sensors driving a state machine",
+      "serves": [
+        "speaker",
+        "amp"
+      ],
+      "facts": [
+        {
+          "text": "An intake sensor finishes the intake even if the driver lets go early",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "A conveyor beam break stops the intake and pulls the note back slightly",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "A shooter beam break confirms the note has left",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Controllers rumble to show where the note is",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Note cover",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "A post that reads as the team's says it sheds notes that fall on the chassis and protects the top of the intake and conveyor",
+          "basis": "observer",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "polycarbonate cover sheets",
+      "serves": [],
+      "facts": [
+        {
+          "text": "A post that reads as the team's says it was added before Anderson and credits it in part for no major mechanical problems there, though hits bowed front tubes and damaged bumper brackets",
+          "basis": "observer",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bumpers",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "A post that reads as the team's wants notes to pass under without a low section that would anchor a tip",
+          "basis": "observer",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "two-piece bumper at one height",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Height above the ground is listed as 2 1/4, with no unit printed",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "A post that reads as the team's puts the seams on the sides to reinforce the front of the frame",
+          "basis": "observer",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Behind-the-bumper intake",
+      "because": "it was the most efficient intake tested, with an ideal angle into the robot and the full frame width",
+      "instead_of": "stacked rollers over the bumper, which conveyed poorly and lost time flipping out, or an under-chassis intake",
+      "cost": "the frame perimeter is not the same as the drive base",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Top and bottom flywheels",
+      "because": "notes went much further than with side rollers",
+      "instead_of": "a side-roller shooter, which lacked range by calculation and by test",
+      "cost": "the prototype, which used Colson wheels, was very heavy, which raised pivoting concerns",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Conveyor designed last",
+      "because": "it could be fitted to the finished intake and shooter",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Extend the intake instead of a full conveyor (January plan; a powered conveyor roller came later)",
+      "because": "a post that reads as the team's says the full conveyor prototype was a bit slower and tore the note slightly",
+      "instead_of": "surgical-tubing rollers with a ramp",
+      "basis": "observer",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "Climber left for later",
+      "because": "note scoring came first because the game was complex",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "No two-wristed arm",
+      "because": "a post that reads as the team's says raising both wrists or turning to shoot would take too much time in auto",
+      "basis": "observer",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "Controller rumble",
+      "because": "it costs less and is easier for drivers to notice",
+      "instead_of": "LEDs on the robot",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "All bumpers at one height",
+      "because": "a post that reads as the team's says a lower C-shape would be an anchor for tipping over",
+      "instead_of": "a C-shaped bumper lower than the front piece",
+      "basis": "observer",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "Lock the shooter re-zero behind three buttons",
+      "because": "drivers re-zeroed it by accident in a match",
+      "instead_of": "two buttons",
+      "basis": "team",
+      "src": [
+        "s9"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "2974 Walton Robotics- Build Blog 2024 (23)",
+        "url": "https://www.chiefdelphi.com/t/2974-walton-robotics-build-blog-2024/452466",
+        "format": "thread",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "2974 Walton Robotics 2024 robot, Fusion share link",
+        "url": "https://a360.co/47HlwPZ",
+        "format": "Fusion",
+        "state": "listed",
+        "src": "s6"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/A82bc1l",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/R1ey2DO",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/iKK8JUb",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/uXPfcfy",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Behind the Glass | 2974 Walton Robotics | PCH Anderson Q59",
+        "url": "https://www.youtube.com/watch?v=w0AFxJFMOqg",
+        "format": "video",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "Full robot in the pit, red bumpers, orange wheels raised",
+        "url": "https://imgur.com/3A3Z1M6",
+        "img": "https://i.imgur.com/3A3Z1M6h.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Open chassis with rollers and an orange ring",
+        "url": "https://www.chiefdelphi.com/t/2974-walton-robotics-build-blog-2024/452466",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/7/8/78e34155676ae42886f92d58c37dac5711babeed_2_690x392.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s3",
+        "kind": "mechanism"
+      },
+      {
+        "what": "Robot reveal video",
+        "url": "https://www.youtube.com/watch?v=ohGKEKJsuFs",
+        "format": "video",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "Conveyor and intake test video",
+        "url": "https://www.youtube.com/watch?v=5_B8hwRNNJc",
+        "format": "video",
+        "state": "listed",
+        "src": "s3"
+      }
+    ],
+    "documents": [
+      {
+        "what": "2974 Walton Robotics 2023-2024 Engineering Summary (Worlds), PDF",
+        "url": "https://www.chiefdelphi.com/uploads/short-url/966NS5N4H99qr8jvZFz0omQlSOA.pdf",
+        "format": "PDF",
+        "state": "opened",
+        "src": "s5"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/waltonrobotics",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "2974 WaltonRobotics/Crescendo",
+        "url": "https://github.com/WaltonRobotics/Crescendo",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s7"
+      },
+      {
+        "what": "State machine documentation",
+        "url": "https://github.com/WaltonRobotics/Crescendo/blob/1e75ae0f770f851d7191837b4db22ff33b887455/docs/superstructure.md",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s9"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: Chief Delphi title search for 2974 (2 topics), one grouped web search, 29 pages of the team site"
+  ],
+  "results": {
+    "division": "Newton",
+    "division_opr": 52.79,
+    "opr_rank": 17,
+    "record": "60-6-0",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

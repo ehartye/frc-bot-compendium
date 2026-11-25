@@ -1,0 +1,540 @@
+{
+  "id": "2025-1706",
+  "season": 2025,
+  "team": "1706",
+  "team_name": "Ratchet Rockers",
+  "robot_name": "Singularity",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 1706 in 2025",
+      "url": "https://www.thebluealliance.com/team/1706/2025",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Curie Division 2025",
+      "url": "https://www.thebluealliance.com/event/2025cur",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "1706 2025 CAD/Code Release (Singularity)",
+      "url": "https://www.chiefdelphi.com/t/1706-2025-cad-code-release/510177",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "1706 Ratchet Rockers 2025 Robot Teaser: Singularity",
+      "url": "https://www.chiefdelphi.com/t/1706-ratchet-rockers-2025-robot-teaser-singularity/495400",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "1706 konshu (2025 code)",
+      "url": "https://github.com/rr1706/konshu",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "FRC Team 1706 2025 Teaser",
+      "url": "https://www.youtube.com/watch?v=itYiwUKHKs0",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Onshape document",
+      "url": "https://cad.onshape.com/documents/4b02abefda59b1f999042049/w/bf40141578ddedca6b900af0/e/5e919c0d868af85f4440ce2a?renderMode=0&uiState=69613fa25b253e82ceb9a9c1",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "1706 Ratchet Rockers | Behind the Bumpers | 2025 FRC REEFSCAPE",
+      "url": "https://www.youtube.com/watch?v=SvBYbyf57zo",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Best Algae Manipulators",
+      "url": "https://www.chiefdelphi.com/t/best-algae-manipulators/501912",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [],
+    "demand": [],
+    "auto": [
+      {
+        "text": "A four-piece auto scores three on L4 and then one on L2.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      },
+      {
+        "text": "A Chief Delphi post says 1706 also ran an auto of one L4 coral and three algae into the net.",
+        "basis": "observer",
+        "src": [
+          "s10"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "Coral goes from the feeder station into a three-sided funnel that takes it on any of three sides. The operator picks side, level and reef position, and auto align lines the robot up. The manipulator can hold coral and algae at once and score both, or remove an algae and then score a coral at any level.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "The driver drives into the cage, a mechanism latches one bar of it, and the climber, which is the funnel's back wall, pulls the cage into the funnel.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "fallback": [],
+    "gave_up": [],
+    "changed": [
+      {
+        "text": "The interview is from a regional; the championship version is not described.",
+        "basis": "observer",
+        "src": [
+          "s9"
+        ]
+      },
+      {
+        "text": "After the last event the team added the algae intake and changed the climber to grab one bar, then added a deflector plate to center the cage. The wire chain kept breaking or leaving the robot until a constant force spring pulled it down. Plates went under the robot after it ran up on an algae.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "35-10-1 in official play; ranked 18 of the pooled top 20 (OPR 100.33, Curie).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Three-sided funnel",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Take coral from any of three sides, also around defense",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "three-sided dampened funnel",
+      "serves": [
+        "reef-l1",
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "It takes coral at the feeder station on any of three sides",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Damping material lets coral be thrown in hard and still settle",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Algae intake",
+      "pieces": [
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Go out, take an algae and come back in quickly",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "rack-driven roller intake",
+      "serves": [
+        "net"
+      ],
+      "facts": [
+        {
+          "text": "A lightweight intake on a curved rack with a NEO 550 and a polycarbonate roller with tape that helps center the algae",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Added after the previous event",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elevator",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Keep the height it reaches consistent",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "continuous-style cascading elevator, as the team calls it, with linked sides",
+      "serves": [
+        "reef-l1",
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "Like the team's 2024 robot but with a wider belt and one gearbox at the bottom linking both sides",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The wire chain kept breaking, shooting out or flipping into the funnel until a constant force spring on a roller pulled it down",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Manipulator",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Hold a coral and an algae at the same time and score both",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "does": [
+        "retain",
+        "deliver"
+      ],
+      "type": "flip-over coral and algae manipulator",
+      "serves": [
+        "reef-l1",
+        "reef-branches",
+        "net"
+      ],
+      "facts": [
+        {
+          "text": "All three motors sit in the carriage instead of on the manipulator, to save weight",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "It flips over the top to score in the barge without turning the robot around",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Bring the cage in without moving the funnel out of the way",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "cage-latching climber at the funnel back",
+      "serves": [
+        "cage"
+      ],
+      "facts": [
+        {
+          "text": "It grabs only one bar of the cage, which makes alignment easier for the driver",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "A polycarbonate deflector centers the cage, then wheels bring it in",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Safe move and auto align",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Move elevator and arm without collisions and line up on the reef",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "interlocked motion and operator-chosen alignment",
+      "serves": [
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "Safe move checks listed cases, such as the elevator blocked at some arm angles, and moves one mechanism first so the other can go",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "The operator picks side, level and reef position, and the robot auto-aligns to it",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Auto align lets the driver shoot more precisely and from farther back",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Truss frame and undermounted electronics",
+      "solves": [
+        {
+          "text": "Make room for electronics and wiring underneath, away from impacts",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "custom frame pieces with electronics underneath",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Truss pieces replace a 2x1 cross member, cut off the corners by the swerve and join the two corners",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Printed grommets protect wires from sharp metal edges",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Motors in the carriage",
+      "because": "the manipulator swings faster without their weight",
+      "instead_of": "motors out on the manipulator",
+      "basis": "team",
+      "src": [
+        "s9"
+      ]
+    },
+    {
+      "choice": "One gearbox linking both elevator sides",
+      "because": "the height it reaches stays consistent",
+      "basis": "team",
+      "src": [
+        "s9"
+      ]
+    },
+    {
+      "choice": "Grab only one bar of the cage",
+      "because": "the driver can align more easily",
+      "basis": "team",
+      "src": [
+        "s9"
+      ]
+    },
+    {
+      "choice": "Truss cross pieces",
+      "because": "they leave plenty of room for undermounted electronics",
+      "instead_of": "a 2x1 cross member",
+      "basis": "team",
+      "src": [
+        "s9"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "Comp Robot",
+        "url": "https://cad.onshape.com/documents/4b02abefda59b1f999042049/w/bf40141578ddedca6b900af0/e/5e919c0d868af85f4440ce2a?renderMode=0&uiState=69613fa25b253e82ceb9a9c1",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "CAD listed on the team page",
+        "url": "https://cad.onshape.com/documents/4b02abefda59b1f999042049/w/bf40141578ddedca6b900af0",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "1706 2025 CAD/Code Release (Singularity)",
+        "url": "https://www.chiefdelphi.com/t/1706-2025-cad-code-release/510177",
+        "format": "thread",
+        "state": "listed",
+        "src": "s4",
+        "holds": "Onshape"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=SvBYbyf57zo",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "1706 Ratchet Rockers 2025 Robot Teaser: Singularity",
+        "url": "https://www.chiefdelphi.com/t/1706-ratchet-rockers-2025-robot-teaser-singularity/495400",
+        "format": "thread",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "FRC Team 1706 2025 Teaser",
+        "url": "https://www.youtube.com/watch?v=itYiwUKHKs0",
+        "format": "video",
+        "state": "listed",
+        "src": "s7"
+      },
+      {
+        "what": "Full robot CAD view with blue bumpers",
+        "url": "https://cad.onshape.com/documents/4b02abefda59b1f999042049/w/bf40141578ddedca6b900af0/e/5e919c0d868af85f4440ce2a?renderMode=0&uiState=69613fa25b253e82ceb9a9c1",
+        "img": "https://cad.onshape.com/api/thumbnails/d/4b02abefda59b1f999042049/w/bf40141578ddedca6b900af0/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "cad",
+        "hero": true
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/rr1706",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "1706 konshu (2025 code)",
+        "url": "https://github.com/rr1706/konshu",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s6"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: Chief Delphi title search for 1706 (14 results) and post search \"1706 binder\" (0 results); the team site was a placeholder"
+  ],
+  "results": {
+    "division": "Curie",
+    "division_opr": 100.33,
+    "opr_rank": 18,
+    "record": "35-10-1",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

@@ -1,0 +1,496 @@
+{
+  "id": "2025-2481",
+  "season": 2025,
+  "team": "2481",
+  "team_name": "Roboteers",
+  "robot_name": "The Flying Dutchman",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 2481 in 2025",
+      "url": "https://www.thebluealliance.com/team/2481/2025",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Archimedes Division 2025",
+      "url": "https://www.thebluealliance.com/event/2025arc",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "Roboteers Team 2481 2025 Robot Reveal",
+      "url": "https://www.chiefdelphi.com/t/roboteers-team-2481-2025-robot-reveal/498753",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "2481 Roboteers | Behind the Bumpers | 2025 FRC REEFSCAPE",
+      "url": "https://www.youtube.com/watch?v=9T0oLjzN-Go",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "2481 Roboteers | Behind the Glass Mic'd Match | FRC REEFSCAPE 2025 Arkansas",
+      "url": "https://www.youtube.com/watch?v=vlsD8PB74Ck",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "2481 Roboteers frc-2025",
+      "url": "https://github.com/Frc2481/frc-2025",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "History – Team 2481 Roboteers",
+      "url": "https://team2481.com/history/",
+      "publisher": "team2481.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "FRC Team 2481 Roboteers 2025 Reveal Video",
+      "url": "https://www.youtube.com/watch?v=NxCZMjOX7qA",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Pick up coral from the floor in any orientation, because the human player can roll it almost to the reef. The team had not known it could go quite that far.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "Fast coral cycles: the team found that floor pickup in any orientation would make cycle times significantly faster. For endgame it chose the deep cage because it is worth the most points.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "auto": [],
+    "cycle": [
+      {
+        "text": "The floor intake pushes coral into one orientation. The elevator goes to a preset level, the slide lines itself up from the reef tags without the driver, and the robot can shoot by itself when every set point is met.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "The climber hooks the deep cage and brings it to the middle of the robot, at its centre of gravity. Two ratchets hold the robot up.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "fallback": [],
+    "gave_up": [
+      {
+        "text": "The speaker says passive alignment can be a little faster than a motor, but the team struggled to come up with a passive design that worked.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "The climber motor was not strong enough to hold the robot, so two ratchets were added. The elevator went through many iterations to become more durable, including custom one-piece pulleys.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "47-4-0 in official play; won the Archimedes division; pick 1 of the Archimedes alliance on Einstein; ranked 11 of the pooled top 20 (OPR 105.95, Archimedes).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Custom swerve",
+      "solves": [
+        {
+          "text": "Bought modules still needed customising and their wheels slipped",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "drive"
+      ],
+      "type": "custom swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "A centre hub joins two gears, and swapping two gears changes the speed",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Built for more traction on the carpet so wheel odometry is more accurate",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lateral slide",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Line the scorer up with the reef without driver input",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "position",
+        "deliver",
+        "sense"
+      ],
+      "type": "motor-driven sideways slide on the scorer",
+      "serves": [
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "An X44 through a transmission runs a chain along a slide",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Two front Limelights angled toward the reef read its tags in almost any robot orientation",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "It lines up without driver input and can shoot automatically",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Coral ground intake",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Pick up coral in any orientation",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "ramp intake with guide wall, all rollers on one motor",
+      "serves": [
+        "reef-l1",
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "A guide wall pushes coral into one orientation",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A green wheel removes a dead zone",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A solid bottom roller kicks up coral lying perpendicular to the roller",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "No vertical rollers",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Algae intake",
+      "pieces": [
+        "algae"
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "algae intake from ground and reef",
+      "serves": [],
+      "facts": [
+        {
+          "text": "The team's history page lists algae intake from the ground and the reef",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elevator",
+      "pieces": [
+        "coral"
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "cascade elevator with belts and chains",
+      "serves": [
+        "reef-l1",
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "Belts and chains are used together, which helps with weight",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Custom pulleys are one piece, where bought ones are three",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Goes to preset levels; if the cameras see the robot is too far back it rises a little so coral still reaches the peg",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Many iterations and design changes to make it durable",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Hold the robot under a deep cage at its centre of gravity",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "deep-cage hook with ratchets",
+      "serves": [
+        "cage"
+      ],
+      "facts": [
+        {
+          "text": "Brings the cage to the middle of the robot",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Two ratchets hold the robot up and take stress off other parts",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The motor alone could not hold the robot",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Custom swerve",
+      "because": "two seasons of bought modules still needed customising, and the wheels slipped",
+      "instead_of": "off-the-shelf modules",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "Motor-driven slide for alignment",
+      "because": "a slide had worked for the team in 2019",
+      "instead_of": "passive alignment devices",
+      "cost": "passive devices can be a little faster",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "Ramp and one motor in the intake",
+      "because": "simplicity",
+      "instead_of": "vertical rollers",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "Belts and chains together in the elevator",
+      "because": "it helps with weight",
+      "instead_of": "only one or the other",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "Deep cage climb",
+      "because": "it is worth the most points",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Roboteers Team 2481 2025 Robot Reveal",
+        "url": "https://www.chiefdelphi.com/t/roboteers-team-2481-2025-robot-reveal/498753",
+        "format": "thread",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "2481 Roboteers | Behind the Bumpers | 2025 FRC REEFSCAPE",
+        "url": "https://www.youtube.com/watch?v=9T0oLjzN-Go",
+        "format": "video",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "2481 Roboteers | Behind the Glass Mic'd Match | FRC REEFSCAPE 2025 Arkansas",
+        "url": "https://www.youtube.com/watch?v=vlsD8PB74Ck",
+        "format": "video",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "History – Team 2481 Roboteers",
+        "url": "https://team2481.com/history/",
+        "format": "web page",
+        "state": "opened",
+        "src": "s7"
+      },
+      {
+        "what": "FRC Team 2481 Roboteers 2025 Reveal Video",
+        "url": "https://www.youtube.com/watch?v=NxCZMjOX7qA",
+        "format": "video",
+        "state": "listed",
+        "src": "s8"
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/frc2481",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "2481 Roboteers frc-2025",
+        "url": "https://github.com/Frc2481/frc-2025",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s6"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: Chief Delphi \"2481 binder\" post search, one open web search, 7 pages of the team site; none found",
+    "interview captions read, video not watched; unclear numbers left out"
+  ],
+  "results": {
+    "division": "Archimedes",
+    "division_opr": 105.95,
+    "opr_rank": 11,
+    "record": "47-4-0",
+    "einstein": {
+      "division": "Archimedes",
+      "role": "pick 1"
+    },
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

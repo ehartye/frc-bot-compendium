@@ -1,0 +1,616 @@
+{
+  "id": "2026-9496",
+  "season": 2026,
+  "team": "9496",
+  "team_name": "LYNK",
+  "robot_name": null,
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 9496 in 2026",
+      "url": "https://www.thebluealliance.com/team/9496/2026",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Galileo Division 2026",
+      "url": "https://www.thebluealliance.com/event/2026gal",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "9496 LYNK | Behind the Bumpers | FRC REBUILT Robot",
+      "url": "https://www.youtube.com/watch?v=FEDqE4uE8Dg",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "LYNK Build Logs repository",
+      "url": "https://github.com/LynkRobotics/Lynk-Build-Logs",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "9496 LYNK RobotCode2026Public",
+      "url": "https://github.com/LynkRobotics/RobotCode2026Public",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "FNC Championship Mic'd Up | 9496 LYNK | Behind the Glass",
+      "url": "https://www.youtube.com/watch?v=B0oK223ESPY",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/8Eh4Uct",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/nzcddgg",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Onshape document",
+      "url": "https://cad.onshape.com/documents/768d7890bafac55a2a891aae/w/a270c1901be101ad8a97909d/e/df73afab8b112242516b9ad0",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "LYNK 9496 | Build Log 2026, post 160",
+      "url": "https://www.chiefdelphi.com/t/lynk-9496-build-log-2026/511797/160",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "LYNK 9496 | Build Log 2026",
+      "url": "https://www.chiefdelphi.com/t/lynk-9496-build-log-2026/511797",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "Triple Neutral Zone Autos: An Update",
+      "url": "https://www.chiefdelphi.com/t/triple-neutral-zone-autos-an-update/519765",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "Successful Rebuilds, post 24",
+      "url": "https://www.chiefdelphi.com/t/successful-rebuilds/507401/24",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "Are rebuilds really good for competition, or really bad",
+      "url": "https://www.chiefdelphi.com/t/are-rebuilds-really-good-for-competition-or-really-bad/518293",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Minimize degrees of freedom: a simple robot leaves more time to tune. The team counts none on this one.",
+        "basis": "team",
+        "src": [
+          "s11"
+        ]
+      }
+    ],
+    "demand": [],
+    "auto": [
+      {
+        "text": "A maneuver in auto makes the unpowered intake drop out, and the hopper slides out with it.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "A forum post cites coordinated sweeps with 1690 and 2813 in Galileo qualification 87, a match it puts at 899 points.",
+        "basis": "observer",
+        "src": [
+          "s13"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "Fuel goes over the bumper, along a powered roller floor and an indexer, into a fixed shooter. The robot aims itself at the AprilTag, motor speed sets the shot, and LEDs count down the shift.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "In a mic'd match, calls to the driver include intake, pass, fill up, over the bump and shoot.",
+        "basis": "observer",
+        "src": [
+          "s7"
+        ]
+      }
+    ],
+    "endgame": [],
+    "fallback": [
+      {
+        "text": "Automatic aiming can be switched off if something goes wrong.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "In a mic'd match someone recalls an earlier final with the trench blocked: the robot went over the bump and lost vision for a couple of seconds.",
+        "basis": "observer",
+        "src": [
+          "s7"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "Ball agitation was not great, so the intake rollers pulse in and out while shooting. There were a few moments when folding the intake up would have avoided fouls and some cards.",
+        "basis": "team",
+        "src": [
+          "s11"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "By its third event the intake was at about version four or five and the hopper at four. Since the event before, its gear ratio had changed to about 2:1; an added net sped up intaking.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "Build log replies that read as the team's describe an early 26 x 26 test chassis and plans for skids.",
+        "basis": "observer",
+        "src": [
+          "s12"
+        ]
+      },
+      {
+        "text": "A forum list that expects mistakes counts it among 2026 rebuilds, without details.",
+        "basis": "observer",
+        "src": [
+          "s14"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "70-13-0 in official play; ranked 14 of the pooled top 20 (OPR 307.15, Galileo).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Intake",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Collect fuel over the bumper with no powered deployment",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "passive drop-out over-bumper roller intake",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Two rollers, the first covered in cat tongue, and two motors",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Gear ratio about 2:1",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A kicker based a lot on 254's helps prevent beaching",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "It cannot fold up, which in a few moments would have avoided fouls and some cards",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hopper",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Slide out with the intake during auto, with no power",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "retain"
+      ],
+      "type": "unpowered sliding hopper",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "An added net increased intake speed",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Roller floor and indexer",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Carry fuel from the intake to the shooter",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "powered roller floor",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Mostly inspired by 254's 2017 robot",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "About two Krakens run the first part and one X60 runs the indexer, with two passive rolling guides",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Running the intake rollers in and out agitates the fuel",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s11"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Agitation was not great",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Give consistent shots with nothing to change but motor speed and robot aim",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "fixed tube shooter with brass flywheels",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "About four X60s drive it through belts",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "An aluminum tube with a brass flywheel on each side",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "No adjustable hood and no kicker",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A forum post names the robot as a trench dumper with no powered degrees of freedom",
+          "basis": "observer",
+          "src": [
+            "s15"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automatic aiming",
+      "solves": [
+        {
+          "text": "Aim the robot so the driver only has to shoot",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "position"
+      ],
+      "type": "AprilTag turn-to-aim with pose cameras",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Two cameras, one for the side and one higher up, keep the robot's pose",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "It can be turned off",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Driver LEDs",
+      "solves": [
+        {
+          "text": "Help the driver know when to shoot",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "LED shift countdown",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "They count down the time left in a shift and flash blue around the hub's change of state",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Unpowered intake deployment",
+      "because": "fewer degrees of freedom keep the robot simple and leave time to tune, and there was no weight or space for another motor and chain",
+      "instead_of": "a powered intake",
+      "cost": "weaker ball agitation, and some fouls and cards that folding it would have avoided",
+      "basis": "team",
+      "src": [
+        "s11"
+      ]
+    },
+    {
+      "choice": "Fixed shooter with no adjustable hood",
+      "because": "the team minimizes degrees of freedom to keep its robots simple; shots change with motor speed and robot aim alone, which it calls extremely consistent",
+      "basis": "team",
+      "src": [
+        "s4",
+        "s11"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "Comp Robot",
+        "url": "https://cad.onshape.com/documents/768d7890bafac55a2a891aae/w/a270c1901be101ad8a97909d/e/df73afab8b112242516b9ad0",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "CAD listed on the team page",
+        "url": "https://cad.onshape.com/documents/768d7890bafac55a2a891aae/w/a270c1901be101ad8a97909d",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s1"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=Tbclswg5LmA",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "9496 LYNK | Behind the Bumpers | FRC REBUILT Robot",
+        "url": "https://www.youtube.com/watch?v=FEDqE4uE8Dg",
+        "format": "video",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "FNC Championship Mic'd Up | 9496 LYNK | Behind the Glass",
+        "url": "https://www.youtube.com/watch?v=B0oK223ESPY",
+        "format": "video",
+        "state": "listed",
+        "src": "s7"
+      },
+      {
+        "what": "Full robot, curved shooter back and netted hopper",
+        "url": "https://imgur.com/8Eh4Uct",
+        "img": "https://i.imgur.com/8Eh4Ucth.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Robot without bumpers, hopper full of yellow balls",
+        "url": "https://imgur.com/nzcddgg",
+        "img": "https://i.imgur.com/nzcddggh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s9",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot CAD, hopper open, orange bumpers",
+        "url": "https://cad.onshape.com/documents/768d7890bafac55a2a891aae/w/a270c1901be101ad8a97909d/e/df73afab8b112242516b9ad0",
+        "img": "https://cad.onshape.com/api/thumbnails/d/768d7890bafac55a2a891aae/w/a270c1901be101ad8a97909d/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s10",
+        "kind": "cad"
+      },
+      {
+        "what": "Early chassis bump test (not watched)",
+        "url": "https://youtube.com/shorts/ur_07Q-Ie1Q",
+        "format": "video",
+        "state": "listed",
+        "src": "s12"
+      },
+      {
+        "what": "Galileo qualification 87 with 1690 and 2813 (not watched)",
+        "url": "https://www.youtube.com/watch?v=Nl901weT_4M",
+        "format": "video",
+        "state": "listed",
+        "src": "s13"
+      }
+    ],
+    "documents": [
+      {
+        "what": "LYNK 9496 Build Log 2026",
+        "url": "https://www.chiefdelphi.com/t/lynk-9496-build-log-2026/511797",
+        "format": "thread",
+        "state": "listed",
+        "src": "s12"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/lynkrobotics",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "LYNK Build Logs repository",
+        "url": "https://github.com/LynkRobotics/Lynk-Build-Logs",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "9496 LYNK RobotCode2026Public",
+        "url": "https://github.com/LynkRobotics/RobotCode2026Public",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s6"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "interview captions from its third event, before the district championship; build log first page and post 160 only",
+    "binders: Chief Delphi searches for 9496 binder and 9496 in titles, one docs-site page"
+  ],
+  "results": {
+    "division": "Galileo",
+    "division_opr": 307.15,
+    "opr_rank": 14,
+    "record": "70-13-0",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

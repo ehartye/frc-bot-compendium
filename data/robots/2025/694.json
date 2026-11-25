@@ -1,0 +1,1149 @@
+{
+  "id": "2025-694",
+  "season": 2025,
+  "team": "694",
+  "team_name": "StuyPulse",
+  "robot_name": "Aunt Mary",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 694 in 2025",
+      "url": "https://www.thebluealliance.com/team/694/2025",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Daly Division 2025",
+      "url": "https://www.thebluealliance.com/event/2025dal",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "StuyPulse 694 Presents: Aunt Mary",
+      "url": "https://www.chiefdelphi.com/t/stuypulse-694-presents-aunt-mary-2025-robot-reveal/494300",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "694 2025 Robot Breakdown: Aunt Mary",
+      "url": "https://docs.google.com/document/d/1PLKGRJfcdsn7l3Puprn8VNfHZXdd0qusTU7GPKtgGEU/edit",
+      "publisher": "docs.google.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "694 StuyPulse 2025 Tech Binder: Aunt Mary",
+      "url": "https://docs.google.com/presentation/d/1s_U9d_HL5kcnSXfhK8LkODIbN81qvfXrugbYwAkdsmw/edit",
+      "publisher": "docs.google.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "StuyPulse Aunt-Mary (2025 code)",
+      "url": "https://github.com/StuyPulse/Aunt-Mary",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/0OfH69m",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Onshape document",
+      "url": "https://cad.onshape.com/documents/18f50fd4a2add97e0a4e653f/w/4b4f1ebd5782c937c9d60635/e/0ea3046218c2a2321d4d3068",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "FRC 694 StuyPulse 2025 Build Thread (first page)",
+      "url": "https://www.chiefdelphi.com/t/frc-694-stuypulse-2025-build-thread-open-alliance/477433",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "FRC 694 StuyPulse 2025 Build Thread, post 82",
+      "url": "https://www.chiefdelphi.com/t/frc-694-stuypulse-2025-build-thread-open-alliance/477433/82",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "FRC 694 StuyPulse 2025 Build Thread, post 94",
+      "url": "https://www.chiefdelphi.com/t/frc-694-stuypulse-2025-build-thread-open-alliance/477433/94",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "694 StuyPulse | Behind the Bumpers | 2025 FRC REEFSCAPE Robot",
+      "url": "https://www.youtube.com/watch?v=6-vO7mRoTBc",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Score as many L4 coral as possible in auto, and design the robot around doing that fast and stably.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "L4 coral ranked first among the scoring tasks: it scores most, especially in auto, and in week 1 the team figured a robot that does L4 could probably do L1 to L3 (its shooter prototype then could not score L1 at that angle). Scoring automation and the deep climb were also must-do. Shallow climb was dropped: without a deep climb they would rather score to the last second and park.",
+        "basis": "team",
+        "src": [
+          "s10",
+          "s6"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "Four-coral routines from both halves of the reef, with paths generated on the fly, plus a one-piece plus two-algae routine the binder calls consistent. The robot can nudge partners off the starting line for the mobility ranking point.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "One button aligns to the coral station; the funnel feeds the shooter and an infrared sensor sees the coral. One button per reef level raises arm and elevator, aligns to the closest branch or the side the joystick picks, and scores front or back. The arm stays up until the robot has backed clear.",
+        "basis": "team",
+        "src": [
+          "s6",
+          "s13"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "The deep cage goes into a hole in the robot. Hooks pull it to the center and lift the robot in under half a second, and their geometry and hard stops hold it there after the robot is disabled, without a ratchet.",
+        "basis": "team",
+        "src": [
+          "s6",
+          "s13"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "The climb buttons double as unjam buttons: one raises the elevator to free coral, the other reverses the shooter. Software can switch off a broken mechanism or camera without affecting the other subsystems.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "At the championship the team called its net scoring inaccurate, and it could not take algae from the ground to the net.",
+        "basis": "team",
+        "src": [
+          "s11"
+        ]
+      },
+      {
+        "text": "The donut climb needs a hole in the belly plate and, in early tests, about a quarter of the robot's area; the bicep climb was thought to have more potential for speed.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      },
+      {
+        "text": "Arm motors placed high for counterbalance raise the center of gravity.",
+        "basis": "team",
+        "src": [
+          "s13"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "In week 3 the coral shooter gained algae pickup and net scoring.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      },
+      {
+        "text": "The climb's planned 25:1 became 75:1.",
+        "basis": "team",
+        "src": [
+          "s10",
+          "s6"
+        ]
+      },
+      {
+        "text": "The shooter belt loosened over time and got a tensioner. Limelights overheated until each got a thermal pad, heat sink and fan.",
+        "basis": "team",
+        "src": [
+          "s13",
+          "s6"
+        ]
+      },
+      {
+        "text": "Offseason, after the championship: the end effector was rebuilt to lift algae higher and release it more gently.",
+        "basis": "team",
+        "src": [
+          "s12"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "47-8-0 in official play; ranked 4 of the pooled top 20 (OPR 114.11, Daly).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drivetrain",
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "WCP X2i modules, all Kraken X60",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Drive reduction",
+          "basis": "team",
+          "src": [
+            "s6"
+          ],
+          "value": 6.48,
+          "unit": ":1"
+        },
+        {
+          "text": "Turn reduction",
+          "basis": "team",
+          "src": [
+            "s6"
+          ],
+          "value": 12.1,
+          "unit": ":1"
+        },
+        {
+          "text": "Frame is 29 x 29 in; the drivetrain is sized to fit the donut climb and maximize the funnel",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Composite bumpers: 2.2 lb/ft^3 polyethylene foam with floor tile outside, on 18 mm birch",
+          "basis": "team",
+          "src": [
+            "s6",
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Funnel",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Accept coral over a wide range, with no dead zones, and move it quickly to the shooter",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "transfer"
+      ],
+      "type": "wide funnel with a powered belt wall",
+      "serves": [
+        "reef-l1",
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "Belt wall of double-sided belt, driven by a Kraken X60 at",
+          "basis": "team",
+          "src": [
+            "s6"
+          ],
+          "value": 3,
+          "unit": ":1"
+        },
+        {
+          "text": "A post that reads as the team's gives about 10 in tall and 19 in wide in week 3",
+          "basis": "observer",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "An infrared sensor quickly detects coral entering the shooter",
+          "basis": "team",
+          "src": [
+            "s6",
+            "s13"
+          ]
+        },
+        {
+          "text": "Planned logic: on a current spike the belt reverses for 0.5 to 1 s",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Polycarbonate plates are zip tied to the elevator to limit flex",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "The binder also gives an unjam button that raises the elevator to free coral from dead zones in the robot",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ground Intake",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Score L1 coral, which the coral prototypes did poorly, and collect algae from the ground",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "deliver"
+      ],
+      "type": "pivoting roller intake",
+      "serves": [
+        "reef-l1",
+        "processor"
+      ],
+      "facts": [
+        {
+          "text": "Coral from the ground goes to L1; algae from the ground or golf tee goes to the processor",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Pivot reduction, Kraken X60",
+          "basis": "team",
+          "src": [
+            "s6",
+            "s13"
+          ],
+          "value": 48,
+          "unit": ":1"
+        },
+        {
+          "text": "Roller reduction is 5:1 in the binder and about 2:1 in the interview",
+          "basis": "team",
+          "src": [
+            "s6",
+            "s13"
+          ]
+        },
+        {
+          "text": "2.25 in compliant wheels, 40A on the top roller and 35A on the bottom",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "A post that reads as the team's gives 25 in wide in week 3, and a theoretical 37 in because it funnels coral at the sides",
+          "basis": "observer",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "A spline links both plates so they turn by the same angle",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Mounting plates were reinforced with riveted 1/8 in angles after FEA",
+          "basis": "team",
+          "src": [
+            "s6",
+            "s13"
+          ]
+        },
+        {
+          "text": "It waits to rise until the robot is clear of a wall or the reef",
+          "basis": "team",
+          "src": [
+            "s6",
+            "s13"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Score coral, and take reef algae to the net or processor, while being as light as possible",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "deliver",
+        "retain",
+        "acquire"
+      ],
+      "type": "belt-driven roller shooter for coral that also takes algae",
+      "serves": [
+        "reef-l1",
+        "reef-branches",
+        "net",
+        "processor"
+      ],
+      "facts": [
+        {
+          "text": "Coral roller reduction, Kraken X60",
+          "basis": "team",
+          "src": [
+            "s6"
+          ],
+          "value": 3.67,
+          "unit": ":1"
+        },
+        {
+          "text": "Algae wheel reduction",
+          "basis": "team",
+          "src": [
+            "s6"
+          ],
+          "value": 8.15,
+          "unit": ":1"
+        },
+        {
+          "text": "Double-sided belt keeps it compact",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Swerve tread on the rollers tested very well for algae pickup; the offseason rebuild swapped the tread-covered wheels for 3 in compliant wheels",
+          "basis": "team",
+          "src": [
+            "s13",
+            "s6",
+            "s12"
+          ]
+        },
+        {
+          "text": "A beam break sees coral",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Pocketed 1/4 in polycarbonate plates for shock absorption and weight",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "A prototype scored L2, L3 and L4 at one angle, about 40 degrees from the ground; on the robot the arm sets the angle",
+          "basis": "team",
+          "src": [
+            "s10",
+            "s6"
+          ]
+        },
+        {
+          "text": "Net scoring was added with extra rollers and plates",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "A post that reads as the team's says the net scoring needed no extra motor",
+          "basis": "observer",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Barge shots were not accurate enough at the championship",
+          "basis": "team",
+          "src": [
+            "s11",
+            "s12"
+          ]
+        },
+        {
+          "text": "The belt loosened over time until a small bearing tensioner was added; the offseason rebuild was rerigged to prevent belt skipping",
+          "basis": "team",
+          "src": [
+            "s13",
+            "s12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arm",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Angle the shooter for L2 to L4 on both sides of the robot and L1 on the front",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "planetary sprocket pivot on a dead axle",
+      "serves": [
+        "reef-l1",
+        "reef-branches",
+        "net"
+      ],
+      "facts": [
+        {
+          "text": "Total reduction",
+          "basis": "team",
+          "src": [
+            "s6",
+            "s13"
+          ],
+          "value": 30,
+          "unit": ":1"
+        },
+        {
+          "text": "A 10T to 60T gear stage, then a 12T sprocket that rolls around a 60T sun sprocket",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "SplineXL dead axle with carbon fiber tube, fixed to the elevator plates",
+          "basis": "team",
+          "src": [
+            "s6",
+            "s13"
+          ]
+        },
+        {
+          "text": "FEA showed most strain on the spline and one plate, so that plate became 1/4 in",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Absolute encoder at 1:1",
+          "basis": "team",
+          "src": [
+            "s5",
+            "s6",
+            "s13"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Motors opposite the load sit high and raise the center of gravity",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elevator",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Reach scoring height while staying as light as possible",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "one-stage continuous elevator rigged inside the tubing",
+      "serves": [
+        "reef-branches",
+        "net"
+      ],
+      "facts": [
+        {
+          "text": "One Kraken X60 with an 18 mm belt inside the tube",
+          "basis": "team",
+          "src": [
+            "s6",
+            "s13"
+          ]
+        },
+        {
+          "text": "The binder gives a 12T pinion to a 52T gear; the interview caption reads about 50 to 14",
+          "basis": "team",
+          "src": [
+            "s6",
+            "s13"
+          ]
+        },
+        {
+          "text": "Extension in the week 4 design",
+          "basis": "team",
+          "src": [
+            "s10"
+          ],
+          "value": 29,
+          "unit": "in"
+        },
+        {
+          "text": "Week 4 design keeps 6 in or more of overlap between stages",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Many thin riveted gussets, with 1/2 in hex shaft struts for stability",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Hold the robot up after it is disabled without a ratchet",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "donut climb with over-center hooks",
+      "serves": [
+        "cage"
+      ],
+      "facts": [
+        {
+          "text": "Total reduction, Kraken X60",
+          "basis": "team",
+          "src": [
+            "s6",
+            "s13"
+          ],
+          "value": 75,
+          "unit": ":1"
+        },
+        {
+          "text": "Lifts the robot in less than",
+          "basis": "team",
+          "src": [
+            "s6"
+          ],
+          "value": 0.5,
+          "unit": "s"
+        },
+        {
+          "text": "Lift was designed at 5.621 in; the interview says about 5 in",
+          "basis": "team",
+          "src": [
+            "s10",
+            "s13"
+          ]
+        },
+        {
+          "text": "Hooks are 1/4 in 7075 aluminum with edges polished to cut friction",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Ground intake mounting plate and thin lexan plates funnel the cage passively",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Follows a Penn State Ri3D concept",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "A week 3 post that reads as the team's calls its Everybot-style cage funnel a huge space saver",
+          "basis": "observer",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "In week 1 its large footprint raised major concerns about space, especially for electronics",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "A reply that reads as the team's says the bumper ended close to the 2.5 in limit while climbing, with about 1/8 in of leeway",
+          "basis": "observer",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vision",
+      "solves": [
+        {
+          "text": "Align accurately while up against the reef",
+          "basis": "team",
+          "src": [
+            "s6",
+            "s10"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "two Limelight 4 cameras with AprilTags",
+      "serves": [
+        "reef-l1",
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "One camera faces the shooter side and one the funnel side",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "MT1 sets the gyro heading before the match, using two or more tags; MT2 takes over after it starts",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Coral station, processor and barge tags are ignored because they shift over an event",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Cameras are pitched to see a reef tag both against the reef and from as far away as possible",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Thermal pad, heat sink and 12 V fan stopped the overheating; the radio got the same",
+          "basis": "team",
+          "src": [
+            "s6",
+            "s13"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The funnel-side angle that suits the reef saw the station tags only from 45 to 50 in, in week 4",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Score Routines",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Let one driver run the robot, which leaves room for two human players",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "one-button scoring automation",
+      "serves": [
+        "reef-l1",
+        "reef-branches",
+        "net"
+      ],
+      "facts": [
+        {
+          "text": "One button per level; the robot picks the closest branch unless the joystick picks another",
+          "basis": "team",
+          "src": [
+            "s6",
+            "s13"
+          ]
+        },
+        {
+          "text": "The robot scores front or back depending on which end faces the reef",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Arm and elevator stay up until the robot has backed clear of the reef",
+          "basis": "team",
+          "src": [
+            "s6",
+            "s13"
+          ]
+        },
+        {
+          "text": "Arm gains change with the piece held, and lowering uses gentler limits",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electronics corner",
+      "solves": [
+        {
+          "text": "Keep electronics easy to reach when the climb takes the center of the robot",
+          "basis": "team",
+          "src": [
+            "s6",
+            "s10"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "vertical electronics under the funnel",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Two 1/16 in lexan plates open like a fridge door",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Two CAN chains: drive and elevator on one, the other mechanisms on the second",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Coral shooter",
+      "because": "in prototypes it scored L2 to L4 at one angle and tolerated almost any feed",
+      "instead_of": "a roller claw, which scored slower and needed a wrist or extra pivot for L1",
+      "cost": "it could not score L1 at that angle, and the final robot has an arm to angle it",
+      "basis": "team",
+      "src": [
+        "s10",
+        "s6"
+      ]
+    },
+    {
+      "choice": "Donut climb",
+      "because": "it was simpler, climbed higher in theory (6.255 in against 2 in or more; week 4 design 5.621 in), used one motor and was less affected by the center of gravity",
+      "instead_of": "a winch or bicep climb",
+      "cost": "a hole in the belly plate and a large footprint, though the team then counted it as the same space as the bicep climb",
+      "basis": "team",
+      "src": [
+        "s10"
+      ]
+    },
+    {
+      "choice": "Passive funnel with a belt wall",
+      "because": "the belt wall cleared the jam spot",
+      "instead_of": "an active funnel with horizontal rollers, which kept some dead spots",
+      "cost": "running the wall toward the entry slowed feeding, so they ran it toward the shooter and planned to reverse it on a jam",
+      "basis": "team",
+      "src": [
+        "s10"
+      ]
+    },
+    {
+      "choice": "Net scoring from the coral shooter",
+      "because": "all 18 algae fit in one alliance's net, and the week 3 idea was to add rollers and plates and roll algae over the pipe",
+      "cost": "net scoring was inaccurate at the championship; it used a catapult motion of the arm, which the offseason rebuild dropped",
+      "basis": "team",
+      "src": [
+        "s10",
+        "s11",
+        "s12"
+      ]
+    },
+    {
+      "choice": "One driver with automated scoring",
+      "because": "it allows two human players, so the driver must have less to think about",
+      "basis": "team",
+      "src": [
+        "s13"
+      ]
+    },
+    {
+      "choice": "Arm motors opposite the load",
+      "because": "they counterbalance the end effector, for fast rotation with minimum backlash",
+      "cost": "they raise the center of gravity",
+      "basis": "team",
+      "src": [
+        "s6",
+        "s13"
+      ]
+    },
+    {
+      "choice": "Hooks that lock without a ratchet",
+      "because": "the hook curves lock in place without power after the climb, so no ratchet or lock pin is needed",
+      "basis": "team",
+      "src": [
+        "s10",
+        "s13"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "StuyPulse 2025 CAD — HAL 2025",
+        "url": "https://cad.onshape.com/documents/18f50fd4a2add97e0a4e653f/w/4b4f1ebd5782c937c9d60635/e/0ea3046218c2a2321d4d3068",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "CAD listed on the team page",
+        "url": "https://cad.onshape.com/documents/18f50fd4a2add97e0a4e653f/w/4b4f1ebd5782c937c9d60635",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s1"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=6-vO7mRoTBc",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=oewXodMP0-0",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/IpLOkVM",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/NHf1L4L",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "StuyPulse 694 Presents: Aunt Mary",
+        "url": "https://www.chiefdelphi.com/t/stuypulse-694-presents-aunt-mary-2025-robot-reveal/494300",
+        "format": "thread",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "Full robot render, red bumpers",
+        "url": "https://imgur.com/0OfH69m",
+        "img": "https://i.imgur.com/0OfH69mh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "cad",
+        "hero": true
+      },
+      {
+        "what": "Robot layout sketch, lines only",
+        "url": "https://cad.onshape.com/documents/18f50fd4a2add97e0a4e653f/w/4b4f1ebd5782c937c9d60635/e/0ea3046218c2a2321d4d3068",
+        "img": "https://cad.onshape.com/api/thumbnails/d/18f50fd4a2add97e0a4e653f/w/4b4f1ebd5782c937c9d60635/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s9",
+        "kind": "drawing"
+      }
+    ],
+    "documents": [
+      {
+        "what": "694 2025 Robot Breakdown: Aunt Mary",
+        "url": "https://docs.google.com/document/d/1PLKGRJfcdsn7l3Puprn8VNfHZXdd0qusTU7GPKtgGEU/edit",
+        "format": "Google Doc",
+        "state": "opened",
+        "src": "s5"
+      },
+      {
+        "what": "694 StuyPulse 2025 Tech Binder: Aunt Mary",
+        "url": "https://docs.google.com/presentation/d/1s_U9d_HL5kcnSXfhK8LkODIbN81qvfXrugbYwAkdsmw/edit",
+        "format": "Google Slides",
+        "state": "opened",
+        "src": "s6"
+      },
+      {
+        "what": "Build thread (first page, posts 82 and 94 read)",
+        "url": "https://www.chiefdelphi.com/t/frc-694-stuypulse-2025-build-thread-open-alliance/477433",
+        "format": "thread",
+        "state": "listed",
+        "src": "s10"
+      },
+      {
+        "what": "Funnel test data",
+        "url": "https://docs.google.com/spreadsheets/d/1QNz-fIxWTxMHTVm_p_ABlKYQPoQah5q-Sjf6AieRWAM/edit",
+        "format": "Google Sheet",
+        "state": "listed",
+        "src": "s10"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/stuypulse",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "StuyPulse Aunt-Mary (2025 code)",
+        "url": "https://github.com/StuyPulse/Aunt-Mary",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s7"
+      },
+      {
+        "what": "Alpha bot code (an earlier test robot)",
+        "url": "https://github.com/StuyPulse/Alpha-Bot-2025",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s10"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)"
+  ],
+  "results": {
+    "division": "Daly",
+    "division_opr": 114.11,
+    "opr_rank": 4,
+    "record": "47-8-0",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}
