@@ -47,13 +47,73 @@
       "url": "https://www.chiefdelphi.com/t/why-2056-is-the-best-to-ever-do-it/496352/35",
       "publisher": "chiefdelphi.com",
       "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Team 2056 OP Robotics Technical Binder Release, post 31",
+      "url": "https://www.chiefdelphi.com/t/437553/31",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Team 2056 OP Robotics Technical Binder Release, post 14",
+      "url": "https://www.chiefdelphi.com/t/437553/14",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Team 2056 OP Robotics Technical Binder Release, post 10",
+      "url": "https://www.chiefdelphi.com/t/437553/10",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Team 2056 OP Robotics Technical Binder Release, post 19",
+      "url": "https://www.chiefdelphi.com/t/437553/19",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Team 2056 OP Robotics Technical Binder Release, post 12",
+      "url": "https://www.chiefdelphi.com/t/437553/12",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "Team 2056 OP Robotics Technical Binder Release, post 50",
+      "url": "https://www.chiefdelphi.com/t/437553/50",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "Team 2056 OP Robotics Technical Binder Release, post 24",
+      "url": "https://www.chiefdelphi.com/t/437553/24",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "Team 2056 OP Robotics Technical Binder Release, post 39",
+      "url": "https://www.chiefdelphi.com/t/437553/39",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "Team 2056 OP Robotics Technical Binder Release, post 44",
+      "url": "https://www.chiefdelphi.com/t/437553/44",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "Team 2056 OP Robotics Technical Binder Release, post 29",
+      "url": "https://www.chiefdelphi.com/t/437553/29",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
     }
   },
   "story": {
     "bet": [
       {
-        "text": "Design mechanisms that are easy to control, so time goes into scoring instead of arm tuning (an undated thread reply that reads as the team's).",
-        "basis": "observer",
+        "text": "Design mechanisms that are easy to control, so time goes into scoring instead of arm tuning.",
+        "basis": "team",
         "src": [
           "s6"
         ]
@@ -73,7 +133,8 @@
         "text": "Autonomous driving uses a simple drive-to-point algorithm on the team's own swerve odometry.",
         "basis": "team",
         "src": [
-          "s3"
+          "s3",
+          "s8"
         ]
       },
       {
@@ -84,10 +145,18 @@
         ]
       },
       {
-        "text": "No game piece detection is used (a thread reply that reads as the team's).",
-        "basis": "observer",
+        "text": "No game piece detection is used.",
+        "basis": "team",
         "src": [
-          "s4"
+          "s9",
+          "s8"
+        ]
+      },
+      {
+        "text": "Odometry is reset to the known spot when the second cone drops, so the third pickup starts without built-up error.",
+        "basis": "team",
+        "src": [
+          "s8"
         ]
       }
     ],
@@ -109,10 +178,10 @@
         ]
       },
       {
-        "text": "A thread reply that reads as the team's says the gyro reset was mainly for practice and used once or twice all season in matches.",
-        "basis": "observer",
+        "text": "The team says the gyro reset was mainly for practice and used once or twice all season in matches.",
+        "basis": "team",
         "src": [
-          "s4"
+          "s10"
         ]
       }
     ],
@@ -201,10 +270,11 @@
           ]
         },
         {
-          "text": "Odometry accuracy and repeatability improved significantly after adopting Phoenix Pro time sync (a thread reply that reads as the team's)",
-          "basis": "observer",
+          "text": "Odometry accuracy and repeatability improved significantly after adopting Phoenix Pro time sync; a later post calls the gain noticeable but tough to quantify",
+          "basis": "team",
           "src": [
-            "s4"
+            "s10",
+            "s8"
           ]
         },
         {
@@ -212,6 +282,13 @@
           "basis": "team",
           "src": [
             "s3"
+          ]
+        },
+        {
+          "text": "Tread wear made no noticeable difference to odometry between the two robots; the team says Colson wheels shrink as they wear and can throw odometry off",
+          "basis": "team",
+          "src": [
+            "s8"
           ]
         }
       ],
@@ -251,17 +328,24 @@
           ]
         },
         {
-          "text": "The top cover came off before and after each event to inspect the modules (a thread reply that reads as the team's)",
-          "basis": "observer",
+          "text": "The top cover came off before and after each event to inspect the modules",
+          "basis": "team",
           "src": [
-            "s4"
+            "s11"
           ]
         },
         {
-          "text": "The top screws catch about one thread and never came out; a boss with a heat-set insert was planned (a thread reply that reads as the team's)",
-          "basis": "observer",
+          "text": "The top screws catch about one thread and never came out; a boss with a heat-set insert was planned",
+          "basis": "team",
           "src": [
-            "s4"
+            "s12"
+          ]
+        },
+        {
+          "text": "Modules are greased with the middle cover on: grease goes in on the end of a zip tie, then the wheels are moved to spread it",
+          "basis": "team",
+          "src": [
+            "s14"
           ]
         }
       ]
@@ -353,10 +437,11 @@
           ]
         },
         {
-          "text": "Two 50 lb gas shocks counterbalance the shoulder and also hold it in the starting configuration; two magnets hold the elbow",
+          "text": "Two 50 lb gas shocks counterbalance the shoulder and go over center to hold it in the starting configuration; two magnets hold the elbow",
           "basis": "team",
           "src": [
-            "s3"
+            "s3",
+            "s13"
           ]
         },
         {
@@ -369,10 +454,10 @@
       ],
       "cost": [
         {
-          "text": "A crack and a slightly deformed tube wall showed at the top pivot of the practice robot, so 1/4 in aluminum plates were added (a thread reply that reads as the team's)",
-          "basis": "observer",
+          "text": "A crack and a slightly deformed tube wall showed at the top pivot of the practice robot, so 1/4 in aluminum plates were added with four #8 bolts",
+          "basis": "team",
           "src": [
-            "s4"
+            "s10"
           ]
         }
       ]
@@ -421,6 +506,14 @@
           "basis": "team",
           "src": [
             "s3"
+          ]
+        },
+        {
+          "text": "The retaining compound is Loctite 609, which fills sloppy hex bores where torque is lower; the wide hub on the final stage bolts to a stock gear",
+          "basis": "team",
+          "src": [
+            "s10",
+            "s6"
           ]
         }
       ]
@@ -527,6 +620,13 @@
           "src": [
             "s5"
           ]
+        },
+        {
+          "text": "It tolerates side to side misalignment and centers the cone itself; the team credits this, repeatable odometry and automatic alignment for its auto success",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
         }
       ],
       "cost": [
@@ -581,6 +681,13 @@
           "src": [
             "s3"
           ]
+        },
+        {
+          "text": "There is no color sensor; the driver picks cone or cube, because side roller speeds and top roller position differ by piece",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
         }
       ]
     },
@@ -624,10 +731,17 @@
           ]
         },
         {
-          "text": "The Limelight sits in the drivetrain, angled up (a thread reply that reads as the team's)",
-          "basis": "observer",
+          "text": "The Limelight sits in the drivetrain, angled up",
+          "basis": "team",
           "src": [
-            "s4"
+            "s9"
+          ]
+        },
+        {
+          "text": "Limelight target angles give distance and heading to the goal and odometry gives the robot pose; the same function runs in auto and teleop",
+          "basis": "team",
+          "src": [
+            "s8"
           ]
         }
       ]
@@ -636,8 +750,8 @@
       "name": "Arm and gripper control",
       "solves": [
         {
-          "text": "Control the arm with the easiest control scheme available (a thread reply that reads as the team's)",
-          "basis": "observer",
+          "text": "Control the arm with the easiest control scheme available",
+          "basis": "team",
           "src": [
             "s6"
           ]
@@ -658,8 +772,8 @@
           ]
         },
         {
-          "text": "No position feedforward on either joint; the gas springs also damp the shoulder, so gains and acceleration could be fairly aggressive (a thread reply that reads as the team's)",
-          "basis": "observer",
+          "text": "No position feedforward on either joint; the gas springs make the shoulder weight neutral and also damp it, so gains and acceleration could be fairly aggressive",
+          "basis": "team",
           "src": [
             "s6"
           ]
@@ -686,10 +800,65 @@
           ]
         },
         {
-          "text": "They flash white when a piece is held, for pickups the driver cannot see (a thread reply that reads as the team's)",
-          "basis": "observer",
+          "text": "They flash white when a piece is held, for pickups the driver cannot see",
+          "basis": "team",
           "src": [
-            "s4"
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Autonomous driving",
+      "solves": [
+        {
+          "text": "Make autos that are repeatable without path following",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "does": [
+        "drive",
+        "sense"
+      ],
+      "type": "drive-to-position function with slew rate limits",
+      "serves": [],
+      "facts": [
+        {
+          "text": "The function takes a field position and heading with maximum linear and rotational speeds, and computes the velocities to get there",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Autos string points together; an aggressive slew rate limiter on the field-relative velocities makes them look like a smooth path",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "It moves to the next point once within a tolerance of the last; if that is large enough the robot does not slow down first",
+          "basis": "team",
+          "src": [
+            "s16"
+          ]
+        },
+        {
+          "text": "Odometry drift is very repeatable, so the commanded positions are adjusted for it instead of correcting from 3D vision poses",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "For repeatable odometry the team rates wheel alignment, chassis squareness and flatness, wheel offsets and build quality as the biggest factors",
+          "basis": "team",
+          "src": [
+            "s8"
           ]
         }
       ]
@@ -714,9 +883,9 @@
     },
     {
       "choice": "Counterbalance and damp the shoulder",
-      "because": "designing the whole system to need no elaborate control scheme is often easier than tuning an advanced one (a thread reply that reads as the team's)",
+      "because": "designing the whole system to need no elaborate control scheme is often much easier than tuning an advanced one",
       "instead_of": "an elaborate control scheme",
-      "basis": "observer",
+      "basis": "team",
       "src": [
         "s6"
       ]
@@ -765,10 +934,28 @@
     },
     {
       "choice": "No game piece detection",
-      "because": "the Limelight is angled up at cone nodes and tags, and detection was not found necessary (a thread reply that reads as the team's)",
-      "basis": "observer",
+      "because": "the Limelight is angled up at cone nodes and tags, and the team did not find detection necessary",
+      "basis": "team",
       "src": [
-        "s4"
+        "s9"
+      ]
+    },
+    {
+      "choice": "Drive-to-position autos",
+      "because": "they are simpler to understand, implement and tune, and more flexible",
+      "instead_of": "more elaborate path following or planning",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    },
+    {
+      "choice": "Limelight target angles for aiming",
+      "because": "the simpler vision method runs at frame rates high enough to need no latency compensation",
+      "instead_of": "3D robot pose",
+      "basis": "team",
+      "src": [
+        "s8"
       ]
     }
   ],
@@ -783,10 +970,10 @@
       },
       {
         "what": "Onshape module covers based on the STLs, by someone not on the team",
-        "url": "https://tldsb.onshape.com/documents/6751825a3d4ad839c7e8d45e/w/72d56c81f3f17b36b895a3fd/e/49a0d5458a9d55ff93eb5abf",
+        "url": "https://cad.onshape.com/documents/6751825a3d4ad839c7e8d45e/w/72d56c81f3f17b36b895a3fd/e/49a0d5458a9d55ff93eb5abf?renderMode=0&uiState=6539a981fbbe314d3958b1a9",
         "format": "Onshape",
         "state": "listed",
-        "src": "s4"
+        "src": "s17"
       }
     ],
     "graphics": [
@@ -836,7 +1023,7 @@
         "what": "Binder release thread with questions and answers",
         "url": "https://www.chiefdelphi.com/t/team-2056-op-robotics-technical-binder-release/437553",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s4"
       }
     ],
@@ -849,11 +1036,11 @@
         "src": "s1"
       },
       {
-        "what": "Robot code: a reply in the binder thread that reads as the team's says there was no plan to release it",
+        "what": "Robot code: the team says in the binder thread that it had no plan to release it",
         "url": "https://www.chiefdelphi.com/t/team-2056-op-robotics-technical-binder-release/437553",
         "format": "thread",
         "state": "withheld",
-        "src": "s4"
+        "src": "s10"
       }
     ]
   },
@@ -861,7 +1048,7 @@
     "The Blue Alliance team page",
     "community CAD sheet",
     "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
-    "2023 technical binder, text extraction (figures not read); binder thread, first page and post 26",
+    "2023 technical binder, text extraction (figures not read); binder thread",
     "Chief Delphi post search \"2056 binder\" and team site crawl"
   ],
   "results": {

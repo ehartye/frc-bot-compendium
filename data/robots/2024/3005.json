@@ -84,10 +84,76 @@
       "publisher": "FUN Robotics Network (YouTube)",
       "read": "2026-11-25"
     },
-    "s15": {
-      "title": "Did the 2 passing bots strategy just break the game? (thread)",
-      "url": "https://www.chiefdelphi.com/t/did-the-2-passing-bots-strategy-by-citrus-and-cheesy-just-broke-the-game/461687",
-      "publisher": "Chief Delphi",
+    "s16": {
+      "title": "3005 RoboChargers 2024: Surge, post 10",
+      "url": "https://www.chiefdelphi.com/t/456489/10",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "3005 Robochargers public CAD release 2024, post 6",
+      "url": "https://www.chiefdelphi.com/t/462933/6",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "3005 Robochargers public CAD release 2024, post 7",
+      "url": "https://www.chiefdelphi.com/t/462933/7",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "3005 Robochargers public CAD release 2024, post 3",
+      "url": "https://www.chiefdelphi.com/t/462933/3",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "3005 Robochargers public CAD release 2024, post 10",
+      "url": "https://www.chiefdelphi.com/t/462933/10",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "3005 Robochargers public CAD release 2024, post 15",
+      "url": "https://www.chiefdelphi.com/t/462933/15",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s22": {
+      "title": "3005 RoboChargers 2024: Surge, post 11",
+      "url": "https://www.chiefdelphi.com/t/456489/11",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s23": {
+      "title": "3005 RoboChargers 2024: Surge, post 24",
+      "url": "https://www.chiefdelphi.com/t/456489/24",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s24": {
+      "title": "Did the 2 passing bots strategy by Citrus and Cheesy just broke the game?, post 5",
+      "url": "https://www.chiefdelphi.com/t/461687/5",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s25": {
+      "title": "Did the 2 passing bots strategy by Citrus and Cheesy just broke the game?, post 16",
+      "url": "https://www.chiefdelphi.com/t/461687/16",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s26": {
+      "title": "Did the 2 passing bots strategy by Citrus and Cheesy just broke the game?, post 51",
+      "url": "https://www.chiefdelphi.com/t/461687/51",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s27": {
+      "title": "3005 RoboChargers - High Fidelity Block CAD, post 1",
+      "url": "https://www.chiefdelphi.com/t/470483/1",
+      "publisher": "chiefdelphi.com",
       "read": "2026-11-25"
     }
   },
@@ -119,6 +185,13 @@
           "s14",
           "s6"
         ]
+      },
+      {
+        "text": "A commenter credits 3005, 2468 and 2158 with showing double passing first.",
+        "basis": "observer",
+        "src": [
+          "s26"
+        ]
       }
     ],
     "endgame": [
@@ -135,7 +208,8 @@
         "text": "At the Texas district championship, after a defender shut down the two partners feeding it and 118 had robot problems, a commenter says 3005 and 118 ran full-field cycles instead. Scores fell to the 90s from 120 or more, and they won their division. A later post cites a broken swerve pod on 6672 in finals two and three.",
         "basis": "observer",
         "src": [
-          "s15"
+          "s24",
+          "s25"
         ]
       }
     ],
@@ -191,10 +265,10 @@
           ]
         },
         {
-          "text": "Unsigned reply in the reveal thread: EH4 speed gearing",
+          "text": "A reply in the reveal thread gives EH4 speed gearing",
           "basis": "observer",
           "src": [
-            "s6"
+            "s16"
           ]
         },
         {
@@ -214,10 +288,24 @@
           "unit": "min"
         },
         {
-          "text": "Unsigned reply that reads as the team's: modules that have run for a while are taken off and kept as known-good spares",
-          "basis": "observer",
+          "text": "Modules that have run for a while are taken off and kept as known-good spares",
+          "basis": "team",
           "src": [
-            "s5"
+            "s17"
+          ]
+        },
+        {
+          "text": "By mid April the Vortex drive motors had no mechanical issues through two competitions and much practice, and early firmware bugs were fixed by updates, says a team writer who calls themselves biased",
+          "basis": "team",
+          "src": [
+            "s17"
+          ]
+        },
+        {
+          "text": "Unlike a usual season, no swerve module, motor or controller had needed replacing; fewer electrical connections with SPARK Flex helped",
+          "basis": "team",
+          "src": [
+            "s17"
           ]
         }
       ],
@@ -315,10 +403,17 @@
           ]
         },
         {
-          "text": "Unsigned reply that reads as the team's: surgical tubing counterbalances the launcher",
+          "text": "Surgical tubing counterbalances the launcher",
+          "basis": "team",
+          "src": [
+            "s18"
+          ]
+        },
+        {
+          "text": "A commenter reading the CAD notes the tensioner pivots around the jackshaft, which keeps it synced, tensioned and supported",
           "basis": "observer",
           "src": [
-            "s5"
+            "s19"
           ]
         }
       ]
@@ -353,24 +448,24 @@
           ]
         },
         {
-          "text": "Unsigned reply that reads as the team's: four Vortex motors have no mechanical linkage between the four corners",
-          "basis": "observer",
+          "text": "Four Vortex motors have no mechanical linkage between the four corners",
+          "basis": "team",
           "src": [
-            "s5"
+            "s20"
           ]
         },
         {
-          "text": "Unsigned reply that reads as the team's: a speed difference between the two sides puts spin on the note, which it says four motors are not needed for",
-          "basis": "observer",
+          "text": "A speed difference between the two sides puts spin on the note, which the team says four motors are not needed for",
+          "basis": "team",
           "src": [
-            "s5"
+            "s20"
           ]
         },
         {
-          "text": "Unsigned reply that reads as the team's: velocity stayed within about 1% of the setpoint, from about 1900 to 5100 RPM",
+          "text": "A reply in the CAD thread, written in the first person, says velocity got within about 1% of the setpoint on all four motors, from about 1900 to 5100 RPM",
           "basis": "observer",
           "src": [
-            "s5"
+            "s21"
           ]
         },
         {
@@ -378,6 +473,20 @@
           "basis": "team",
           "src": [
             "s14"
+          ]
+        },
+        {
+          "text": "A reply in the CAD thread says an encoder average depth of 8 and sample delta of 32 ms allowed faster response and higher gains, a trade of signal smoothness against quantization error",
+          "basis": "observer",
+          "src": [
+            "s21"
+          ]
+        },
+        {
+          "text": "A reply in the CAD thread says feedforward gains were set slightly low so the controller only corrects upward, and that performance would have been fine without this",
+          "basis": "observer",
+          "src": [
+            "s21"
           ]
         }
       ],
@@ -457,10 +566,10 @@
           ]
         },
         {
-          "text": "Unsigned reply that reads as the team's: a long part keeps notes from getting stuck on the climber",
-          "basis": "observer",
+          "text": "A long part keeps notes from getting stuck on the climber",
+          "basis": "team",
           "src": [
-            "s5"
+            "s18"
           ]
         }
       ]
@@ -498,10 +607,10 @@
           ]
         },
         {
-          "text": "Unsigned reply that reads as the team's: it gives little to no accuracy benefit over polycarbonate",
-          "basis": "observer",
+          "text": "It gives little to no accuracy benefit over polycarbonate",
+          "basis": "team",
           "src": [
-            "s6"
+            "s22"
           ]
         },
         {
@@ -509,6 +618,22 @@
           "basis": "team",
           "src": [
             "s14"
+          ]
+        },
+        {
+          "text": "A later reply says a standard CO2 laser cutter cuts it",
+          "basis": "observer",
+          "src": [
+            "s23"
+          ]
+        }
+      ],
+      "solves": [
+        {
+          "text": "Replace polycarbonate plates with something less dense and stiffer in tension",
+          "basis": "team",
+          "src": [
+            "s22"
           ]
         }
       ]
@@ -556,6 +681,14 @@
       "src": [
         "s11"
       ]
+    },
+    {
+      "choice": "High-fidelity block CAD",
+      "because": "it stays stable through frequent big changes, makes mid-design changes faster, lets less experienced designers work alone, and shows an accurate robot early enough to plan wiring",
+      "basis": "team",
+      "src": [
+        "s27"
+      ]
     }
   ],
   "assets": {
@@ -578,7 +711,7 @@
         "what": "3005 RoboChargers - High Fidelity Block CAD",
         "url": "https://www.chiefdelphi.com/t/3005-robochargers-high-fidelity-block-cad/470483",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s4",
         "holds": "Onshape"
       },
@@ -617,7 +750,7 @@
         "what": "3005 RoboChargers 2024: Surge",
         "url": "https://www.chiefdelphi.com/t/3005-robochargers-2024-surge/456489",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s6"
       },
       {

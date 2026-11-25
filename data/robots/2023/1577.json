@@ -3,7 +3,7 @@
   "season": 2023,
   "team": "1577",
   "team_name": "Steampunk",
-  "robot_name": null,
+  "robot_name": "Jesko",
   "variant": null,
   "sources": {
     "s1": {
@@ -40,6 +40,12 @@
       "title": "Behind the Bumpers | 1577 Steampunk | Charged Up Robot",
       "url": "https://www.youtube.com/watch?v=OeSR3pGzmSI",
       "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Steampunk 1577 robot reveal 2023 (post 3)",
+      "url": "https://www.chiefdelphi.com/t/429960/3",
+      "publisher": "chiefdelphi.com",
       "read": "2026-11-25"
     }
   },
@@ -107,6 +113,13 @@
           "basis": "team",
           "src": [
             "s6"
+          ]
+        },
+        {
+          "text": "Make it easier to score several cones in auto, without hurting the pickup the robot already had",
+          "basis": "team",
+          "src": [
+            "s7"
           ]
         }
       ],
@@ -299,11 +312,12 @@
   "decisions": [
     {
       "choice": "Add a floor intake after the first district event",
-      "because": "the robot lost many points because it could not pick up fallen cones",
+      "because": "the robot lost many points because it could not pick up fallen cones; the team also wanted an easier way to score several cones in auto, and this design did not hurt the pickup it already had",
       "instead_of": "taking only standing cones with the gripper",
       "basis": "team",
       "src": [
-        "s6"
+        "s6",
+        "s7"
       ]
     },
     {
@@ -360,7 +374,7 @@
         "what": "1577 robot reveal thread, 2023",
         "url": "https://www.chiefdelphi.com/t/steampunk-1577-robot-reveal-2023/429960",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s4"
       },
       {

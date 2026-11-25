@@ -53,6 +53,54 @@
       "url": "https://www.chiefdelphi.com/t/frc-team-359-2024-robot-reveal/455664/46",
       "publisher": "Chief Delphi",
       "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "FRC Team 359 2024 Robot Reveal, post 34",
+      "url": "https://www.chiefdelphi.com/t/455664/34",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "FRC Team 359 2024 Robot Reveal, post 32",
+      "url": "https://www.chiefdelphi.com/t/455664/32",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Come on, 359, post 213",
+      "url": "https://www.chiefdelphi.com/t/457446/213",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "FRC Team 359 2024 Robot Reveal, post 24",
+      "url": "https://www.chiefdelphi.com/t/455664/24",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "FRC Team 359 2024 Robot Reveal, post 25",
+      "url": "https://www.chiefdelphi.com/t/455664/25",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "FRC Team 359 2024 Robot Reveal, post 40",
+      "url": "https://www.chiefdelphi.com/t/455664/40",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "FRC Team 359 2024 Robot Reveal, post 43",
+      "url": "https://www.chiefdelphi.com/t/455664/43",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "Come on, 359, post 272",
+      "url": "https://www.chiefdelphi.com/t/457446/272",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -395,6 +443,13 @@
             "s4",
             "s8"
           ]
+        },
+        {
+          "text": "For the trap, its rollers help by pulling the note in after it pops out, at full speed or pulsed",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
         }
       ]
     },
@@ -495,14 +550,36 @@
           "src": [
             "s8"
           ]
+        },
+        {
+          "text": "After its first day of practice matches on real stages the team thought the only way into the trap was to roll the note in, and that shots ricocheting up into it would be impossible",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "The props are rods, not tubes; the team used such rods all 2023 season on its buddy climb, and in 2018 and 2020",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
         }
       ],
       "cost": [
         {
-          "text": "Trap scoring had trouble on real stages, where notes stuck to the polycarbonate more than at home",
+          "text": "In its first event practice matches trap scoring had trouble on real stages, where notes stuck to the polycarbonate more than at home; a week earlier the team had said 30 tries would make 30",
           "basis": "team",
           "src": [
-            "s9"
+            "s9",
+            "s10"
+          ]
+        },
+        {
+          "text": "At the Midwest event the left climber motor failed in match 13; with no time to replace it, the climbs in both finals matches went badly",
+          "basis": "team",
+          "src": [
+            "s12"
           ]
         }
       ]
@@ -575,11 +652,13 @@
   "decisions": [
     {
       "choice": "Build on 2910's robot",
-      "because": "it already had subsystems this game needed",
+      "because": "it already had subsystems this game needed, and experience with the multistage arm, pivot and intake made the short build possible",
       "basis": "team",
       "src": [
-        "s8"
-      ]
+        "s8",
+        "s13"
+      ],
+      "cost": "geometry to meet that year's rules and constraints made it harder than it seems"
     },
     {
       "choice": "One-stage telescoping arm",
@@ -629,6 +708,17 @@
       "src": [
         "s4"
       ]
+    },
+    {
+      "choice": "No pneumatics",
+      "because": "they add plumbing, weight and space for compressor and tanks, and one leak fails everything pneumatic",
+      "cost": "moving something between two positions is much easier with pneumatics",
+      "basis": "team",
+      "src": [
+        "s14",
+        "s15",
+        "s16"
+      ]
     }
   ],
   "assets": {
@@ -666,7 +756,7 @@
         "what": "FRC Team 359 - 2024 Robot Reveal (46)",
         "url": "https://www.chiefdelphi.com/t/frc-team-359-2024-robot-reveal/455664",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s3"
       },
       {
@@ -701,6 +791,13 @@
         "format": "web page",
         "state": "opened",
         "src": "s6"
+      },
+      {
+        "what": "2024 build season blog",
+        "url": "https://waialuarobotics.squarespace.com/2024-build-season",
+        "format": "web page",
+        "state": "listed",
+        "src": "s17"
       }
     ],
     "code": []

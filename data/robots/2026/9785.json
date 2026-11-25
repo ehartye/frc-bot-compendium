@@ -34,7 +34,15 @@
   "story": {
     "bet": [],
     "demand": [],
-    "auto": [],
+    "auto": [
+      {
+        "text": "A championship alliance partner says 2056 got in front of 9785 in a division playoff match against the first-seeded alliance, and 9785's auto was weaker for it.",
+        "basis": "observer",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
     "cycle": [
       {
         "text": "A championship alliance partner describes the teleop plan for itself and 9785 as the typical dumper plan: feed while the hub is inactive, dump while it is active.",
@@ -49,7 +57,7 @@
     "gave_up": [],
     "changed": [
       {
-        "text": "The partner calls 9785 a mid-season rebuild into a dumper. A forum list of 2026 rebuilds, which its author says may contain mistakes, also names the team.",
+        "text": "The partner calls 9785 a mid-season rebuild into a dumper with great throughput and great driving. A forum list of 2026 rebuilds, which its author says may contain mistakes, also names the team.",
         "basis": "observer",
         "src": [
           "s3",
@@ -57,7 +65,7 @@
         ]
       },
       {
-        "text": "In one division playoff match the robot died on the field with about 50 seconds left; the partner says the disconnection was quickly solved.",
+        "text": "9785 died on the field in one division playoff match with about 50 seconds left; the partner says it quickly solved its disconnection.",
         "basis": "observer",
         "src": [
           "s3"

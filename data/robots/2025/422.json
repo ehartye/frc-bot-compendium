@@ -65,6 +65,66 @@
       "url": "https://www.chiefdelphi.com/t/422-mech-tech-dragons-cad-tech-binder-release/501340",
       "publisher": "chiefdelphi.com",
       "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "422 Mech Tech Dragons CAD & Tech Binder Release, post 13",
+      "url": "https://www.chiefdelphi.com/t/501340/13",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "422 Mech Tech Dragons CAD & Tech Binder Release, post 15",
+      "url": "https://www.chiefdelphi.com/t/501340/15",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "422 Mech Tech Dragons CAD & Tech Binder Release, post 20",
+      "url": "https://www.chiefdelphi.com/t/501340/20",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "422 Mech Tech Dragons CAD & Tech Binder Release, post 10",
+      "url": "https://www.chiefdelphi.com/t/501340/10",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "422 Mech Tech Dragons CAD & Tech Binder Release, post 14",
+      "url": "https://www.chiefdelphi.com/t/501340/14",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "422 Mech Tech Dragons CAD & Tech Binder Release, post 22",
+      "url": "https://www.chiefdelphi.com/t/501340/22",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "422 Mech Tech Dragons CAD & Tech Binder Release, post 26",
+      "url": "https://www.chiefdelphi.com/t/501340/26",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "422 Mech Tech Dragons CAD & Tech Binder Release, post 17",
+      "url": "https://www.chiefdelphi.com/t/501340/17",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "422 Mech Tech Dragons CAD & Tech Binder Release, post 18",
+      "url": "https://www.chiefdelphi.com/t/501340/18",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "FRC 422 Robot Reveal (Wisp), post 4",
+      "url": "https://www.chiefdelphi.com/t/497928/4",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -77,10 +137,12 @@
     "gave_up": [],
     "changed": [
       {
-        "text": "Per unsigned replies that read as the team's, the intake pivot carried an algae roller at the first few events and a coral ground intake later. Pose estimation failed on day one of the first event, leaving no auto score and no autos; after a replay that night the team moved to 6328's estimator and has had no localization issues since.",
-        "basis": "observer",
+        "text": "The intake pivot carried an algae roller at the first few events and a coral ground intake later. Pose estimation failed on day one of the first event, leaving no auto score and no autos; after a replay that night the team moved to 6328's estimator and has had no localization issues since.",
+        "basis": "team",
         "src": [
-          "s10"
+          "s11",
+          "s15",
+          "s12"
         ]
       }
     ],
@@ -103,10 +165,10 @@
       ],
       "solves": [
         {
-          "text": "Unsigned reply, reads as the team's: balance rigidity and flex so a flap both holds coral and lets it through",
-          "basis": "observer",
+          "text": "Balance rigidity and flex so a flap both holds coral and lets it through",
+          "basis": "team",
           "src": [
-            "s10"
+            "s13"
           ]
         }
       ],
@@ -119,17 +181,17 @@
       "serves": [],
       "facts": [
         {
-          "text": "Unsigned reply, reads as the team's: the flap is 1/16 in polycarbonate",
-          "basis": "observer",
+          "text": "The flap is 1/16 in polycarbonate",
+          "basis": "team",
           "src": [
-            "s10"
+            "s13"
           ]
         },
         {
-          "text": "Unsigned reply, reads as the team's: the flap is just stiff enough to hold coral at low motor current, and higher current pushes the coral right through",
-          "basis": "observer",
+          "text": "The flap is just stiff enough to hold coral at low motor current, and higher current pushes the coral right through",
+          "basis": "team",
           "src": [
-            "s10"
+            "s13"
           ]
         }
       ]
@@ -143,17 +205,17 @@
       "serves": [],
       "facts": [
         {
-          "text": "Unsigned reply, reads as the team's: hubs were bought in the OD size and machined down to the ID size for a press fit",
-          "basis": "observer",
+          "text": "Hubs were bought in the OD size and machined down to the ID size for a press fit",
+          "basis": "team",
           "src": [
-            "s10"
+            "s11"
           ]
         },
         {
-          "text": "Unsigned reply, reads as the team's: a drilled and tapped set screw was added when the coral intake replaced the algae roller",
-          "basis": "observer",
+          "text": "A drilled and tapped set screw was added when the coral intake replaced the algae roller",
+          "basis": "team",
           "src": [
-            "s10"
+            "s11"
           ]
         }
       ]
@@ -170,17 +232,17 @@
       ],
       "facts": [
         {
-          "text": "Unsigned reply, reads as the team's: the belly pan bolts to a hidden 2x2 tube plug",
-          "basis": "observer",
+          "text": "The belly pan bolts to a hidden 2x2 tube plug",
+          "basis": "team",
           "src": [
-            "s10"
+            "s14"
           ]
         },
         {
-          "text": "Unsigned reply, reads as the team's: the ends of the gearbox plates key into the belly pan",
-          "basis": "observer",
+          "text": "The ends of the gearbox plates key into the belly pan",
+          "basis": "team",
           "src": [
-            "s10"
+            "s14"
           ]
         }
       ]
@@ -194,10 +256,10 @@
       "serves": [],
       "facts": [
         {
-          "text": "Unsigned reply, reads as the team's: a billet part was made earlier in the season, but the robot ran out of weight to install it",
-          "basis": "observer",
+          "text": "A billet part was made earlier in the season, but the robot ran out of weight to install it",
+          "basis": "team",
           "src": [
-            "s10"
+            "s14"
           ]
         }
       ]
@@ -206,10 +268,10 @@
       "name": "Pose estimation",
       "solves": [
         {
-          "text": "Unsigned reply, reads as the team's: the 2025 WPILib estimator often got stuck when bad reprojections were picked, with no good camera filtering at the time",
-          "basis": "observer",
+          "text": "The 2025 WPILib estimator often got stuck when bad reprojections were picked, with no good camera filtering at the time",
+          "basis": "team",
           "src": [
-            "s10"
+            "s12"
           ]
         }
       ],
@@ -220,26 +282,124 @@
       "serves": [],
       "facts": [
         {
-          "text": "Unsigned reply, reads as the team's: it locks into position way quicker than before",
-          "basis": "observer",
+          "text": "It locks into position way quicker than before",
+          "basis": "team",
           "src": [
-            "s10"
+            "s12"
           ]
         },
         {
-          "text": "Unsigned reply, reads as the team's: replaying the match that night showed the new code would have worked",
-          "basis": "observer",
+          "text": "Replaying the match that night showed the new code would have worked",
+          "basis": "team",
           "src": [
-            "s10"
+            "s12"
+          ]
+        },
+        {
+          "text": "It had worked at a practice field; at the event, more light and the lowest shutter speed gave many more vision measurements while moving",
+          "basis": "team",
+          "src": [
+            "s15",
+            "s12"
+          ]
+        },
+        {
+          "text": "The team also used that estimator in 2024, and thinks it handles past tag measurements better, without math to show it",
+          "basis": "team",
+          "src": [
+            "s12"
           ]
         }
       ],
       "cost": [
         {
-          "text": "Unsigned reply, reads as the team's: it takes more CPU time, more than reasonable after a little tuning",
+          "text": "It takes more CPU time, though a little tuning made that acceptable",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elevator control",
+      "solves": [
+        {
+          "text": "Move smoothly up and down through the stages",
+          "basis": "team",
+          "src": [
+            "s16"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "PID on built-in motor encoders",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Position uses only the encoders in the Krakens, with no motion profile: PID plus a gravity term",
+          "basis": "team",
+          "src": [
+            "s16"
+          ]
+        },
+        {
+          "text": "Three gain slots switch with the stage, so the gravity term grows on the second and third stages",
+          "basis": "team",
+          "src": [
+            "s16"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Gains chosen for quick movement make it loud",
+          "basis": "team",
+          "src": [
+            "s16"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tie rods",
+      "does": [
+        "structure"
+      ],
+      "type": "carbon fiber tubes with turned end caps",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Custom aluminum end caps, turned on a lathe, are epoxied into the tubes",
+          "basis": "team",
+          "src": [
+            "s17"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Batteries",
+      "does": [
+        "structure"
+      ],
+      "type": "match batteries",
+      "serves": [],
+      "facts": [
+        {
+          "text": "They failed after day two of the district championship, with 10 or more brownouts per match in eliminations; some were borrowed for the last few matches",
+          "basis": "team",
+          "src": [
+            "s18"
+          ]
+        },
+        {
+          "text": "A reply to a photo of a corroded battery says its case had cracked slightly, likely from overtightened terminal nuts",
           "basis": "observer",
           "src": [
-            "s10"
+            "s19"
           ]
         }
       ]
@@ -248,30 +408,31 @@
   "decisions": [
     {
       "choice": "Switch to 6328's pose estimator during the first event",
-      "because": "replay of the failed match showed it worked, per an unsigned reply that reads as the team's",
+      "because": "replay of the failed match showed it worked",
       "instead_of": "the 2025 WPILib pose estimator",
-      "cost": "more CPU time, more than reasonable after a little tuning",
-      "basis": "observer",
+      "cost": "more CPU time, which a little tuning made acceptable",
+      "basis": "team",
       "src": [
-        "s10"
+        "s15",
+        "s12"
       ]
     },
     {
       "choice": "Set screw in the intake pivot hub",
-      "because": "it is more secure for the coral intake, per an unsigned reply that reads as the team's",
+      "because": "it is more secure for the coral intake",
       "instead_of": "the press fit alone, good enough for the algae roller",
-      "basis": "observer",
+      "basis": "team",
       "src": [
-        "s10"
+        "s11"
       ]
     },
     {
       "choice": "Strap and zip tie for the battery",
-      "because": "the robot ran out of weight, per an unsigned reply that reads as the team's",
+      "because": "the robot ran out of weight",
       "instead_of": "a billet part already made",
-      "basis": "observer",
+      "basis": "team",
       "src": [
-        "s10"
+        "s14"
       ]
     }
   ],
@@ -311,7 +472,7 @@
         "what": "FRC 422 Robot Reveal (Wisp)",
         "url": "https://www.chiefdelphi.com/t/frc-422-robot-reveal/497928",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s4"
       },
       {
@@ -393,6 +554,20 @@
         "format": "video",
         "state": "listed",
         "src": "s5"
+      },
+      {
+        "what": "Reveal video",
+        "url": "https://youtu.be/vVE-Cu8ELMs",
+        "format": "video",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "Short robot video posted in the reveal thread",
+        "url": "https://youtube.com/shorts/3kCjyk4nWHw",
+        "format": "video",
+        "state": "listed",
+        "src": "s20"
       }
     ],
     "documents": [],

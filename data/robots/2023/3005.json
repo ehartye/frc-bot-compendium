@@ -71,6 +71,102 @@
       "url": "https://www.youtube.com/watch?v=GBdY-TMNkeI",
       "publisher": "FRC3005 RoboChargers (YouTube)",
       "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "3005 RoboChargers CAD Release 2023, post 6",
+      "url": "https://www.chiefdelphi.com/t/434083/6",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "3005 RoboChargers CAD Release 2023, post 10",
+      "url": "https://www.chiefdelphi.com/t/434083/10",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "3005 RoboChargers CAD Release 2023, post 7",
+      "url": "https://www.chiefdelphi.com/t/434083/7",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "3005 RoboChargers 2023: AMP, post 12",
+      "url": "https://www.chiefdelphi.com/t/428495/12",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "3005 RoboChargers CAD Release 2023, post 3",
+      "url": "https://www.chiefdelphi.com/t/434083/3",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "3005 RoboChargers 2023: AMP, post 19",
+      "url": "https://www.chiefdelphi.com/t/428495/19",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "3005 RoboChargers 2023: AMP, post 13",
+      "url": "https://www.chiefdelphi.com/t/428495/13",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "3005 RoboChargers CAD Release 2023, post 13",
+      "url": "https://www.chiefdelphi.com/t/434083/13",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s22": {
+      "title": "3005 RoboChargers CAD Release 2023, post 11",
+      "url": "https://www.chiefdelphi.com/t/434083/11",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s23": {
+      "title": "Thread on the best robots of 2023, post 17",
+      "url": "https://www.chiefdelphi.com/t/444588/17",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s24": {
+      "title": "Thread on the best robots of 2023, post 41",
+      "url": "https://www.chiefdelphi.com/t/444588/41",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s25": {
+      "title": "3005 RoboChargers 2023: AMP, post 24",
+      "url": "https://www.chiefdelphi.com/t/428495/24",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s26": {
+      "title": "3005 RoboChargers 2023: AMP, post 26",
+      "url": "https://www.chiefdelphi.com/t/428495/26",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s27": {
+      "title": "3005 RoboChargers 2023: AMP, post 28",
+      "url": "https://www.chiefdelphi.com/t/428495/28",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s28": {
+      "title": "3005 RoboChargers CAD Release 2023, post 8",
+      "url": "https://www.chiefdelphi.com/t/434083/8",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s29": {
+      "title": "3005 RoboChargers 2023: AMP, post 33",
+      "url": "https://www.chiefdelphi.com/t/428495/33",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -100,6 +196,14 @@
         "basis": "team",
         "src": [
           "s11"
+        ]
+      },
+      {
+        "text": "One scouter's hand count of its championship qualification matches averages 2.5 pieces in auto and 9.1 in teleop.",
+        "basis": "observer",
+        "src": [
+          "s23",
+          "s24"
         ]
       }
     ],
@@ -182,26 +286,63 @@
           ]
         },
         {
-          "text": "Unsigned reply that reads as the team's: two turnbuckles tension the pivot chain by turning the whole gearbox about the round cross tube at the tower base",
-          "basis": "observer",
+          "text": "Two turnbuckles tension the pivot chain by turning the whole gearbox about a round cross tube",
+          "basis": "team",
           "src": [
-            "s4"
+            "s14",
+            "s15"
           ]
         },
         {
-          "text": "Unsigned reply that reads as the team's: the gearbox mount is a slip fit on that tube, with collars to hold it along the tube",
+          "text": "A reply that reads as the team's says the gearbox mount is a slip fit on that tube, with collars to hold it along the tube and a little side to side play to adjust tracking",
           "basis": "observer",
           "src": [
-            "s4"
+            "s16"
+          ]
+        },
+        {
+          "text": "The same reply says this was a little easier than a rigid mount, and that the cross tube was wanted for structure anyway",
+          "basis": "observer",
+          "src": [
+            "s16"
+          ]
+        },
+        {
+          "text": "A chain bolted to the 1x1 moving stage and a sprocket work like a rack and pinion to extend the telescope",
+          "basis": "team",
+          "src": [
+            "s25"
+          ]
+        },
+        {
+          "text": "A push-style gas spring acts on the arm; it damps a little but is mostly a spring",
+          "basis": "team",
+          "src": [
+            "s26",
+            "s27"
+          ]
+        },
+        {
+          "text": "The idea of tensioning by pivoting the gearbox comes from heavy equipment, where belts are commonly tensioned that way",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "A reader of the CAD says the gearbox for the extension is built into the sprocket",
+          "basis": "observer",
+          "src": [
+            "s28"
           ]
         }
       ],
       "cost": [
         {
-          "text": "Unsigned reply that reads as the team's: the arm's speed puts a lot of force in the chain, so its tension would need tweaking",
+          "text": "A reply that reads as the team's says the arm's speed puts a lot of force in the chain, so they knew its tension would need tweaking",
           "basis": "observer",
           "src": [
-            "s4"
+            "s16"
           ]
         }
       ]
@@ -284,28 +425,28 @@
           ]
         },
         {
-          "text": "Whole robot without ballast, in an unsigned reply that reads as the team's, about",
-          "basis": "observer",
+          "text": "Whole robot without ballast, about",
+          "basis": "team",
           "src": [
-            "s6"
+            "s17"
           ],
           "value": 60,
           "unit": "lb"
         },
         {
-          "text": "Whole robot with ballast at that time, in the same reply",
-          "basis": "observer",
+          "text": "Whole robot with ballast at the time of its reveal",
+          "basis": "team",
           "src": [
-            "s6"
+            "s17"
           ],
           "value": 81.8,
           "unit": "lb"
         },
         {
-          "text": "Unsigned reply that reads as the team's: printed parts are almost all PLA or PLA+; a few are Markforged Onyx where it matters, such as the cable-chain support on the telescope",
-          "basis": "observer",
+          "text": "Printed parts are almost all PLA or PLA+; a few are Markforged Onyx where it matters, such as the cable-chain support on the telescope",
+          "basis": "team",
           "src": [
-            "s4"
+            "s18"
           ]
         }
       ]
@@ -314,10 +455,10 @@
       "name": "Cable carrier",
       "solves": [
         {
-          "text": "Unsigned reply that reads as the team's: carry wires into a sheath and back without a spring",
-          "basis": "observer",
+          "text": "Carry wires into a sheath and back without a spring",
+          "basis": "team",
           "src": [
-            "s6"
+            "s19"
           ]
         }
       ],
@@ -328,24 +469,24 @@
       "serves": [],
       "facts": [
         {
-          "text": "Unsigned reply that reads as the team's: a bend down the length makes the strip rigid when straight and flexible once bent",
-          "basis": "observer",
+          "text": "A bend down the length makes the strip rigid when straight and flexible once bent",
+          "basis": "team",
           "src": [
-            "s6"
+            "s20"
           ]
         },
         {
-          "text": "Unsigned reply that reads as the team's: no spring pushes it into its sheath, and the bend keeps it from bending the wrong way",
-          "basis": "observer",
+          "text": "No spring pushes it into its sheath; the bend gives the stiffness and keeps it from bending the wrong way",
+          "basis": "team",
           "src": [
-            "s6"
+            "s19"
           ]
         },
         {
-          "text": "Unsigned reply that reads as the team's: holes in the strip are only for zip ties, and the method is credited to 971",
-          "basis": "observer",
+          "text": "Holes in the strip are only for zip ties, and the method is credited to 971",
+          "basis": "team",
           "src": [
-            "s6"
+            "s20"
           ]
         }
       ]
@@ -359,10 +500,28 @@
       "serves": [],
       "facts": [
         {
-          "text": "Unsigned reply that reads as the team's: Slide-Snap latches, part 1872A111, with bushings drilled out for #10-32 bolts at the frame and M3 at the bumper",
-          "basis": "observer",
+          "text": "Slide-Snap latches (a question names McMaster 1872A111), with bushings drilled out for #10-32 bolts at the frame and M3 bolts at the bumper brackets",
+          "basis": "team",
           "src": [
-            "s4"
+            "s21",
+            "s22"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Light bars",
+      "does": [
+        "sense"
+      ],
+      "type": "addressable LEDs in diffuser tubes",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Sanded polycarbonate tubes with 3D printed endcaps and addressable LEDs taped inside",
+          "basis": "team",
+          "src": [
+            "s29"
           ]
         }
       ]
@@ -380,11 +539,11 @@
     },
     {
       "choice": "Arm gearbox pivots on a structural cross tube",
-      "because": "unsigned replies that read as the team's say the tube was wanted anyway, the chain needs retensioning, and rotation keeps shafts parallel with fewer, simpler parts",
-      "instead_of": "a rigid mount or a linear adjuster",
-      "basis": "observer",
+      "because": "it is easier to keep the shafts parallel while adjusting, and rotation usually means fewer, simpler parts",
+      "instead_of": "a linear adjustment",
+      "basis": "team",
       "src": [
-        "s4"
+        "s15"
       ]
     },
     {
@@ -405,11 +564,11 @@
     },
     {
       "choice": "A short list of bolt sizes",
-      "because": "it is easier for the pit crew, says an unsigned reply that reads as the team's",
+      "because": "it is easier for the pit crew",
       "instead_of": "smaller bolts that would fit the latches",
-      "basis": "observer",
+      "basis": "team",
       "src": [
-        "s4"
+        "s21"
       ]
     }
   ],
@@ -472,7 +631,7 @@
         "what": "3005 RoboChargers 2023: AMP",
         "url": "https://www.chiefdelphi.com/t/3005-robochargers-2023-amp/428495",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s6"
       },
       {

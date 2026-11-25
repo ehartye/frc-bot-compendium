@@ -35,6 +35,12 @@
       "url": "https://www.youtube.com/watch?v=vvNEMzutrEE",
       "publisher": "FUN Robotics Network",
       "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "33 The Killer Bees: 2024 Robot Buzz XXIX, post 16",
+      "url": "https://www.chiefdelphi.com/t/456707/16",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -58,10 +64,10 @@
     ],
     "auto": [
       {
-        "text": "An unsigned update that reads as the team's says the auto path ended behind the truss in a few championship matches and the shots still went in.",
-        "basis": "observer",
+        "text": "The auto path ended behind the truss in a few championship matches and the shots still went in.",
+        "basis": "team",
         "src": [
-          "s3"
+          "s6"
         ]
       }
     ],
@@ -74,19 +80,19 @@
         ]
       },
       {
-        "text": "Per an unsigned update that reads as the team's, the Livonia shooter was consistent back to the wing line.",
-        "basis": "observer",
+        "text": "From Livonia on, the new shooter was more consistent back to the wing line.",
+        "basis": "team",
         "src": [
-          "s3"
+          "s6"
         ]
       }
     ],
     "endgame": [
       {
-        "text": "Per an unsigned update that reads as the team's, a fast last-second side climb from Livonia on: a mast whose spring-loaded hook pops out and grabs one chain link.",
-        "basis": "observer",
+        "text": "From Livonia on, a fast last-second side climb: a mast whose spring-loaded hook pops out and grabs one chain link.",
+        "basis": "team",
         "src": [
-          "s3"
+          "s6"
         ]
       }
     ],
@@ -116,10 +122,10 @@
         ]
       },
       {
-        "text": "Per an unsigned update that reads as the team's, Livonia brought a new shooter and the climb, the state championship a fourth Limelight, and a full-width compliant roller replaced intake flappers that let notes fly off on new carpet.",
-        "basis": "observer",
+        "text": "Livonia brought a new shooter and the climb, the state championship a fourth Limelight, and a full-width compliant roller replaced intake flappers that let notes fly off on new carpet.",
+        "basis": "team",
         "src": [
-          "s3"
+          "s6"
         ]
       }
     ],
@@ -166,10 +172,10 @@
           ]
         },
         {
-          "text": "Unsigned update, reads as the team's: a full-width compliant front roller replaced the vertical flappers after week 1 and worked for the rest of the season",
-          "basis": "observer",
+          "text": "A full-width compliant front roller replaced the vertical flappers after week 1 and worked for the rest of the season",
+          "basis": "team",
           "src": [
-            "s3"
+            "s6"
           ]
         },
         {
@@ -182,10 +188,10 @@
       ],
       "cost": [
         {
-          "text": "Unsigned update, reads as the team's: the first version's flappers worked in the shop, but new notes on new carpet flew away",
-          "basis": "observer",
+          "text": "The first version's flappers worked in the shop, but with new notes on new carpet the notes flew away",
+          "basis": "team",
           "src": [
-            "s3"
+            "s6"
           ]
         }
       ]
@@ -224,7 +230,7 @@
           "basis": "inference",
           "src": [
             "s5",
-            "s3"
+            "s6"
           ]
         }
       ]
@@ -236,10 +242,10 @@
       ],
       "solves": [
         {
-          "text": "Unsigned update, reads as the team's: shoot consistently from as far back as the wing line",
-          "basis": "observer",
+          "text": "Shoot more consistently back to the wing line",
+          "basis": "team",
           "src": [
-            "s3"
+            "s6"
           ]
         }
       ],
@@ -252,19 +258,26 @@
       ],
       "facts": [
         {
-          "text": "Unsigned update, reads as the team's: a tab-and-slot polycarbonate box with a Teflon skin compresses the note side to side to this width",
-          "basis": "observer",
+          "text": "A tab-and-slot polycarbonate box with a Teflon skin compresses the note side to side to this width",
+          "basis": "team",
           "src": [
-            "s3"
+            "s6"
           ],
           "value": 12,
           "unit": "in"
         },
         {
-          "text": "Unsigned update, reads as the team's: four Kraken X60s let each set of wheels be driven independently",
-          "basis": "observer",
+          "text": "Four Kraken X60s let each set of wheels be driven independently",
+          "basis": "team",
           "src": [
-            "s3"
+            "s6"
+          ]
+        },
+        {
+          "text": "A whole new shooter, used at Livonia, the state championship and the championship",
+          "basis": "team",
+          "src": [
+            "s6"
           ]
         }
       ]
@@ -311,10 +324,10 @@
       "name": "Side climb",
       "solves": [
         {
-          "text": "Unsigned update, reads as the team's: improve the chance of ranking high after dropping the trap",
-          "basis": "observer",
+          "text": "Improve the chance of ranking high after dropping the trap right before Kettering",
+          "basis": "team",
           "src": [
-            "s3"
+            "s6"
           ]
         }
       ],
@@ -327,17 +340,17 @@
       ],
       "facts": [
         {
-          "text": "Unsigned update, reads as the team's: the hook pops out and grabs a single chain link, similar to 1678 and other teams",
-          "basis": "observer",
+          "text": "The hook pops out and grabs a single chain link, similar to 1678 and other teams",
+          "basis": "team",
           "src": [
-            "s3"
+            "s6"
           ]
         },
         {
-          "text": "Unsigned update, reads as the team's: the mast is similar to the team's 2020 robot",
-          "basis": "observer",
+          "text": "The mast is similar to the team's 2020 robot",
+          "basis": "team",
           "src": [
-            "s3"
+            "s6"
           ]
         }
       ]
@@ -374,10 +387,10 @@
           "unit": "ft"
         },
         {
-          "text": "Unsigned update, reads as the team's: a fourth Limelight in the centre was added for the state championship for TargetPose",
-          "basis": "observer",
+          "text": "A fourth Limelight in the center was added for the state championship for TargetPose",
+          "basis": "team",
           "src": [
-            "s3"
+            "s6"
           ]
         },
         {
@@ -386,14 +399,21 @@
           "src": [
             "s5"
           ]
+        },
+        {
+          "text": "Redefined targeting and localization in auto and teleop greatly increased shot accuracy; the team calls this, with the fourth Limelight, its biggest change between the state championship and the championship",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
         }
       ],
       "cost": [
         {
-          "text": "Unsigned update, reads as the team's: hours and hours of software development",
-          "basis": "observer",
+          "text": "Hours and hours of software development",
+          "basis": "team",
           "src": [
-            "s3"
+            "s6"
           ]
         }
       ]
@@ -444,19 +464,19 @@
     },
     {
       "choice": "Full-width compliant front roller",
-      "because": "the flappers let notes fly off on new carpet, per an unsigned update that reads as the team's",
+      "because": "the flappers let notes fly off with new notes on new carpet after week 1",
       "instead_of": "vertical flappers",
-      "basis": "observer",
+      "basis": "team",
       "src": [
-        "s3"
+        "s6"
       ]
     },
     {
       "choice": "New shooter with independently driven wheels",
-      "because": "it made shots more consistent back to the wing line, per an unsigned update that reads as the team's",
-      "basis": "observer",
+      "because": "it made shots more consistent back to the wing line",
+      "basis": "team",
       "src": [
-        "s3"
+        "s6"
       ]
     }
   ],
@@ -481,7 +501,7 @@
         "what": "33 The Killer Bees: 2024 Robot Buzz XXIX",
         "url": "https://www.chiefdelphi.com/t/33-the-killer-bees-2024-robot-buzz-xxix/456707",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s3"
       },
       {

@@ -59,6 +59,24 @@
       "url": "https://www.youtube.com/watch?v=bGivb7bY7kI",
       "publisher": "FUN Robotics Network (auto-caption transcript)",
       "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Team 604 Quixilver Presents: Our 2024 Robot CAD and Code Release (post 5)",
+      "url": "https://www.chiefdelphi.com/t/477799/5",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Team 604 Quixilver Presents: Our 2024 Robot CAD and Code Release (post 3)",
+      "url": "https://www.chiefdelphi.com/t/477799/3",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Team 604 Quixilver Presents: Our 2024 Robot CAD and Code Release (post 7)",
+      "url": "https://www.chiefdelphi.com/t/477799/7",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -110,10 +128,10 @@
     "fallback": [],
     "gave_up": [
       {
-        "text": "A reply that reads as the team's gives the two main failures of the flexible intake: bolts holding the axles to the side plates sheared, and the deploy chain snapped. Neither was solved during the season.",
-        "basis": "observer",
+        "text": "The two main failures of the flexible intake were sheared bolts that held the axles to the side plates and a snapped deploy chain. Neither was solved during the season.",
+        "basis": "team",
         "src": [
-          "s4"
+          "s10"
         ]
       }
     ],
@@ -126,10 +144,10 @@
         ]
       },
       {
-        "text": "A reply that reads as the team's says the elevator hex shafts came from an earlier climber, and one was reused to tension the new climber.",
-        "basis": "observer",
+        "text": "The elevator hex shafts came from an earlier climber, and the top one was reused to tension the new climber's tubing.",
+        "basis": "team",
         "src": [
-          "s4"
+          "s11"
         ]
       }
     ],
@@ -184,33 +202,33 @@
           ]
         },
         {
-          "text": "A reply that reads as the team's says a roller flexes more than half its diameter in a bad hit",
-          "basis": "observer",
+          "text": "A roller flexes more than half its diameter in a bad hit",
+          "basis": "team",
           "src": [
-            "s4"
+            "s10"
           ]
         },
         {
-          "text": "A reply that reads as the team's says chain and a cross shaft inside the frame perimeter tie the left and right sides together, so no rigid cross bar is needed",
-          "basis": "observer",
+          "text": "Chain and a cross shaft inside the frame perimeter tie the left and right sides together, so no rigid cross bar is needed",
+          "basis": "team",
           "src": [
-            "s4"
+            "s10"
           ]
         },
         {
-          "text": "A reply that reads as the team's says the axles became spacers of 3/8 in outside diameter, bolted through with a nylock nut",
-          "basis": "observer",
+          "text": "The axles ended up as spacers of 3/8 in outside diameter, bolted through with a nylock nut; they could be bought at length instead of cutting hex",
+          "basis": "team",
           "src": [
-            "s4"
+            "s12"
           ]
         }
       ],
       "cost": [
         {
-          "text": "A reply that reads as the team's says axle bolts sheared and the deploy chain snapped; neither was solved in season",
-          "basis": "observer",
+          "text": "Axle bolts sheared and the deploy chain snapped; neither was solved in season",
+          "basis": "team",
           "src": [
-            "s4"
+            "s10"
           ]
         }
       ]
@@ -292,6 +310,13 @@
           "src": [
             "s9"
           ]
+        },
+        {
+          "text": "Its hex shafts were cut shorter on the robot than the CAD shows",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
         }
       ]
     },
@@ -354,10 +379,10 @@
           ]
         },
         {
-          "text": "A reply that reads as the team's says the tubing, not shown in the CAD, is tensioned on a shaft kept from an earlier climber",
-          "basis": "observer",
+          "text": "The tubing, not shown in the CAD, is tensioned on a shaft kept from an earlier climber",
+          "basis": "team",
           "src": [
-            "s4"
+            "s11"
           ]
         }
       ]
@@ -426,6 +451,30 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Belly pan and electronics",
+      "does": [
+        "structure"
+      ],
+      "type": "hand-drilled belly pan with a planned layout",
+      "serves": [],
+      "facts": [
+        {
+          "text": "The electronics layout was planned in advance; the public CAD leaves the electronics out to reduce lag",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Belly pan holes are drilled by hand, not by CNC; the team calls the holes missing from the CAD an oversight",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
     }
   ],
   "decisions": [
@@ -457,19 +506,19 @@
     },
     {
       "choice": "Short shaft segments in the intake rollers",
-      "because": "a reply that reads as the team's says a full-width hex shaft would end up bent, and short ones let the roller flex and save weight",
+      "because": "a full-width hex shaft would end up permanently bent, and short ones let the roller flex and save weight",
       "instead_of": "a full-width hex shaft",
-      "basis": "observer",
+      "basis": "team",
       "src": [
-        "s4"
+        "s10"
       ]
     },
     {
       "choice": "3/8 in intake axles",
-      "because": "a reply that reads as the team's says the bearings were lighter and fit better in the tube plugs",
-      "basis": "observer",
+      "because": "the bearings were lighter and fit better in the tube plugs",
+      "basis": "team",
       "src": [
-        "s4"
+        "s12"
       ]
     },
     {
@@ -502,7 +551,7 @@
         "what": "Team 604 Quixilver Presents: Our 2024 Robot CAD and Code Release",
         "url": "https://www.chiefdelphi.com/t/team-604-quixilver-presents-our-2024-robot-cad-and-code-release/477799",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s4",
         "holds": "Onshape"
       }

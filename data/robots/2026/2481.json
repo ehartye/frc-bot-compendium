@@ -59,6 +59,24 @@
       "url": "https://www.chiefdelphi.com/t/2026-turret-vs-fixed-debate/510640/221",
       "publisher": "Chief Delphi",
       "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Rebuilt: Rock, Paper, Scissors, post 3",
+      "url": "https://www.chiefdelphi.com/t/521173/3",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Rebuilt: Rock, Paper, Scissors, post 7",
+      "url": "https://www.chiefdelphi.com/t/521173/7",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Is the drum shooter meta ending?, post 47",
+      "url": "https://www.chiefdelphi.com/t/517772/47",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -90,7 +108,7 @@
         ]
       },
       {
-        "text": "A post that says it is from 2481 reports that 2481 and 1678 screened for each other, and one dump each per period was enough with a combined 160 or more balls, though defense cost a few seconds.",
+        "text": "2481 and 1678 screened for each other, especially in the division finals; one dump each per period was enough with a combined 160 or more balls, though defense slowed cycles by a few seconds.",
         "basis": "team",
         "src": [
           "s9"
@@ -120,6 +138,14 @@
         "basis": "observer",
         "src": [
           "s4"
+        ]
+      },
+      {
+        "text": "A commenter says defense severely hampered its alliance in both Einstein losses; another says 1678 kept disconnecting in one.",
+        "basis": "observer",
+        "src": [
+          "s10",
+          "s11"
         ]
       }
     ],
@@ -426,6 +452,13 @@
           "basis": "team",
           "src": [
             "s8"
+          ]
+        },
+        {
+          "text": "To find the rate limit of a prototype, students shoved 40 to 50 balls into it by hand down a ramp; the battery became a limit",
+          "basis": "team",
+          "src": [
+            "s12"
           ]
         }
       ],

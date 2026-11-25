@@ -54,21 +54,87 @@
       "publisher": "chiefdelphi.com",
       "read": "2026-11-25"
     },
-    "s9": {
-      "title": "An Outlier's take on the '26 worlds strategic situation",
-      "url": "https://www.chiefdelphi.com/t/an-outliers-take-on-the-26-worlds-strategic-situation/519681",
+    "s12": {
+      "title": "Disabled robots on Einstein, post 9",
+      "url": "https://www.chiefdelphi.com/t/519830/9",
       "publisher": "chiefdelphi.com",
       "read": "2026-11-25"
     },
-    "s10": {
-      "title": "Rebuilt: Rock, Paper, Scissors",
-      "url": "https://www.chiefdelphi.com/t/rebuilt-rock-paper-scissors/521173",
+    "s13": {
+      "title": "Disabled robots on Einstein, post 21",
+      "url": "https://www.chiefdelphi.com/t/519830/21",
       "publisher": "chiefdelphi.com",
       "read": "2026-11-25"
     },
-    "s11": {
-      "title": "Disabled robots on Einstein",
-      "url": "https://www.chiefdelphi.com/t/disabled-robots-on-einstein/519830",
+    "s14": {
+      "title": "Disabled robots on Einstein, post 46",
+      "url": "https://www.chiefdelphi.com/t/519830/46",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "Rebuilt: Rock, Paper, Scissors, post 11",
+      "url": "https://www.chiefdelphi.com/t/521173/11",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "Rebuilt: Rock, Paper, Scissors, post 20",
+      "url": "https://www.chiefdelphi.com/t/521173/20",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "Turret vs Big Dumper, post 74",
+      "url": "https://www.chiefdelphi.com/t/516220/74",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "An Outlier's take on the '26 worlds strategic situation, post 3",
+      "url": "https://www.chiefdelphi.com/t/519681/3",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "An Outlier's take on the '26 worlds strategic situation, post 4",
+      "url": "https://www.chiefdelphi.com/t/519681/4",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "An Outlier's take on the '26 worlds strategic situation, post 5",
+      "url": "https://www.chiefdelphi.com/t/519681/5",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "Team 254 Presents: Overload, post 64",
+      "url": "https://www.chiefdelphi.com/t/516252/64",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s22": {
+      "title": "Rebuilt: Rock, Paper, Scissors, post 1",
+      "url": "https://www.chiefdelphi.com/t/521173/1",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s23": {
+      "title": "Rebuilt: Rock, Paper, Scissors, post 27",
+      "url": "https://www.chiefdelphi.com/t/521173/27",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s24": {
+      "title": "Post-Season reflect: How was Rebuilt, post 145",
+      "url": "https://www.chiefdelphi.com/t/519847/145",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s25": {
+      "title": "Rebuilt: Rock, Paper, Scissors, post 24",
+      "url": "https://www.chiefdelphi.com/t/521173/24",
       "publisher": "chiefdelphi.com",
       "read": "2026-11-25"
     }
@@ -106,18 +172,21 @@
     "gave_up": [],
     "changed": [
       {
-        "text": "It stopped in auto of Einstein finals 1, came back and stopped again, a commenter says; a reviewer puts the loss of that match down to the breakdown.",
+        "text": "It stopped in auto of Einstein finals 1, came back and stopped again, a commenter says; a reviewer puts the loss of that match down to the breakdown. Two others had heard, without being sure, of a loose battery terminal or lead.",
         "basis": "observer",
         "src": [
-          "s11",
+          "s12",
+          "s13",
+          "s14",
           "s7"
         ]
       },
       {
-        "text": "A commenter says the blocking strategy was not viable until a rule change a few weeks before the championship; a reply says it was only riskier before.",
+        "text": "A commenter says blocking was not viable until a rule change a few weeks before the championship; a reply says it was only riskier before.",
         "basis": "observer",
         "src": [
-          "s10"
+          "s15",
+          "s16"
         ]
       }
     ],
@@ -171,6 +240,22 @@
             "s3",
             "s4"
           ]
+        },
+        {
+          "text": "A commenter lists it in March among turret robots with low-inertia flywheels, which the commenter says change speed in well under 70 ms",
+          "basis": "observer",
+          "src": [
+            "s17"
+          ]
+        },
+        {
+          "text": "Before Einstein a commenter said turrets like those of 4414 and 1323 match drum shooters in effective rate, as they lose less time aligning; another said the best drums do shoot faster",
+          "basis": "observer",
+          "src": [
+            "s18",
+            "s19",
+            "s20"
+          ]
         }
       ]
     },
@@ -201,7 +286,7 @@
       "does": [
         "retain"
       ],
-      "type": "netted hopper with chamfered corners",
+      "type": "large netted hopper",
       "pieces": [
         "fuel"
       ],
@@ -213,7 +298,7 @@
           "text": "Keep stored fuel inside the robot instead of in the alliance zone",
           "basis": "observer",
           "src": [
-            "s9"
+            "s18"
           ]
         }
       ],
@@ -222,7 +307,50 @@
           "text": "A commenter says it stockpiles fuel inside the robot, in a netted hopper much bigger than those of drum shooters because of chamfered corners",
           "basis": "observer",
           "src": [
-            "s9"
+            "s18"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bumpers",
+      "does": [
+        "structure"
+      ],
+      "type": "bumpers with a small bottom fillet",
+      "serves": [],
+      "facts": [
+        {
+          "text": "254 says 1323's bumpers at Central Valley inspired the smaller bottom fillet on its own later bumpers, so as not to surf on fuel",
+          "basis": "observer",
+          "src": [
+            "s21"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shot blocker",
+      "solves": [
+        {
+          "text": "Counter drum shooters",
+          "basis": "observer",
+          "src": [
+            "s18"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "part that extends up to block opponents' shots",
+      "serves": [],
+      "facts": [
+        {
+          "text": "A clip is described as the robot extending up and blocking all the shots of a dumper",
+          "basis": "observer",
+          "src": [
+            "s24"
           ]
         }
       ]
@@ -231,11 +359,14 @@
   "decisions": [
     {
       "choice": "Bring out shot blockers with 4065 in Einstein match 8",
-      "because": "a commenter says it countered high-scoring opponents instead of only trying to outscore them",
+      "because": "a commenter says it countered high-scoring opponents instead of only trying to outscore them; another says the threat alone slowed opponents, and that blocking one fuel stream made all the shots collide and miss",
       "basis": "observer",
       "src": [
-        "s10"
-      ]
+        "s22",
+        "s23",
+        "s25"
+      ],
+      "cost": "another commenter says a blocker is difficult to engineer and drive, and needs everything to go right"
     }
   ],
   "assets": {

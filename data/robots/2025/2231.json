@@ -47,6 +47,18 @@
       "url": "https://www.youtube.com/watch?v=GKxJRpeaHl0",
       "publisher": "FUN Robotics Network",
       "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "OnyxTronix 2231 Presents: 2025 Robot - RICO, post 1",
+      "url": "https://www.chiefdelphi.com/t/493195/1",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "OnyxTronix 2231 Presents: 2025 Robot - RICO, post 6",
+      "url": "https://www.chiefdelphi.com/t/493195/6",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -75,7 +87,15 @@
         ]
       }
     ],
-    "auto": [],
+    "auto": [
+      {
+        "text": "The February reveal lists a 3.5-piece L4 coral auto.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
     "cycle": [
       {
         "text": "The driver moves to an area such as a reef side and AutoPilot finishes the intake or score. The robot takes an algae off the reef and can place its coral immediately after. The end effector's rotation saves driving time between feeder and reef. An operator sets the scoring height.",
@@ -332,6 +352,22 @@
           "basis": "team",
           "src": [
             "s5"
+          ]
+        },
+        {
+          "text": "The February reveal says it can shoot to the net from this far",
+          "basis": "team",
+          "src": [
+            "s8"
+          ],
+          "value": 2.3,
+          "unit": "m"
+        },
+        {
+          "text": "The arm pivot is a 2 in round tube joined to a 2 x 2 in rectangular tube with 3/8 in plates",
+          "basis": "team",
+          "src": [
+            "s9"
           ]
         }
       ],
@@ -657,7 +693,7 @@
         "what": "OnyxTronix 2231 - 2025 Robot catalog and CAD",
         "url": "https://www.chiefdelphi.com/t/onyxtronix-2231-2025-robot-catalog-and-cad/503670",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s3",
         "holds": "zip upload ('2231 Full Robot Assmb 2025.zip', 74.5 MB; format not stated)"
       },
@@ -702,7 +738,7 @@
         "what": "OnyxTronix 2231 Presents: 2025 Robot",
         "url": "https://www.chiefdelphi.com/t/onyxtronix-2231-presents-2025-robot-rico/493195",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s4"
       },
       {

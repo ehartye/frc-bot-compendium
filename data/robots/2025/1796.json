@@ -35,6 +35,12 @@
       "url": "https://www.youtube.com/watch?v=sMirgvFOlxY",
       "publisher": "FUN Robotics Network",
       "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "FRC 694 StuyPulse 2025 Build Thread, post 55",
+      "url": "https://www.chiefdelphi.com/t/477433/55",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -44,6 +50,13 @@
         "basis": "team",
         "src": [
           "s5"
+        ]
+      },
+      {
+        "text": "An alliance partner planned for it to run supercycles at Hudson Valley, scoring coral and putting algae in the net.",
+        "basis": "observer",
+        "src": [
+          "s6"
         ]
       }
     ],
@@ -63,6 +76,24 @@
         "src": [
           "s1",
           "s2"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "An alliance partner's notes on their first Hudson Valley playoff match give it a 3.5-piece auto on reef positions F, D and C.",
+        "basis": "observer",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "An alliance partner says its climb was wearing down at Hudson Valley, so in the playoffs it would line up with the cage and climb only in close matches; it did deep climb in the last final.",
+        "basis": "observer",
+        "src": [
+          "s6"
         ]
       }
     ]
@@ -297,7 +328,7 @@
     "community CAD sheet",
     "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
     "Behind the Bumpers transcript, which ends after the elevator (algae, climb, drive and software not covered)",
-    "reveal thread (a reply that reads as the team's says CAD release is decided after the season, and CAD photos and explanations are shared on request)",
+    "reveal thread, and CAD photos and explanations are shared on request)",
     "binder search: Chief Delphi post search \"1796 binder\" (3 topics), title search \"1796\" (5 topics), 17 pages of the team site"
   ],
   "results": {

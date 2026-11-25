@@ -29,6 +29,12 @@
       "url": "https://www.youtube.com/watch?v=SFd54mSkzM8",
       "publisher": "FUN Robotics Network",
       "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Unique design for robot (coral shooting) (post 32)",
+      "url": "https://www.chiefdelphi.com/t/493457/32",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -135,6 +141,22 @@
           "basis": "team",
           "src": [
             "s4"
+          ]
+        },
+        {
+          "text": "A commenter says the robot has an elevator, and that the coral shot at L4 pops into place",
+          "basis": "observer",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "In late March 2025 the same commenter calls the L4 shot not 100 percent perfect, but pretty good",
+          "basis": "observer",
+          "src": [
+            "s5"
           ]
         }
       ]
@@ -374,6 +396,13 @@
         "src": "s3",
         "kind": "robot-photo",
         "hero": true
+      },
+      {
+        "what": "Video linked in a Chief Delphi post on this robot's L4 shot (not watched)",
+        "url": "https://www.youtube.com/watch?v=z95pxiDpZFI",
+        "format": "video",
+        "state": "listed",
+        "src": "s5"
       }
     ],
     "documents": [],

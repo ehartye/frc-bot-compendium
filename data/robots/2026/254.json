@@ -83,6 +83,132 @@
       "url": "https://www.chiefdelphi.com/t/rebuilt-rock-paper-scissors/521173",
       "publisher": "chiefdelphi.com",
       "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "Team 254 Presents: Overload, post 73",
+      "url": "https://www.chiefdelphi.com/t/516252/73",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "Team 254 Presents: Overload, post 64",
+      "url": "https://www.chiefdelphi.com/t/516252/64",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "Team 254 Presents: Overload, post 173",
+      "url": "https://www.chiefdelphi.com/t/516252/173",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "Team 254 Presents: Overload, post 65",
+      "url": "https://www.chiefdelphi.com/t/516252/65",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "Team 254 Presents: Overload, post 90",
+      "url": "https://www.chiefdelphi.com/t/516252/90",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "Team 254 Presents: Overload, post 91",
+      "url": "https://www.chiefdelphi.com/t/516252/91",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "Team 254 Presents: Overload, post 98",
+      "url": "https://www.chiefdelphi.com/t/516252/98",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "Team 254 Presents: Overload, post 113",
+      "url": "https://www.chiefdelphi.com/t/516252/113",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s22": {
+      "title": "Team 254 Presents: Overload, post 116",
+      "url": "https://www.chiefdelphi.com/t/516252/116",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s23": {
+      "title": "Team 254 Presents: Overload, post 145",
+      "url": "https://www.chiefdelphi.com/t/516252/145",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s24": {
+      "title": "Team 254 Presents: Overload, post 57",
+      "url": "https://www.chiefdelphi.com/t/516252/57",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s25": {
+      "title": "Team 254 Presents: Overload, post 147",
+      "url": "https://www.chiefdelphi.com/t/516252/147",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s26": {
+      "title": "Team 254 Presents: Overload, post 87",
+      "url": "https://www.chiefdelphi.com/t/516252/87",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s27": {
+      "title": "Team 254 Presents: Overload, post 104",
+      "url": "https://www.chiefdelphi.com/t/516252/104",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s28": {
+      "title": "Team 254 Presents: Overload, post 51",
+      "url": "https://www.chiefdelphi.com/t/516252/51",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s29": {
+      "title": "Team 254 Presents: Overload, post 54",
+      "url": "https://www.chiefdelphi.com/t/516252/54",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s30": {
+      "title": "Team 254 Presents: Overload, post 55",
+      "url": "https://www.chiefdelphi.com/t/516252/55",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s31": {
+      "title": "Forum preview of the 2026 championship divisions, post 5",
+      "url": "https://www.chiefdelphi.com/t/519681/5",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s32": {
+      "title": "Team 254 Presents: Overload, post 136",
+      "url": "https://www.chiefdelphi.com/t/516252/136",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s33": {
+      "title": "Most Common Issues Seen 2026, post 20",
+      "url": "https://www.chiefdelphi.com/t/520595/20",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s34": {
+      "title": "Most Common Issues Seen 2026, post 1",
+      "url": "https://www.chiefdelphi.com/t/520595/1",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -106,10 +232,11 @@
     ],
     "auto": [
       {
-        "text": "Two full swipes of the middle, then a partial third that loads fuel for the driver. If knocked too far off its path, the robot drives to a known recovery pose and goes back to collecting instead of emptying its hopper where it cannot score.",
+        "text": "Two full swipes of the middle, then a partial third that loads fuel for the driver. If knocked too far off its path, the robot drives to a known recovery pose and goes back to collecting instead of emptying its hopper where it cannot score. That recovery never ran in an official match.",
         "basis": "team",
         "src": [
-          "s10"
+          "s10",
+          "s14"
         ]
       }
     ],
@@ -131,10 +258,16 @@
         ]
       },
       {
-        "text": "A post that reads as the team's says shooter motors drew 100 A each at spin-up before limits, and the robot browned out within a minute of play before SVR. A commenter notes shot blockers were used against it on Einstein.",
+        "text": "Shooter motors drew 100 A each at spin-up before limits, and before its Silicon Valley event the robot browned out within a minute of normal match play.",
+        "basis": "team",
+        "src": [
+          "s11"
+        ]
+      },
+      {
+        "text": "A commenter notes shot blockers were used against it on Einstein.",
         "basis": "observer",
         "src": [
-          "s11",
           "s13"
         ]
       }
@@ -156,6 +289,17 @@
         "src": [
           "s1",
           "s2"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "No climb from the state championship on: the L3 climber the team was still trying to fit for its first event (12 lb, or 12 to 14 lb in a later post) was removed, and new bumpers dropped its cutout.",
+        "basis": "team",
+        "src": [
+          "s15",
+          "s8",
+          "s16"
         ]
       }
     ]
@@ -191,6 +335,13 @@
           "src": [
             "s8"
           ]
+        },
+        {
+          "text": "Bumpers built for the state championship and Worlds have a smaller bottom fillet so the robot does not surf on fuel",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
         }
       ]
     },
@@ -214,6 +365,20 @@
           "basis": "team",
           "src": [
             "s10"
+          ]
+        },
+        {
+          "text": "The welded beater bar never broke at its tabs or welds, but the outermost 1/4 in vertical plate sometimes bent into the main roller",
+          "basis": "team",
+          "src": [
+            "s16"
+          ]
+        },
+        {
+          "text": "In hindsight the team would use a polycarbonate roller or a tube bar; a motor per side with a lower-friction slide, retracting on impact more easily, would have made the intake much lighter and simpler",
+          "basis": "team",
+          "src": [
+            "s16"
           ]
         }
       ],
@@ -258,6 +423,13 @@
           "basis": "team",
           "src": [
             "s12"
+          ]
+        },
+        {
+          "text": "The titanium is 1/8 in grade 5, cut to order in about a week; expensive, and the team calls it incredibly durable",
+          "basis": "team",
+          "src": [
+            "s17"
           ]
         }
       ]
@@ -313,6 +485,13 @@
           "src": [
             "s12"
           ]
+        },
+        {
+          "text": "The net eventually replaced a solid roof",
+          "basis": "team",
+          "src": [
+            "s18"
+          ]
         }
       ]
     },
@@ -344,6 +523,20 @@
           "basis": "team",
           "src": [
             "s8"
+          ]
+        },
+        {
+          "text": "A team member says the tilt helps ball rate a little but is not worth the complexity, design time and tight width packaging with the intake",
+          "basis": "team",
+          "src": [
+            "s21"
+          ]
+        },
+        {
+          "text": "Belt center distance took many floor iterations: too loose and belts crawled off the pulleys, too tight and resistance was terrible",
+          "basis": "team",
+          "src": [
+            "s23"
           ]
         }
       ],
@@ -386,10 +579,46 @@
           ]
         },
         {
-          "text": "Carbon tube rollers on the Silicon Valley event version were chosen partly for weight, while the team was still trying to fit a 12 lb L3 climber",
+          "text": "Carbon tube rollers on the Silicon Valley event version were chosen partly for stiffness and weight; the 0.96 in outer diameter also allowed smaller 20-tooth pulleys and more hopper volume",
           "basis": "team",
           "src": [
             "s8"
+          ]
+        },
+        {
+          "text": "Worlds version: a Delrin cam roller on the intake rack runs in a captured track in a 3/16 in aluminum plate on the floor, held sideways by a large washer; the last 1.5 in or so is open so the floor lifts for the battery and electronics",
+          "basis": "team",
+          "src": [
+            "s19",
+            "s8"
+          ]
+        },
+        {
+          "text": "It pivots only enough to clear the intake roller by about 1/4 in, because of the floor's compression against the feeder rollers",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        },
+        {
+          "text": "The cam track was drawn in a sketch from four matched floor and intake positions, smoothed with splines",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        },
+        {
+          "text": "When shooting, the intake stops about 3 in short of fully stowed; fully stowed compresses the fuel too much",
+          "basis": "team",
+          "src": [
+            "s21"
+          ]
+        },
+        {
+          "text": "In a wooden prototype rollers and rubber-backed belts worked equally well, but belts could be lighter",
+          "basis": "team",
+          "src": [
+            "s22"
           ]
         }
       ]
@@ -411,10 +640,17 @@
       ],
       "cost": [
         {
-          "text": "A post that reads as the team's describes early brownouts from the shooter, free-spinning floor and feeder together",
-          "basis": "observer",
+          "text": "Early on the shooter, free-spinning floor and feeder together browned the robot out",
+          "basis": "team",
           "src": [
             "s11"
+          ]
+        },
+        {
+          "text": "Load is high on the floor at first, then on the feeder; a team member thinks 2910 was right to chain both to four shared motors, despite less separable subsystems",
+          "basis": "team",
+          "src": [
+            "s21"
           ]
         }
       ],
@@ -462,6 +698,34 @@
           "basis": "team",
           "src": [
             "s10"
+          ]
+        },
+        {
+          "text": "A later team post puts its rate at about 22 to 24 balls per second, typically about the same as most similar dumpers",
+          "basis": "team",
+          "src": [
+            "s21"
+          ]
+        },
+        {
+          "text": "By January 12 a kitbot upgraded with more wheels and four shooter motors had shown that a multi-ball-wide stream does not collide in the air",
+          "basis": "team",
+          "src": [
+            "s22"
+          ]
+        },
+        {
+          "text": "The Alphabot, with the same motor count and roller sizes, showed how much inertia to add and which ratios balance ball rate against current",
+          "basis": "team",
+          "src": [
+            "s18"
+          ]
+        },
+        {
+          "text": "The Alphabot exposed flexible hopper walls, feeding choke points, belt tracking problems and too little shooter inertia",
+          "basis": "team",
+          "src": [
+            "s25"
           ]
         }
       ]
@@ -516,6 +780,15 @@
             "s10"
           ]
         }
+      ],
+      "cost": [
+        {
+          "text": "The JST connector on the Arducam OV9281 modules gave trouble, and camera wiring changed between the second event and the state championship",
+          "basis": "team",
+          "src": [
+            "s28"
+          ]
+        }
       ]
     },
     {
@@ -550,6 +823,15 @@
           "basis": "team",
           "src": [
             "s10"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "A commenter estimated during the championship that it spent 3 seconds in its alliance zone not shooting, against about 0.5 s for 4414",
+          "basis": "observer",
+          "src": [
+            "s31"
           ]
         }
       ]
@@ -588,6 +870,70 @@
           "basis": "team",
           "src": [
             "s10"
+          ]
+        },
+        {
+          "text": "Choreo trajectories made the bulk of the autos, with no PathPlanner, for simple control logic and the fastest run to the neutral zone",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Each swipe is a stage with around 10 variations: out through the trench, collect, then, since the state championship, back over the bump to a set shooting pose",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The recovery branch, added for the state championship after 115 blocked its trench in a Silicon Valley match, never ran in an official match, but worked quite well in one or two practice matches",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Detecting a climb onto fuel from roll and pitch and backing off, tried the week before Worlds, was scrapped: the reaction was too hard to tune, and mechanical changes had made the robot much less prone to it",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Current limits and battery charge",
+      "solves": [
+        {
+          "text": "Stop brownouts during a match",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "current limits that change with robot state",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Current limits came from log spikes, lowered by feel until the robot ran a practice session of about 3 minutes without browning out; draw was not calculated ahead",
+          "basis": "team",
+          "src": [
+            "s26"
+          ]
+        },
+        {
+          "text": "A team member calls a battery under 13.5 V on a Battery Beak risky; the beak reads high just off the charger, and the driver station later shows about 12.6 to 13 V",
+          "basis": "team",
+          "src": [
+            "s11",
+            "s27"
           ]
         }
       ]
@@ -660,8 +1006,8 @@
     },
     {
       "choice": "Dynamic current limits",
-      "because": "identifying the worst offenders by telemetry was not enough; limits on free-spinning subsystems and swerve change with zone, shot, motion and auto (from a post that reads as the team's)",
-      "basis": "observer",
+      "because": "identifying the worst offenders by telemetry was not enough; limits on the floor, feeder and swerve change with full-field passing, corner shots, motion (which mattered little) and auto",
+      "basis": "team",
       "src": [
         "s11"
       ]
@@ -673,6 +1019,71 @@
       "basis": "team",
       "src": [
         "s12"
+      ]
+    },
+    {
+      "choice": "Spend the freed climber weight on a tougher intake",
+      "because": "the intake came apart at the first district event, and removing a climber of about 12 to 14 lb left weight to spend",
+      "basis": "team",
+      "src": [
+        "s16"
+      ]
+    },
+    {
+      "choice": "Slit the rubber backing of the floor belts",
+      "because": "it cut the floor's current draw around the tight bends by roughly 20 percent or more, which the team calls really important",
+      "cost": "many hours of hand cutting with a printed jig: 190 slits per belt, eight belts per floor",
+      "basis": "team",
+      "src": [
+        "s24",
+        "s23"
+      ]
+    },
+    {
+      "choice": "USB cameras of 1 MP at 120 FPS",
+      "because": "the full rate gives lower latency and more frequent pose updates, and coax would be hard to make as reliable and easy to validate as USB",
+      "instead_of": "ThriftyCams, which it evaluated, and a coax link",
+      "basis": "team",
+      "src": [
+        "s28",
+        "s29",
+        "s30"
+      ]
+    },
+    {
+      "choice": "Commit to the dumper after the Alphabot",
+      "because": "the Alphabot, built by about January 20, was so good that the team stopped looking at turrets after about January 21",
+      "instead_of": "maybe rebuilding to a turret later; dye rotor turrets were explored in parallel",
+      "basis": "team",
+      "src": [
+        "s18"
+      ]
+    },
+    {
+      "choice": "Alphabot with a fixed intake and hopper",
+      "because": "a static intake and hopper made it much simpler and easy to iterate, and having no moving wiring helped wire it quickly",
+      "basis": "team",
+      "src": [
+        "s18",
+        "s32"
+      ]
+    },
+    {
+      "choice": "Torque motor power screws to 1.2 N m",
+      "because": "it helps keep them from backing out, and the team has seen no motor damage from it",
+      "instead_of": "the 0.9 N m specification",
+      "basis": "team",
+      "src": [
+        "s33"
+      ]
+    },
+    {
+      "choice": "Log to the SD card",
+      "because": "a remedy the team lists for CANivore USB dropouts, after USB logging drives on unshielded extensions proved the cause in several robots it saw",
+      "cost": "limited write cycles, so the team recommends endurance cards and fits a fresh one before each event",
+      "basis": "team",
+      "src": [
+        "s34"
       ]
     }
   ],
@@ -808,8 +1219,22 @@
         "what": "Reveal thread",
         "url": "https://www.chiefdelphi.com/t/team-254-presents-overload/516252",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s9"
+      },
+      {
+        "what": "Alphabot driving, collecting and shooting, January (not watched)",
+        "url": "https://youtu.be/hviJtaKJJco",
+        "format": "video",
+        "state": "listed",
+        "src": "s18"
+      },
+      {
+        "what": "Cam motion of the hopper floor in Onshape (not watched)",
+        "url": "https://drive.google.com/file/d/1RwHOzDW5XM9VN8kwXyZtkl8VfFPpR8rV/view?usp=sharing",
+        "format": "video",
+        "state": "listed",
+        "src": "s19"
       }
     ],
     "documents": [],

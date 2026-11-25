@@ -53,6 +53,12 @@
       "url": "https://www.youtube.com/watch?v=NxCZMjOX7qA",
       "publisher": "youtube.com",
       "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Roboteers Team 2481 2025 Robot Reveal (post 11)",
+      "url": "https://www.chiefdelphi.com/t/498753/11",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -311,6 +317,36 @@
           "src": [
             "s4"
           ]
+        },
+        {
+          "text": "Two Kraken X60s at about 6:1 drive an 18T #25 sprocket on both sides",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "The second stage uses 9 mm timing belts, which do not stretch much, on custom UHMW pulleys with big flanges",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "A constant force spring was added after the Arkansas event for speed; the ratio was about 8:1 before",
+          "basis": "team",
+          "src": [
+            "s9"
+          ],
+          "value": 25,
+          "unit": "lb"
+        },
+        {
+          "text": "Bought elevator blocks are fitted with 1/4-20 threaded shoulder bolts",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
         }
       ],
       "cost": [
@@ -319,6 +355,20 @@
           "basis": "team",
           "src": [
             "s4"
+          ]
+        },
+        {
+          "text": "Standard pulleys were dropped because their flanges kept falling off",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "The team calls keeping everything square and sturdy enough for its speed the biggest thing",
+          "basis": "team",
+          "src": [
+            "s9"
           ]
         }
       ]
@@ -422,7 +472,7 @@
         "what": "Roboteers Team 2481 2025 Robot Reveal",
         "url": "https://www.chiefdelphi.com/t/roboteers-team-2481-2025-robot-reveal/498753",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s3"
       },
       {

@@ -47,6 +47,12 @@
       "url": "https://www.youtube.com/watch?v=EVxz7j82Cp4",
       "publisher": "FUN Robotics Network",
       "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "What's the best way to make a twisting wrist arm?, post 26",
+      "url": "https://www.chiefdelphi.com/t/501812/26",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -188,6 +194,27 @@
           "src": [
             "s9"
           ]
+        },
+        {
+          "text": "Many wrist gears broke at the first competition and in practice: there were no motor current limits, and hitting the wall put a lot of torque on them",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Removing the end effector was awkward, because intake wheels blocked the long hex key",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Fitting the encoder inside the tube was tricky",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
         }
       ],
       "does": [
@@ -231,6 +258,20 @@
           "basis": "team",
           "src": [
             "s9"
+          ]
+        },
+        {
+          "text": "The wrist is driven by a Falcon 500 through a 9:1 gearbox and a 3:1 gear pair, with the larger gear bolted to the end effector",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "A CANcoder at the end of the rotating shaft, reached through a small window, reads absolute position",
+          "basis": "team",
+          "src": [
+            "s10"
           ]
         }
       ]

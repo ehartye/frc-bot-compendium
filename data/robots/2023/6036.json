@@ -77,6 +77,54 @@
       "url": "https://www.chiefdelphi.com/t/what-i-learned-from-3-years-on-6036/466064",
       "publisher": "Chief Delphi",
       "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "6036 Peninsula Robotics CAD Release 2023 (post 10)",
+      "url": "https://www.chiefdelphi.com/t/436345/10",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "6036 presents: DUM-E (post 12)",
+      "url": "https://www.chiefdelphi.com/t/428854/12",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "6036 presents: DUM-E (post 13)",
+      "url": "https://www.chiefdelphi.com/t/428854/13",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "6036 Peninsula Robotics CAD Release 2023 (post 13)",
+      "url": "https://www.chiefdelphi.com/t/436345/13",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "FIRST Lessons Learned 2023: The Negative (post 65)",
+      "url": "https://www.chiefdelphi.com/t/435704/65",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "6036 presents: DUM-E (post 3)",
+      "url": "https://www.chiefdelphi.com/t/428854/3",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "What I learned from 3 years on 6036 (post 4)",
+      "url": "https://www.chiefdelphi.com/t/466064/4",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "6036 presents: DUM-E (post 8)",
+      "url": "https://www.chiefdelphi.com/t/428854/8",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -135,10 +183,10 @@
         ]
       },
       {
-        "text": "An unsigned reply that reads as the team's says cameras moved to the back after two competitions for a better view.",
-        "basis": "observer",
+        "text": "Cameras moved to the back after the first two competitions for a better view.",
+        "basis": "team",
         "src": [
-          "s4"
+          "s13"
         ]
       }
     ],
@@ -227,6 +275,14 @@
           ],
           "value": 1,
           "unit": "s"
+        },
+        {
+          "text": "The outermost wheels extend to just under the rule's limit",
+          "basis": "team",
+          "src": [
+            "s14",
+            "s15"
+          ]
         }
       ],
       "cost": [
@@ -238,10 +294,10 @@
           ]
         },
         {
-          "text": "An unsigned reply that reads as the team's says the cantilevered chain tensioner likely wore the idler standoffs, though not enough to replace them",
-          "basis": "observer",
+          "text": "The cantilevered chain tensioner likely wore the idler standoffs, though not enough to replace them; an off-season redesign used bulkier, stronger tensioners inspired by 33",
+          "basis": "team",
           "src": [
-            "s4"
+            "s16"
           ]
         }
       ]
@@ -329,6 +385,13 @@
           "src": [
             "s11"
           ]
+        },
+        {
+          "text": "Its chain tensioner is simply cantilevered, which worked because chain loads were low; the team would consider an inline tensioner in future",
+          "basis": "team",
+          "src": [
+            "s16"
+          ]
         }
       ],
       "cost": [
@@ -389,6 +452,29 @@
           "src": [
             "s12"
           ]
+        },
+        {
+          "text": "Position estimate when placing was within about",
+          "basis": "team",
+          "src": [
+            "s17"
+          ],
+          "value": 0.5,
+          "unit": "in"
+        },
+        {
+          "text": "Odometry runs on a separate software loop",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "The team says it uses PathPlanner",
+          "basis": "team",
+          "src": [
+            "s18"
+          ]
         }
       ]
     },
@@ -422,6 +508,20 @@
         },
         {
           "text": "Code for the double-jointed arm was ready in week 2 or 3, using simple simulation",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Built with CasADi in Python from the arm's Lagrangian dynamics and DC motor equations; the software captain says it was very similar to 6328's method, with extra handling for motions such as placing down",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        },
+        {
+          "text": "The software captain says it made a cycle \"2-3 seconds fast\", with 10 or more cycles every match",
           "basis": "team",
           "src": [
             "s12"
@@ -465,6 +565,13 @@
           "basis": "team",
           "src": [
             "s11"
+          ]
+        },
+        {
+          "text": "Check marks show motors that returned OK when configured, and heartbeats from two threads and the vision system",
+          "basis": "team",
+          "src": [
+            "s19"
           ]
         }
       ]
@@ -559,6 +666,23 @@
       "src": [
         "s12"
       ]
+    },
+    {
+      "choice": "Optimize arm paths before camera frame rate",
+      "because": "going from 25 to 50 frames a second probably would not have given a measurable benefit",
+      "basis": "team",
+      "src": [
+        "s12"
+      ]
+    },
+    {
+      "choice": "Reach a working robot on simple PID first",
+      "because": "a new feature should not risk the robot lacking complete code, and must give a real competitive advantage",
+      "instead_of": "starting with optimized trajectories",
+      "basis": "team",
+      "src": [
+        "s12"
+      ]
     }
   ],
   "assets": {
@@ -581,7 +705,7 @@
         "what": "6036 Peninsula Robotics CAD Release 2023",
         "url": "https://www.chiefdelphi.com/t/6036-peninsula-robotics-cad-release-2023/436345",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s4",
         "holds": "STEP"
       }
@@ -633,14 +757,14 @@
         "what": "6036 Hueneme Port Regional Recap",
         "url": "https://www.chiefdelphi.com/t/6036-hueneme-port-regional-recap/430395",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s5"
       },
       {
         "what": "6036 presents: DUM-E",
         "url": "https://www.chiefdelphi.com/t/6036-presents-dum-e/428854",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s7"
       },
       {
@@ -679,6 +803,13 @@
         "state": "opened",
         "src": "s4",
         "kind": "cad"
+      },
+      {
+        "what": "Video on the team's own field, posted 26 March (not watched)",
+        "url": "https://www.youtube.com/watch?v=BC8QQyXUimI",
+        "format": "video",
+        "state": "listed",
+        "src": "s20"
       }
     ],
     "documents": [],

@@ -66,16 +66,94 @@
       "publisher": "FUN Robotics Network",
       "read": "2026-11-25"
     },
-    "s11": {
-      "title": "5940 BREAD 2023 CAD and Code Release, post 49",
-      "url": "https://www.chiefdelphi.com/t/5940-bread-2023-cad-and-code-release/445374/49",
-      "publisher": "chiefdelphi.com",
+    "s13": {
+      "title": "5940 BREAD 2023 CAD and Code Release, post 9",
+      "url": "https://www.chiefdelphi.com/t/445374/9",
+      "publisher": "Chief Delphi",
       "read": "2026-11-25"
     },
-    "s12": {
-      "title": "What are your favorite robots that mastered mechanical efficiency",
-      "url": "https://www.chiefdelphi.com/t/what-are-your-favorite-robots-that-mastered-mechanical-efficiency/525130",
-      "publisher": "chiefdelphi.com",
+    "s14": {
+      "title": "5940 BREAD 2023 CAD and Code Release, post 15",
+      "url": "https://www.chiefdelphi.com/t/445374/15",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "5940 BREAD 2023 CAD and Code Release, post 49",
+      "url": "https://www.chiefdelphi.com/t/445374/49",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "Thread on favorite robots of 2023, post 17",
+      "url": "https://www.chiefdelphi.com/t/444588/17",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "What are your favorite robots that mastered mechanical efficiency, post 14",
+      "url": "https://www.chiefdelphi.com/t/525130/14",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "What are your favorite robots that mastered mechanical efficiency, post 13",
+      "url": "https://www.chiefdelphi.com/t/525130/13",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "5940 BREAD 2023 CAD and Code Release, post 35",
+      "url": "https://www.chiefdelphi.com/t/445374/35",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "5940 BREAD 2023 CAD and Code Release, post 37",
+      "url": "https://www.chiefdelphi.com/t/445374/37",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "5940 BREAD 2023 CAD and Code Release, post 39",
+      "url": "https://www.chiefdelphi.com/t/445374/39",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s22": {
+      "title": "5940 BREAD 2023 CAD and Code Release, post 31",
+      "url": "https://www.chiefdelphi.com/t/445374/31",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s23": {
+      "title": "5940 BREAD 2023 CAD and Code Release, post 47",
+      "url": "https://www.chiefdelphi.com/t/445374/47",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s24": {
+      "title": "5940 BREAD 2023 CAD and Code Release, post 25",
+      "url": "https://www.chiefdelphi.com/t/445374/25",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s25": {
+      "title": "5940 BREAD 2023 CAD and Code Release, post 27",
+      "url": "https://www.chiefdelphi.com/t/445374/27",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s26": {
+      "title": "5940 BREAD 2023 CAD and Code Release, post 13",
+      "url": "https://www.chiefdelphi.com/t/445374/13",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s27": {
+      "title": "5940 BREAD 2023 CAD and Code Release, post 53",
+      "url": "https://www.chiefdelphi.com/t/445374/53",
+      "publisher": "Chief Delphi",
       "read": "2026-11-25"
     }
   },
@@ -91,10 +169,11 @@
     ],
     "demand": [
       {
-        "text": "A reply that reads as the team's says day 1 gave each action a points-per-second score, and that there was little reason to focus on one piece. Another says many Worlds matches would tie at 193, so a match could turn on auto points. It adds that supercharging meant this did not matter too much.",
-        "basis": "observer",
+        "text": "On day 1 the team gave each action a points-per-second score and saw little reason to focus on one piece. It later realized that many Worlds matches would tie at 193, so auto points would quite likely decide them. Supercharging then meant this did not matter too much.",
+        "basis": "team",
         "src": [
-          "s3"
+          "s13",
+          "s14"
         ]
       }
     ],
@@ -107,10 +186,10 @@
         ]
       },
       {
-        "text": "A reply that reads as the team's says the cone and cube floor intake allows two cones and a cube, completing a high link.",
-        "basis": "observer",
+        "text": "The cone and cube floor intake allows two cones and a cube for a high link, instead of a preloaded cone and two cubes.",
+        "basis": "team",
         "src": [
-          "s3"
+          "s13"
         ]
       }
     ],
@@ -120,6 +199,13 @@
         "basis": "team",
         "src": [
           "s10"
+        ]
+      },
+      {
+        "text": "An observer's table gives it 2.6 auto and 9.7 teleop pieces a match in championship qualifying.",
+        "basis": "observer",
+        "src": [
+          "s16"
         ]
       }
     ],
@@ -134,10 +220,10 @@
     ],
     "fallback": [
       {
-        "text": "In a hard hit the belted arm drive can skip teeth and then return to use, says a post that reads as the team's.",
-        "basis": "observer",
+        "text": "In a hit with large impact torque the belted arm drive can skip teeth without putting the arm out of use, and then return to work.",
+        "basis": "team",
         "src": [
-          "s11"
+          "s15"
         ]
       }
     ],
@@ -159,10 +245,17 @@
         ]
       },
       {
-        "text": "Replies that read as the team's say beta had a cube-only floor intake and the cone roller came later.",
-        "basis": "observer",
+        "text": "Beta had a cube-only floor intake; the cone roller came later.",
+        "basis": "team",
         "src": [
-          "s3"
+          "s13"
+        ]
+      },
+      {
+        "text": "Changes found on beta went into gamma's CAD in week 4.",
+        "basis": "team",
+        "src": [
+          "s14"
         ]
       }
     ],
@@ -194,10 +287,10 @@
           ]
         },
         {
-          "text": "A thread reply that reads as the team's says WCP SwerveX instead",
-          "basis": "observer",
+          "text": "A team member says in the release thread that it used WCP SwerveX instead",
+          "basis": "team",
           "src": [
-            "s3"
+            "s14"
           ]
         }
       ]
@@ -282,17 +375,31 @@
           ]
         },
         {
-          "text": "The rollers lock once a cone is far enough in, so the 2 in cone roller pivots around the 3 in polycarbonate roller to a hard stop (reads as the team's reply)",
-          "basis": "observer",
+          "text": "The rollers lock once a cone is far enough in, so the 2 in cone roller pivots around the 3 in polycarbonate roller to a hard stop",
+          "basis": "team",
           "src": [
-            "s3"
+            "s13"
           ]
         },
         {
-          "text": "It needs no added motor, which would have put the robot over the weight limit (reads as the team's reply)",
+          "text": "It needs no added motor, which would have put the robot over the weight limit",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "The cone roller spins opposite to every other intake roller, so its position was laid out to clear a cube being taken in",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "A commenter says the robot was fairly competent with sideways cones on the floor, provided the robot faced away from them",
           "basis": "observer",
           "src": [
-            "s3"
+            "s17"
           ]
         }
       ]
@@ -345,7 +452,7 @@
           "text": "Pivot back to take a cube from the rear intake and then pivot to score, with no pass-through",
           "basis": "observer",
           "src": [
-            "s12"
+            "s18"
           ]
         }
       ],
@@ -391,10 +498,38 @@
           ]
         },
         {
-          "text": "Every stage is belted, with an absolute encoder at the final point of rotation (reads as the team's post)",
-          "basis": "observer",
+          "text": "Every stage is belted, with an absolute encoder at the final point of rotation",
+          "basis": "team",
           "src": [
-            "s11"
+            "s15"
+          ]
+        },
+        {
+          "text": "The final stage uses two large pulleys, because one could not sustain the maximum torque the motor's current limit allows; the team usually takes ratings from published belt charts, which it has found conservative",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        },
+        {
+          "text": "The team started from a mechanism calculator and a move time, recalled as something like a 90 degree profiled move in 500 ms; for calculators that ignore deceleration it usually modeled the first half, 45 degrees in 250 ms",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        },
+        {
+          "text": "Sizing to the current limit is a first-order approximation, the team says: the inertia and friction of gearbox and motor matter too, so a mechanism that gets beaten up needs margin",
+          "basis": "team",
+          "src": [
+            "s21"
+          ]
+        },
+        {
+          "text": "The two large pulleys are 3D printed in a carbon fiber reinforced filament; almost all the team's pulleys are printed except very small ones, which tend to be on the motors",
+          "basis": "team",
+          "src": [
+            "s19"
           ]
         }
       ],
@@ -407,10 +542,10 @@
           ]
         },
         {
-          "text": "Skipping teeth is not great for the belts over time (reads as the team's post)",
-          "basis": "observer",
+          "text": "Skipping teeth is not great for the belts over time",
+          "basis": "team",
           "src": [
-            "s11"
+            "s15"
           ]
         }
       ]
@@ -469,6 +604,20 @@
           ],
           "value": 11,
           "unit": "in"
+        },
+        {
+          "text": "7/64 in Dyneema is tied to a spool near the bottom, runs continuously through the tubes and is tied to the carriage; two Falcon 500s on a 5:1 reduction turn the spool",
+          "basis": "team",
+          "src": [
+            "s22"
+          ]
+        },
+        {
+          "text": "The bearing blocks are custom, based on WCP ones but easy to cut on a typical Omio CNC with a 4 mm end mill; making them in-house saved a lot of money",
+          "basis": "team",
+          "src": [
+            "s23"
+          ]
         }
       ]
     },
@@ -509,7 +658,7 @@
           "text": "A forum post says side forks free room on the charge station for other robots",
           "basis": "observer",
           "src": [
-            "s12"
+            "s18"
           ]
         }
       ]
@@ -567,10 +716,10 @@
       "name": "Underside electronics",
       "solves": [
         {
-          "text": "Reach the wiring without digging through the robot, and free the space above (reads as the team's reply)",
-          "basis": "observer",
+          "text": "Reach the wiring without digging through the robot, and free the space above",
+          "basis": "team",
           "src": [
-            "s3"
+            "s14"
           ]
         }
       ],
@@ -581,19 +730,19 @@
       "serves": [],
       "facts": [
         {
-          "text": "Easy access depends on the panel below being quick to remove (reads as the team's reply)",
-          "basis": "observer",
+          "text": "As long as the panel below is easy to remove, tipping the robot makes little difference; the team preferred this to its 2022 electronics above the belly pan",
+          "basis": "team",
           "src": [
-            "s3"
+            "s14"
           ]
         }
       ],
       "cost": [
         {
-          "text": "The robot must be flipped each time (reads as the team's reply)",
-          "basis": "observer",
+          "text": "The robot must be flipped each time",
+          "basis": "team",
           "src": [
-            "s3"
+            "s14"
           ]
         }
       ]
@@ -637,30 +786,58 @@
       ]
     },
     {
-      "choice": "Dyneema elevator (reads as the team's reply)",
-      "because": "it was easier to package: it routes through the tubes, and the belt gearbox took too much room",
-      "instead_of": "a belted elevator, tested on a 2022 project elevator",
-      "basis": "observer",
+      "choice": "Dyneema elevator",
+      "because": "teeth cannot skip, it was easier to package (it routes through the tubes, and the belt gearbox took up more space than the team liked), and its lower rigging mass helps the elevator accelerate",
+      "instead_of": "a belted elevator, as on the 2022 project elevator used for the alpha robot",
+      "basis": "team",
       "src": [
-        "s3"
-      ]
+        "s26",
+        "s22"
+      ],
+      "cost": "the belted rigging was much simpler"
     },
     {
-      "choice": "Fully belted arm gearbox (reads as the team's post)",
+      "choice": "Fully belted arm gearbox",
       "because": "gears that strip in an impact put a subsystem out for the match, while belts can skip and recover",
       "cost": "wear on the belts over time",
-      "basis": "observer",
+      "basis": "team",
       "src": [
-        "s11"
+        "s15"
       ]
     },
     {
-      "choice": "Cone roller added after beta (reads as the team's reply)",
-      "because": "two cones and a cube could then be placed in auto, where tied Worlds matches would be decided; the reply adds that supercharging meant this did not matter too much",
+      "choice": "Cone roller added after beta",
+      "because": "two cones and a cube could then be placed in auto, which would quite likely decide the many Worlds matches tied at 193; supercharging meant this did not matter too much, but taking a tipped cone now and then still helped",
       "instead_of": "the kickoff choice not to collect cones from the floor",
-      "basis": "observer",
+      "basis": "team",
       "src": [
-        "s3"
+        "s13"
+      ]
+    },
+    {
+      "choice": "Slanted elevator with an arm",
+      "because": "it was simpler, and the team already had an elevator on hand",
+      "instead_of": "a telescoping (pink) arm or a double-jointed arm",
+      "basis": "team",
+      "src": [
+        "s22"
+      ]
+    },
+    {
+      "choice": "One master layout sketch that every subsystem's sketch derives from",
+      "because": "it assigns space beforehand and prevents overlap; in 2022 the team spent considerable time getting subsystems to coexist",
+      "basis": "team",
+      "src": [
+        "s14"
+      ]
+    },
+    {
+      "choice": "Review recorded match logs (AdvantageKit logs viewed in AdvantageScope, not replayed through modified code)",
+      "because": "they led the team to the fault: in division playoffs, no gyro data although the gyro still appeared in Phoenix Tuner, fixed before the next match; at the first event, a wrong auto heading target, traced to how the code flipped it",
+      "basis": "team",
+      "src": [
+        "s24",
+        "s25"
       ]
     }
   ],
@@ -677,9 +854,23 @@
         "what": "5940 BREAD 2023 CAD and Code Release (49)",
         "url": "https://www.chiefdelphi.com/t/5940-bread-2023-cad-and-code-release/445374",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s3",
         "holds": "Onshape"
+      },
+      {
+        "what": "Elevator bearing block subassembly",
+        "url": "https://cad.onshape.com/documents/48833030e2e8c53c9af5c277/w/c650dda728d4c9dfbaec0fc7/e/02a578d6f3c13d96a3904274",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s23"
+      },
+      {
+        "what": "Configurable custom pulleys, used for pulleys with unusual tooth counts",
+        "url": "https://5940.onshape.com/documents/dee14b205b4629c493a3df74/w/e71399ff72bfe8f43ffd3d9f/e/52e4bcc46d2d74ce46935381",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s27"
       }
     ],
     "graphics": [
@@ -708,7 +899,7 @@
         "what": "5940 1+2 auto, 2023 (alpha robot, not the competition robot)",
         "url": "https://www.chiefdelphi.com/t/5940-bread-1-2-auto-2023/423761",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s7"
       },
       {
@@ -814,7 +1005,7 @@
     "community CAD sheet",
     "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
     "binders: Chief Delphi searches for 5940 in titles and 5940 tech binder, 29 team-site pages; only the beta slides found (text read, drawings not read)",
-    "CAD and code thread, first page and post 49"
+    "CAD and code thread"
   ],
   "results": {
     "division": "Curie",
