@@ -73,7 +73,7 @@
       "read": "2026-11-25"
     },
     "s12": {
-      "title": "Page with pictures of this robot",
+      "title": "Team 1768 2026 CAD Release",
       "url": "https://www.chiefdelphi.com/t/team-1768-2026-cad-release/525192",
       "publisher": "chiefdelphi.com",
       "read": "2026-11-25"
@@ -82,12 +82,6 @@
       "title": "1768 Nashoba Robotics Behind the Bumpers, filmed at the New England District Championship (auto-caption read)",
       "url": "https://www.youtube.com/watch?v=zxBvVSZtS3E",
       "publisher": "FUN Robotics Network (YouTube)",
-      "read": "2026-11-25"
-    },
-    "s14": {
-      "title": "Team 1768 2026 CAD Release, post 29",
-      "url": "https://www.chiefdelphi.com/t/team-1768-2026-cad-release/525192/29",
-      "publisher": "Chief Delphi",
       "read": "2026-11-25"
     },
     "s15": {
@@ -99,6 +93,96 @@
     "s16": {
       "title": "Team 1768 2026 CAD Release, post 25",
       "url": "https://www.chiefdelphi.com/t/team-1768-2026-cad-release/525192/25",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "Team 1768 2026 CAD Release, post 16",
+      "url": "https://www.chiefdelphi.com/t/525192/16",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "Team 1768 Nashoba Robotics 2026 Robot Reveal, post 3",
+      "url": "https://www.chiefdelphi.com/t/519386/3",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "Team 1768 2026 CAD Release, post 29",
+      "url": "https://www.chiefdelphi.com/t/525192/29",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "Team 1768 2026 CAD Release, post 12",
+      "url": "https://www.chiefdelphi.com/t/525192/12",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "Team 1768 2026 CAD Release, post 24",
+      "url": "https://www.chiefdelphi.com/t/525192/24",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s22": {
+      "title": "Team 1768 2026 CAD Release, post 9",
+      "url": "https://www.chiefdelphi.com/t/525192/9",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s23": {
+      "title": "Team 1768 2026 CAD Release, post 15",
+      "url": "https://www.chiefdelphi.com/t/525192/15",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s24": {
+      "title": "Team 1768 2026 CAD Release, post 22",
+      "url": "https://www.chiefdelphi.com/t/525192/22",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s25": {
+      "title": "Team 1768 2026 CAD Release, post 25",
+      "url": "https://www.chiefdelphi.com/t/525192/25",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s26": {
+      "title": "Team 1768 2026 CAD Release, post 27",
+      "url": "https://www.chiefdelphi.com/t/525192/27",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s27": {
+      "title": "Team 1768 2026 CAD Release, post 8",
+      "url": "https://www.chiefdelphi.com/t/525192/8",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s28": {
+      "title": "Team 1768 2026 CAD Release, post 11",
+      "url": "https://www.chiefdelphi.com/t/525192/11",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s29": {
+      "title": "Team 1768 2026 CAD Release, post 17",
+      "url": "https://www.chiefdelphi.com/t/525192/17",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s30": {
+      "title": "Team 1768 Nashoba Robotics 2026 Robot Reveal, post 9",
+      "url": "https://www.chiefdelphi.com/t/519386/9",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s32": {
+      "title": "Team 1768 2026 CAD Release, post 21",
+      "url": "https://www.chiefdelphi.com/t/525192/21",
       "publisher": "Chief Delphi",
       "read": "2026-11-25"
     }
@@ -141,10 +225,10 @@
         ]
       },
       {
-        "text": "Unsigned reply that reads as the team's: the robot starts under the trench with its intake pointing to midfield.",
-        "basis": "observer",
+        "text": "The robot starts under the trench with its intake already pointing to midfield.",
+        "basis": "team",
         "src": [
-          "s12"
+          "s17"
         ]
       }
     ],
@@ -166,10 +250,10 @@
         ]
       },
       {
-        "text": "Unsigned reply that reads as the team's: it can pass the full field if necessary.",
-        "basis": "observer",
+        "text": "It can pass the full field if necessary.",
+        "basis": "team",
         "src": [
-          "s4"
+          "s18"
         ]
       }
     ],
@@ -182,17 +266,25 @@
         ]
       },
       {
-        "text": "Unsigned replies that read as the team's say fuel jammed at the entry roller, and ball path, drop-in space and stability led to the 11-day rebuild, which kept swerves, belly pan and most of the intake; intake belts became chain after worlds.",
-        "basis": "observer",
+        "text": "At Week 0 Nightshade did not fit under the trench with its intake retracted.",
+        "basis": "team",
         "src": [
-          "s14",
-          "s12"
+          "s23"
         ]
       },
       {
-        "text": "Off-season changes reached about 28 fuel per second, with late-match brownouts.",
+        "text": "Ball path, drop-in space and stability problems were a big reason for an 11-day rebuild before WPI, which kept swerves, belly pan and most of the intake design.",
         "basis": "team",
         "src": [
+          "s19",
+          "s20"
+        ]
+      },
+      {
+        "text": "Off-season changes raised about 23 to 26 fuel per second to about 28.",
+        "basis": "team",
+        "src": [
+          "s21",
           "s16"
         ]
       }
@@ -208,10 +300,10 @@
       "serves": [],
       "facts": [
         {
-          "text": "Unsigned reply that reads as the team's: the swerves and belly pan are the only components carried over from Nightshade, though most of the intake was kept the same until some redesign for the district championship",
-          "basis": "observer",
+          "text": "The swerves and belly pan are the only components carried over from Nightshade",
+          "basis": "team",
           "src": [
-            "s12"
+            "s20"
           ]
         }
       ]
@@ -268,14 +360,21 @@
             "s13",
             "s4"
           ]
+        },
+        {
+          "text": "Most of the intake was kept the same through the rebuild, with some redesign for the district championship",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
         }
       ],
       "cost": [
         {
-          "text": "Unsigned reply that reads as the team's: finding geometry that cleared the trench both ways and started inside the frame took a lot of trial and error",
-          "basis": "observer",
+          "text": "Finding geometry that cleared the trench in both positions, started inside the frame, folded the kicker bar over the bumpers and kept the links at an angle took a lot of trial and error",
+          "basis": "team",
           "src": [
-            "s12"
+            "s17"
           ]
         },
         {
@@ -286,10 +385,17 @@
           ]
         },
         {
-          "text": "Unsigned reply that reads as the team's: soon after that switch a chain slipped off, so flanges were added",
-          "basis": "observer",
+          "text": "Soon after that switch, made after worlds, a chain slipped off, so flanges were added: 1/8 in polycarbonate discs that sandwich the chain and sprocket",
+          "basis": "team",
           "src": [
-            "s12"
+            "s22"
+          ]
+        },
+        {
+          "text": "The team's theory of the skipping: the motor was pulled toward the roller under torque, which slackened the belt, and a 12 tooth pulley with little wrap made it worse; the roller-to-roller belts did not skip, it assumes because the plate flexed less there",
+          "basis": "team",
+          "src": [
+            "s22"
           ]
         }
       ]
@@ -395,12 +501,36 @@
       ],
       "facts": [
         {
-          "text": "Driven by its own Kraken X60, separately from the floor, in the reveal before the championship; off-season, it was combined with the floor",
+          "text": "Driven by its own Kraken X60, separately from the floor, in the reveal before the championship",
           "basis": "team",
           "src": [
             "s4",
-            "s13",
-            "s16"
+            "s13"
+          ]
+        },
+        {
+          "text": "Off-season: spaced 1.5 in compliant wheels, inspired by 2910, replaced the solid roller so balls separate into lanes; accuracy rose significantly at IRI and stayed in the 90% range",
+          "basis": "team",
+          "src": [
+            "s24",
+            "s25"
+          ]
+        },
+        {
+          "text": "Off-season: floor and entry roller became one chain-driven system at 1:1, which raised the maximum floor speed; first at about 26 to 28 fuel per second but not very accurate until the shooter was regeared",
+          "basis": "team",
+          "src": [
+            "s24",
+            "s25"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Off-season: over a long run the combined drive's chain touched itself, from imperfect center distances and a loose chain",
+          "basis": "team",
+          "src": [
+            "s25"
           ]
         }
       ]
@@ -438,6 +568,46 @@
           "basis": "team",
           "src": [
             "s13"
+          ]
+        },
+        {
+          "text": "Off-season: a ratio between drum and kicker roller brought their surface speeds closer, added torque and cut the speed variations seen in shot accuracy",
+          "basis": "team",
+          "src": [
+            "s24",
+            "s25"
+          ]
+        },
+        {
+          "text": "As of the off-season, the drum starts from zero for every shot: it has too little mass for idling to help, and the kicker drum adds friction",
+          "basis": "team",
+          "src": [
+            "s26"
+          ]
+        },
+        {
+          "text": "Off-season 'flywheel holder': bearings on a sliding mount tension a fast belt, with lock washers against the plate to stop sliding; accuracy improved with less backlash and short testing found no problems",
+          "basis": "team",
+          "src": [
+            "s27",
+            "s28",
+            "s24"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Before that tensioner its belt had too much slack and, at its speed, shredded itself over time",
+          "basis": "team",
+          "src": [
+            "s27"
+          ]
+        },
+        {
+          "text": "Off-season brownouts near the ends of matches, the team thinks, came from the shooter not sustaining its speed, made worse by a slightly decreased hood angle with more power on some shots",
+          "basis": "team",
+          "src": [
+            "s25"
           ]
         }
       ]
@@ -483,6 +653,13 @@
           "basis": "team",
           "src": [
             "s5"
+          ]
+        },
+        {
+          "text": "The racks worked out great: the printed segment is 1/4 in thick, and the plates bolted around it keep its teeth from shearing",
+          "basis": "team",
+          "src": [
+            "s29"
           ]
         }
       ]
@@ -535,11 +712,13 @@
     },
     {
       "choice": "Rebuild after week 3",
-      "because": "ball path, drop-in space and stability problems with the spindexer (from an unsigned reply that reads as the team's)",
-      "basis": "observer",
+      "because": "ball path, drop-in space and overall stability problems with the spindexer were a big reason (fuel jammed between its Kraken and the shooter's entry roller; mounted to the belly pan it flexed, which upset tension and made bearings pop out, and the team would now consider a crossmember or frame rail), and the team thought it could do better by starting again somewhat from scratch",
+      "basis": "team",
       "src": [
-        "s14"
-      ]
+        "s19",
+        "s30"
+      ],
+      "instead_of": "fixing the first robot's problems one by one"
     },
     {
       "choice": "Fixed kicker bars",
@@ -571,26 +750,35 @@
     },
     {
       "choice": "Full-width live axles on the intake",
-      "because": "cutting a shaft to length was the fastest solution, says an unsigned reply that reads as the team's",
+      "because": "cutting a shaft to length was the fastest solution",
       "instead_of": "stub axles",
-      "cost": "stubs would have made roller width changes easier",
-      "basis": "observer",
+      "cost": "stubs would have made roller width changes much easier; the team would consider them in the future",
+      "basis": "team",
       "src": [
-        "s12"
+        "s20",
+        "s22"
+      ]
+    },
+    {
+      "choice": "Students set the rebuild schedule, with a date after which the first robot would stay together",
+      "because": "it can be easier to hold each other accountable to goals the students set themselves",
+      "basis": "team",
+      "src": [
+        "s32"
       ]
     }
   ],
   "assets": {
     "cad": [
       {
-        "what": "Team 1768 2026",
+        "what": "Nightshade (V1) CAD",
         "url": "https://cad.onshape.com/documents/1d7aacb3a29f34b87ae45925",
         "format": "Onshape",
         "state": "listed",
         "src": "s3"
       },
       {
-        "what": "Team 1768 2026",
+        "what": "Nightshift CAD, with off-season changes",
         "url": "https://cad.onshape.com/documents/e69560710e95d0bc44da43f0",
         "format": "Onshape",
         "state": "listed",
@@ -614,7 +802,7 @@
         "what": "Team 1768 2026 CAD Release (Nightshift with off-season changes, and Nightshade)",
         "url": "https://www.chiefdelphi.com/t/team-1768-2026-cad-release/525192",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s12"
       }
     ],
@@ -630,7 +818,7 @@
         "what": "Team 1768 Nashoba Robotics 2026 Robot Reveal",
         "url": "https://www.chiefdelphi.com/t/team-1768-nashoba-robotics-2026-robot-reveal-nightshift/519386",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s4"
       },
       {
@@ -737,6 +925,13 @@
         "format": "video",
         "state": "listed",
         "src": "s4"
+      },
+      {
+        "what": "Off-season shooting footage, before final tuning",
+        "url": "https://drive.google.com/file/d/159uBOhRmf0g3n6X0NiEXwdqWYIeBScRA/view",
+        "format": "video",
+        "state": "listed",
+        "src": "s24"
       }
     ],
     "documents": [

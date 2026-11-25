@@ -66,9 +66,111 @@
       "publisher": "youtube.com",
       "read": "2026-11-25"
     },
-    "s11": {
-      "title": "Rebuilt: Rock, Paper, Scissors",
-      "url": "https://www.chiefdelphi.com/t/rebuilt-rock-paper-scissors/521173",
+    "s12": {
+      "title": "Team 4414 HighTide 2026 Tech Binder: RIPCURRENT, post 62",
+      "url": "https://www.chiefdelphi.com/t/519602/62",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "Team 4414 HighTide 2026 Tech Binder: RIPCURRENT, post 75",
+      "url": "https://www.chiefdelphi.com/t/519602/75",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "Team 4414 HighTide 2026 Tech Binder: RIPCURRENT, post 99",
+      "url": "https://www.chiefdelphi.com/t/519602/99",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "Team 4414 HighTide 2026 Tech Binder: RIPCURRENT, post 103",
+      "url": "https://www.chiefdelphi.com/t/519602/103",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "Team 4414 HighTide 2026 Tech Binder: RIPCURRENT, post 105",
+      "url": "https://www.chiefdelphi.com/t/519602/105",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "Team 4414 HighTide 2026 Tech Binder: RIPCURRENT, post 107",
+      "url": "https://www.chiefdelphi.com/t/519602/107",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "Team 4414 HighTide 2026 Tech Binder: RIPCURRENT, post 111",
+      "url": "https://www.chiefdelphi.com/t/519602/111",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "Team 4414 HighTide 2026 Tech Binder: RIPCURRENT, post 113",
+      "url": "https://www.chiefdelphi.com/t/519602/113",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "Team 4414 HighTide 2026 Tech Binder: RIPCURRENT, post 116",
+      "url": "https://www.chiefdelphi.com/t/519602/116",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "Team 4414 HighTide 2026 Tech Binder: RIPCURRENT, post 124",
+      "url": "https://www.chiefdelphi.com/t/519602/124",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s22": {
+      "title": "Team 4414 HighTide 2026 Tech Binder: RIPCURRENT, post 127",
+      "url": "https://www.chiefdelphi.com/t/519602/127",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s23": {
+      "title": "Team 4414 HighTide 2026 Tech Binder: RIPCURRENT, post 134",
+      "url": "https://www.chiefdelphi.com/t/519602/134",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s24": {
+      "title": "Team 4414 HighTide 2026 Tech Binder: RIPCURRENT, post 154",
+      "url": "https://www.chiefdelphi.com/t/519602/154",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s25": {
+      "title": "Rebuilt: Rock, Paper, Scissors, post 19",
+      "url": "https://www.chiefdelphi.com/t/521173/19",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s26": {
+      "title": "Rebuilt: Rock, Paper, Scissors, post 27",
+      "url": "https://www.chiefdelphi.com/t/521173/27",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s27": {
+      "title": "An Outlier's take on the '26 worlds strategic situation, post 3",
+      "url": "https://www.chiefdelphi.com/t/519681/3",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s28": {
+      "title": "An Outlier's take on the '26 worlds strategic situation, post 5",
+      "url": "https://www.chiefdelphi.com/t/519681/5",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s29": {
+      "title": "Rebuilt: Rock, Paper, Scissors, post 23",
+      "url": "https://www.chiefdelphi.com/t/521173/23",
       "publisher": "chiefdelphi.com",
       "read": "2026-11-25"
     }
@@ -107,6 +209,13 @@
         "src": [
           "s3"
         ]
+      },
+      {
+        "text": "The hub push collects fuel, with no odometry reset.",
+        "basis": "team",
+        "src": [
+          "s22"
+        ]
       }
     ],
     "cycle": [
@@ -122,6 +231,13 @@
         "basis": "observer",
         "src": [
           "s4"
+        ]
+      },
+      {
+        "text": "At the SoCal district championship it cycled the center while 3476 drew defense.",
+        "basis": "observer",
+        "src": [
+          "s26"
         ]
       }
     ],
@@ -227,6 +343,27 @@
           "src": [
             "s7"
           ]
+        },
+        {
+          "text": "To optimize swerve placement and hopper capacity the team printed empty shells to scale and filled them with BBs to estimate capacity",
+          "basis": "team",
+          "src": [
+            "s24"
+          ]
+        },
+        {
+          "text": "Electronics under the dye rotor are reached by turning the robot on its side",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "The plastic sheet under the electronics grew from 1/16 to 1/8 in; the stiffer sheet helped the robot slide off balls",
+          "basis": "team",
+          "src": [
+            "s16"
+          ]
         }
       ],
       "cost": [
@@ -292,6 +429,29 @@
           "src": [
             "s8"
           ]
+        },
+        {
+          "text": "With the bumpers off the shooter wobbles only a little on the dye rotor alone",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "The cloth is riveted to the aluminum backing through holes made with a soldering iron",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Every bumper swap means removing about six turret plate bolts, then flexing and tilting the large section to get it off",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
         }
       ]
     },
@@ -351,6 +511,43 @@
           "src": [
             "s8"
           ]
+        },
+        {
+          "text": "The two rack plates are not bolted together, so they stay floppy; the unconstrained section above them, where hits usually land, is made rigid",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Bearing stacks let it slide smoothly",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "A cable chain on one side feeds one intake motor, and wires across the front panel reach the other",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Screws hold the roller tubes, since they do not slip or shear and make the regular changes of silicone rollers easier",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Rack teeth were starting to chip after the first event, when only one of the two plates had teeth; with teeth on both, none chipped or broke",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
         }
       ]
     },
@@ -406,6 +603,20 @@
           "basis": "team",
           "src": [
             "s8"
+          ]
+        },
+        {
+          "text": "The front wall is SRPP for weight; the other walls are not, because the team cannot bend SRPP",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "A poster says chamfered corners make the netted hopper much bigger than drum-shooter hoppers, and that fuel kept inside it cannot be counterfed",
+          "basis": "observer",
+          "src": [
+            "s27"
           ]
         }
       ],
@@ -480,10 +691,60 @@
           ]
         },
         {
-          "text": "A commenter says it indexed more slowly than 4946 but performed far better because it was short",
+          "text": "A commenter says it indexed more slowly than 4946 but performed far better because it was short; another disputes that 4946 would have been better short",
           "basis": "observer",
           "src": [
-            "s11"
+            "s25",
+            "s29"
+          ]
+        },
+        {
+          "text": "It spins at about 2.25 rev/s, or 20 balls/s in theory, much faster than first tested as optimal; balls slip on the passive rollers and leave without gaps at 12 to 14 balls/s",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "The shooter's feeder wheels are the main limit on ball rate; the rotor wheels run much faster",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Motor speeds are 80 rev/s for the rotor and 90 rev/s for the rollers",
+          "basis": "team",
+          "src": [
+            "s23"
+          ]
+        },
+        {
+          "text": "Testing found it extremely critical that balls fall straight down into the rotor unobstructed",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Brushes on a driven moving floor, meant to pull balls in faster and close gaps, were an early prototype; most moving-floor versions stayed in CAD",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Its 32 mm goBILDA wheels are drilled out and broached to 3/8 in hex",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        },
+        {
+          "text": "Version 9 played at Ventura, Orange County and the district championship; version 10, with minor upgrades, played at the world championship",
+          "basis": "team",
+          "src": [
+            "s14"
           ]
         }
       ]
@@ -560,6 +821,34 @@
             "s7",
             "s8"
           ]
+        },
+        {
+          "text": "The hood pivots on the same axis as the shooter wheels",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "The flywheel moved back to fit the Limelight in front inside the turret ring, which left 1.75 in of overhang",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Aluminum parts that may take high impacts are 7075, as are all laser-cut 20 DP gears, for hardness",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Version 6 played at Ventura, 8 at Orange County, 9 at the district championship and 11 at the world championship",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
         }
       ]
     },
@@ -615,6 +904,44 @@
           ],
           "value": 2,
           "unit": "in"
+        },
+        {
+          "text": "The cable chain wraps around four printed guides and joins the turret with two short bolts that let it flip 180 degrees as the turret passes over the center",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Constant tension matters when the turret whips around: without it the chain snags and breaks links",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "During championship qualification a poster put the time it spent in its alliance zone without shooting, lost to aligning and driving, at about 0.5 s, against 3 s for 254",
+          "basis": "observer",
+          "src": [
+            "s28"
+          ]
+        },
+        {
+          "text": "The shooter rests mainly on the X-contact bearing above the dye rotor; bearing stacks at the turret plate on the bumpers add radial support",
+          "basis": "team",
+          "src": [
+            "s14",
+            "s19"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The team tried running the turret Limelight on both Ethernet and HDMI to shrink the turret's swept volume; it fried a couple of Limelights and advises against it",
+          "basis": "team",
+          "src": [
+            "s16"
+          ]
         }
       ]
     },
@@ -684,6 +1011,67 @@
           "src": [
             "s7"
           ]
+        },
+        {
+          "text": "Saved gyro and turret angles turn each tag estimate into a robot pose, which is dropped unless it is on the field, about flat and not moving or turning too fast",
+          "basis": "team",
+          "src": [
+            "s17"
+          ]
+        },
+        {
+          "text": "The shot solver follows a 2022 talk by 1690, but finds every shot between the close and far rim to measure how tolerant each one is",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        },
+        {
+          "text": "Shots are tuned in two steps: a constant hood offset from slow-motion video, then one constant from wheel speed to ball speed, adjusted slightly as balls wear in",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        },
+        {
+          "text": "Wheel speed to ball speed was near linear for most shooter versions; one needed a small lookup table",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        },
+        {
+          "text": "Feeding has its own maps: a low shot with little bounce and one over the back of the net",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        },
+        {
+          "text": "An AI summary of the code, posted by the team, says tilt compensation acts above 2 degrees of tilt and is off during a shoot-on-the-fly lockout",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "The binder says people review what AI agents attempt; the tilt compensation code was not reviewed by a person",
+          "basis": "team",
+          "src": [
+            "s7",
+            "s12",
+            "s13"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Two USB ports failed on the Orange Pi that runs two PhotonVision cameras on the turret plate, perhaps from static, so the championship playoffs were run with one; problems like this are part of why the turret camera is a Limelight",
+          "basis": "team",
+          "src": [
+            "s17",
+            "s18"
+          ]
         }
       ]
     }
@@ -704,8 +1092,10 @@
       "instead_of": "command-based code",
       "basis": "team",
       "src": [
-        "s8"
-      ]
+        "s8",
+        "s20"
+      ],
+      "cost": "many open-source auto tools rely on commands and no longer fit well, so the team built its own framework around driving to points"
     },
     {
       "choice": "Add a hood roller between the district and world championships",
@@ -745,11 +1135,13 @@
     },
     {
       "choice": "Thick polycarbonate front roller with no crash bar",
-      "because": "it needs no sacrificial material in front and helps compliance",
+      "because": "it needs no sacrificial material in front and helps compliance; the team worried that a beater bar could collapse inward and stall the roller",
       "basis": "team",
       "src": [
-        "s8"
-      ]
+        "s8",
+        "s15"
+      ],
+      "instead_of": "a beater bar"
     },
     {
       "choice": "Cut the turret gear at 20 DP",
@@ -762,11 +1154,102 @@
     },
     {
       "choice": "Write fully state-machine code with no commands",
-      "because": "it is easier to reason about for the AI agents that attempt features, which people review",
+      "because": "it is easier to reason about for the AI agents that attempt features",
       "basis": "team",
       "src": [
         "s7"
       ]
+    },
+    {
+      "choice": "Take the whole bumper hopper off to change colors",
+      "because": "swapping only the foam, fabric and thin metal backing could not be made to work cleanly in time; in hindsight removing it all gave better access for inspection and repairs",
+      "instead_of": "a hopper part fixed to the robot with a swapped cover",
+      "basis": "team",
+      "src": [
+        "s19"
+      ]
+    },
+    {
+      "choice": "One gear-driven motor for each intake side",
+      "because": "it removed the risk of belt slip, and one side can collapse in a hit while the other stays out; packaging around the dye rotor was the first reason to consider it",
+      "instead_of": "one motor and a belt-driven jackshaft, whose belts could slip on impact in testing",
+      "basis": "team",
+      "src": [
+        "s15"
+      ]
+    },
+    {
+      "choice": "Polycarbonate intake racks",
+      "because": "the team worried that SRPP would deform for good after a huge impact, delaminate or wear faster at the teeth",
+      "instead_of": "SRPP racks, held as a fallback if polycarbonate broke",
+      "basis": "team",
+      "src": [
+        "s15"
+      ]
+    },
+    {
+      "choice": "X-contact bearings in the dye rotor",
+      "because": "their clamps are very low profile and they are smoother and more rigid",
+      "instead_of": "bearing stacks",
+      "basis": "team",
+      "src": [
+        "s14"
+      ]
+    },
+    {
+      "choice": "Bearing stacks at the turret plate",
+      "because": "the first shooter needed an X-contact bearing there too large to source, and the stacks package well with the turret gear, keeping the cable chain high",
+      "instead_of": "a second, larger X-contact bearing",
+      "basis": "team",
+      "src": [
+        "s14"
+      ]
+    },
+    {
+      "choice": "No absolute encoder on the turret",
+      "because": "the Limelight turns with it and its tag estimates correct the gyro zero, so the turret points at the goal; it is zeroed by eye",
+      "cost": "the gyro zero is thrown off, by about a degree that a driver likely does not notice; the team says this is not the best way, but that vision would not gain it points this season",
+      "basis": "team",
+      "src": [
+        "s17"
+      ]
+    },
+    {
+      "choice": "MegaTag 1 on the turret Limelight",
+      "because": "MegaTag 2 and hybrid approaches gave minimal gains compared with a well-placed camera aimed at the main point of interest",
+      "instead_of": "MegaTag 2 or hybrid approaches",
+      "basis": "team",
+      "src": [
+        "s17"
+      ]
+    },
+    {
+      "choice": "Tune a simulated shot map with one ball speed constant",
+      "because": "it was built before the robot ran, cut tuning time, and one small change corrects the full range of shots, though the team does not claim the best shot of the season",
+      "instead_of": "a lookup map tuned by hand at every distance",
+      "basis": "team",
+      "src": [
+        "s20"
+      ]
+    },
+    {
+      "choice": "One depot auto with a single bump crossing for the championship",
+      "because": "it gave the most shooting time, let the robot end in the center, worth perhaps 30 to 40 balls, and worked with any partner or placement",
+      "instead_of": "a double sweep, which scored less",
+      "cost": "without four strong robots rushing the middle, the fuel behind the hub does not collect into a triangle",
+      "basis": "team",
+      "src": [
+        "s21"
+      ]
+    },
+    {
+      "choice": "Block CAD as a 3-dimensional master sketch",
+      "because": "it shows packaging, collisions and space claims without holes or plate outlines, so changes stay simple; each plate in detail CAD is sketched on its block",
+      "basis": "team",
+      "src": [
+        "s24"
+      ],
+      "instead_of": "Krayola CAD, which was not detailed enough"
     }
   ],
   "assets": {
@@ -830,7 +1313,7 @@
         "what": "Binder announcement thread, RIPCURRENT",
         "url": "https://www.chiefdelphi.com/t/team-4414-hightide-2026-tech-binder-ripcurrent/519602",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s9"
       }
     ],

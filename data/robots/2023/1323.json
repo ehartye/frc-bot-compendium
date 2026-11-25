@@ -60,9 +60,15 @@
       "publisher": "youtube.com",
       "read": "2026-11-25"
     },
-    "s10": {
-      "title": "1323 Rigging information",
-      "url": "https://www.chiefdelphi.com/t/1323-rigging-information/436042",
+    "s11": {
+      "title": "1323 Rigging information, post 4",
+      "url": "https://www.chiefdelphi.com/t/436042/4",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Best Robots of 2023 (including off seasons), post 17",
+      "url": "https://www.chiefdelphi.com/t/444588/17",
       "publisher": "chiefdelphi.com",
       "read": "2026-11-25"
     }
@@ -115,6 +121,13 @@
         "basis": "team",
         "src": [
           "s9"
+        ]
+      },
+      {
+        "text": "An observer's championship table gives 13.6 pieces a qualification match, 2.4 in auto, second overall in points.",
+        "basis": "observer",
+        "src": [
+          "s12"
         ]
       }
     ],
@@ -275,24 +288,19 @@
       ],
       "facts": [
         {
-          "text": "The horizontal elevator is powered by chain and rope",
+          "text": "The horizontal elevator is powered by chain and rope, with cascade rigging",
           "basis": "team",
           "src": [
-            "s9"
+            "s9",
+            "s11"
           ]
         },
         {
-          "text": "The vertical elevator is powered by one long belt",
+          "text": "The vertical elevator is powered by one long belt, a continuous loop with tensioners on two ends",
           "basis": "team",
           "src": [
-            "s9"
-          ]
-        },
-        {
-          "text": "A reply that reads as the team's says the vertical elevator is one continuous loop of belt with tensioners on two ends, and the horizontal one is chain driven with cascade rigging",
-          "basis": "observer",
-          "src": [
-            "s10"
+            "s9",
+            "s11"
           ]
         }
       ]

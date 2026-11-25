@@ -65,6 +65,48 @@
       "url": "https://www.youtube.com/watch?v=HD-UhOpBiZ0",
       "publisher": "youtube.com",
       "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "2046 CAD and Tech Binder Release 2026, post 13",
+      "url": "https://www.chiefdelphi.com/t/523823/13",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "2046 CAD and Tech Binder Release 2026, post 11",
+      "url": "https://www.chiefdelphi.com/t/523823/11",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "2046 CAD and Tech Binder Release 2026, post 19",
+      "url": "https://www.chiefdelphi.com/t/523823/19",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "2046 CAD and Tech Binder Release 2026, post 6",
+      "url": "https://www.chiefdelphi.com/t/523823/6",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "2046 CAD and Tech Binder Release 2026, post 3",
+      "url": "https://www.chiefdelphi.com/t/523823/3",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "2046 CAD and Tech Binder Release 2026, post 9",
+      "url": "https://www.chiefdelphi.com/t/523823/9",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "2046 CAD and Tech Binder Release 2026, post 17",
+      "url": "https://www.chiefdelphi.com/t/523823/17",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -161,10 +203,10 @@
         ]
       },
       {
-        "text": "A reply that reads as the team's says it planned the rebuild before week 1.",
-        "basis": "observer",
+        "text": "The team knew before week 1 that it would rebuild; it mainly widened the superstructure.",
+        "basis": "team",
         "src": [
-          "s9"
+          "s11"
         ]
       },
       {
@@ -322,10 +364,10 @@
           ]
         },
         {
-          "text": "A reply that reads as the team's says the deploy is a slap-down pivot arm on a sprocket on a stationary dead axle with two Kraken X44s",
-          "basis": "observer",
+          "text": "The deploy is a slap-down pivot arm on a sprocket on a stationary dead axle, with two Kraken X44s",
+          "basis": "team",
           "src": [
-            "s9"
+            "s12"
           ]
         }
       ]
@@ -430,10 +472,10 @@
       ],
       "cost": [
         {
-          "text": "A reply that reads as the team's says moving to two motors on the floor after the district championship added a little weight but saved significant current and let the floor spin faster",
-          "basis": "observer",
+          "text": "After the district championship the floor went to two X44s: a little more weight, but kept in their efficient range they saved significant current and let the floor spin faster",
+          "basis": "team",
           "src": [
-            "s9"
+            "s13"
           ]
         }
       ]
@@ -538,19 +580,19 @@
           ]
         },
         {
-          "text": "A reply that reads as the team's says it was about 23 to 25 balls per second at Worlds, with accuracy close to 95 percent",
-          "basis": "observer",
+          "text": "At Worlds it reached close to 23 to 25 balls per second, and the team thinks its accuracy was close to 95 percent",
+          "basis": "team",
           "src": [
-            "s9"
+            "s14"
           ]
         }
       ],
       "cost": [
         {
-          "text": "A reply that reads as the team's says with no separate flywheel, shooter tuning that did not oscillate in its idle state was the biggest accuracy problem",
-          "basis": "observer",
+          "text": "The biggest accuracy problem was tuning a shooter with no separate flywheel so that it did not oscillate while idle",
+          "basis": "team",
           "src": [
-            "s9"
+            "s14"
           ]
         }
       ]
@@ -629,6 +671,14 @@
           "basis": "team",
           "src": [
             "s10"
+          ]
+        },
+        {
+          "text": "Replies in the release thread say autos use PathPlanner paths made beforehand; the chooser's three stages are the first, second and third swipes",
+          "basis": "observer",
+          "src": [
+            "s15",
+            "s16"
           ]
         }
       ]
@@ -719,7 +769,8 @@
       "basis": "team",
       "src": [
         "s10",
-        "s4"
+        "s4",
+        "s14"
       ]
     },
     {
@@ -739,6 +790,40 @@
       "src": [
         "s10"
       ]
+    },
+    {
+      "choice": "Slap-down collector deploy",
+      "because": "its simplicity and the team's success with it in past years",
+      "basis": "team",
+      "src": [
+        "s12"
+      ]
+    },
+    {
+      "choice": "Keep the beta robot's architecture",
+      "because": "it trusted its iteration process, after current and throughput problems on the beta robot raised the question",
+      "instead_of": "a turret, which it spent about two days designing and prototyping",
+      "basis": "team",
+      "src": [
+        "s11"
+      ]
+    },
+    {
+      "choice": "One competition robot instead of two identical ones",
+      "because": "it knew going into week 1 that the first robot would be rebuilt",
+      "basis": "team",
+      "src": [
+        "s11"
+      ]
+    },
+    {
+      "choice": "Rebuild from its own first robot's concepts",
+      "because": "it felt it could improve on other robots by refining its first concepts for the new architecture; the rebuild had no real prototyping",
+      "instead_of": "copying another robot beyond its overall architecture",
+      "basis": "team",
+      "src": [
+        "s11"
+      ]
     }
   ],
   "assets": {
@@ -750,6 +835,13 @@
         "state": "listed",
         "src": "s5",
         "holds": "Google Drive file, format not stated"
+      },
+      {
+        "what": "Onshape document linked in the release thread by a poster not shown to be on the team",
+        "url": "https://cad.onshape.com/documents/83059e21fea3b05d88a31a0f/w/da153fb6c0eee9ca8d0a0eca/e/a3b2a6520258807bed8950c0",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s17"
       }
     ],
     "graphics": [
@@ -826,6 +918,13 @@
         "format": "Google Drive",
         "state": "opened",
         "src": "s4"
+      },
+      {
+        "what": "Release thread with questions and answers",
+        "url": "https://www.chiefdelphi.com/t/2046-cad-and-tech-binder-release-2026/523823",
+        "format": "thread",
+        "state": "opened",
+        "src": "s9"
       }
     ],
     "code": [

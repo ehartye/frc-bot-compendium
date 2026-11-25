@@ -77,6 +77,60 @@
       "url": "https://cad.onshape.com/documents/9cbbec3ed4ea54a2991dedd8/w/2c2c5adc550cdfcd56da52e1/e/b995f39625c9f74bc911bc69",
       "publisher": "Team 2767 / Onshape",
       "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "2767 Stryke Force CAD/Code Release 2023 (post 16)",
+      "url": "https://www.chiefdelphi.com/t/437202/16",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "2767 Stryke Force CAD/Code Release 2023 (post 9)",
+      "url": "https://www.chiefdelphi.com/t/437202/9",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "2767 Stryke Force CAD/Code Release 2023 (post 6)",
+      "url": "https://www.chiefdelphi.com/t/437202/6",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "Stryke Force 2767 - Robot Reveal 2023 (post 7)",
+      "url": "https://www.chiefdelphi.com/t/429639/7",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "2767 Stryke Force CAD/Code Release 2023 (post 11)",
+      "url": "https://www.chiefdelphi.com/t/437202/11",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "Stryke Force 2767 - Robot Reveal 2023 (post 3)",
+      "url": "https://www.chiefdelphi.com/t/429639/3",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "2767 Stryke Force CAD/Code Release 2023 (post 20)",
+      "url": "https://www.chiefdelphi.com/t/437202/20",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "Stryke Force 2767 - Robot Reveal 2023 (post 5)",
+      "url": "https://www.chiefdelphi.com/t/429639/5",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "2767 Stryke Force CAD/Code Release 2023 (post 14)",
+      "url": "https://www.chiefdelphi.com/t/437202/14",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -115,20 +169,20 @@
         ]
       },
       {
-        "text": "An unsigned reply that reads as the team's says the driver drives and the drive team starts each sequence.",
-        "basis": "observer",
+        "text": "All driving is by the driver, with stick limiting during pickup and placing; the drive team starts each automated sequence.",
+        "basis": "team",
         "src": [
-          "s4"
+          "s13"
         ]
       }
     ],
     "endgame": [],
     "fallback": [
       {
-        "text": "An unsigned reply that reads as the team's says manual controls are there if a sequence fails.",
-        "basis": "observer",
+        "text": "Manual controls are there if a sequence fails.",
+        "basis": "team",
         "src": [
-          "s4"
+          "s13"
         ]
       }
     ],
@@ -141,10 +195,10 @@
         ]
       },
       {
-        "text": "An unsigned reply that reads as the team's says a 20 lb plate was added under the belly pan for stability.",
-        "basis": "observer",
+        "text": "The robot first weighed about 100 lb, and a 20 lb plate was added under the belly pan for stability.",
+        "basis": "team",
         "src": [
-          "s4"
+          "s14"
         ]
       }
     ],
@@ -157,10 +211,11 @@
         ]
       },
       {
-        "text": "Unsigned replies that read as the team's call the interview video out of date and list changes from there to worlds: a larger curved rack, sturdier elbow gearboxes, a camera on the elevator for tags in auto, and larger bevel gears in the claw.",
-        "basis": "observer",
+        "text": "Team replies call the interview video out of date and list changes from there to worlds: a larger curved rack, more durable elbow gearboxes, a camera on the elevator for tags in auto, and larger bevel gears in the claw.",
+        "basis": "team",
         "src": [
-          "s4"
+          "s15",
+          "s14"
         ]
       }
     ],
@@ -335,6 +390,13 @@
           "src": [
             "s8"
           ]
+        },
+        {
+          "text": "Larger bevel gears by worlds",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
         }
       ]
     },
@@ -364,6 +426,29 @@
           "basis": "team",
           "src": [
             "s4"
+          ]
+        },
+        {
+          "text": "Set points, about half of them for sequences",
+          "basis": "team",
+          "src": [
+            "s13"
+          ],
+          "value": 24,
+          "unit": "set points"
+        },
+        {
+          "text": "Carbon fiber comes from Rock West Composites; most printed parts are Onyx, some PETG",
+          "basis": "team",
+          "src": [
+            "s16"
+          ]
+        },
+        {
+          "text": "Unlike the elevator's elbow joints, some carbon tube joints were assembled dry, then hot glue was shot through holes into grooves inside",
+          "basis": "team",
+          "src": [
+            "s14"
           ]
         }
       ],
@@ -410,6 +495,20 @@
           "src": [
             "s11"
           ]
+        },
+        {
+          "text": "The curved rack was larger and taller by worlds",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Printed gear profiles came from Onshape feature scripts; occasionally extra backlash was needed for smooth running",
+          "basis": "team",
+          "src": [
+            "s17"
+          ]
         }
       ]
     },
@@ -449,11 +548,21 @@
           ]
         },
         {
-          "text": "Unsigned replies that read as the team's: the interview video is out of date, and the elbow gearboxes had lots of little durability changes by worlds",
-          "basis": "observer",
+          "text": "The interview video is out of date, and the elbow gearboxes had lots of little durability changes by worlds",
+          "basis": "team",
           "src": [
-            "s4"
+            "s15",
+            "s14"
           ]
+        },
+        {
+          "text": "Set points, about 8 of them for sequences",
+          "basis": "team",
+          "src": [
+            "s13"
+          ],
+          "value": 25,
+          "unit": "set points"
         }
       ],
       "cost": [
@@ -495,6 +604,31 @@
           "src": [
             "s4"
           ]
+        },
+        {
+          "text": "Shoulder set points, about 7 of them for sequences",
+          "basis": "team",
+          "src": [
+            "s13"
+          ],
+          "value": 20,
+          "unit": "set points"
+        },
+        {
+          "text": "Set points for the hand on the arm",
+          "basis": "team",
+          "src": [
+            "s13"
+          ],
+          "value": 9,
+          "unit": "set points"
+        },
+        {
+          "text": "A light on the robot turns on while the camera lines it up",
+          "basis": "team",
+          "src": [
+            "s18"
+          ]
         }
       ]
     },
@@ -502,10 +636,10 @@
       "name": "Health check",
       "solves": [
         {
-          "text": "An unsigned reply that reads as the team's says the goal is to find failures before they affect matches",
-          "basis": "observer",
+          "text": "Find failures before they affect matches",
+          "basis": "team",
           "src": [
-            "s4"
+            "s19"
           ]
         }
       ],
@@ -523,10 +657,10 @@
           ]
         },
         {
-          "text": "An unsigned reply that reads as the team's says it runs each axis open loop, records current and velocity and allows comparison with history",
-          "basis": "observer",
+          "text": "It runs each axis open loop, records current and velocity and allows comparison with history",
+          "basis": "team",
           "src": [
-            "s4"
+            "s19"
           ]
         }
       ]
@@ -578,19 +712,30 @@
     },
     {
       "choice": "Elevator stage on the arm",
-      "because": "an unsigned reply that reads as the team's says it kept the tilt of the first axis small and shortened the second",
-      "basis": "observer",
+      "because": "it kept the tilt of the first axis small and shortened the second axis by a few inches, to minimize the moment arm off the base",
+      "basis": "team",
       "src": [
-        "s5"
+        "s20"
       ]
     },
     {
       "choice": "Move CAD to Onshape",
-      "because": "the team wanted its CAD more accessible; an unsigned reply that reads as the team's says several people could work on one subsystem and students started in minutes",
+      "because": "the team wanted its CAD more accessible; several people could work on one subsystem and students started in minutes",
       "cost": "the master sketch was not kept up to date, which caused problems while prototyping",
-      "basis": "observer",
+      "basis": "team",
       "src": [
-        "s4"
+        "s4",
+        "s17"
+      ]
+    },
+    {
+      "choice": "Keep subassembly sketches separate in CAD",
+      "because": "one person should drive the main assembly, and no one should change something without seeing its impact on it",
+      "instead_of": "subassembly sketches derived from the master sketch",
+      "basis": "team",
+      "src": [
+        "s17",
+        "s21"
       ]
     }
   ],
@@ -614,7 +759,7 @@
         "what": "2767 Stryke Force CAD/Code Release 2023",
         "url": "https://www.chiefdelphi.com/t/2767-stryke-force-cad-code-release-2023/437202",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s4",
         "holds": "Onshape"
       },
@@ -622,7 +767,7 @@
         "what": "2767 off-season CAD release, January 2024 (mostly 2024 preparation)",
         "url": "https://www.chiefdelphi.com/t/2767-off-season-cad-release/447459",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s8",
         "holds": "Onshape"
       },
@@ -653,7 +798,7 @@
         "what": "Stryke Force 2767 - Robot Reveal 2023",
         "url": "https://www.chiefdelphi.com/t/stryke-force-2767-robot-reveal-2023/429639",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s5"
       },
       {

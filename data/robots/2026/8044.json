@@ -48,9 +48,21 @@
       "publisher": "The Blue Alliance / Imgur",
       "read": "2026-11-25"
     },
-    "s9": {
-      "title": "Successful Rebuilds, post 24",
-      "url": "https://www.chiefdelphi.com/t/successful-rebuilds/507401/24",
+    "s10": {
+      "title": "Successful Rebuilds, post 36",
+      "url": "https://www.chiefdelphi.com/t/507401/36",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "How many 254/1678/6328 clones will we see at champs?, post 62",
+      "url": "https://www.chiefdelphi.com/t/518189/62",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Is the drum shooter meta ending?, post 107",
+      "url": "https://www.chiefdelphi.com/t/517772/107",
       "publisher": "chiefdelphi.com",
       "read": "2026-11-25"
     }
@@ -72,10 +84,12 @@
         ]
       },
       {
-        "text": "A poster's list of 2026 rebuilds, which warns of likely mistakes, names 8044 with no detail.",
+        "text": "Commenters say it rebuilt during the season to 4414's archetype, with a turret by 4 April; one calls the original robot pretty good.",
         "basis": "observer",
         "src": [
-          "s9"
+          "s10",
+          "s11",
+          "s12"
         ]
       }
     ],

@@ -89,6 +89,48 @@
       "url": "https://www.youtube.com/watch?v=dB1lmxKE_I0",
       "publisher": "RoboReplay (YouTube)",
       "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "3005 RoboChargers CAD Release 2025, post 7",
+      "url": "https://www.chiefdelphi.com/t/504887/7",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "3005 RoboChargers CAD Release 2025, post 8",
+      "url": "https://www.chiefdelphi.com/t/504887/8",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "3005 RoboChargers CAD Release 2025, post 12",
+      "url": "https://www.chiefdelphi.com/t/504887/12",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "3005 RoboChargers CAD Release 2025, post 17",
+      "url": "https://www.chiefdelphi.com/t/504887/17",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "3005 RoboChargers CAD Release 2025, post 13",
+      "url": "https://www.chiefdelphi.com/t/504887/13",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "3005 RoboChargers CAD Release 2025, post 6",
+      "url": "https://www.chiefdelphi.com/t/504887/6",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "Building a Serial Excellence in Engineering Team - 3005 2025 FMC Presentation, post 7",
+      "url": "https://www.chiefdelphi.com/t/505868/7",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -181,10 +223,10 @@
         ]
       },
       {
-        "text": "Unsigned reply that reads as the team's: the laterator loosened over time and was shimmed for an off-season event.",
-        "basis": "observer",
+        "text": "The laterator loosened left to right over time and was shimmed for an off-season event.",
+        "basis": "team",
         "src": [
-          "s12"
+          "s15"
         ]
       }
     ]
@@ -220,6 +262,13 @@
           "src": [
             "s9"
           ]
+        },
+        {
+          "text": "A 0.25 in gap between frame and bumpers makes the bumpers easy to fit; spacers, missing from the CAD, fill it at less than 8 in intervals",
+          "basis": "team",
+          "src": [
+            "s18"
+          ]
         }
       ]
     },
@@ -253,17 +302,17 @@
           ]
         },
         {
-          "text": "Unsigned reply that reads as the team's: the elevator uses chain mostly because the team knew it",
-          "basis": "observer",
+          "text": "The elevator uses chain mostly because the team knew it",
+          "basis": "team",
           "src": [
-            "s12"
+            "s16"
           ]
         },
         {
-          "text": "Unsigned reply that reads as the team's: bearing-to-gusset hard stops began as Markforged Onyx and moved to MaxComposite to save weight",
-          "basis": "observer",
+          "text": "Bearing-to-gusset hard stops began as Markforged Onyx and moved to MaxComposite to save weight; maybe one Onyx stop was replaced, after deforming over time",
+          "basis": "team",
           "src": [
-            "s12"
+            "s17"
           ]
         }
       ]
@@ -315,10 +364,10 @@
           ]
         },
         {
-          "text": "Unsigned reply that reads as the team's: it generally derailed when the robot climbed onto the reef, which it was not designed for, and it loosened left to right over time",
-          "basis": "observer",
+          "text": "It generally derailed when the robot climbed onto the reef, which it was not designed for, and it loosened left to right over time",
+          "basis": "team",
           "src": [
-            "s12"
+            "s15"
           ]
         }
       ]
@@ -428,10 +477,10 @@
           ]
         },
         {
-          "text": "Unsigned reply that reads as the team's: mostly carbon fiber tube and MaxComposite, quite strong in tension",
-          "basis": "observer",
+          "text": "Its structure is mostly carbon fiber tube and MaxComposite, quite strong in tension",
+          "basis": "team",
           "src": [
-            "s12"
+            "s15"
           ]
         }
       ],
@@ -627,6 +676,22 @@
           "src": [
             "s9"
           ]
+        },
+        {
+          "text": "Cut by laser if possible; after a router, the edges must be melted to seal the woven layers",
+          "basis": "team",
+          "src": [
+            "s16"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "It delaminates under edge loading",
+          "basis": "team",
+          "src": [
+            "s16"
+          ]
         }
       ]
     }
@@ -678,11 +743,53 @@
     },
     {
       "choice": "MaxComposite elevator hard stops",
-      "because": "they weigh less, says an unsigned reply that reads as the team's",
+      "because": "they weigh less",
       "instead_of": "Markforged Onyx",
+      "basis": "team",
+      "src": [
+        "s17"
+      ]
+    },
+    {
+      "choice": "A printed PLA sprocket",
+      "because": "the joint carries little torque and the sprocket did not fail; the team says walls must be thick enough to make the teeth solid",
+      "basis": "team",
+      "src": [
+        "s16"
+      ]
+    },
+    {
+      "choice": "Block CAD before detail CAD",
+      "because": "the team says the method worked perfectly for it; block CAD is usually meant to be 90 percent done within a week to a week and a half of kickoff, and the first full robot assembly took about 2.5 to 3 weeks, with revisions up to the championship",
+      "basis": "team",
+      "src": [
+        "s15",
+        "s19"
+      ]
+    },
+    {
+      "choice": "Block CAD mostly from gut feel, then iteration",
+      "because": "the team has generally not done much prototyping, and 2025 was no exception",
+      "basis": "team",
+      "src": [
+        "s19"
+      ]
+    },
+    {
+      "choice": "Lay out wiring in CAD early",
+      "because": "a conference abstract quoted in the thread says it streamlined the build and improved reliability and maintainability in 2025",
       "basis": "observer",
       "src": [
-        "s12"
+        "s20"
+      ]
+    },
+    {
+      "choice": "Log failures in chat, then in a failure sheet",
+      "because": "details fade quickly; every chat message about a failure is tagged so it can be found and moved to the sheet later",
+      "cost": "software failures were mostly left out, because that group had its own process",
+      "basis": "team",
+      "src": [
+        "s21"
       ]
     }
   ],
@@ -720,7 +827,7 @@
         "what": "3005 RoboChargers CAD Release 2025",
         "url": "https://www.chiefdelphi.com/t/3005-robochargers-cad-release-2025/504887",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s12"
       }
     ],
@@ -750,7 +857,7 @@
         "what": "3005 RoboChargers 2025: Relay",
         "url": "https://www.chiefdelphi.com/t/3005-robochargers-2025-relay/493529",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s4"
       },
       {
@@ -819,7 +926,7 @@
         "what": "Building a Serial Excellence in Engineering Team - 3005 2025 FMC Presentation",
         "url": "https://www.chiefdelphi.com/t/building-a-serial-excellence-in-engineering-team-3005-2025-fmc-presentation/505868",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s5"
       },
       {
@@ -835,6 +942,27 @@
         "format": "PDF",
         "state": "opened",
         "src": "s9"
+      },
+      {
+        "what": "Talk on block CAD, from an earlier conference (not watched)",
+        "url": "https://youtu.be/GBdY-TMNkeI",
+        "format": "video",
+        "state": "listed",
+        "src": "s15"
+      },
+      {
+        "what": "Blank failure sheet for competitions",
+        "url": "https://docs.google.com/spreadsheets/d/1xyQo6dSqzEn7pg93W9xnIG7kn0OklceogEGbeFnFveQ/edit",
+        "format": "Google Sheet",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "Blank failure sheet for build season",
+        "url": "https://docs.google.com/spreadsheets/d/12CmTd1CI91W4WnBloat_sZaaGEjOzptfw_KIgvp5dYU/edit",
+        "format": "Google Sheet",
+        "state": "listed",
+        "src": "s5"
       }
     ],
     "code": [

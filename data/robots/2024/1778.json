@@ -71,6 +71,24 @@
       "url": "https://www.youtube.com/watch?v=EEC-2XpqYQ0",
       "publisher": "FUN Robotics Network",
       "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "1778 CAD/Code Release, post 3 (shooter rollers)",
+      "url": "https://www.chiefdelphi.com/t/466727/3",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "1778 CAD/Code Release, post 5 (amp bar)",
+      "url": "https://www.chiefdelphi.com/t/466727/5",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "1778 CAD/Code Release, post 7 (trap)",
+      "url": "https://www.chiefdelphi.com/t/466727/7",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -125,7 +143,7 @@
         "text": "A forum reply says the robot did not score in the trap.",
         "basis": "observer",
         "src": [
-          "s4"
+          "s14"
         ]
       }
     ],
@@ -138,10 +156,11 @@
         ]
       },
       {
-        "text": "Replies that read as the team's say the chosen layout had no amp bar until a tested RI3D idea inspired one, and that a second bottom shooter roller was added after a prototype shot above the bar.",
-        "basis": "observer",
+        "text": "The chosen layout had no amp bar until a tested RI3D idea inspired one, and a second bottom shooter roller was added after a prototype shot above the bar.",
+        "basis": "team",
         "src": [
-          "s4"
+          "s12",
+          "s13"
         ]
       }
     ],
@@ -190,10 +209,10 @@
           "unit": "rollers"
         },
         {
-          "text": "Note compression (reads as the team's reply)",
-          "basis": "observer",
+          "text": "Note compression",
+          "basis": "team",
           "src": [
-            "s4"
+            "s12"
           ],
           "value": 0.2,
           "unit": "in"
@@ -264,10 +283,10 @@
           ]
         },
         {
-          "text": "Inspired by an RI3D idea the team tested (reads as the team's reply)",
-          "basis": "observer",
+          "text": "Inspired by an RI3D idea the team tested",
+          "basis": "team",
           "src": [
-            "s4"
+            "s13"
           ]
         }
       ]
@@ -327,17 +346,17 @@
           ]
         },
         {
-          "text": "Two rollers on the bottom and one on top; the second bottom one helps the note bend into the amp and sped up intaking (reads as the team's reply)",
-          "basis": "observer",
+          "text": "Two rollers on the bottom and one on top; the second bottom one helps the note bend into the amp and sped up intaking",
+          "basis": "team",
           "src": [
-            "s4"
+            "s12"
           ]
         },
         {
-          "text": "Note compression, with none horizontally (reads as the team's reply)",
-          "basis": "observer",
+          "text": "Note compression, with none horizontally",
+          "basis": "team",
           "src": [
-            "s4"
+            "s12"
           ],
           "value": 0.5,
           "unit": "in"
@@ -492,12 +511,12 @@
       ]
     },
     {
-      "choice": "Second bottom shooter roller (reads as the team's reply)",
+      "choice": "Second bottom shooter roller",
       "because": "the one-roller prototype shot above the amp bar and could not score the amp",
       "instead_of": "one roller on the bottom",
-      "basis": "observer",
+      "basis": "team",
       "src": [
-        "s4"
+        "s12"
       ]
     }
   ],
@@ -528,7 +547,7 @@
         "what": "1778 CAD/Code Release",
         "url": "https://www.chiefdelphi.com/t/1778-cad-code-release/466727",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s4",
         "holds": "Onshape"
       },

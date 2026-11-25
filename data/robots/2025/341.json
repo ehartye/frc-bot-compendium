@@ -89,6 +89,84 @@
       "url": "https://drive.google.com/file/d/1S17VfCq4m2-oUmQGyIOXsKI47k_s1LXL/view",
       "publisher": "drive.google.com",
       "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "Team 341 Miss Daisy 2025 CAD, Code, and Documentation Release, post 12",
+      "url": "https://www.chiefdelphi.com/t/500739/12",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "Team 341 Miss Daisy 2025 CAD, Code, and Documentation Release, post 1",
+      "url": "https://www.chiefdelphi.com/t/500739/1",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "Team 341 Miss Daisy 2025 CAD, Code, and Documentation Release, post 26",
+      "url": "https://www.chiefdelphi.com/t/500739/26",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "Team 341 Miss Daisy 2025 CAD, Code, and Documentation Release, post 36",
+      "url": "https://www.chiefdelphi.com/t/500739/36",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "Team 341 Miss Daisy 2025 CAD, Code, and Documentation Release, post 38",
+      "url": "https://www.chiefdelphi.com/t/500739/38",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "Team 341 Miss Daisy 2025 CAD, Code, and Documentation Release, post 34",
+      "url": "https://www.chiefdelphi.com/t/500739/34",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "Team 341 Miss Daisy 2025 CAD, Code, and Documentation Release, post 22",
+      "url": "https://www.chiefdelphi.com/t/500739/22",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s22": {
+      "title": "Team 341 Miss Daisy 2025 CAD, Code, and Documentation Release, post 24",
+      "url": "https://www.chiefdelphi.com/t/500739/24",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s23": {
+      "title": "Team 341 Miss Daisy 2025 CAD, Code, and Documentation Release, post 7",
+      "url": "https://www.chiefdelphi.com/t/500739/7",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s24": {
+      "title": "Team 341 Miss Daisy 2025 CAD, Code, and Documentation Release, post 28",
+      "url": "https://www.chiefdelphi.com/t/500739/28",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s25": {
+      "title": "Team 341 Miss Daisy 2025 CAD, Code, and Documentation Release, post 30",
+      "url": "https://www.chiefdelphi.com/t/500739/30",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s26": {
+      "title": "Team 341 Miss Daisy 2025 CAD, Code, and Documentation Release, post 14",
+      "url": "https://www.chiefdelphi.com/t/500739/14",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s27": {
+      "title": "Team 341 Miss Daisy 2025 CAD, Code, and Documentation Release, post 15",
+      "url": "https://www.chiefdelphi.com/t/500739/15",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -191,6 +269,13 @@
         "basis": "team",
         "src": [
           "s8"
+        ]
+      },
+      {
+        "text": "Coral intake, algae intake and elevator all needed major revisions after the beta robot.",
+        "basis": "team",
+        "src": [
+          "s17"
         ]
       }
     ],
@@ -329,6 +414,41 @@
           "src": [
             "s5"
           ]
+        },
+        {
+          "text": "The outer two passive vertical rollers have silicone tubing and the center one does not, so coral spins in place until it is centered, drops off the ramp onto the silicone and climbs",
+          "basis": "team",
+          "src": [
+            "s18"
+          ]
+        },
+        {
+          "text": "Roller size and spacing leave a coral that arrives end-on only one point of contact, so it pivots sideways; it sometimes sticks for a moment first",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        },
+        {
+          "text": "The wave plate added to the comp robot does no centering: it blocks the position where coral got stuck between the rollers",
+          "basis": "team",
+          "src": [
+            "s18"
+          ]
+        },
+        {
+          "text": "The ramps are bent to approximate an ideal centering curve, which also helps coral center as it climbs",
+          "basis": "team",
+          "src": [
+            "s18"
+          ]
+        },
+        {
+          "text": "A belted reduction between the sets of intake wheels keeps their surface speeds about equal",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
         }
       ],
       "cost": [
@@ -337,6 +457,13 @@
           "basis": "team",
           "src": [
             "s5"
+          ]
+        },
+        {
+          "text": "The intake mounts shifted, so the motor mount had to be adjustable; the team does not recommend it and says a motor should share a plate with its critical gears",
+          "basis": "team",
+          "src": [
+            "s20"
           ]
         }
       ]
@@ -459,6 +586,14 @@
           "src": [
             "s5"
           ]
+        },
+        {
+          "text": "The X60 was used because the X44s the team bought did not arrive in time, and the ratio was designed around the X60",
+          "basis": "team",
+          "src": [
+            "s21",
+            "s22"
+          ]
         }
       ],
       "cost": [
@@ -515,6 +650,27 @@
           "src": [
             "s5"
           ]
+        },
+        {
+          "text": "Pulleys are printed in CF-nylon with two bearings each",
+          "basis": "team",
+          "src": [
+            "s23"
+          ]
+        },
+        {
+          "text": "Each rope is tied around a bolt and washer, which tighten into a rivnut in the spool tube to clamp it",
+          "basis": "team",
+          "src": [
+            "s24"
+          ]
+        },
+        {
+          "text": "Aluminum arms set the angle at which rope meets the spool, and a second set of redirects near the top lines it up with the pulleys",
+          "basis": "team",
+          "src": [
+            "s25"
+          ]
         }
       ],
       "cost": [
@@ -523,6 +679,13 @@
           "basis": "team",
           "src": [
             "s5"
+          ]
+        },
+        {
+          "text": "Before the redirect arms the rope sometimes doubled up or ran off the end of the spool; clearances there stayed tight, and the team would move the spool farther from the elevator",
+          "basis": "team",
+          "src": [
+            "s25"
           ]
         }
       ]
@@ -568,6 +731,15 @@
           "basis": "team",
           "src": [
             "s5"
+          ]
+        },
+        {
+          "text": "About 20 thousandths were taken off the lantern gear tooth tips so it passes smoothly from tooth to tooth, a precaution that had worked on the off-season robot",
+          "basis": "team",
+          "src": [
+            "s23",
+            "s26",
+            "s27"
           ]
         }
       ]
@@ -670,6 +842,13 @@
           "basis": "team",
           "src": [
             "s5"
+          ]
+        },
+        {
+          "text": "The printed CF-nylon tensioner held up, and the team is fairly certain it was never replaced",
+          "basis": "team",
+          "src": [
+            "s20"
           ]
         }
       ],
@@ -844,11 +1023,11 @@
     },
     {
       "choice": "Lantern gear on the shoulder",
-      "because": "an unsigned reply that reads as the team's says it cannot skip, has very low backlash and can be made in house",
+      "because": "it cannot slip or skip, has very low backlash and can be made in house on the CNC router",
       "instead_of": "belts",
-      "basis": "observer",
+      "basis": "team",
       "src": [
-        "s12"
+        "s15"
       ]
     },
     {
@@ -861,12 +1040,13 @@
     },
     {
       "choice": "Build three robots: Alpha, Beta and Comp",
-      "because": "programmers could start in week 1 and problems showed early enough to revise",
-      "cost": "a fast, stressful schedule",
+      "because": "programmers could start in week 1, mechanisms were iterated on a robot instead of alone, and problems showed early enough to revise",
+      "cost": "a fast, stressful schedule; the comp robot finished about 8 days late, mostly on purpose, to spend more time with the beta",
       "basis": "team",
       "src": [
         "s5",
-        "s12"
+        "s16",
+        "s17"
       ]
     },
     {
@@ -876,6 +1056,25 @@
       "basis": "team",
       "src": [
         "s6"
+      ]
+    },
+    {
+      "choice": "Belts on the wrist",
+      "because": "the team wanted to minimize backlash and weight on the arm",
+      "instead_of": "gears",
+      "cost": "a VersaPlanetary stayed in; it helps with neither, and the team would probably try to remove it",
+      "basis": "team",
+      "src": [
+        "s20"
+      ]
+    },
+    {
+      "choice": "Zero the wrist against a hard stop by current draw",
+      "because": "the team wanted to explore it, though some were nervous, and it ended up working great",
+      "instead_of": "a beam break, designed in case it was needed and then left off",
+      "basis": "team",
+      "src": [
+        "s20"
       ]
     }
   ],
@@ -1007,6 +1206,13 @@
         "format": "Google Drive",
         "state": "listed",
         "src": "s14"
+      },
+      {
+        "what": "CAD, code and documentation release thread",
+        "url": "https://www.chiefdelphi.com/t/team-341-miss-daisy-2025-cad-code-and-documentation-release/500739",
+        "format": "thread",
+        "state": "opened",
+        "src": "s12"
       }
     ],
     "code": [

@@ -3,7 +3,7 @@
   "season": 2023,
   "team": "1731",
   "team_name": "Fresta Valley Robotics Club",
-  "robot_name": null,
+  "robot_name": "Alexander Graham Cowbell",
   "variant": null,
   "sources": {
     "s1": {
@@ -41,6 +41,24 @@
       "url": "https://www.youtube.com/watch?v=Vnk96ijqEZw",
       "publisher": "FUN Robotics Network (auto-caption transcript)",
       "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Team 1731 Alexander Graham Cowbell (2023) (post 4)",
+      "url": "https://www.chiefdelphi.com/t/428655/4",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Team 1731 Alexander Graham Cowbell (2023) (post 6)",
+      "url": "https://www.chiefdelphi.com/t/428655/6",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Full Grids (post 1)",
+      "url": "https://www.chiefdelphi.com/t/434074/1",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -68,6 +86,13 @@
         "basis": "team",
         "src": [
           "s6"
+        ]
+      },
+      {
+        "text": "A list of full-grid matches names this robot in two, both at the district championship.",
+        "basis": "observer",
+        "src": [
+          "s9"
         ]
       }
     ],
@@ -119,6 +144,14 @@
           "basis": "team",
           "src": [
             "s6"
+          ]
+        },
+        {
+          "text": "Dyneema line runs on its pulleys; the team pre-stretched it by tightening a turnbuckle between rounds of practice driving",
+          "basis": "team",
+          "src": [
+            "s7",
+            "s8"
           ]
         }
       ]
@@ -304,7 +337,7 @@
         "what": "Team 1731 Alexander Graham Cowbell (2023)",
         "url": "https://www.chiefdelphi.com/t/team-1731-fresta-valley-robotics-club-alexander-graham-cowbell/428655",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s3"
       },
       {
@@ -338,7 +371,7 @@
     "community CAD sheet",
     "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
     "Chief Delphi title search \"1731\", post search \"1731 binder\" and a crawl of the team site (9 pages)",
-    "one interview transcript from the district championship; the two robot threads were not read"
+    "one interview transcript from the district championship; the thread of the post for TBA was not read"
   ],
   "results": {
     "division": "Daly",

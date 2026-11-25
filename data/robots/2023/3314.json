@@ -36,9 +36,9 @@
       "publisher": "The Blue Alliance / Imgur",
       "read": "2026-11-25"
     },
-    "s6": {
-      "title": "Full Grids",
-      "url": "https://www.chiefdelphi.com/t/full-grids/434074",
+    "s7": {
+      "title": "Full Grids, post 2 (one alliance's plan)",
+      "url": "https://www.chiefdelphi.com/t/434074/2",
       "publisher": "chiefdelphi.com",
       "read": "2026-11-25"
     }
@@ -56,10 +56,10 @@
         ]
       },
       {
-        "text": "A post on a full grid at the Mid-Atlantic championship gives 3314 ten pieces, mostly mid and high, starting from the bump side.",
+        "text": "For one full-grid match at the Mid-Atlantic championship, a post from its alliance gives 3314 ten pieces, mostly mid and high, starting from the bump side.",
         "basis": "observer",
         "src": [
-          "s6"
+          "s7"
         ]
       }
     ],

@@ -30,15 +30,21 @@
       "publisher": "The Blue Alliance / Imgur",
       "read": "2026-11-25"
     },
-    "s5": {
-      "title": "Undefeated Teams 2024",
-      "url": "https://www.chiefdelphi.com/t/undefeated-teams-2024/458807",
+    "s7": {
+      "title": "Undefeated Teams 2024, post 16",
+      "url": "https://www.chiefdelphi.com/t/458807/16",
       "publisher": "chiefdelphi.com",
       "read": "2026-11-25"
     },
-    "s6": {
-      "title": "Did the 2 passing bots strategy by Citrus and Cheesy just broke the game?",
-      "url": "https://www.chiefdelphi.com/t/did-the-2-passing-bots-strategy-by-citrus-and-cheesy-just-broke-the-game/461687",
+    "s8": {
+      "title": "Did the 2 passing bots strategy by Citrus and Cheesy just broke the game?, post 19",
+      "url": "https://www.chiefdelphi.com/t/461687/19",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Did the 2 passing bots strategy by Citrus and Cheesy just broke the game?, post 17",
+      "url": "https://www.chiefdelphi.com/t/461687/17",
       "publisher": "chiefdelphi.com",
       "read": "2026-11-25"
     }
@@ -83,7 +89,7 @@
         "text": "A post credits 1771's accuracy as a feeder, dropping notes between the amp and the subwoofer from the center line.",
         "basis": "observer",
         "src": [
-          "s6"
+          "s8"
         ]
       }
     ],
@@ -115,10 +121,10 @@
         ]
       },
       {
-        "text": "In the Gwinnett finals they traced a fault to the RoboRIO and skipped a match to replace it, according to a poster writing as 1771.",
-        "basis": "observer",
+        "text": "In the Gwinnett finals the team first suspected a beam break wire, traced a fault to the RoboRIO, skipped a match to fix it and fitted a spare.",
+        "basis": "team",
         "src": [
-          "s5"
+          "s7"
         ]
       }
     ],
@@ -303,6 +309,13 @@
           "basis": "team",
           "src": [
             "s3"
+          ]
+        },
+        {
+          "text": "A partner says it set two world-record scores in one day with 1771 as its feeder, which takes accurate placement in the corner by the amp and a fast scorer",
+          "basis": "observer",
+          "src": [
+            "s9"
           ]
         }
       ]

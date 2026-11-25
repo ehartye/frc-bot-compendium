@@ -59,6 +59,114 @@
       "url": "https://www.chiefdelphi.com/t/2974-walton-robotics-build-blog-2024/452466/23",
       "publisher": "chiefdelphi.com",
       "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "2974 Walton Robotics Build Blog 2024 (post 17)",
+      "url": "https://www.chiefdelphi.com/t/452466/17",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "2974 Walton Robotics Build Blog 2024 (post 20)",
+      "url": "https://www.chiefdelphi.com/t/452466/20",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "2974 Walton Robotics Build Blog 2024 (post 18)",
+      "url": "https://www.chiefdelphi.com/t/452466/18",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "2974 Walton Robotics Build Blog 2024 (post 26)",
+      "url": "https://www.chiefdelphi.com/t/452466/26",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "2974 Walton Robotics Build Blog 2024 (post 15)",
+      "url": "https://www.chiefdelphi.com/t/452466/15",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "2974 Walton Robotics Build Blog 2024 (post 27)",
+      "url": "https://www.chiefdelphi.com/t/452466/27",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "2974 Walton Robotics Build Blog 2024 (post 7)",
+      "url": "https://www.chiefdelphi.com/t/452466/7",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "2974 Walton Robotics Build Blog 2024 (post 9)",
+      "url": "https://www.chiefdelphi.com/t/452466/9",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "2974 Walton Robotics Build Blog 2024 (post 21)",
+      "url": "https://www.chiefdelphi.com/t/452466/21",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "2974 Walton Robotics Build Blog 2024 (post 28)",
+      "url": "https://www.chiefdelphi.com/t/452466/28",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "2974 Walton Robotics Build Blog 2024 (post 35)",
+      "url": "https://www.chiefdelphi.com/t/452466/35",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "2974 Walton Robotics Build Blog 2024 (post 10)",
+      "url": "https://www.chiefdelphi.com/t/452466/10",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s22": {
+      "title": "2974 Walton Robotics Build Blog 2024 (post 32)",
+      "url": "https://www.chiefdelphi.com/t/452466/32",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s23": {
+      "title": "2974 Walton Robotics Build Blog 2024 (post 12)",
+      "url": "https://www.chiefdelphi.com/t/452466/12",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s24": {
+      "title": "2974 Walton Robotics Build Blog 2024 (post 2)",
+      "url": "https://www.chiefdelphi.com/t/452466/2",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s25": {
+      "title": "2974 Walton Robotics Build Blog 2024 (post 3)",
+      "url": "https://www.chiefdelphi.com/t/452466/3",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s26": {
+      "title": "2974 Walton Robotics Build Blog 2024 (post 31)",
+      "url": "https://www.chiefdelphi.com/t/452466/31",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s27": {
+      "title": "2974 Walton Robotics Build Blog 2024 (post 34)",
+      "url": "https://www.chiefdelphi.com/t/452466/34",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -88,10 +196,11 @@
         ]
       },
       {
-        "text": "Posts that read as the team's describe growth from three to 3.5, four and five pieces.",
-        "basis": "observer",
+        "text": "Routines grew from three pieces to 3.5, four and five.",
+        "basis": "team",
         "src": [
-          "s3"
+          "s10",
+          "s11"
         ]
       }
     ],
@@ -104,10 +213,10 @@
         ]
       },
       {
-        "text": "A post that reads as the team's says the shooter flips down to force a note into the amp.",
-        "basis": "observer",
+        "text": "The shooter flips down to force a note into the amp.",
+        "basis": "team",
         "src": [
-          "s3"
+          "s10"
         ]
       }
     ],
@@ -137,11 +246,12 @@
         ]
       },
       {
-        "text": "In late March the team still planned to add a camera for aiming; the Worlds summary lists cameras.",
+        "text": "The robot played Anderson and Carrollton without a camera; one went on the shooter after Carrollton, to rely less on preset distances.",
         "basis": "team",
         "src": [
+          "s12",
           "s9",
-          "s5"
+          "s13"
         ]
       }
     ],
@@ -154,10 +264,11 @@
         ]
       },
       {
-        "text": "A post that reads as the team's says a stripped pivot belt became chain.",
-        "basis": "observer",
+        "text": "A stripped pivot belt became chain; later the pivot got GT2 belts and faster gearing.",
+        "basis": "team",
         "src": [
-          "s3"
+          "s14",
+          "s15"
         ]
       },
       {
@@ -207,6 +318,13 @@
           "basis": "team",
           "src": [
             "s5"
+          ]
+        },
+        {
+          "text": "The belly plate changed from a 1/4 in polycarbonate plan to 1/8 in aluminum to give back a little clearance under the chassis",
+          "basis": "team",
+          "src": [
+            "s16"
           ]
         }
       ]
@@ -258,10 +376,25 @@
           ]
         },
         {
-          "text": "A post that reads as the team's credits the wide span, which lets drivers grab notes without slowing to align, for quick cycles",
-          "basis": "observer",
+          "text": "The wide span lets drivers grab notes without slowing to align, a main reason for quick cycles",
+          "basis": "team",
           "src": [
-            "s3"
+            "s12"
+          ]
+        },
+        {
+          "text": "Rollers started as polycarbonate with rubber covers and became carbon fiber, lighter and stronger, with bought end adapters",
+          "basis": "team",
+          "src": [
+            "s16",
+            "s17"
+          ]
+        },
+        {
+          "text": "After Anderson split the HDPE note guide above it and damaged its PLA brackets, the guide became polycarbonate with TPU brackets",
+          "basis": "team",
+          "src": [
+            "s18"
           ]
         }
       ],
@@ -274,10 +407,24 @@
           ]
         },
         {
-          "text": "A post that reads as the team's says a hit at Anderson bowed the tubes above the intake by up to about a quarter inch; it calls the front fairly robust and planned identical replacements",
-          "basis": "observer",
+          "text": "Hits at Anderson, especially in playoffs, bowed the tubes above the intake in by up to about a quarter inch; the team calls the front fairly robust and planned identical replacements",
+          "basis": "team",
           "src": [
-            "s3"
+            "s12"
+          ]
+        },
+        {
+          "text": "A hit at the district championship cracked the side plates; bolt holes limited the crack, and spares went on the next day",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        },
+        {
+          "text": "At an off-season event in 2024 one side of the intake plate cracked down the middle in auto, and the bumpers held the intake together for the last match",
+          "basis": "team",
+          "src": [
+            "s20"
           ]
         }
       ]
@@ -327,6 +474,20 @@
           "src": [
             "s5"
           ]
+        },
+        {
+          "text": "The conveyor roller pulls a note fully in once it touches, so off-center intaking works",
+          "basis": "team",
+          "src": [
+            "s17"
+          ]
+        },
+        {
+          "text": "It was to share power with a shooter roller, but a support added to stop the shooter bowing blocked that polybelt, so it got its own NEO",
+          "basis": "team",
+          "src": [
+            "s21"
+          ]
         }
       ],
       "cost": [
@@ -335,6 +496,13 @@
           "basis": "team",
           "src": [
             "s5"
+          ]
+        },
+        {
+          "text": "The polybelt overheated from too much torque and its NEO pulley spun free, so a timing belt and a thicker gearbox replaced it",
+          "basis": "team",
+          "src": [
+            "s14"
           ]
         }
       ]
@@ -394,34 +562,51 @@
           "unit": ":1"
         },
         {
-          "text": "A post that reads as the team's says guide plates went from HDPE to 1/16 in polycarbonate so drivers see whether the note is centered",
-          "basis": "observer",
+          "text": "Guide plates went from HDPE to 1/16 in polycarbonate so drivers see whether the note is centered",
+          "basis": "team",
           "src": [
-            "s3"
+            "s14"
           ]
         },
         {
-          "text": "A post that reads as the team's says the design is inspired by 6328",
-          "basis": "observer",
+          "text": "The design is inspired by 6328, says a post that corrects an earlier one naming 111",
+          "basis": "team",
           "src": [
-            "s3"
+            "s16"
           ]
         },
         {
-          "text": "A post that reads as the team's says flipping the shooter down into the amp, after ORBIT, is extremely consistent; a later post says the amp shot was adjusted at Carrollton",
-          "basis": "observer",
+          "text": "Flipping the shooter down into the amp, after ORBIT, was extremely consistent before its first event; the amp shot was adjusted at Carrollton and lost its aim in one Newton match when a pivot belt skipped",
+          "basis": "team",
           "src": [
-            "s3",
-            "s9"
+            "s10",
+            "s9",
+            "s22"
+          ]
+        },
+        {
+          "text": "Notes shot in official matches at the championship, about 40 of them into the amp",
+          "basis": "team",
+          "src": [
+            "s22"
+          ],
+          "value": 193,
+          "unit": "notes"
+        },
+        {
+          "text": "After Carrollton 1x2 tubes under the flywheels became hex axles to save weight, and camera mounts top and bottom became part of the structure",
+          "basis": "team",
+          "src": [
+            "s15"
           ]
         }
       ],
       "cost": [
         {
-          "text": "A post that reads as the team's says off-center notes in practice had to be scored from nearly underneath the speaker",
-          "basis": "observer",
+          "text": "Off-center notes in practice had to be scored from nearly underneath the speaker",
+          "basis": "team",
           "src": [
-            "s3"
+            "s14"
           ]
         }
       ]
@@ -451,26 +636,28 @@
       ],
       "facts": [
         {
-          "text": "Falcon 500 reduction",
+          "text": "Falcon 500 reduction as the Worlds summary gives it; an earlier post says it had been changed after Carrollton",
           "basis": "team",
           "src": [
-            "s5"
+            "s5",
+            "s15"
           ],
           "value": 125,
           "unit": ":1"
         },
         {
-          "text": "A 100T belt joins a 24T pulley to a 61T pulley on the shooter side plate",
+          "text": "A 100T belt joins a 24T pulley to a 61T pulley on the shooter side plate; HTD belts were replaced by GT2 after Carrollton to stop skipping and reduce slop",
           "basis": "team",
           "src": [
-            "s5"
+            "s5",
+            "s15"
           ]
         },
         {
-          "text": "A post that reads as the team's plans a hard stop so the shooter cannot go below",
-          "basis": "observer",
+          "text": "Planned hard stop so the shooter cannot go below",
+          "basis": "team",
           "src": [
-            "s3"
+            "s23"
           ],
           "value": 22.5,
           "unit": "deg"
@@ -488,21 +675,59 @@
           "src": [
             "s5"
           ]
+        },
+        {
+          "text": "Reduction after Carrollton, changed from 125:1 for faster rotation; the Worlds summary, posted later, still gives 125:1",
+          "basis": "team",
+          "src": [
+            "s15"
+          ],
+          "value": 100,
+          "unit": ":1"
+        },
+        {
+          "text": "The motor end runs on two 31-link #25 chains with 18T sprockets",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
         }
       ],
       "cost": [
         {
-          "text": "Posts that read as the team's say belts skipped until tension was raised, and a 36T belt stripped and was replaced by chain",
-          "basis": "observer",
+          "text": "Belts skipped until a tensioner and more tension were added, and a 36T belt stripped and was replaced by chain",
+          "basis": "team",
           "src": [
-            "s3"
+            "s23",
+            "s14"
           ]
         },
         {
-          "text": "A post that reads as the team's says the belt repair needed the intake and front modules off, so access holes were added",
-          "basis": "observer",
+          "text": "The belt repair needed the intake and front modules off, so access holes were added",
+          "basis": "team",
           "src": [
-            "s3"
+            "s14"
+          ]
+        },
+        {
+          "text": "Slop made drivers wait a couple of seconds after each angle change before firing, so a friction damper was added",
+          "basis": "team",
+          "src": [
+            "s18"
+          ]
+        },
+        {
+          "text": "At and after Carrollton the right belt had to be skipped with the robot off so the shooter rested evenly on its stops",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "At Newton a belt skipped when the arm extended; logs of encoder against motor position showed it, and it was tightened",
+          "basis": "team",
+          "src": [
+            "s22"
           ]
         }
       ]
@@ -549,6 +774,21 @@
           "src": [
             "s5"
           ]
+        },
+        {
+          "text": "Fiberglass rods replaced servos to keep weight off the shooter; after testing, the plan was polycarbonate sheets, to keep the hooks moving in one plane",
+          "basis": "team",
+          "src": [
+            "s14",
+            "s18"
+          ]
+        },
+        {
+          "text": "Printed hooks were to become polycarbonate for strength",
+          "basis": "team",
+          "src": [
+            "s18"
+          ]
         }
       ],
       "cost": [
@@ -557,6 +797,27 @@
           "basis": "team",
           "src": [
             "s5"
+          ]
+        },
+        {
+          "text": "PLA hook supports broke, so TPU ones were tested",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "It was left off for Anderson so programming could focus on autos instead of climbing",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "The mini PC was in the way on one side, so a side plate was cut, a motor moved and the gear ratio changed",
+          "basis": "team",
+          "src": [
+            "s14"
           ]
         }
       ]
@@ -588,6 +849,21 @@
           "basis": "team",
           "src": [
             "s5"
+          ]
+        },
+        {
+          "text": "One arm became two pivots, for the length needed to press on the trap door",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        },
+        {
+          "text": "The release was first a linear actuator; a rotational servo was to be tested before Worlds",
+          "basis": "team",
+          "src": [
+            "s15",
+            "s19"
           ]
         }
       ]
@@ -642,6 +918,13 @@
           "src": [
             "s5"
           ]
+        },
+        {
+          "text": "Code logs the time from a shot request to the note leaving or the request ending",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
         }
       ]
     },
@@ -652,10 +935,10 @@
       ],
       "solves": [
         {
-          "text": "A post that reads as the team's says it sheds notes that fall on the chassis and protects the top of the intake and conveyor",
-          "basis": "observer",
+          "text": "Shed notes that fall on the chassis and protect the top of the intake and conveyor",
+          "basis": "team",
           "src": [
-            "s3"
+            "s12"
           ]
         }
       ],
@@ -666,10 +949,10 @@
       "serves": [],
       "facts": [
         {
-          "text": "A post that reads as the team's says it was added before Anderson and credits it in part for no major mechanical problems there, though hits bowed front tubes and damaged bumper brackets",
-          "basis": "observer",
+          "text": "Added the week of Anderson; the team credits it in part for no major mechanical problems there, though hits bowed front tubes and damaged bumper brackets",
+          "basis": "team",
           "src": [
-            "s3"
+            "s12"
           ]
         }
       ]
@@ -681,10 +964,10 @@
       ],
       "solves": [
         {
-          "text": "A post that reads as the team's wants notes to pass under without a low section that would anchor a tip",
-          "basis": "observer",
+          "text": "Let notes pass under without a low section that would anchor a tip",
+          "basis": "team",
           "src": [
-            "s3"
+            "s24"
           ]
         }
       ],
@@ -702,10 +985,81 @@
           ]
         },
         {
-          "text": "A post that reads as the team's puts the seams on the sides to reinforce the front of the frame",
-          "basis": "observer",
+          "text": "Seams are on the sides, to reinforce the front of the frame",
+          "basis": "team",
           "src": [
-            "s3"
+            "s24"
+          ]
+        },
+        {
+          "text": "Spacers later raised them to leave more clearance for the note",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter camera",
+      "solves": [
+        {
+          "text": "Rely less on lining up the drive base at preset distances",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "camera in the shooter structure",
+      "serves": [
+        "speaker"
+      ],
+      "facts": [
+        {
+          "text": "A See3CAM_24CUG at the center of the shooter; its mount replaced aluminum bars between the flywheels and is part of the structure",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "The mount is based on 111's, and the plan was to use it in auto and teleop",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Auto path following",
+      "does": [
+        "sense"
+      ],
+      "type": "Choreo paths with limited torque",
+      "serves": [
+        "leave",
+        "speaker"
+      ],
+      "facts": [
+        {
+          "text": "Wheel radius is measured by a routine inspired by 6328, which the team finds much easier than pushing the robot and measuring",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "At Anderson the robot slipped off Choreo paths, which do not account for battery voltage; limiting the torque more fixed it",
+          "basis": "team",
+          "src": [
+            "s11"
           ]
         }
       ]
@@ -742,11 +1096,11 @@
     },
     {
       "choice": "Extend the intake instead of a full conveyor (January plan; a powered conveyor roller came later)",
-      "because": "a post that reads as the team's says the full conveyor prototype was a bit slower and tore the note slightly",
+      "because": "the full conveyor prototype was a bit slower and tore the note slightly",
       "instead_of": "surgical-tubing rollers with a ramp",
-      "basis": "observer",
+      "basis": "team",
       "src": [
-        "s3"
+        "s24"
       ]
     },
     {
@@ -759,10 +1113,10 @@
     },
     {
       "choice": "No two-wristed arm",
-      "because": "a post that reads as the team's says raising both wrists or turning to shoot would take too much time in auto",
-      "basis": "observer",
+      "because": "raising both wrists or turning to shoot would take too much time in auto",
+      "basis": "team",
       "src": [
-        "s3"
+        "s25"
       ]
     },
     {
@@ -776,11 +1130,11 @@
     },
     {
       "choice": "All bumpers at one height",
-      "because": "a post that reads as the team's says a lower C-shape would be an anchor for tipping over",
+      "because": "a lower C-shape would be an anchor for tipping over",
       "instead_of": "a C-shaped bumper lower than the front piece",
-      "basis": "observer",
+      "basis": "team",
       "src": [
-        "s3"
+        "s24"
       ]
     },
     {
@@ -791,6 +1145,27 @@
       "src": [
         "s9"
       ]
+    },
+    {
+      "choice": "Winch climber with hooks",
+      "because": "it can bring the bottom of the robot as close to the chain as possible",
+      "instead_of": "climbing by lowering the shooter onto the chain",
+      "basis": "team",
+      "src": [
+        "s17",
+        "s23"
+      ]
+    },
+    {
+      "choice": "Climb by lowering the shooter onto the chain (January plan, later dropped)",
+      "because": "one mechanism to shoot and climb saves space and lets the team focus on the shooter",
+      "instead_of": "a separate scissor climber, smaller and lighter than a telescoping one",
+      "basis": "team",
+      "src": [
+        "s24",
+        "s25",
+        "s23"
+      ]
     }
   ],
   "assets": {
@@ -799,7 +1174,7 @@
         "what": "2974 Walton Robotics- Build Blog 2024 (23)",
         "url": "https://www.chiefdelphi.com/t/2974-walton-robotics-build-blog-2024/452466",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s3"
       },
       {
@@ -808,6 +1183,13 @@
         "format": "Fusion",
         "state": "listed",
         "src": "s6"
+      },
+      {
+        "what": "Pigeon 2.0 mount",
+        "url": "https://drive.google.com/file/d/1C_Y2-57gXMbdfx37AO2bvTKiUwHXnaYO/view?usp=sharing",
+        "format": "STEP",
+        "state": "listed",
+        "src": "s27"
       }
     ],
     "graphics": [
@@ -878,6 +1260,27 @@
         "format": "video",
         "state": "listed",
         "src": "s3"
+      },
+      {
+        "what": "Winch climber test on the practice base (not watched)",
+        "url": "https://youtu.be/WCF8rzFTRFU",
+        "format": "video",
+        "state": "listed",
+        "src": "s18"
+      },
+      {
+        "what": "Trap test before Worlds (not watched)",
+        "url": "https://youtu.be/dLUVmV9Nffs",
+        "format": "video",
+        "state": "listed",
+        "src": "s19"
+      },
+      {
+        "what": "3.5-piece auto (not watched)",
+        "url": "https://youtu.be/xPTrJixFTeE",
+        "format": "video",
+        "state": "listed",
+        "src": "s11"
       }
     ],
     "documents": [
@@ -887,6 +1290,13 @@
         "format": "PDF",
         "state": "opened",
         "src": "s5"
+      },
+      {
+        "what": "Worlds pit checklist, PDF",
+        "url": "https://www.chiefdelphi.com/uploads/short-url/ea7XcQxbhDJSpfNEdnnIwQZ3NnI.pdf",
+        "format": "PDF",
+        "state": "listed",
+        "src": "s26"
       }
     ],
     "code": [

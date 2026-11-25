@@ -83,6 +83,18 @@
       "url": "https://www.youtube.com/watch?v=XGmvdWVnzsw",
       "publisher": "FUN Robotics Network",
       "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "How did CTRL ALT DEFEAT do it, post 36",
+      "url": "https://www.chiefdelphi.com/t/520806/36",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "How did CTRL ALT DEFEAT do it, post 10",
+      "url": "https://www.chiefdelphi.com/t/520806/10",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -92,6 +104,13 @@
         "basis": "team",
         "src": [
           "s7"
+        ]
+      },
+      {
+        "text": "Once built, it practiced 20 or more hours a week, a poster says.",
+        "basis": "observer",
+        "src": [
+          "s15"
         ]
       }
     ],
@@ -120,6 +139,13 @@
         "src": [
           "s13",
           "s8"
+        ]
+      },
+      {
+        "text": "Another team's poster says it pioneered deep stealing and that they learned trench dumper driving from it.",
+        "basis": "observer",
+        "src": [
+          "s14"
         ]
       }
     ],

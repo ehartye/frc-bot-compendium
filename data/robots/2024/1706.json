@@ -36,12 +36,6 @@
       "publisher": "chiefdelphi.com",
       "read": "2026-11-25"
     },
-    "s6": {
-      "title": "1706 2024-Riot",
-      "url": "https://github.com/rr1706/2024-Riot",
-      "publisher": "github.com",
-      "read": "2026-11-25"
-    },
     "s8": {
       "title": "2024 Ratchet Rocker Robot - Riot",
       "url": "https://www.youtube.com/watch?v=s1pZHbQDQNk",
@@ -70,6 +64,66 @@
       "title": "1706 Ratchet Rockers | Behind the Bumpers | FRC CRESCENDO Robot",
       "url": "https://www.youtube.com/watch?v=C-kz6RLoH24",
       "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "1706 CAD Release, post 19",
+      "url": "https://www.chiefdelphi.com/t/467163/19",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "1706 CAD Release, post 9",
+      "url": "https://www.chiefdelphi.com/t/467163/9",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "1706 CAD Release, post 12",
+      "url": "https://www.chiefdelphi.com/t/467163/12",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "1706 CAD Release, post 3",
+      "url": "https://www.chiefdelphi.com/t/467163/3",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "1706 CAD Release, post 18",
+      "url": "https://www.chiefdelphi.com/t/467163/18",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "1706 CAD Release, post 7",
+      "url": "https://www.chiefdelphi.com/t/467163/7",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "1706 CAD Release, post 8",
+      "url": "https://www.chiefdelphi.com/t/467163/8",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "1706 CAD Release, post 16",
+      "url": "https://www.chiefdelphi.com/t/467163/16",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "1706 Ratchet Rockers 2024 Robot Reveal: Riot, post 5",
+      "url": "https://www.chiefdelphi.com/t/457440/5",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s22": {
+      "title": "1706 Ratchet Rockers 2024 Robot Reveal: Riot, post 6",
+      "url": "https://www.chiefdelphi.com/t/457440/6",
+      "publisher": "chiefdelphi.com",
       "read": "2026-11-25"
     }
   },
@@ -111,10 +165,10 @@
         ]
       },
       {
-        "text": "A reply that reads as the team's says the trap was very manual: after the climb, holding a button sent the elevator to full height.",
-        "basis": "observer",
+        "text": "The trap was very manual: after the climb, holding a button sent the elevator to full height.",
+        "basis": "team",
         "src": [
-          "s4"
+          "s13"
         ]
       }
     ],
@@ -145,10 +199,11 @@
         ]
       },
       {
-        "text": "Replies that read as the team's say the hood rack skipped teeth and got a higher DP and a steel shaft in mid-season, and that the elevator mechanism was not on the robot until the Friday before the Central Missouri Regional.",
-        "basis": "observer",
+        "text": "The hood rack skipped teeth and got a higher DP and a steel shaft in mid-season; the elevator mechanism was not on the robot until the Friday before the Central Missouri Regional.",
+        "basis": "team",
         "src": [
-          "s4"
+          "s14",
+          "s15"
         ]
       }
     ],
@@ -289,26 +344,26 @@
       ],
       "facts": [
         {
-          "text": "A reply that reads as the team's says the hood used only a P gain, though it should also have arm feedforward because its center of gravity swings",
-          "basis": "observer",
+          "text": "The hood used only a P gain, though it should also have arm feedforward because its center of gravity swings",
+          "basis": "team",
           "src": [
-            "s4"
+            "s16"
           ]
         },
         {
-          "text": "A reply that reads as the team's says they would redesign it so the pinion moves with the shooter",
-          "basis": "observer",
+          "text": "The team would redesign it so the pinion moves with the shooter",
+          "basis": "team",
           "src": [
-            "s4"
+            "s15"
           ]
         }
       ],
       "cost": [
         {
-          "text": "A reply that reads as the team's says the rack skipped teeth; the team raised the DP and used a steel shaft with three times the stiffness",
-          "basis": "observer",
+          "text": "The rack skipped teeth; the team raised the DP and used a drop-in steel shaft with 3x the stiffness",
+          "basis": "team",
           "src": [
-            "s4"
+            "s15"
           ]
         }
       ]
@@ -377,17 +432,24 @@
           ]
         },
         {
-          "text": "A reply that reads as the team's says the carriage is clamped to the belt and rises first, then each stage is pushed up; the motor stalls at full height, which is used for the trap; a later one says the elevator broke at an off-season practice day and its motors became 550s",
-          "basis": "observer",
+          "text": "The carriage is clamped to the belt and rises first, then each stage is pushed up; the motor stalls at full height, which is used for the trap",
+          "basis": "team",
           "src": [
-            "s4"
+            "s17"
           ]
         },
         {
-          "text": "A reply that reads as the team's says the two sides were not linked, so belt turnbuckles and free rolling needed fine tuning or the elevator would rack or skip teeth",
-          "basis": "observer",
+          "text": "The two sides were not linked, so belt turnbuckles and free rolling needed fine tuning or the elevator would rack or skip teeth; ideally the team would have done this differently",
+          "basis": "team",
           "src": [
-            "s4"
+            "s14"
+          ]
+        },
+        {
+          "text": "Motion uses WPILib elevator feedforward and a trapezoidal profile, not Smart Motion; with a Kraken the team would use MotionMagic",
+          "basis": "team",
+          "src": [
+            "s16"
           ]
         }
       ],
@@ -397,6 +459,13 @@
           "basis": "team",
           "src": [
             "s12"
+          ]
+        },
+        {
+          "text": "Off-season: it broke on the practice day of an event (NEO encoder wires and a melted pulley), and its motors were changed to 550s",
+          "basis": "team",
+          "src": [
+            "s13"
           ]
         }
       ]
@@ -455,17 +524,45 @@
       "serves": [],
       "facts": [
         {
-          "text": "A reply that reads as the team's says there were zero structural failures all season; the question was about plate bracing and cross members",
-          "basis": "observer",
+          "text": "Zero structural failures anywhere on the robot all season, in answer to a question about how the plate bracing and cross members took impacts",
+          "basis": "team",
           "src": [
-            "s4"
+            "s18",
+            "s19"
           ]
         },
         {
-          "text": "A reply that reads as the team's says bushings were not tight press fits, shafts had axial float, and no bushing needed replacing",
-          "basis": "observer",
+          "text": "Bushings were not tight press fits, which would shrink them onto the rounded hex; shafts had axial float, and no bushing needed replacing",
+          "basis": "team",
           "src": [
-            "s4"
+            "s20"
+          ]
+        },
+        {
+          "text": "Machined in house on a Tormach 770; longer pieces exceeded its travel, and angled tapped holes were done on a Bridgeport with a fixture",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "does": [
+        "endgame"
+      ],
+      "type": "Thrifty climber kit",
+      "serves": [
+        "onstage"
+      ],
+      "facts": [
+        {
+          "text": "A Thrifty climber bought as a kit",
+          "basis": "team",
+          "src": [
+            "s21",
+            "s22"
           ]
         }
       ]
@@ -502,11 +599,19 @@
     },
     {
       "choice": "Plain bushings in a compact mount",
-      "because": "compactness was preferred, with care on shaft alignment; this comes from a reply that reads as the team's",
+      "because": "compactness was preferred, with care on shaft alignment when tightening everything down",
       "instead_of": "a spherical bushing mount",
-      "basis": "observer",
+      "basis": "team",
       "src": [
-        "s4"
+        "s20"
+      ]
+    },
+    {
+      "choice": "Climber bought as a kit",
+      "because": "the manufacturing students had no time to make one",
+      "basis": "team",
+      "src": [
+        "s22"
       ]
     }
   ],
@@ -530,7 +635,7 @@
         "what": "1706 CAD Release",
         "url": "https://www.chiefdelphi.com/t/1706-cad-release/467163",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s4",
         "holds": "Onshape"
       }
@@ -547,7 +652,7 @@
         "what": "1706 Ratchet Rockers 2024 Robot Reveal: Riot",
         "url": "https://www.chiefdelphi.com/t/1706-ratchet-rockers-2024-robot-reveal-riot/457440",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s5"
       },
       {
@@ -632,11 +737,11 @@
         "src": "s1"
       },
       {
-        "what": "1706 2024-Riot",
+        "what": "1706 2024-Riot (trap code missing)",
         "url": "https://github.com/rr1706/2024-Riot",
         "format": "GitHub",
         "state": "listed",
-        "src": "s6"
+        "src": "s13"
       }
     ]
   },

@@ -3,7 +3,7 @@
   "season": 2026,
   "team": "9496",
   "team_name": "LYNK",
-  "robot_name": null,
+  "robot_name": "Matterhorn",
   "variant": null,
   "sources": {
     "s1": {
@@ -90,9 +90,225 @@
       "publisher": "chiefdelphi.com",
       "read": "2026-11-25"
     },
-    "s15": {
-      "title": "Are rebuilds really good for competition, or really bad",
-      "url": "https://www.chiefdelphi.com/t/are-rebuilds-really-good-for-competition-or-really-bad/518293",
+    "s16": {
+      "title": "Triple Neutral Zone Autos: An Update, post 2",
+      "url": "https://www.chiefdelphi.com/t/519765/2",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "Successful Rebuilds, post 38",
+      "url": "https://www.chiefdelphi.com/t/507401/38",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "LYNK 9496 | Build Log 2026, post 144",
+      "url": "https://www.chiefdelphi.com/t/511797/144",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "LYNK 9496 | Build Log 2026, post 64",
+      "url": "https://www.chiefdelphi.com/t/511797/64",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "LYNK 9496 | Build Log 2026, post 154",
+      "url": "https://www.chiefdelphi.com/t/511797/154",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s22": {
+      "title": "LYNK 9496 | Build Log 2026, post 6",
+      "url": "https://www.chiefdelphi.com/t/511797/6",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s23": {
+      "title": "LYNK 9496 | Build Log 2026, post 9",
+      "url": "https://www.chiefdelphi.com/t/511797/9",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s24": {
+      "title": "LYNK 9496 | Build Log 2026, post 18",
+      "url": "https://www.chiefdelphi.com/t/511797/18",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s25": {
+      "title": "LYNK 9496 | Build Log 2026, post 166",
+      "url": "https://www.chiefdelphi.com/t/511797/166",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s26": {
+      "title": "LYNK 9496 | Build Log 2026, post 63",
+      "url": "https://www.chiefdelphi.com/t/511797/63",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s27": {
+      "title": "LYNK 9496 | Build Log 2026, post 117",
+      "url": "https://www.chiefdelphi.com/t/511797/117",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s28": {
+      "title": "LYNK 9496 | Build Log 2026, post 159",
+      "url": "https://www.chiefdelphi.com/t/511797/159",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s29": {
+      "title": "LYNK 9496 | Build Log 2026, post 66",
+      "url": "https://www.chiefdelphi.com/t/511797/66",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s30": {
+      "title": "LYNK 9496 | Build Log 2026, post 69",
+      "url": "https://www.chiefdelphi.com/t/511797/69",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s31": {
+      "title": "LYNK 9496 | Build Log 2026, post 79",
+      "url": "https://www.chiefdelphi.com/t/511797/79",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s32": {
+      "title": "LYNK 9496 | Build Log 2026, post 31",
+      "url": "https://www.chiefdelphi.com/t/511797/31",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s33": {
+      "title": "LYNK 9496 | Build Log 2026, post 71",
+      "url": "https://www.chiefdelphi.com/t/511797/71",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s34": {
+      "title": "LYNK 9496 | Build Log 2026, post 111",
+      "url": "https://www.chiefdelphi.com/t/511797/111",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s35": {
+      "title": "LYNK 9496 | Build Log 2026, post 35",
+      "url": "https://www.chiefdelphi.com/t/511797/35",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s36": {
+      "title": "LYNK 9496 | Build Log 2026, post 37",
+      "url": "https://www.chiefdelphi.com/t/511797/37",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s37": {
+      "title": "LYNK 9496 | Build Log 2026, post 78",
+      "url": "https://www.chiefdelphi.com/t/511797/78",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s38": {
+      "title": "LYNK 9496 | Build Log 2026, post 81",
+      "url": "https://www.chiefdelphi.com/t/511797/81",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s39": {
+      "title": "LYNK 9496 | Build Log 2026, post 84",
+      "url": "https://www.chiefdelphi.com/t/511797/84",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s40": {
+      "title": "LYNK 9496 | Build Log 2026, post 34",
+      "url": "https://www.chiefdelphi.com/t/511797/34",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s41": {
+      "title": "LYNK 9496 | Build Log 2026, post 43",
+      "url": "https://www.chiefdelphi.com/t/511797/43",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s42": {
+      "title": "LYNK 9496 | Build Log 2026, post 99",
+      "url": "https://www.chiefdelphi.com/t/511797/99",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s43": {
+      "title": "LYNK 9496 | Build Log 2026, post 148",
+      "url": "https://www.chiefdelphi.com/t/511797/148",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s44": {
+      "title": "LYNK 9496 | Build Log 2026, post 113",
+      "url": "https://www.chiefdelphi.com/t/511797/113",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s45": {
+      "title": "LYNK 9496 | Build Log 2026, post 114",
+      "url": "https://www.chiefdelphi.com/t/511797/114",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s46": {
+      "title": "LYNK 9496 | Build Log 2026, post 119",
+      "url": "https://www.chiefdelphi.com/t/511797/119",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s47": {
+      "title": "LYNK 9496 | Build Log 2026, post 91",
+      "url": "https://www.chiefdelphi.com/t/511797/91",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s48": {
+      "title": "LYNK 9496 | Build Log 2026, post 129",
+      "url": "https://www.chiefdelphi.com/t/511797/129",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s49": {
+      "title": "LYNK 9496 | Build Log 2026, post 165",
+      "url": "https://www.chiefdelphi.com/t/511797/165",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s50": {
+      "title": "LYNK 9496 | Build Log 2026, post 142",
+      "url": "https://www.chiefdelphi.com/t/511797/142",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s51": {
+      "title": "LYNK 9496 | Build Log 2026, post 168",
+      "url": "https://www.chiefdelphi.com/t/511797/168",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s52": {
+      "title": "LYNK 9496 | Build Log 2026, post 176",
+      "url": "https://www.chiefdelphi.com/t/511797/176",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s53": {
+      "title": "LYNK 9496 | Build Log 2026, post 38",
+      "url": "https://www.chiefdelphi.com/t/511797/38",
       "publisher": "chiefdelphi.com",
       "read": "2026-11-25"
     }
@@ -107,7 +323,15 @@
         ]
       }
     ],
-    "demand": [],
+    "demand": [
+      {
+        "text": "In February, before its first event, the team was optimizing for a very fast auto through the trench and fast, straight cycles to the neutral zone.",
+        "basis": "team",
+        "src": [
+          "s20"
+        ]
+      }
+    ],
     "auto": [
       {
         "text": "A maneuver in auto makes the unpowered intake drop out, and the hopper slides out with it.",
@@ -120,16 +344,17 @@
         "text": "A forum post cites coordinated sweeps with 1690 and 2813 in Galileo qualification 87, a match it puts at 899 points.",
         "basis": "observer",
         "src": [
-          "s13"
+          "s16"
         ]
       }
     ],
     "cycle": [
       {
-        "text": "Fuel goes over the bumper, along a powered roller floor and an indexer, into a fixed shooter. The robot aims itself at the AprilTag, motor speed sets the shot, and LEDs count down the shift.",
+        "text": "Fuel goes over the bumper, along a powered roller floor and an indexer, into a fixed shooter. The robot aims itself at the AprilTag (a later post: from its tracked position), motor speed sets the shot, and LEDs count down the shift.",
         "basis": "team",
         "src": [
-          "s4"
+          "s4",
+          "s18"
         ]
       },
       {
@@ -164,6 +389,13 @@
         "src": [
           "s11"
         ]
+      },
+      {
+        "text": "It spent the whole season near maximum weight and loaded into its district championship overweight.",
+        "basis": "team",
+        "src": [
+          "s11"
+        ]
       }
     ],
     "changed": [
@@ -175,17 +407,17 @@
         ]
       },
       {
-        "text": "Build log replies that read as the team's describe an early 26 x 26 test chassis and plans for skids.",
-        "basis": "observer",
-        "src": [
-          "s12"
-        ]
-      },
-      {
-        "text": "A forum list that expects mistakes counts it among 2026 rebuilds, without details.",
+        "text": "A forum list calls it a rebuild.",
         "basis": "observer",
         "src": [
           "s14"
+        ]
+      },
+      {
+        "text": "The team says it evolved instead, its shooter widening twice into a true drum.",
+        "basis": "team",
+        "src": [
+          "s17"
         ]
       }
     ],
@@ -243,6 +475,20 @@
           "basis": "team",
           "src": [
             "s4"
+          ]
+        },
+        {
+          "text": "At its first event two X44s drove the two rollers",
+          "basis": "team",
+          "src": [
+            "s27"
+          ]
+        },
+        {
+          "text": "A commenter on the CAD notes that the indexer helps deploy it",
+          "basis": "observer",
+          "src": [
+            "s28"
           ]
         }
       ],
@@ -324,11 +570,29 @@
           ]
         },
         {
-          "text": "Running the intake rollers in and out agitates the fuel",
+          "text": "Pulsing the intake rollers in and out while shooting agitates the fuel and empties the hopper more completely, removing some dead spots near the intake",
           "basis": "team",
           "src": [
             "s4",
-            "s11"
+            "s11",
+            "s34"
+          ]
+        },
+        {
+          "text": "In February, before its first event: rollers of 7/8 in outer diameter with 1/16 in silicone, 2.1254 in apart, on a floor at 10 degrees, an angle that fit over the swerve",
+          "basis": "team",
+          "src": [
+            "s29",
+            "s30",
+            "s31"
+          ]
+        },
+        {
+          "text": "In February, compression was 0.375 in at the indexer and 0.5 in at the top floor roller, and floor, indexer and shooter ran at about 1:1",
+          "basis": "team",
+          "src": [
+            "s32",
+            "s33"
           ]
         }
       ],
@@ -338,6 +602,21 @@
           "basis": "team",
           "src": [
             "s11"
+          ]
+        },
+        {
+          "text": "In early February it jammed with one X60; a second X60 and turning off current limits, which had been very low, cured it, except on an extremely low battery",
+          "basis": "team",
+          "src": [
+            "s35",
+            "s36"
+          ]
+        },
+        {
+          "text": "A commenter highly recommends against removing the current limits entirely, since many motors at high stator current tax the battery",
+          "basis": "observer",
+          "src": [
+            "s53"
           ]
         }
       ]
@@ -386,10 +665,43 @@
           ]
         },
         {
-          "text": "A forum post names the robot as a trench dumper with no powered degrees of freedom",
-          "basis": "observer",
+          "text": "February version: one shaft with four motors, about 5.2 lb of flywheels and wheels, and 0.675 in of compression plus 0.25 in of foam",
+          "basis": "team",
           "src": [
-            "s15"
+            "s40",
+            "s33"
+          ]
+        },
+        {
+          "text": "The hood angle went from 30 to 34 degrees before its first event",
+          "basis": "team",
+          "src": [
+            "s41",
+            "s42"
+          ]
+        },
+        {
+          "text": "Flywheel speed comes from a calibrated, interpolated table of distance to the hub; fuel feeds only when drum speed and alignment are both met",
+          "basis": "team",
+          "src": [
+            "s18",
+            "s43"
+          ]
+        },
+        {
+          "text": "Faster feeding cut the spread in range seen in early videos",
+          "basis": "team",
+          "src": [
+            "s44",
+            "s45",
+            "s46"
+          ]
+        },
+        {
+          "text": "In February the belt had no tensioner; designed center distances left it slightly loose, so tape thickened the idler, and printed guides kept fuel 0.85 in from each side, away from the pulleys",
+          "basis": "team",
+          "src": [
+            "s47"
           ]
         }
       ]
@@ -409,7 +721,7 @@
         "sense",
         "position"
       ],
-      "type": "AprilTag turn-to-aim with pose cameras",
+      "type": "pose-based turn-to-aim with AprilTag cameras",
       "serves": [
         "hub"
       ],
@@ -426,6 +738,32 @@
           "basis": "team",
           "src": [
             "s4"
+          ]
+        },
+        {
+          "text": "One AprilTag camera at its first event, a side camera added by its third, and four cameras that season: Arducam OV2311 with PhotonVision on two Orange Pi 5s",
+          "basis": "team",
+          "src": [
+            "s48",
+            "s18",
+            "s49"
+          ]
+        },
+        {
+          "text": "It aims at the angle its tracked position gives, so it can still shoot if the camera is blocked just before, though driving with it blocked would probably drift the pose; aim keeps refining while shooting",
+          "basis": "team",
+          "src": [
+            "s50",
+            "s18"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "A full hopper has blocked the front camera",
+          "basis": "team",
+          "src": [
+            "s18"
           ]
         }
       ]
@@ -457,6 +795,88 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Swerve drive",
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "A swerve module sits in the ball path and did not affect feeding; its CANcoder wires are covered",
+          "basis": "team",
+          "src": [
+            "s21"
+          ]
+        },
+        {
+          "text": "In January a 26 x 26 in test chassis (a slightly larger one was planned) was run over the bump on spike grip wheels; its hardware caught, so HDPE skids were made, with UHMW planned",
+          "basis": "team",
+          "src": [
+            "s22",
+            "s23",
+            "s24"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The clear plastic that protects the CANcoder cracked a lot",
+          "basis": "team",
+          "src": [
+            "s21"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Autonomous routines",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Recover when the robot rides up on fuel during auto",
+          "basis": "team",
+          "src": [
+            "s51",
+            "s52"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "planned paths with tilt recovery",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "When the Pigeon shows the robot tilting it brakes and backs up, moves to a spot in front of the bump, crosses it and carries on",
+          "basis": "team",
+          "src": [
+            "s51",
+            "s52"
+          ]
+        },
+        {
+          "text": "In auto, vision is weighted much more heavily as truth, because wheels slip on the bump and the robot can beach",
+          "basis": "team",
+          "src": [
+            "s51"
+          ]
+        },
+        {
+          "text": "A team member recalls that shorter path versions let the drive team avoid, for example, a collision with an opponent",
+          "basis": "team",
+          "src": [
+            "s51"
+          ]
+        }
+      ]
     }
   ],
   "decisions": [
@@ -477,6 +897,44 @@
       "src": [
         "s4",
         "s11"
+      ]
+    },
+    {
+      "choice": "Vertical C bumper mounts",
+      "because": "the normal WCP bumper cones did not fit the design",
+      "cost": "bumpers came off the tube when hit, so an internal latch was added to join the halves; one side lifts and the other drops when hit",
+      "basis": "team",
+      "src": [
+        "s25"
+      ]
+    },
+    {
+      "choice": "Daisy-chained CAN",
+      "because": "on CAN FD, star wiring past a certain length brought reflections and stubs too long, a headache to fix on its robot SUBLYME",
+      "instead_of": "star CAN",
+      "basis": "team",
+      "src": [
+        "s26"
+      ]
+    },
+    {
+      "choice": "No divider in the middle of the floor rollers",
+      "because": "testing showed more balls per second without it; the shooter's middle plate went too, with no loss of accuracy seen (February)",
+      "instead_of": "a dividing plate",
+      "basis": "team",
+      "src": [
+        "s37",
+        "s38",
+        "s39"
+      ]
+    },
+    {
+      "choice": "Shoot back over the hopper",
+      "because": "it allows a very quick auto run through the trench with minimal rotation and fast straight cycles, and is a bit harder to block; 254's 2017 robot did the same",
+      "instead_of": "shooting the other way, which is better for cleaning up its own zone",
+      "basis": "team",
+      "src": [
+        "s20"
       ]
     }
   ],
@@ -560,6 +1018,13 @@
         "format": "video",
         "state": "listed",
         "src": "s13"
+      },
+      {
+        "what": "Tilt recovery in an off-season match at Chezy Champs, set off by a collision (not watched)",
+        "url": "https://youtu.be/f0oN0_b3FDM",
+        "format": "video",
+        "state": "listed",
+        "src": "s52"
       }
     ],
     "documents": [
@@ -567,7 +1032,7 @@
         "what": "LYNK 9496 Build Log 2026",
         "url": "https://www.chiefdelphi.com/t/lynk-9496-build-log-2026/511797",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s12"
       }
     ],
@@ -599,7 +1064,7 @@
     "The Blue Alliance team page",
     "community CAD sheet",
     "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
-    "interview captions from its third event, before the district championship; build log first page and post 160 only",
+    "interview captions from its third event, before the district championship",
     "binders: Chief Delphi searches for 9496 binder and 9496 in titles, one docs-site page"
   ],
   "results": {

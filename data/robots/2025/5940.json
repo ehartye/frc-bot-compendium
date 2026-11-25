@@ -77,11 +77,74 @@
       "url": "https://www.chiefdelphi.com/t/team-5940-bread-2025-cad-release/501347",
       "publisher": "chiefdelphi.com",
       "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "Team 5940 BREAD 2025 CAD Release, post 14",
+      "url": "https://www.chiefdelphi.com/t/501347/14",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "Team 5940 BREAD 2025 CAD Release, post 15",
+      "url": "https://www.chiefdelphi.com/t/501347/15",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "Team 5940 BREAD 2025 CAD Release, post 17",
+      "url": "https://www.chiefdelphi.com/t/501347/17",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "Team 5940 BREAD 2025 CAD Release, post 28",
+      "url": "https://www.chiefdelphi.com/t/501347/28",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "Team 5940 BREAD 2025 CAD Release, post 25",
+      "url": "https://www.chiefdelphi.com/t/501347/25",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "Team 5940 BREAD 2025 CAD Release, post 22",
+      "url": "https://www.chiefdelphi.com/t/501347/22",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "Team 5940 BREAD 2025 CAD Release, post 23",
+      "url": "https://www.chiefdelphi.com/t/501347/23",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s22": {
+      "title": "Team 5940 BREAD 2025 CAD Release, post 16",
+      "url": "https://www.chiefdelphi.com/t/501347/16",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
     }
   },
   "story": {
     "bet": [],
-    "demand": [],
+    "demand": [
+      {
+        "text": "To be competitive on Einstein it typically aims to do every action, dropping those that conflict, such as deep and shallow climb, or are not worth the complexity and weight, such as a buddy climb.",
+        "basis": "team",
+        "src": [
+          "s19"
+        ]
+      },
+      {
+        "text": "Its kickoff scenario of about 24 teleop coral from an elite robot proved accurate; it expected more L1 specialists and missed the race for algae.",
+        "basis": "team",
+        "src": [
+          "s19"
+        ]
+      }
+    ],
     "auto": [
       {
         "text": "In a Silicon Valley final a host shows three coral and an algae removal, and later calls it a feeder-station auto.",
@@ -121,10 +184,13 @@
     "gave_up": [],
     "changed": [
       {
-        "text": "Replies that read as the team's say star and flex wheels gave way to printed TPU rollers; a rolling tensioner stopped, in normal use, chain skip found on the practice robot; a planned depth camera was dropped; the carriage motor went from X60 to X44 for weight; and a roller hard stop that was delaminating the side plate was removed for Worlds.",
-        "basis": "observer",
+        "text": "Star and flex wheels gave way to printed TPU rollers; a rolling tensioner ended, in normal use, chain skip found on the practice robot; a planned depth camera was dropped; the carriage motor went from X60 to X44 for weight; and a roller hard stop that was delaminating the side plate was removed for Worlds. The L1 bar came after the second regional.",
+        "basis": "team",
         "src": [
-          "s14"
+          "s15",
+          "s16",
+          "s17",
+          "s18"
         ]
       }
     ],
@@ -221,26 +287,54 @@
           ]
         },
         {
-          "text": "Front rollers are 1 in and 1.25 in polycarbonate tubes with 2 in and 3 in TPU rollers pressed on (reads as the team's reply)",
-          "basis": "observer",
+          "text": "Front rollers are 1 in and 1.25 in polycarbonate tubes with 2 in and 3 in TPU rollers pressed on, in eight 3 in segments each",
+          "basis": "team",
           "src": [
-            "s14"
+            "s16"
           ]
         },
         {
-          "text": "Slits separate the printed wheel sections, which the post thinks adds compliance (reads as the team's reply)",
-          "basis": "observer",
+          "text": "Slits separate the printed wheel sections, which the team thinks adds compliance; they are printed joined by one wall and cut apart with a blade",
+          "basis": "team",
           "src": [
-            "s14"
+            "s16"
+          ]
+        },
+        {
+          "text": "Normal 95A TPU is recommended over the high-speed version, which came out much harder at the same rating",
+          "basis": "team",
+          "src": [
+            "s16"
+          ]
+        },
+        {
+          "text": "Silicone goes on by vacuum, a method learned from other teams, because the slits rule out the usual air method: it is pulled to the inside of a slightly larger tube, the roller slides in and the vacuum is released",
+          "basis": "team",
+          "src": [
+            "s16"
+          ]
+        },
+        {
+          "text": "Foam rollers with silicone, tried before Worlds, performed similarly but disintegrated quickly and slipped on the tube",
+          "basis": "team",
+          "src": [
+            "s16"
+          ]
+        },
+        {
+          "text": "Two to three sets of spare rollers were kept for a quick swap and never needed",
+          "basis": "team",
+          "src": [
+            "s16"
           ]
         }
       ],
       "cost": [
         {
-          "text": "Pressing the TPU segments onto the tubes is very hard, even in 3 in lengths (reads as the team's reply)",
-          "basis": "observer",
+          "text": "Pressing the TPU segments onto the tubes is very hard, even in 3 in lengths",
+          "basis": "team",
           "src": [
-            "s14"
+            "s16"
           ]
         }
       ]
@@ -398,19 +492,19 @@
           ]
         },
         {
-          "text": "Tensioner spring rate (reads as the team's reply)",
-          "basis": "observer",
+          "text": "Tensioner spring rate",
+          "basis": "team",
           "src": [
-            "s14"
+            "s15"
           ],
           "value": 38,
           "unit": "lb/in"
         },
         {
-          "text": "A 1/4 in plate sits less than one link from the sprocket so the chain cannot skip (reads as the team's reply)",
-          "basis": "observer",
+          "text": "A 1/4 in aluminum plate sits less than one link from the sprocket so the chain cannot skip",
+          "basis": "team",
           "src": [
-            "s14"
+            "s15"
           ]
         }
       ]
@@ -448,26 +542,26 @@
           "unit": "in"
         },
         {
-          "text": "A three-stage gearbox and the bearing fit in a 7 x 7.5 x 2 space, unit not given (reads as the team's reply)",
-          "basis": "observer",
+          "text": "A three-stage gearbox and a 4 in outside diameter bearing fit in a 7 x 7.5 x 2 space, unit not given",
+          "basis": "team",
           "src": [
-            "s14"
+            "s17"
           ]
         },
         {
-          "text": "Only the end effector wires limit rotation; an elastic string shows how far it has turned (reads as the team's reply)",
-          "basis": "observer",
+          "text": "Only the end effector wires limit rotation; an elastic string shows how far it has turned",
+          "basis": "team",
           "src": [
-            "s14"
+            "s17"
           ]
         }
       ],
       "cost": [
         {
-          "text": "Probably a few degrees of backlash on the final stage (reads as the team's reply)",
-          "basis": "observer",
+          "text": "Probably a few degrees of backlash on the final stage",
+          "basis": "team",
           "src": [
-            "s14"
+            "s17"
           ]
         }
       ]
@@ -525,6 +619,37 @@
           "basis": "team",
           "src": [
             "s4"
+          ]
+        },
+        {
+          "text": "About 7 lb with wires and bolts, 6.55 lb in CAD, from about 9 lb at first and 11 lb for the heaviest prototype",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        },
+        {
+          "text": "Weight came off by pocketing tubes and plates, 1/16 in wall tubes, one motor for both grabbers and MAXComposite SRPP in place of polycarbonate",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        },
+        {
+          "text": "The coral grabber holds coral from the inside, as on the Rembrandts robot, and replaced one that held it from outside",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "It cannot hold coral and algae at once; coral waits in the handoff, which the team says still gave fast two-piece cycles",
+          "basis": "team",
+          "src": [
+            "s20",
+            "s21"
           ]
         }
       ]
@@ -600,10 +725,10 @@
       "name": "Pi Motel",
       "solves": [
         {
-          "text": "Fit four vision computers in a slightly smaller space than three Orange Pis took in 2024 (reads as the team's reply)",
-          "basis": "observer",
+          "text": "Fit four vision computers in a slightly smaller space than three Orange Pis took in 2024",
+          "basis": "team",
           "src": [
-            "s14"
+            "s22"
           ]
         }
       ],
@@ -631,10 +756,24 @@
           ]
         },
         {
-          "text": "One camera per computer, three monochrome and one color, running PhotonVision (reads as the team's reply)",
-          "basis": "observer",
+          "text": "One camera per computer, three monochrome and one color, running PhotonVision",
+          "basis": "team",
           "src": [
-            "s14"
+            "s22"
+          ]
+        },
+        {
+          "text": "Each computer has its own 5 V buck converter board, capable of up to 8 A, fed through the PCIe connector",
+          "basis": "team",
+          "src": [
+            "s22"
+          ]
+        },
+        {
+          "text": "The Rock 5C has the same processor as the Orange Pi on a smaller board and takes eMMC instead of a microSD card",
+          "basis": "team",
+          "src": [
+            "s22"
           ]
         }
       ]
@@ -657,19 +796,19 @@
       "serves": [],
       "facts": [
         {
-          "text": "Mounted this way since 2023; mechanisms on top do not block access (reads as the team's reply)",
-          "basis": "observer",
+          "text": "Mounted this way since 2023; mechanisms on top do not block access",
+          "basis": "team",
           "src": [
-            "s14"
+            "s15"
           ]
         }
       ],
       "cost": [
         {
-          "text": "Some holes in the 1/16 in panels egged out and broke after a few weeks, so gaff tape held them (reads as the team's reply)",
-          "basis": "observer",
+          "text": "Some holes in the 1/16 in panels egged out and broke after a few weeks, so gaff tape held them",
+          "basis": "team",
           "src": [
-            "s14"
+            "s15"
           ]
         }
       ]
@@ -677,49 +816,67 @@
   ],
   "decisions": [
     {
-      "choice": "Printed TPU rollers on polycarbonate tube (reads as the team's reply)",
-      "because": "gapless flex wheels were needed for coral arriving across the intake but would be too heavy, and hex shafts bent in impacts",
+      "choice": "Printed TPU rollers on polycarbonate tube",
+      "because": "perpendicular coral stuck in the gaps between flex wheels, a row with no gaps would be too heavy, and hex shafts bent in impacts",
       "instead_of": "flex wheels on 1/2 in hex shaft",
       "cost": "press fitting the segments is very hard",
-      "basis": "observer",
+      "basis": "team",
       "src": [
-        "s14"
+        "s16"
       ]
     },
     {
-      "choice": "TPU roller on top of the intake (reads as the team's reply)",
-      "because": "star wheels picked up inconsistently in auto, which the post puts down to intermittent contact",
+      "choice": "TPU roller on top of the intake",
+      "because": "star wheels picked up inconsistently in auto, which the team puts down to intermittent contact",
       "instead_of": "star wheels",
-      "basis": "observer",
+      "basis": "team",
       "src": [
-        "s14"
+        "s16"
       ]
     },
     {
-      "choice": "Rolling chain tensioner (reads as the team's reply)",
+      "choice": "Rolling chain tensioner",
       "because": "stretch over a long chain run let it skip and the elevator lost its zero, even with an inline tensioner fully tight",
       "instead_of": "an inline tensioner alone, or heavier #35 chain",
-      "basis": "observer",
+      "basis": "team",
       "src": [
-        "s14"
+        "s15"
       ]
     },
     {
-      "choice": "Drop the depth camera (reads as the team's reply)",
+      "choice": "Drop the depth camera",
       "because": "many teams placed coral accurately with vision alone, and the camera, its computer and a 10 ft cable added weight",
       "instead_of": "an Intel RealSense planned for field tolerance",
-      "basis": "observer",
+      "basis": "team",
       "src": [
-        "s14"
+        "s17"
       ]
     },
     {
-      "choice": "Epoxied printed roller hubs (reads as the team's reply)",
+      "choice": "Epoxied printed roller hubs",
       "because": "aluminum tube plugs cracked around the screw holes",
       "instead_of": "aluminum plugs held by two screws",
-      "basis": "observer",
+      "basis": "team",
       "src": [
-        "s14"
+        "s16"
+      ]
+    },
+    {
+      "choice": "Keep an X60 on the end effector",
+      "because": "an X44 would overheat, because the motor is stalled for much of the match",
+      "instead_of": "an X44",
+      "basis": "team",
+      "src": [
+        "s20"
+      ]
+    },
+    {
+      "choice": "Build three robots: alpha, beta and Gamma",
+      "because": "the alpha gave programming something to work with, and the beta showed design changes before the final robot was built",
+      "cost": "the alpha went without intake and indexer, whose integration was too difficult; the beta weighed about 125 lb, so the main change to the final robot was cutting weight",
+      "basis": "team",
+      "src": [
+        "s18"
       ]
     }
   ],
@@ -743,7 +900,7 @@
         "what": "Team 5940 BREAD 2025 CAD Release",
         "url": "https://www.chiefdelphi.com/t/team-5940-bread-2025-cad-release/501347",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s14",
         "holds": "Onshape"
       }
@@ -813,6 +970,13 @@
         "state": "opened",
         "src": "s13",
         "kind": "cad"
+      },
+      {
+        "what": "Build blog and prototyping videos (Drive folder)",
+        "url": "https://drive.google.com/drive/u/1/folders/1KJh_usj2oOx-HmWFWnFvyN87zlcVTqta",
+        "format": "Google Drive",
+        "state": "listed",
+        "src": "s18"
       }
     ],
     "documents": [
@@ -834,8 +998,15 @@
         "what": "The Cookbook: Team 5940 2025 Competition Documentation",
         "url": "https://www.chiefdelphi.com/t/the-cookbook-team-5940-2025-competition-documentation/505675",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s11"
+      },
+      {
+        "what": "Season Gantt chart",
+        "url": "https://docs.google.com/spreadsheets/d/16WDIYUySgMQU_CO94zNGSrOrXEKsiNqVjTWput8Jdqc/edit?gid=93466809#gid=93466809",
+        "format": "Google Sheet",
+        "state": "listed",
+        "src": "s18"
       }
     ],
     "code": [
@@ -859,7 +1030,7 @@
     "The Blue Alliance team page",
     "community CAD sheet",
     "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
-    "2025 technical binder, text extraction (figures not read); CAD thread, first page",
+    "2025 technical binder, text extraction (figures not read); CAD thread",
     "the Cookbook is linked only: its owner blocks export, and the thread says it leaves out robot engineering",
     "binders: Chief Delphi searches for 5940 in titles and 5940 tech binder, 29 team-site pages"
   ],

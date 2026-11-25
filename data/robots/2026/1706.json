@@ -53,6 +53,72 @@
       "url": "https://cad.onshape.com/documents/23ba2ed5b3893ab97929c8b6/w/d7012e1e8978e09c9756ee4c/e/70526e43c92b434a946b53a6?renderMode=0&uiState=6a4551305d34dab275300f85",
       "publisher": "cad.onshape.com",
       "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "1706 Ratchet Rockers 2026 CAD Release - Mirage (Champs Version), post 4",
+      "url": "https://www.chiefdelphi.com/t/522276/4",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "1706 Ratchet Rockers 2026 CAD Release - Mirage (Champs Version), post 9",
+      "url": "https://www.chiefdelphi.com/t/522276/9",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "1706 Ratchet Rockers 2026 CAD Release - Mirage (Champs Version), post 6",
+      "url": "https://www.chiefdelphi.com/t/522276/6",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "1706 Ratchet Rockers 2026 CAD Release - Mirage (Champs Version), post 5",
+      "url": "https://www.chiefdelphi.com/t/522276/5",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "1706 Ratchet Rockers 2026 CAD Release - Mirage (Champs Version), post 7",
+      "url": "https://www.chiefdelphi.com/t/522276/7",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "Successful Rebuilds, post 28",
+      "url": "https://www.chiefdelphi.com/t/507401/28",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "Triple Neutral Zone Autos: An Update, post 3",
+      "url": "https://www.chiefdelphi.com/t/519765/3",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "1706 Ratchet Rockers 2026 CAD Release - Mirage (Champs Version), post 11",
+      "url": "https://www.chiefdelphi.com/t/522276/11",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "1706 Ratchet Rockers 2026 CAD Release - Mirage (Champs Version), post 15",
+      "url": "https://www.chiefdelphi.com/t/522276/15",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "1706 Ratchet Rockers 2026 CAD Release - Mirage (Champs Version), post 18",
+      "url": "https://www.chiefdelphi.com/t/522276/18",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "1706 Ratchet Rockers 2026 CAD Release - Mirage (Champs Version), post 13",
+      "url": "https://www.chiefdelphi.com/t/522276/13",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -72,6 +138,13 @@
         "basis": "team",
         "src": [
           "s5"
+        ]
+      },
+      {
+        "text": "On Hopper, a partner says 1706 coordinated around its auto.",
+        "basis": "observer",
+        "src": [
+          "s15"
         ]
       }
     ],
@@ -120,10 +193,18 @@
         ]
       },
       {
-        "text": "Replies that read as the team's say the championship CAD keeps a tube that is a remnant of the climber, and that a sloped plate after the intake reduced jamming as the intake pulled in, after a few iterations.",
-        "basis": "observer",
+        "text": "Championship version: a sloped plate after the intake cut jamming, and a tube left from the climber supports the Limelight mount.",
+        "basis": "team",
         "src": [
-          "s4"
+          "s9",
+          "s10"
+        ]
+      },
+      {
+        "text": "Dual turrets and spindexers lasted all year; intake and hopper were new for the championship, changes a team member would not call a rebuild.",
+        "basis": "team",
+        "src": [
+          "s14"
         ]
       }
     ],
@@ -148,10 +229,17 @@
       "serves": [],
       "facts": [
         {
-          "text": "A reply that reads as the team's says the narrow modules let the team put their bulk where it wanted and keep the spindexer as large as possible",
-          "basis": "observer",
+          "text": "The narrow modules let the team put their bulk where it wanted and keep the spindexer as large as possible",
+          "basis": "team",
           "src": [
-            "s4"
+            "s9"
+          ]
+        },
+        {
+          "text": "Bumper backing is 1/8 in 5052-H32 channel, formed by a vendor with holes on a 1 in pattern and filled with about 2.75 to 3 in of PE foam",
+          "basis": "team",
+          "src": [
+            "s16"
           ]
         }
       ]
@@ -200,10 +288,10 @@
           ]
         },
         {
-          "text": "A reply that reads as the team's says the intake plates clip the bumper slightly, pushing into its foam to keep a good hole-to-edge distance",
-          "basis": "observer",
+          "text": "The intake plates clip the bumper slightly, pushing into its foam to keep a good hole-to-edge distance",
+          "basis": "team",
           "src": [
-            "s4"
+            "s11"
           ]
         }
       ]
@@ -297,10 +385,10 @@
           ]
         },
         {
-          "text": "A reply that reads as the team's says a plate sloped up out of the intake reduces jamming as the intake pulls in",
-          "basis": "observer",
+          "text": "After a few iterations, a plate sloped up out of the intake worked very well against jams as the intake pulls in; before it, stuck balls dented the spindexer wall and stopped the intake from pulling in",
+          "basis": "team",
           "src": [
-            "s4"
+            "s10"
           ]
         }
       ],
@@ -360,17 +448,33 @@
           ]
         },
         {
-          "text": "A reply that reads as the team's says each turret has two CANcoders, combined with the Chinese remainder theorem for accurate position",
-          "basis": "observer",
+          "text": "Each turret has two CANcoders, combined with the Chinese remainder theorem to track its position at all times",
+          "basis": "team",
           "src": [
-            "s4"
+            "s12",
+            "s11"
           ]
         },
         {
-          "text": "A reply that reads as the team's says everything on a shooter had to fit a 12 in diameter cylinder, a strict design constraint",
-          "basis": "observer",
+          "text": "Everything on a shooter had to fit a 12 in diameter cylinder, a strict design constraint and one of the biggest challenges for the design team",
+          "basis": "team",
           "src": [
-            "s4"
+            "s13"
+          ]
+        },
+        {
+          "text": "A 4 lb constant force spring pulls each energy chain back as it retracts",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Off-season B bot: the 8 DP turret spur gear, printed (a team member believes in PAHT-CF) so its teeth could be tighter against backlash, was worn in at about 50 percent speed until current fell to at most 10 to 15 A, then greased; it wore slightly over the off-season",
+          "basis": "team",
+          "src": [
+            "s17",
+            "s18"
           ]
         }
       ]
@@ -428,10 +532,11 @@
           ]
         },
         {
-          "text": "A reply that reads as the team's says the front wheel and the rear accelerator wheels run at different speeds",
-          "basis": "observer",
+          "text": "The front wheel and the rear accelerator wheels run at different speeds; that, and fitting the 12 in cylinder, is why the belts do not go straight to the middle shaft",
+          "basis": "team",
           "src": [
-            "s4"
+            "s9",
+            "s13"
           ]
         }
       ]
@@ -589,9 +694,16 @@
         "what": "1706 Ratchet Rockers 2026 CAD Release - Mirage (Champs Version)",
         "url": "https://www.chiefdelphi.com/t/1706-ratchet-rockers-2026-cad-release-mirage-champs-version/522276",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s4",
         "holds": "Onshape"
+      },
+      {
+        "what": "Off-season B bot (not cleaned up, the team says)",
+        "url": "https://cad.onshape.com/documents/b9a250d8d9ab3a2e3b39b919/w/7617b98969cc90d668ce27ae/e/7e024d5c32e92de9df575d01?renderMode=0&uiState=6adfa0c0a269116d0ebecb47",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s21"
       }
     ],
     "graphics": [

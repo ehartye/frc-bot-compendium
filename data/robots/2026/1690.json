@@ -90,22 +90,196 @@
       "publisher": "FUN Robotics Network",
       "read": "2026-11-25"
     },
-    "s15": {
-      "title": "FRC Orbit 1690 2026 Robot CAD Release, post 39 (turret zeroing)",
-      "url": "https://www.chiefdelphi.com/t/frc-orbit-1690-2026-robot-cad-release/520673/39",
-      "publisher": "chiefdelphi.com",
-      "read": "2026-11-25"
-    },
-    "s16": {
-      "title": "Orbit 1690 2026 Robot Reveal, post 103 (static and CANivore)",
-      "url": "https://www.chiefdelphi.com/t/orbit-1690-2026-robot-reveal-kepler/515277/103",
-      "publisher": "chiefdelphi.com",
-      "read": "2026-11-25"
-    },
     "s17": {
       "title": "Orbit 1690 Double Swipe Auto",
       "url": "https://www.chiefdelphi.com/t/orbit-1690-double-swipe-auto/514759",
       "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "Orbit 1690 Double Swipe Auto, post 1",
+      "url": "https://www.chiefdelphi.com/t/514759/1",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "Orbit 1690 Double Swipe Auto, post 4",
+      "url": "https://www.chiefdelphi.com/t/514759/4",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "Triple neutral zone autos (thread), post 2",
+      "url": "https://www.chiefdelphi.com/t/519765/2",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "FRC Orbit 1690 2026 Robot CAD Release, post 39",
+      "url": "https://www.chiefdelphi.com/t/520673/39",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s22": {
+      "title": "Orbit 1690 2026 Robot Reveal, post 103",
+      "url": "https://www.chiefdelphi.com/t/515277/103",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s23": {
+      "title": "Disabled robots on Einstein (thread), post 39",
+      "url": "https://www.chiefdelphi.com/t/519830/39",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s24": {
+      "title": "FRC Orbit 1690 2026 Robot CAD Release, post 19",
+      "url": "https://www.chiefdelphi.com/t/520673/19",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s25": {
+      "title": "FRC Orbit 1690 2026 Robot CAD Release, post 16",
+      "url": "https://www.chiefdelphi.com/t/520673/16",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s26": {
+      "title": "FRC Orbit 1690 2026 Robot CAD Release, post 56",
+      "url": "https://www.chiefdelphi.com/t/520673/56",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s27": {
+      "title": "FRC Orbit 1690 2026 Robot CAD Release, post 31",
+      "url": "https://www.chiefdelphi.com/t/520673/31",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s34": {
+      "title": "Orbit 1690 new custom swerve reveal, post 23",
+      "url": "https://www.chiefdelphi.com/t/508927/23",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s35": {
+      "title": "Orbit 1690 2026 Robot Reveal, post 42",
+      "url": "https://www.chiefdelphi.com/t/515277/42",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s36": {
+      "title": "FRC Orbit 1690 2026 Robot CAD Release, post 5",
+      "url": "https://www.chiefdelphi.com/t/520673/5",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s37": {
+      "title": "FRC Orbit 1690 2026 Robot CAD Release, post 37",
+      "url": "https://www.chiefdelphi.com/t/520673/37",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s38": {
+      "title": "FRC Orbit 1690 2026 Robot CAD Release, post 75",
+      "url": "https://www.chiefdelphi.com/t/520673/75",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s39": {
+      "title": "Orbit 1690 2026 Robot Reveal, post 115",
+      "url": "https://www.chiefdelphi.com/t/515277/115",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s40": {
+      "title": "FRC Orbit 1690 2026 Robot CAD Release, post 63",
+      "url": "https://www.chiefdelphi.com/t/520673/63",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s41": {
+      "title": "FRC Orbit 1690 2026 Robot CAD Release, post 43",
+      "url": "https://www.chiefdelphi.com/t/520673/43",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s42": {
+      "title": "FRC Orbit 1690 2026 Robot CAD Release, post 29",
+      "url": "https://www.chiefdelphi.com/t/520673/29",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s43": {
+      "title": "FRC Orbit 1690 2026 Robot CAD Release, post 52",
+      "url": "https://www.chiefdelphi.com/t/520673/52",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s44": {
+      "title": "FRC Orbit 1690 2026 Robot CAD Release, post 71",
+      "url": "https://www.chiefdelphi.com/t/520673/71",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s45": {
+      "title": "Orbit 1690 2026 Robot Reveal, post 108",
+      "url": "https://www.chiefdelphi.com/t/515277/108",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s46": {
+      "title": "Orbit 1690 2026 Robot Reveal, post 117",
+      "url": "https://www.chiefdelphi.com/t/515277/117",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s47": {
+      "title": "Orbit 1690 2026 Robot Reveal, post 119",
+      "url": "https://www.chiefdelphi.com/t/515277/119",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s48": {
+      "title": "Orbit 1690 2026 Robot Reveal, post 93",
+      "url": "https://www.chiefdelphi.com/t/515277/93",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s49": {
+      "title": "Orbit 1690 2026 Robot Reveal, post 80",
+      "url": "https://www.chiefdelphi.com/t/515277/80",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s50": {
+      "title": "Orbit 1690 2026 Robot Reveal, post 94",
+      "url": "https://www.chiefdelphi.com/t/515277/94",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s51": {
+      "title": "FRC Orbit 1690 2026 Robot CAD Release, post 78",
+      "url": "https://www.chiefdelphi.com/t/520673/78",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s52": {
+      "title": "Orbit 1690 2026 Robot Reveal, post 109",
+      "url": "https://www.chiefdelphi.com/t/515277/109",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s53": {
+      "title": "FRC Orbit 1690 2026 Robot CAD Release, post 46",
+      "url": "https://www.chiefdelphi.com/t/520673/46",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s54": {
+      "title": "Orbit 1690 2026 off-season practice robot, post 1",
+      "url": "https://www.chiefdelphi.com/t/526099/1",
+      "publisher": "Chief Delphi",
       "read": "2026-11-25"
     }
   },
@@ -137,10 +311,18 @@
         ]
       },
       {
-        "text": "The team posted a double swipe teaser in February; an unsigned reply that reads as the team's says the path ends at a still unfinished climb.",
+        "text": "A double swipe teaser in February ended at a climb that was still unfinished.",
+        "basis": "team",
+        "src": [
+          "s18",
+          "s19"
+        ]
+      },
+      {
+        "text": "An observer calls its three-robot neutral zone sweeps in Galileo qualification 87 perfectly coordinated.",
         "basis": "observer",
         "src": [
-          "s17"
+          "s20"
         ]
       }
     ],
@@ -178,10 +360,10 @@
         ]
       },
       {
-        "text": "An unsigned post that reads as the team's says a lost turret position is recovered manually: turned by eye, then zeroed; it worked well enough in some practice matches.",
-        "basis": "observer",
+        "text": "A lost turret position is recovered manually: turned by eye, then zeroed. It worked well enough in some of the practice matches where it was needed.",
+        "basis": "team",
         "src": [
-          "s15"
+          "s21"
         ]
       }
     ],
@@ -194,17 +376,18 @@
         ]
       },
       {
-        "text": "An unsigned post that reads as the team's says the turret zeroes only within about ±30 degrees, and starting elsewhere broke the energy chain a few times, not at the championship.",
-        "basis": "observer",
+        "text": "The turret zeroes only within about ±30 degrees, and starting elsewhere broke the energy chain a few times, not at the championship.",
+        "basis": "team",
         "src": [
-          "s15"
+          "s21"
         ]
       },
       {
-        "text": "A post that reads as the team's says grounding wires helped little against suspected static, and it lost its CANivore in Einstein match 7.",
-        "basis": "observer",
+        "text": "Grounding wires to the carpet helped little against suspected static, and it lost its CANivore in Einstein match 7.",
+        "basis": "team",
         "src": [
-          "s16"
+          "s22",
+          "s23"
         ]
       }
     ],
@@ -214,6 +397,13 @@
         "basis": "team",
         "src": [
           "s14"
+        ]
+      },
+      {
+        "text": "Before the season it kept zip-tied tread because it swaps fast and wears slowly, and traction was not an issue.",
+        "basis": "team",
+        "src": [
+          "s34"
         ]
       },
       {
@@ -268,10 +458,10 @@
           ]
         },
         {
-          "text": "The MK5 fit almost perfectly because the old custom module had similar dimensions, and the swap took a weekend, says an unsigned post that reads as the team's",
-          "basis": "observer",
+          "text": "The MK5 fit almost perfectly because the old custom module had similar dimensions, and the swap took a weekend with a few tweaks to some parts",
+          "basis": "team",
           "src": [
-            "s12"
+            "s24"
           ]
         },
         {
@@ -282,10 +472,27 @@
           ]
         },
         {
-          "text": "Spikes are kept clean and new because their condition has a massive impact on grip, says an unsigned post that reads as the team's",
-          "basis": "observer",
+          "text": "Spikes are kept clean and new because their condition has a massive impact on grip",
+          "basis": "team",
           "src": [
-            "s12"
+            "s24"
+          ]
+        },
+        {
+          "text": "MK5 gearing is R1",
+          "basis": "team",
+          "src": [
+            "s25"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The battery jumped enough in fierce practice to nearly or fully loosen its connector, until thicker foam squeezed it in place; some plates that support it bent from jumps",
+          "basis": "team",
+          "src": [
+            "s26",
+            "s27"
           ]
         }
       ]
@@ -332,6 +539,13 @@
           "basis": "team",
           "src": [
             "s14"
+          ]
+        },
+        {
+          "text": "In early March, before netting, it held about 50 to 55 fuel and hardly reached that consistently, because fuel bounced out of the open top",
+          "basis": "team",
+          "src": [
+            "s35"
           ]
         }
       ]
@@ -383,6 +597,13 @@
           "src": [
             "s14"
           ]
+        },
+        {
+          "text": "The rollers are polycarbonate with silicone wraps",
+          "basis": "team",
+          "src": [
+            "s37"
+          ]
         }
       ]
     },
@@ -414,10 +635,10 @@
           ]
         },
         {
-          "text": "A plain aluminum roller pulled down by surgical tubing, says an unsigned post that reads as the team's",
-          "basis": "observer",
+          "text": "A plain aluminum roller pulled down by surgical tubing, stowed behind the intake before the match",
+          "basis": "team",
           "src": [
-            "s12"
+            "s36"
           ]
         }
       ]
@@ -445,7 +666,7 @@
       ],
       "facts": [
         {
-          "text": "Active silicone-coated carbon fiber rollers",
+          "text": "Active silicone-coated rollers",
           "basis": "team",
           "src": [
             "s14"
@@ -472,6 +693,21 @@
           "basis": "team",
           "src": [
             "s14"
+          ]
+        },
+        {
+          "text": "The interview calls the rollers carbon fiber; a later team post says most are polycarbonate with silicone wraps, with a few carbon fiber ones where bending could touch parts below",
+          "basis": "team",
+          "src": [
+            "s14",
+            "s37"
+          ]
+        },
+        {
+          "text": "The floor runs at 75 rps with the belts at 95 rps for scoring, and 85 and 100 rps for passing",
+          "basis": "team",
+          "src": [
+            "s38"
           ]
         }
       ],
@@ -517,10 +753,24 @@
           "unit": "mm"
         },
         {
-          "text": "Prototypes joined the belts, which worked all right; separate motors make the belts easier to remove and assemble outside, says an unsigned post that reads as the team's",
-          "basis": "observer",
+          "text": "Prototypes joined the belts, which worked all right; separate motors make the belts easier to remove and assemble outside",
+          "basis": "team",
           "src": [
-            "s12"
+            "s24"
+          ]
+        },
+        {
+          "text": "Thin PTFE sheet on polycarbonate lines the left wall and the side walls into the shooter to cut friction",
+          "basis": "team",
+          "src": [
+            "s39"
+          ]
+        },
+        {
+          "text": "Carbon fiber tubes behind the belts hold the backing plate with zip ties and serve as dead axles for pulleys, which saves shafts",
+          "basis": "team",
+          "src": [
+            "s40"
           ]
         }
       ]
@@ -550,6 +800,13 @@
           "basis": "team",
           "src": [
             "s14"
+          ]
+        },
+        {
+          "text": "It turns toward the belts at 60 rps; high stator current for several code cycles counts as a jam and reverses it briefly",
+          "basis": "team",
+          "src": [
+            "s38"
           ]
         }
       ]
@@ -588,6 +845,13 @@
           "basis": "team",
           "src": [
             "s14"
+          ]
+        },
+        {
+          "text": "A static ramp makes balls rotate; powered wheels oppose that spin, which slightly improved the flow",
+          "basis": "team",
+          "src": [
+            "s41"
           ]
         }
       ]
@@ -637,19 +901,54 @@
           ]
         },
         {
-          "text": "The turret is a two-plate sandwich on the bearing, and tight slots made the thin bearing stiff until scraped smooth, says an unsigned post that reads as the team's",
-          "basis": "observer",
+          "text": "The turret is a two-plate sandwich on the bearing; tight slots made it significantly stiffer until scraped smooth, a lesson for thin bearings",
+          "basis": "team",
           "src": [
-            "s12"
+            "s24"
+          ]
+        },
+        {
+          "text": "No flywheel: the wheel recovers in around 50 ms at top speed, which the team reckons is enough for 20 balls per second, way more than it needs",
+          "basis": "team",
+          "src": [
+            "s35"
+          ]
+        },
+        {
+          "text": "The feeder wheels run at 60% of shooter wheel speed, with a surface speed of at least 5 m/s",
+          "basis": "team",
+          "src": [
+            "s38"
+          ]
+        },
+        {
+          "text": "The hood's X44 drives through 1:4 in a VersaPlanetary Lite with a printed cover, then 1:19.333 in gears; the motor shaft was shortened to fit",
+          "basis": "team",
+          "src": [
+            "s42"
+          ]
+        },
+        {
+          "text": "The shooter wheel is custom, after a 4 in aluminum traction wheel worked in prototypes, and is wide enough for small feeding errors from the offset path",
+          "basis": "team",
+          "src": [
+            "s43"
+          ]
+        },
+        {
+          "text": "Flywheel feedforward is the derivative of the simulated speed function; the turret's is the target's angular rate minus the robot's",
+          "basis": "team",
+          "src": [
+            "s44"
           ]
         }
       ],
       "cost": [
         {
-          "text": "The printed hood guide was replaced quite a few times because its upper teeth kept hitting the trench, says an unsigned post that reads as the team's",
-          "basis": "observer",
+          "text": "The printed PLA hood guide was replaced quite a few times because its upper teeth kept hitting the trench, directly or through a stuck ball",
+          "basis": "team",
           "src": [
-            "s12"
+            "s36"
           ]
         }
       ]
@@ -686,16 +985,25 @@
             "s14"
           ]
         }
+      ],
+      "cost": [
+        {
+          "text": "14 gauge drops more voltage, which could brown out the shooter motors, so the team lowered Kp, left out a flywheel and used 10 gauge from the chain to the power distribution, with 30 A breakers",
+          "basis": "team",
+          "src": [
+            "s45"
+          ]
+        }
       ]
     },
     {
       "name": "Turret zeroing",
       "solves": [
         {
-          "text": "Know the turret's angle; an unsigned post that reads as the team's calls this design one to improve",
-          "basis": "observer",
+          "text": "Know the turret's angle",
+          "basis": "team",
           "src": [
-            "s15"
+            "s21"
           ]
         }
       ],
@@ -706,33 +1014,33 @@
       "serves": [],
       "facts": [
         {
-          "text": "The encoder zeroes properly only within about 30 degrees either side, says an unsigned post that reads as the team's",
-          "basis": "observer",
+          "text": "The encoder zeroes properly only within about 30 degrees either side",
+          "basis": "team",
           "src": [
-            "s15"
+            "s21"
           ]
         },
         {
-          "text": "During a match the turret is turned by eye toward the intake and then zeroed on the encoder, the same post says",
-          "basis": "observer",
+          "text": "During a match the turret is turned by eye toward the intake and then zeroed on the encoder",
+          "basis": "team",
           "src": [
-            "s15"
+            "s21"
           ]
         },
         {
-          "text": "The same post says a Hall effect sensor, or two gears with the Chinese remainder theorem, would have been better",
-          "basis": "observer",
+          "text": "A team member says the design could have been much better: a Hall effect sensor, used in past seasons, or two gears with the Chinese remainder theorem would fix it or at least catch a wrong start",
+          "basis": "team",
           "src": [
-            "s15"
+            "s21"
           ]
         }
       ],
       "cost": [
         {
-          "text": "Starting or zeroing at another angle broke the energy chain a few times during the season, though not at the championship, the same post says",
-          "basis": "observer",
+          "text": "Starting or zeroing at another angle broke the energy chain a few times during the season, though not at the championship",
+          "basis": "team",
           "src": [
-            "s15"
+            "s21"
           ]
         }
       ]
@@ -817,6 +1125,50 @@
           "src": [
             "s14"
           ]
+        },
+        {
+          "text": "Two factors are tuned by shooting near and far: exit speed against wheel speed, and the speed a ball gains as it expands; near shots are more sensitive to expansion, far shots to the speed factor",
+          "basis": "team",
+          "src": [
+            "s46"
+          ]
+        },
+        {
+          "text": "The operator can adjust exit velocity live on the dashboard, used mainly in training matches",
+          "basis": "team",
+          "src": [
+            "s46"
+          ]
+        },
+        {
+          "text": "Hood angle is taken as exit angle, since early prototypes showed a negligible difference",
+          "basis": "team",
+          "src": [
+            "s47"
+          ]
+        },
+        {
+          "text": "Defense mode puts the modules in an X and basically ignores odometry, relying on camera pose alone",
+          "basis": "team",
+          "src": [
+            "s43"
+          ]
+        },
+        {
+          "text": "A reply, written as if by a team member, says feedforward uses wanted rather than measured robot velocity for less noise, so collisions spoil it, and that most inaccuracy came with a low battery",
+          "basis": "observer",
+          "src": [
+            "s48"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "In Israel's solo matches it overshot and missed about 170 fuel by the team's estimate; it blames speeds raised for worn shop fuel and guesses 60 to 80 after adjusting",
+          "basis": "team",
+          "src": [
+            "s49"
+          ]
         }
       ]
     },
@@ -843,6 +1195,22 @@
           "src": [
             "s14"
           ]
+        },
+        {
+          "text": "The cameras, above all the turret's, also compute a gyro offset that cancels drift, used even when no tags are seen",
+          "basis": "team",
+          "src": [
+            "s50"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "For most of the season the gyro drifted, by 10 degrees in some matches and 30 in extreme cases, which threw off turret aim; disabling the Pigeon 2's no-motion calibration gave no improvement",
+          "basis": "team",
+          "src": [
+            "s50"
+          ]
         }
       ]
     },
@@ -868,25 +1236,62 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Low battery feedback",
+      "does": [
+        "sense",
+        "deliver"
+      ],
+      "type": "controller rumble and automatic conveyor slowdown",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Below a battery voltage threshold the controller rumbles, harder as voltage falls, so the driver learns how sharply to drive; touch was free while sight and sound were loaded",
+          "basis": "team",
+          "src": [
+            "s51",
+            "s52"
+          ]
+        },
+        {
+          "text": "If the shooter wheels stay below target for a sustained period the conveyor slows so they can recover; the driver also accelerates slowly while shooting on the move",
+          "basis": "team",
+          "src": [
+            "s51",
+            "s45"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "With a battery not in perfect condition it still ended matches with brownouts",
+          "basis": "team",
+          "src": [
+            "s51"
+          ]
+        }
+      ]
     }
   ],
   "decisions": [
     {
       "choice": "Bought MK5 modules with spiked tread",
-      "because": "training with the team's defense robot showed how easily its own modules were pushed, and wide spiked tread digs into the carpet",
+      "because": "training with the team's defense robot showed how easily its own modules were pushed, and wide spiked tread digs into the carpet; on its own tread it could only shoot against the wall and drifted too long before getting up to speed to escape",
       "instead_of": "its own custom modules with thin tread",
       "basis": "team",
       "src": [
-        "s14"
+        "s14",
+        "s24"
       ]
     },
     {
       "choice": "A slower drive ratio",
-      "because": "an unsigned post that reads as the team's says trench and bump force slowing and turning, so the fast ratio's peak speed was unreachable; the slower one was much more agile",
+      "because": "trench and bump force slowing and turning, so the fast ratio's peak speed was unreachable; the slower one was much more agile",
       "instead_of": "a fast ratio chosen for long drives",
-      "basis": "observer",
+      "basis": "team",
       "src": [
-        "s12"
+        "s24"
       ]
     },
     {
@@ -916,11 +1321,11 @@
     },
     {
       "choice": "Separate motors for the two vertical belts",
-      "because": "an unsigned post that reads as the team's says they can be treated as separate modules, assembled outside and put in",
+      "because": "they can be treated as separate modules, assembled outside and put in",
       "instead_of": "joining the belts, which worked all right in prototypes",
-      "basis": "observer",
+      "basis": "team",
       "src": [
-        "s12"
+        "s24"
       ]
     },
     {
@@ -943,10 +1348,28 @@
     },
     {
       "choice": "Rigid supports and high-efficiency drives on first stages",
-      "because": "an unsigned post that reads as the team's says friction is felt most on first stages and on fast-moving parts; anything stiff at assembly is rebuilt, though less strictly on the first robot",
-      "basis": "observer",
+      "because": "friction is felt most on first stages and on fast-moving parts; anything stiff at assembly is rebuilt, though less strictly on the first robot",
+      "basis": "team",
       "src": [
-        "s12"
+        "s24"
+      ]
+    },
+    {
+      "choice": "No fuel detection or intake assist",
+      "because": "it had very little value in teleop, proved little use and complex for auto, and other work came first",
+      "instead_of": "a camera pipeline that steered toward fuel clusters, left unfinished",
+      "basis": "team",
+      "src": [
+        "s53"
+      ]
+    },
+    {
+      "choice": "Rotate the robot with the triggers",
+      "because": "it frees the thumb, separates rotation from translation and makes a single driver easy; the team has done it since 2015",
+      "instead_of": "the right joystick",
+      "basis": "team",
+      "src": [
+        "s43"
       ]
     }
   ],
@@ -967,10 +1390,10 @@
         "src": "s1"
       },
       {
-        "what": "Orbit 1690 new custom swerve reveal",
+        "what": "Orbit 1690 new custom swerve reveal (pre-season module; this robot ended on MK5)",
         "url": "https://www.chiefdelphi.com/t/orbit-1690-new-custom-swerve-reveal/508927",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s7",
         "holds": "Onshape"
       },
@@ -992,8 +1415,15 @@
         "what": "CAD release thread",
         "url": "https://www.chiefdelphi.com/t/frc-orbit-1690-2026-robot-cad-release/520673",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s12"
+      },
+      {
+        "what": "Blitzer, the off-season practice robot (not the competition robot)",
+        "url": "https://orbit1690.onshape.com/documents/cc341571e97f61a8d34a1326/w/1bd95a9c5a08bf2a5715f355/e/beda24de2b2901fcefb253ba",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s54"
       }
     ],
     "graphics": [
@@ -1106,6 +1536,13 @@
         "format": "video",
         "state": "listed",
         "src": "s17"
+      },
+      {
+        "what": "Blitzer, an off-season practice robot that reuses the drivetrain and conveyor (thread)",
+        "url": "https://www.chiefdelphi.com/t/orbit-1690-2026-offseason-practice-robot-blitzer/526099",
+        "format": "thread",
+        "state": "opened",
+        "src": "s54"
       }
     ],
     "documents": [],

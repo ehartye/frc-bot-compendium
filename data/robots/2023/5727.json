@@ -65,6 +65,42 @@
       "url": "https://www.chiefdelphi.com/t/can-bus-errors-in-playoffs/433562",
       "publisher": "chiefdelphi.com",
       "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "FRC 5727 Omegabytes 2023 Build Thread, post 2 (mid-season update)",
+      "url": "https://www.chiefdelphi.com/t/423232/2",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "FRC 5727 Omegabytes 2023 Build Thread, post 3 (Asheville and Mecklenburg)",
+      "url": "https://www.chiefdelphi.com/t/423232/3",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "FRC 5727 Omegabytes 2023 Build Thread, post 4 (state and world championships)",
+      "url": "https://www.chiefdelphi.com/t/423232/4",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "CAN bus Errors in Playoffs, post 9 (team's details)",
+      "url": "https://www.chiefdelphi.com/t/433562/9",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "CAN bus Errors in Playoffs, post 12 (after the reboot)",
+      "url": "https://www.chiefdelphi.com/t/433562/12",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "CAN bus Errors in Playoffs, post 15 (reply on the cause)",
+      "url": "https://www.chiefdelphi.com/t/433562/15",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -82,7 +118,8 @@
         "text": "At kickoff the team noted that up to seven pieces could be placed in auto and that about two thirds of the mid and high nodes take cones, and talked about earning ranking points alone. At Mecklenburg its goal for each match was four ranking points.",
         "basis": "team",
         "src": [
-          "s3"
+          "s3",
+          "s13"
         ]
       }
     ],
@@ -98,7 +135,14 @@
         "text": "At the championship it ran one mid cone, one mid cube and one high cube every match and says it missed once.",
         "basis": "team",
         "src": [
-          "s3"
+          "s14"
+        ]
+      },
+      {
+        "text": "Earlier three-piece autos: three low at Mecklenburg, then three cubes, one per level, at state.",
+        "basis": "team",
+        "src": [
+          "s14"
         ]
       }
     ],
@@ -114,16 +158,16 @@
         "text": "All controls are on one controller. At the championship the team reports an average of eleven or more cycles a match and no missed high cone.",
         "basis": "team",
         "src": [
-          "s3"
+          "s14"
         ]
       }
     ],
     "endgame": [
       {
-        "text": "A four-ranking-point Mecklenburg practice match showed the team it could do four links and engage at the end; four ranking points became its goal for each match. In the third final there it completed a triple climb.",
+        "text": "In its first Mecklenburg practice match the team did four links and engaged at the end. In the third final there it completed a triple climb.",
         "basis": "team",
         "src": [
-          "s3"
+          "s13"
         ]
       }
     ],
@@ -132,7 +176,7 @@
         "text": "In the Mecklenburg finals, when the intake stopped the team tried pushing pieces into the low nodes; when the arm would not move it played defense.",
         "basis": "team",
         "src": [
-          "s3"
+          "s13"
         ]
       }
     ],
@@ -142,7 +186,8 @@
         "text": "After Asheville the intake grew from 10 in to 16 in and the upper arm from one tube to two. Gas struts went on the upper arm for the state championship and on the lower arm for the world championship, making the arm faster and smoother. At Asheville a damaged CAN wire in the upper arm took two matches to find, and all eight arm positions were recalibrated.",
         "basis": "team",
         "src": [
-          "s3"
+          "s13",
+          "s14"
         ]
       }
     ],
@@ -169,7 +214,7 @@
           "text": "Reach the high node within the extension rules while keeping the center of gravity low",
           "basis": "team",
           "src": [
-            "s3"
+            "s12"
           ]
         }
       ],
@@ -187,14 +232,15 @@
           "text": "At mid-build, #25 chain on the upper and lower arm and #35 on the lower arm pivot; a chain was added with the second upper-arm tube",
           "basis": "team",
           "src": [
-            "s3"
+            "s12",
+            "s13"
           ]
         },
         {
           "text": "Upper arm is two 1 x 2 in tubes, each of length",
           "basis": "team",
           "src": [
-            "s3"
+            "s13"
           ],
           "value": 36,
           "unit": "in"
@@ -203,7 +249,7 @@
           "text": "Two 20 lb gas struts on the upper arm, then two more on the lower arm for the world championship",
           "basis": "team",
           "src": [
-            "s3"
+            "s14"
           ]
         },
         {
@@ -212,6 +258,20 @@
           "src": [
             "s10"
           ]
+        },
+        {
+          "text": "The team reports 9 or more cycles a match at the state championship with struts on the upper arm, and 11 or more at the world championship with struts on both",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "After Mecklenburg the team planned hot-swappable CANcoders and better wire management",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
         }
       ],
       "cost": [
@@ -219,7 +279,7 @@
           "text": "After replacing a CANcoder the team had to recalibrate all eight arm positions",
           "basis": "team",
           "src": [
-            "s3"
+            "s13"
           ]
         }
       ]
@@ -249,7 +309,7 @@
           "text": "At mid-build it ran on #25 chain; belts were considered to save weight",
           "basis": "team",
           "src": [
-            "s3"
+            "s12"
           ]
         },
         {
@@ -272,7 +332,7 @@
           "text": "Handle cones and cubes with a wider range of vertical lineup error",
           "basis": "team",
           "src": [
-            "s3"
+            "s12"
           ]
         }
       ],
@@ -291,28 +351,28 @@
           "text": "1/8 in polycarbonate pieces cut on the team's router; seven versions were cut",
           "basis": "team",
           "src": [
-            "s3"
+            "s12"
           ]
         },
         {
           "text": "At mid-build, one NEO 550 drives the middle bar and a twisted sewing machine belt reverses the upper bar",
           "basis": "team",
           "src": [
-            "s3"
+            "s12"
           ]
         },
         {
           "text": "Testing showed one wheel was enough for cubes",
           "basis": "team",
           "src": [
-            "s3"
+            "s12"
           ]
         },
         {
           "text": "Width, up from 10 in at Asheville",
           "basis": "team",
           "src": [
-            "s3"
+            "s13"
           ],
           "value": 16,
           "unit": "in"
@@ -330,7 +390,7 @@
           "text": "In testing, a three-wheel version set too close to the ground caught the carpet and skipped",
           "basis": "team",
           "src": [
-            "s3"
+            "s12"
           ]
         }
       ]
@@ -342,7 +402,7 @@
           "text": "Keep the center of gravity extra low",
           "basis": "team",
           "src": [
-            "s3"
+            "s12"
           ]
         }
       ],
@@ -356,7 +416,7 @@
           "text": "Weight about",
           "basis": "team",
           "src": [
-            "s3"
+            "s12"
           ],
           "value": 15.5,
           "unit": "lb"
@@ -415,7 +475,14 @@
           "text": "At Asheville one CANcoder wire unplugged; the connectors had no zip ties",
           "basis": "team",
           "src": [
-            "s3"
+            "s13"
+          ]
+        },
+        {
+          "text": "During the playoff fault the CANivore lights were green; it was powered from its V+ and V- ports, on firmware 23.2.1.0",
+          "basis": "team",
+          "src": [
+            "s15"
           ]
         }
       ],
@@ -424,14 +491,22 @@
           "text": "In a state championship playoff match the swerve loop filled with CAN errors and the swerve did not work; after a roboRIO reboot errors and wrong module angles remained, after a power-off everything worked, and the team did not know the cause",
           "basis": "team",
           "src": [
-            "s11"
+            "s11",
+            "s16"
           ]
         },
         {
-          "text": "A reply is not certain that the power cycle rather than the roboRIO reboot was the fix",
+          "text": "An account of the CAN hardware maker is not certain that the power cycle rather than the roboRIO reboot was the fix; the thread ends without a cause",
           "basis": "observer",
           "src": [
-            "s11"
+            "s17"
+          ]
+        },
+        {
+          "text": "In the Mecklenburg finals one of the four swerve modules stopped working and battery voltage dropped very low; there was no time to fix the module before the last final",
+          "basis": "team",
+          "src": [
+            "s13"
           ]
         }
       ]
@@ -472,7 +547,7 @@
           "text": "The build thread counts more than 640 selectable routines and nine run at Mecklenburg",
           "basis": "team",
           "src": [
-            "s3"
+            "s13"
           ]
         },
         {
@@ -480,6 +555,13 @@
           "basis": "team",
           "src": [
             "s10"
+          ]
+        },
+        {
+          "text": "At Asheville the planned charge station auto leveled by odometry alone, without a gyro",
+          "basis": "team",
+          "src": [
+            "s13"
           ]
         }
       ]
@@ -499,7 +581,7 @@
       "because": "it keeps the center of gravity extra low",
       "basis": "team",
       "src": [
-        "s3"
+        "s12"
       ]
     },
     {
@@ -507,7 +589,7 @@
       "because": "the center of gravity had to be as low as possible",
       "basis": "team",
       "src": [
-        "s3"
+        "s12"
       ]
     },
     {
@@ -516,7 +598,7 @@
       "instead_of": "a mecanum intake that centers cones, left unbuilt for wheel weight and the lineup accuracy it needed",
       "basis": "team",
       "src": [
-        "s3"
+        "s12"
       ]
     },
     {
@@ -542,7 +624,7 @@
       "instead_of": "one tube",
       "basis": "team",
       "src": [
-        "s3"
+        "s13"
       ]
     },
     {
@@ -551,7 +633,7 @@
       "instead_of": "a second driver",
       "basis": "team",
       "src": [
-        "s3"
+        "s14"
       ]
     }
   ],
@@ -577,7 +659,7 @@
         "what": "FRC 5727 Omegabytes 2023 Build Thread",
         "url": "https://www.chiefdelphi.com/t/frc-5727-omegabytes-2023-build-thread/423232",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s3"
       },
       {

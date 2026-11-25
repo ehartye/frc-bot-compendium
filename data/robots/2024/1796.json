@@ -35,6 +35,12 @@
       "url": "https://www.youtube.com/watch?v=BTC9HzUGt04",
       "publisher": "FUN Robotics Network",
       "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "RoboTigers Team 1796 Presents - Encore (2024) (post 9)",
+      "url": "https://www.chiefdelphi.com/t/457510/9",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -52,7 +58,7 @@
         "text": "The team designs and practices around playing through any defense, because its matches are more likely than not to be defended.",
         "basis": "team",
         "src": [
-          "s3"
+          "s6"
         ]
       }
     ],
@@ -61,7 +67,7 @@
         "text": "A camera at the top of the elevator looks for notes, and the robot takes another path to the center line if a target note is gone.",
         "basis": "team",
         "src": [
-          "s3"
+          "s6"
         ]
       }
     ],
@@ -88,8 +94,8 @@
         "text": "It had only front and back AprilTag cameras for a while. Pose was inconsistent when robots or defense blocked one, so cameras were added on both sides. This was the team's first year without a welded frame; bends in playoffs had affected the frame and the intake.",
         "basis": "team",
         "src": [
-          "s3",
-          "s5"
+          "s5",
+          "s6"
         ]
       }
     ],
@@ -406,7 +412,7 @@
           "text": "Keep at least two tags in view when defended",
           "basis": "team",
           "src": [
-            "s3"
+            "s6"
           ]
         }
       ],
@@ -422,7 +428,7 @@
           "text": "Limelights on the robot",
           "basis": "team",
           "src": [
-            "s3"
+            "s6"
           ],
           "value": 5,
           "unit": "cameras"
@@ -431,15 +437,29 @@
           "text": "One AprilTag camera on each side of the robot gives odometry, and distance to the speaker sets the shooter pivot",
           "basis": "team",
           "src": [
-            "s3",
-            "s5"
+            "s5",
+            "s6"
           ]
         },
         {
           "text": "The fifth points down from the top of the elevator to detect notes",
           "basis": "team",
           "src": [
-            "s3"
+            "s6"
+          ]
+        },
+        {
+          "text": "The two side cameras were added to catch the stage and amp AprilTags",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "The students report that the side cameras improved pose accuracy a lot",
+          "basis": "team",
+          "src": [
+            "s6"
           ]
         }
       ]
@@ -466,11 +486,11 @@
     },
     {
       "choice": "Add side AprilTag cameras",
-      "because": "pose was inconsistent when defense blocked one camera, and the team wanted always to see at least two tags",
+      "because": "pose was inconsistent when other robots or defense blocked one camera, results were poor when the team simulated that, and it wanted always to see at least two tags",
       "instead_of": "only front and back cameras",
       "basis": "team",
       "src": [
-        "s3"
+        "s6"
       ]
     },
     {

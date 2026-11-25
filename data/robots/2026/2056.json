@@ -83,6 +83,66 @@
       "url": "https://www.youtube.com/watch?v=Ft9xWiwDQEQ",
       "publisher": "FUN Robotics Network (auto-caption transcript)",
       "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "Team 2056 OP Robotics 2026 Technical Binder Release, post 17",
+      "url": "https://www.chiefdelphi.com/t/525183/17",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "Team 2056 OP Robotics 2026 Technical Binder Release, post 16",
+      "url": "https://www.chiefdelphi.com/t/525183/16",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "Team 2056 OP Robotics 2026 Technical Binder Release, post 32",
+      "url": "https://www.chiefdelphi.com/t/525183/32",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "Thread ranking the 2026 Einstein alliances, post 20",
+      "url": "https://www.chiefdelphi.com/t/523144/20",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "Team 2056 OP Robotics 2025 Technical Binder Release, post 187",
+      "url": "https://www.chiefdelphi.com/t/502550/187",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "Team 2056 OP Robotics 2025 Technical Binder Release, post 185",
+      "url": "https://www.chiefdelphi.com/t/502550/185",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "Team 2056 OP Robotics 2026 Technical Binder Release, post 37",
+      "url": "https://www.chiefdelphi.com/t/525183/37",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "Team 2056 OP Robotics 2026 Technical Binder Release, post 19",
+      "url": "https://www.chiefdelphi.com/t/525183/19",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s22": {
+      "title": "Team 2056 OP Robotics 2026 Technical Binder Release, post 1",
+      "url": "https://www.chiefdelphi.com/t/525183/1",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s23": {
+      "title": "Team 2056 OP Robotics 2026 Technical Binder Release, post 34",
+      "url": "https://www.chiefdelphi.com/t/525183/34",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -125,6 +185,13 @@
         "src": [
           "s13"
         ]
+      },
+      {
+        "text": "An observer says its auto failed against the Archimedes alliance on Einstein, and that a good one might have turned that match.",
+        "basis": "observer",
+        "src": [
+          "s17"
+        ]
       }
     ],
     "cycle": [
@@ -145,10 +212,10 @@
         ]
       },
       {
-        "text": "A Purge button reverses all rollers to clear jams (a thread reply that reads as the team's).",
-        "basis": "observer",
+        "text": "Holding a Purge button reverses all rollers to clear jams.",
+        "basis": "team",
         "src": [
-          "s11"
+          "s14"
         ]
       }
     ],
@@ -161,10 +228,17 @@
         ]
       },
       {
-        "text": "Testing time was reduced, every mechanism needed current limits to survive a match, and dialing these in was the biggest obstacle at the first event (a thread reply that reads as the team's).",
-        "basis": "observer",
+        "text": "Testing time was reduced, every mechanism needed current limits to last a match, and dialing these in was the biggest obstacle at the first event.",
+        "basis": "team",
         "src": [
-          "s11"
+          "s15"
+        ]
+      },
+      {
+        "text": "In hindsight a member says dumpers such as 254's and 1678's were at least as good, and would have left more time for iteration, driver practice and programming.",
+        "basis": "team",
+        "src": [
+          "s16"
         ]
       }
     ],
@@ -177,10 +251,11 @@
         ]
       },
       {
-        "text": "It peaked near 14 balls per second, only in ideal conditions, against a hoped-for 20; the formal decision came on February 18 (a thread reply that reads as the team's).",
-        "basis": "observer",
+        "text": "Desperate Times, online February 4, peaked near 14 balls per second, only in ideal conditions, against a hoped-for 20. Average throughput was substantially worse than hoppered single-stream robots'. The formal decision came February 18.",
+        "basis": "team",
         "src": [
-          "s11"
+          "s15",
+          "s14"
         ]
       },
       {
@@ -303,10 +378,24 @@
           ]
         },
         {
-          "text": "Appropriate gearing, low fuel compression and fairly high current limits let one motor run the rollers (a thread reply that reads as the team's)",
-          "basis": "observer",
+          "text": "Appropriate gearing, low fuel compression from good geometry and fairly high current limits let one motor run the rollers",
+          "basis": "team",
           "src": [
-            "s11"
+            "s15"
+          ]
+        },
+        {
+          "text": "A part at the intake, sprung down with surgical tubing that is not in the CAD, folds passively against the bumper as the intake retracts",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "The rack and its gears, made in-house, are 8 DP at a 20 degree pressure angle, for stronger teeth in the polycarbonate rack and a profile a 1/8 in end mill can cut without undercut",
+          "basis": "team",
+          "src": [
+            "s16"
           ]
         }
       ],
@@ -508,6 +597,43 @@
           "src": [
             "s5"
           ]
+        },
+        {
+          "text": "Passing uses the hood's lowest release angle and varies flywheel speed; shooting varies flywheel speed and hood angle",
+          "basis": "team",
+          "src": [
+            "s18"
+          ]
+        },
+        {
+          "text": "A fixed Hall effect sensor and a magnet on the turret gear seed its position while the robot is disabled, at boot or when someone moves it by hand past the sensor; until then LEDs flash purple and the turret will not auto track",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        },
+        {
+          "text": "The sensor triggers over a couple of degrees, so the motor's absolute rotor position sets the angle; the offset must be redone if the gearbox is taken apart",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        },
+        {
+          "text": "In a match the X44's internal relative encoder tracks the turret, and no camera on the turret corrects a starting error, so the first position must be close",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The backspin kicker has its own motor for spin changes in passing that were never really used, so it could have been driven from the shooter motor, although the second motor packaged quite well",
+          "basis": "team",
+          "src": [
+            "s18"
+          ]
         }
       ]
     },
@@ -549,11 +675,12 @@
           ]
         },
         {
-          "text": "The binder maps exit velocity to wheel speed with a hand-tuned coefficient; interviewed members say the flywheel keeps one speed and only kicker wheel speed and hood angle change",
+          "text": "The binder maps exit velocity to wheel speed with a hand-tuned coefficient. Interviewed members said the flywheel keeps one speed and only kicker speed and hood angle change; a later team post says flywheel speed varies too, with the kicker at a constant ratio to it",
           "basis": "team",
           "src": [
             "s5",
-            "s12"
+            "s12",
+            "s18"
           ]
         },
         {
@@ -562,14 +689,28 @@
           "src": [
             "s12"
           ]
+        },
+        {
+          "text": "The pose estimator is the team's own: a squared weighted average of drivetrain odometry and the three cameras, tuned by trial and error",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        },
+        {
+          "text": "A camera's confidence comes from the tags in view and their average distance, and is cut in proportion to rotational velocity because MegaTag2 uses the robot's gyro; odometry confidence falls as it drives and resets on vision updates",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
         }
       ],
       "cost": [
         {
-          "text": "The PA-CF bracket of the back right Limelight was damaged three times, once sheared along its layer lines; TPU would probably have been better (a thread reply that reads as the team's)",
-          "basis": "observer",
+          "text": "The PA-CF bracket of the back right Limelight was damaged three times: two partial cracks and one complete shear along the layer lines; the mounts probably should have been TPU",
+          "basis": "team",
           "src": [
-            "s11"
+            "s21"
           ]
         }
       ]
@@ -681,29 +822,33 @@
   "decisions": [
     {
       "choice": "Change the whole robot mid-season",
-      "because": "throughput was not high enough to justify no storage",
+      "because": "throughput was not high enough to justify no storage, and other robots stored more than expected, which left fewer fuel on the floor for a hopperless robot",
       "instead_of": "the hopperless Desperate Times",
       "cost": "a tighter timeline, and a drawing package messier and less complete than usual",
       "basis": "team",
       "src": [
         "s5",
-        "s11"
+        "s22",
+        "s14"
       ]
     },
     {
       "choice": "Follow Orbit 1690 in the redesign",
-      "because": "its approach was the primary inspiration for nearly all aspects",
+      "because": "its approach was the primary inspiration for nearly all aspects, and it was the most obvious change that reused as much of the first machine's development as possible",
       "basis": "team",
       "src": [
-        "s5"
-      ]
+        "s5",
+        "s16"
+      ],
+      "instead_of": "a dumper, a dye rotor or another architecture"
     },
     {
       "choice": "Low current limit on the intake extension",
-      "because": "the intake then retracts like a spring in an impact",
+      "because": "the intake then retracts like a spring in an impact instead of putting a substantial load on the rack teeth",
       "basis": "team",
       "src": [
-        "s5"
+        "s5",
+        "s15"
       ]
     },
     {
@@ -741,10 +886,26 @@
     },
     {
       "choice": "Drawings used mostly as parts lists",
-      "because": "less experienced members can gather parts from them and then follow the CAD (a thread reply that reads as the team's)",
-      "basis": "observer",
+      "because": "less experienced members can gather parts from them and then follow the CAD, which is far more effective than a paper drawing",
+      "basis": "team",
       "src": [
-        "s11"
+        "s14"
+      ]
+    },
+    {
+      "choice": "Choose a first architecture that can be iterated on (lesson for later seasons)",
+      "because": "the team's biggest takeaway is not to roll the dice on a risky architecture based on too many assumptions",
+      "basis": "team",
+      "src": [
+        "s16"
+      ]
+    },
+    {
+      "choice": "Dimension drawings only for what the manufacturing process needs",
+      "because": "over-dimensioning wastes time; plates cut and bent by an outside shop are made from STEP files, and CNC drawings carry overall sizes, bearing pockets and secondary operations",
+      "basis": "team",
+      "src": [
+        "s23"
       ]
     }
   ],
@@ -828,6 +989,13 @@
         "format": "photos",
         "state": "listed",
         "src": "s11"
+      },
+      {
+        "what": "Clip of the first robot, Desperate Times, in real time",
+        "url": "https://photos.app.goo.gl/gKScYMhcJwzwDxRy5",
+        "format": "video",
+        "state": "listed",
+        "src": "s14"
       }
     ],
     "documents": [
@@ -842,7 +1010,7 @@
         "what": "Binder and drawing release thread with questions and answers",
         "url": "https://www.chiefdelphi.com/t/team-2056-op-robotics-2026-technical-binder-release/525183",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s11"
       }
     ],
@@ -868,7 +1036,7 @@
     "community CAD sheet",
     "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
     "2026 technical binder, text extraction (figures not read); it has no climber section",
-    "binder thread, partial capture",
+    "binder thread",
     "Chief Delphi post search \"2056 binder\" and team site crawl"
   ],
   "results": {

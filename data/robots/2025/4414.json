@@ -7,7 +7,7 @@
   "variant": "Second robot of the season. The team's OVERHEAD thread opened with the first robot and later covers the rebuild; no page we read names the second robot separately.",
   "sources": {
     "s1": {
-      "title": "Team 4414 HighTide - 2025 Robot: OVERHEAD, pages 1 to 3",
+      "title": "Team 4414 HighTide - 2025 Robot: OVERHEAD",
       "url": "https://www.chiefdelphi.com/t/team-4414-hightide-2025-robot-overhead/493581",
       "publisher": "Chief Delphi",
       "read": "2026-11-17"
@@ -65,6 +65,72 @@
       "url": "https://www.chiefdelphi.com/t/orbit-1690-2025-robot-reveal-whisper/492064/160",
       "publisher": "chiefdelphi.com",
       "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Team 4414 HighTide - 2025 Robot: OVERHEAD, post 47",
+      "url": "https://www.chiefdelphi.com/t/493581/47",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Team 4414 HighTide - 2025 Robot: OVERHEAD, post 52",
+      "url": "https://www.chiefdelphi.com/t/493581/52",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "Team 4414 HighTide - 2025 Robot: OVERHEAD, post 81",
+      "url": "https://www.chiefdelphi.com/t/493581/81",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "Let's Review REEFSCAPE's Elite Robots, post 44",
+      "url": "https://www.chiefdelphi.com/t/500055/44",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "1323 MadTown Robot Reveal, post 77",
+      "url": "https://www.chiefdelphi.com/t/495568/77",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "1323 MadTown Robot Reveal, post 81",
+      "url": "https://www.chiefdelphi.com/t/495568/81",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "Orbit 1690 2025 Robot Reveal: Whisper, post 165",
+      "url": "https://www.chiefdelphi.com/t/492064/165",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "2910 CAD and Tech Binder Release 2025, post 244",
+      "url": "https://www.chiefdelphi.com/t/500310/244",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "Team 4414 HighTide - 2025 Robot: OVERHEAD, post 60",
+      "url": "https://www.chiefdelphi.com/t/493581/60",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "Team 4414 HighTide - 2025 Robot: OVERHEAD, post 61",
+      "url": "https://www.chiefdelphi.com/t/493581/61",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "Team 4414 HighTide - 2025 Robot: OVERHEAD, post 63",
+      "url": "https://www.chiefdelphi.com/t/493581/63",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -88,7 +154,7 @@
         ]
       },
       {
-        "text": "1690 says both aimed to score the closest coral at the closest location, and a slower third robot on 4414's side upset this.",
+        "text": "1690 says both aimed to take the closest coral to the closest spot; a slower partner upset this until kept to a loading-station lane.",
         "basis": "observer",
         "src": [
           "s10"
@@ -101,6 +167,13 @@
         "basis": "team",
         "src": [
           "s9"
+        ]
+      },
+      {
+        "text": "1690 says 4414's last cycles in Einstein finals 2 and 3 each ended with two coral dropped and the climb missed.",
+        "basis": "observer",
+        "src": [
+          "s10"
         ]
       }
     ],
@@ -130,10 +203,10 @@
         ]
       },
       {
-        "text": "In the rebuild thread a reply that reads as the team's said algae had not been tried yet but that, in theory, the claw could do it if 2056's could.",
-        "basis": "observer",
+        "text": "In the rebuild thread the team said algae had not been tried yet but that, in theory, the claw could do it if 2056's could.",
+        "basis": "team",
         "src": [
-          "s1"
+          "s11"
         ]
       },
       {
@@ -195,6 +268,13 @@
           "basis": "team",
           "src": [
             "s9"
+          ]
+        },
+        {
+          "text": "Best in a flow state, with the human player rolling coral into the back of the robot; the team says this takes room and took several matches to dial in",
+          "basis": "team",
+          "src": [
+            "s17"
           ]
         }
       ],
@@ -283,6 +363,30 @@
           "src": [
             "s9"
           ]
+        },
+        {
+          "text": "A poster outside the team says the carriage has four ratchet plates, one for each end of the belts",
+          "basis": "observer",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "COTS idlers (WCP-1472) replaced the printed ones of 2023; the team prefers metal to printed parts, above all on high-load subsystems",
+          "basis": "team",
+          "src": [
+            "s15",
+            "s16"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Replying about its sideways elevator, the team says it used the backside coral function 0 times in championship eliminations and is not sure it was worth the complexity",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
         }
       ]
     },
@@ -363,6 +467,13 @@
           "src": [
             "s9"
           ]
+        },
+        {
+          "text": "Asked whether the dimensions and gearing of its 2056-style claw were given to it or estimated, the team said it counted pixels in photos",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
         }
       ],
       "cost": [
@@ -371,6 +482,13 @@
           "basis": "observer",
           "src": [
             "s4"
+          ]
+        },
+        {
+          "text": "Grabbing the coral and the algae from the stacks at the same time was pictured but never quite worked",
+          "basis": "team",
+          "src": [
+            "s14"
           ]
         }
       ]
@@ -462,6 +580,32 @@
           "src": [
             "s9"
           ]
+        },
+        {
+          "text": "The team runs Motion Magic with almost the same constants on every subsystem and no feedforwards, and tends not to set gear ratios in the motor configuration, because that changes the constants",
+          "basis": "team",
+          "src": [
+            "s18"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Drivebase",
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Forum posters say it runs WCP swerve; the team joked along and did not correct them",
+          "basis": "observer",
+          "src": [
+            "s19",
+            "s20",
+            "s21"
+          ]
         }
       ]
     }
@@ -506,6 +650,15 @@
       "basis": "team",
       "src": [
         "s9"
+      ]
+    },
+    {
+      "choice": "Share the reef algae with 1690 in eliminations",
+      "because": "the time saved by one less algae each would probably be canceled by another robot cycling over them",
+      "instead_of": "another robot clearing it alone",
+      "basis": "team",
+      "src": [
+        "s17"
       ]
     }
   ],
@@ -562,6 +715,13 @@
         "format": "image",
         "state": "opened",
         "src": "s7"
+      },
+      {
+        "what": "OVERHEAD robot thread, with the rebuild photos",
+        "url": "https://www.chiefdelphi.com/t/team-4414-hightide-2025-robot-overhead/493581",
+        "format": "thread",
+        "state": "opened",
+        "src": "s1"
       }
     ],
     "cad": [],

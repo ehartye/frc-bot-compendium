@@ -60,9 +60,21 @@
       "publisher": "FUN Robotics Network (YouTube)",
       "read": "2026-11-25"
     },
-    "s11": {
-      "title": "What are your favorite robots that mastered mechanical efficiency? (thread)",
-      "url": "https://www.chiefdelphi.com/t/what-are-your-favorite-robots-that-mastered-mechanical-efficiency/525130",
+    "s12": {
+      "title": "6329 The Bucks' Wrath 2023 Robot: Shock, post 4",
+      "url": "https://www.chiefdelphi.com/t/428274/4",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "What are your favorite robots that mastered mechanical efficiency, post 6",
+      "url": "https://www.chiefdelphi.com/t/525130/6",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "6329 The Bucks' Wrath 2023 Robot: Shock, post 2",
+      "url": "https://www.chiefdelphi.com/t/428274/2",
       "publisher": "Chief Delphi",
       "read": "2026-11-25"
     }
@@ -80,10 +92,10 @@
     ],
     "bet": [
       {
-        "text": "A 24 by 24 in frame, a priority-list rule that dictated much of the design, says an unsigned reply that reads as the team's.",
-        "basis": "observer",
+        "text": "A 24 by 24 in frame, a rule on the team's priority list that dictated much of the design.",
+        "basis": "team",
         "src": [
-          "s3"
+          "s12"
         ]
       }
     ],
@@ -93,6 +105,13 @@
         "basis": "team",
         "src": [
           "s10"
+        ]
+      },
+      {
+        "text": "A commenter reports videos of 12 second cycles, weeks before the February reveal.",
+        "basis": "observer",
+        "src": [
+          "s14"
         ]
       }
     ],
@@ -116,10 +135,10 @@
       "serves": [],
       "facts": [
         {
-          "text": "Frame side, square, in an unsigned reply that reads as the team's",
-          "basis": "observer",
+          "text": "Frame side, square",
+          "basis": "team",
           "src": [
-            "s3"
+            "s12"
           ],
           "value": 24,
           "unit": "in"
@@ -133,19 +152,10 @@
           ]
         },
         {
-          "text": "Unsigned reply that reads as the team's: earlier robots felt at or near the frame perimeter limit, so the small frame was a huge departure",
-          "basis": "observer",
+          "text": "Earlier robots felt at or near the frame perimeter limit, so the small frame was a huge departure",
+          "basis": "team",
           "src": [
-            "s3"
-          ]
-        }
-      ],
-      "cost": [
-        {
-          "text": "Unsigned reply that reads as the team's: the frame size was a design challenge that dictated much of the rest",
-          "basis": "observer",
-          "src": [
-            "s3"
+            "s12"
           ]
         }
       ]
@@ -170,10 +180,10 @@
           ]
         },
         {
-          "text": "A commenter says a large pneumatic cylinder tilts it, which let the drivebase stay small for balancing",
+          "text": "A commenter says a giant pneumatic cylinder tilts it, which let the drivebase stay 24 by 24 in for balancing",
           "basis": "observer",
           "src": [
-            "s11"
+            "s13"
           ]
         }
       ]
@@ -316,7 +326,7 @@
         "what": "6329 The Bucks' Wrath 2023 Robot: Shock",
         "url": "https://www.chiefdelphi.com/t/6329-the-bucks-wrath-2023-robot-shock/428274",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s3"
       },
       {

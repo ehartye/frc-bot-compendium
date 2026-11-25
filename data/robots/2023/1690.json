@@ -47,6 +47,30 @@
       "url": "https://www.chiefdelphi.com/t/orbit-1690-year-in-review-16-actually/464915",
       "publisher": "chiefdelphi.com",
       "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Orbit 1690 presents: 2023 Robot Reveal, post 50 (vision methods)",
+      "url": "https://www.chiefdelphi.com/t/427843/50",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Orbit 1690 presents: 2023 Robot Reveal, post 52 (assisted driving)",
+      "url": "https://www.chiefdelphi.com/t/427843/52",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Orbit 1690 presents: 2023 Robot Reveal, post 54 (conveyor belts)",
+      "url": "https://www.chiefdelphi.com/t/427843/54",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Orbit 1690 presents: 2023 Robot Reveal, post 55 (claw cable)",
+      "url": "https://www.chiefdelphi.com/t/427843/55",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -212,6 +236,13 @@
           "src": [
             "s6"
           ]
+        },
+        {
+          "text": "Welded flat belts about 1.2 to 1.5 mm thick carry the piece on the robot's floor, driven by the front roller; polycord was tried first and its welds were not flat and uniform enough",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
         }
       ]
     },
@@ -313,6 +344,15 @@
             "s6"
           ]
         }
+      ],
+      "cost": [
+        {
+          "text": "The cable cannot be twisted much, so the arm goes back to center during some movements to keep from tangling or damaging it",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
       ]
     },
     {
@@ -371,6 +411,13 @@
           "src": [
             "s6"
           ]
+        },
+        {
+          "text": "At the reveal it used classic image processing, not a trained network",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
         }
       ]
     },
@@ -397,6 +444,20 @@
           "basis": "team",
           "src": [
             "s6"
+          ]
+        },
+        {
+          "text": "At the reveal it used a YOLO network, which the team called overkill: it believed classic methods would work unless a cube is in front of a blue bumper",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "At the reveal the team used only an assist mode, where the driver drives and software makes it more accurate, for pickup and placement; an automatic mode existed but it saw little value in it for this game",
+          "basis": "team",
+          "src": [
+            "s9"
           ]
         }
       ]
@@ -543,7 +604,7 @@
         "what": "Orbit 1690 presents: 2023 Robot Reveal",
         "url": "https://www.chiefdelphi.com/t/orbit-1690-presents-2023-robot-reveal-dexter/427843",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s3"
       },
       {

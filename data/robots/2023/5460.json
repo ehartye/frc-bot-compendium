@@ -71,6 +71,96 @@
       "url": "https://www.youtube.com/watch?v=lKJdv6xgWM4",
       "publisher": "FUN Robotics Network",
       "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "5460 Strike Zone 2023 Reveal (post 7)",
+      "url": "https://www.chiefdelphi.com/t/428689/7",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "Einstein 2023 (post 83)",
+      "url": "https://www.chiefdelphi.com/t/435383/83",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "Einstein 2023 (post 84)",
+      "url": "https://www.chiefdelphi.com/t/435383/84",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "5460 Strike Zone 2023 Reveal (post 5)",
+      "url": "https://www.chiefdelphi.com/t/428689/5",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "5460 Strike Zone 2023 CAD Release (post 10)",
+      "url": "https://www.chiefdelphi.com/t/438026/10",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "5460 Strike Zone 2023 CAD Release (post 6)",
+      "url": "https://www.chiefdelphi.com/t/438026/6",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "5460 Strike Zone 2023 CAD Release (post 20)",
+      "url": "https://www.chiefdelphi.com/t/438026/20",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "5460 Strike Zone 2023 CAD Release (post 24)",
+      "url": "https://www.chiefdelphi.com/t/438026/24",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "5460 Strike Zone 2023 CAD Release (post 14)",
+      "url": "https://www.chiefdelphi.com/t/438026/14",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "Top 64 Teams Competing at MSC (2023) (post 5)",
+      "url": "https://www.chiefdelphi.com/t/432878/5",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s22": {
+      "title": "5460 Strike Zone 2023 Reveal (post 9)",
+      "url": "https://www.chiefdelphi.com/t/428689/9",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s23": {
+      "title": "5460 Strike Zone 2023 Reveal (post 11)",
+      "url": "https://www.chiefdelphi.com/t/428689/11",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s24": {
+      "title": "5460 Strike Zone 2023 CAD Release (post 13)",
+      "url": "https://www.chiefdelphi.com/t/438026/13",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s25": {
+      "title": "5460 Strike Zone 2023 CAD Release (post 17)",
+      "url": "https://www.chiefdelphi.com/t/438026/17",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s26": {
+      "title": "5460 Strike Zone 2023 CAD Release (post 15)",
+      "url": "https://www.chiefdelphi.com/t/438026/15",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
     }
   },
   "story": {
@@ -84,7 +174,15 @@
       }
     ],
     "demand": [],
-    "auto": [],
+    "auto": [
+      {
+        "text": "A commenter in the Einstein thread implies its auto did not place the first cone consistently.",
+        "basis": "observer",
+        "src": [
+          "s14"
+        ]
+      }
+    ],
     "cycle": [
       {
         "text": "Cubes go from the ground intake out to the low nodes. Forward and reverse station buttons let it pick up from both sides without a full turn.",
@@ -94,10 +192,17 @@
         ]
       },
       {
-        "text": "A reply that reads as the team's, before the state championship, says the claw took cubes from the shelf for high and mid nodes, with no handoff for now.",
+        "text": "Before the state championship the claw took mid and high cubes from the shelf, with no handoff.",
+        "basis": "team",
+        "src": [
+          "s12"
+        ]
+      },
+      {
+        "text": "A commenter says it seemed the fastest robot on Einstein at the double feeder.",
         "basis": "observer",
         "src": [
-          "s5"
+          "s13"
         ]
       }
     ],
@@ -113,10 +218,10 @@
     ],
     "gave_up": [
       {
-        "text": "A reply that reads as the team's, before the state championship, says it did no cube handoff from intake to claw, because testing found inconsistencies that put the arm in vulnerable positions; mid and high cubes came from the shelf, to avoid a popped cube or a damaged robot.",
-        "basis": "observer",
+        "text": "Before the state championship it did no cube handoff from intake to claw: testing found inconsistencies that put the arm in vulnerable positions. Mid and high cubes came from the shelf, to avoid a popped cube or a damaged robot.",
+        "basis": "team",
         "src": [
-          "s5"
+          "s12"
         ]
       }
     ],
@@ -136,17 +241,17 @@
         ]
       },
       {
-        "text": "A post that reads as the team's lists, before the state championship, L3 drive gearing, a 120:1 distal arm, and a half pound off the end effector.",
-        "basis": "observer",
+        "text": "Before the state championship: L3 drive gearing, a 120:1 distal arm, a half pound off the end effector, its motor moved for less rotational mass, and no AprilTag alignment.",
+        "basis": "team",
         "src": [
-          "s5"
+          "s15"
         ]
       },
       {
         "text": "Offseason: two more drive motors, for ten.",
         "basis": "team",
         "src": [
-          "s4"
+          "s16"
         ]
       }
     ],
@@ -199,6 +304,32 @@
           "src": [
             "s11"
           ]
+        },
+        {
+          "text": "One Falcon deploys it, at the reveal at",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 53.3,
+          "unit": ":1"
+        },
+        {
+          "text": "One Falcon drives the rollers, at the reveal at",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 3,
+          "unit": ":1"
+        },
+        {
+          "text": "The reveal says it orients cones and cubes for handoff; before the state championship the team did no handoff for cubes",
+          "basis": "team",
+          "src": [
+            "s5",
+            "s12"
+          ]
         }
       ]
     },
@@ -248,10 +379,10 @@
           ]
         },
         {
-          "text": "A post that reads as the team's gives the distal joint, changed before the state championship, as",
-          "basis": "observer",
+          "text": "Distal joint, changed before the state championship to",
+          "basis": "team",
           "src": [
-            "s5"
+            "s15"
           ],
           "value": 120,
           "unit": ":1"
@@ -260,7 +391,37 @@
           "text": "A commenter notes angled inserts that bring the end effector to the middle of the robot",
           "basis": "observer",
           "src": [
-            "s4"
+            "s17"
+          ]
+        },
+        {
+          "text": "Two Falcons, at the reveal at",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 140,
+          "unit": ":1"
+        },
+        {
+          "text": "A precision aluminum tube pressed into the printed joint gives better tolerance for the bearings, which ride on another aluminum tube as a dead axle",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        },
+        {
+          "text": "The press-fit and epoxied tube joint rarely saw axial load; joints that did see high axial load used the same method with no issues",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        },
+        {
+          "text": "Before the state championship a position to pick cubes off the ground was in development, but it too left the arm vulnerable and made the team uneasy",
+          "basis": "team",
+          "src": [
+            "s12"
           ]
         }
       ],
@@ -273,10 +434,10 @@
           ]
         },
         {
-          "text": "A reply that reads as the team's says the part joining the vertical tube split along print layers in Onyx and became laser-sintered Nylon 12",
-          "basis": "observer",
+          "text": "The part joining the vertical tube, first printed in Onyx as two pieces held by dowel pins and epoxy, split along its layer lines; the joint between the pieces held. The laser-sintered Nylon 12 part that replaced it had not failed",
+          "basis": "team",
           "src": [
-            "s4"
+            "s18"
           ]
         }
       ]
@@ -331,10 +492,19 @@
           ]
         },
         {
-          "text": "A reply that reads as the team's says gears and pulleys were printed in Onyx to keep the arm's swinging inertia low",
+          "text": "Gears and pulleys were printed in Onyx to keep the arm's swinging inertia low",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "An observer who reviewed playoff footage of its Macomb event names dropped cones and trouble at the loading station among the reasons it did not play a clean match",
           "basis": "observer",
           "src": [
-            "s4"
+            "s21"
           ]
         }
       ]
@@ -348,10 +518,11 @@
       "serves": [],
       "facts": [
         {
-          "text": "A post that reads as the team's says its MK4i modules went to L3 gearing before the state championship, for speed",
-          "basis": "observer",
+          "text": "Its MK4i modules went from L2 at the reveal to L3 gearing before the state championship, for speed",
+          "basis": "team",
           "src": [
-            "s5"
+            "s5",
+            "s15"
           ]
         }
       ]
@@ -387,10 +558,25 @@
           ]
         },
         {
-          "text": "Replies that read as the team's say it tracks the reflective tape on the node poles and fits the driver better than tags did; lack of tuning time was the trouble with tags, which could match it with much development",
-          "basis": "observer",
+          "text": "It tracks the reflective tape on the node poles and fits the driver better than tags did; tags could match it, but only with a lot of development",
+          "basis": "team",
           "src": [
-            "s5"
+            "s22",
+            "s23"
+          ]
+        },
+        {
+          "text": "Tag pose updates worked within reason, with one of the two cameras always seeing at least two tags when scoring, but there was not enough time to tune them to a competitive level",
+          "basis": "team",
+          "src": [
+            "s23"
+          ]
+        },
+        {
+          "text": "Tag odometry allowed zone-based gyro locks when scoring and collecting, but lacked efficiency in positioning the robot for scoring and was scrapped after the week 3 event",
+          "basis": "team",
+          "src": [
+            "s22"
           ]
         }
       ]
@@ -493,6 +679,97 @@
           "src": [
             "s11"
           ]
+        },
+        {
+          "text": "The reveal lists the drivetrain as 26 x 26 in, where the season page gives 24 x 24",
+          "basis": "team",
+          "src": [
+            "s5",
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ten-motor swerve (offseason)",
+      "does": [
+        "drive"
+      ],
+      "type": "swerve with a third motor on two of four modules",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Added between the championship and IRI; calculated free speed after it, about",
+          "basis": "team",
+          "src": [
+            "s16",
+            "s25"
+          ],
+          "value": 24.4,
+          "unit": "ft/s"
+        },
+        {
+          "text": "The two modules changed sit next to each other and were the easiest to reach; the one under the arm gearbox was left alone",
+          "basis": "team",
+          "src": [
+            "s24"
+          ]
+        },
+        {
+          "text": "Three-motor modules use L1 gears with a 24-tooth pinion; two-motor modules use L3 with an 18-tooth pinion",
+          "basis": "team",
+          "src": [
+            "s25"
+          ]
+        },
+        {
+          "text": "The 18-tooth pinion needs a relocating plate, machined from 3/8 in aluminum on the team's router",
+          "basis": "team",
+          "src": [
+            "s25",
+            "s18"
+          ]
+        },
+        {
+          "text": "The two ratios differ by 0.011:1, so code slows the two-motor modules to match",
+          "basis": "team",
+          "src": [
+            "s25"
+          ]
+        },
+        {
+          "text": "At first each second drive Falcon followed the first, with a driver-station switch to disable the extra motors near a brownout",
+          "basis": "team",
+          "src": [
+            "s26"
+          ]
+        },
+        {
+          "text": "Dry robot weight with it at IRI",
+          "basis": "team",
+          "src": [
+            "s26"
+          ],
+          "value": 96,
+          "unit": "lb"
+        }
+      ],
+      "solves": [
+        {
+          "text": "Add drive motors while trying to avoid the brownouts reported by teams on twelve",
+          "basis": "team",
+          "src": [
+            "s16"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Two brownouts in 26 matches over two events",
+          "basis": "team",
+          "src": [
+            "s26"
+          ]
         }
       ]
     }
@@ -508,20 +785,21 @@
     },
     {
       "choice": "No intake-to-claw handoff for cubes, for now (before the state championship)",
-      "because": "a reply that reads as the team's says testing showed inconsistencies that left the arm vulnerable",
+      "because": "testing showed inconsistencies that left the arm vulnerable, with the risk of a popped cube or a damaged robot",
       "cost": "mid and high cubes come from the shelf",
-      "basis": "observer",
+      "basis": "team",
       "src": [
-        "s5"
+        "s12"
       ]
     },
     {
       "choice": "Node targeting instead of AprilTags",
-      "because": "it was easier to target and to score with",
+      "because": "it was easier to target and to score with, and there was not enough time to tune tags to a competitive level",
       "instead_of": "two Limelights on AprilTags",
       "basis": "team",
       "src": [
-        "s11"
+        "s11",
+        "s23"
       ]
     },
     {
@@ -535,19 +813,28 @@
     },
     {
       "choice": "Nylon 12 for the arm tube joint",
-      "because": "a reply that reads as the team's says it is solid and does not delaminate",
+      "because": "the Onyx print split along its layer lines; the sintered part is solid and does not delaminate",
       "instead_of": "a two-piece Onyx print with dowel pins and epoxy",
-      "basis": "observer",
+      "basis": "team",
       "src": [
-        "s4"
+        "s18"
       ]
     },
     {
       "choice": "Clearwater Composites tubes",
-      "because": "a reply that reads as the team's says they shipped next day and gave an educational discount",
-      "basis": "observer",
+      "because": "they shipped next day and, of many companies asked, only they gave an educational discount",
+      "basis": "team",
       "src": [
-        "s4"
+        "s18"
+      ]
+    },
+    {
+      "choice": "Ten drive motors rather than twelve (offseason)",
+      "because": "the team thought twelve too many, and its simulations and one match watched side by side showed very little difference at its weight",
+      "instead_of": "twelve drive motors",
+      "basis": "team",
+      "src": [
+        "s26"
       ]
     }
   ],
@@ -568,10 +855,10 @@
         "src": "s1"
       },
       {
-        "what": "5460 Strike Zone 2023 CAD Release",
+        "what": "5460 Strike Zone 2023 CAD Release (World Championship robot; a SolidWorks export, so parts may be missing)",
         "url": "https://www.chiefdelphi.com/t/5460-strike-zone-2023-cad-release/438026",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s4",
         "holds": "SolidWorks exported to Onshape"
       }
@@ -602,7 +889,7 @@
         "what": "5460 Strike Zone 2023 Reveal",
         "url": "https://www.chiefdelphi.com/t/5460-strike-zone-2023-reveal/428689",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s5"
       },
       {

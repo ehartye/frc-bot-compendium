@@ -66,26 +66,104 @@
       "publisher": "chiefdelphi.com",
       "read": "2026-11-25"
     },
-    "s11": {
-      "title": "Rebuilt: Rock, Paper, Scissors",
-      "url": "https://www.chiefdelphi.com/t/rebuilt-rock-paper-scissors/521173",
-      "publisher": "chiefdelphi.com",
-      "read": "2026-11-25"
-    },
     "s12": {
       "title": "The 10 Best FRC Robots of 2026",
       "url": "https://www.youtube.com/watch?v=DLTgYLVH-Z0",
       "publisher": "FRC StratAnalyst (auto-caption transcript)",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "FRC 7769 - CAD & Tech Slides : CHUNK, post 1",
+      "url": "https://www.chiefdelphi.com/t/521008/1",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "FRC 7769 - CAD & Tech Slides : CHUNK, post 5",
+      "url": "https://www.chiefdelphi.com/t/521008/5",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "FRC 7769 - CAD & Tech Slides : CHUNK, post 7",
+      "url": "https://www.chiefdelphi.com/t/521008/7",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "FRC 7769 - CAD & Tech Slides : CHUNK, post 8",
+      "url": "https://www.chiefdelphi.com/t/521008/8",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "FRC 7769 - CAD & Tech Slides : CHUNK, post 11",
+      "url": "https://www.chiefdelphi.com/t/521008/11",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "FRC 7769 - CAD & Tech Slides : CHUNK, post 13",
+      "url": "https://www.chiefdelphi.com/t/521008/13",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "FRC 7769 - CAD & Tech Slides : CHUNK, post 15",
+      "url": "https://www.chiefdelphi.com/t/521008/15",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "FRC 7769 - CAD & Tech Slides : CHUNK, post 21",
+      "url": "https://www.chiefdelphi.com/t/521008/21",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "FRC 7769 - CAD & Tech Slides : CHUNK, post 23",
+      "url": "https://www.chiefdelphi.com/t/521008/23",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s22": {
+      "title": "FRC 7769 - CAD & Tech Slides : CHUNK, post 25",
+      "url": "https://www.chiefdelphi.com/t/521008/25",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s23": {
+      "title": "Disabled robots on Einstein, post 25",
+      "url": "https://www.chiefdelphi.com/t/519830/25",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s24": {
+      "title": "Disabled robots on Einstein, post 52",
+      "url": "https://www.chiefdelphi.com/t/519830/52",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s25": {
+      "title": "Rebuilt: Rock, Paper, Scissors, post 2",
+      "url": "https://www.chiefdelphi.com/t/521173/2",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s26": {
+      "title": "Rebuilt: Rock, Paper, Scissors, post 10",
+      "url": "https://www.chiefdelphi.com/t/521173/10",
+      "publisher": "chiefdelphi.com",
       "read": "2026-11-25"
     }
   },
   "story": {
     "bet": [
       {
-        "text": "A reply that reads as the team's says it builds the simplest robot that meets the objectives needed to be competitive, and calls simplicity the standout feature.",
-        "basis": "observer",
+        "text": "The team tries to build the simplest robot that meets the objectives needed to be competitive, and calls simplicity the standout feature.",
+        "basis": "team",
         "src": [
-          "s8"
+          "s14"
         ]
       }
     ],
@@ -94,7 +172,7 @@
         "text": "Fuel throughput: the team credits hopper capacity of almost 70 (mostly 50 to 60 in play) and moving fuel in and out quickly for its most successful season.",
         "basis": "team",
         "src": [
-          "s8"
+          "s13"
         ]
       },
       {
@@ -115,10 +193,10 @@
         ]
       },
       {
-        "text": "A reply that reads as the team's says jostling the intake in and out helped keep fuel from jamming in the hopper.",
-        "basis": "observer",
+        "text": "Jostling the intake in and out helped keep fuel from jamming in the hopper.",
+        "basis": "team",
         "src": [
-          "s8"
+          "s15"
         ]
       }
     ],
@@ -133,18 +211,25 @@
     ],
     "fallback": [
       {
-        "text": "Under defense it shoots from the trench: a reply that reads as the team's says the raised hood reacts against the trench, so the robot is not pushed underneath.",
-        "basis": "observer",
+        "text": "Under defense it shoots from the trench: the raised hood reacts against the trench, so the robot is not pushed underneath.",
+        "basis": "team",
         "src": [
-          "s8"
+          "s14"
         ]
       },
       {
-        "text": "Another post says a drum only two fuel wide (the team says 2.75) was harder for defenders to exploit than very wide ones.",
+        "text": "A poster says a drum only two fuel wide (the team says 2.75) was harder for defenders to exploit than very wide ones.",
         "basis": "observer",
         "src": [
-          "s11",
-          "s8"
+          "s25",
+          "s13"
+        ]
+      },
+      {
+        "text": "Another says its hood and the trench wall made it nearly unmovable.",
+        "basis": "observer",
+        "src": [
+          "s26"
         ]
       }
     ],
@@ -164,10 +249,17 @@
         ]
       },
       {
-        "text": "A reply that reads as the team's calls shearing teeth on the polycarbonate intake racks its biggest pain point, never fully fixed.",
-        "basis": "observer",
+        "text": "The team calls shearing teeth on the polycarbonate intake racks probably its biggest pain point, never fully fixed.",
+        "basis": "team",
         "src": [
-          "s8"
+          "s19"
+        ]
+      },
+      {
+        "text": "It never had shoot on the move.",
+        "basis": "team",
+        "src": [
+          "s22"
         ]
       }
     ],
@@ -180,14 +272,29 @@
         ]
       },
       {
-        "text": "Replies that read as the team's say powered top and bottom indexing rollers then jammed the chamber until the lower ones were fixed in place, and that a lower deploy current limit reduced rack breakage for the world championship.",
-        "basis": "observer",
+        "text": "After a partial rebuild, powered top and bottom indexing rollers jammed the chamber until the lower ones were locked.",
+        "basis": "team",
         "src": [
-          "s8"
+          "s16"
         ]
       },
       {
-        "text": "A post from the alliance says a collision broke the shooting motors in Einstein match 13.",
+        "text": "A lower current limit once deployed reduced rack breakage for worlds.",
+        "basis": "team",
+        "src": [
+          "s19"
+        ]
+      },
+      {
+        "text": "Contact in Einstein match 13 left a shooter motor with a chipped case and disconnected CAN wire.",
+        "basis": "team",
+        "src": [
+          "s23",
+          "s24"
+        ]
+      },
+      {
+        "text": "A partner blames another robot's intake inside its frame.",
         "basis": "observer",
         "src": [
           "s10"
@@ -243,35 +350,51 @@
           ]
         },
         {
-          "text": "A reply that reads as the team's says the 98A TPU printed idler that tensions the chain gave no chain skipping",
-          "basis": "observer",
+          "text": "A 98A TPU printed idler tensions the chain and keeps the two sides in sync; the chain never skipped, and ran two events without the idler with no issues",
+          "basis": "team",
           "src": [
-            "s8"
+            "s19",
+            "s20"
           ]
         },
         {
-          "text": "A reply that reads as the team's says the deploy current limit drops from 45 A while deploying to 5 A once deployed, to make the intake more collapsible",
-          "basis": "observer",
+          "text": "For the world championship the deploy current limit drops from 45 A while deploying to 5 A once deployed, to make the intake more collapsible on hits",
+          "basis": "team",
           "src": [
-            "s8"
+            "s19"
           ]
         },
         {
-          "text": "A reply that reads as the team's says an arm swap took about",
-          "basis": "observer",
+          "text": "An arm swap took about",
+          "basis": "team",
           "src": [
-            "s8"
+            "s19"
           ],
           "value": 10,
           "unit": "min"
+        },
+        {
+          "text": "Mostly run without lubricant: printed PETG blocks on the sides and bearings above and below hold the polycarbonate; graphite was tried once",
+          "basis": "team",
+          "src": [
+            "s21"
+          ]
+        },
+        {
+          "text": "In a redesign the team would use two 1/4 in plates with teeth on both, supported underneath by the gear; a team member had earlier suggested decoupling the two sides",
+          "basis": "team",
+          "src": [
+            "s22",
+            "s19"
+          ]
         }
       ],
       "cost": [
         {
-          "text": "A reply that reads as the team's says rack teeth, trouble free at two events, sheared every two to three matches at the state championship; about 16 spare arms were made for the world championship, where they still sheared but less often; the writer would try decoupling the two sides next",
-          "basis": "observer",
+          "text": "Rack teeth, trouble free at two events, sheared every two to three matches at the state championship, on unused spare arms too; about 16 spares were made for the world championship, where they still sheared but less often",
+          "basis": "team",
           "src": [
-            "s8"
+            "s19"
           ]
         }
       ]
@@ -306,10 +429,10 @@
           ]
         },
         {
-          "text": "Almost 70 fuel in capacity, mostly 50 to 60 in play",
+          "text": "Mostly 50 to 60 fuel in play",
           "basis": "team",
           "src": [
-            "s8"
+            "s13"
           ]
         },
         {
@@ -358,10 +481,10 @@
           ]
         },
         {
-          "text": "A reply that reads as the team's says it uses ordinary 105T x 15 mm timing belts",
-          "basis": "observer",
+          "text": "Uses ordinary 105T x 15 mm timing belts",
+          "basis": "team",
           "src": [
-            "s8"
+            "s17"
           ]
         }
       ]
@@ -373,10 +496,10 @@
       ],
       "solves": [
         {
-          "text": "A reply that reads as the team's says powering top and bottom rollers pushed fuel into the chamber too fast, and friction between balls jammed it",
-          "basis": "observer",
+          "text": "Powering top and bottom rollers pushed fuel into the chamber too fast, and friction between balls jammed it",
+          "basis": "team",
           "src": [
-            "s8"
+            "s16"
           ]
         }
       ],
@@ -396,17 +519,25 @@
           ]
         },
         {
-          "text": "A reply that reads as the team's says the top rollers are powered and the lower surface is static",
-          "basis": "observer",
+          "text": "The top rollers are powered and the lower surface is static",
+          "basis": "team",
           "src": [
-            "s8"
+            "s16"
           ]
         },
         {
-          "text": "A reply that reads as the team's says the print-in-place PETG vectored wheels lasted the whole season inside the robot, but doubts they would on an intake",
-          "basis": "observer",
+          "text": "The print-in-place PETG vectored wheels lasted the whole season inside the robot; the team doubts they would on an intake",
+          "basis": "team",
           "src": [
-            "s8"
+            "s18"
+          ]
+        },
+        {
+          "text": "The wheels adapt a 2910 design: roller clearance was adjusted, because most rollers of the original fused when printed, and a 1/8 in boss lets wheels stack without spacers",
+          "basis": "team",
+          "src": [
+            "s17",
+            "s18"
           ]
         }
       ]
@@ -418,10 +549,10 @@
       ],
       "solves": [
         {
-          "text": "A reply that reads as the team's says a static hood surface needs no external belt that a push into the trench could damage",
-          "basis": "observer",
+          "text": "A static hood surface needs no external belt that a push into the trench would likely damage",
+          "basis": "team",
           "src": [
-            "s8"
+            "s14"
           ]
         }
       ],
@@ -438,7 +569,7 @@
           "text": "Evolved from a two-chamber shooter to a single one 2.75 wide",
           "basis": "team",
           "src": [
-            "s8"
+            "s13"
           ]
         },
         {
@@ -449,10 +580,10 @@
           ]
         },
         {
-          "text": "A reply that reads as the team's says 4 in stealth wheels run much faster than the wheels that feed them, so fuel did not jam once it reached them",
-          "basis": "observer",
+          "text": "4 in stealth wheels run much faster than the wheels that feed them, so fuel did not jam once it reached them",
+          "basis": "team",
           "src": [
-            "s8"
+            "s16"
           ]
         }
       ]
@@ -471,6 +602,13 @@
           "src": [
             "s9"
           ]
+        },
+        {
+          "text": "A later post describes a telescoping climber with a detachable hook; the hook was off for every world championship match, as the climb ranking point was never in reach",
+          "basis": "team",
+          "src": [
+            "s22"
+          ]
         }
       ],
       "cost": [
@@ -479,6 +617,13 @@
           "basis": "team",
           "src": [
             "s9"
+          ]
+        },
+        {
+          "text": "A net snagged on the hook could block the shooter completely, which happened in a state championship qualification match",
+          "basis": "team",
+          "src": [
+            "s22"
           ]
         }
       ]
@@ -545,29 +690,29 @@
     },
     {
       "choice": "Static hood surface",
-      "because": "a reply that reads as the team's says it needs no external belt, which a push into the trench would likely damage",
+      "because": "it needs no external belt, which a push into the trench would likely damage",
       "instead_of": "hood rollers",
-      "basis": "observer",
+      "basis": "team",
       "src": [
-        "s8"
+        "s14"
       ]
     },
     {
       "choice": "Lower indexing rollers fixed in place",
-      "because": "a reply that reads as the team's says two powered sides pushed fuel into the chamber too fast",
+      "because": "two powered sides pushed fuel into the chamber too fast",
       "instead_of": "powered upper and lower rollers",
-      "basis": "observer",
+      "basis": "team",
       "src": [
-        "s8"
+        "s16"
       ]
     },
     {
       "choice": "Ordinary timing belts on the floor",
-      "because": "a reply that reads as the team's says coated belts were not sold in the 105T length and recutting the side plates was not worth it",
+      "because": "coated belts were not sold in the 105T length and recutting the side plates was not worth it",
       "instead_of": "rubber-coated belts",
-      "basis": "observer",
+      "basis": "team",
       "src": [
-        "s8"
+        "s17"
       ]
     },
     {
