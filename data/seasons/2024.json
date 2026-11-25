@@ -1,0 +1,59 @@
+{
+  "year": 2024,
+  "name": "CRESCENDO",
+  "manual": {
+    "url": "https://firstfrc.blob.core.windows.net/frc2024/Manual/2024GameManual.pdf",
+    "publisher": "FIRST",
+    "read": "2026-11-25",
+    "note": "Cited by link and restated in our words."
+  },
+  "pieces": [
+    {
+      "id": "note",
+      "shape": "torus ring",
+      "size": "14 in outside, 10 in inside, 2 in thick",
+      "compliance": "foam"
+    }
+  ],
+  "phases": [
+    "auto",
+    "teleop",
+    "endgame"
+  ],
+  "objectives": [
+    {
+      "id": "leave",
+      "label": "Leave the starting zone in auto",
+      "auto_points": 2
+    },
+    {
+      "id": "speaker",
+      "label": "Score notes in the speaker",
+      "auto_points": 5,
+      "teleop_points": 2,
+      "note": "5 in teleop while amplified"
+    },
+    {
+      "id": "amp",
+      "label": "Score notes in the amp",
+      "auto_points": 2,
+      "teleop_points": 1
+    },
+    {
+      "id": "trap",
+      "label": "Score a note in the trap",
+      "teleop_points": 5
+    },
+    {
+      "id": "onstage",
+      "label": "Hang from a stage chain",
+      "teleop_points": 3,
+      "note": "4 if spotlit; harmony adds 2"
+    },
+    {
+      "id": "park",
+      "label": "Park in the stage zone",
+      "teleop_points": 1
+    }
+  ]
+}

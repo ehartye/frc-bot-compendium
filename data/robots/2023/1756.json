@@ -1,0 +1,525 @@
+{
+  "id": "2023-1756",
+  "season": 2023,
+  "team": "1756",
+  "team_name": "Argos",
+  "robot_name": null,
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 1756 in 2023",
+      "url": "https://www.thebluealliance.com/team/1756/2023",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Curie Division 2023",
+      "url": "https://www.thebluealliance.com/event/2023cur",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "1756 Argos 2023-Robot (C++)",
+      "url": "https://github.com/FRC1756-Argos/2023-Robot",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Argos - FIRST Robotics Team 1756",
+      "url": "https://teamargos.org/docs/robot_doc/Argos_Robots/",
+      "publisher": "teamargos.org",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Argos 2023 Judge Handout (PDF)",
+      "url": "https://teamargos.org/assets/files/2023_Judge_Handout-24cf2061b65da71c4282727cf68a4f64.pdf",
+      "publisher": "teamargos.org",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/ceyzIXS",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Behind the Bumpers | 1756 Argos | Charged Up Robot",
+      "url": "https://www.youtube.com/watch?v=EVxz7j82Cp4",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "auto": [
+      {
+        "text": "After its week 3 event the team set out to go from a two-piece to a three-piece auto, and added the Cone Slammer to put a cone onto a node.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The wide intake grips the lip of a cone lying either way. Distance sensors find the piece in the intake, vision aligns to the pole and offsets for it, and the operator picks a preset. The wrist flips while the arm rises, then places.",
+        "basis": "team",
+        "src": [
+          "s7",
+          "s9"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "The intake is wider than the error a cone can have at a peg, so alignment has to compensate. Bash guards must stay in while scoring because they would hit the wall.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "After weeks 2 and 3 the swerve was regeared for speed and the arm sped up. Since the last event, flipping the wrist on the way up cut scoring time by about a second. The guards lost a front portion once the intake's back plate could tip cones.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "40-12-0 in official play; ranked 8 of the pooled top 20 (OPR 75.93, Curie).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drivetrain",
+      "solves": [
+        {
+          "text": "Mobility",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ],
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Regeared for more speed after the week 2 and 3 events, because the robot was slow",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arm",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Reach the scoring nodes quickly enough to shorten cycles",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "ball-screw pivoting, telescoping arm",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "A ball-screw linear actuator with a custom gearbox raises and lowers the arm",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "A custom tube-in-tube extension runs on a modified rack and pinion: holes drilled on a CNC router at a spacing that fits sprocket teeth",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake/Placer",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Take and place both cones and cubes with one mechanism",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The wide intake can hold a cone farther off center than a peg allows",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "retain",
+        "deliver",
+        "position"
+      ],
+      "type": "dual-axle compliant wheel intake on a wrist",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Two axles of compliant wheels grab the cone by its base flange, which rolls together and is squeezed",
+          "basis": "team",
+          "src": [
+            "s7",
+            "s9"
+          ]
+        },
+        {
+          "text": "An aluminum tube adds rigidity and controls cubes with the bottom row of wheels",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "The wrist turns the intake 180+ degrees, so cones can be taken from two directions",
+          "basis": "team",
+          "src": [
+            "s7",
+            "s9"
+          ]
+        },
+        {
+          "text": "Inspired by the Everybot's two close rollers",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bash guards",
+      "solves": [
+        {
+          "text": "Keep defenders from damaging a vital arm that the team did not want to have to replace between matches",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "They cannot be out while scoring, because they would bump the wall",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "deployable side guards",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Paired tubes on a hex shaft with a sprocket drive, chosen by the operator",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "They come out with the intake and take side hits",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Tilted down to stay in the bumper zone and avoid penalties",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cone Slammer",
+      "pieces": [
+        "cone"
+      ],
+      "solves": [
+        {
+          "text": "Make a three-piece auto possible",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "cone placing attachment",
+      "serves": [],
+      "facts": [
+        {
+          "text": "When it slams onto a node it pushes the cone out and onto the node",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "It was prototyped in wood after the week 3 event",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Assisted alignment",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Place accurately although a piece can sit anywhere in a wide intake",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "position"
+      ],
+      "type": "camera alignment with piece offset",
+      "serves": [
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Time-of-flight sensors at three points measure where the piece sits",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "A low-mounted camera finds the pole, and a proportional controller aligns and adds the piece's offset",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Operator control panel",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Let the operator send the lifter to pre-set positions",
+          "basis": "team",
+          "src": [
+            "s7",
+            "s9"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "button panel with preset configurations",
+      "serves": [],
+      "facts": [
+        {
+          "text": "The lifter takes an XY target relative to the robot and moves its joints there",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Limits stop joint over-extension and over-rotation, and no path runs until homing is complete",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "LEDs signal the wanted piece to the human player, and intake and vision status to the drivers",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Add bash guards",
+      "because": "the arm is vital, and the team would rather stop damage than have to replace it between matches",
+      "instead_of": "relying on an easy arm replacement",
+      "basis": "team",
+      "src": [
+        "s9"
+      ]
+    },
+    {
+      "choice": "Flip the wrist while the arm moves up",
+      "because": "it cut scoring time by about a second",
+      "instead_of": "rotating on arrival",
+      "basis": "team",
+      "src": [
+        "s9"
+      ]
+    },
+    {
+      "choice": "Regear the swerve for speed",
+      "because": "the robot was slow at its week 2 and week 3 events",
+      "basis": "team",
+      "src": [
+        "s9"
+      ]
+    },
+    {
+      "choice": "Add a Cone Slammer",
+      "because": "the team wanted to move from a two-piece to a three-piece auto",
+      "basis": "team",
+      "src": [
+        "s9"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "Comp Robot",
+        "url": "https://a360.co/3kLeGqb",
+        "format": "Fusion",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "Argos - FIRST Robotics Team 1756",
+        "url": "https://teamargos.org/docs/robot_doc/Argos_Robots/",
+        "format": "web page",
+        "state": "listed",
+        "src": "s5"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=EVxz7j82Cp4",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Full robot, arm extended, green roller gripper",
+        "url": "https://imgur.com/ceyzIXS",
+        "img": "https://i.imgur.com/ceyzIXSh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "robot-photo",
+        "hero": true
+      }
+    ],
+    "documents": [
+      {
+        "what": "Argos 2023 Judge Handout (PDF)",
+        "url": "https://teamargos.org/assets/files/2023_Judge_Handout-24cf2061b65da71c4282727cf68a4f64.pdf",
+        "format": "PDF",
+        "state": "opened",
+        "src": "s7"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/frc1756-argos",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "1756 Argos 2023-Robot (C++)",
+        "url": "https://github.com/FRC1756-Argos/2023-Robot",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s4"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binder search: Chief Delphi post search \"Argos binder\" (2 topics), title search \"1756\" (3 topics), team site home page only"
+  ],
+  "results": {
+    "division": "Curie",
+    "division_opr": 75.93,
+    "opr_rank": 8,
+    "record": "40-12-0",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

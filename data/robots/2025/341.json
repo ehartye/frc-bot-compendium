@@ -1,0 +1,1047 @@
+{
+  "id": "2025-341",
+  "season": 2025,
+  "team": "341",
+  "team_name": "Miss Daisy",
+  "robot_name": "Miss Daisy XXIII",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 341 in 2025",
+      "url": "https://www.thebluealliance.com/team/341/2025",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Archimedes Division 2025",
+      "url": "https://www.thebluealliance.com/event/2025arc",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "341 2025 Pit Posters",
+      "url": "https://drive.google.com/file/d/1MZxmtmB_qEXHkf25fMJRmVt1v7Ix-7fz/view",
+      "publisher": "drive.google.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "341 2025 Design Binder (Miss Daisy XXIII), Drive",
+      "url": "https://drive.google.com/file/d/1iKZZWQoEGuDlWmwzl61e7Nzo4c3IQF_k/view",
+      "publisher": "drive.google.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "341 2025 Worlds Strategy, Drive",
+      "url": "https://drive.google.com/file/d/1o5l3s0eGNxnKfdrzDnJmfWwn13fM4DXO/view",
+      "publisher": "drive.google.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "341 FRC2025-Public (Miss Daisy XXIII)",
+      "url": "https://github.com/Team341/FRC2025-Public",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "341 2025 Goals Wrap Up",
+      "url": "https://www.chiefdelphi.com/uploads/short-url/koAOIXLLRCwA9i08Utg7sNDTdrb.pdf",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/YpPtV9G",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/jkSdaSR",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Onshape document",
+      "url": "https://cad.onshape.com/documents/2d1e3ac103dba342712c2c99/w/060f69714e723dd87d33ba97/e/bbd3959b191284cc99eb4f56?renderMode=0&uiState=680f7463bfa4de65489d095d",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Page with pictures of this robot",
+      "url": "https://www.chiefdelphi.com/t/team-341-miss-daisy-2025-cad-code-and-documentation-release/500739",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "341 Miss Daisy | Behind the Bumpers | 2025 FRC REEFSCAPE Robot",
+      "url": "https://www.youtube.com/watch?v=YW43NhN5vIA",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "341 2025 Build Schedule, Drive",
+      "url": "https://drive.google.com/file/d/1S17VfCq4m2-oUmQGyIOXsKI47k_s1LXL/view",
+      "publisher": "drive.google.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "A floor coral intake, and a claw that can score from both sides, so the robot cycles fast without driving far or turning around.",
+        "basis": "team",
+        "src": [
+          "s13",
+          "s5"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "The end-of-week-1 list marked processor, coral L1 to L4, floor and station intake and scoring on both sides as needed, and the net as not to pursue; scoring in the net was added later. The team weighed points, ease of design and ranking points.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      },
+      {
+        "text": "For worlds qualification matches it put ranking points in this order: auto, barge, wins, coral.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "Four routines: L4 coral from the human player; a drive-by version that drops the preload in L1 on the way past; a floor intake auto for three pieces that leaves the station to partners; and a centre auto for one L4 coral and two algae in the net.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The floor intake turns coral to one orientation and tosses it up into the claw. Elevator, shoulder and wrist take it to a level on either side while the robot aligns from AprilTags. The wrist flips for L1 so it can shoot over coral already there.",
+        "basis": "team",
+        "src": [
+          "s5",
+          "s13"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "The robot drives into the cage until sprung hooks latch. The climber then rotates the cage until the chain is above the robot's centre of gravity.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      },
+      {
+        "text": "The worlds plan was a deep climb in every match. Its playoff section allows a fast scorer to skip the climb in a very unlikely case.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "If the floor intake breaks, the wrist lets the claw load at the human player station. The operator can also flip the wrist when coral sits wrong.",
+        "basis": "team",
+        "src": [
+          "s13"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "Handing coral from one mechanism to another added significant complexity, and the robot was not designed for defense.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      },
+      {
+        "text": "The biggest challenge was packaging a wide intake beside a centred elevator, with the climber, inside the frame perimeter.",
+        "basis": "team",
+        "src": [
+          "s13"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "After two events a U-shaped plate replaced the elevator's top crossbar, the intake ramps were redrawn in CAD to stop jams, and the claw got longer plates, algae shields and harder wheels. A separate algae floor intake was dropped.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      },
+      {
+        "text": "The goals review says lack of auto consistency created severe deficits by worlds.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "54-12-0 in official play; ranked 15 of the pooled top 20 (OPR 102.88, Archimedes).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drivebase",
+      "does": [
+        "drive"
+      ],
+      "type": "swerve, WCP X2i",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Each module drives with a Kraken X60 and turns with a Falcon 500",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Maximum speed with the X3 ratio",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 19.4,
+          "unit": "ft/s"
+        },
+        {
+          "text": "Square frame side",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 26.5,
+          "unit": "in"
+        }
+      ]
+    },
+    {
+      "name": "Belly pan and wiring",
+      "solves": [
+        {
+          "text": "Keep wires accessible when there is little space in the drivebase",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "aluminium belly pan with power wires underneath",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Belly pan thickness, with a lightening pattern for electrical routing and weight",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 0.125,
+          "unit": "in"
+        },
+        {
+          "text": "Printed WAGO mounts on the modules keep CAN wires short, so a failure at one module does not take out the whole loop",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Coral floor intake",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Pick up coral from the floor in any orientation and centre it before it enters the frame",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "transfer"
+      ],
+      "type": "sprung over-the-bumper roller with ramps and vertical rollers",
+      "serves": [
+        "reef-l1",
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "Front roller uses compliant wheels of this diameter",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 3,
+          "unit": "in"
+        },
+        {
+          "text": "Surgical tubing on the sides gives even pressure for any coral orientation",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Passive ramps and vertical rollers centre the coral",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "One Kraken X60 through a 2.5:1 belt drives the rollers; a Falcon 500 deploys it",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Coral occasionally jammed at the first two events, needing the driver or operator and sometimes slowing cycles; roller and ramp changes followed",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Handoff",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Join a wide floor intake to an end effector that also loads at the station",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "floor intake tosses coral into a waiting claw",
+      "serves": [
+        "reef-l1",
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "The intake rotates coral to a consistent orientation on the ground, then tosses it up into the claw",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "A significant degree of complexity",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Claw",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Take coral and algae with one mechanism that owns a piece as soon as it touches it",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "retain",
+        "deliver"
+      ],
+      "type": "roller claw for coral and algae",
+      "serves": [
+        "reef-l1",
+        "reef-branches",
+        "processor",
+        "net"
+      ],
+      "facts": [
+        {
+          "text": "Compliant wheel diameter",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 2.25,
+          "unit": "in"
+        },
+        {
+          "text": "Coral compression",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 0.375,
+          "unit": "in"
+        },
+        {
+          "text": "One Kraken X60 through 8.125:1, changed from 9.3:1 between events",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Weight without the wrist",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 4.17,
+          "unit": "lb"
+        },
+        {
+          "text": "Weight with the wrist",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 8.68,
+          "unit": "lb"
+        },
+        {
+          "text": "A beam break detects pieces; a limit switch was inconsistent on algae",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Softer 35A wheels wore and algae rolled out, until 50A wheels and algae shields were fitted",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elevator",
+      "solves": [
+        {
+          "text": "Reach the floor, the station and every reef level from a limited stow height",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "continuous elevator strung with Dyneema rope",
+      "serves": [
+        "reef-l1",
+        "reef-branches",
+        "processor",
+        "net"
+      ],
+      "facts": [
+        {
+          "text": "Vertical extension",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 52,
+          "unit": "in"
+        },
+        {
+          "text": "Two Kraken X60s at 3:1 on a 1.5 in spool",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Two drive strings and one return string; springs and a ratcheting wrench set tension",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Plates and the top tube warped outward at the first two events, letting the stage and carriage move sideways; a U-shaped cross-plate replaced the tube",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shoulder",
+      "solves": [
+        {
+          "text": "Move the claw between opposite sides of the robot with little backlash",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "arm pivot on a custom lantern gear",
+      "serves": [
+        "reef-l1",
+        "reef-branches",
+        "processor",
+        "net"
+      ],
+      "facts": [
+        {
+          "text": "One Kraken X60 through 45:1",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "An absolute encoder on a follower gear tracks the arm",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "The lantern gear was made on the team's CNC router",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wrist",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Turn coral from its loading orientation to its scoring orientation and keep it clear of the elevator when changing sides",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "position",
+        "transfer"
+      ],
+      "type": "dead-axle wrist",
+      "serves": [
+        "reef-l1",
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "Rotation each way",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 100,
+          "unit": "deg"
+        },
+        {
+          "text": "One Falcon 500 through 21.4:1",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Solid aluminium dead-axle shaft",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 0.75,
+          "unit": "in"
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Hold the cage securely and lift the robot without changing its orientation",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "levering deep-cage climber with sprung harpoon hooks",
+      "serves": [
+        "cage"
+      ],
+      "facts": [
+        {
+          "text": "The team lists a 3 second climb plus cage acquisition",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Weight",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 6.8,
+          "unit": "lb"
+        },
+        {
+          "text": "One Kraken X60; the binder gives 687.5:1 on one page and 675:1 on another",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Folds flat in the drive base",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Smaller acquisition area, listed as the con of levering; a polycarbonate wing was added to funnel the cage",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Gears skipped and wore at the first event, so the final stage became chain",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Superstructure",
+      "solves": [
+        {
+          "text": "Move several joints through shared space without damage",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "state-based control with collision prediction",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Computes future collisions of wrist, arm, intake and elevator and blocks those moves",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "The wrist turns late on the way to L1 so it does not hit the elevator",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Tested in simulation with AdvantageScope",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Many state transitions brought edge cases, so the operator got a wrist flip control",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vision",
+      "solves": [
+        {
+          "text": "Align to the reef precisely and correct errors in auto",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "AprilTag pose estimation with Limelights",
+      "serves": [
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "Limelight cameras",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 3,
+          "unit": "cameras"
+        },
+        {
+          "text": "Odometry runs on its own thread at 5 times the speed of the main code",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "When aligning to the reef it uses single-tag estimates from the camera facing it",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Two acquisition mechanisms, a floor intake and a claw that loads at the station",
+      "because": "prototypes showed a wide over-the-bumper intake was best on the floor but wrong for the station",
+      "cost": "a significant degree of complexity",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Sprung over-the-bumper intake with ramps and vertical rollers",
+      "because": "it takes coral in any orientation, centres it and avoids clogging with several coral",
+      "instead_of": "star-wheel, C-roller and wave-plate prototypes",
+      "cost": "coral still jammed occasionally at the first two events; a wave plate similar to the rejected one was added after the first",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Roller claw with two driven rollers",
+      "because": "it takes and holds algae as well as coral",
+      "instead_of": "a pinch claw and a single roller",
+      "cost": "algae rolled out until shields and harder wheels were fitted after the second event",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Vertical elevator with an arm",
+      "because": "the team had a history of good arms but not of strong elevators",
+      "instead_of": "an angled elevator",
+      "cost": "an added wrist to turn the piece",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Constantly sprung harpoon hooks, without the earlier deploying latch, on a levering climber",
+      "because": "it was simpler, had fewer parts prone to breaking and performed similarly",
+      "instead_of": "a wheeled grabber",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Climb with a separate mechanism",
+      "because": "a broken elevator would also have cost the climb",
+      "instead_of": "a dual-purpose climber on the scoring mechanism",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Lantern gear on the shoulder",
+      "because": "an unsigned reply that reads as the team's says it cannot skip, has very low backlash and can be made in house",
+      "instead_of": "belts",
+      "basis": "observer",
+      "src": [
+        "s12"
+      ]
+    },
+    {
+      "choice": "Remove the algae floor intake",
+      "because": "it was not significantly better than the claw and added motors and sensors",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Build three robots: Alpha, Beta and Comp",
+      "because": "programmers could start in week 1 and problems showed early enough to revise",
+      "cost": "a fast, stressful schedule",
+      "basis": "team",
+      "src": [
+        "s5",
+        "s12"
+      ]
+    },
+    {
+      "choice": "Fill the reef pegs closest to the robot",
+      "because": "the worlds plan holds that a floor-loading robot scores more points per second that way",
+      "instead_of": "maximising points per piece",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "Comp Robot – Reefscape full robot",
+        "url": "https://cad.onshape.com/documents/2d1e3ac103dba342712c2c99/w/060f69714e723dd87d33ba97/e/bbd3959b191284cc99eb4f56?renderMode=0&uiState=680f7463bfa4de65489d095d",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "CAD listed on the team page",
+        "url": "https://cad.onshape.com/documents/2d1e3ac103dba342712c2c99/w/060f69714e723dd87d33ba97",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s1"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=6DlGywSMCS4",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=YW43NhN5vIA",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/8PiuQV0",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/l0f8jcd",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Full robot with a white pipe on board, green intake rollers",
+        "url": "https://imgur.com/YpPtV9G",
+        "img": "https://i.imgur.com/YpPtV9Gh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s9",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot in the workshop, elevator lowered",
+        "url": "https://imgur.com/jkSdaSR",
+        "img": "https://i.imgur.com/jkSdaSRh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s10",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Full robot CAD, elevator raised",
+        "url": "https://cad.onshape.com/documents/2d1e3ac103dba342712c2c99/w/060f69714e723dd87d33ba97/e/bbd3959b191284cc99eb4f56?renderMode=0&uiState=680f7463bfa4de65489d095d",
+        "img": "https://cad.onshape.com/api/thumbnails/d/2d1e3ac103dba342712c2c99/w/060f69714e723dd87d33ba97/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s11",
+        "kind": "cad"
+      },
+      {
+        "what": "Full robot CAD, elevator lowered, intake deployed",
+        "url": "https://www.chiefdelphi.com/t/team-341-miss-daisy-2025-cad-code-and-documentation-release/500739",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/f/c/6/fc6dab894ba8ebe4bab91863158dc13589444cb6_2_362x375.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s12",
+        "kind": "cad"
+      },
+      {
+        "what": "Before and after CAD, hex shaft changed to round",
+        "url": "https://www.chiefdelphi.com/t/team-341-miss-daisy-2025-cad-code-and-documentation-release/500739",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/1/4/3/14369a11e6ba679c2fea94ceb56512dfb7ee5318_2_405x500.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s12",
+        "kind": "diagram"
+      }
+    ],
+    "documents": [
+      {
+        "what": "341 2025 Pit Posters",
+        "url": "https://drive.google.com/file/d/1MZxmtmB_qEXHkf25fMJRmVt1v7Ix-7fz/view",
+        "format": "Google Drive",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "341 2025 Design Binder (Miss Daisy XXIII)",
+        "url": "https://drive.google.com/file/d/1iKZZWQoEGuDlWmwzl61e7Nzo4c3IQF_k/view",
+        "format": "Google Drive",
+        "state": "opened",
+        "src": "s5"
+      },
+      {
+        "what": "341 2025 Worlds Strategy",
+        "url": "https://drive.google.com/file/d/1o5l3s0eGNxnKfdrzDnJmfWwn13fM4DXO/view",
+        "format": "Google Drive",
+        "state": "opened",
+        "src": "s6"
+      },
+      {
+        "what": "341 2025 Goals Wrap Up",
+        "url": "https://www.chiefdelphi.com/uploads/short-url/koAOIXLLRCwA9i08Utg7sNDTdrb.pdf",
+        "format": "PDF",
+        "state": "opened",
+        "src": "s8"
+      },
+      {
+        "what": "341 2025 Build Schedule",
+        "url": "https://drive.google.com/file/d/1S17VfCq4m2-oUmQGyIOXsKI47k_s1LXL/view",
+        "format": "Google Drive",
+        "state": "listed",
+        "src": "s14"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/team341",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "341 FRC2025-Public (Miss Daisy XXIII)",
+        "url": "https://github.com/Team341/FRC2025-Public",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s7"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "2025 design binder and worlds strategy, text extraction (figures not read)",
+    "interview captions read, video not watched"
+  ],
+  "results": {
+    "division": "Archimedes",
+    "division_opr": 102.88,
+    "opr_rank": 15,
+    "record": "54-12-0",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

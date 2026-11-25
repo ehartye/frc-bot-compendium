@@ -1,0 +1,759 @@
+{
+  "id": "2023-5727",
+  "season": 2023,
+  "team": "5727",
+  "team_name": "Omegabytes",
+  "robot_name": null,
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 5727 in 2023",
+      "url": "https://www.thebluealliance.com/team/5727/2023",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Curie Division 2023",
+      "url": "https://www.thebluealliance.com/event/2023cur",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC 5727 Omegabytes 2023 Build Thread",
+      "url": "https://www.chiefdelphi.com/t/frc-5727-omegabytes-2023-build-thread/423232",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "5727 'Grababyte - Public' Onshape (sheet row filed under 2024)",
+      "url": "https://cad.onshape.com/documents/0eef4eb2229c5cade86dfe1b/w/6c15777d7e3e87e8ca3036c0/e/79f9f2eab0b3ded1b6e65cbc",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "5727 2023_ChargedUp",
+      "url": "https://github.com/FRC5727/2023_ChargedUp",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/6wec3Iw",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/Fy85EXh",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/wyfLqVl",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Behind the Bumpers | 5727 Omegabytes | Charged Up Robot Overview",
+      "url": "https://www.youtube.com/watch?v=a3ufuDIkaI0",
+      "publisher": "FUN Robotics Network (auto-caption transcript)",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "CAN bus Errors in Playoffs",
+      "url": "https://www.chiefdelphi.com/t/can-bus-errors-in-playoffs/433562",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Design for repairability, and keep the center of gravity low while the arm reaches far enough to place on the high node.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "At kickoff the team noted that up to seven pieces could be placed in auto and that about two thirds of the mid and high nodes take cones, and talked about earning ranking points alone. At Mecklenburg its goal for each match was four ranking points.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "Autos combine about 15 base paths with dashboard choices of what to pick up and where to place it, to fit partners.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      },
+      {
+        "text": "At the championship it ran one mid cone, one mid cube and one high cube every match and says it missed once.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The arm goes to set points while the intake stays facing forward; rollers spin opposite ways for cones and cubes, and LEDs show yellow or purple.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      },
+      {
+        "text": "All controls are on one controller. At the championship the team reports an average of eleven or more cycles a match and no missed high cone.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "A four-ranking-point Mecklenburg practice match showed the team it could do four links and engage at the end; four ranking points became its goal for each match. In the third final there it completed a triple climb.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "In the Mecklenburg finals, when the intake stopped the team tried pushing pieces into the low nodes; when the arm would not move it played defense.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "gave_up": [],
+    "changed": [
+      {
+        "text": "After Asheville the intake grew from 10 in to 16 in and the upper arm from one tube to two. Gas struts went on the upper arm for the state championship and on the lower arm for the world championship, making the arm faster and smoother. At Asheville a damaged CAN wire in the upper arm took two matches to find, and all eight arm positions were recalibrated.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "40-23-2 in official play; ranked 18 of the pooled top 20 (OPR 70.23, Curie).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Arm",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Reach the high node within the extension rules while keeping the center of gravity low",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "two-joint chain-driven arm",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "At mid-build, #25 chain on the upper and lower arm and #35 on the lower arm pivot; a chain was added with the second upper-arm tube",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Upper arm is two 1 x 2 in tubes, each of length",
+          "basis": "team",
+          "src": [
+            "s3"
+          ],
+          "value": 36,
+          "unit": "in"
+        },
+        {
+          "text": "Two 20 lb gas struts on the upper arm, then two more on the lower arm for the world championship",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Moves to set points with profiled PID, with feedforward described at Mecklenburg as coming soon; at Asheville a barely tuned PID controller made it jerky",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "After replacing a CANcoder the team had to recalibrate all eight arm positions",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Virtual four-bar",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Keep the intake facing forward through every arm movement",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "chain virtual four-bar",
+      "serves": [],
+      "facts": [
+        {
+          "text": "At mid-build it ran on #25 chain; belts were considered to save weight",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "The chain lines up with the arm's hex shaft, so the intake always faces forward",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Handle cones and cubes with a wider range of vertical lineup error",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "deliver"
+      ],
+      "type": "reversing roller intake for cones and cubes",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "1/8 in polycarbonate pieces cut on the team's router; seven versions were cut",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "At mid-build, one NEO 550 drives the middle bar and a twisted sewing machine belt reverses the upper bar",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Testing showed one wheel was enough for cubes",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Width, up from 10 in at Asheville",
+          "basis": "team",
+          "src": [
+            "s3"
+          ],
+          "value": 16,
+          "unit": "in"
+        },
+        {
+          "text": "Rollers spin in opposite directions for cones and cubes; LEDs show which",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "In testing, a three-wheel version set too close to the ground caught the carpet and skipped",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Weighted belly pan",
+      "solves": [
+        {
+          "text": "Keep the center of gravity extra low",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "3/16 in steel belly pan",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Weight about",
+          "basis": "team",
+          "src": [
+            "s3"
+          ],
+          "value": 15.5,
+          "unit": "lb"
+        }
+      ]
+    },
+    {
+      "name": "Arm motor area",
+      "solves": [
+        {
+          "text": "Collect the arm's mechanisms at the bottom of the robot",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "arm motors and gearing grouped low on the robot",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Paired motors share a hex shaft; one pair swings the arm and another moves the second arm",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "The team says most of what is likely to break is in this one area",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Swerve base",
+      "does": [
+        "drive"
+      ],
+      "type": "swerve with absolute CANcoders on its own CAN loop",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Two CAN loops: one for the arm and one, on a CANivore, for the swerve; XT30 connectors",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "At Asheville one CANcoder wire unplugged; the connectors had no zip ties",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "In a state championship playoff match the swerve loop filled with CAN errors and the swerve did not work; after a roboRIO reboot errors and wrong module angles remained, after a power-off everything worked, and the team did not know the cause",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "A reply is not certain that the power cycle rather than the roboRIO reboot was the fix",
+          "basis": "observer",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Autonomous routines",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Change the auto to fit an alliance partner",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "odometry path following with dashboard choices",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "About 15 base paths give over 200 usable autos",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "The build thread counts more than 640 selectable routines and nine run at Mecklenburg",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "The team says paths land within inches of real measurements",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Arm motors and gearing in one low area",
+      "because": "most of what is likely to break is in one place, and the mechanisms are collected at the bottom",
+      "basis": "team",
+      "src": [
+        "s10"
+      ]
+    },
+    {
+      "choice": "Weighted steel belly pan",
+      "because": "it keeps the center of gravity extra low",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "Two-joint arm on chains, with weight savings as a top priority",
+      "because": "the center of gravity had to be as low as possible",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "Roller intake",
+      "because": "testing found it very consistent and more tolerant of vertical lineup error",
+      "instead_of": "a mecanum intake that centers cones, left unbuilt for wheel weight and the lineup accuracy it needed",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "Set-point arm control",
+      "because": "it was the team's first arm since its 2015 rookie year and there were few open examples",
+      "basis": "team",
+      "src": [
+        "s10"
+      ]
+    },
+    {
+      "choice": "Refined odometry without vision",
+      "because": "the team could not get a Limelight in time",
+      "instead_of": "a Limelight",
+      "basis": "team",
+      "src": [
+        "s10"
+      ]
+    },
+    {
+      "choice": "Two-tube upper arm",
+      "because": "it adds stability and reliability",
+      "instead_of": "one tube",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "Second coach",
+      "because": "a second coach with a tablet tracks links and calls who places what where",
+      "instead_of": "a second driver",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "5727 'Grababyte - Public' Onshape (sheet row filed under 2024)",
+        "url": "https://cad.onshape.com/documents/0eef4eb2229c5cade86dfe1b/w/6c15777d7e3e87e8ca3036c0/e/79f9f2eab0b3ded1b6e65cbc",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s4"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=a3ufuDIkaI0",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "FRC 5727 Omegabytes 2023 Build Thread",
+        "url": "https://www.chiefdelphi.com/t/frc-5727-omegabytes-2023-build-thread/423232",
+        "format": "thread",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "Full robot on ramp, blue bumpers, arm angled, green roller intake",
+        "url": "https://imgur.com/6wec3Iw",
+        "img": "https://i.imgur.com/6wec3Iwh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s7",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Full robot, arm lit green, green-lit roller intake lowered, bumpers numbered 5727",
+        "url": "https://imgur.com/Fy85EXh",
+        "img": "https://i.imgur.com/Fy85EXhh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot, arm folded down, green roller intake, bumpers numbered 5727",
+        "url": "https://imgur.com/wyfLqVl",
+        "img": "https://i.imgur.com/wyfLqVlh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s9",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot CAD, arm angled, roller intake, blue bumpers",
+        "url": "https://cad.onshape.com/documents/0eef4eb2229c5cade86dfe1b/w/6c15777d7e3e87e8ca3036c0/e/79f9f2eab0b3ded1b6e65cbc",
+        "img": "https://cad.onshape.com/api/thumbnails/d/0eef4eb2229c5cade86dfe1b/w/6c15777d7e3e87e8ca3036c0/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
+      },
+      {
+        "what": "CAD of swerve base with angled telescoping arm",
+        "url": "https://www.chiefdelphi.com/t/frc-5727-omegabytes-2023-build-thread/423232",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/7/7/77b891ce0bb7cb31375cce364cd4220d8d4f140f_2_690x480.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s3",
+        "kind": "cad"
+      },
+      {
+        "what": "CAD of swerve base with telescoping arm and roller intake",
+        "url": "https://www.chiefdelphi.com/t/frc-5727-omegabytes-2023-build-thread/423232",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/3/8/384f79d00d9ce701d57c6c7975b8a420f3326ec8_2_616x500.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s3",
+        "kind": "cad"
+      },
+      {
+        "what": "Two-roller intake, CAD",
+        "url": "https://www.chiefdelphi.com/t/frc-5727-omegabytes-2023-build-thread/423232",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/0/8/086a9b4789457d18991a3b5e5af142b095ba806e_2_690x394.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s3",
+        "kind": "cad"
+      },
+      {
+        "what": "Side view CAD of arm and intake holding purple cube",
+        "url": "https://www.chiefdelphi.com/t/frc-5727-omegabytes-2023-build-thread/423232",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/8/b/8be0c2afa0789e7d02219b434848c49e3faba6b3_2_495x500.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s3",
+        "kind": "cad"
+      },
+      {
+        "what": "Roller intake holding purple cube, CAD",
+        "url": "https://www.chiefdelphi.com/t/frc-5727-omegabytes-2023-build-thread/423232",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/1/3/13a2b402e4c562592d95f48cd04707f6d3ce088b_2_520x500.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s3",
+        "kind": "cad"
+      },
+      {
+        "what": "Green sheet-metal bracket held in hand",
+        "url": "https://www.chiefdelphi.com/t/frc-5727-omegabytes-2023-build-thread/423232",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/a/a/aa2df5d04e022d8decaa70b3f493bf1bebe8ef39_2_375x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s3",
+        "kind": "mechanism"
+      },
+      {
+        "what": "Swerve modules and frame rail, close-up",
+        "url": "https://www.chiefdelphi.com/t/frc-5727-omegabytes-2023-build-thread/423232",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/e/8/e8e0a032a4b8bfdef863b0d4997def5dce3e2c7f_2_666x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s3",
+        "kind": "mechanism"
+      },
+      {
+        "what": "Swerve drive base with wiring; a different 5727 robot marked Overbyte behind",
+        "url": "https://www.chiefdelphi.com/t/frc-5727-omegabytes-2023-build-thread/423232",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/7/e/7eef9757987bc4463aef41557b87af51402b8e6f_2_375x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s3",
+        "kind": "mechanism"
+      },
+      {
+        "what": "Intake with green rollers on a bench",
+        "url": "https://www.chiefdelphi.com/t/frc-5727-omegabytes-2023-build-thread/423232",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/4/c/4cb19218ad313b0c7825a11c14a5cf22bc276347_2_375x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s3",
+        "kind": "mechanism"
+      },
+      {
+        "what": "Arm video linked in the mid-build post",
+        "url": "https://youtube.com/shorts/Qg1SYLyYUZI",
+        "format": "video",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "Curie qualification match 119 video linked by the team",
+        "url": "https://www.youtube.com/watch?v=aiGdfo6V0tw",
+        "format": "video",
+        "state": "listed",
+        "src": "s3"
+      }
+    ],
+    "documents": [
+      {
+        "what": "Driver station log, 2023 North Carolina championship playoff match 12",
+        "url": "https://drive.google.com/file/d/1yOK7ME6sC1skCYzDOI2rm0Lapr3waX-E/view?usp=share_link",
+        "format": "Google Drive",
+        "state": "listed",
+        "src": "s11"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/frc5727",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "5727 2023_ChargedUp",
+        "url": "https://github.com/FRC5727/2023_ChargedUp",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s5"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binder searches: Chief Delphi titles for 5727, posts for 5727 binder; no team site found"
+  ],
+  "results": {
+    "division": "Curie",
+    "division_opr": 70.23,
+    "opr_rank": 18,
+    "record": "40-23-2",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

@@ -1,0 +1,903 @@
+{
+  "id": "2023-1678",
+  "season": 2023,
+  "team": "1678",
+  "team_name": "Citrus Circuits",
+  "robot_name": "Tangerine Tumbler",
+  "variant": "second 2023 robot, the one at the championship; an interview gives its internal nickname as avocado Annihilator",
+  "sources": {
+    "s1": {
+      "title": "Team 1678 in 2023",
+      "url": "https://www.thebluealliance.com/team/1678/2023",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Galileo Division 2023",
+      "url": "https://www.thebluealliance.com/event/2023gal",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "1678 Citrus Circuits 2023 CAD and Code Release (23)",
+      "url": "https://www.chiefdelphi.com/t/1678-citrus-circuits-2023-cad-and-code-release/437632",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "2023 Robot",
+      "url": "https://www.citruscircuits.org/2023-robot",
+      "publisher": "citruscircuits.org",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "1678 C2023-Public (Tangerine Tumbler)",
+      "url": "https://github.com/frc1678/C2023-Public",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Citrus Circuits 1678 2023 Reveal",
+      "url": "https://www.chiefdelphi.com/t/citrus-circuits-1678-2023-reveal/428718",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Citrus Circuits 2023 Season Recap Video",
+      "url": "https://www.chiefdelphi.com/t/citrus-circuits-2023-season-recap-video/438498",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Build Blog 2023",
+      "url": "https://www.citruscircuits.org/build-blog-2023",
+      "publisher": "citruscircuits.org",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "2023 Season",
+      "url": "https://www.citruscircuits.org/history/2023-season",
+      "publisher": "citruscircuits.org",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "How 1678 BROKE DOWN in the Finals, and Still WON | FRC Strategy Analysis",
+      "url": "https://www.youtube.com/watch?v=umznfQq_ACI",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Onshape document",
+      "url": "https://cad.onshape.com/documents/9ba9c21c35a06156e891cb3f/w/dce427c99c4c237d6c20ed2c/e/5ad5e173df9a364f40c65ca7?renderMode=0&uiState=646f8b23145fcb01bd11f259",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "1678 Citrus Circuits 2023 CAD and Code Release, post 30",
+      "url": "https://www.chiefdelphi.com/t/1678-citrus-circuits-2023-cad-and-code-release/437632/30",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "1678 Citrus Circuits 2023 CAD and Code Release, post 23",
+      "url": "https://www.chiefdelphi.com/t/1678-citrus-circuits-2023-cad-and-code-release/437632/23",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "Behind the Bumpers | 1678 Citrus Circuits | 9 Consecutive Division Wins",
+      "url": "https://www.youtube.com/watch?v=r6JDy85dax8",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "FIRST Lessons Learned 2023: The Negative",
+      "url": "https://www.chiefdelphi.com/t/first-lessons-learned-2023-the-negative/435704",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "341 2025 Design Binder (Miss Daisy XXIII)",
+      "url": "https://drive.google.com/file/d/1iKZZWQoEGuDlWmwzl61e7Nzo4c3IQF_k/view",
+      "publisher": "Team 341",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Keep the center of gravity very low: a pivoting elevator keeps all motors and frame, apart from light forks, under about 14 inches from the ground when fully stowed.",
+        "basis": "team",
+        "src": [
+          "s14"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "The team wanted a wide touch-it-own-it intake, a fast and reliable autonomous balance because balancing counts toward a ranking point, and a climb that takes little space on the charge station.",
+        "basis": "team",
+        "src": [
+          "s15",
+          "s9"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "In build season the team worked on a fast, reliable automatic balance, starting with a gyroscope on the previous year's robot and then trying wheel-speed and vision measurements. Its Beta robot balanced for the first time in week 6.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "LEDs show the human player whether a cone or cube is wanted. The player drops cones so they land upright in front of the station; the robot grabs one and leaves. The operator picks a node on the D-pad and the robot prepares to score there.",
+        "basis": "team",
+        "src": [
+          "s5",
+          "s15"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "Forks bolted to the arm lift only the drive base, because the elevator drops with them. The idea came from 2019 buddy climbs in which forks slid under a partner let a robot hang off the edge.",
+        "basis": "team",
+        "src": [
+          "s15"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "In a Galileo final a commentator describes the collector breaking: the robot tried two cubes and a cone, then switched to defense and kept its off-the-side climb.",
+        "basis": "observer",
+        "src": [
+          "s11"
+        ]
+      },
+      {
+        "text": "A reply that reads as the team's says a spare was ready, but swaps were avoided because they mean de-soldering.",
+        "basis": "observer",
+        "src": [
+          "s13"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "The team skipped a steel belly pan to stay light. It says the robot did not often rise onto two wheels, except when going to load at the human-player shelf.",
+        "basis": "team",
+        "src": [
+          "s14"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "Two early ideas for hanging off the charge station, a roller bar and wooden blocks, failed from friction and lack of weight.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      },
+      {
+        "text": "Carbon-fiber intake cross beams snapped at earlier regionals and let the intake tilt, so aluminum replaced them. The forks were shortened for the championship, which made lining up and climbing on both sides easier.",
+        "basis": "team",
+        "src": [
+          "s15"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "62-7-1 in official play; won the Galileo division; captain of the Galileo alliance on Einstein; ranked 10 of the pooled top 20 (OPR 75.28, Galileo).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drivetrain",
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "26 in by 26 in frame with MK4i swerve modules",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Team page names agility as a main focus",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Low center of gravity layout",
+      "solves": [
+        {
+          "text": "Avoid tipping and stay consistent in every match by keeping everything as low as possible",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "motors and battery kept low, light robot",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Mass without battery and bumpers, under",
+          "basis": "team",
+          "src": [
+            "s14"
+          ],
+          "value": 90,
+          "unit": "lb"
+        },
+        {
+          "text": "Battery mounted toward the back, low and close to the arm's pivot",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Falcon 500 motors stay near the belly pan, except the wrist and rollers",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Unpocketed belly pan across the top and bottom of the rails",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pivoting elevator",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Reach all three rows while everything is powered as low as possible",
+          "basis": "team",
+          "src": [
+            "s5",
+            "s15"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "continuous three-stage elevator on a pivoting arm",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Reaches all three rows",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Sliding structure uses MAXTube and WCP bearing blocks",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "String guards, including one in the tensioner, replace a grooved spool so the center spool stays rigid",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Arm gearbox is custom on a MAXPlanetary, with gears shimmed against backlash",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "The week 7 build blog says the first competition robot's new elevator would use chains instead of belts, while the championship interview describes strings",
+          "basis": "team",
+          "src": [
+            "s9",
+            "s15"
+          ]
+        },
+        {
+          "text": "A reply that reads as the team's describes rope tied to spacers on the spool",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Team 341's 2025 binder credits this robot's elevator as the inspiration for its spool",
+          "basis": "observer",
+          "src": [
+            "s17"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "A reply that reads as the team's says the rope stretched during the season, so knots were untied, pulled tight and retied",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wrist",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Drive the wrist from a distance so the center of gravity stays low",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "chain-driven wrist with its motor lower in the arm",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "A gearbox set away from the wrist drives it through chain, to keep the center of gravity low",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "The elevator let the team keep the wrist motor lower in the arm and route chain to the last stage",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Pick up both pieces from a wide zone with one ground position",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "retain",
+        "deliver"
+      ],
+      "type": "wide roller intake based on the Everybot design",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Cones pass through the top two rollers and cubes through the bottom jaw",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Three polycarbonate rollers with layered silicone; the back one holds a cube and the front two pick up upright cones",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "When the bottom bar touches the ground, one preset works for both pieces",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "About seven full iterations",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Aluminum cross bars, with polycarbonate at the bottom to stay light",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "A reply that reads as the team's gives the end-roller stack: bolt through the plate, spacer, two bearings, nut; inspired by 254's rollers of the year before",
+          "basis": "observer",
+          "src": [
+            "s13"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "A reply that reads as the team's, asked about intakes broken at the championship, says the polycarbonate side plate snapped on impact where a tube passed through it and material was thinnest",
+          "basis": "observer",
+          "src": [
+            "s13",
+            "s4"
+          ]
+        },
+        {
+          "text": "The same reply says swapping the intake means de-soldering connections",
+          "basis": "observer",
+          "src": [
+            "s13"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Forks",
+      "solves": [
+        {
+          "text": "Climb while taking up little space on the charge station",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "forks fixed to the arm",
+      "serves": [
+        "charge-station"
+      ],
+      "facts": [
+        {
+          "text": "No separate motor, wiring or control, because they bolt to the arm",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Only the drive base of the roughly 90 lb robot is lifted",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Shortened for the championship by about",
+          "basis": "team",
+          "src": [
+            "s15"
+          ],
+          "value": 4,
+          "unit": "in"
+        },
+        {
+          "text": "A commentator says the off-the-side climb let the robot play longer before climbing than an opponent could",
+          "basis": "observer",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The longer forks were difficult to line up, especially on the side near the wall",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Human player LEDs and node selection",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Get in and out of the loading zone as soon as possible",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "LED signals and operator presets",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "LEDs tell the human player whether the robot wants a cone or a cube",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "The operator picks a node on the D-pad and the scoring position updates to match",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vision alignment",
+      "solves": [
+        {
+          "text": "Line up with scoring locations automatically",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "Limelight vision",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "In week 1 the team planned to use AprilTags to line up with scoring spots and to support autonomous where wheel odometry suffers",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Beta used a three-camera setup in week 5; the first competition robot got new Limelight sensors in week 7",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "A post after the season lists 1678 among teams that ended up aligning on retroreflective targets",
+          "basis": "observer",
+          "src": [
+            "s16"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Keep the pivoting elevator",
+      "because": "a mid-build-season switch was too much scope for the students and had trade-offs the team did not like",
+      "instead_of": "a fixed tilted elevator",
+      "basis": "team",
+      "src": [
+        "s14"
+      ]
+    },
+    {
+      "choice": "Elevator architecture",
+      "because": "the team had more experience with classic elevators and there are more robust off-the-shelf parts; it also keeps the wrist motor lower in the arm. The post adds that 2910 probably built a similar robot much better",
+      "instead_of": "a telescoping or folding arm",
+      "basis": "team",
+      "src": [
+        "s14"
+      ]
+    },
+    {
+      "choice": "Continuous elevator",
+      "because": "it needs fewer strings and is less complicated, so there are fewer failure modes",
+      "basis": "team",
+      "src": [
+        "s15"
+      ]
+    },
+    {
+      "choice": "No ballast in the belly pan",
+      "because": "staying light helps acceleration, deceleration and battery draw, and the ballast turned out not to be needed",
+      "instead_of": "a steel belly pan",
+      "basis": "team",
+      "src": [
+        "s14"
+      ]
+    },
+    {
+      "choice": "Aluminum intake cross bars",
+      "because": "carbon-fiber beams snapped and were not rigid enough",
+      "instead_of": "carbon-fiber cross beams",
+      "basis": "team",
+      "src": [
+        "s15"
+      ]
+    },
+    {
+      "choice": "Bolt the climbing forks to the arm",
+      "because": "it adds no separate motor, wiring, control or weight",
+      "instead_of": "a separate climbing mechanism",
+      "basis": "team",
+      "src": [
+        "s15"
+      ]
+    },
+    {
+      "choice": "Leave most fasteners out of CAD",
+      "because": "a reply that reads as the team's says even simplified fasteners added a lot of load time; only tight clearances get one or two",
+      "basis": "observer",
+      "src": [
+        "s13"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "Comp Robot",
+        "url": "https://cad.onshape.com/documents/9ba9c21c35a06156e891cb3f/w/dce427c99c4c237d6c20ed2c/e/5ad5e173df9a364f40c65ca7?renderMode=0&uiState=646f8b23145fcb01bd11f259",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "CAD listed on the team page",
+        "url": "https://cad.onshape.com/documents/9ba9c21c35a06156e891cb3f/w/dce427c99c4c237d6c20ed2c",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "1678 Citrus Circuits 2023 CAD and Code Release (23)",
+        "url": "https://www.chiefdelphi.com/t/1678-citrus-circuits-2023-cad-and-code-release/437632",
+        "format": "thread",
+        "state": "listed",
+        "src": "s4",
+        "holds": "Onshape"
+      },
+      {
+        "what": "2023 Robot",
+        "url": "https://www.citruscircuits.org/2023-robot",
+        "format": "web page",
+        "state": "listed",
+        "src": "s5",
+        "holds": "Onshape"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=9AZHA0hNYrY",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=r6JDy85dax8",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/RdgDnso",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/XY0TbzW",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Citrus Circuits 1678 2023 Reveal",
+        "url": "https://www.chiefdelphi.com/t/citrus-circuits-1678-2023-reveal/428718",
+        "format": "thread",
+        "state": "listed",
+        "src": "s7"
+      },
+      {
+        "what": "Citrus Circuits 2023 Season Recap Video",
+        "url": "https://www.chiefdelphi.com/t/citrus-circuits-2023-season-recap-video/438498",
+        "format": "thread",
+        "state": "listed",
+        "src": "s8"
+      },
+      {
+        "what": "Build Blog 2023",
+        "url": "https://www.citruscircuits.org/build-blog-2023",
+        "format": "web page",
+        "state": "listed",
+        "src": "s9"
+      },
+      {
+        "what": "2023 Season",
+        "url": "https://www.citruscircuits.org/history/2023-season",
+        "format": "web page",
+        "state": "listed",
+        "src": "s10"
+      },
+      {
+        "what": "How 1678 BROKE DOWN in the Finals, and Still WON | FRC Strategy Analysis",
+        "url": "https://www.youtube.com/watch?v=umznfQq_ACI",
+        "format": "video",
+        "state": "listed",
+        "src": "s11"
+      },
+      {
+        "what": "Full robot CAD, rollers raised, tall slanted tubes",
+        "url": "https://cad.onshape.com/documents/9ba9c21c35a06156e891cb3f/w/dce427c99c4c237d6c20ed2c/e/5ad5e173df9a364f40c65ca7?renderMode=0&uiState=646f8b23145fcb01bd11f259",
+        "img": "https://cad.onshape.com/api/thumbnails/d/9ba9c21c35a06156e891cb3f/w/dce427c99c4c237d6c20ed2c/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s12",
+        "kind": "cad",
+        "hero": true
+      },
+      {
+        "what": "Section view of tube end insert, hand sketch added",
+        "url": "https://www.chiefdelphi.com/t/1678-citrus-circuits-2023-cad-and-code-release/437632/30",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/2/e/2e434bcd170fcca1852653c1600454492738b41f_2_571x500.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s13",
+        "kind": "drawing"
+      },
+      {
+        "what": "Full robot render, rollers raised",
+        "url": "https://www.citruscircuits.org/2023-robot",
+        "img": "https://static.wixstatic.com/media/146bfa_da41c827c5814acc9f538c1e3f97f136~mv2.png/v1/fill/w_319,h_337,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/146bfa_da41c827c5814acc9f538c1e3f97f136~mv2.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s5",
+        "kind": "cad"
+      },
+      {
+        "what": "Plate and tube detail, CAD close-up",
+        "url": "https://www.chiefdelphi.com/t/1678-citrus-circuits-2023-cad-and-code-release/437632",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/2/9/29d4bc38a5a62273ffcbda666b5df72f40c44b10_2_690x387.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
+      },
+      {
+        "what": "Roller end with belt pulley, CAD close-up",
+        "url": "https://www.chiefdelphi.com/t/1678-citrus-circuits-2023-cad-and-code-release/437632",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/d/d/ddbc3bdbee22b8c6d40e68f04628e41c03778c82_2_690x409.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
+      },
+      {
+        "what": "Drive base with bumpers, CAD",
+        "url": "https://www.citruscircuits.org/2023-robot",
+        "img": "https://static.wixstatic.com/media/146bfa_937f03808e2941a896e7178768914024~mv2.png/v1/fill/w_286,h_259,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/146bfa_937f03808e2941a896e7178768914024~mv2.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s5",
+        "kind": "cad"
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/frc1678",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "1678 C2023-Public (Tangerine Tumbler)",
+        "url": "https://github.com/frc1678/C2023-Public",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s6"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: Chief Delphi title search for 1678, post search \"1678 binder\" and a 29-page crawl of the team site found no 2023 binder",
+    "the team page's 2023 scouting whitepaper link returned 404"
+  ],
+  "results": {
+    "division": "Galileo",
+    "division_opr": 75.28,
+    "opr_rank": 10,
+    "record": "62-7-1",
+    "einstein": {
+      "division": "Galileo",
+      "role": "captain"
+    },
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

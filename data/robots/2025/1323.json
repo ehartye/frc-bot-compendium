@@ -1,0 +1,908 @@
+{
+  "id": "2025-1323",
+  "season": 2025,
+  "team": "1323",
+  "team_name": "MadTown Robotics",
+  "robot_name": null,
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 1323 in 2025",
+      "url": "https://www.thebluealliance.com/team/1323/2025",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Newton Division 2025",
+      "url": "https://www.thebluealliance.com/event/2025new",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "1323 MadTown Robot Reveal?",
+      "url": "https://www.chiefdelphi.com/t/1323-madtown-robot-reveal/495568",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "1323 2025 Tech Binder, Drive",
+      "url": "https://drive.google.com/file/d/1Y2ooTZMBNoViMZ6R4wYOkom1mhIIqF-R/view",
+      "publisher": "drive.google.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Let's Review REEFSCAPE's Elite Robots. Which bot do you wish your team had built?",
+      "url": "https://www.chiefdelphi.com/t/lets-review-reefscapes-elite-robots-which-bot-do-you-wish-your-team-had-built/500055",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "The Best 3 Matches of Reefscape EVER  | FRC Strategy Analysis",
+      "url": "https://www.youtube.com/watch?v=SQure1sSDpk",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Einstein Level Plays at SVR F2 | FUNalysis | FRC REEFSCAPE 2025",
+      "url": "https://www.youtube.com/watch?v=sDixBoAT8s4",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "1323 MadTown Robotics | Behind the Bumpers | FRC REEFSCAPE 2025",
+      "url": "https://www.youtube.com/watch?v=Kdzjr_WtiFU",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "1323 - 2025 Tech Binder",
+      "url": "https://www.chiefdelphi.com/t/1323-2025-tech-binder/500435",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "1323 - 2025 Tech Binder, post 131",
+      "url": "https://www.chiefdelphi.com/t/1323-2025-tech-binder/500435/131",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Orbit 1690 2025 Robot Reveal: Whisper, post 160",
+      "url": "https://www.chiefdelphi.com/t/orbit-1690-2025-robot-reveal-whisper/492064/160",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Be the well-rounded robot: score every way it can, L1 through L4, and put up as many points as possible in a match.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "Every level of the reef, then much more L1. After its week five event the team saw that others prioritized L2 to L4 and neglected L1, the level with the fewest points.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      },
+      {
+        "text": "The team wanted the perfect L1 robot and pictured stacking six coral on each reef face.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "At Silicon Valley an analyst described its signature auto, which collects what the analyst calls the pre-loaded items and got all four of its coral.",
+        "basis": "observer",
+        "src": [
+          "s7"
+        ]
+      },
+      {
+        "text": "In the Einstein finals an analyst says 1323 and 2910 chose lollipop autos.",
+        "basis": "observer",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The ground intake pulls coral in and centers it; a sensor starts the handoff. The end effector scores L2 to L4 from front or back. For L1, both intakes swipe coral onto the reef.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      },
+      {
+        "text": "In the Einstein finals an analyst says it scored coral only in L1, leaving the branches to its partners, and picked up algae at times.",
+        "basis": "observer",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "Flex wheels pull in the cage's vertical pipe and spring-loaded latches hold it. A proximity sensor starts an automated sequence: the elevator folds, pulling the climber down, and the algae intake latches into the end effector.",
+        "basis": "team",
+        "src": [
+          "s4",
+          "s8"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "The team added a human-loading mode, enough to limp through a match if the ground intake stopped working.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "The robot depended on ground loading, could not pick up coral past 45 degrees, and needed a ton of practice.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      },
+      {
+        "text": "A reply that reads as the team's says its practice robot weighed 130 lb in week 5 of build season.",
+        "basis": "observer",
+        "src": [
+          "s9"
+        ]
+      },
+      {
+        "text": "The 115 lb limit was hard to meet, so the team chose a smaller frame and tested materials to keep structural integrity.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "The ground intake went through many iterations and was not done until one or two weeks before the championship. Rollers shown in CAD as carbon fiber became polycarbonate after breaking.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      },
+      {
+        "text": "1690's account says the intake broke in Einstein match 11.",
+        "basis": "observer",
+        "src": [
+          "s11"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "53-3-0 in official play; won the Newton division, won the championship; captain of the Newton alliance on Einstein; ranked 3 of the pooled top 20 (OPR 117.93, Newton).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drivetrain",
+      "does": [
+        "drive",
+        "structure"
+      ],
+      "type": "swerve with WCP X2i and X2t modules",
+      "serves": [],
+      "solves": [
+        {
+          "text": "Reduce weight while keeping overall stability",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Square frame side",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 28,
+          "unit": "in"
+        },
+        {
+          "text": "Free speed, at 6.48:1",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 16.1,
+          "unit": "ft/s"
+        },
+        {
+          "text": "Kraken X60 motors drive and Kraken X44 motors rotate the modules",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Spacer blocks lower the drivetrain to about 0.5 in ground clearance",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A reply that reads as the team's says the top of the swerve plate is now used for structure, copied from 4414",
+          "basis": "observer",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "A-Frame & Shoulder",
+      "does": [
+        "position",
+        "structure"
+      ],
+      "type": "pivoting elevator on an A-frame",
+      "serves": [
+        "reef-branches",
+        "net",
+        "cage"
+      ],
+      "solves": [
+        {
+          "text": "Support the elevator solidly at full extension and rotate it quickly",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Turns the elevator from horizontal to vertical in about",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 1,
+          "unit": "s"
+        },
+        {
+          "text": "A-frame of four 2 x 2 x 1/16 in tubes, mounted directly to the drivetrain",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Each gearbox uses one Kraken X44 at 182.25:1, with an encoder geared 1:1 to elevator rotation",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Coral Intake",
+      "does": [
+        "acquire",
+        "transfer"
+      ],
+      "type": "ground roller intake with direct handoff",
+      "pieces": [
+        "coral"
+      ],
+      "serves": [
+        "reef-l1",
+        "reef-branches"
+      ],
+      "solves": [
+        {
+          "text": "Take coral from most angles on the ground and funnel it to the center",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Flex wheels on the top roller and grip tape on the bottom roller",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Compression on the coral, about",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 0.125,
+          "unit": "in"
+        },
+        {
+          "text": "Centers coral passively, then hands off directly into the end effector",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Pivot geared to 42.67:1; shares its pivot shaft and roller motor with the algae intake",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A diffused proximity sensor detects the coral",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "After driving at full speed into a wall 20 or more times, the robot could still complete a match with the broken SRPP intake",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "It could not pick up coral past 45 degrees, which took a ton of practice to work around",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Algae Intake",
+      "does": [
+        "acquire",
+        "endgame"
+      ],
+      "type": "over-bumper roller intake",
+      "pieces": [
+        "algae",
+        "coral"
+      ],
+      "serves": [
+        "reef-l1",
+        "cage"
+      ],
+      "solves": [
+        {
+          "text": "Take algae from the ground over the bumpers and help with L1",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Custom billet aluminum arms and SRPP plates",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "2 in polycarbonate roller with grip tape at the center",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Pivot geared to 64:1, driven on both sides so both arms move together",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Works with the coral intake to score L1",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Latches into the end effector to support the drive base when the robot is disabled after climbing",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elevator",
+      "does": [
+        "position"
+      ],
+      "type": "four-stage continuous belt elevator",
+      "serves": [
+        "reef-branches",
+        "net"
+      ],
+      "solves": [
+        {
+          "text": "Start short enough to pivot inside the frame perimeter and still reach L4 and the barge",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Number of stages",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 4,
+          "unit": "stages"
+        },
+        {
+          "text": "Two internally run 18 mm wide, 5 mm pitch HTD belts",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "One Kraken X60 through a two-stage gearbox at 6.875:1",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Interlocking hard stops on each stage add rigidity at full extension",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Carriage",
+      "does": [
+        "structure"
+      ],
+      "type": "billet carriage with built-in gearboxes",
+      "serves": [],
+      "solves": [
+        {
+          "text": "Lower the center of gravity by keeping all motors but one off the end effector",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Three gearboxes are integrated into the billet plates, to reduce part count",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A low-profile belt tensioner for the return belt sits at the bottom; a ratchet plate keeps the belt tension",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Differential Gearbox & Yoke",
+      "does": [
+        "position"
+      ],
+      "type": "differential wrist with bevel gears",
+      "serves": [
+        "reef-branches",
+        "net"
+      ],
+      "solves": [
+        {
+          "text": "Rotate the end effector with power from gearboxes in the carriage",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Custom 3D printed bevel gears, each driven by an identical three-stage 61.6:1 gearbox in the carriage",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "The final reduction is #25H chain",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A billet yoke holds two 3.5 in X-contact bearings; hard stops are machined in",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "End Effector",
+      "does": [
+        "acquire",
+        "retain",
+        "deliver"
+      ],
+      "type": "two independent flex-wheel sets",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "serves": [
+        "reef-l1",
+        "reef-branches",
+        "net"
+      ],
+      "solves": [
+        {
+          "text": "Take and score coral on every reef level and move algae from the reef to the barge",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Two independently driven sets of flex wheels move coral horizontally and vertically",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Front 3 in flex wheels can pinch algae and are powered through the center of the differential gears",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A Kraken X44 drives the vertical rollers at 3:1",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A reply that reads as the team's says a retroreflective sensor with a CANdi detects both algae and coral, and the motor runs in PWM mode for fear of breaking the CAN chain",
+          "basis": "observer",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climbing System",
+      "does": [
+        "endgame"
+      ],
+      "type": "flex-wheel capture pulled down by the elevator",
+      "serves": [
+        "cage"
+      ],
+      "solves": [
+        {
+          "text": "Climb with a combination of elevator, shoulder and algae intake",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Two 3 in 45A flex wheels, driven by one Kraken X44, bring the cage's vertical pipe into spring-loaded latches",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A diffused proximity sensor sees that the cage is latched and starts the automated climb",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Slides on linear bushings along 3/4 in tubes, sprung up by a constant force spring and pulled down as the elevator folds",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Slides passively so the chain ends up centered over the robot's center of gravity",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vision and automation",
+      "does": [
+        "sense"
+      ],
+      "type": "Limelight 4 cameras and sensor-triggered handoffs",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "serves": [],
+      "solves": [
+        {
+          "text": "Start the whole handoff from a sensor once the coral is in the intake",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "A Limelight 4 in the A-frame is placed for object tracking, with a shroud against falling coral",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A reply that reads as the team's says three Limelight 4 cameras were used: two for AprilTags and one for object detection in auto only",
+          "basis": "observer",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "A reply that reads as the team's says most of the robot was automatic across its 6 degrees of freedom; the co-driver picks the level and the driver picks the left or right pole",
+          "basis": "observer",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Four elevator stages",
+      "because": "the pivoting elevator had to start short inside the frame perimeter, so stages were added to regain height",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    },
+    {
+      "choice": "28 x 28 in frame",
+      "because": "the weight limit was hard to meet",
+      "instead_of": "a typical 30 x 30 in frame",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    },
+    {
+      "choice": "Backpack climb",
+      "because": "the team judged it very easy to do",
+      "instead_of": "the winch climb it used in the past",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    },
+    {
+      "choice": "Package motors in the carriage",
+      "because": "it lowers the center of gravity; one motor sits beyond the carriage",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    },
+    {
+      "choice": "Do far more L1",
+      "because": "other teams had prioritized L2 to L4 and neglected L1",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    },
+    {
+      "choice": "No indexer or centering stage behind the ground intake",
+      "because": "it was too hard in prototypes and the team worried about robustness",
+      "cost": "coral past 45 degrees could not be picked up",
+      "basis": "team",
+      "src": [
+        "s10"
+      ]
+    },
+    {
+      "choice": "X2i modules on the elevator side and X2t on the intake side",
+      "because": "X2i weighs less and X2t leaves more clearance for the intake gearboxes",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "Print the practice robot in PETG and the competition robot in Onyx",
+      "because": "a reply that reads as the team's says PETG is affordable and fails earlier, so weak parts show up before an elimination run",
+      "basis": "observer",
+      "src": [
+        "s9"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=Kdzjr_WtiFU",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/mwbRN8l",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "1323 MadTown Robot Reveal?",
+        "url": "https://www.chiefdelphi.com/t/1323-madtown-robot-reveal/495568",
+        "format": "thread",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "Let's Review REEFSCAPE's Elite Robots. Which bot do you wish your team had built?",
+        "url": "https://www.chiefdelphi.com/t/lets-review-reefscapes-elite-robots-which-bot-do-you-wish-your-team-had-built/500055",
+        "format": "thread",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "The Best 3 Matches of Reefscape EVER  | FRC Strategy Analysis",
+        "url": "https://www.youtube.com/watch?v=SQure1sSDpk",
+        "format": "video",
+        "state": "listed",
+        "src": "s6"
+      },
+      {
+        "what": "Einstein Level Plays at SVR F2 | FUNalysis | FRC REEFSCAPE 2025",
+        "url": "https://www.youtube.com/watch?v=sDixBoAT8s4",
+        "format": "video",
+        "state": "listed",
+        "src": "s7"
+      },
+      {
+        "what": "Robot seen from above the bumper, elevator tilted down",
+        "url": "https://www.chiefdelphi.com/t/1323-madtown-robot-reveal/495568",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/f/a/fa997d024ca4c1b70bf6caf1b1c7bedff46a536e_2_373x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s3",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Elevator carriage and roller close-up, plate circled in red",
+        "url": "https://www.chiefdelphi.com/t/1323-madtown-robot-reveal/495568",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/a/0/a0a5e2ac56d63e477c3daaa059bf895098778bb5_2_690x447.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s3",
+        "kind": "mechanism"
+      }
+    ],
+    "documents": [
+      {
+        "what": "1323 2025 Tech Binder",
+        "url": "https://drive.google.com/file/d/1Y2ooTZMBNoViMZ6R4wYOkom1mhIIqF-R/view",
+        "format": "Google Drive",
+        "state": "opened",
+        "src": "s4"
+      },
+      {
+        "what": "Binder thread with questions and answers",
+        "url": "https://www.chiefdelphi.com/t/1323-2025-tech-binder/500435",
+        "format": "thread",
+        "state": "listed",
+        "src": "s9"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/team1323",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)"
+  ],
+  "results": {
+    "division": "Newton",
+    "division_opr": 117.93,
+    "opr_rank": 3,
+    "record": "53-3-0",
+    "einstein": {
+      "division": "Newton",
+      "role": "captain"
+    },
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

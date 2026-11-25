@@ -1,0 +1,103 @@
+{
+  "id": "2026-9785",
+  "season": 2026,
+  "team": "9785",
+  "team_name": "Alectrona",
+  "robot_name": null,
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 9785 in 2026",
+      "url": "https://www.thebluealliance.com/team/9785/2026",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Hopper Division 2026",
+      "url": "https://www.thebluealliance.com/event/2026hop",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "3467 Windham Windup 2026 Build Blog, post 205",
+      "url": "https://www.chiefdelphi.com/t/3467-windham-windup-2026-build-blog/508474/205",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Successful Rebuilds, post 24",
+      "url": "https://www.chiefdelphi.com/t/successful-rebuilds/507401/24",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [],
+    "demand": [],
+    "auto": [],
+    "cycle": [
+      {
+        "text": "A championship alliance partner describes the teleop plan for itself and 9785 as the typical dumper plan: feed while the hub is inactive, dump while it is active.",
+        "basis": "observer",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "endgame": [],
+    "fallback": [],
+    "gave_up": [],
+    "changed": [
+      {
+        "text": "The partner calls 9785 a mid-season rebuild into a dumper. A forum list of 2026 rebuilds, which its author says may contain mistakes, also names the team.",
+        "basis": "observer",
+        "src": [
+          "s3",
+          "s4"
+        ]
+      },
+      {
+        "text": "In one division playoff match the robot died on the field with about 50 seconds left; the partner says the disconnection was quickly solved.",
+        "basis": "observer",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "53-18-0 in official play; ranked 18 of the pooled top 20 (OPR 288.30, Hopper).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [],
+  "decisions": [],
+  "assets": {
+    "cad": [],
+    "graphics": [],
+    "documents": [],
+    "code": []
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: Chief Delphi title search \"9785\", 0; post search \"9785 binder\", 1 result; one web search; no team site found"
+  ],
+  "results": {
+    "division": "Hopper",
+    "division_opr": 288.3,
+    "opr_rank": 18,
+    "record": "53-18-0",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

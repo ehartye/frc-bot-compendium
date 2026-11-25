@@ -1,0 +1,888 @@
+{
+  "id": "2026-2056",
+  "season": 2026,
+  "team": "2056",
+  "team_name": "OP Robotics",
+  "robot_name": "Desperate Measures",
+  "variant": "The second robot of the season, rebuilt mid-season; it played the official events. The first robot, Desperate Times, never competed.",
+  "sources": {
+    "s1": {
+      "title": "Team 2056 in 2026",
+      "url": "https://www.thebluealliance.com/team/2056/2026",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Hopper Division 2026",
+      "url": "https://www.thebluealliance.com/event/2026hop",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "2056 2026 Drawing Package V1 (Desperate Times) PDF",
+      "url": "https://2056.ca/wp-content/uploads/2026/10/OPR26-2056-Drawing-Package.pdf",
+      "publisher": "2056.ca",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "2056 2026 Drawing Package B (Desperate Measures) PDF",
+      "url": "https://2056.ca/wp-content/uploads/2026/10/OPR26-B-2056-Drawing-Package.pdf",
+      "publisher": "2056.ca",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "2056 OP Robotics 2026 Technical Binder (DESPERATE MEASURES) PDF",
+      "url": "https://2056.ca/wp-content/uploads/2026/10/OPR26-B-2056-Technical-Binder.pdf",
+      "publisher": "2056.ca",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "2056 PublicCodeBank (C++)",
+      "url": "https://github.com/Team2056/PublicCodeBank",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "2056 just played and WE should be scared. | FRC Strategy Analysis",
+      "url": "https://www.youtube.com/watch?v=6CqUFVsKZ0o",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "IRI Mic'd Up with 2056 OP Robotics | Behind the Glass",
+      "url": "https://www.youtube.com/watch?v=WiBPrASqJbA",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "FRC Team 2056 - 2026 Season Recap",
+      "url": "https://www.youtube.com/watch?v=aDsBINcdTII",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/B7R1cNB",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Team 2056 OP Robotics - 2026 Technical Binder Release",
+      "url": "https://www.chiefdelphi.com/t/team-2056-op-robotics-2026-technical-binder-release/525183",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "2056 OP Robotics | Behind the Bumpers | Hopper Winners",
+      "url": "https://www.youtube.com/watch?v=iruLnDDMKRs",
+      "publisher": "FUN Robotics Network (auto-caption transcript)",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "Best Alliance Combos in REBUILT | FRC FUNalysis",
+      "url": "https://www.youtube.com/watch?v=Ft9xWiwDQEQ",
+      "publisher": "FUN Robotics Network (auto-caption transcript)",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Keep the turret and add storage, after a hopperless robot could not reach enough throughput to justify having none.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "The turret had to score from anywhere in the alliance zone and pass the full field, with high throughput and no dead spots.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      },
+      {
+        "text": "At its provincial championship the team saw that stealing fuel pays, because whoever holds the most fuel wins; one member ranks it above the scoring period.",
+        "basis": "team",
+        "src": [
+          "s12"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "A simple PID drive-to-point algorithm strings points into a path, and can move to the next point without slowing.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      },
+      {
+        "text": "A match analyst points out that it shoots on the move during auto.",
+        "basis": "observer",
+        "src": [
+          "s13"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "Fuel goes from the linear intake over the hopper's roller floor to the singulator and turret. Shots are compensated for shooting on the move. While passing, the robot keeps a minimum hopper level for the next offensive shift, and it times its shots to use that shift.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "Buttons home the turret angle, hood and intake by hand. On low battery the robot throttles mechanisms until voltage recovers.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      },
+      {
+        "text": "A Purge button reverses all rollers to clear jams (a thread reply that reads as the team's).",
+        "basis": "observer",
+        "src": [
+          "s11"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "Speed took priority over process, so the drawing package is messier and less complete than usual.",
+        "basis": "team",
+        "src": [
+          "s11"
+        ]
+      },
+      {
+        "text": "Testing time was reduced, every mechanism needed current limits to survive a match, and dialing these in was the biggest obstacle at the first event (a thread reply that reads as the team's).",
+        "basis": "observer",
+        "src": [
+          "s11"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "The first robot, Desperate Times, was hopperless. Its turret was reused and it carried on software development until the new robot ran three weeks later.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      },
+      {
+        "text": "It peaked near 14 balls per second, only in ideal conditions, against a hoped-for 20; the formal decision came on February 18 (a thread reply that reads as the team's).",
+        "basis": "observer",
+        "src": [
+          "s11"
+        ]
+      },
+      {
+        "text": "Surgical tubing was added to the intake, and the net enlarged.",
+        "basis": "team",
+        "src": [
+          "s12"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "63-10-0 in official play; won the Hopper division; captain of the Hopper alliance on Einstein; ranked 3 of the pooled top 20 (OPR 339.00, Hopper).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drivetrain",
+      "solves": [
+        {
+          "text": "Be agile and rigid, with a low center of mass and as much volume as possible",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "SDS MK5n R1 modules on Kraken motors, top speed",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 15,
+          "unit": "ft/s"
+        },
+        {
+          "text": "Chassis 25.5 in long by 29.5 in wide in 2 x 1 x 1/8 in tube, with a 1/16 in solid baseplate as shear plate",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "SDS spike grip wheels for traction on carpet",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Take fuel over a large area, deploy fast and withstand high energy impacts",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "linear-extending two-roller intake",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "2 in polycarbonate rollers in silicone tubing, X60 with a 12:30 belt",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Extension: X44 through 8:40 gears and a 12 tooth pinion on a rack",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Side arms are two layers of 1/4 in polycarbonate, one of them the rack, with a 2 x 1 in bash bar",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "A low stator current limit lets it retract like a spring in an impact",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "The kicker bar at the bottom is held by surgical tubing",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Appropriate gearing, low fuel compression and fairly high current limits let one motor run the rollers (a thread reply that reads as the team's)",
+          "basis": "observer",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Roller covers rip and are replaced as maintenance",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Before the surgical tubing, balls stuck against the bumper",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hopper",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Maximize fuel capacity, fill completely and feed the singulator",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "retain",
+        "transfer"
+      ],
+      "type": "roller-floor hopper with net top",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Floor of 1-1/2 in polycarbonate rollers covered in silicone, one X60",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "The net on top is the 2025 barge net",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Capacity, about",
+          "basis": "team",
+          "src": [
+            "s12"
+          ],
+          "value": 62,
+          "unit": "balls"
+        },
+        {
+          "text": "The last floor roller is bare polycarbonate, so balls slip instead of jamming",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The net had to clear the trench, and polycarbonate flex had to stay inside the frame perimeter",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Singulator",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Turn fuel in mass from the hopper into a single stream without jamming",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "two-belt conveyor with kicker roller",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Two X44s at 12:36 drive the conveyor, with belts in a 3D printed carrier for consistent compression",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "The binder gives dual rubber coated timing belts; an interviewed member says a thick rubber belt below and a regular timing belt above",
+          "basis": "team",
+          "src": [
+            "s5",
+            "s12"
+          ]
+        },
+        {
+          "text": "A vertical kicker roller on an X44 sorts fuel collisions at the quarter pipe",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Dual 2 in stealth wheels feed the shooter, X60 at 16:28",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Turret",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Score from anywhere in the alliance zone and pass the full field, with no dead spots",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "position",
+        "deliver"
+      ],
+      "type": "single-ball turret with continuously variable hood",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Plus or minus 185 degrees of rotation, with a custom printed energy chain",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "8 in bore X contact bearing and a 1/4 in 6061 gear; X44 through 8:40 and 10:100",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "4 in Fairlane shooter wheel on two X60s at 28:34",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Backspin kicker of dual 2 in stealth wheels on an X44",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Hood releases from 73.5 to 39.5 degrees above horizontal, X44 through 8:40 and 10:155",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "A magnetic proximity switch homes the turret",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Auto Aim and Vision",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Shoot on the move, and retune quickly if fuel behaves differently at an event",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "position"
+      ],
+      "type": "MegaTag2 pose fusion with shot compensation",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Three fixed Limelight 4s; MegaTag2 pose is fused with wheel odometry at changing confidence",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Polygon zones choose pass or score and reduce hood collisions with the trench",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "The binder maps exit velocity to wheel speed with a hand-tuned coefficient; interviewed members say the flywheel keeps one speed and only kicker wheel speed and hood angle change",
+          "basis": "team",
+          "src": [
+            "s5",
+            "s12"
+          ]
+        },
+        {
+          "text": "Hub shots are computed for a fixed height, so time of flight is constant and balls do not collide in the air",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The PA-CF bracket of the back right Limelight was damaged three times, once sheared along its layer lines; TPU would probably have been better (a thread reply that reads as the team's)",
+          "basis": "observer",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hopper Level Control",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Always have fuel to start the next offensive shift",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "retain"
+      ],
+      "type": "distance sensor in the hopper",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "A CANrange pointed into the hopper measures the fill level",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "While passing, the robot fills to a minimum level first and stops passing if the level drops below it",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automatic Shift Timing",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Use as much of the offensive shift as possible",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "deliver"
+      ],
+      "type": "timed shooting from match data",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "The robot reads game data and match time from the field system, with a manual override",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "When the driver asks to shoot, it decides when to shoot",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LEDs and Driver Feedback",
+      "does": [
+        "sense"
+      ],
+      "type": "lights and controller rumble",
+      "serves": [],
+      "facts": [
+        {
+          "text": "The binder says red while aiming and blue when ready to shoot; an interviewed member says alliance color while shooting and otherwise red",
+          "basis": "team",
+          "src": [
+            "s5",
+            "s12"
+          ]
+        },
+        {
+          "text": "Green lights and a rumble signal low battery; flashing yellow means passing with an empty hopper",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Change the whole robot mid-season",
+      "because": "throughput was not high enough to justify no storage",
+      "instead_of": "the hopperless Desperate Times",
+      "cost": "a tighter timeline, and a drawing package messier and less complete than usual",
+      "basis": "team",
+      "src": [
+        "s5",
+        "s11"
+      ]
+    },
+    {
+      "choice": "Follow Orbit 1690 in the redesign",
+      "because": "its approach was the primary inspiration for nearly all aspects",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Low current limit on the intake extension",
+      "because": "the intake then retracts like a spring in an impact",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "R1 swerve gearing",
+      "because": "it balances speed and acceleration for short cycles",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Stealing as the main defense",
+      "because": "moving balls out of the opponents' zone into its hopper is more effective",
+      "basis": "team",
+      "src": [
+        "s12"
+      ]
+    },
+    {
+      "choice": "Fast singulation as the key to throughput",
+      "because": "a member says that is the main factor for a turret",
+      "basis": "team",
+      "src": [
+        "s12"
+      ]
+    },
+    {
+      "choice": "Net on top of the hopper",
+      "because": "it adds capacity",
+      "cost": "it had to clear the trench",
+      "basis": "team",
+      "src": [
+        "s12"
+      ]
+    },
+    {
+      "choice": "Drawings used mostly as parts lists",
+      "because": "less experienced members can gather parts from them and then follow the CAD (a thread reply that reads as the team's)",
+      "basis": "observer",
+      "src": [
+        "s11"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "2056 2026 Drawing Package V1 (Desperate Times) PDF",
+        "url": "https://2056.ca/wp-content/uploads/2026/10/OPR26-2056-Drawing-Package.pdf",
+        "format": "PDF",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "2056 2026 Drawing Package B (Desperate Measures) PDF",
+        "url": "https://2056.ca/wp-content/uploads/2026/10/OPR26-B-2056-Drawing-Package.pdf",
+        "format": "PDF",
+        "state": "listed",
+        "src": "s4"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=iruLnDDMKRs",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "2056 just played and WE should be scared. | FRC Strategy Analysis",
+        "url": "https://www.youtube.com/watch?v=6CqUFVsKZ0o",
+        "format": "video",
+        "state": "listed",
+        "src": "s7"
+      },
+      {
+        "what": "IRI Mic'd Up with 2056 OP Robotics | Behind the Glass",
+        "url": "https://www.youtube.com/watch?v=WiBPrASqJbA",
+        "format": "video",
+        "state": "listed",
+        "src": "s8"
+      },
+      {
+        "what": "FRC Team 2056 - 2026 Season Recap",
+        "url": "https://www.youtube.com/watch?v=aDsBINcdTII",
+        "format": "video",
+        "state": "listed",
+        "src": "s9"
+      },
+      {
+        "what": "Full robot on the field, ball hopper left, shooter right",
+        "url": "https://imgur.com/B7R1cNB",
+        "img": "https://i.imgur.com/B7R1cNBh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s10",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Intake and hopper frame render, one link circled in red",
+        "url": "https://www.chiefdelphi.com/t/team-2056-op-robotics-2026-technical-binder-release/525183",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/9/c/6/9c64a3122f59392d29fcb571e4c6edfa406bf65d_2_690x444.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s11",
+        "kind": "cad"
+      },
+      {
+        "what": "Robot drawing with a front view and section views",
+        "url": "https://www.chiefdelphi.com/t/team-2056-op-robotics-2026-technical-binder-release/525183",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/f/5/e/f5e18ff592a5b1838a01f9cfe6272d4e44d126aa_2_517x334.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s11",
+        "kind": "drawing"
+      },
+      {
+        "what": "Slow-motion clips of the first robot, Desperate Times",
+        "url": "https://photos.app.goo.gl/6xSW7fwdmU84YmXn7",
+        "format": "photos",
+        "state": "listed",
+        "src": "s11"
+      }
+    ],
+    "documents": [
+      {
+        "what": "2056 OP Robotics 2026 Technical Binder (DESPERATE MEASURES) PDF",
+        "url": "https://2056.ca/wp-content/uploads/2026/10/OPR26-B-2056-Technical-Binder.pdf",
+        "format": "PDF",
+        "state": "opened",
+        "src": "s5"
+      },
+      {
+        "what": "Binder and drawing release thread with questions and answers",
+        "url": "https://www.chiefdelphi.com/t/team-2056-op-robotics-2026-technical-binder-release/525183",
+        "format": "thread",
+        "state": "listed",
+        "src": "s11"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/team2056",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "2056 PublicCodeBank (C++)",
+        "url": "https://github.com/Team2056/PublicCodeBank",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s6"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "2026 technical binder, text extraction (figures not read); it has no climber section",
+    "binder thread, partial capture",
+    "Chief Delphi post search \"2056 binder\" and team site crawl"
+  ],
+  "results": {
+    "division": "Hopper",
+    "division_opr": 339.0,
+    "opr_rank": 3,
+    "record": "63-10-0",
+    "einstein": {
+      "division": "Hopper",
+      "role": "captain"
+    },
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

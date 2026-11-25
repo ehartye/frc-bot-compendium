@@ -1,0 +1,866 @@
+{
+  "id": "2026-4414",
+  "season": 2026,
+  "team": "4414",
+  "team_name": "HighTide",
+  "robot_name": "RIPCURRENT",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 4414 in 2026",
+      "url": "https://www.thebluealliance.com/team/4414/2026",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Daly Division 2026",
+      "url": "https://www.thebluealliance.com/event/2026dal",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "How to Win a World Championship | FRC Strategy Analysis",
+      "url": "https://www.youtube.com/watch?v=-Cm-RuiSNlU",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "4414 & 3476 just previewed SOCAL DCMP | FRC FUNalysis",
+      "url": "https://www.youtube.com/watch?v=1BxpnSIuGAs",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/0DqbRg6",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/mYDBhBN",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "4414 2026 Technical Binder",
+      "url": "https://2026.team4414.com/",
+      "publisher": "Team 4414",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "4414 HighTide | Behind the Bumpers | REBUILT Champions",
+      "url": "https://www.youtube.com/watch?v=XM7l9Z1HiDs",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Team 4414 HighTide 2026 Tech Binder: RIPCURRENT",
+      "url": "https://www.chiefdelphi.com/t/team-4414-hightide-2026-tech-binder-ripcurrent/519602",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "The 10 Best FRC Robots of 2026",
+      "url": "https://www.youtube.com/watch?v=DLTgYLVH-Z0",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Rebuilt: Rock, Paper, Scissors",
+      "url": "https://www.chiefdelphi.com/t/rebuilt-rock-paper-scissors/521173",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Capacity, throughput and a turret to go around defense: the team believed these matter most at the highest level of play.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "Fuel scoring and passing. The team made it able to shoot on the bump while under defense, and added a hood roller because the static hood could not shoot or pass very far.",
+        "basis": "team",
+        "src": [
+          "s7",
+          "s8"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "Autos are states that drive to points. Side cameras give a position as the robot crosses the bump, until the main Limelight can see tags.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      },
+      {
+        "text": "When no partner took the outpost, an analyst saw one pass through the middle, a push along the hub wall, then scoring from the outpost.",
+        "basis": "observer",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "Intaking balls fill the robot from the rear and stay loosely packed, so it can shoot without gaps.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      },
+      {
+        "text": "At Orange County an analyst saw it take opponents' fuel outside its shift, wait without collecting more, then go back to the middle for fuel it had just scored.",
+        "basis": "observer",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "At Orange County an analyst saw it score from on the bump in the last seconds, after its alliance had left little fuel on its own side for the endgame.",
+        "basis": "observer",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "After its alliance lost auto in Einstein finals 1, an analyst says it cleared the neutral zone during the transition shift instead of going back to score. The alliance lost that match with a partner disabled.",
+        "basis": "observer",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "Chamfered corners needed custom swerve plates, and the dye rotor forced a split drive rail with a tight battery fit. The flexible net could hide the tags from the main Limelight when full. Hood roller belts took much of the space for flywheel mass.",
+        "basis": "team",
+        "src": [
+          "s7",
+          "s8"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "The static hood used at Orange County and the district championship took a lot of current and could not shoot very far, so a hood roller was added before the world championship. So were two side cameras. The net, first zip-tied to the turret's top plate, got a slotted metal plate. The binder shows 10 rotor and 11 shooter versions.",
+        "basis": "team",
+        "src": [
+          "s7",
+          "s8"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "70-2-0 in official play; won the Daly division, won the championship; captain of the Daly alliance on Einstein; ranked 1 of the pooled top 20 (OPR 429.48, Daly).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drivetrain",
+      "does": [
+        "drive",
+        "structure"
+      ],
+      "type": "swerve with chamfered back corners",
+      "serves": [],
+      "solves": [
+        {
+          "text": "Maximize hopper area and dye rotor diameter within the frame perimeter, with the rotor kept low",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Frame size 25 x 32 in",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Two custom swerve modules use WCP Swerve X2 components",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "The only custom module parts are three milled aluminum plates",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Swerve gearing 7.67:1, to minimize current draw when accelerating",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "The left drive rail is split to move the battery to the edge; two cross rails provide structure to the dye rotor",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The battery is a very tight fit and needed some custom work; the team reported no problems with it",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bumpers",
+      "does": [
+        "structure",
+        "retain"
+      ],
+      "type": "structural bumpers that form the hopper walls",
+      "pieces": [
+        "fuel"
+      ],
+      "serves": [
+        "hub"
+      ],
+      "solves": [
+        {
+          "text": "Gain hopper space and support the shooter with the bumper backing",
+          "basis": "team",
+          "src": [
+            "s7",
+            "s8"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Extra hopper space per side, about",
+          "basis": "team",
+          "src": [
+            "s7"
+          ],
+          "value": 1,
+          "unit": "in"
+        },
+        {
+          "text": "Mainly .090 in bent aluminum, with bent polycarbonate side panels reinforced with SRPP",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "3D printed stadium pieces funnel balls into the dye rotor",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Only the bumpers and the dye rotor sit between the shooter and the robot, so the turret is somewhat free spinning when the bumpers are off",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "does": [
+        "acquire"
+      ],
+      "type": "linear extending roller intake with independent sides",
+      "pieces": [
+        "fuel"
+      ],
+      "serves": [
+        "hub"
+      ],
+      "solves": [
+        {
+          "text": "Survive impacts by collapsing at once, with no crash bar",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Primary 3 in polycarbonate roller powered by two Kraken X60s at 3.45:1",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Bottom 1.5 in roller powered by one Kraken X44 at 1.5:1",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "The bottom roller is stored behind the front roller, drops on surgical tubing at the start of the match and is held by latches",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Doubled .25 in polycarbonate gear racks act as leaf springs, with one Kraken X44 on each side",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Each side slides independently and springs back out after a hit",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Extending hopper and net",
+      "does": [
+        "retain"
+      ],
+      "type": "extending hopper with a flexible net",
+      "pieces": [
+        "fuel"
+      ],
+      "serves": [
+        "hub"
+      ],
+      "solves": [
+        {
+          "text": "Add capacity while the starting configuration stays under the trench",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Holds under the trench, at least",
+          "basis": "team",
+          "src": [
+            "s7"
+          ],
+          "value": 85,
+          "unit": "balls"
+        },
+        {
+          "text": "Holds over the bump with the net, at least",
+          "basis": "team",
+          "src": [
+            "s7"
+          ],
+          "value": 100,
+          "unit": "balls"
+        },
+        {
+          "text": "A season reviewer gives its hopper as 80 fuel",
+          "basis": "observer",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "A slotted metal plate holds the net, and a plate below guards the turret gear",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "When full, the net could block the main Limelight's view of the hub tags, so two side cameras were added before the world championship",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dye Rotor",
+      "does": [
+        "transfer",
+        "retain"
+      ],
+      "type": "coaxially powered dye rotor with passive rollers",
+      "pieces": [
+        "fuel"
+      ],
+      "serves": [
+        "hub"
+      ],
+      "solves": [
+        {
+          "text": "Feed the shooter without jams or gaps",
+          "basis": "team",
+          "src": [
+            "s7",
+            "s8"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Two Kraken X60s drive the rollers, with 2.5:1 on the feeder wheels, and one rotates the rotor at 36.4:1",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Powered coaxially through a long belt and a reinforced gear train, not through a slip ring",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Passive rollers let each ball push the one ahead up the tunnel and lower current draw",
+          "basis": "team",
+          "src": [
+            "s7",
+            "s8"
+          ]
+        },
+        {
+          "text": "The vertical wheel sits inside the rotor, so balls settle in front of it with zero compression",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "A dolphin fin ramp on the outside of the slowly reversing rotor agitates balls and reduces packing pressure",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "A commenter says it indexed more slowly than 4946 but performed far better because it was short",
+          "basis": "observer",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter",
+      "does": [
+        "deliver"
+      ],
+      "type": "geared flywheel with a powered hood roller",
+      "pieces": [
+        "fuel"
+      ],
+      "serves": [
+        "hub"
+      ],
+      "solves": [
+        {
+          "text": "Recover speed fast and shoot far from a compact turret",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Four Kraken X44s geared 1:1 to a 3 in flywheel",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Three 1 in feeder wheels with .5 in compression, and a 1 in hood roller at half the surface speed",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Every wheel in the shooter is geared together",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Copper flywheels .25 in thick, plus copper discs inside the wheels",
+          "basis": "team",
+          "src": [
+            "s7",
+            "s8"
+          ]
+        },
+        {
+          "text": "Two GT2 belts over the hood side plates drive the hood roller",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Hood driven by one Kraken X44 at 85.3:1",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "All motors are stacked vertically so few parts protrude",
+          "basis": "team",
+          "src": [
+            "s7",
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Turret",
+      "does": [
+        "position"
+      ],
+      "type": "compact turret on an X-contact bearing",
+      "pieces": [
+        "fuel"
+      ],
+      "serves": [
+        "hub"
+      ],
+      "solves": [
+        {
+          "text": "Go around defense, in little height",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "One Kraken X44 at 55.7:1",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "The X-contact bearing is shared by the dye rotor and the shooter",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "A sliding flex-wheel tensioner with two 8 lb constant force springs takes up the cable chain",
+          "basis": "team",
+          "src": [
+            "s7",
+            "s8"
+          ]
+        },
+        {
+          "text": "Height of the turret and cable chain stack-up, less than",
+          "basis": "team",
+          "src": [
+            "s8"
+          ],
+          "value": 2,
+          "unit": "in"
+        }
+      ]
+    },
+    {
+      "name": "Software",
+      "does": [
+        "sense"
+      ],
+      "type": "precomputed shot map with tilt compensation",
+      "pieces": [
+        "fuel"
+      ],
+      "serves": [
+        "hub"
+      ],
+      "solves": [
+        {
+          "text": "Shoot and feed while moving, tilted or under defense",
+          "basis": "team",
+          "src": [
+            "s7",
+            "s8"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "For a range of distances and robot velocities it computes all possible scoring shots beforehand and finds the one most robust to errors",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Shots simulated in one sweep for the hub, about",
+          "basis": "team",
+          "src": [
+            "s8"
+          ],
+          "value": 29000,
+          "unit": "shots"
+        },
+        {
+          "text": "A second-order polynomial looks up hood angle and flywheel speed at runtime; the turret compensates for tangential velocity",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Robot pitch and yaw correct the shot so it can shoot on the bump",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "One Limelight that always points at the hub does about 95 percent of localization; two side cameras help when it cannot see tags",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Fully state-machine based, with no commands",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Gear all shooter wheels together",
+      "because": "iteration found it the most consistent and accurate setup, which surprised the team",
+      "instead_of": "an independent feeder that regulates speed before the flywheel",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    },
+    {
+      "choice": "Change from command-based code to state machines",
+      "because": "command-based code caused loop overruns and was harder to debug",
+      "instead_of": "command-based code",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    },
+    {
+      "choice": "Add a hood roller between the district and world championships",
+      "because": "the static hood took a lot of current and could not shoot or pass very far",
+      "instead_of": "a static hood",
+      "cost": "its belts took space for flywheel inertia",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    },
+    {
+      "choice": "Use copper for flywheel mass",
+      "because": "the hood roller belts left little space and copper is slightly denser than steel",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    },
+    {
+      "choice": "Chamfer the back corners with custom swerve modules",
+      "because": "balls pack better than in square corners and the drive base is larger for the same perimeter",
+      "cost": "custom module plates and difficult packaging around the dye rotor",
+      "basis": "team",
+      "src": [
+        "s7",
+        "s8"
+      ]
+    },
+    {
+      "choice": "Extend the bumpers into hopper walls",
+      "because": "newer bumper rules allow about an inch and a half of hard parts beyond the frame, and a dye rotor can use extra space on three sides",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    },
+    {
+      "choice": "Thick polycarbonate front roller with no crash bar",
+      "because": "it needs no sacrificial material in front and helps compliance",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    },
+    {
+      "choice": "Cut the turret gear at 20 DP",
+      "because": "it doubles the ratio available compared with 10 DP, so the gearbox is compact",
+      "instead_of": "10 DP",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    },
+    {
+      "choice": "Write fully state-machine code with no commands",
+      "because": "it is easier to reason about for the AI agents that attempt features, which people review",
+      "basis": "team",
+      "src": [
+        "s7"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=9VpVZiApRFw",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=XM7l9Z1HiDs",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "How to Win a World Championship | FRC Strategy Analysis",
+        "url": "https://www.youtube.com/watch?v=-Cm-RuiSNlU",
+        "format": "video",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "4414 & 3476 just previewed SOCAL DCMP | FRC FUNalysis",
+        "url": "https://www.youtube.com/watch?v=1BxpnSIuGAs",
+        "format": "video",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "Full robot with red 4414 bumpers among yellow balls",
+        "url": "https://imgur.com/0DqbRg6",
+        "img": "https://i.imgur.com/0DqbRg6h.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s5",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Photo page (picture not shown here)",
+        "url": "https://imgur.com/mYDBhBN",
+        "format": "image",
+        "state": "opened",
+        "src": "s6"
+      }
+    ],
+    "documents": [
+      {
+        "what": "2026 technical binder (text read; its Tide Apps section was not captured)",
+        "url": "https://2026.team4414.com/",
+        "format": "web page",
+        "state": "listed",
+        "src": "s7"
+      },
+      {
+        "what": "Binder announcement thread, RIPCURRENT",
+        "url": "https://www.chiefdelphi.com/t/team-4414-hightide-2026-tech-binder-ripcurrent/519602",
+        "format": "thread",
+        "state": "listed",
+        "src": "s9"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/team4414",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)"
+  ],
+  "results": {
+    "division": "Daly",
+    "division_opr": 429.48,
+    "opr_rank": 1,
+    "record": "70-2-0",
+    "einstein": {
+      "division": "Daly",
+      "role": "captain"
+    },
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

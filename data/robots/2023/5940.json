@@ -1,0 +1,830 @@
+{
+  "id": "2023-5940",
+  "season": 2023,
+  "team": "5940",
+  "team_name": "BREAD",
+  "robot_name": "Pain d’Epi",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 5940 in 2023",
+      "url": "https://www.thebluealliance.com/team/5940/2023",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Curie Division 2023",
+      "url": "https://www.thebluealliance.com/event/2023cur",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "5940 BREAD 2023 CAD and Code Release (49)",
+      "url": "https://www.chiefdelphi.com/t/5940-bread-2023-cad-and-code-release/445374",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "2023",
+      "url": "https://www.team5940.org/2023",
+      "publisher": "team5940.org",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "5940 2023 Beta Architecture slides",
+      "url": "https://docs.google.com/presentation/d/1h7VFjwIe5MtF-dhjFE_dFsAicv6iVwkUcQ5WZjwXDBo",
+      "publisher": "docs.google.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "5940 2023-Onseason (Pain d'Epi)",
+      "url": "https://github.com/BREAD5940/2023-Onseason",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "5940 BREAD 1+2 Auto 2023",
+      "url": "https://www.chiefdelphi.com/t/5940-bread-1-2-auto-2023/423761",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/K5zPXYd",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Onshape document",
+      "url": "https://cad.onshape.com/documents/a08a30adff511fc3f6559ad9/w/364883dad964afea8a87f8e7",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Behind the Bumpers | 5940 BREAD | Charged Up Robot (captions; filmed at Chezy Champs, after the championship)",
+      "url": "https://www.youtube.com/watch?v=merzyA-beto",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "5940 BREAD 2023 CAD and Code Release, post 49",
+      "url": "https://www.chiefdelphi.com/t/5940-bread-2023-cad-and-code-release/445374/49",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "What are your favorite robots that mastered mechanical efficiency",
+      "url": "https://www.chiefdelphi.com/t/what-are-your-favorite-robots-that-mastered-mechanical-efficiency/525130",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Placement speed: an alpha robot with a tilted elevator showed that placing quickly was one of the most important things, so later versions were built to speed it up.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "A reply that reads as the team's says day 1 gave each action a points-per-second score, and that there was little reason to focus on one piece. Another says many Worlds matches would tie at 193, so a match could turn on auto points. It adds that supercharging meant this did not matter too much.",
+        "basis": "observer",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "The intake is on the back so the robot need not turn, and the AprilTag pose worked well for placing cubes.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      },
+      {
+        "text": "A reply that reads as the team's says the cone and cube floor intake allows two cones and a cube, completing a high link.",
+        "basis": "observer",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The robot takes pieces at a substation or over the wide back intake. The operator picks only the piece and level; the robot finds the closest open node, drives there and scores.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "Forks drop onto the charge station. Pulling down from a slightly offset point lifts the front of the robot first, then pivots it.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "In a hard hit the belted arm drive can skip teeth and then return to use, says a post that reads as the team's.",
+        "basis": "observer",
+        "src": [
+          "s11"
+        ]
+      }
+    ],
+    "gave_up": [],
+    "changed": [
+      {
+        "text": "An alpha robot was built early to de-risk subsystems: an elevator the team had built in the off-season, strapped on at an angle. The gear ratio started slower and rose through the season.",
+        "basis": "team",
+        "src": [
+          "s7",
+          "s10"
+        ]
+      },
+      {
+        "text": "Beta slides moved from an arm under the carriage to a flip-over arm.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      },
+      {
+        "text": "Replies that read as the team's say beta had a cube-only floor intake and the cone roller came later.",
+        "basis": "observer",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "40-9-0 in official play; ranked 4 of the pooled top 20 (OPR 79.28, Curie).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Swerve",
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "The team site lists four MK4i modules with blue nitrile tread",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A thread reply that reads as the team's says WCP SwerveX instead",
+          "basis": "observer",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cube intake",
+      "pieces": [
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Take cubes at the back of the robot, so it need not turn in auto",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "full-width flip-down rear roller intake",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Mecanum wheels move the cube against a plate to center it",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "The team site lists extending rollers based on the previous year's intake",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cone intake",
+      "pieces": [
+        "cone"
+      ],
+      "solves": [
+        {
+          "text": "A tipped cone taken in at the back would be placed upside down as the arm rotates; this turns it without another powered joint",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "transfer"
+      ],
+      "type": "floating tubing-sprung roller added to the cube intake",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "The pivot floats, held out by surgical tubing; the force of the roller motor rotates it down and pushes the cone to an angle the gripper can take",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "It collects cones across the full width, so the driver need not be nearly as precise",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "The rollers lock once a cone is far enough in, so the 2 in cone roller pivots around the 3 in polycarbonate roller to a hard stop (reads as the team's reply)",
+          "basis": "observer",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "It needs no added motor, which would have put the robot over the weight limit (reads as the team's reply)",
+          "basis": "observer",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "End effector",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Grip either piece, optimized for the single and double substations because the wide intake handles the floor",
+          "basis": "team",
+          "src": [
+            "s10",
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "retain",
+        "deliver"
+      ],
+      "type": "double-wheel gripper",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Double wheels grab cones or cubes, and a beam break senses possession",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arm",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Pivot back to take a cube from the rear intake and then pivot to score, with no pass-through",
+          "basis": "observer",
+          "src": [
+            "s12"
+          ]
+        }
+      ],
+      "does": [
+        "position",
+        "transfer"
+      ],
+      "type": "single-pivot belted arm on the elevator",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Belts run from a belt box to the pivot, and cables route through the pivot so there is no cable chain",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "The team site lists a wrist that angles the end effector with two belts and pulleys",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Beta slides: flip-over range of motion about",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 300,
+          "unit": "deg"
+        },
+        {
+          "text": "Beta slides: all-belted joint, 15 mm belts except a 9 mm first stage, smallest pulley 18 teeth in metal",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Every stage is belted, with an absolute encoder at the final point of rotation (reads as the team's post)",
+          "basis": "observer",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Beta slides: the belt box pulley locations force a 27 x 28 in drive base",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Skipping teeth is not great for the belts over time (reads as the team's post)",
+          "basis": "observer",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Angled elevator",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Place cones and cubes with fewer degrees of freedom by extending at an angle",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "tilted two-stage elevator with an overextending carriage",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Two stages, with a carriage that extends past the top of the second",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Dyneema runs inside the tubes so it cannot catch; the team says it never snapped",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "The team site counts three carriages",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Beta slides: elevator width about",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 11,
+          "unit": "in"
+        }
+      ]
+    },
+    {
+      "name": "Forks",
+      "solves": [
+        {
+          "text": "Get the robot off the ground and hold it until the match ends",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "one-motor lift-and-pivot forks",
+      "serves": [
+        "charge-station"
+      ],
+      "facts": [
+        {
+          "text": "Rotating the gearbox releases the forks through cams, and springs drop them onto the charge station",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "One motor does both with the cams and a string",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "A forum post says side forks free room on the charge station for other robots",
+          "basis": "observer",
+          "src": [
+            "s12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Auto placement",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Remove manual alignment from scoring so cycles are fast and consistent",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "position"
+      ],
+      "type": "AprilTag pose plus Limelight on retroreflective tape",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Wheel odometry is combined with three AprilTag cameras, two at the sides and one in front, on an Orange Pi 5",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "A front Limelight on the reflective tape fine-tunes cone placement",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "A cone node counts as filled when its tape is blocked, and the robot picks the closest open node",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Underside electronics",
+      "solves": [
+        {
+          "text": "Reach the wiring without digging through the robot, and free the space above (reads as the team's reply)",
+          "basis": "observer",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "electronics mounted below the belly pan",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Easy access depends on the panel below being quick to remove (reads as the team's reply)",
+          "basis": "observer",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The robot must be flipped each time (reads as the team's reply)",
+          "basis": "observer",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Intake on the back of the robot",
+      "because": "not having to turn in auto would be an advantage",
+      "instead_of": "intaking and scoring on the same side, as many teams did",
+      "basis": "team",
+      "src": [
+        "s10"
+      ]
+    },
+    {
+      "choice": "Turn cones with a floating sprung roller",
+      "because": "the arm would otherwise place them upside down",
+      "instead_of": "another degree of freedom",
+      "basis": "team",
+      "src": [
+        "s10"
+      ]
+    },
+    {
+      "choice": "Limelight on the tape for cones",
+      "because": "something more accurate than the AprilTag pose was needed for cones",
+      "instead_of": "AprilTags and odometry alone, which worked for cubes",
+      "basis": "team",
+      "src": [
+        "s10"
+      ]
+    },
+    {
+      "choice": "Forks that lift and then pivot",
+      "because": "the team thought either motion alone would not get the robot off the ground and hold it until the match ended",
+      "instead_of": "only lifting or only rotating",
+      "basis": "team",
+      "src": [
+        "s10"
+      ]
+    },
+    {
+      "choice": "Dyneema elevator (reads as the team's reply)",
+      "because": "it was easier to package: it routes through the tubes, and the belt gearbox took too much room",
+      "instead_of": "a belted elevator, tested on a 2022 project elevator",
+      "basis": "observer",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "Fully belted arm gearbox (reads as the team's post)",
+      "because": "gears that strip in an impact put a subsystem out for the match, while belts can skip and recover",
+      "cost": "wear on the belts over time",
+      "basis": "observer",
+      "src": [
+        "s11"
+      ]
+    },
+    {
+      "choice": "Cone roller added after beta (reads as the team's reply)",
+      "because": "two cones and a cube could then be placed in auto, where tied Worlds matches would be decided; the reply adds that supercharging meant this did not matter too much",
+      "instead_of": "the kickoff choice not to collect cones from the floor",
+      "basis": "observer",
+      "src": [
+        "s3"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "CAD listed on the team page",
+        "url": "https://cad.onshape.com/documents/a08a30adff511fc3f6559ad9/w/364883dad964afea8a87f8e7",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "5940 BREAD 2023 CAD and Code Release (49)",
+        "url": "https://www.chiefdelphi.com/t/5940-bread-2023-cad-and-code-release/445374",
+        "format": "thread",
+        "state": "listed",
+        "src": "s3",
+        "holds": "Onshape"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=4uY-84Esq5M",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=merzyA-beto",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "2023",
+        "url": "https://www.team5940.org/2023",
+        "format": "web page",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "5940 1+2 auto, 2023 (alpha robot, not the competition robot)",
+        "url": "https://www.chiefdelphi.com/t/5940-bread-1-2-auto-2023/423761",
+        "format": "thread",
+        "state": "listed",
+        "src": "s7"
+      },
+      {
+        "what": "Full robot driving with a purple cube",
+        "url": "https://imgur.com/K5zPXYd",
+        "img": "https://i.imgur.com/K5zPXYdh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "CAD of the angled arm and base frame",
+        "url": "https://cad.onshape.com/documents/a08a30adff511fc3f6559ad9/w/364883dad964afea8a87f8e7",
+        "img": "https://cad.onshape.com/api/thumbnails/d/a08a30adff511fc3f6559ad9/w/364883dad964afea8a87f8e7/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s9",
+        "kind": "cad"
+      },
+      {
+        "what": "Layout sketch of the robot arm and goal positions",
+        "url": "https://www.chiefdelphi.com/t/5940-bread-2023-cad-and-code-release/445374",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/1/a/1a6dd75e57c8c4768f0d71f77c0a90b9a7a2ba4b_2_690x461.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s3",
+        "kind": "drawing"
+      },
+      {
+        "what": "Layout sketch of the intake with dimensions",
+        "url": "https://www.chiefdelphi.com/t/5940-bread-2023-cad-and-code-release/445374",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/d/4/d4896fe22c5cfd382417c1590c92ffa373ec1ea6_2_690x407.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s3",
+        "kind": "drawing"
+      },
+      {
+        "what": "Intake side view showing surgical tubing and Dyneema limit",
+        "url": "https://www.chiefdelphi.com/t/5940-bread-2023-cad-and-code-release/445374",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/4/6/4612663cfc52cb0046c1f2a42440e1c8c860151b_2_690x380.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s3",
+        "kind": "diagram"
+      },
+      {
+        "what": "Robot holding a yellow cone on the field",
+        "url": "https://www.team5940.org/2023",
+        "img": "https://images.squarespace-cdn.com/content/v1/5646a78be4b0fa024db54077/1693602568736-CEHQUIO2ZXTZOEEOGX80/P1174192.JPG",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Dimensioned concept sketch of a long arm that was not built",
+        "url": "https://www.chiefdelphi.com/t/5940-bread-2023-cad-and-code-release/445374",
+        "img": "https://www.chiefdelphi.com/uploads/default/original/3X/6/6/66926ad7dc3c7746d90caf85724f01a9ebe363db.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s3",
+        "kind": "drawing"
+      },
+      {
+        "what": "Three-piece auto video (not watched)",
+        "url": "https://www.youtube.com/watch?v=9lz-ed8U4ps",
+        "format": "video",
+        "state": "listed",
+        "src": "s3"
+      }
+    ],
+    "documents": [
+      {
+        "what": "5940 2023 Beta Architecture slides",
+        "url": "https://docs.google.com/presentation/d/1h7VFjwIe5MtF-dhjFE_dFsAicv6iVwkUcQ5WZjwXDBo",
+        "format": "Google Slides",
+        "state": "opened",
+        "src": "s5"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/bread5940",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "5940 2023-Onseason (Pain d'Epi)",
+        "url": "https://github.com/BREAD5940/2023-Onseason",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s6"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: Chief Delphi searches for 5940 in titles and 5940 tech binder, 29 team-site pages; only the beta slides found (text read, drawings not read)",
+    "CAD and code thread, first page and post 49"
+  ],
+  "results": {
+    "division": "Curie",
+    "division_opr": 79.28,
+    "opr_rank": 4,
+    "record": "40-9-0",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

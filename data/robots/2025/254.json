@@ -1,0 +1,958 @@
+{
+  "id": "2025-254",
+  "season": 2025,
+  "team": "254",
+  "team_name": "The Cheesy Poofs",
+  "robot_name": "UNDERTOW",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 254 2025 Technical Binder",
+      "url": "https://media.team254.com/2025/09/985607eb-2025-Tech-Binder-254.pdf",
+      "publisher": "Team 254",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Team 254 Presents: 2025 UNDERTOW - Technical Binder, Code, Q&A",
+      "url": "https://www.chiefdelphi.com/t/506115",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "Team 254 in 2025",
+      "url": "https://www.thebluealliance.com/team/254/2025",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Milstein Division 2025",
+      "url": "https://www.thebluealliance.com/event/2025mil",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "2025 REEFSCAPE",
+      "url": "https://www.team254.com/frc/2025/",
+      "publisher": "team254.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "254 FRC-2025-Public (Undertow)",
+      "url": "https://github.com/Team254/FRC-2025-Public",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/V1YH8Ex",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/lxJkr7J",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Team 254 Presents: Undertow (reveal)",
+      "url": "https://www.chiefdelphi.com/t/team-254-presents-undertow/495497",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Team 254 Presents: 2025 UNDERTOW - Technical Binder, Code, Q&A (post 50)",
+      "url": "https://www.chiefdelphi.com/t/team-254-presents-2025-undertow-technical-binder-code-q-a/506115/50",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Team 254 Presents: Undertow (post 66)",
+      "url": "https://www.chiefdelphi.com/t/team-254-presents-undertow/495497/66",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Most Common Issues Seen 2025",
+      "url": "https://www.chiefdelphi.com/t/most-common-issues-seen-2025/505274",
+      "publisher": "Chief Delphi, opening post by the mentor of Team 254's CheesyCare group",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "CoralStateTracker.java, FRC-2025-Public",
+      "url": "https://raw.githubusercontent.com/Team254/FRC-2025-Public/ae1aa582b1cadb8462e6cb90718880d11a8f42b1/src/main/java/com/team254/frc2025/subsystems/superstructure/CoralStateTracker.java",
+      "publisher": "Team 254 on GitHub",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Spend no time lining up: the End Effector's \"Flying V\" wedge aligns it to the tip of the Reef pipe.",
+        "basis": "team",
+        "src": [
+          "s1"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "Win matches with efficient coral scoring, focused on L3 and L4, that is resilient to defense. Collect ranking points with three or more coral in auto and a deep cage climb, and score algae in the processor to help coopertition.",
+        "basis": "team",
+        "src": [
+          "s1"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "The driver picks a scoring sequence. A* and AD* generate paths around obstacles in real time, and common feeder-to-branch paths are cached when the robot initializes.",
+        "basis": "team",
+        "src": [
+          "s1"
+        ]
+      },
+      {
+        "text": "A reply that reads as the team's says caching saved over 100 ms per path and was needed for five pieces.",
+        "basis": "observer",
+        "src": [
+          "s2"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "Take coral from the floor Intake or the Funnel; the Indexer aligns it into the End Effector. The Elevator goes to level, auto align brings the robot in, the Flying V finds the pipe, and a beam break that detects the pipe triggers the release.",
+        "basis": "team",
+        "src": [
+          "s1"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "The roller claw deploys, its powered wheels grab the deep cage into a latch, and a winch pivots the claw to pull the robot under the cage and off the ground.",
+        "basis": "team",
+        "src": [
+          "s1"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "The Funnel takes coral from the Coral Station if the Intake breaks.",
+        "basis": "team",
+        "src": [
+          "s1"
+        ]
+      },
+      {
+        "text": "A reply that reads as the team's says it was used a lot at Sacramento and East Bay, and kept as a failsafe though unlikely to be needed at the championship.",
+        "basis": "observer",
+        "src": [
+          "s2"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "A post that reads as the team's says the robot placed coral with its drivetrain, so it could not strafe in: lateral and heading error had to be within tolerance first, and near the reef it had to back up.",
+        "basis": "observer",
+        "src": [
+          "s11"
+        ]
+      },
+      {
+        "text": "The team called its L1 as good as anyone's but scorable only opposite the ground intake, and wanted more climber space and power.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "A one-week AlphaBot showed that an end effector without alignment compliance sometimes drops coral. L1 scoring was removed on practice day of the first event because it was not working, and stayed off for that event.",
+        "basis": "team",
+        "src": [
+          "s1",
+          "s12"
+        ]
+      },
+      {
+        "text": "After the season, a post that reads as the team's said it would choose a more traditional end effector, since aligning to the pipe proved much easier than expected.",
+        "basis": "observer",
+        "src": [
+          "s11"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "42-7-0 in official play; ranked 10 of the pooled top 20 (OPR 106.58, Milstein).",
+        "basis": "record",
+        "src": [
+          "s3",
+          "s4"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drivebase",
+      "solves": [
+        {
+          "text": "Accelerate hard on short cycles and resist tipping",
+          "basis": "team",
+          "src": [
+            "s1"
+          ]
+        }
+      ],
+      "does": [
+        "drive",
+        "structure"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "WCP X2i modules with a 10 tooth X1 reduction; free speed, about",
+          "basis": "team",
+          "src": [
+            "s1"
+          ],
+          "value": 13.2,
+          "unit": "ft/s"
+        },
+        {
+          "text": "Square frame side",
+          "basis": "team",
+          "src": [
+            "s1"
+          ],
+          "value": 29.5,
+          "unit": "in"
+        },
+        {
+          "text": "3x1 tubes put the bellypan above the floor by",
+          "basis": "team",
+          "src": [
+            "s1"
+          ],
+          "value": 0.625,
+          "unit": "in"
+        },
+        {
+          "text": "Motors on the robot",
+          "basis": "team",
+          "src": [
+            "s1"
+          ],
+          "value": 18,
+          "unit": "motors"
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Pick up coral from the floor in any orientation without jamming",
+          "basis": "team",
+          "src": [
+            "s1"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The binder says the deploy gear drives a 4-bar linkage; a reply that reads as the team's says the intake was not a 4-bar, took more force from front and side impacts, and broke a couple of times at the regionals",
+          "basis": "observer",
+          "src": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "over-bumper roller intake",
+      "serves": [
+        "reef-branches",
+        "reef-l1"
+      ],
+      "facts": [
+        {
+          "text": "Deploys in about",
+          "basis": "team",
+          "src": [
+            "s1"
+          ],
+          "value": 0.15,
+          "unit": "s"
+        },
+        {
+          "text": "Roller surface speed, about",
+          "basis": "team",
+          "src": [
+            "s1"
+          ],
+          "value": 15,
+          "unit": "ft/s"
+        },
+        {
+          "text": "Rollers are rubber tubing over foam, for smooth, light, continuous surfaces",
+          "basis": "team",
+          "src": [
+            "s1"
+          ]
+        },
+        {
+          "text": "The front roller floats on a sprung plate: it opens for long-ways coral and collapses against a wall",
+          "basis": "team",
+          "src": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Rubber bands act as flat belts that pull coral through dead spots",
+          "basis": "team",
+          "src": [
+            "s1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Funnel",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Take coral directly from the Coral Station in autonomous, or if the Intake breaks",
+          "basis": "team",
+          "src": [
+            "s1"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "passive polycarbonate funnel",
+      "serves": [
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "Works with the bumpers this far from the station wall",
+          "basis": "team",
+          "src": [
+            "s1"
+          ],
+          "value": 1,
+          "unit": "ft"
+        },
+        {
+          "text": "Steep angle for greater funneling speed",
+          "basis": "team",
+          "src": [
+            "s1"
+          ],
+          "value": 50,
+          "unit": "deg"
+        },
+        {
+          "text": "1/32 in polycarbonate stiffened by edge bends and carbon fiber rods",
+          "basis": "team",
+          "src": [
+            "s1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Indexer",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Reorient coral from two sources and align it for handoff to the End Effector",
+          "basis": "team",
+          "src": [
+            "s1"
+          ]
+        }
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "flex and star wheel indexer",
+      "serves": [
+        "reef-branches",
+        "reef-l1"
+      ],
+      "facts": [
+        {
+          "text": "Eight 4 in flex and star wheels, with cut rims and spokes to prevent jams",
+          "basis": "team",
+          "src": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Wheel surface speed, about",
+          "basis": "team",
+          "src": [
+            "s1"
+          ],
+          "value": 30,
+          "unit": "ft/s"
+        },
+        {
+          "text": "Two beam breaks, front and rear, inform the state machine",
+          "basis": "team",
+          "src": [
+            "s1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elevator",
+      "solves": [
+        {
+          "text": "Lift the End Effector to all four reef levels and the Barge, stiff enough to place accurately",
+          "basis": "team",
+          "src": [
+            "s1"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "two-stage continuous belt elevator",
+      "serves": [
+        "reef-l1",
+        "reef-branches",
+        "net"
+      ],
+      "facts": [
+        {
+          "text": "Travel, about",
+          "basis": "team",
+          "src": [
+            "s1"
+          ],
+          "value": 52,
+          "unit": "in"
+        },
+        {
+          "text": "Full travel in about",
+          "basis": "team",
+          "src": [
+            "s1"
+          ],
+          "value": 0.3,
+          "unit": "s"
+        },
+        {
+          "text": "Two Kraken X60s; 9 mm belts run inside the tubes",
+          "basis": "team",
+          "src": [
+            "s1"
+          ]
+        },
+        {
+          "text": "A welded A-frame stabilizes it and mounts the Climber",
+          "basis": "team",
+          "src": [
+            "s1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "End Effector",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Place coral without missing or stopping to line up, and handle algae with the same mechanism",
+          "basis": "team",
+          "src": [
+            "s1"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "A post that reads as the team's says the design added many constraints (handoff, L1, sensing, not de-scoring, algae, weight), with issues still being fought in the Milstein playoffs",
+          "basis": "observer",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "deliver",
+        "position",
+        "retain",
+        "acquire"
+      ],
+      "type": "wristed flex-wheel scorer with a Flying V",
+      "serves": [
+        "reef-l1",
+        "reef-branches",
+        "processor",
+        "net"
+      ],
+      "facts": [
+        {
+          "text": "Wrist rotation",
+          "basis": "team",
+          "src": [
+            "s1"
+          ],
+          "value": 210,
+          "unit": "deg"
+        },
+        {
+          "text": "Wrist rotates in about",
+          "basis": "team",
+          "src": [
+            "s1"
+          ],
+          "value": 0.2,
+          "unit": "s"
+        },
+        {
+          "text": "Coral wheel surface speed, about",
+          "basis": "team",
+          "src": [
+            "s1"
+          ],
+          "value": 13,
+          "unit": "ft/s"
+        },
+        {
+          "text": "Beam breaks position the coral and detect the pipe, which triggers the release",
+          "basis": "team",
+          "src": [
+            "s1"
+          ]
+        },
+        {
+          "text": "A sprung hoop lets coral pass through for L1 and becomes a hardstop during handoff",
+          "basis": "team",
+          "src": [
+            "s1"
+          ]
+        },
+        {
+          "text": "A stealth wheel and grippy studs grab algae, on the motor shared with coral",
+          "basis": "team",
+          "src": [
+            "s1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Align to the deep cage and climb it quickly",
+          "basis": "team",
+          "src": [
+            "s1"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The team says brushing bumpers against an unclimbed partner could lose the climb, and wishes it climbed higher",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "roller claw with latch and winch",
+      "serves": [
+        "cage"
+      ],
+      "facts": [
+        {
+          "text": "Two 4 in flex wheels grab the vertical pipe of the cage",
+          "basis": "team",
+          "src": [
+            "s1"
+          ]
+        },
+        {
+          "text": "A 30 lbf gas spring deploys the claw",
+          "basis": "team",
+          "src": [
+            "s1"
+          ]
+        },
+        {
+          "text": "The winch sits on the bellypan for a lower center of gravity; gearbox 1:224 on a Kraken X60",
+          "basis": "team",
+          "src": [
+            "s1"
+          ]
+        },
+        {
+          "text": "A ratchet and pawl holds the robot up after the match",
+          "basis": "team",
+          "src": [
+            "s1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Localization",
+      "solves": [
+        {
+          "text": "Know the robot's position for auto-align scoring and obstacle avoidance",
+          "basis": "team",
+          "src": [
+            "s1"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "Limelight AprilTag vision with swerve odometry",
+      "serves": [
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "Two Limelight 4s give a MegaTag 1 pose near tags; farther away odometry leads, with periodic vision corrections",
+          "basis": "team",
+          "src": [
+            "s1"
+          ]
+        },
+        {
+          "text": "A reply that reads as the team's says it used MegaTag 1 range with gyro bearing unless it saw several tags or was very close, and only the tag on the scoring face when scoring",
+          "basis": "observer",
+          "src": [
+            "s2"
+          ]
+        },
+        {
+          "text": "The AlphaBot showed cameras must be set back from the corners to see tags near the reef",
+          "basis": "team",
+          "src": [
+            "s1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Autonomous and auto-align paths",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Drive optimized, collision-free paths in autonomous",
+          "basis": "team",
+          "src": [
+            "s1"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "cached on-the-fly path planning",
+      "serves": [
+        "leave",
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "Pre-computed paths are merged with on-the-fly paths",
+          "basis": "team",
+          "src": [
+            "s1"
+          ]
+        },
+        {
+          "text": "A reply that reads as the team's says PID control acted about the held coral instead of the robot's center, because that is the point that matters",
+          "basis": "observer",
+          "src": [
+            "s2"
+          ]
+        },
+        {
+          "text": "The same reply says robot-relative tracking gave cross-track error its own gain, since it was the less forgiving error at the peg",
+          "basis": "observer",
+          "src": [
+            "s2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tele-op state machine",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Let a single driver run every mechanism",
+          "basis": "team",
+          "src": [
+            "s1"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "centralized state machine with driver modes",
+      "serves": [],
+      "facts": [
+        {
+          "text": "The driver selects coral, manual coral, or algae and climb modes; presets move the Elevator and End Effector together",
+          "basis": "team",
+          "src": [
+            "s1"
+          ]
+        },
+        {
+          "text": "The published code tracks coral in six states from the indexer and claw sensors, and resets to none when a wait times out",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Passive alignment in the End Effector",
+      "because": "it removes time spent lining up and dropped coral",
+      "instead_of": "an end effector without alignment compliance, tried on the AlphaBot",
+      "basis": "team",
+      "src": [
+        "s1"
+      ]
+    },
+    {
+      "choice": "Drive into the reef to score",
+      "because": "a scoring motion that coordinates elevator and arm is slower",
+      "instead_of": "a pivoting arm, tried on the AlphaBot",
+      "basis": "team",
+      "src": [
+        "s1"
+      ]
+    },
+    {
+      "choice": "Lift algae and shoot it lightly into the Barge",
+      "because": "the team wanted never to miss",
+      "instead_of": "shooting from the floor",
+      "basis": "team",
+      "src": [
+        "s1"
+      ]
+    },
+    {
+      "choice": "Low-speed, high-acceleration gearing",
+      "because": "cycles are short",
+      "basis": "team",
+      "src": [
+        "s1"
+      ]
+    },
+    {
+      "choice": "WCP X2i modules",
+      "because": "the wheel is 2 in wide and grippier, and the azimuth runs on a gear",
+      "instead_of": "the SDS MK4i modules of previous years, with a belt azimuth",
+      "basis": "team",
+      "src": [
+        "s1"
+      ]
+    },
+    {
+      "choice": "Intake on the side opposite scoring",
+      "because": "it minimizes the distance and rotations needed",
+      "basis": "team",
+      "src": [
+        "s1"
+      ]
+    },
+    {
+      "choice": "Keep a Funnel beside the floor Intake",
+      "because": "it is an alternate path for autonomous and redundancy if the Intake breaks",
+      "basis": "team",
+      "src": [
+        "s1"
+      ]
+    },
+    {
+      "choice": "Remove L1 scoring at the first event",
+      "because": "it was not working, and the robot did better than if the team had kept solving it live",
+      "basis": "team",
+      "src": [
+        "s12"
+      ]
+    },
+    {
+      "choice": "Build an AlphaBot in one week on the 2023 elevator and drivebase",
+      "because": "the team wanted to learn gameplay early and give software a robot to develop on",
+      "basis": "team",
+      "src": [
+        "s1"
+      ]
+    },
+    {
+      "choice": "Cache paths when the robot initializes",
+      "because": "it saved over 100 ms per path in autonomous, needed for five pieces (from a reply that reads as the team's)",
+      "instead_of": "generating each path when needed",
+      "basis": "observer",
+      "src": [
+        "s2"
+      ]
+    }
+  ],
+  "assets": {
+    "documents": [
+      {
+        "what": "2025 technical binder",
+        "url": "https://media.team254.com/2025/09/985607eb-2025-Tech-Binder-254.pdf",
+        "format": "PDF",
+        "state": "opened",
+        "src": "s1"
+      }
+    ],
+    "code": [
+      {
+        "what": "Code announced in the binder thread",
+        "url": "https://www.chiefdelphi.com/t/506115",
+        "format": "thread",
+        "state": "listed",
+        "src": "s2"
+      },
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/team254",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "254 FRC-2025-Public (Undertow)",
+        "url": "https://github.com/Team254/FRC-2025-Public",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s6"
+      }
+    ],
+    "cad": [
+      {
+        "what": "The team says it does not publish CAD",
+        "format": "none",
+        "state": "withheld",
+        "src": "s2"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/MZ3lWM4",
+        "format": "image",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "2025 REEFSCAPE",
+        "url": "https://www.team254.com/frc/2025/",
+        "format": "web page",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "Full robot on the field, elevator lowered",
+        "url": "https://imgur.com/V1YH8Ex",
+        "img": "https://i.imgur.com/V1YH8Exh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s7",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot on a white background, blue bumpers",
+        "url": "https://imgur.com/lxJkr7J",
+        "img": "https://i.imgur.com/lxJkr7Jh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Carriage and rollers, close-up, with a green marked area",
+        "url": "https://www.chiefdelphi.com/t/team-254-presents-undertow/495497",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/2/4/246d3fb27b07cc942c7efffc27fb8829d6de9a6d_2_532x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s9",
+        "kind": "mechanism"
+      },
+      {
+        "what": "Match video linked by the team",
+        "url": "https://www.youtube.com/watch?v=lIte-HVJZgY",
+        "format": "video",
+        "state": "listed",
+        "src": "s2"
+      },
+      {
+        "what": "Reveal video",
+        "url": "https://www.youtube.com/watch?v=VsM3n2gduFI",
+        "format": "video",
+        "state": "listed",
+        "src": "s9"
+      }
+    ]
+  },
+  "searched": [
+    "2025 technical binder, text extraction (figures not read)",
+    "captured pages of the binder thread (first page, post 50) and reveal thread (first page, post 66)"
+  ],
+  "results": {
+    "division": "Milstein",
+    "division_opr": 106.58,
+    "opr_rank": 10,
+    "record": "42-7-0",
+    "einstein": null,
+    "src": [
+      "s3",
+      "s4"
+    ]
+  }
+}

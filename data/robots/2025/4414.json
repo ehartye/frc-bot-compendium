@@ -1,0 +1,600 @@
+{
+  "id": "2025-4414",
+  "season": 2025,
+  "team": "4414",
+  "team_name": "HighTide",
+  "robot_name": null,
+  "variant": "Second robot of the season. The team's OVERHEAD thread opened with the first robot and later covers the rebuild; no page we read names the second robot separately.",
+  "sources": {
+    "s1": {
+      "title": "Team 4414 HighTide - 2025 Robot: OVERHEAD, pages 1 to 3",
+      "url": "https://www.chiefdelphi.com/t/team-4414-hightide-2025-robot-overhead/493581",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-17"
+    },
+    "s2": {
+      "title": "Team 4414 in 2025",
+      "url": "https://www.thebluealliance.com/team/4414/2025",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "Johnson Division 2025",
+      "url": "https://www.thebluealliance.com/event/2025joh",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "The Best 3 Matches of Reefscape EVER  | FRC Strategy Analysis",
+      "url": "https://www.youtube.com/watch?v=SQure1sSDpk",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Team 4414 | HighTide | 2025 FRC Robot | OVERHEAD",
+      "url": "https://www.youtube.com/watch?v=YkA10fbVNuw",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Algae Meta Shifting? | FUNalysis Ventura County F1 | FRC 2025 REEFSCAPE",
+      "url": "https://www.youtube.com/watch?v=iPCP5RWFvjE",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/9dNKwJI",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/qd4xcHY",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "4414 HighTide | Behind the Bumpers | 2025 FRC REEFSCAPE Robot",
+      "url": "https://www.youtube.com/watch?v=AK34whcAeC0",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Orbit 1690 2025 Robot Reveal: Whisper, post 160",
+      "url": "https://www.chiefdelphi.com/t/orbit-1690-2025-robot-reveal-whisper/492064/160",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "A full-width ground intake, one of the big things the team wanted in the redesign and did not have on its first robot.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "demand": [],
+    "auto": [],
+    "cycle": [
+      {
+        "text": "When the claw is empty and the intake holds coral, the claw goes down, takes it and returns to stow. One button drives the robot to the reef and into position; the driver confirms the score.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      },
+      {
+        "text": "1690 says both aimed to score the closest coral at the closest location, and a slower third robot on 4414's side upset this.",
+        "basis": "observer",
+        "src": [
+          "s10"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "A powered climber, held out by an over-center four-bar linkage. The climber comes down with that linkage as the climb pulls.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "fallback": [],
+    "gave_up": [
+      {
+        "text": "An analyst of the Einstein finals says the robot had no wrist to turn coral sideways. It stood coral up in L1, where fewer fit and each had to be placed without knocking others over.",
+        "basis": "observer",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "The intake was the biggest question mark of the rebuild, because it had to be prototyped rather than solved mechanically.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "This is the team's second robot of the season. The funnel copies the first robot's intake as closely as possible, and the elevator tensions each belt run separately, unlike in 2023.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      },
+      {
+        "text": "In the rebuild thread a reply that reads as the team's said algae had not been tried yet but that, in theory, the claw could do it if 2056's could.",
+        "basis": "observer",
+        "src": [
+          "s1"
+        ]
+      },
+      {
+        "text": "At the championship the claw took algae and coral.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "59-8-0 in official play; won the Johnson division; championship finalist; pick 1 of the Johnson alliance on Einstein; ranked 19 of the pooled top 20 (OPR 100.23, Johnson).",
+        "basis": "record",
+        "src": [
+          "s2",
+          "s3"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Ground intake",
+      "does": [
+        "acquire"
+      ],
+      "type": "full-width over-bumper ground intake",
+      "pieces": [
+        "coral"
+      ],
+      "serves": [],
+      "solves": [
+        {
+          "text": "Collect hard coral from the ground, including coral that arrives vertically",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Hollow polycarbonate rollers with 3D printed end caps, for weight, similar to 254 in 2022",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Star wheels, which the team found best on coral in testing through the season",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "A pivoting front roller accommodates coral that comes in vertically over the bumper",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "It was the scariest part of the rebuild, with a lot of guesswork and prototyping",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Funnel",
+      "does": [
+        "transfer"
+      ],
+      "type": "powered polycarbonate funnel",
+      "pieces": [
+        "coral"
+      ],
+      "serves": [],
+      "solves": [
+        {
+          "text": "Bring coral to where the claw picks it up",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Two X44 motors, one on either side, spin the coral in",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Copied as closely as possible from the intake of the first robot, where it was prototyped",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elevator",
+      "does": [
+        "position"
+      ],
+      "type": "two-stage internally belt-driven elevator",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "serves": [
+        "reef-l1",
+        "reef-branches"
+      ],
+      "solves": [
+        {
+          "text": "Run smoothly without finding a gear pair that clocks both belts to the same spot",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Number of stages",
+          "basis": "team",
+          "src": [
+            "s9"
+          ],
+          "value": 2,
+          "unit": "stages"
+        },
+        {
+          "text": "Both the up and down runs of the belt are tensioned, with a ratchet on the back",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arm",
+      "does": [
+        "position"
+      ],
+      "type": "rotary arm on the elevator carriage",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "serves": [
+        "reef-l1",
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "Driven by a 10 DP gear on a laser-cut plate with a 10 DP profile",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Clamped to two X-contact bearings, about 6 in each, on the elevator carriage",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "The arm is a carbon fiber tube bought pre-cut",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Claw",
+      "does": [
+        "acquire",
+        "retain",
+        "deliver"
+      ],
+      "type": "claw for both pieces",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "serves": [
+        "reef-l1",
+        "reef-branches"
+      ],
+      "solves": [
+        {
+          "text": "Handle coral and algae with one manipulator",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Takes coral out of the polycarbonate funnel",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Holds algae with what the team calls the super pinch",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "An analyst says it cannot turn coral sideways for L1",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "does": [
+        "endgame"
+      ],
+      "type": "powered climber on an over-center four-bar",
+      "serves": [
+        "cage"
+      ],
+      "solves": [
+        {
+          "text": "Keep the cage from knocking the mechanism back and bouncing it off",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "An over-center four-bar linkage holds the climber out until the climb pulls it down",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Very similar to what many other top teams were running, the team says",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Piece tracking and auto drive",
+      "does": [
+        "sense"
+      ],
+      "type": "three sensors, a state machine and automatic reef drive",
+      "pieces": [
+        "coral"
+      ],
+      "serves": [
+        "reef-l1",
+        "reef-branches"
+      ],
+      "solves": [
+        {
+          "text": "Make scoring on the reef as easy as possible for the driver",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Sensors on the robot",
+          "basis": "team",
+          "src": [
+            "s9"
+          ],
+          "value": 3,
+          "unit": "sensors"
+        },
+        {
+          "text": "They sit in the funnel, the intake and the claw, and tell the robot where the coral is at all times",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "A profiled PID controller controls acceleration and velocity in the drive to the reef",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "All controls are on one driver controller",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Use star wheels on the intake",
+      "because": "coral is not compliant, and star wheels tested best through the season",
+      "basis": "team",
+      "src": [
+        "s9"
+      ]
+    },
+    {
+      "choice": "Copy the funnel from the first robot's intake",
+      "because": "its geometry had already been prototyped",
+      "basis": "team",
+      "src": [
+        "s9"
+      ]
+    },
+    {
+      "choice": "Tension the up and down belt runs separately with ratchets",
+      "because": "it takes less guesswork and makes the system smoother",
+      "instead_of": "trying gears with different clocking, as on the 2023 elevator",
+      "basis": "team",
+      "src": [
+        "s9"
+      ]
+    },
+    {
+      "choice": "Hold the climber out with an over-center linkage",
+      "because": "the force of the cage hitting the climber would bounce it back",
+      "basis": "team",
+      "src": [
+        "s9"
+      ]
+    },
+    {
+      "choice": "Drive to the reef automatically with a profiled PID",
+      "because": "the team wanted control of acceleration and velocity so it scores every time",
+      "basis": "team",
+      "src": [
+        "s9"
+      ]
+    }
+  ],
+  "assets": {
+    "graphics": [
+      {
+        "what": "Behind the Bumpers interview",
+        "url": "https://www.youtube.com/watch?v=AK34whcAeC0",
+        "format": "video",
+        "state": "listed",
+        "src": "s2"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/chrZQ80",
+        "format": "image",
+        "state": "listed",
+        "src": "s2"
+      },
+      {
+        "what": "The Best 3 Matches of Reefscape EVER  | FRC Strategy Analysis",
+        "url": "https://www.youtube.com/watch?v=SQure1sSDpk",
+        "format": "video",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "OVERHEAD reveal video (first 2025 robot)",
+        "url": "https://www.youtube.com/watch?v=YkA10fbVNuw",
+        "format": "video",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "Algae Meta Shifting? | FUNalysis Ventura County F1 | FRC 2025 REEFSCAPE",
+        "url": "https://www.youtube.com/watch?v=iPCP5RWFvjE",
+        "format": "video",
+        "state": "listed",
+        "src": "s6"
+      },
+      {
+        "what": "Robot holding a teal ball",
+        "url": "https://imgur.com/qd4xcHY",
+        "img": "https://i.imgur.com/qd4xcHYh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Photo page (picture not shown here)",
+        "url": "https://imgur.com/9dNKwJI",
+        "format": "image",
+        "state": "opened",
+        "src": "s7"
+      }
+    ],
+    "cad": [],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/team4414",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s2"
+      }
+    ]
+  },
+  "searched": [
+    "OVERHEAD thread pages 1 to 3",
+    "The Blue Alliance team page",
+    "community CAD sheet, 4414 and 2025",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binder searches: Chief Delphi titles for 4414 and 7 pages of the team site; no binder query was run"
+  ],
+  "results": {
+    "division": "Johnson",
+    "division_opr": 100.23,
+    "opr_rank": 19,
+    "record": "59-8-0",
+    "einstein": {
+      "division": "Johnson",
+      "role": "pick 1"
+    },
+    "src": [
+      "s2",
+      "s3"
+    ]
+  }
+}

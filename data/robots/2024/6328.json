@@ -1,0 +1,861 @@
+{
+  "id": "2024-6328",
+  "season": 2024,
+  "team": "6328",
+  "team_name": "Mechanical Advantage",
+  "robot_name": "Presto",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 6328 in 2024",
+      "url": "https://www.thebluealliance.com/team/6328/2024",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Hopper Division 2024",
+      "url": "https://www.thebluealliance.com/event/2024hop",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "FRC 6328 Mechanical Advantage 2024 Build Thread (309)",
+      "url": "https://www.chiefdelphi.com/t/frc-6328-mechanical-advantage-2024-build-thread/442736",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "FRC 6328 Seasons",
+      "url": "https://www.littletonrobotics.org/seasons/",
+      "publisher": "littletonrobotics.org",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "6328 2024 Kickoff Worksheet (Template)",
+      "url": "https://docs.google.com/document/d/1WQ1idGzTSrzzE6bhDlYUQGjukrSb0vyfZV6GF3TBM7U/edit",
+      "publisher": "docs.google.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "6328 RobotCode2024Public (Presto)",
+      "url": "https://github.com/Mechanical-Advantage/RobotCode2024Public",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Previous Seasons – FRC 6328",
+      "url": "https://www.littletonrobotics.org/previous-seasons/",
+      "publisher": "littletonrobotics.org",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/BL6n8hL",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/Ez1Qjpj",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Onshape document",
+      "url": "https://cad.onshape.com/documents/9835aac8853d62a08e3c07ca/w/f30aeffcca5908da5dfd5c99/e/f183765154c242ac19e7644d?renderMode=0&uiState=65df7425df98f46477638551",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "FRC 6328 Mechanical Advantage 2024 Build Thread, post 309",
+      "url": "https://www.chiefdelphi.com/t/frc-6328-mechanical-advantage-2024-build-thread/442736/309",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "FRC 6328 Mechanical Advantage 2024 Build Thread, post 330",
+      "url": "https://www.chiefdelphi.com/t/frc-6328-mechanical-advantage-2024-build-thread/442736/330",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "6328 Mechanical Advantage | Behind the Bumpers | 3 Consecutive Einstein Appearances",
+      "url": "https://www.youtube.com/watch?v=4BlE5zDQwBE",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "6328 RobotCode2024Public, RobotState.java",
+      "url": "https://raw.githubusercontent.com/Mechanical-Advantage/RobotCode2024Public/45144b3daefaca93a54de1d5c5e163c29d9ad378/src/main/java/org/littletonrobotics/frc2024/RobotState.java",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "6328 RobotCode2024Public, Flywheels.java",
+      "url": "https://raw.githubusercontent.com/Mechanical-Advantage/RobotCode2024Public/45144b3daefaca93a54de1d5c5e163c29d9ad378/src/main/java/org/littletonrobotics/frc2024/subsystems/flywheels/Flywheels.java",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [],
+    "demand": [],
+    "auto": [
+      {
+        "text": "A routine is set up by answering questions such as start position and number of spike notes. A newer 'thinking on your feet' routine sweeps the center line until it gets a note, then shoots from the nearest scoring place. Localization brings the robot back to its path after contact.",
+        "basis": "team",
+        "src": [
+          "s14"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "A note enters under the bumper at the back, is centered by rollers, and passes a kicker roller into the indexer, which sends it to the shooter or to the amp backpack; the team can switch while the note is inside. For the amp, the arm raises as the note runs up and back down.",
+        "basis": "team",
+        "src": [
+          "s14"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "Arm and hooks go up, the robot drives under the stage and chain, the chain drops into the hooks, the arm moves forward and the hooks pull down. The backpack then extends to score the trap; pulsing rollers keep a missed note in place for another try.",
+        "basis": "team",
+        "src": [
+          "s14"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "If another team has taken center-line notes, the 'thinking on your feet' routine keeps sweeping; the team says it skipped notes that way in its last match.",
+        "basis": "team",
+        "src": [
+          "s14"
+        ]
+      }
+    ],
+    "gave_up": [],
+    "changed": [
+      {
+        "text": "Posts that read as the team's say: hits damaged the shooter at both district events, so before the district championship it moved closer to the frame, with beater bars, and running current fell from about 30 A to 8 A; fangs and a powered trap roller made climb and trap faster and more consistent; wheels went from orange to blue stealth and back to orange for far shots.",
+        "basis": "observer",
+        "src": [
+          "s12",
+          "s13"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "57-12-0 in official play; won the Hopper division; captain of the Hopper alliance on Einstein; ranked 7 of the pooled top 20 (OPR 56.85, Hopper).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Intake",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Deliver a centered note to the arm from a full-width opening",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "full-width under-bumper roller intake",
+      "serves": [
+        "speaker",
+        "amp",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "On the back of the robot",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Two leading rollers with small wedges start centering the note",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Passive rollers with slippery tape finish centering",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Indexer",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Switch the note between two scoring paths at any time",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "double-sided belt indexer with two exits",
+      "serves": [
+        "speaker",
+        "amp",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "A kicker roller feeds it",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Double-sided belt reverses some rollers without gears, which helps packaging",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Shuffles a note between the shooter path and the amp and trap path",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "A build-thread post that reads as the team's says the shooter had to shoot from near the wing line and survive defense",
+          "basis": "observer",
+          "src": [
+            "s13"
+          ]
+        }
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "flywheel shooter with independent sides",
+      "serves": [
+        "speaker"
+      ],
+      "facts": [
+        {
+          "text": "Each side is driven separately at a different speed, to spin the note for stable flight",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Orange stealth wheels",
+          "basis": "team",
+          "src": [
+            "s14",
+            "s13"
+          ]
+        },
+        {
+          "text": "Motors sit far back on the arm, which lowers the center of gravity and arm inertia",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "An undated published commit, which includes demo modes, has a tunable left shooting speed with default",
+          "basis": "team",
+          "src": [
+            "s16"
+          ],
+          "value": 5066,
+          "unit": "rpm"
+        },
+        {
+          "text": "An undated published commit, which includes demo modes, has a tunable right shooting speed with default",
+          "basis": "team",
+          "src": [
+            "s16"
+          ],
+          "value": 7733,
+          "unit": "rpm"
+        },
+        {
+          "text": "A build-thread post that reads as the team's says it mounts on the inside face of the arm tube, so an assembled spare drops in",
+          "basis": "observer",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "A build-thread post that reads as the team's says 0.75 in beater bars take hard hits",
+          "basis": "observer",
+          "src": [
+            "s13"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "A build-thread post that reads as the team's says it was bent in collisions at both district events",
+          "basis": "observer",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "A build-thread post that reads as the team's says long belt runs had high friction, about 30 A to run, until the shooter moved in",
+          "basis": "observer",
+          "src": [
+            "s13"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arm angle by distance",
+      "pieces": [
+        "note"
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "arm aimed from robot pose",
+      "serves": [
+        "speaker"
+      ],
+      "facts": [
+        {
+          "text": "An undated published commit holds one tunable shooting speed and sets arm angle in degrees as about 57.25 times distance in meters to the power -0.593, plus an adjustable correction",
+          "basis": "team",
+          "src": [
+            "s15",
+            "s16"
+          ]
+        },
+        {
+          "text": "It aims for a predicted pose, with separate look-ahead times in auto and teleop",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "A separate long-distance mode has its own field target, with arm angle and wheel speed tables for about 26 to 34 ft, and corrects wheel speed for robot motion",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Amp Backpack",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Score amp and trap through a second path that does not use the shooter",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "sliding carriage on top of the arm",
+      "serves": [
+        "amp",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "The note goes down, up, then back down into the amp while the arm raises",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "A rack and pinion extends it for the trap",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Pulsing rollers hold a missed trap note for another try",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "A build-thread post that reads as the team's says a powered roller, belted to an existing one, replaced a lexan strip as trap flap",
+          "basis": "observer",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Reached after about 15 versions of routing the note",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "does": [
+        "endgame"
+      ],
+      "type": "one-stage elevator with two hooks",
+      "serves": [
+        "onstage"
+      ],
+      "facts": [
+        {
+          "text": "One motor and one gearbox power both sides through two sets of #25 chain",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fangs",
+      "solves": [
+        {
+          "text": "Keep the chain from catching in gaps of the shooter and backpack",
+          "basis": "team",
+          "src": [
+            "s12",
+            "s14"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "curved lexan chain guides",
+      "serves": [
+        "onstage",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "A build-thread post that reads as the team's says it was prototyped in cardboard and wood on a laser cutter before the lexan version",
+          "basis": "observer",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "A build-thread post that reads as the team's says the robot can drive under the stage with the arm partly up",
+          "basis": "observer",
+          "src": [
+            "s12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Localization",
+      "solves": [
+        {
+          "text": "Keep following an auto path after contact with another robot",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "four AprilTag cameras on two Orange Pis",
+      "serves": [
+        "speaker"
+      ],
+      "facts": [
+        {
+          "text": "The zoom lens camera sees the speaker tags from the wing and can be weighted about 40% more than the standard lenses",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Two Orange Pis replaced four from the year before",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Mounts are SLS-printed TPU",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Trajectory following",
+      "does": [
+        "drive",
+        "sense"
+      ],
+      "type": "numerically optimized swerve trajectories",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Numerical optimization replaced spline generation, in a container reached over gRPC",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "The solver's module forces become torque feedforward, to match target acceleration as well as velocity",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Two note paths from one indexer",
+      "because": "the team needs to switch between shooter and amp or trap whenever it wants",
+      "basis": "team",
+      "src": [
+        "s14"
+      ]
+    },
+    {
+      "choice": "Independently driven shooter sides",
+      "because": "one half spinning faster spins the note and keeps its flight stable",
+      "basis": "team",
+      "src": [
+        "s14"
+      ]
+    },
+    {
+      "choice": "Pull the shooter in",
+      "because": "a build-thread post that reads as the team's says it needed to survive defense at the district and world championships",
+      "basis": "observer",
+      "src": [
+        "s13"
+      ]
+    },
+    {
+      "choice": "Fangs for the chain",
+      "because": "a build-thread post that reads as the team's says approaching from inside the stage with the arm rising let the chain catch after a slight positioning error",
+      "basis": "observer",
+      "src": [
+        "s12"
+      ]
+    },
+    {
+      "choice": "Orange stealth wheels",
+      "because": "a build-thread post that reads as the team's says new autos needed shots from near the wing line",
+      "instead_of": "blue stealth wheels, used for looks at one event",
+      "basis": "observer",
+      "src": [
+        "s13"
+      ]
+    },
+    {
+      "choice": "Shooter mounted on the inside of the tube",
+      "because": "a build-thread post that reads as the team's says a spare shooter can be dropped in quickly",
+      "instead_of": "a plate inside a printed block in the tube, which packed well but was very difficult to pry out",
+      "basis": "observer",
+      "src": [
+        "s13"
+      ]
+    },
+    {
+      "choice": "Two Orange Pis",
+      "because": "powering and setting up four was really difficult",
+      "instead_of": "four boards, one per camera",
+      "basis": "team",
+      "src": [
+        "s14"
+      ]
+    },
+    {
+      "choice": "Development robot from prototypes",
+      "because": "it gave drive practice and auto time early, and showed assembly mistakes to fix in the real design",
+      "basis": "team",
+      "src": [
+        "s14"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "Comp Robot",
+        "url": "https://cad.onshape.com/documents/9835aac8853d62a08e3c07ca/w/f30aeffcca5908da5dfd5c99/e/f183765154c242ac19e7644d?renderMode=0&uiState=65df7425df98f46477638551",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "CAD listed on the team page",
+        "url": "https://cad.onshape.com/documents/9835aac8853d62a08e3c07ca/w/f30aeffcca5908da5dfd5c99",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "FRC 6328 Mechanical Advantage 2024 Build Thread (309)",
+        "url": "https://www.chiefdelphi.com/t/frc-6328-mechanical-advantage-2024-build-thread/442736",
+        "format": "thread",
+        "state": "listed",
+        "src": "s4",
+        "holds": "Onshape"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=4BlE5zDQwBE",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=LnQ9gXtJ2Mc",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=O6ORC0NrFDQ",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=RiZOHhM_tos",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=W-7OimfJ95o",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=d-FSHhPrS4s",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=lIt-Zagc9xU",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=lfgpYrtLAAw",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=u0g8klEQ814",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=xQcTzn4Et-4",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/VNordJO",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "FRC 6328 Seasons",
+        "url": "https://www.littletonrobotics.org/seasons/",
+        "format": "web page",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "Previous Seasons – FRC 6328",
+        "url": "https://www.littletonrobotics.org/previous-seasons/",
+        "format": "web page",
+        "state": "listed",
+        "src": "s8"
+      },
+      {
+        "what": "Robot driving on the field, background blurred",
+        "url": "https://imgur.com/BL6n8hL",
+        "img": "https://i.imgur.com/BL6n8hLh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s9",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot in the pit, mechanism raised, blue bumpers",
+        "url": "https://imgur.com/Ez1Qjpj",
+        "img": "https://i.imgur.com/Ez1Qjpjh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s10",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Full robot CAD view, mechanism lowered",
+        "url": "https://cad.onshape.com/documents/9835aac8853d62a08e3c07ca/w/f30aeffcca5908da5dfd5c99/e/f183765154c242ac19e7644d?renderMode=0&uiState=65df7425df98f46477638551",
+        "img": "https://cad.onshape.com/api/thumbnails/d/9835aac8853d62a08e3c07ca/w/f30aeffcca5908da5dfd5c99/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s11",
+        "kind": "cad"
+      },
+      {
+        "what": "Robot on the field among red confetti",
+        "url": "https://www.littletonrobotics.org/seasons/",
+        "img": "https://www.littletonrobotics.org/wp-content/uploads/2024/06/red-confetti.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s5",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Climb sequence at North Shore, video",
+        "url": "https://www.youtube.com/watch?v=SGIMe0haLDs",
+        "format": "video",
+        "state": "listed",
+        "src": "s12"
+      },
+      {
+        "what": "Close 5-note auto, video",
+        "url": "https://www.youtube.com/watch?v=s0m1r5LaLZg",
+        "format": "video",
+        "state": "listed",
+        "src": "s12"
+      }
+    ],
+    "documents": [
+      {
+        "what": "6328 2024 Kickoff Worksheet (Template)",
+        "url": "https://docs.google.com/document/d/1WQ1idGzTSrzzE6bhDlYUQGjukrSb0vyfZV6GF3TBM7U/edit",
+        "format": "Google Doc",
+        "state": "listed",
+        "src": "s6"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/mechanical-advantage",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "6328 RobotCode2024Public (Presto)",
+        "url": "https://github.com/Mechanical-Advantage/RobotCode2024Public",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s7"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: Chief Delphi title search for 6328 (15 topics) and '6328 binder' (18 posts), 21 pages of the team site"
+  ],
+  "results": {
+    "division": "Hopper",
+    "division_opr": 56.85,
+    "opr_rank": 7,
+    "record": "57-12-0",
+    "einstein": {
+      "division": "Hopper",
+      "role": "captain"
+    },
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

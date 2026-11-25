@@ -1,0 +1,459 @@
+{
+  "id": "2023-3538",
+  "season": 2023,
+  "team": "3538",
+  "team_name": "RoboJackets",
+  "robot_name": null,
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 3538 in 2023",
+      "url": "https://www.thebluealliance.com/team/3538/2023",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Newton Division 2023",
+      "url": "https://www.thebluealliance.com/event/2023new",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "3538 RoboJackets 2023: Mid-Build Short",
+      "url": "https://www.chiefdelphi.com/t/3538-robojackets-2023-mid-build-short/425932",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Mid-Season Movie (2023) - RoboJackets 3538",
+      "url": "https://www.chiefdelphi.com/t/mid-season-movie-2023-robojackets-3538/431858",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "3538 RoboJackets code-release (FRC2023 folder)",
+      "url": "https://github.com/FRC-Team3538/code-release",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "2023 NEWTON Q24 / FRC 3538 RoboJackets / CLEAN ROBOT VIDEO",
+      "url": "https://www.chiefdelphi.com/t/2023-newton-q24-frc-3538-robojackets-clean-robot-video/437138",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "RoboJackets 3538 / 2023 FIM FORD Q25 / Clean Robot Video",
+      "url": "https://www.chiefdelphi.com/t/robojackets-3538-2023-fim-ford-q25-clean-robot-video/434844",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/7QYWR4r",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/qNe1713",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Behind the Bumpers: 3538 RoboJackets, filmed at the Michigan championship (auto-caption read)",
+      "url": "https://www.youtube.com/watch?v=wmEajgIojAA",
+      "publisher": "FUN Robotics Network (YouTube)",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "outcome": [
+      {
+        "text": "65-20-1 in official play; ranked 12 of the pooled top 20 (OPR 74.90, Newton).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "bet": [
+      {
+        "text": "Get the fastest cycle times possible, with less aiming for the drive team.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "The bump auto scores the preloaded cone, takes and scores a cube, then picks up another cone, on paths optimized from waypoints. On the charge station, drive speed is proportional to gyro pitch, so the robot slows as it balances.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The interviewer says pieces come mostly from the human player.",
+        "basis": "observer",
+        "src": [
+          "s10"
+        ]
+      },
+      {
+        "text": "The intake keeps turning slowly in its last direction, so it takes a piece with no operator input. Mid and high use the same arm angle; the slide extends for high.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "Quick ground pickup. It works, but takes longer to line up, so it is used in autonomous and early in the match for pieces left on the floor.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "A first-week intake took cones and cubes well but had trouble scoring them, so the intake was curved. Mid-season the team adopted a path program for its advanced autos. Elbow presets that were five or six degrees off now land within one or two.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Swerve on custom Colson wheels",
+      "solves": [
+        {
+          "text": "Get the traction the team liked on tank drives, and get onto the charge station more easily",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "does": [
+        "drive"
+      ],
+      "type": "swerve with custom wheels",
+      "serves": [
+        "charge-station"
+      ],
+      "facts": [
+        {
+          "text": "Colson wheels fitted to the team's swerve modules, in use since the start of the season",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Virtual four-bar arm",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Score mid and high at the same angle just by extending the slide",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "virtual four-bar arm with a slide",
+      "serves": [
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Range, about",
+          "basis": "team",
+          "src": [
+            "s10"
+          ],
+          "value": 360,
+          "unit": "deg"
+        },
+        {
+          "text": "Sprockets at chosen angles let it reach the scoring positions, the human player station and the ground",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Positions shown are stow, mid, high, transit and ground",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Less aiming, for faster cycles",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "retain",
+        "deliver"
+      ],
+      "type": "large curved wheeled intake",
+      "serves": [
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "It idles at low speed in its last direction; a popped cube is taken back in by itself",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "The curve lets it pick up cones and score them at an easier angle",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Ground pickup takes longer to line up",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Auto balance",
+      "does": [
+        "sense"
+      ],
+      "type": "proportional control on gyro pitch",
+      "serves": [
+        "charge-station"
+      ],
+      "facts": [
+        {
+          "text": "Drive speed is pitch times a constant, so it falls as the robot levels",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elbow control",
+      "solves": [
+        {
+          "text": "Elbow presets were five or six degrees off",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "position"
+      ],
+      "type": "PID with gravity compensation",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Presets land within one or two degrees",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "A gravity term stops the arm sagging",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Swerve drive",
+      "because": "testing showed it was more viable",
+      "instead_of": "tank drive",
+      "basis": "team",
+      "src": [
+        "s10"
+      ]
+    },
+    {
+      "choice": "Custom Colson wheels on swerve",
+      "because": "the team liked their traction on tank drives",
+      "basis": "team",
+      "src": [
+        "s10"
+      ]
+    },
+    {
+      "choice": "No pneumatics",
+      "because": "they were seen as hassle and time-consuming",
+      "basis": "team",
+      "src": [
+        "s10"
+      ]
+    },
+    {
+      "choice": "A bigger intake",
+      "because": "it needs less aiming and cycles faster",
+      "basis": "team",
+      "src": [
+        "s10"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=7vsKq_u5SHE",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=wmEajgIojAA",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/H0wEyOL",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "3538 RoboJackets 2023: Mid-Build Short",
+        "url": "https://www.chiefdelphi.com/t/3538-robojackets-2023-mid-build-short/425932",
+        "format": "thread",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "Mid-Season Movie (2023) - RoboJackets 3538",
+        "url": "https://www.chiefdelphi.com/t/mid-season-movie-2023-robojackets-3538/431858",
+        "format": "thread",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "2023 NEWTON Q24 / FRC 3538 RoboJackets / CLEAN ROBOT VIDEO",
+        "url": "https://www.chiefdelphi.com/t/2023-newton-q24-frc-3538-robojackets-clean-robot-video/437138",
+        "format": "thread",
+        "state": "listed",
+        "src": "s6"
+      },
+      {
+        "what": "RoboJackets 3538 / 2023 FIM FORD Q25 / Clean Robot Video",
+        "url": "https://www.chiefdelphi.com/t/robojackets-3538-2023-fim-ford-q25-clean-robot-video/434844",
+        "format": "thread",
+        "state": "listed",
+        "src": "s7"
+      },
+      {
+        "what": "Full robot holding a yellow cone, red bumpers",
+        "url": "https://imgur.com/7QYWR4r",
+        "img": "https://i.imgur.com/7QYWR4rh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Robot tipped up, underside and swerve wheels visible",
+        "url": "https://imgur.com/qNe1713",
+        "img": "https://i.imgur.com/qNe1713h.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s9",
+        "kind": "robot-photo"
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/frc-team3538",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "3538 RoboJackets code-release (FRC2023 folder)",
+        "url": "https://github.com/FRC-Team3538/code-release",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s5"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: Chief Delphi \"RoboJackets binder\" and a title search; the team site could not be reached"
+  ],
+  "results": {
+    "division": "Newton",
+    "division_opr": 74.9,
+    "opr_rank": 12,
+    "record": "65-20-1",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

@@ -1,0 +1,399 @@
+{
+  "id": "2025-4391",
+  "season": 2025,
+  "team": "4391",
+  "team_name": "BraveBots",
+  "robot_name": null,
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 4391 in 2025",
+      "url": "https://www.thebluealliance.com/team/4391/2025",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Archimedes Division 2025",
+      "url": "https://www.thebluealliance.com/event/2025arc",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/IkLdHkp",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "4391 BraveBots | Behind the Bumpers | 2025 FRC REEFSCAPE Robot (auto-caption)",
+      "url": "https://www.youtube.com/watch?v=SFd54mSkzM8",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Shoot coral onto the reef instead of placing it, from underneath for L4.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "demand": [],
+    "auto": [],
+    "cycle": [
+      {
+        "text": "A light flashes green when a coral is loaded and turns solid green when an AprilTag is also seen. The robot can then score a shot automatically: it shoots down onto L2 and L3, and onto the pole for L4.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "The hopper is raised and a pneumatic climber comes up, knocks down a part the team calls the foot, latches the cage and pulls it down into the robot.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "When a coral lies in front of the reef, the robot can shoot over it, even at L4.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "The algae ground intake came off for the second competition to save weight, and returned for the state championship.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "The algae intake went back on for the state championship with about two pounds to spare. A piece of plastic was added because algae kept falling out. At first the cage came up too high and would have hit a camera, so the climber was designed around that.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "57-14-0 in official play; ranked 17 of the pooled top 20 (OPR 100.54, Archimedes).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Shooter",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Score L4 consistently without placing coral from above",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "deliver",
+        "position"
+      ],
+      "type": "wristed coral shooter",
+      "serves": [
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "Two NEO motors: one for the wrist, one for the belt-driven shooter",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Shoots down onto L2 and L3, and from underneath onto the L4 pole",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Pull the cage down into the robot without the cage rising into a camera",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "pneumatic harpoon-style latch",
+      "serves": [
+        "cage"
+      ],
+      "facts": [
+        {
+          "text": "The climber comes up, knocks down a part called the foot, and latches the cage",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "One of the first mechanisms the team prototyped",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Algae intake",
+      "pieces": [
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Take algae from the floor and keep it from falling out",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "retain"
+      ],
+      "type": "pneumatic ground intake",
+      "serves": [],
+      "facts": [
+        {
+          "text": "A piece of plastic at the back keeps the algae in the robot",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pose camera",
+      "does": [
+        "sense"
+      ],
+      "type": "AprilTag camera",
+      "serves": [
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "Tells the robot where it is on the field, so it can score a shot automatically when it sees tags",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reef alignment",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Know the robot is at shooting distance, or stopped by a loose coral",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "position"
+      ],
+      "type": "camera and range sensors",
+      "serves": [
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "A second camera aligns the robot to the reef poles",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Range sensors tell the team the robot is at the right distance from the reef, about",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 17,
+          "unit": "cm"
+        },
+        {
+          "text": "The sensors also show when the robot is pushed up against a coral in front of the reef",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Coral sensor",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Tell the driver when a shot is ready",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "optical sensor with driver light",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Flashes green when a coral is loaded; solid green when a tag is seen as well",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climb camera",
+      "does": [
+        "sense",
+        "endgame"
+      ],
+      "type": "driver camera",
+      "serves": [
+        "cage"
+      ],
+      "facts": [
+        {
+          "text": "Lets the driver watch the climb and stay centered; it sometimes lags but is usually pretty good",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Shoot coral rather than place it",
+      "because": "a prototype that placed coral from above was flipped over to shoot from underneath and worked well",
+      "instead_of": "placing the coral from above",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "Remove the algae intake for the second event, then put it back for the state championship",
+      "because": "weight: it came off to save weight and returned with about two pounds to spare",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "Pull the cage down into the robot",
+      "because": "the cage at first came up too high and would hit the camera",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=SFd54mSkzM8",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/QkOwn1N",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Full robot on field, blue bumpers, green-wheeled rollers",
+        "url": "https://imgur.com/IkLdHkp",
+        "img": "https://i.imgur.com/IkLdHkph.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s3",
+        "kind": "robot-photo",
+        "hero": true
+      }
+    ],
+    "documents": [],
+    "code": []
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: Chief Delphi title search \"4391\" and post search \"4391 binder\", both 0; 17 pages of the team site; one grouped web search, weak"
+  ],
+  "results": {
+    "division": "Archimedes",
+    "division_opr": 100.54,
+    "opr_rank": 17,
+    "record": "57-14-0",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

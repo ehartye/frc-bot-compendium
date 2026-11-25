@@ -1,0 +1,1085 @@
+{
+ "2023": [
+  {
+   "rank": 1,
+   "team": "2056",
+   "opr": 83.47,
+   "division": "Archimedes",
+   "event": "2023arc",
+   "cad": []
+  },
+  {
+   "rank": 2,
+   "team": "6036",
+   "opr": 81.6,
+   "division": "Archimedes",
+   "event": "2023arc",
+   "cad": [
+    {
+     "Description": "Comp Robot",
+     "Format": "STEP/IGES",
+     "Link": "https://drive.google.com/file/d/1NGKDbl50dAI0oS8JyQaHTgHGxmoA06Pc/view"
+    }
+   ]
+  },
+  {
+   "rank": 3,
+   "team": "1323",
+   "opr": 79.45,
+   "division": "Hopper",
+   "event": "2023hop",
+   "cad": []
+  },
+  {
+   "rank": 4,
+   "team": "5940",
+   "opr": 79.28,
+   "division": "Curie",
+   "event": "2023cur",
+   "cad": []
+  },
+  {
+   "rank": 5,
+   "team": "2468",
+   "opr": 77.86,
+   "division": "Archimedes",
+   "event": "2023arc",
+   "cad": []
+  },
+  {
+   "rank": 6,
+   "team": "6329",
+   "opr": 77.17,
+   "division": "Curie",
+   "event": "2023cur",
+   "cad": []
+  },
+  {
+   "rank": 7,
+   "team": "254",
+   "opr": 76.04,
+   "division": "Archimedes",
+   "event": "2023arc",
+   "cad": []
+  },
+  {
+   "rank": 8,
+   "team": "1756",
+   "opr": 75.93,
+   "division": "Curie",
+   "event": "2023cur",
+   "cad": [
+    {
+     "Description": "Comp Robot",
+     "Format": "Fusion",
+     "Link": "https://a360.co/3kLeGqb"
+    }
+   ]
+  },
+  {
+   "rank": 9,
+   "team": "2046",
+   "opr": 75.88,
+   "division": "Hopper",
+   "event": "2023hop",
+   "cad": []
+  },
+  {
+   "rank": 10,
+   "team": "1678",
+   "opr": 75.28,
+   "division": "Galileo",
+   "event": "2023gal",
+   "cad": [
+    {
+     "Description": "Comp Robot",
+     "Format": "Onshape",
+     "Link": "https://cad.onshape.com/documents/9ba9c21c35a06156e891cb3f/w/dce427c99c4c237d6c20ed2c/e/5ad5e173df9a364f40c65ca7?renderMode=0&uiState=646f8b23145fcb01bd11f259"
+    }
+   ]
+  },
+  {
+   "rank": 11,
+   "team": "1731",
+   "opr": 75.02,
+   "division": "Daly",
+   "event": "2023dal",
+   "cad": []
+  },
+  {
+   "rank": 12,
+   "team": "3538",
+   "opr": 74.9,
+   "division": "Newton",
+   "event": "2023new",
+   "cad": []
+  },
+  {
+   "rank": 13,
+   "team": "3005",
+   "opr": 73.73,
+   "division": "Galileo",
+   "event": "2023gal",
+   "cad": [
+    {
+     "Description": "Comp Robot",
+     "Format": "Onshape",
+     "Link": "https://cad.onshape.com/documents/230339548ba1828471e00cef/w/7608c62ea34bc84ee4acccd6/e/6a002e572ec5e1812bae3918?renderMode=0&uiState=6436b79f99bcb7580ba64f8e"
+    }
+   ]
+  },
+  {
+   "rank": 14,
+   "team": "1577",
+   "opr": 72.53,
+   "division": "Archimedes",
+   "event": "2023arc",
+   "cad": []
+  },
+  {
+   "rank": 15,
+   "team": "2767",
+   "opr": 71.39,
+   "division": "Daly",
+   "event": "2023dal",
+   "cad": [
+    {
+     "Description": "Comp Robot",
+     "Format": "Onshape",
+     "Link": "https://cad.onshape.com/documents/04a54b2035c31e128e1dfced/w/505caf917c2302fdb0b5bdd9/e/4c7eedc3e2c9f9a4836827bf?renderMode=0&uiState=646420daf044046083189339"
+    }
+   ]
+  },
+  {
+   "rank": 16,
+   "team": "3314",
+   "opr": 71.11,
+   "division": "Daly",
+   "event": "2023dal",
+   "cad": []
+  },
+  {
+   "rank": 17,
+   "team": "1690",
+   "opr": 71.09,
+   "division": "Galileo",
+   "event": "2023gal",
+   "cad": []
+  },
+  {
+   "rank": 18,
+   "team": "5727",
+   "opr": 70.23,
+   "division": "Curie",
+   "event": "2023cur",
+   "cad": []
+  },
+  {
+   "rank": 19,
+   "team": "5460",
+   "opr": 70.01,
+   "division": "Daly",
+   "event": "2023dal",
+   "cad": [
+    {
+     "Description": "Comp Robot",
+     "Format": "Onshape",
+     "Link": "https://cad.onshape.com/documents/0b20b359a25b9a8142fe9631/w/263949fda713f005d5add009/e/9ff2797a21aae7b8fea3933c"
+    }
+   ]
+  },
+  {
+   "rank": 20,
+   "team": "7407",
+   "opr": 70.01,
+   "division": "Hopper",
+   "event": "2023hop",
+   "cad": []
+  },
+  {
+   "rank": 21,
+   "team": "930",
+   "opr": 69.74,
+   "division": "Milstein",
+   "event": "2023mil",
+   "cad": [
+    {
+     "Description": "Offseason Robot",
+     "Format": "Onshape",
+     "Link": "https://cad.onshape.com/documents/b688210822ea749239838b0a/w/706c14a2350996dae82cae05/e/5054bc79952157fea14ba2e0"
+    }
+   ]
+  },
+  {
+   "rank": 22,
+   "team": "118",
+   "opr": 69.58,
+   "division": "Archimedes",
+   "event": "2023arc",
+   "cad": [
+    {
+     "Description": "Comp Robot",
+     "Format": "STEP/IGES",
+     "Link": "https://grabcad.com/library/robonauts-118-2023-robot-echo-1"
+    }
+   ]
+  },
+  {
+   "rank": 23,
+   "team": "4028",
+   "opr": 69.46,
+   "division": "Archimedes",
+   "event": "2023arc",
+   "cad": []
+  },
+  {
+   "rank": 24,
+   "team": "3476",
+   "opr": 69.24,
+   "division": "Galileo",
+   "event": "2023gal",
+   "cad": []
+  },
+  {
+   "rank": 25,
+   "team": "695",
+   "opr": 68.78,
+   "division": "Daly",
+   "event": "2023dal",
+   "cad": [
+    {
+     "Description": "Comp Robot",
+     "Format": "STEP/IGES",
+     "Link": "https://drive.google.com/drive/u/0/folders/1TTBJ3Udoh8VtAJ_OmpfxvGBt6YsrLZ8v"
+    }
+   ]
+  }
+ ],
+ "2024": [
+  {
+   "rank": 1,
+   "team": "3005",
+   "opr": 64.03,
+   "division": "Galileo",
+   "event": "2024gal",
+   "cad": [
+    {
+     "Description": "Comp Robot",
+     "Format": "Onshape",
+     "Link": "https://cad.onshape.com/documents/f1c0c9ce2309b0be3a22a379/w/c8169ca8774f2b499875ab45/e/b1639093afdfd702347929f0"
+    }
+   ]
+  },
+  {
+   "rank": 2,
+   "team": "1323",
+   "opr": 59.8,
+   "division": "Newton",
+   "event": "2024new",
+   "cad": []
+  },
+  {
+   "rank": 3,
+   "team": "1756",
+   "opr": 59.54,
+   "division": "Johnson",
+   "event": "2024joh",
+   "cad": [
+    {
+     "Description": "Comp Robot",
+     "Format": "Fusion",
+     "Link": "https://a360.co/3u6Vbgm"
+    }
+   ]
+  },
+  {
+   "rank": 4,
+   "team": "2910",
+   "opr": 58.71,
+   "division": "Newton",
+   "event": "2024new",
+   "cad": [
+    {
+     "Description": "Comp Robot",
+     "Format": "Onshape",
+     "Link": "https://2910.onshape.com/documents/b05af223ad0d2a358074cc0a/v/0769959730f43a1859a1f370/e/9d8b5a55e5c746878f41c2bc?configuration=default&renderMode=0&uiState=665d856d39a4630af3899e94&aa=true"
+    }
+   ]
+  },
+  {
+   "rank": 5,
+   "team": "1796",
+   "opr": 57.65,
+   "division": "Johnson",
+   "event": "2024joh",
+   "cad": []
+  },
+  {
+   "rank": 6,
+   "team": "604",
+   "opr": 57.57,
+   "division": "Milstein",
+   "event": "2024mil",
+   "cad": [
+    {
+     "Description": "Comp Robot",
+     "Format": "Onshape",
+     "Link": "https://cad.onshape.com/documents/201f606d504f880810571715/w/853b3ad6f05fc11c952eff08/e/d5e7c596d3f7c0b01175d779"
+    }
+   ]
+  },
+  {
+   "rank": 7,
+   "team": "6328",
+   "opr": 56.85,
+   "division": "Hopper",
+   "event": "2024hop",
+   "cad": [
+    {
+     "Description": "Comp Robot",
+     "Format": "Onshape",
+     "Link": "https://cad.onshape.com/documents/9835aac8853d62a08e3c07ca/w/f30aeffcca5908da5dfd5c99/e/f183765154c242ac19e7644d?renderMode=0&uiState=65df7425df98f46477638551"
+    }
+   ]
+  },
+  {
+   "rank": 8,
+   "team": "3478",
+   "opr": 56.33,
+   "division": "Newton",
+   "event": "2024new",
+   "cad": []
+  },
+  {
+   "rank": 9,
+   "team": "33",
+   "opr": 56.14,
+   "division": "Hopper",
+   "event": "2024hop",
+   "cad": []
+  },
+  {
+   "rank": 10,
+   "team": "1678",
+   "opr": 55.9,
+   "division": "Archimedes",
+   "event": "2024arc",
+   "cad": [
+    {
+     "Description": "Comp Robot",
+     "Format": "Onshape",
+     "Link": "https://cad.onshape.com/documents/05760c4d8b40fba37db8fa48/w/f31b499c519e8471cced93dc/e/b53dde24ab8b46d679af9944"
+    }
+   ]
+  },
+  {
+   "rank": 11,
+   "team": "1706",
+   "opr": 55.09,
+   "division": "Johnson",
+   "event": "2024joh",
+   "cad": [
+    {
+     "Description": "Comp Robot",
+     "Format": "Onshape",
+     "Link": "https://cad.onshape.com/documents/a41c17fdc034d46f856ebcc7/w/934e52886a6f6873c4be7558/e/a351f37bcb33c52e479db756?renderMode=0&uiState=665dd1087662a93f584874ec"
+    }
+   ]
+  },
+  {
+   "rank": 12,
+   "team": "103",
+   "opr": 54.85,
+   "division": "Daly",
+   "event": "2024dal",
+   "cad": []
+  },
+  {
+   "rank": 13,
+   "team": "2590",
+   "opr": 54.44,
+   "division": "Curie",
+   "event": "2024cur",
+   "cad": []
+  },
+  {
+   "rank": 14,
+   "team": "1690",
+   "opr": 54.09,
+   "division": "Daly",
+   "event": "2024dal",
+   "cad": [
+    {
+     "Description": "Comp Robot",
+     "Format": "Onshape",
+     "Link": "https://cad.onshape.com/documents/065fb1a7f111b2de05ba208b/w/67f48a3bae8c68dc38e22239/e/e16d7c04df2851292695e2e5"
+    },
+    {
+     "Description": "Comp Robot",
+     "Format": "SolidWorks",
+     "Link": "https://drive.google.com/drive/folders/1C_xHdk4QR7U1bARSKUKYtQAMGgItq_bM?usp=sharing"
+    }
+   ]
+  },
+  {
+   "rank": 15,
+   "team": "254",
+   "opr": 53.89,
+   "division": "Newton",
+   "event": "2024new",
+   "cad": []
+  },
+  {
+   "rank": 16,
+   "team": "2642",
+   "opr": 52.8,
+   "division": "Johnson",
+   "event": "2024joh",
+   "cad": []
+  },
+  {
+   "rank": 17,
+   "team": "2974",
+   "opr": 52.79,
+   "division": "Newton",
+   "event": "2024new",
+   "cad": []
+  },
+  {
+   "rank": 18,
+   "team": "1771",
+   "opr": 52.78,
+   "division": "Daly",
+   "event": "2024dal",
+   "cad": []
+  },
+  {
+   "rank": 19,
+   "team": "359",
+   "opr": 52.42,
+   "division": "Newton",
+   "event": "2024new",
+   "cad": []
+  },
+  {
+   "rank": 20,
+   "team": "1778",
+   "opr": 52.33,
+   "division": "Newton",
+   "event": "2024new",
+   "cad": [
+    {
+     "Description": "Comp Robot",
+     "Format": "Onshape",
+     "Link": "https://cad.onshape.com/documents/bcbf24dd5a87e45bf4e7feb1/w/ffa6c81a1dfe71234cde9aca/e/e925d7cf2a2b03135bc67046"
+    }
+   ]
+  },
+  {
+   "rank": 21,
+   "team": "114",
+   "opr": 52.32,
+   "division": "Milstein",
+   "event": "2024mil",
+   "cad": []
+  },
+  {
+   "rank": 22,
+   "team": "2075",
+   "opr": 52.31,
+   "division": "Archimedes",
+   "event": "2024arc",
+   "cad": []
+  },
+  {
+   "rank": 23,
+   "team": "2200",
+   "opr": 51.91,
+   "division": "Curie",
+   "event": "2024cur",
+   "cad": []
+  },
+  {
+   "rank": 24,
+   "team": "1787",
+   "opr": 51.3,
+   "division": "Johnson",
+   "event": "2024joh",
+   "cad": [
+    {
+     "Description": "The Flying Circuits 2024 CAD \u2014 0 - goober (Main Assembly)",
+     "Format": "Onshape",
+     "Link": "https://cad.onshape.com/documents/e6d7b50150275636203e85d2/w/2c58e6c3c9ceca078b4758ff/e/ebbab5a0b88145d6af183edb"
+    }
+   ]
+  },
+  {
+   "rank": 25,
+   "team": "1261",
+   "opr": 51.21,
+   "division": "Archimedes",
+   "event": "2024arc",
+   "cad": [
+    {
+     "Description": "Comp Robot",
+     "Format": "Onshape",
+     "Link": "https://cad.onshape.com/documents/1da70ff476b4a06e7bf66d0c/w/1f2db998ca0ab59681252885/e/1b1bbb95d4abdcbdd1cb1890"
+    }
+   ]
+  }
+ ],
+ "2025": [
+  {
+   "rank": 1,
+   "team": "2056",
+   "opr": 137.23,
+   "division": "Daly",
+   "event": "2025dal",
+   "cad": []
+  },
+  {
+   "rank": 2,
+   "team": "2910",
+   "opr": 127.87,
+   "division": "Newton",
+   "event": "2025new",
+   "cad": [
+    {
+     "Description": "Comp Robot",
+     "Format": "Onshape",
+     "Link": "https://2910.onshape.com/documents/f33ab032b00dc4b711aa86a6/w/951c0955d38b370eab02b587/e/415a66cb7efdf4aba6199086?configuration=default&renderMode=0&uiState=68091e6c81c18033fbb4fd25"
+    }
+   ]
+  },
+  {
+   "rank": 3,
+   "team": "1323",
+   "opr": 117.93,
+   "division": "Newton",
+   "event": "2025new",
+   "cad": []
+  },
+  {
+   "rank": 4,
+   "team": "694",
+   "opr": 114.11,
+   "division": "Daly",
+   "event": "2025dal",
+   "cad": [
+    {
+     "Description": "StuyPulse 2025 CAD \u2014 HAL 2025",
+     "Format": "Onshape",
+     "Link": "https://cad.onshape.com/documents/18f50fd4a2add97e0a4e653f/w/4b4f1ebd5782c937c9d60635/e/0ea3046218c2a2321d4d3068"
+    }
+   ]
+  },
+  {
+   "rank": 5,
+   "team": "1678",
+   "opr": 113.54,
+   "division": "Daly",
+   "event": "2025dal",
+   "cad": [
+    {
+     "Description": "Comp Robot",
+     "Format": "Onshape",
+     "Link": "https://1678.onshape.com/documents/0d5fb3dc444f66866c3df100/w/3aa4dce6ea2c22f3ef57d096/e/0f84fb27f2a02ead9cf842de?aa=true"
+    }
+   ]
+  },
+  {
+   "rank": 6,
+   "team": "7457",
+   "opr": 112.6,
+   "division": "Curie",
+   "event": "2025cur",
+   "cad": []
+  },
+  {
+   "rank": 7,
+   "team": "1796",
+   "opr": 110.26,
+   "division": "Daly",
+   "event": "2025dal",
+   "cad": []
+  },
+  {
+   "rank": 8,
+   "team": "1690",
+   "opr": 110.15,
+   "division": "Johnson",
+   "event": "2025joh",
+   "cad": [
+    {
+     "Description": "Comp Robot",
+     "Format": "Onshape",
+     "Link": "https://cad.onshape.com/documents/76609fe05a6594c5f9c4062a/w/437a97728f1629348e9dd7cf/e/465d3a35c190dab8355f1e5c"
+    }
+   ]
+  },
+  {
+   "rank": 9,
+   "team": "3005",
+   "opr": 107.15,
+   "division": "Curie",
+   "event": "2025cur",
+   "cad": [
+    {
+     "Description": "Full competition robot (Reefscape - Relay)",
+     "Format": "Onshape",
+     "Link": "https://cad.onshape.com/documents/be7ecb57773083221899273d/w/3ffbf14ecde31212fdcb4a6a/e/fe6648ecf44d2b65b2b452a4, https://cad.onshape.com/documents/ae9f878df96e104c784e1b6d/w/450e030be1894e0ba539f010/e/e3c2d30ebc6aa38a376831bf"
+    }
+   ]
+  },
+  {
+   "rank": 10,
+   "team": "254",
+   "opr": 106.58,
+   "division": "Milstein",
+   "event": "2025mil",
+   "cad": []
+  },
+  {
+   "rank": 11,
+   "team": "2481",
+   "opr": 105.95,
+   "division": "Archimedes",
+   "event": "2025arc",
+   "cad": []
+  },
+  {
+   "rank": 12,
+   "team": "118",
+   "opr": 105.38,
+   "division": "Milstein",
+   "event": "2025mil",
+   "cad": [
+    {
+     "Description": "Comp Robot",
+     "Format": "STEP/IGES",
+     "Link": "https://grabcad.com/library/robonauts-118-2025-robot-firefly-1"
+    }
+   ]
+  },
+  {
+   "rank": 13,
+   "team": "2231",
+   "opr": 104.17,
+   "division": "Archimedes",
+   "event": "2025arc",
+   "cad": []
+  },
+  {
+   "rank": 14,
+   "team": "5940",
+   "opr": 103.23,
+   "division": "Milstein",
+   "event": "2025mil",
+   "cad": [
+    {
+     "Description": "Comp Robot",
+     "Format": "Onshape",
+     "Link": "https://cad.onshape.com/documents/96a5f9f437337066b2987626/w/9644a0c5069d0349ab3cf5a6/e/01df3e1fb18f1f03077c9c5d"
+    }
+   ]
+  },
+  {
+   "rank": 15,
+   "team": "341",
+   "opr": 102.88,
+   "division": "Archimedes",
+   "event": "2025arc",
+   "cad": [
+    {
+     "Description": "Comp Robot \u2013 Reefscape full robot",
+     "Format": "Onshape",
+     "Link": "https://cad.onshape.com/documents/2d1e3ac103dba342712c2c99/w/060f69714e723dd87d33ba97/e/bbd3959b191284cc99eb4f56?renderMode=0&uiState=680f7463bfa4de65489d095d"
+    }
+   ]
+  },
+  {
+   "rank": 16,
+   "team": "422",
+   "opr": 101.45,
+   "division": "Newton",
+   "event": "2025new",
+   "cad": [
+    {
+     "Description": "Comp Robot",
+     "Format": "Onshape",
+     "Link": "https://cad.onshape.com/documents/2bae4024a467119e47dc96b0/w/6c850cd2bf85d2162a5bb7d6/e/b4c78beff50beb69b98ad0b6?renderMode=0&uiState=6813b0c22a917549817ba5a7"
+    }
+   ]
+  },
+  {
+   "rank": 17,
+   "team": "4391",
+   "opr": 100.54,
+   "division": "Archimedes",
+   "event": "2025arc",
+   "cad": []
+  },
+  {
+   "rank": 18,
+   "team": "1706",
+   "opr": 100.33,
+   "division": "Curie",
+   "event": "2025cur",
+   "cad": [
+    {
+     "Description": "Comp Robot",
+     "Format": "Onshape",
+     "Link": "https://cad.onshape.com/documents/4b02abefda59b1f999042049/w/bf40141578ddedca6b900af0/e/5e919c0d868af85f4440ce2a?renderMode=0&uiState=69613fa25b253e82ceb9a9c1"
+    }
+   ]
+  },
+  {
+   "rank": 19,
+   "team": "4414",
+   "opr": 100.23,
+   "division": "Johnson",
+   "event": "2025joh",
+   "cad": []
+  },
+  {
+   "rank": 20,
+   "team": "111",
+   "opr": 98.26,
+   "division": "Johnson",
+   "event": "2025joh",
+   "cad": [
+    {
+     "Description": "WildStang 2025 CAD \u2014 25W - WildStang 2025, 26W0000 - Master Sketches",
+     "Format": "Onshape",
+     "Link": "https://cad.onshape.com/documents/cd6b1c3bcec743ac3a6bc559/w/f05c609292ec4546e43f6541/e/7ef5d3d77b01fa800eb213c4"
+    }
+   ]
+  },
+  {
+   "rank": 21,
+   "team": "1778",
+   "opr": 96.75,
+   "division": "Newton",
+   "event": "2025new",
+   "cad": [
+    {
+     "Description": "Comp Robot",
+     "Format": "Onshape",
+     "Link": "https://cad.onshape.com/documents/07beed2a16f5d7898cc42c9c/w/a74e4d796ba952dabae8ff7e/e/42c6b0e68334934d197bf369?renderMode=0&uiState=681d78400ee2693e5d5605f0"
+    }
+   ]
+  },
+  {
+   "rank": 22,
+   "team": "4020",
+   "opr": 96.14,
+   "division": "Curie",
+   "event": "2025cur",
+   "cad": []
+  },
+  {
+   "rank": 23,
+   "team": "148",
+   "opr": 95.53,
+   "division": "Newton",
+   "event": "2025new",
+   "cad": []
+  },
+  {
+   "rank": 24,
+   "team": "7407",
+   "opr": 95.12,
+   "division": "Milstein",
+   "event": "2025mil",
+   "cad": [
+    {
+     "Description": "Comp Bot",
+     "Format": "Onshape",
+     "Link": "https://cad.onshape.com/documents/c2395e8cc25ba2e37f225c1c/w/bd65b2a0c5d2dab99556c06b/e/9397772cbfdc7ca9f11dfdec?renderMode=0&uiState=67677da3df97217561206719"
+    }
+   ]
+  },
+  {
+   "rank": 25,
+   "team": "6147",
+   "opr": 94.53,
+   "division": "Newton",
+   "event": "2025new",
+   "cad": []
+  }
+ ],
+ "2026": [
+  {
+   "rank": 1,
+   "team": "4414",
+   "opr": 429.48,
+   "division": "Daly",
+   "event": "2026dal",
+   "cad": []
+  },
+  {
+   "rank": 2,
+   "team": "2910",
+   "opr": 408.46,
+   "division": "Newton",
+   "event": "2026new",
+   "cad": [
+    {
+     "Description": "Comp Robot \u2013 Blitz & Re\u2022Blitz (2 robots)",
+     "Format": "Onshape",
+     "Link": "https://2910.onshape.com/documents/dfb391aac173a4555d00a5b5/w/3dc64f602735252892b0e47b/e/6c654da4eb6b1710fb0900bd?configuration=List_gTJHVM5EzW0JZB%3DMax_Hood_Angle&renderMode=0&uiState=6a23004ccae613be8b3519ec, https://2910.onshape.com/documents/28894ad47d9c63a665e2a36b/w/078272beb4618ea6cffc78e0/e/aea9a72f86f273a5a9484208?configuration=default&renderMode=0&uiState=6a22ffe07389e39f66605a90, https://drive.google.com/file/d/1r-6zR4afbr_BpeZfWwcM5XL1N74FjScI/view?usp=sharing, https://drive.google.com/file/d/1jPf-aOGhz0dntoAgahFBgRhJiJv9rGpj/view?usp=sharing"
+    }
+   ]
+  },
+  {
+   "rank": 3,
+   "team": "2056",
+   "opr": 339.0,
+   "division": "Hopper",
+   "event": "2026hop",
+   "cad": []
+  },
+  {
+   "rank": 4,
+   "team": "1768",
+   "opr": 335.4,
+   "division": "Galileo",
+   "event": "2026gal",
+   "cad": [
+    {
+     "Description": "Team 1768 2026",
+     "Format": "Onshape",
+     "Link": "https://cad.onshape.com/documents/1d7aacb3a29f34b87ae45925, https://cad.onshape.com/documents/e69560710e95d0bc44da43f0"
+    }
+   ]
+  },
+  {
+   "rank": 5,
+   "team": "7769",
+   "opr": 333.84,
+   "division": "Galileo",
+   "event": "2026gal",
+   "cad": [
+    {
+     "Description": "Comp Robot \u2013 CHUNK, shooter/hopper",
+     "Format": "Onshape",
+     "Link": "https://ostcse.onshape.com/documents/692fc43a78732f76f6a7fc01/w/68c7f5631809df4361fcb808/e/ae1887b4c2531db24673e5e9?renderMode=0&uiState=6a0b15866b77a2ef44500831"
+    }
+   ]
+  },
+  {
+   "rank": 6,
+   "team": "1323",
+   "opr": 331.99,
+   "division": "Daly",
+   "event": "2026dal",
+   "cad": []
+  },
+  {
+   "rank": 7,
+   "team": "7558",
+   "opr": 326.83,
+   "division": "Johnson",
+   "event": "2026joh",
+   "cad": []
+  },
+  {
+   "rank": 8,
+   "team": "1690",
+   "opr": 323.27,
+   "division": "Galileo",
+   "event": "2026gal",
+   "cad": [
+    {
+     "Description": "Comp Robot",
+     "Format": "Onshape",
+     "Link": "https://orbit1690.onshape.com/documents/d09a47dbfc1b125f63a78ac7/w/d71d2275472653904f9b717a/e/03166dd8363262636c9f6b66"
+    }
+   ]
+  },
+  {
+   "rank": 9,
+   "team": "9470",
+   "opr": 321.9,
+   "division": "Archimedes",
+   "event": "2026arc",
+   "cad": [
+    {
+     "Description": "CMP Comp Robot",
+     "Format": "Onshape",
+     "Link": "https://cad.onshape.com/documents/df5df9d647afc82eacfe76aa/w/20fc10e9586929e958bf55cb/e/e5fa7af36676060afb455bc2"
+    }
+   ]
+  },
+  {
+   "rank": 10,
+   "team": "254",
+   "opr": 321.71,
+   "division": "Curie",
+   "event": "2026cur",
+   "cad": []
+  },
+  {
+   "rank": 11,
+   "team": "1706",
+   "opr": 314.96,
+   "division": "Hopper",
+   "event": "2026hop",
+   "cad": [
+    {
+     "Description": "Comp Robot",
+     "Format": "Onshape",
+     "Link": "https://cad.onshape.com/documents/23ba2ed5b3893ab97929c8b6/w/d7012e1e8978e09c9756ee4c/e/70526e43c92b434a946b53a6?renderMode=0&uiState=6a4551305d34dab275300f85"
+    }
+   ]
+  },
+  {
+   "rank": 12,
+   "team": "6800",
+   "opr": 313.95,
+   "division": "Curie",
+   "event": "2026cur",
+   "cad": [
+    {
+     "Description": "Comp Robot \u2013 Downpour",
+     "Format": "Onshape",
+     "Link": "https://cad.onshape.com/documents/15cd41462dc24ff986a4e549/w/1b79a7ae373e0026664ccfff/e/8fdecbfb5ab3c774cb6a4551?configuration=default&renderMode=0&uiState=6a03d46676e39c6e5b24e23c"
+    }
+   ]
+  },
+  {
+   "rank": 13,
+   "team": "125",
+   "opr": 310.32,
+   "division": "Curie",
+   "event": "2026cur",
+   "cad": []
+  },
+  {
+   "rank": 14,
+   "team": "9496",
+   "opr": 307.15,
+   "division": "Galileo",
+   "event": "2026gal",
+   "cad": [
+    {
+     "Description": "Comp Robot",
+     "Format": "Onshape",
+     "Link": "https://cad.onshape.com/documents/768d7890bafac55a2a891aae/w/a270c1901be101ad8a97909d/e/df73afab8b112242516b9ad0"
+    }
+   ]
+  },
+  {
+   "rank": 15,
+   "team": "2481",
+   "opr": 297.5,
+   "division": "Milstein",
+   "event": "2026mil",
+   "cad": []
+  },
+  {
+   "rank": 16,
+   "team": "6369",
+   "opr": 292.81,
+   "division": "Curie",
+   "event": "2026cur",
+   "cad": []
+  },
+  {
+   "rank": 17,
+   "team": "1678",
+   "opr": 290.57,
+   "division": "Milstein",
+   "event": "2026mil",
+   "cad": [
+    {
+     "Description": "Comp Robot",
+     "Format": "Onshape",
+     "Link": "https://1678.onshape.com/documents/acdaaf42764a293a9452326d/w/f887ef4c6a254c09c73344c3/e/a9684fa7665096e977b19c44?aa=true"
+    }
+   ]
+  },
+  {
+   "rank": 18,
+   "team": "9785",
+   "opr": 288.3,
+   "division": "Hopper",
+   "event": "2026hop",
+   "cad": []
+  },
+  {
+   "rank": 19,
+   "team": "2046",
+   "opr": 287.91,
+   "division": "Newton",
+   "event": "2026new",
+   "cad": []
+  },
+  {
+   "rank": 20,
+   "team": "8044",
+   "opr": 287.66,
+   "division": "Hopper",
+   "event": "2026hop",
+   "cad": []
+  },
+  {
+   "rank": 21,
+   "team": "973",
+   "opr": 287.62,
+   "division": "Newton",
+   "event": "2026new",
+   "cad": []
+  },
+  {
+   "rank": 22,
+   "team": "5907",
+   "opr": 283.26,
+   "division": "Curie",
+   "event": "2026cur",
+   "cad": [
+    {
+     "Description": "Comp Robot \u2013 Rebuilt (Chirp)",
+     "Format": "Onshape",
+     "Link": "https://cad.onshape.com/documents/4bcf78cab5066972a785c135"
+    }
+   ]
+  },
+  {
+   "rank": 23,
+   "team": "1114",
+   "opr": 281.95,
+   "division": "Archimedes",
+   "event": "2026arc",
+   "cad": [
+    {
+     "Description": "Comp Robot",
+     "Format": "Onshape",
+     "Link": "https://cad.onshape.com/documents/7959d159451177786d52dd9a/w/535bc31b66b0cc442967f1d0/e/a263c1a625ed8cf2484ae82f"
+    }
+   ]
+  },
+  {
+   "rank": 24,
+   "team": "117",
+   "opr": 274.67,
+   "division": "Johnson",
+   "event": "2026joh",
+   "cad": []
+  },
+  {
+   "rank": 25,
+   "team": "6329",
+   "opr": 273.27,
+   "division": "Hopper",
+   "event": "2026hop",
+   "cad": [
+    {
+     "Description": "Comp Robot",
+     "Format": "Onshape",
+     "Link": "https://cad.onshape.com/documents/014716f840fdbd882c1d691f/w/6f344cfa15ef9b0a4376698f/e/cd9bc0812c3416a4d99a3e17, https://cad.onshape.com/documents/3b751a2d7ebe31cad43f1ec9/w/018d7ee027fd82ca76baee33/e/a05e47ce92279ac81a17313e"
+    }
+   ]
+  }
+ ]
+}

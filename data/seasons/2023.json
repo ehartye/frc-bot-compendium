@@ -1,0 +1,76 @@
+{
+  "year": 2023,
+  "name": "CHARGED UP",
+  "manual": {
+    "url": "https://firstfrc.blob.core.windows.net/frc2023/Manual/HTML/2023FRCGameManual.htm",
+    "publisher": "FIRST",
+    "read": "2026-11-25",
+    "note": "Cited by link and restated in our words."
+  },
+  "pieces": [
+    {
+      "id": "cone",
+      "shape": "cone",
+      "size": "about 33 cm tall",
+      "compliance": "semi-rigid"
+    },
+    {
+      "id": "cube",
+      "shape": "inflatable cube",
+      "size": "about 24 cm",
+      "compliance": "soft"
+    }
+  ],
+  "phases": [
+    "auto",
+    "teleop",
+    "endgame"
+  ],
+  "objectives": [
+    {
+      "id": "mobility",
+      "label": "Leave the community in auto",
+      "auto_points": 3
+    },
+    {
+      "id": "grid-low",
+      "label": "Score in the bottom row",
+      "auto_points": 3,
+      "teleop_points": 2
+    },
+    {
+      "id": "grid-mid",
+      "label": "Score in the middle row",
+      "auto_points": 4,
+      "teleop_points": 3
+    },
+    {
+      "id": "grid-high",
+      "label": "Score in the top row",
+      "auto_points": 6,
+      "teleop_points": 5
+    },
+    {
+      "id": "supercharge",
+      "label": "Add a piece to a node on a complete grid",
+      "note": "3 points"
+    },
+    {
+      "id": "link",
+      "label": "Complete three adjacent nodes in a row",
+      "note": "5 points"
+    },
+    {
+      "id": "charge-station",
+      "label": "Dock or engage on the charge station",
+      "auto_points": 12,
+      "teleop_points": 10,
+      "note": "Engaged values; docked only is 8 in auto, 6 later"
+    },
+    {
+      "id": "park",
+      "label": "Park in the community",
+      "teleop_points": 2
+    }
+  ]
+}

@@ -1,0 +1,314 @@
+{
+  "id": "2025-1796",
+  "season": 2025,
+  "team": "1796",
+  "team_name": "RoboTigers",
+  "robot_name": "Frye",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 1796 in 2025",
+      "url": "https://www.thebluealliance.com/team/1796/2025",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Daly Division 2025",
+      "url": "https://www.thebluealliance.com/event/2025dal",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "RoboTigers Team 1796 Presents - Frye (2025)",
+      "url": "https://www.chiefdelphi.com/t/robotigers-team-1796-presents-frye-2025/495582",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/n07U3O0",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "1796 RoboTigers | Behind the Bumpers | 2025 FRC REEFSCAPE Robot",
+      "url": "https://www.youtube.com/watch?v=sMirgvFOlxY",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "cycle": [
+      {
+        "text": "Coral goes into the hopper, where wheels center it and printed parts turn it straight. A funnel guides it into the coral end effector, and the elevator raises it to L2, L3 or L4.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "The hopper began as a prototype with no CAD; coral stuck, so the panel angle changed and printed pieces now hold it. Suspension cable was added to a wobbling elevator just before the first event, and carbon fiber supports for the later events.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "53-5-0 in official play; ranked 7 of the pooled top 20 (OPR 110.26, Daly).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Hopper",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Take coral wherever the robot is, even when an opponent plays heavy defense",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Coral stuck in the first version until the panel angle changed",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "transfer"
+      ],
+      "type": "polycarbonate hopper with centering wheels",
+      "serves": [
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "Polycarbonate on three sides, at a set angle held by 3D printed pieces",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Wheels center the coral, and printed parts turn it to the one angle the scoring mechanism needs",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "One Kraken drives it at about a 3:1 ratio",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Inspired by the team captioned as Mechanical Advantage; the robot is named for its likeness to a french fry container",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elevator",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Raise coral to L2, L3 and L4 without wobbling",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "It wobbled a lot before the first event, and its first supports wore down over time",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "three-stage continuous elevator",
+      "serves": [
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "The 2024 elevator made longer, with more supports; inspired by Team 4414's 2023 robot",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Three layers of support: a 3D printed piece, suspension cable and carbon fiber",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Coral end effector",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Score at one angle and stop coral jamming on its way from the hopper",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "deliver",
+        "retain"
+      ],
+      "type": "fixed-angle coral scorer",
+      "serves": [
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "A bent plate sets the angle, about",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 33,
+          "unit": "deg"
+        },
+        {
+          "text": "A funnel piece guides coral from the hopper, at what had been one of the biggest jamming points in testing",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "The host describes a combined system of algae and coral manipulators",
+          "basis": "observer",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Reuse the 2024 elevator design",
+      "because": "it worked well for the amp in 2024",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Change the prototype hopper live, with no original CAD",
+      "because": "coral was getting stuck in the first stage, which showed the panel angle had to change",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Add a guide funnel between hopper and end effector",
+      "because": "coral often jammed there in testing",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=sMirgvFOlxY",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "RoboTigers Team 1796 Presents (495582)",
+        "url": "https://www.chiefdelphi.com/t/robotigers-team-1796-presents-frye-2025/495582",
+        "format": "thread",
+        "state": "opened",
+        "src": "s3"
+      },
+      {
+        "what": "Full robot with red bumpers in the pit, green elevator lowered",
+        "url": "https://imgur.com/n07U3O0",
+        "img": "https://i.imgur.com/n07U3O0h.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Robot on its cart in the pit, wider view",
+        "url": "https://www.chiefdelphi.com/t/robotigers-team-1796-presents-frye-2025/495582",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/1/0/1022abcc98b008a79e753c730fc29a6d8ebd20e6_2_300x375.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s3",
+        "kind": "robot-photo"
+      }
+    ],
+    "documents": [],
+    "code": []
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "Behind the Bumpers transcript, which ends after the elevator (algae, climb, drive and software not covered)",
+    "reveal thread (a reply that reads as the team's says CAD release is decided after the season, and CAD photos and explanations are shared on request)",
+    "binder search: Chief Delphi post search \"1796 binder\" (3 topics), title search \"1796\" (5 topics), 17 pages of the team site"
+  ],
+  "results": {
+    "division": "Daly",
+    "division_opr": 110.26,
+    "opr_rank": 7,
+    "record": "53-5-0",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

@@ -1,0 +1,905 @@
+{
+  "id": "2024-1678",
+  "season": 2024,
+  "team": "1678",
+  "team_name": "Citrus Circuits",
+  "robot_name": "Nik",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 1678 in 2024",
+      "url": "https://www.thebluealliance.com/team/1678/2024",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Archimedes Division 2024",
+      "url": "https://www.thebluealliance.com/event/2024arc",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "1678 Five Note Auto",
+      "url": "https://www.chiefdelphi.com/t/1678-five-note-auto/449823",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Team 1678 Robot Reveal 2024, 20 Years of Citrus",
+      "url": "https://www.chiefdelphi.com/t/team-1678-robot-reveal-20-years-of-citrus/456798",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "2024 Robot",
+      "url": "https://www.citruscircuits.org/2024-robot",
+      "publisher": "citruscircuits.org",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Citrus Circuits 2024 Code, CAD, and Strategy Release",
+      "url": "https://www.chiefdelphi.com/t/citrus-circuits-2024-code-cad-and-strategy-release/466792",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Citrus Circuits 2024 Season Recap",
+      "url": "https://www.chiefdelphi.com/t/citrus-circuits-2024-season-recap/471454",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "CAD & Code Release",
+      "url": "https://www.citruscircuits.org/cad-code-release",
+      "publisher": "citruscircuits.org",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "1678 2024 Champs Strategy Prep Readme Release",
+      "url": "https://docs.google.com/document/d/1ZyaPYwhbONE8YGEYXMqWHq88wZNUEr0MuF_d0h-Sn0A/edit",
+      "publisher": "docs.google.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "1678 2024 strategy resources, Drive folder",
+      "url": "https://drive.google.com/drive/folders/1_9OOlrBSrywf-PDyVpYuuo-9p5hYZ57T",
+      "publisher": "drive.google.com",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "1678 C2024-Public (Nik)",
+      "url": "https://github.com/frc1678/C2024-Public",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "Build Blog 2024",
+      "url": "https://www.citruscircuits.org/build-blog-2024",
+      "publisher": "citruscircuits.org",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "2024 Season",
+      "url": "https://www.citruscircuits.org/history/2024-season",
+      "publisher": "citruscircuits.org",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "1678 Five Note Auto 2024",
+      "url": "https://www.youtube.com/watch?v=XaGaKmvbXZ0",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/faaZMRT",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "Onshape document",
+      "url": "https://cad.onshape.com/documents/05760c4d8b40fba37db8fa48/w/f31b499c519e8471cced93dc/e/b53dde24ab8b46d679af9944",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "1678 Citrus Circuits | Behind the Bumpers | 10 Consecutive Seasons on Einstein",
+      "url": "https://www.youtube.com/watch?v=wmNuuUsm9GY",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "FRC2024Recap: 1678",
+      "url": "https://github.com/jmgroover/FRC2024Recap/blob/main/1678.md",
+      "publisher": "GitHub (third-party notes)",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "Did the 2 passing bots strategy by Citrus and Cheesy just broke the game?",
+      "url": "https://www.chiefdelphi.com/t/did-the-2-passing-bots-strategy-by-citrus-and-cheesy-just-broke-the-game/461687",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Stow the note and choose amp, trap or shooter later, because the team does not always know where a note will be needed.",
+        "basis": "team",
+        "src": [
+          "s19"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "The intake was built for a large acquisition zone and a crucial role in field clean-up. For the championship the team worked on reaching the midline sooner, expecting more five- and six-note autos there.",
+        "basis": "team",
+        "src": [
+          "s6",
+          "s19"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "A six-note routine, new for the championship, shoots the first two notes on the move. If the indexer beam breaks show no note, the robot slides along the midline to the next one instead of driving back to shoot.",
+        "basis": "team",
+        "src": [
+          "s19"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The intake funnels the note into the indexer; a triple point sends it up the elevator for the amp or out the back to the shooter. It can amp at once or hold the note.",
+        "basis": "team",
+        "src": [
+          "s6",
+          "s19"
+        ]
+      },
+      {
+        "text": "At East Bay, a post describes 1678 and another robot passing many notes to a shooting partner; a reply says note stealing seemed disruptive.",
+        "basis": "observer",
+        "src": [
+          "s21"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "A wide pivot climber hooks the chain and pulls it down while passive rollers on the elevator roll up the stage. The amp mechanism then scores the trap.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "The intake comes off with six bolts, so a broken one can be swapped and fixed while the robot plays.",
+        "basis": "team",
+        "src": [
+          "s19"
+        ]
+      },
+      {
+        "text": "Localization can switch between odometry only and full vision.",
+        "basis": "team",
+        "src": [
+          "s19"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "Asked what it would change, the team mentioned under-bumper intakes but preferred over-the-bumper for the larger acquisition zone. Its first over-bumper plates bent badly, sometimes outside the frame perimeter, and it still swapped the intake about once or twice a competition.",
+        "basis": "team",
+        "src": [
+          "s19"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "Alpha ran a five-note auto on day 6. Beta, with three pivoting arms, did not go well and the architecture was dropped. The interview counts three robots; the blog also names Epsilon before the competition robot.",
+        "basis": "team",
+        "src": [
+          "s19",
+          "s13"
+        ]
+      },
+      {
+        "text": "After the first event, pocketed aluminum intake plates became polycarbonate with aluminum sides.",
+        "basis": "team",
+        "src": [
+          "s19"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "56-12-1 in official play; won the Archimedes division; pick 1 of the Archimedes alliance on Einstein; ranked 10 of the pooled top 20 (OPR 55.90, Archimedes).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drivetrain",
+      "solves": [
+        {
+          "text": "Keep the center of gravity low and stop notes getting stuck under the robot",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "drive",
+        "structure"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "26 in by 26 in with MK4i swerve modules",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "1/16 in unpocketed belly pan, light with the most surface for electronics",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "A 1 in by 1 in tube between the rail and the swerve modules lowers the center of gravity and stops notes getting stuck underneath",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Over-the-bumper intake",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Let the driver run into notes confidently without worrying about the bumper, over a large zone",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "over-the-bumper roller intake",
+      "serves": [
+        "speaker",
+        "amp",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "Polycarbonate about 6 mm thick, with aluminum on the sides",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        },
+        {
+          "text": "5052 aluminum, so bent parts can be bent back",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        },
+        {
+          "text": "Attached by six bolts for quick swaps",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        },
+        {
+          "text": "3D-printed blocks funnel the note toward the indexer",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        },
+        {
+          "text": "One motor",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Full width of the robot",
+          "basis": "observer",
+          "src": [
+            "s20"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Plates bent at the first competition; after the change the team still swapped the intake about once or twice a competition",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Indexer (triple point)",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Store the note, then send it to the amp or the shooter",
+          "basis": "team",
+          "src": [
+            "s6",
+            "s19"
+          ]
+        }
+      ],
+      "does": [
+        "transfer",
+        "retain"
+      ],
+      "type": "roller indexer that routes the note to elevator or shooter",
+      "serves": [
+        "speaker",
+        "amp",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "Two beam breaks show that the note has entered and is held",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        },
+        {
+          "text": "Flips up on the shooter's dead axle to reach the electronics",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "In week 7 the team was swapping in a new indexer design meant to improve triple point efficiency",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elevator and ampvator",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Lift a stowed note to the amp or trap",
+          "basis": "team",
+          "src": [
+            "s19",
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "position",
+        "deliver"
+      ],
+      "type": "single-stage elevator with amp and trap scoring",
+      "serves": [
+        "amp",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "Scores the amp and, with the climber, the trap",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Two Kraken X60s at the belly pan drive the elevator",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "The week 7 blog calls the amp mechanism the ampvator and describes a new design to improve amp and trap ejection",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Give the note spin so its flight is stable and accurate",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        }
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "single-sided angled shooter",
+      "serves": [
+        "speaker"
+      ],
+      "facts": [
+        {
+          "text": "Flywheels on one side only",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        },
+        {
+          "text": "Sides lined with Teflon",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        },
+        {
+          "text": "Three motors",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Top and bottom flywheels",
+          "basis": "observer",
+          "src": [
+            "s20"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Hang in the last seconds and score the trap at the same time",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "wide pivot climber",
+      "serves": [
+        "onstage",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "Pulls the chain down while passive rollers on the elevator roll up the stage",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Two Kraken X60s turn a pulley to bring the climber down",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Localization",
+      "solves": [
+        {
+          "text": "Switch between odometry only and full vision localization, for example in auto",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "AprilTag vision with odometry",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Two cameras feed two coprocessors running OpenCV in a Python script to detect AprilTags",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        },
+        {
+          "text": "Fuses odometry error, not the full robot pose, in full-field localization",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        },
+        {
+          "text": "The blog reports a speaker orbit, which locks onto the speaker when shooting, during Beta bring-up in week 3, and note detection still in work on the Epsilon and competition robots late in build season",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Cameras are Arducams",
+          "basis": "observer",
+          "src": [
+            "s20"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Driver interface",
+      "solves": [
+        {
+          "text": "Keep all robot functions easy for one driver, with as much automation as possible",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "single controller with LED feedback",
+      "serves": [],
+      "facts": [
+        {
+          "text": "First season for the team with one driver on one controller",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        },
+        {
+          "text": "LED colors show a note held, ready to shoot, ready to amp or trap, or a ferry mode",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        },
+        {
+          "text": "Practice on the shop field, with cycle data, guides the choice between control schemes",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        },
+        {
+          "text": "A two-controller setup is also available: driver moves and collects, operator scores",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Over-the-bumper intake",
+      "because": "it gives a larger acquisition zone and the driver can run into notes without worrying about the bumper",
+      "instead_of": "an under-bumper intake",
+      "basis": "team",
+      "src": [
+        "s19"
+      ]
+    },
+    {
+      "choice": "Polycarbonate intake plates with aluminum sides",
+      "because": "the original plates bent a lot at the first competition, so the team went more flexible",
+      "instead_of": "pocketed aluminum plates",
+      "basis": "team",
+      "src": [
+        "s19"
+      ]
+    },
+    {
+      "choice": "Stow the note and choose where it goes later",
+      "because": "a partner may find a stray note for the amp or a ferried note may land where it is wanted, so the choice is worth keeping",
+      "instead_of": "committing each note to one place",
+      "basis": "team",
+      "src": [
+        "s19"
+      ]
+    },
+    {
+      "choice": "Flywheels on one side of the shooter",
+      "because": "shop testing found it gives a lot of spin, which brought accuracy",
+      "basis": "team",
+      "src": [
+        "s19"
+      ]
+    },
+    {
+      "choice": "Switch to a new architecture after Beta",
+      "because": "Beta's complicated design did not go well",
+      "instead_of": "Beta's three pivoting arms",
+      "basis": "team",
+      "src": [
+        "s19"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "Comp Robot",
+        "url": "https://cad.onshape.com/documents/05760c4d8b40fba37db8fa48/w/f31b499c519e8471cced93dc/e/b53dde24ab8b46d679af9944",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "CAD listed on the team page",
+        "url": "https://cad.onshape.com/documents/05760c4d8b40fba37db8fa48/w/f31b499c519e8471cced93dc",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "2024 Robot",
+        "url": "https://www.citruscircuits.org/2024-robot",
+        "format": "web page",
+        "state": "listed",
+        "src": "s6",
+        "holds": "Onshape"
+      },
+      {
+        "what": "Citrus Circuits 2024 Code, CAD, and Strategy Release",
+        "url": "https://www.chiefdelphi.com/t/citrus-circuits-2024-code-cad-and-strategy-release/466792",
+        "format": "thread",
+        "state": "listed",
+        "src": "s7",
+        "holds": "Onshape"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=gEPNd2pTjdA",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=wmNuuUsm9GY",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/1GJie61",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/Au8V40A",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "1678 Five Note Auto",
+        "url": "https://www.chiefdelphi.com/t/1678-five-note-auto/449823",
+        "format": "thread",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "Team 1678 Robot Reveal 2024, 20 Years of Citrus",
+        "url": "https://www.chiefdelphi.com/t/team-1678-robot-reveal-20-years-of-citrus/456798",
+        "format": "thread",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "Citrus Circuits 2024 Season Recap",
+        "url": "https://www.chiefdelphi.com/t/citrus-circuits-2024-season-recap/471454",
+        "format": "thread",
+        "state": "listed",
+        "src": "s8"
+      },
+      {
+        "what": "Build Blog 2024",
+        "url": "https://www.citruscircuits.org/build-blog-2024",
+        "format": "web page",
+        "state": "listed",
+        "src": "s13"
+      },
+      {
+        "what": "2024 Season",
+        "url": "https://www.citruscircuits.org/history/2024-season",
+        "format": "web page",
+        "state": "listed",
+        "src": "s15"
+      },
+      {
+        "what": "1678 Five Note Auto 2024",
+        "url": "https://www.youtube.com/watch?v=XaGaKmvbXZ0",
+        "format": "video",
+        "state": "listed",
+        "src": "s16"
+      },
+      {
+        "what": "Full robot driving on the field, side view",
+        "url": "https://imgur.com/faaZMRT",
+        "img": "https://i.imgur.com/faaZMRTh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s17",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Full robot CAD view, elevator raised and intake extended",
+        "url": "https://cad.onshape.com/documents/05760c4d8b40fba37db8fa48/w/f31b499c519e8471cced93dc/e/b53dde24ab8b46d679af9944",
+        "img": "https://cad.onshape.com/api/thumbnails/d/05760c4d8b40fba37db8fa48/w/f31b499c519e8471cced93dc/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s18",
+        "kind": "cad"
+      },
+      {
+        "what": "Full robot CAD render, intake extended",
+        "url": "https://www.citruscircuits.org/2024-robot",
+        "img": "https://static.wixstatic.com/media/146bfa_84ab8a38fd3e46a386a843513f46f85d~mv2.png/v1/fill/w_345,h_351,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/146bfa_84ab8a38fd3e46a386a843513f46f85d~mv2.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s6",
+        "kind": "cad"
+      },
+      {
+        "what": "Robot holding an orange ring, front view",
+        "url": "https://www.citruscircuits.org/history/2024-season",
+        "img": "https://static.wixstatic.com/media/146bfa_9f430bf7a55e404a906f9403db0860c9~mv2.jpg/v1/fill/w_490,h_261,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/146bfa_9f430bf7a55e404a906f9403db0860c9~mv2.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s15",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "CAD of a roller frame with side plates and belt",
+        "url": "https://www.citruscircuits.org/2024-robot",
+        "img": "https://static.wixstatic.com/media/146bfa_23f0b0cce2984ad992d26a18e1954215~mv2.png/v1/fill/w_291,h_282,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/146bfa_23f0b0cce2984ad992d26a18e1954215~mv2.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s6",
+        "kind": "cad"
+      }
+    ],
+    "documents": [
+      {
+        "what": "1678 2024 Champs Strategy Prep Readme Release",
+        "url": "https://docs.google.com/document/d/1ZyaPYwhbONE8YGEYXMqWHq88wZNUEr0MuF_d0h-Sn0A/edit",
+        "format": "Google Doc",
+        "state": "opened",
+        "src": "s10"
+      },
+      {
+        "what": "1678 2024 strategy resources folder",
+        "url": "https://drive.google.com/drive/folders/1_9OOlrBSrywf-PDyVpYuuo-9p5hYZ57T",
+        "format": "Google Drive",
+        "state": "listed",
+        "src": "s11"
+      },
+      {
+        "what": "2024 scouting whitepaper (PDF)",
+        "url": "https://www.citruscircuits.org/_files/ugd/146bfa_67e5335bfdf14b9aa0398b6ca3679532.pdf",
+        "format": "PDF",
+        "state": "listed",
+        "src": "s9"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/frc1678",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "1678 C2024-Public (Nik)",
+        "url": "https://github.com/frc1678/C2024-Public",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s12"
+      },
+      {
+        "what": "1678 server-2024-public (scouting)",
+        "url": "https://github.com/frc1678/server-2024-public",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s9"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: Chief Delphi title search for 1678, post search \"1678 binder\" and a 29-page crawl of the team site found no 2024 binder",
+    "the team's CAD and code page: its 2024 CAD and code buttons point at the 2025 robot, so they are not used here"
+  ],
+  "results": {
+    "division": "Archimedes",
+    "division_opr": 55.9,
+    "opr_rank": 10,
+    "record": "56-12-1",
+    "einstein": {
+      "division": "Archimedes",
+      "role": "pick 1"
+    },
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

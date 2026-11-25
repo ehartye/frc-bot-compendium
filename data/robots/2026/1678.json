@@ -1,0 +1,1205 @@
+{
+  "id": "2026-1678",
+  "season": 2026,
+  "team": "1678",
+  "team_name": "Citrus Circuits",
+  "robot_name": "Limestone",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 1678 in 2026",
+      "url": "https://www.thebluealliance.com/team/1678/2026",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Milstein Division 2026",
+      "url": "https://www.thebluealliance.com/event/2026mil",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "2026 Robot",
+      "url": "https://www.citruscircuits.org/2026-robot",
+      "publisher": "citruscircuits.org",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "1678 2026 What's and How's List",
+      "url": "https://docs.google.com/document/d/1Ekcl_rMsXj4mE0smhGHZrJcQuv0zmtKn8Rdprxlu6bQ/edit",
+      "publisher": "docs.google.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "1678 Kickoff 2026 README",
+      "url": "https://docs.google.com/document/d/1oo-8zO88JdqUFaUpemFPXGfLm4F-NZUFMVVtre1O4wk/edit",
+      "publisher": "docs.google.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "1678 2026 Robot Skill Tradeoffs",
+      "url": "https://docs.google.com/presentation/d/1mBsAVbzjp-olOCICLfNNM_10qV3BtfKPCQwHf_-IV88/edit",
+      "publisher": "docs.google.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "1678 2026 Champs Strategy Readme Release",
+      "url": "https://drive.google.com/file/d/1drmTuFs3G56uNWCx262bKUSmCF8BDE4L/view",
+      "publisher": "drive.google.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "1678 C2026-Public (Limestone)",
+      "url": "https://github.com/frc1678/C2026-Public",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "1678 server2-2026-public (scouting)",
+      "url": "https://github.com/frc1678/server2-2026-public",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Build Blog 2026",
+      "url": "https://www.citruscircuits.org/build-blog-2026",
+      "publisher": "citruscircuits.org",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "2056 just played and WE should be scared. | FRC Strategy Analysis",
+      "url": "https://www.youtube.com/watch?v=6CqUFVsKZ0o",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "1678 might have solved the game. | FRC Strategy Analysis",
+      "url": "https://www.youtube.com/watch?v=AOAG5SgewT4",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/JEanj2h",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/aK5v09B",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/yaggu7X",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "Onshape document",
+      "url": "https://1678.onshape.com/documents/acdaaf42764a293a9452326d/w/f887ef4c6a254c09c73344c3/e/a9684fa7665096e977b19c44?aa=true",
+      "publisher": "1678.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "1678 Citrus Circuits 2026 CAD and Robot Code Release",
+      "url": "https://www.chiefdelphi.com/t/1678-citrus-circuits-2026-cad-and-robot-code-release/521535",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "1678 Citrus Circuits | Behind the Bumpers | FRC REBUILT",
+      "url": "https://www.youtube.com/watch?v=wsAJGi3yxSk",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "1678 Citrus Circuits 2026 CAD and Robot Code Release, post 42",
+      "url": "https://www.chiefdelphi.com/t/1678-citrus-circuits-2026-cad-and-robot-code-release/521535/42",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "1678 Citrus Circuits 2026 Scouting and Strategy Release",
+      "url": "https://www.chiefdelphi.com/t/1678-citrus-circuits-2026-scouting-and-strategy-release/521537",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s22": {
+      "title": "REBUILT World Record Mic'd Up | 1678 Citrus Circuits | Behind the Glass",
+      "url": "https://www.youtube.com/watch?v=ELgg6_H-oaU",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s23": {
+      "title": "What 1678's Robot Reveal Reveals About REBUILT",
+      "url": "https://www.chiefdelphi.com/t/what-1678s-robot-reveal-reveals-about-rebuilt/515707",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s24": {
+      "title": "2026 Turret Vs Fixed Debate, post 221",
+      "url": "https://www.chiefdelphi.com/t/2026-turret-vs-fixed-debate/510640/221",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s25": {
+      "title": "The 10 Best FRC Robots of 2026",
+      "url": "https://www.youtube.com/watch?v=DLTgYLVH-Z0",
+      "publisher": "FRC StratAnalyst (YouTube)",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "A massive hopper for cycling plus massive shooting throughput gives a higher effective rate than most turrets, even those that shoot all match.",
+        "basis": "team",
+        "src": [
+          "s19"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "An early target was to score 360 fuel without relying on partners, expecting defense.",
+        "basis": "team",
+        "src": [
+          "s7"
+        ]
+      },
+      {
+        "text": "An unsigned reply that reads as the team's says level 3 climbing was not worth the effort.",
+        "basis": "observer",
+        "src": [
+          "s21"
+        ]
+      },
+      {
+        "text": "The team page lists efficient fuel scoring, a level 1 climb and strong autonomous routines.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "In a mic'd-up match a voice that reads as 1678's plans a double sweep from the left trench.",
+        "basis": "observer",
+        "src": [
+          "s22"
+        ]
+      },
+      {
+        "text": "At Half Moon Bay a commentator describes the robot crossing the center at a slant so its bumper corner piled up fuel for the way back, then looping close to its own hub, where scored fuel falls.",
+        "basis": "observer",
+        "src": [
+          "s13"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "In a mic'd-up match a voice that reads as 1678's describes going out by the trench and back over the bump.",
+        "basis": "observer",
+        "src": [
+          "s22"
+        ]
+      },
+      {
+        "text": "The load is fired once readiness checks pass.",
+        "basis": "team",
+        "src": [
+          "s19"
+        ]
+      },
+      {
+        "text": "In a Sacramento qualification match without defense, a commentator describes 1678 passing fuel to a turret partner between active shifts, then dumping its own load and collecting from the middle.",
+        "basis": "observer",
+        "src": [
+          "s12"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "The level 1 climber is the lift that carries the top of the hopper, and it can climb at either side of the tower or straight down the middle.",
+        "basis": "team",
+        "src": [
+          "s19"
+        ]
+      },
+      {
+        "text": "A commentator calls its Sacramento climb very fast and worth more than fuel in the last few seconds.",
+        "basis": "observer",
+        "src": [
+          "s12"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "A poster notes the driver can lower the hopper, hold fewer balls and use the trench if the bump is blocked.",
+        "basis": "observer",
+        "src": [
+          "s23"
+        ]
+      },
+      {
+        "text": "Team 2481 says the two robots screened for each other against defense, especially in the division finals, though it still slowed cycles by a few seconds.",
+        "basis": "observer",
+        "src": [
+          "s24"
+        ]
+      },
+      {
+        "text": "Two spare intakes travel with the team.",
+        "basis": "team",
+        "src": [
+          "s19"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "Early tradeoff slides, which left the choice open, describe a level 3 climber as heavy, big and slow; the robot climbs level 1.",
+        "basis": "team",
+        "src": [
+          "s7",
+          "s4"
+        ]
+      },
+      {
+        "text": "A reply that reads as the team's says robot weight became a bigger and bigger issue during the season and forced cuts.",
+        "basis": "observer",
+        "src": [
+          "s20"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "The first architecture was replaced early.",
+        "basis": "team",
+        "src": [
+          "s19"
+        ]
+      },
+      {
+        "text": "An unsigned reply that reads as the team's dates merging the climb with the hopper to day 15.",
+        "basis": "observer",
+        "src": [
+          "s21"
+        ]
+      },
+      {
+        "text": "Sources differ: the Sacramento interview gives a steel drum, two hood rollers, a wooden tunnel backer and three cameras; the team page gives an aluminum drum, three hood rollers, roller backing and one Limelight.",
+        "basis": "team",
+        "src": [
+          "s19",
+          "s4"
+        ]
+      },
+      {
+        "text": "Another such reply describes a CAN failure in the last Einstein match.",
+        "basis": "observer",
+        "src": [
+          "s18"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "61-9-0 in official play; won the Milstein division; captain of the Milstein alliance on Einstein; ranked 17 of the pooled top 20 (OPR 290.57, Milstein).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drivetrain",
+      "solves": [
+        {
+          "text": "Leave room for the ball path, stay agile and cross the bump smoothly",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "27 in by 27 in with SDS MK5n modules, chosen to leave the most space for the ball path",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "1/16 in pocketed belly pan; the roller floor pivots up for access to battery and electronics",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Plastic strips brace each side underneath so it goes smoothly over the bump",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Slapdown intake",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Get balls into the robot fast while taking crashes without driver worry",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "full-width slapdown roller intake",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "2 in silicone-covered carbon-fiber roller with a 1.25 in carbon-fiber kicker bar",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Two Kraken X60s drive the roller; one X60 deploys the intake through a compact MAXSpline gearbox",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "1/8 in thick 2 in by 1 in aluminum crash bar, with hot-swappable SRPP plates",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Two sleeved hex shafts guide balls and keep them off the main roller after pickup",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "At Sacramento, four bolts per side held the intake to its wrist plates",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "After the first event the team found the hopper and intake especially broke down in midfield collisions, and focused on robustness",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        },
+        {
+          "text": "In a mic'd-up match a voice that reads as 1678's warns that hard hits can kill the intake, and a voice afterwards says a carbon-fiber pop-up bar snapped",
+          "basis": "observer",
+          "src": [
+            "s22"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Expanding hopper",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Carry a large load and still go under the trench",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        }
+      ],
+      "does": [
+        "retain",
+        "structure"
+      ],
+      "type": "hopper that extends with the intake and with the climber",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "About 75 to 80 balls when expanded",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        },
+        {
+          "text": "Horizontal part: 1/8 in polycarbonate sides and corrugated plastic front, moved by the intake",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Upper part: two 0.75 in square tubes on the climber carry a corrugated plastic top",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A #25 chain and one X60 move the upper part up and down",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Bumper-mounted polycarbonate walls support the hopper",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A narrator calls it the first robot to use the trench and still hold so many balls",
+          "basis": "observer",
+          "src": [
+            "s25"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Broke down in collisions at the first event along with the intake",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Roller floor",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Accelerate a full hopper to the shooter while one ball wins the race into the tunnel",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        }
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "full-width roller floor",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Five 1 in dead-axle rollers and three 2 in flex-wheel rollers",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Rollers near the intake tilt little; the three flex-wheel rollers sit much steeper to minimize keystoning; the last two dead-axle rollers follow the ball's path through the feeder",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "One X60 drives it, at 3:1 for the 2 in rollers and 1.5:1 for the 1 in rollers",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Carbon-fiber tubes covered in silicone on small dead-axle stubs",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s19"
+          ]
+        },
+        {
+          "text": "A pin through the plate and hard stop holds it down in a match",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "A reply that reads as the team's says the roboRIO's USB port sits under the pivot and was difficult to reach",
+          "basis": "observer",
+          "src": [
+            "s18"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ball tunnel and feeder",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Accelerate balls consistently before they reach the drum",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        }
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "accelerating roller tunnel with a separate feeder roller",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Brings balls to about this share of shot speed",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 70,
+          "unit": "percent"
+        },
+        {
+          "text": "Two X60s; backing is 1.25 in dead-axle rollers on the team page and a wooden plank in the Sacramento interview",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s19"
+          ]
+        },
+        {
+          "text": "The 2 in feeder roller has its own X60, so the tunnel can spin up before feeding",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s19"
+          ]
+        },
+        {
+          "text": "J shape, after an earlier S shape",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Launch a whole hopper rapidly and accurately into the hub",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "deliver",
+        "position"
+      ],
+      "type": "full-width drum shooter with adjustable hood",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Side plates of 3/16 in aluminum, 25 in apart",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Drum differs by source: the Sacramento interview says steel tubing with aluminum end plugs, about 6 lb; the team page says 3.5 in aluminum covered in skateboard grip tape",
+          "basis": "team",
+          "src": [
+            "s19",
+            "s4"
+          ]
+        },
+        {
+          "text": "Hood rollers are driven from the drum: two in the interview, three on the team page",
+          "basis": "team",
+          "src": [
+            "s19",
+            "s4"
+          ]
+        },
+        {
+          "text": "Four X60s power drum and hood rollers so it can ferry from the opponent zone",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "An X44 moves the hood through a jackshaft for a wide range of angles",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Time from trigger press to shooting at Sacramento, about",
+          "basis": "team",
+          "src": [
+            "s19"
+          ],
+          "value": 0.5,
+          "unit": "s"
+        }
+      ],
+      "cost": [
+        {
+          "text": "From the reveal video, a poster estimates about 20 to 25 percent of shots missed, and sees that as the drawback of high-volume fixed shooters",
+          "basis": "observer",
+          "src": [
+            "s23"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Combine the climb with a hopper that can shrink to go under the trench",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "level 1 climber built into the hopper",
+      "serves": [
+        "tower-1"
+      ],
+      "facts": [
+        {
+          "text": "Grips the tower with material left from the previous year",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        },
+        {
+          "text": "Reaches level 1",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "The hopper's upper part is attached to it and moves by #25 chain and one X60",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Localization",
+      "solves": [
+        {
+          "text": "Get enough vision updates to localize for almost all of the match",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "camera vision fused with odometry",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Camera count differs by source: the Sacramento interview gives a Limelight plus two side cameras; the team page gives one Limelight 4 on the back face",
+          "basis": "team",
+          "src": [
+            "s19",
+            "s4"
+          ]
+        },
+        {
+          "text": "Two CANranges, in the hopper and the shooter",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A reply that reads as the team's says the side cameras ran at the week 3 event and were cut to save weight because they were not helping",
+          "basis": "observer",
+          "src": [
+            "s20"
+          ]
+        },
+        {
+          "text": "The same reply says changing vision standard deviations while shooting forced faster convergence",
+          "basis": "observer",
+          "src": [
+            "s20"
+          ]
+        },
+        {
+          "text": "The same reply says odometry was good enough after a block in auto to reach a tag and relocalize",
+          "basis": "observer",
+          "src": [
+            "s20"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shot readiness check",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Fire only when the whole stream will have consistent energy and a clear path",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "six-part check with LED status",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Checks include robot tilt, whether the shot would be blocked, drum and tunnel speed, and hood position",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        },
+        {
+          "text": "LEDs are red until the criteria are met, then yellow and blue while shooting",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        },
+        {
+          "text": "An Elastic dashboard shows time left in a shift, adjusted for who won auto",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        },
+        {
+          "text": "One driver; software handles shot alignment and targeting",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Wide drum shooter with a large hopper",
+      "because": "widening the shooter prototype and adding a massive ramp gave far more throughput",
+      "instead_of": "the different architecture first being designed",
+      "basis": "team",
+      "src": [
+        "s19"
+      ]
+    },
+    {
+      "choice": "Dumper that fits under the trench",
+      "because": "an unsigned reply that reads as the team's says merging the level 1 climb with the hopper gave the capacity while still going under",
+      "instead_of": "a focus on the bump right after kickoff",
+      "basis": "observer",
+      "src": [
+        "s21"
+      ]
+    },
+    {
+      "choice": "Level 1 climb",
+      "because": "early tradeoff slides, which left the choice open, call it quick, simple and reliable, and say a faster shooting rate favors it",
+      "instead_of": "a level 3 climb, described as heavy, big and slow",
+      "basis": "team",
+      "src": [
+        "s7",
+        "s4"
+      ]
+    },
+    {
+      "choice": "One active intake roller with a fixed kicker bar",
+      "because": "two active rollers on Alpha and Beta were not working",
+      "instead_of": "two active rollers",
+      "basis": "team",
+      "src": [
+        "s19"
+      ]
+    },
+    {
+      "choice": "Aluminum crash bar in front of the intake",
+      "because": "it takes impacts, so the roller can be carbon fiber, which usually shatters",
+      "basis": "team",
+      "src": [
+        "s19"
+      ]
+    },
+    {
+      "choice": "J-shaped ball tunnel",
+      "because": "the S shape changed ball speed so balls deflected off the drum and shots were inconsistent",
+      "instead_of": "an S-shaped tunnel",
+      "basis": "team",
+      "src": [
+        "s19"
+      ]
+    },
+    {
+      "choice": "CAN loop with few solder joints or connectors",
+      "because": "fewer breaks reduce possible failures, and service loops make a break at a component easy to fix",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "Crimp CAN ring terminals only once (advice after the season)",
+      "because": "an unsigned reply that reads as the team's says the terminals that failed had been crimped twice, and blames bad crimping and vibration for the snapped wires",
+      "basis": "observer",
+      "src": [
+        "s18"
+      ]
+    },
+    {
+      "choice": "Main breaker at the back of the robot",
+      "because": "an unsigned reply that reads as the team's says 2 AWG wire could hardly make the bends beside the battery and the back is far more accessible",
+      "instead_of": "beside the battery",
+      "cost": "a longer wire than ideal, with extra resistance the reply calls negligible, though it took almost the same amount of wire as the looped route",
+      "basis": "observer",
+      "src": [
+        "s18"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "Comp Robot",
+        "url": "https://1678.onshape.com/documents/acdaaf42764a293a9452326d/w/f887ef4c6a254c09c73344c3/e/a9684fa7665096e977b19c44?aa=true",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "CAD listed on the team page",
+        "url": "https://cad.onshape.com/documents/acdaaf42764a293a9452326d/w/f887ef4c6a254c09c73344c3",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "2026 Robot",
+        "url": "https://www.citruscircuits.org/2026-robot",
+        "format": "web page",
+        "state": "listed",
+        "src": "s4",
+        "holds": "Onshape"
+      },
+      {
+        "what": "1678 Citrus Circuits 2026 CAD and Robot Code Release",
+        "url": "https://www.chiefdelphi.com/t/1678-citrus-circuits-2026-cad-and-robot-code-release/521535",
+        "format": "thread",
+        "state": "listed",
+        "src": "s18"
+      },
+      {
+        "what": "Autodesk Inventor zip of Limestone with motion constraints, made by a poster",
+        "url": "https://drive.google.com/drive/folders/1LHSx_RKxhc5yy9Nfpx77ihCB5kFTfcIu?usp=sharing",
+        "format": "Inventor (zip)",
+        "state": "listed",
+        "src": "s18"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=ELgg6_H-oaU",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=wsAJGi3yxSk",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Build Blog 2026",
+        "url": "https://www.citruscircuits.org/build-blog-2026",
+        "format": "web page",
+        "state": "listed",
+        "src": "s11"
+      },
+      {
+        "what": "2056 just played and WE should be scared. | FRC Strategy Analysis",
+        "url": "https://www.youtube.com/watch?v=6CqUFVsKZ0o",
+        "format": "video",
+        "state": "listed",
+        "src": "s12"
+      },
+      {
+        "what": "1678 might have solved the game. | FRC Strategy Analysis",
+        "url": "https://www.youtube.com/watch?v=AOAG5SgewT4",
+        "format": "video",
+        "state": "listed",
+        "src": "s13"
+      },
+      {
+        "what": "Full robot with red bumpers, clear side panels and top rollers",
+        "url": "https://imgur.com/JEanj2h",
+        "img": "https://i.imgur.com/JEanj2hh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s14",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Robot on the field carrying and launching yellow balls",
+        "url": "https://imgur.com/aK5v09B",
+        "img": "https://i.imgur.com/aK5v09Bh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s15",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot with blue bumpers, seen from the opposite side",
+        "url": "https://imgur.com/yaggu7X",
+        "img": "https://i.imgur.com/yaggu7Xh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s16",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot CAD, with a translucent pyramid drawn above it",
+        "url": "https://1678.onshape.com/documents/acdaaf42764a293a9452326d/w/f887ef4c6a254c09c73344c3/e/a9684fa7665096e977b19c44?aa=true",
+        "img": "https://cad.onshape.com/api/thumbnails/d/acdaaf42764a293a9452326d/w/f887ef4c6a254c09c73344c3/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s17",
+        "kind": "cad"
+      },
+      {
+        "what": "CAD side view, vertical tube, belt and lightened side plates",
+        "url": "https://www.chiefdelphi.com/t/1678-citrus-circuits-2026-cad-and-robot-code-release/521535",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/5/b/b/5bb7a9043942c7759a2e350a5f2501d9c798fa9c_2_249x250.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s18",
+        "kind": "cad"
+      },
+      {
+        "what": "Full robot CAD, with a translucent pyramid drawn at the side",
+        "url": "https://www.citruscircuits.org/2026-robot",
+        "img": "https://static.wixstatic.com/media/146bfa_2ab58132e579484db06937311a939d73~mv2.png/v1/fill/w_356,h_237,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/146bfa_2ab58132e579484db06937311a939d73~mv2.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
+      },
+      {
+        "what": "CAD section view through a shaft, pulley and plates",
+        "url": "https://www.chiefdelphi.com/t/1678-citrus-circuits-2026-cad-and-robot-code-release/521535",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/5/7/d/57d652761a700458c4801b6f4b7dea199ea59198_2_182x250.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s18",
+        "kind": "cad"
+      },
+      {
+        "what": "Lightened plate with a small roller in a slot, CAD close-up",
+        "url": "https://www.chiefdelphi.com/t/1678-citrus-circuits-2026-cad-and-robot-code-release/521535",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/8/e/6/8e6b40292abc044d1593dfddb5052e85835984fa_2_182x250.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s18",
+        "kind": "cad"
+      },
+      {
+        "what": "Roller mechanism CAD, with a translucent pyramid drawn above it",
+        "url": "https://www.citruscircuits.org/2026-robot",
+        "img": "https://static.wixstatic.com/media/146bfa_3536a39b3e3e42f5a17f6c2f4d54179e~mv2.png/v1/fill/w_216,h_192,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/146bfa_3536a39b3e3e42f5a17f6c2f4d54179e~mv2.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
+      }
+    ],
+    "documents": [
+      {
+        "what": "1678 2026 What's and How's List",
+        "url": "https://docs.google.com/document/d/1Ekcl_rMsXj4mE0smhGHZrJcQuv0zmtKn8Rdprxlu6bQ/edit",
+        "format": "Google Doc",
+        "state": "opened",
+        "src": "s5"
+      },
+      {
+        "what": "1678 Kickoff 2026 README",
+        "url": "https://docs.google.com/document/d/1oo-8zO88JdqUFaUpemFPXGfLm4F-NZUFMVVtre1O4wk/edit",
+        "format": "Google Doc",
+        "state": "opened",
+        "src": "s6"
+      },
+      {
+        "what": "1678 2026 Robot Skill Tradeoffs",
+        "url": "https://docs.google.com/presentation/d/1mBsAVbzjp-olOCICLfNNM_10qV3BtfKPCQwHf_-IV88/edit",
+        "format": "Google Slides",
+        "state": "opened",
+        "src": "s7"
+      },
+      {
+        "what": "1678 2026 Champs Strategy Readme Release",
+        "url": "https://drive.google.com/file/d/1drmTuFs3G56uNWCx262bKUSmCF8BDE4L/view",
+        "format": "Google Drive",
+        "state": "opened",
+        "src": "s8"
+      },
+      {
+        "what": "2026 scouting whitepaper",
+        "url": "https://drive.google.com/file/d/1hhZVOEdRNCF3oYh1uQEQY3pWei5Criop/view",
+        "format": "Google Drive",
+        "state": "listed",
+        "src": "s21"
+      },
+      {
+        "what": "2026 What's discussion prompts",
+        "url": "https://docs.google.com/document/d/1hEwYiCP3fSRoyxHbzGFNrjuqtmkZ8OU3FsgcalLfvaU/edit?usp=sharing",
+        "format": "Google Doc",
+        "state": "listed",
+        "src": "s21"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/frc1678",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "1678 C2026-Public (Limestone)",
+        "url": "https://github.com/frc1678/C2026-Public",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s9"
+      },
+      {
+        "what": "1678 server2-2026-public (scouting)",
+        "url": "https://github.com/frc1678/server2-2026-public",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s10"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: Chief Delphi title search for 1678, post search \"1678 binder\" and a 29-page crawl of the team site found no 2026 binder"
+  ],
+  "results": {
+    "division": "Milstein",
+    "division_opr": 290.57,
+    "opr_rank": 17,
+    "record": "61-9-0",
+    "einstein": {
+      "division": "Milstein",
+      "role": "captain"
+    },
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

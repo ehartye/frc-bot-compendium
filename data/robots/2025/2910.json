@@ -1,0 +1,1156 @@
+{
+  "id": "2025-2910",
+  "season": 2025,
+  "team": "2910",
+  "team_name": "Jack in the Bot",
+  "robot_name": "Spectre",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 2910 in 2025",
+      "url": "https://www.thebluealliance.com/team/2910/2025",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Newton Division 2025",
+      "url": "https://www.thebluealliance.com/event/2025new",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "2910 Robot Reveal, 2025: Spectre (160)",
+      "url": "https://www.chiefdelphi.com/t/2910-robot-reveal-2025-spectre/494648",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "The 2025 FIRST World Championship Robot Built in Onshape",
+      "url": "https://www.onshape.com/en/blog/spectre-2025-first-world-championship-robot-built-in-cloud-native-cad",
+      "publisher": "onshape.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "2910 2025 Tech Binder (Spectre), Drive",
+      "url": "https://drive.google.com/file/d/1bjl1LJRS1vXOiLeVq6HdaQw0rmdQOUhk/view",
+      "publisher": "drive.google.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "🌊 2025 REEFSCAPE Champions!",
+      "url": "https://frcteam2910.org/2025/05/07/2025-recap-post/",
+      "publisher": "frcteam2910.org",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Team 2910 Code Release 2025",
+      "url": "https://www.chiefdelphi.com/t/team-2910-code-release-2025/503697",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "2910 2025CompetitionRobot-Public (Spectre)",
+      "url": "https://github.com/FRCTeam2910/2025CompetitionRobot-Public",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Jack-in-the-Bot becomes first Mill Creek high school robotics team to secure World Champ title",
+      "url": "https://lynnwoodtimes.com/?p=45420",
+      "publisher": "lynnwoodtimes.com",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Let's Review REEFSCAPE's Elite Robots. Which bot do you wish your team had built?",
+      "url": "https://www.chiefdelphi.com/t/lets-review-reefscapes-elite-robots-which-bot-do-you-wish-your-team-had-built/500055",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "2910 Jack in the Bot | B-Roll Bonus Clean Match Video | Newton M7",
+      "url": "https://www.youtube.com/watch?v=OcYb_mau730",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "The Best 3 Matches of Reefscape EVER  | FRC Strategy Analysis",
+      "url": "https://www.youtube.com/watch?v=SQure1sSDpk",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "Did 2910 just Solve Autonomous?! | FRC Strategy Analysis",
+      "url": "https://www.youtube.com/watch?v=tDj42Lx9hsw",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/J59vxOY",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/X5XPAcA",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "Onshape document",
+      "url": "https://2910.onshape.com/documents/f33ab032b00dc4b711aa86a6/w/951c0955d38b370eab02b587/e/415a66cb7efdf4aba6199086?configuration=default&renderMode=0&uiState=68091e6c81c18033fbb4fd25",
+      "publisher": "2910.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "2910 CAD and Tech Binder Release 2025",
+      "url": "https://www.chiefdelphi.com/t/2910-cad-and-tech-binder-release-2025/500310",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "2910 CAD and Tech Binder Release 2025, post 127",
+      "url": "https://www.chiefdelphi.com/t/2910-cad-and-tech-binder-release-2025/500310/127",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "2910 Robot Reveal, 2025: Spectre, post 63",
+      "url": "https://www.chiefdelphi.com/t/2910-robot-reveal-2025-spectre/494648/63",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s22": {
+      "title": "2910 Robot Reveal, 2025: Spectre, post 160",
+      "url": "https://www.chiefdelphi.com/t/2910-robot-reveal-2025-spectre/494648/160",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s23": {
+      "title": "Orbit 1690 2025 Robot Reveal (160)",
+      "url": "https://www.chiefdelphi.com/t/orbit-1690-2025-robot-reveal-whisper/492064/160",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "One familiar telescoping arm, based on the 2023 robot's, does all the major game tasks and also pulls the robot up the cage.",
+        "basis": "team",
+        "src": [
+          "s5",
+          "s6"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "Must-have targets: drive, deep cage climb, coral on L1 to L4 from the ground, station and mark, and algae from floor and reef into the net. The team wanted to be able to play any alliance role, put playoff and Einstein-level play first, and decided very early that the highest levels needed a fast, consistent climb.",
+        "basis": "team",
+        "src": [
+          "s6",
+          "s5"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "A commentator on the district championship finals describes an auto that goes all the way around the reef for L4, L4, L3 and L3, leaving partners free to run normal autos of their own.",
+        "basis": "observer",
+        "src": [
+          "s15"
+        ]
+      },
+      {
+        "text": "Another says it ran lollipop autos on Einstein.",
+        "basis": "observer",
+        "src": [
+          "s14"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The intake collects and orients coral. The driver picks level and left or right; the robot picks the reef face, front or back scoring and which camera to trust, drives in, moves the arm and ejects once in tolerance.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      },
+      {
+        "text": "1690's account says it went for their lollipop algae in Einstein finals 2 and took a dropped one in finals 3.",
+        "basis": "observer",
+        "src": [
+          "s23"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "Wheels pull one bar of the deep cage into one-way latches, and wheel speed and current show possession. The arm pulls down and locks into the bumper frame while a carriage keeps the chain above the center of gravity. The team states a 1.5-second climb.",
+        "basis": "team",
+        "src": [
+          "s5",
+          "s6"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "Rotation-based reef selection picks the face from the gyro and the tags in view instead of from odometry.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      },
+      {
+        "text": "A reply that reads as the team's says it suits plans with much field travel, when wheel odometry may have slipped.",
+        "basis": "observer",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "The team chose to ignore its 'Aggressively Simple' and 'Lightweight' objectives. Its no-effort list includes the shallow climb, buddy climbs, taking coral off the reef and controlling coral and algae at once.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      },
+      {
+        "text": "The arm can be time-consuming to repair.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      },
+      {
+        "text": "With only one full robot, a post that reads as the team's says, coming apart for checked luggage became a design constraint.",
+        "basis": "observer",
+        "src": [
+          "s22"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "The intake went through V1 (never competed), V2 at Sammamish, V2.2 at Auburn and V3 at the district championship and Worlds.",
+        "basis": "team",
+        "src": [
+          "s20"
+        ]
+      },
+      {
+        "text": "The wrist moved from belt to chain after skipping teeth, and the 2023 arm's extension belt, which had been overloaded, became chain.",
+        "basis": "team",
+        "src": [
+          "s21"
+        ]
+      },
+      {
+        "text": "MK4i modules gave way to prototype MK5 at Worlds; the weight saved went into a second brass bar.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "66-7-0 in official play; won the Newton division, won the championship; pick 1 of the Newton alliance on Einstein; ranked 2 of the pooled top 20 (OPR 127.87, Newton).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drivebase",
+      "solves": [
+        {
+          "text": "Short cycles, and surviving a season of high-speed collisions",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "drive",
+        "structure"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "2 x 1 in chassis with SDS lowering kits to lower the center of gravity",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "MK4i modules with L2 gearing and eight Kraken X60 through the district championship",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Prototype MK5 modules at Worlds: four X60 drive, four X44 steer, enclosed gears, 2.25 in wide wheels",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "The MK5 change saved about this much, spent on another brass bar in the rear frame",
+          "basis": "team",
+          "src": [
+            "s6"
+          ],
+          "value": 5,
+          "unit": "lb"
+        }
+      ]
+    },
+    {
+      "name": "Brass ballast",
+      "solves": [
+        {
+          "text": "Move the center of mass forward and counteract the arm's motion",
+          "basis": "team",
+          "src": [
+            "s5",
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "solid brass bar at the front of the chassis",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Bar weight",
+          "basis": "team",
+          "src": [
+            "s6"
+          ],
+          "value": 10,
+          "unit": "lb"
+        },
+        {
+          "text": "The battery sits at the front too, for easy access and a low center of gravity",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pivot",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Make the pivot robust and stiff, with the gearboxes low in the drivebase",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "dead-axle arm pivot on an A-frame",
+      "serves": [
+        "reef-l1",
+        "reef-branches",
+        "net",
+        "cage"
+      ],
+      "facts": [
+        {
+          "text": "Three Kraken X60 with a #35 chain final reduction",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Gear ratio",
+          "basis": "team",
+          "src": [
+            "s6"
+          ],
+          "value": 120.83,
+          "unit": ":1"
+        },
+        {
+          "text": "A cradle softens impacts and gives a hard stop for zeroing",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "A kickstand holds the arm in the starting configuration while disabled",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "The offset pivot allows a stowed pose with a very low center of gravity",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arm extension",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Stop the overloaded extension belt of the 2023 arm from breaking",
+          "basis": "team",
+          "src": [
+            "s21"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "two-stage cascade telescope",
+      "serves": [
+        "reef-l1",
+        "reef-branches",
+        "net",
+        "cage"
+      ],
+      "facts": [
+        {
+          "text": "Three Kraken X60 with a #25 chain final reduction",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Gear ratio",
+          "basis": "team",
+          "src": [
+            "s6"
+          ],
+          "value": 6.28,
+          "unit": ":1"
+        },
+        {
+          "text": "The extension sprocket is coaxial on the pivot axle, so the motors stay in the base",
+          "basis": "team",
+          "src": [
+            "s6",
+            "s21"
+          ]
+        },
+        {
+          "text": "Stage 1 runs on two #25 chains and stage 2 on 3 mm UHMWPE string",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Stage 1 tube is machined from 2.5 in x 3/16 in wall to 2.375 in x 1/8 in wall, and stage 2 from 2 in x 1/8 in to 1.875 in x 1/16 in, to fit the chain inside, per a reply that reads as the team's",
+          "basis": "observer",
+          "src": [
+            "s19"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "A reply that reads as the team's lists the arm tubes, extension bearing blocks, pivot axle and plugs as the hardest parts to machine",
+          "basis": "observer",
+          "src": [
+            "s19"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wrist",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Score forwards or backwards with one compact, light joint",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "reverted chain reduction",
+      "serves": [
+        "reef-l1",
+        "reef-branches",
+        "net"
+      ],
+      "facts": [
+        {
+          "text": "Over 180 degrees of motion from one Kraken X44",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Moved to #25 chain after the belt skipped teeth under a heavier, longer intake",
+          "basis": "team",
+          "src": [
+            "s21"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Coral intake",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Take coral instantly in any orientation, then turn it for the level",
+          "basis": "team",
+          "src": [
+            "s5",
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "retain",
+        "deliver"
+      ],
+      "type": "pass-through roller end effector",
+      "serves": [
+        "reef-l1",
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "Four vertical wheels and a set of horizontal wheels turn coral lengthwise for L2 to L4 or horizontal for L1",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Four CANrange sensors detect coral and index it for scoring front, back or sideways",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "One Kraken X60 on the horizontal rollers, two X44 on the vertical wheels",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "V3 split the funneling wheels onto two motors and added two CANranges for easy horizontal L1 scoring",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        },
+        {
+          "text": "2 in solid-core flex wheels held L1 coral much better than the clipped compliant wheels",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "V1 could stall a coral grabbed exactly in the middle, slipped wheels on printed hubs and skipped belts",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Algae intake",
+      "pieces": [
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Pick algae from the floor and the reef with the coral end effector",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "retain",
+        "deliver"
+      ],
+      "type": "shared lower wheels plus upper roller",
+      "serves": [
+        "net"
+      ],
+      "facts": [
+        {
+          "text": "The coral intake's horizontal wheels and an upper compliant-wheel roller grab algae",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "The upper roller was moved back, because in V1 it interfered with coral pickup at a wall",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Climb fast without precise alignment and without a separate lifting subsystem",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "powered grabber with latches, lifted by the arm",
+      "serves": [
+        "cage"
+      ],
+      "facts": [
+        {
+          "text": "Two wheels on one Kraken X44 take in a single bar of the cage",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Passive spring-loaded latches hold the bar; a lower V wedge gives a reaction point",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "The arm's extension hooks the front bumper frame to lock it down",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Stated climb time",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 1.5,
+          "unit": "s"
+        },
+        {
+          "text": "Automated once the bar is in the latches, with no trouble from false positives, per a reply that reads as the team's",
+          "basis": "observer",
+          "src": [
+            "s19"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber carriage",
+      "solves": [
+        {
+          "text": "Keep the chain above the center of gravity so the robot does not swing and touch the ground",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "endgame",
+        "position"
+      ],
+      "type": "chain-driven carriage along the arm",
+      "serves": [
+        "cage"
+      ],
+      "facts": [
+        {
+          "text": "One Kraken X60 moves it through a gearbox and #25 chain on the bottom of the arm",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "It lets the robot grab near the top of the cage and pull down as the arm rotates",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automated scoring",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Leave the driver only the level and the side to choose",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "four Limelight 4 cameras with a state machine",
+      "serves": [
+        "reef-l1",
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "Cameras on the pivot structure align to the reef from the front and back",
+          "basis": "team",
+          "src": [
+            "s5",
+            "s6"
+          ]
+        },
+        {
+          "text": "Pose-based mode picks the closest reef face by odometry; rotation-based mode uses the gyro's nearest 60-degree angle and the tags seen",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "One button pushes a system state to the superstructure, which delegates to subsystems",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Odometry is hard reset to camera poses, with no pose estimator, only on reef tags and only while auto-scoring, per a reply that reads as the team's",
+          "basis": "observer",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Alignment uses no motion profile and adds friction compensation, which helped most when starting close to the goal, per a reply that reads as the team's",
+          "basis": "observer",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "One-bolt arm",
+      "solves": [
+        {
+          "text": "Replace an arm that is slow to repair with a spare",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "quick-swap arm",
+      "serves": [],
+      "facts": [
+        {
+          "text": "One bolt holds the two end plugs of the pivot axle; removing it frees the whole arm",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Pivot, extension, wrist and climber are zeroed against hard stops with one button before the match",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Base the arm on the 2023 robot's",
+      "because": "familiarity freed effort for the intake and climber and made assembly and repairs smoother",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Use the arm as the climb's main actuator",
+      "because": "a fast, consistent climb was judged necessary, and it is simpler and lighter",
+      "instead_of": "a separate climbing subsystem",
+      "basis": "team",
+      "src": [
+        "s5",
+        "s6"
+      ]
+    },
+    {
+      "choice": "Grip a single bar of the cage with a powered collector",
+      "because": "it reduces the need for precise alignment",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    },
+    {
+      "choice": "Chain for the arm extension",
+      "because": "the 2023 belt was overloaded and broke, and the 2025 arm and intake are heavier",
+      "instead_of": "belt",
+      "basis": "team",
+      "src": [
+        "s21"
+      ]
+    },
+    {
+      "choice": "Zero on hard stops before the match",
+      "because": "it removes sensors that might need recalibration when the arm is swapped",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Build one full robot",
+      "because": "a post that reads as the team's says the second robots of 2023 and 2024 were late or unfinished, and on the shared practice fields the team is usually limited to one robot at a time",
+      "instead_of": "two identical robots",
+      "cost": "the robot must come apart to fly as checked luggage",
+      "basis": "observer",
+      "src": [
+        "s22"
+      ]
+    },
+    {
+      "choice": "Two motors on the V3 funneling wheels",
+      "because": "it makes horizontal L1 scoring easy and let the front roller be wider",
+      "instead_of": "one X60 driving all the funneling wheels on V1",
+      "basis": "team",
+      "src": [
+        "s20"
+      ]
+    },
+    {
+      "choice": "Reset odometry only while auto-scoring",
+      "because": "the robot is steadier then, so the poses are accurate enough; this is from a reply that reads as the team's",
+      "instead_of": "constant vision updates",
+      "basis": "observer",
+      "src": [
+        "s8"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "Comp Robot",
+        "url": "https://2910.onshape.com/documents/f33ab032b00dc4b711aa86a6/w/951c0955d38b370eab02b587/e/415a66cb7efdf4aba6199086?configuration=default&renderMode=0&uiState=68091e6c81c18033fbb4fd25",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "CAD listed on the team page",
+        "url": "https://cad.onshape.com/documents/f33ab032b00dc4b711aa86a6/w/951c0955d38b370eab02b587",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s1"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=SkbpHfbKaIE",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=kfg6I2UIN_Q",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=tRGdwm2JD9c",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/eY8SSKf",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "2910 Robot Reveal, 2025: Spectre (160)",
+        "url": "https://www.chiefdelphi.com/t/2910-robot-reveal-2025-spectre/494648",
+        "format": "thread",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "🌊 2025 REEFSCAPE Champions!",
+        "url": "https://frcteam2910.org/2025/05/07/2025-recap-post/",
+        "format": "web page",
+        "state": "opened",
+        "src": "s7"
+      },
+      {
+        "what": "Jack-in-the-Bot becomes first Mill Creek high school robotics team to secure World Champ title",
+        "url": "https://lynnwoodtimes.com/?p=45420",
+        "format": "web page",
+        "state": "listed",
+        "src": "s11"
+      },
+      {
+        "what": "Let's Review REEFSCAPE's Elite Robots. Which bot do you wish your team had built?",
+        "url": "https://www.chiefdelphi.com/t/lets-review-reefscapes-elite-robots-which-bot-do-you-wish-your-team-had-built/500055",
+        "format": "thread",
+        "state": "listed",
+        "src": "s12"
+      },
+      {
+        "what": "2910 Jack in the Bot | B-Roll Bonus Clean Match Video | Newton M7",
+        "url": "https://www.youtube.com/watch?v=OcYb_mau730",
+        "format": "video",
+        "state": "listed",
+        "src": "s13"
+      },
+      {
+        "what": "The Best 3 Matches of Reefscape EVER  | FRC Strategy Analysis",
+        "url": "https://www.youtube.com/watch?v=SQure1sSDpk",
+        "format": "video",
+        "state": "listed",
+        "src": "s14"
+      },
+      {
+        "what": "Did 2910 just Solve Autonomous?! | FRC Strategy Analysis",
+        "url": "https://www.youtube.com/watch?v=tDj42Lx9hsw",
+        "format": "video",
+        "state": "listed",
+        "src": "s15"
+      },
+      {
+        "what": "Full robot on the field holding a teal ball",
+        "url": "https://imgur.com/X5XPAcA",
+        "img": "https://i.imgur.com/X5XPAcAh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s17",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Full robot CAD, arm folded down",
+        "url": "https://2910.onshape.com/documents/f33ab032b00dc4b711aa86a6/w/951c0955d38b370eab02b587/e/415a66cb7efdf4aba6199086?configuration=default&renderMode=0&uiState=68091e6c81c18033fbb4fd25",
+        "img": "https://cad.onshape.com/api/thumbnails/d/f33ab032b00dc4b711aa86a6/w/951c0955d38b370eab02b587/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s18",
+        "kind": "cad"
+      },
+      {
+        "what": "Robot hanging from a blue cage, confetti on the floor",
+        "url": "https://www.chiefdelphi.com/t/2910-cad-and-tech-binder-release-2025/500310",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/c/4/7/c4708c45a81ab3ba086db35f850ce2ff9a1c7dbc_2_375x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s19",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Pivot and arm extension gearbox CAD with notes on ratios",
+        "url": "https://www.chiefdelphi.com/t/2910-cad-and-tech-binder-release-2025/500310",
+        "img": "https://www.chiefdelphi.com/uploads/default/original/4X/a/4/a/a4aafe3b00697d6c829ad086a150ea3961af1666.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s19",
+        "kind": "diagram"
+      },
+      {
+        "what": "2910 2025 prototyping, January 9 to March 2 (shared album)",
+        "url": "https://photos.google.com/share/AF1QipPWE0EOo42epuWsZnKLL_U6u2LKtKSuFtIubTVzQQtUMSljIiMNVg3UFCOSk-m4-w?key=SzUyb1dtbE1KdzEwMkxMOGt4djlHTXRpWEdsczhB",
+        "format": "album",
+        "state": "listed",
+        "src": "s20"
+      },
+      {
+        "what": "V3 intake testing videos (shared album)",
+        "url": "https://photos.app.goo.gl/UkWE9yiqM7119YUL6",
+        "format": "album",
+        "state": "listed",
+        "src": "s20"
+      },
+      {
+        "what": "Climb video posted in the reveal thread",
+        "url": "https://www.youtube.com/watch?v=h-GvEEfhakw",
+        "format": "video",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "Second climb video posted in the reveal thread",
+        "url": "https://www.youtube.com/watch?v=j_OuhR-_9vY",
+        "format": "video",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "Coral scoring video posted in the reveal thread",
+        "url": "https://www.youtube.com/watch?v=XqOxp0_hy-w",
+        "format": "video",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "Photo page (picture not shown here)",
+        "url": "https://imgur.com/J59vxOY",
+        "format": "image",
+        "state": "opened",
+        "src": "s16"
+      }
+    ],
+    "documents": [
+      {
+        "what": "2910 2025 Tech Binder (Spectre)",
+        "url": "https://drive.google.com/file/d/1bjl1LJRS1vXOiLeVq6HdaQw0rmdQOUhk/view",
+        "format": "Google Drive",
+        "state": "opened",
+        "src": "s6"
+      },
+      {
+        "what": "The 2025 FIRST World Championship Robot Built in Onshape",
+        "url": "https://www.onshape.com/en/blog/spectre-2025-first-world-championship-robot-built-in-cloud-native-cad",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s5"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/frcteam2910",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Team 2910 Code Release 2025",
+        "url": "https://www.chiefdelphi.com/t/team-2910-code-release-2025/503697",
+        "format": "thread",
+        "state": "listed",
+        "src": "s8"
+      },
+      {
+        "what": "2910 2025CompetitionRobot-Public (Spectre)",
+        "url": "https://github.com/FRCTeam2910/2025CompetitionRobot-Public",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s9"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "2025 tech binder, text extraction (figures not read; interleaved requirement rows not used)"
+  ],
+  "results": {
+    "division": "Newton",
+    "division_opr": 127.87,
+    "opr_rank": 2,
+    "record": "66-7-0",
+    "einstein": {
+      "division": "Newton",
+      "role": "pick 1"
+    },
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

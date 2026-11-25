@@ -1,0 +1,573 @@
+{
+  "id": "2023-1323",
+  "season": 2023,
+  "team": "1323",
+  "team_name": "MadTown Robotics",
+  "robot_name": null,
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 1323 in 2023",
+      "url": "https://www.thebluealliance.com/team/1323/2023",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Hopper Division 2023",
+      "url": "https://www.thebluealliance.com/event/2023hop",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "1323 at the 2023 season (team1323.com)",
+      "url": "https://team1323.com/first/frc/2023-season-2/",
+      "publisher": "team1323.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "FRC Round Up interview announcement (1323, WCP)",
+      "url": "https://www.chiefdelphi.com/t/frc-round-up-guest-rc-from-1323-wcp-now-on-youtube/435718",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Team 1323 - 2023 World Championship gallery",
+      "url": "https://team1323.com/2023-world-championship/",
+      "publisher": "team1323.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Team 1323 photos - 2023 Central Valley Regional",
+      "url": "https://team1323.com/media/photos/2023-central-valley-regional/",
+      "publisher": "team1323.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Team 1323 photos - 2023 Monterey Bay Regional",
+      "url": "https://team1323.com/media/photos/2023-monterey-bay-regional/",
+      "publisher": "team1323.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "FRC Round Up episode 19, with 1323 and WCP",
+      "url": "https://www.youtube.com/watch?v=n-_gh38o-vE",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Behind the Bumpers | 1323 MadTown Robotics | World Champions",
+      "url": "https://www.youtube.com/watch?v=hz3MolcRe2M",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "1323 Rigging information",
+      "url": "https://www.chiefdelphi.com/t/1323-rigging-information/436042",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Store several pieces and score from the community: the team found no limit on how many it could hold, so a tunnel carries three and works together with the scoring elevators.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "Scoring several game pieces, especially in the community, was the main focal point. The team expected many simple, small robots and wanted to be different at the most competitive level.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      },
+      {
+        "text": "The drive coach says the alliance strategy put the other two robots first, with 1323 taking whatever role made the alliance better.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "Object detection lines the robot up with its last cone, because its position was sometimes off after moving across the field.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      },
+      {
+        "text": "In the championship alliance it took the bump side, which the drive coach calls the harder auto with fewer pieces.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The intake sends a cube down the tunnel, and the arm comes down to take it. Cones come straight into the claw, from the human player zone at higher levels of play. Elevators and arm then move together to the next position.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "endgame": [],
+    "fallback": [],
+    "gave_up": [
+      {
+        "text": "The robot was at maximum weight. The drive coach calls it paper mache, because it used pocketed 1/16-inch-wall tube, so the team took a full spare elevator, arm and intake to the championship.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      },
+      {
+        "text": "Taking the bump side meant scoring fewer pieces, a tough role for the students to play.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "The drive coach says the robot was driving by week four and a half of build season, and most later changes removed weight rather than altering major mechanisms. Practice went to cones and the shelf, which the team judged its weak points.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      },
+      {
+        "text": "It first took cones left on the field, then moved to the human player zone because few were left at higher levels.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "52-1-0 in official play; won the Hopper division, won the championship; captain of the Hopper alliance on Einstein; ranked 3 of the pooled top 20 (OPR 79.45, Hopper).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Cube intake",
+      "does": [
+        "acquire"
+      ],
+      "type": "wide overhead roller intake",
+      "pieces": [
+        "cube"
+      ],
+      "serves": [],
+      "solves": [
+        {
+          "text": "Collect cubes and center them on the way into the robot",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Very similar to the overhead intake the team ran the year before",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "A roller works together with star wheels to center the cube and send it toward the end of the tunnel",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Takes cubes only; cones come in through the claw",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tunnel",
+      "does": [
+        "retain",
+        "transfer"
+      ],
+      "type": "powered roller tunnel",
+      "pieces": [
+        "cube"
+      ],
+      "serves": [],
+      "solves": [
+        {
+          "text": "Score several pieces, especially in the community",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Holds",
+          "basis": "team",
+          "src": [
+            "s9"
+          ],
+          "value": 3,
+          "unit": "game pieces"
+        },
+        {
+          "text": "Rollers keep the cube moving to the end position, where the handoff to the arm happens",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Stores pieces while the scoring elevators work",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Horizontal and vertical elevators",
+      "does": [
+        "position"
+      ],
+      "type": "horizontal and vertical elevators carrying an arm",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "serves": [],
+      "solves": [
+        {
+          "text": "Bring the arm to the position wanted for a handoff or a score",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "The horizontal elevator is powered by chain and rope",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "The vertical elevator is powered by one long belt",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "A reply that reads as the team's says the vertical elevator is one continuous loop of belt with tensioners on two ends, and the horizontal one is chain driven with cascade rigging",
+          "basis": "observer",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Claw",
+      "does": [
+        "acquire",
+        "deliver"
+      ],
+      "type": "claw on an arm",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "serves": [],
+      "solves": [
+        {
+          "text": "Handle cones, upright or tipped, and cubes from the tunnel with one end effector",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Takes cubes from the tunnel at a handoff position",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Picks up upright and tipped cones",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "For a tipped cone the co-driver selects a flip position: the claw goes down against the bumper, the driver backs up and releases, and the upright cone is taken as usual",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The speaker agrees that righting a tipped cone is slower",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Coordinated position control",
+      "does": [
+        "sense",
+        "position"
+      ],
+      "type": "coordinated motion with collision limits",
+      "serves": [],
+      "solves": [
+        {
+          "text": "Reach each position fast without the mechanisms colliding",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "All axes move at the same time toward an end position of the claw",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Limits keep the shoulder and claw from hitting the top of the robot or the Limelight, which the team needs for scoring",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "The arm does not extend past a set point, to avoid too much stress on the shoulder",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Object detection",
+      "does": [
+        "sense"
+      ],
+      "type": "Limelight with a co-processor",
+      "pieces": [
+        "cone"
+      ],
+      "serves": [],
+      "solves": [
+        {
+          "text": "Line up with a cone when the robot's estimated position is off late in auto",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Runs on a co-processor plugged into the Limelight, in its detector pipeline, with a model Limelight provides",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Used in auto for the last cone",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Build as wide and as heavy as possible",
+      "because": "many other robots would be simple and small, and the team wanted to be unique in high-level matches",
+      "basis": "team",
+      "src": [
+        "s9"
+      ]
+    },
+    {
+      "choice": "Take cones from the human player zone at higher levels of play",
+      "because": "few cones were left on the field and the team wanted to be more consistent",
+      "instead_of": "picking cones up from the floor",
+      "basis": "team",
+      "src": [
+        "s9"
+      ]
+    },
+    {
+      "choice": "Finish the robot early and build things that can be upgraded",
+      "because": "the drive coach says a team that builds simple and is done weeks in advance cannot get better for the championship",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    },
+    {
+      "choice": "Play the bump side with HighTide as partner",
+      "because": "HighTide was so good and so fast, the drive coach says",
+      "cost": "in practice matches 1323 scored only 9 or 10 objects to about 15 for HighTide, a role its students found tough",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=hz3MolcRe2M",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/VhVaoeQ",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/wy1hbc5",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "1323 at the 2023 season (team1323.com)",
+        "url": "https://team1323.com/first/frc/2023-season-2/",
+        "format": "web page",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "Interview announcement: 1323 on FRC Round Up",
+        "url": "https://www.chiefdelphi.com/t/frc-round-up-guest-rc-from-1323-wcp-now-on-youtube/435718",
+        "format": "video",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "Team 1323 - 2023 World Championship gallery",
+        "url": "https://team1323.com/2023-world-championship/",
+        "format": "web page",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "Team 1323 photos - 2023 Central Valley Regional",
+        "url": "https://team1323.com/media/photos/2023-central-valley-regional/",
+        "format": "web page",
+        "state": "listed",
+        "src": "s6"
+      },
+      {
+        "what": "Team 1323 photos - 2023 Monterey Bay Regional",
+        "url": "https://team1323.com/media/photos/2023-monterey-bay-regional/",
+        "format": "web page",
+        "state": "listed",
+        "src": "s7"
+      },
+      {
+        "what": "FRC Round Up interview with 1323 and WCP",
+        "url": "https://www.youtube.com/watch?v=n-_gh38o-vE",
+        "format": "video",
+        "state": "listed",
+        "src": "s8"
+      },
+      {
+        "what": "Championship winning interview",
+        "url": "https://youtu.be/Yk8yIwwbKhQ",
+        "format": "video",
+        "state": "listed",
+        "src": "s4"
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/team1323",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binder searches: Chief Delphi titles for 1323, posts for 1323 tech binder, titles for 1323 binder, one web search, 28 pages of the team site"
+  ],
+  "results": {
+    "division": "Hopper",
+    "division_opr": 79.45,
+    "opr_rank": 3,
+    "record": "52-1-0",
+    "einstein": {
+      "division": "Hopper",
+      "role": "captain"
+    },
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

@@ -1,0 +1,402 @@
+{
+  "id": "2023-1577",
+  "season": 2023,
+  "team": "1577",
+  "team_name": "Steampunk",
+  "robot_name": null,
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 1577 in 2023",
+      "url": "https://www.thebluealliance.com/team/1577/2023",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Archimedes Division 2023",
+      "url": "https://www.thebluealliance.com/event/2023arc",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "1577 Steampunk 2023 Season Recap",
+      "url": "https://www.chiefdelphi.com/t/steampunk-1577-2023-season-recap/438324",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Steampunk 1577 robot reveal 2023",
+      "url": "https://www.chiefdelphi.com/t/steampunk-1577-robot-reveal-2023/429960",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Steampunk 1577: 2023 Season Recap (video)",
+      "url": "https://www.youtube.com/watch?v=5U5oW3GQX6w",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Behind the Bumpers | 1577 Steampunk | Charged Up Robot",
+      "url": "https://www.youtube.com/watch?v=OeSR3pGzmSI",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [],
+    "demand": [],
+    "auto": [
+      {
+        "text": "From the open side of the charge station, score two pieces and collect another. Over the charge station, score one, collect one, return and balance. From the cable-protector side, score two.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The operator picks a level and a piece with buttons. The floor intake centers a cone and swings up, and the arm takes it. The driver presses one button to open the arm to the chosen position and one to eject.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "endgame": [],
+    "fallback": [
+      {
+        "text": "If a set point is off during a match, the team can change it from the dashboard in real time instead of losing the match and fixing it later.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "gave_up": [],
+    "changed": [
+      {
+        "text": "At the first district event the robot had no floor intake and lost many points because it could take only standing cones. The new intake took inspiration from another team. At the World Championship the team had just changed the intake, so the handoff angle moved further back to suit how cones met the gripper.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "51-12-0 in official play; ranked 14 of the pooled top 20 (OPR 72.53, Archimedes).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Floor intake",
+      "pieces": [
+        "cone"
+      ],
+      "solves": [
+        {
+          "text": "Pick fallen cones off the floor quickly and center them, with a light mechanism",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "transfer"
+      ],
+      "type": "pivoting roller intake",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Takes a cone by its square side between two rollers; a PVC pipe keeps the cone in, and mecanum and omni wheels center it",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "The pivot is low to the ground, so a hit pushes the intake up instead of breaking it",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "The intake then comes back up so the arm can grab the cone",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arm",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Rotate and extend to the scoring levels while keeping the center of gravity low",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "two-degree-of-freedom rotating and extending arm",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "The transmission sits low and drives the top by chain, to keep the center of gravity down",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "An absolute encoder meshes with the arm sprocket, so the true arm angle is known despite gear and chain backlash",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "It extends by a double sprocket in two rows of holes in the arm extrusion",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Two connected extrusions up top give the arm more stability",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The gear ratio and chain add backlash",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gripper",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Hold cones and cubes in one narrow gripper",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "retain",
+        "deliver"
+      ],
+      "type": "two-set wheeled gripper",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "The pointed end of a cone passes up between the two sets of wheels; a cube is pinched by its corner or face",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "In polycarbonate, two shoulder bearings sit side by side with inner rings touching, so neither can pop out and no friction is added",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arm waypoints and dashboard",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Move the arm past the grid without hitting it and correct a bad set point without leaving the match",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "safe waypoints with a match-time set-point editor",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "A set of safe waypoints lets the arm move around the grid without hitting it",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "The dashboard shows the chosen level and piece, and every set point in the field can be changed during a match",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "In auto, the swerve is given a field point and drives there",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Add a floor intake after the first district event",
+      "because": "the robot lost many points because it could not pick up fallen cones",
+      "instead_of": "taking only standing cones with the gripper",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    },
+    {
+      "choice": "Keep the narrow gripper",
+      "because": "it was first sized to reach into a spindexer, and the team found it did not need widening because the floor intake centers the piece",
+      "instead_of": "a wider gripper",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    },
+    {
+      "choice": "Encoder on the sprocket",
+      "because": "the arm plates ride on bearings on a fixed shaft, so the encoder could not go there",
+      "instead_of": "an encoder on the arm shaft",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=OeSR3pGzmSI",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=jArGwOEZkKA",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/RfSNwaX",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "1577 Steampunk 2023 Season Recap",
+        "url": "https://www.chiefdelphi.com/t/steampunk-1577-2023-season-recap/438324",
+        "format": "thread",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "1577 robot reveal thread, 2023",
+        "url": "https://www.chiefdelphi.com/t/steampunk-1577-robot-reveal-2023/429960",
+        "format": "thread",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "Steampunk 1577: 2023 Season Recap (video)",
+        "url": "https://www.youtube.com/watch?v=5U5oW3GQX6w",
+        "format": "video",
+        "state": "listed",
+        "src": "s5"
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/frc1577",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: Chief Delphi post search \"Steampunk binder\" (1 result), one web search; the team site refused the connection"
+  ],
+  "results": {
+    "division": "Archimedes",
+    "division_opr": 72.53,
+    "opr_rank": 14,
+    "record": "51-12-0",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

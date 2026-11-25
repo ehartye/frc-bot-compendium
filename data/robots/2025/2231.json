@@ -1,0 +1,752 @@
+{
+  "id": "2025-2231",
+  "season": 2025,
+  "team": "2231",
+  "team_name": "OnyxTronix",
+  "robot_name": "RICO",
+  "variant": "Championship robot, with the second ground intake; the catalog describes the earlier one",
+  "sources": {
+    "s1": {
+      "title": "Team 2231 in 2025",
+      "url": "https://www.thebluealliance.com/team/2231/2025",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Archimedes Division 2025",
+      "url": "https://www.thebluealliance.com/event/2025arc",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "OnyxTronix 2231 - 2025 Robot catalog and CAD",
+      "url": "https://www.chiefdelphi.com/t/onyxtronix-2231-2025-robot-catalog-and-cad/503670",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "OnyxTronix 2231 Presents: 2025 Robot",
+      "url": "https://www.chiefdelphi.com/t/onyxtronix-2231-presents-2025-robot-rico/493195",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "OnyxTronix 2231 2025 robot catalog PDF",
+      "url": "https://www.chiefdelphi.com/uploads/short-url/yqn7NeLAaMJqVhkb21bYaSCke4p.pdf",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Robots (robots)",
+      "url": "https://onyxtronix2231.wixsite.com/home/robots",
+      "publisher": "onyxtronix2231.wixsite.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "2231 OnyxTronix | Behind the Bumpers | 2025 FRC REEFSCAPE Robot",
+      "url": "https://www.youtube.com/watch?v=GKxJRpeaHl0",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Hold a coral and an algae at the same time and control both with the same system, so no cycle time is wasted.",
+        "basis": "team",
+        "src": [
+          "s7"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "They saw at the start that the game rewards acceleration over top speed, and that scoring leaves about 5 cm of range, which a person cannot hit alone every time, so every action should be automated.",
+        "basis": "team",
+        "src": [
+          "s7"
+        ]
+      },
+      {
+        "text": "Wanted capabilities were ranked with QFD during about two days of game analysis.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "auto": [],
+    "cycle": [
+      {
+        "text": "The driver moves to an area such as a reef side and AutoPilot finishes the intake or score. The robot takes an algae off the reef and can place its coral immediately after. The end effector's rotation saves driving time between feeder and reef. An operator sets the scoring height.",
+        "basis": "team",
+        "src": [
+          "s5",
+          "s7"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "A 'leg' locked by hooks holds the deep cage in place, and a passive 'beak' clamps onto it with the robot's weight. The catalog gives 1.0 second until the robot is in the air.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "fallback": [],
+    "gave_up": [
+      {
+        "text": "A smaller drive pinion gives up maximum velocity for acceleration.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "The first algae ground intake, a roller held and driven from one side to save space, lacked performance and consistency at the Israeli events. A lightweight, compact and fast one came to the championship, with side wheels added to the algae mechanism. Both end effector sides were heavily modified.",
+        "basis": "team",
+        "src": [
+          "s5",
+          "s7"
+        ]
+      },
+      {
+        "text": "At ISR 4 logs exposed an odometry problem and cameras were replaced.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "46-18-2 in official play; ranked 13 of the pooled top 20 (OPR 104.17, Archimedes).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Chassis",
+      "does": [
+        "drive"
+      ],
+      "type": "swerve, closed frame with inner profiles",
+      "serves": [],
+      "facts": [
+        {
+          "text": "SDS MK4i modules with two Kraken X60 each, stated ratio",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 7.2,
+          "unit": ":1"
+        },
+        {
+          "text": "L2 with a 13T pinion in place of 14T, for acceleration",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Maximum acceleration",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 5.5,
+          "unit": "m/s^2"
+        },
+        {
+          "text": "The battery is lowered under the chassis to lower the center of mass",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Lower maximum velocity",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ground intake",
+      "pieces": [
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Meet a higher bar than the first version, which lacked performance and consistency",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "transfer"
+      ],
+      "type": "algae floor intake, second version",
+      "serves": [
+        "processor",
+        "net"
+      ],
+      "facts": [
+        {
+          "text": "New for the championship",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "A pinion on a large gear moves the whole intake",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "The first version was designed to intake and transfer in 0.5 s; no time is given for this one",
+          "basis": "team",
+          "src": [
+            "s5",
+            "s7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "End Effector",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Hold both pieces at once and score each independently, saving drive time between feeder and reef",
+          "basis": "team",
+          "src": [
+            "s5",
+            "s7"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "retain",
+        "deliver",
+        "position"
+      ],
+      "type": "rotating two-sided end effector",
+      "serves": [
+        "reef-l1",
+        "reef-branches",
+        "processor",
+        "net"
+      ],
+      "facts": [
+        {
+          "text": "Coral mechanism on one side, algae on the other; the interview calls it a ferris wheel",
+          "basis": "team",
+          "src": [
+            "s7",
+            "s5"
+          ]
+        },
+        {
+          "text": "Kraken X44 for each mechanism, stated ratio",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 5,
+          "unit": ":1"
+        },
+        {
+          "text": "Kraken X60 for rotation, stated ratio",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 95,
+          "unit": ":1"
+        },
+        {
+          "text": "Intake-to-score rotation takes",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 0.8,
+          "unit": "s"
+        },
+        {
+          "text": "Inner and outer coral rollers share one motor through bevel gears",
+          "basis": "team",
+          "src": [
+            "s7",
+            "s5"
+          ]
+        },
+        {
+          "text": "Two distance sensors place the coral by the difference in arrival times",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Polycarbonate mechanisms keep weight down at the far end",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Shim tape on every gearbox gear cuts backlash",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "How it rotates depends on the robot's location and driving direction",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "It is a heavy load that must move precisely, so the pivot had to be very strong",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Both sides needed heavy modification during the season",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elevator",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Reach the feeder, all reef levels and the net fast while carrying a lot of mass",
+          "basis": "team",
+          "src": [
+            "s5",
+            "s7"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "belt-driven continuous elevator",
+      "serves": [
+        "reef-l1",
+        "reef-branches",
+        "net"
+      ],
+      "facts": [
+        {
+          "text": "Two Kraken X60 joined by gears, stated ratio",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 9.3,
+          "unit": ":1"
+        },
+        {
+          "text": "Full opening takes",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 0.7,
+          "unit": "s"
+        },
+        {
+          "text": "Open timing belts, and self-made bearing blocks inside the profiles",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Its speed changes with the speed of the other mechanisms, to avoid overload",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Lift the robot balanced, without touching the ground",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "leg and passive beak on the deep cage",
+      "serves": [
+        "cage"
+      ],
+      "facts": [
+        {
+          "text": "Kraken X60, stated ratio",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 21.6,
+          "unit": ":1"
+        },
+        {
+          "text": "Time until the robot is in the air",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 1.0,
+          "unit": "s"
+        },
+        {
+          "text": "Hooks shaped to pull the leg the other way hold it closed during the match",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AutoPilot",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Hit a scoring range of about 5 cm and make every match look the same",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "automatic driving with three PID controllers",
+      "serves": [
+        "reef-branches",
+        "net"
+      ],
+      "facts": [
+        {
+          "text": "The team claims the autonomous share of RICO's movements is over",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 70,
+          "unit": "%"
+        },
+        {
+          "text": "One button covers each intake, reef score and algae shot",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "The operator can turn intake AutoPilot on or off",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vision",
+      "pieces": [
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Support precise automatic intake and scoring",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "AprilTag cameras with a Kalman filter",
+      "serves": [],
+      "facts": [
+        {
+          "text": "The catalog lists two Limelight 3G cameras and one Limelight 3; the interview counts two cameras that see AprilTags",
+          "basis": "team",
+          "src": [
+            "s5",
+            "s7"
+          ]
+        },
+        {
+          "text": "The team claims position error of no more than",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 2,
+          "unit": "cm"
+        },
+        {
+          "text": "Closer, higher-quality detections weigh more",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Cameras keep a tag in view, the reef when close and the feeder side when far",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Object detection finds algae and drives to it on command",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Match logging",
+      "solves": [
+        {
+          "text": "Diagnose faults such as the ISR 4 odometry problem",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "full match logs with replay",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Logs mechanism speeds, targets, position, AutoPilot actions and driver inputs",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Acceleration over top speed",
+      "because": "the team saw that the game is about acceleration",
+      "instead_of": "a 14T pinion",
+      "cost": "lower maximum velocity",
+      "basis": "team",
+      "src": [
+        "s5",
+        "s7"
+      ]
+    },
+    {
+      "choice": "Rotating two-piece end effector",
+      "because": "it saves driving time between feeder and reef and lets each piece score independently",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "New ground intake for the championship",
+      "because": "the first lacked performance and consistency and the championship bar is higher",
+      "instead_of": "a one-sided 2 in polycarbonate roller",
+      "basis": "team",
+      "src": [
+        "s7"
+      ]
+    },
+    {
+      "choice": "First intake held on one side only",
+      "because": "it saved space inside the robot",
+      "cost": "it lacked performance and consistency",
+      "basis": "team",
+      "src": [
+        "s5",
+        "s7"
+      ]
+    },
+    {
+      "choice": "Automate every action",
+      "because": "a person cannot hit the scoring range alone every time",
+      "basis": "team",
+      "src": [
+        "s7"
+      ]
+    },
+    {
+      "choice": "Beta robot before the competition robot",
+      "because": "mechanisms and integration could be tested while the competition robot was still being modeled",
+      "cost": "beta skipped weight removal on various parts to save time",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "OnyxTronix 2231 - 2025 Robot catalog and CAD",
+        "url": "https://www.chiefdelphi.com/t/onyxtronix-2231-2025-robot-catalog-and-cad/503670",
+        "format": "thread",
+        "state": "listed",
+        "src": "s3",
+        "holds": "zip upload ('2231 Full Robot Assmb 2025.zip', 74.5 MB; format not stated)"
+      },
+      {
+        "what": "2231 Full Robot Assmb 2025 (74.5 MB upload)",
+        "url": "https://www.chiefdelphi.com/uploads/short-url/v1Ceo3TmsJucxaHrZ0C8GMdVqrC.zip",
+        "format": "zip, contents not stated",
+        "state": "listed",
+        "src": "s3"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=GKxJRpeaHl0",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=kDIF45-v6vk",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/LXIREMt",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/YjOeb4b",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "OnyxTronix 2231 Presents: 2025 Robot",
+        "url": "https://www.chiefdelphi.com/t/onyxtronix-2231-presents-2025-robot-rico/493195",
+        "format": "thread",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "Robots (robots)",
+        "url": "https://onyxtronix2231.wixsite.com/home/robots",
+        "format": "web page",
+        "state": "listed",
+        "src": "s6"
+      }
+    ],
+    "documents": [
+      {
+        "what": "OnyxTronix 2231 2025 robot catalog PDF",
+        "url": "https://www.chiefdelphi.com/uploads/short-url/yqn7NeLAaMJqVhkb21bYaSCke4p.pdf",
+        "format": "PDF",
+        "state": "opened",
+        "src": "s5"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/onyxtronix2231",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: Chief Delphi title search for 2231 (10 topics), one web search, 15 pages of the team site (its PDFs not opened)"
+  ],
+  "results": {
+    "division": "Archimedes",
+    "division_opr": 104.17,
+    "opr_rank": 13,
+    "record": "46-18-2",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

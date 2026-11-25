@@ -1,0 +1,633 @@
+{
+  "id": "2024-604",
+  "season": 2024,
+  "team": "604",
+  "team_name": "Quixilver",
+  "robot_name": "Domotron",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 604 in 2024",
+      "url": "https://www.thebluealliance.com/team/604/2024",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Milstein Division 2024",
+      "url": "https://www.thebluealliance.com/event/2024mil",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Team 604 Quixilver Presents: Our 2024 Robot CAD and Code Release",
+      "url": "https://www.chiefdelphi.com/t/team-604-quixilver-presents-our-2024-robot-cad-and-code-release/477799",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "FRC Team 604 Quixilver | Leland High School Robotics",
+      "url": "https://604robotics.com/history",
+      "publisher": "604robotics.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "604 2024-public",
+      "url": "https://github.com/frc604/2024-public",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "604 Quixilver Flickr albums",
+      "url": "https://www.flickr.com/photos/129895537@N08/albums",
+      "publisher": "flickr.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/5zUZ0Pa",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "604 Quixilver | Behind the Bumpers | Milstein Division Winners",
+      "url": "https://www.youtube.com/watch?v=bGivb7bY7kI",
+      "publisher": "FUN Robotics Network (auto-caption transcript)",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "It is another full-field cycling game and a drivetrain can only go so fast, so make every other action as fast as possible.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "Fast cycles: drive under the stage for another lane, score from partly under it without relying on a driver to lower an arm or software to keep the robot from driving into the stage, intake at the source with a wide tolerance, and shoot from far away to cut driving. The team called being able to score in the trap equally important.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "The team chose a full-width intake to be competitive in auto.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "A beam break on pickup rumbles the controller and retracts the intake, which the team says cut cycles by around one second. One aim button aims a feed from behind the midline or a shot from in front; the shoot button checks speed and location first. It shoots on the move around the wing.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "Surgical tubing raises the climbing arm. Hooks trap the chain and pull it down while the robot tips toward the stage; then the elevator extends and the launcher tilts forward to score in the trap.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "fallback": [],
+    "gave_up": [
+      {
+        "text": "A reply that reads as the team's gives the two main failures of the flexible intake: bolts holding the axles to the side plates sheared, and the deploy chain snapped. Neither was solved during the season.",
+        "basis": "observer",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "The first launcher had symmetric sides and gave inconsistent shots, some wobbly. High-speed video showed that clean shots touched one roller set first, so one set moved closer to center.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      },
+      {
+        "text": "A reply that reads as the team's says the elevator hex shafts came from an earlier climber, and one was reused to tension the new climber.",
+        "basis": "observer",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "58-10-1 in official play; won the Milstein division; captain of the Milstein alliance on Einstein; ranked 6 of the pooled top 20 (OPR 57.57, Milstein).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Intake",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Take notes across the full width and survive hits against walls and robots",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "full-width compliant dead-axle roller intake",
+      "serves": [
+        "speaker",
+        "amp",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "Thin 2 in polycarbonate rollers, mostly polycarbonate and 3D printed structure",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Dead axles cut short so a hard hit does not bend a shaft inside the roller",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "A reply that reads as the team's says a roller flexes more than half its diameter in a bad hit",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A reply that reads as the team's says chain and a cross shaft inside the frame perimeter tie the left and right sides together, so no rigid cross bar is needed",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A reply that reads as the team's says the axles became spacers of 3/8 in outside diameter, bolted through with a nylock nut",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "A reply that reads as the team's says axle bolts sheared and the deploy chain snapped; neither was solved in season",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mecanum centering wheels",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Center the note without squeezing it, because the launcher accepts a note only in the center of the robot",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "mecanum wheels with funnels in the intake",
+      "serves": [
+        "speaker",
+        "amp",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "Funnels make the note touch only the wheels that point toward the center, so indexing moves it to the center",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Mecanums pointing inward on both sides at once would crush the note sideways",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Launcher",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Symmetric rollers gave inconsistent shots, some wobbly and some spinning cleanly",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "asymmetric roller launcher",
+      "serves": [
+        "speaker",
+        "amp",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "One set of rollers sits closer to the center than the other, so the note contacts one set first",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "The same launcher tilts for the amp and, a little further forward, for the trap",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elevator",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "The robot has to extend upward to score in the trap",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "elevator carrying the launcher",
+      "serves": [
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "Extends upward after the robot has climbed, so the launcher reaches the trap",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Pull the chain down to the right height while the robot tips inward toward the stage, ready for the trap",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "surgical-tubing arms with chain-trapping hooks",
+      "serves": [
+        "onstage",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "The chain enters the hook and the bottom of the hook limits its motion",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "A reply that reads as the team's says the tubing, not shown in the CAD, is tensioned on a shaft kept from an earlier climber",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Particle filter localization",
+      "solves": [
+        {
+          "text": "Support one button that aims a feed or a shot depending on field position",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "particle filter on AprilTag edges",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Simulated particles stand for the robot pose, with random variation for wheel slip and drift; camera views of tag edges score each particle",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "It gives a pose over the full field, not only when scoring",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shot calculator",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Shoot on the move from around anywhere in the wing",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "position"
+      ],
+      "type": "iterated time-of-flight shot solver",
+      "serves": [
+        "speaker"
+      ],
+      "facts": [
+        {
+          "text": "Uses goal position and robot speed to find time to goal, checks whether an arm angle lands above or below, and repeats; yaw is solved the same way",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Compliant intake",
+      "because": "the team wanted a durable intake, and earlier seasons' intakes had been rigid",
+      "instead_of": "a rigid intake",
+      "basis": "team",
+      "src": [
+        "s9"
+      ]
+    },
+    {
+      "choice": "Center notes during intake",
+      "because": "prototyping showed it was the easiest place to center for the shooter",
+      "basis": "team",
+      "src": [
+        "s9"
+      ]
+    },
+    {
+      "choice": "Asymmetric launcher rollers",
+      "because": "high-speed video showed that clean shots contacted one set of rollers first",
+      "instead_of": "two symmetric sides",
+      "basis": "team",
+      "src": [
+        "s9"
+      ]
+    },
+    {
+      "choice": "Short shaft segments in the intake rollers",
+      "because": "a reply that reads as the team's says a full-width hex shaft would end up bent, and short ones let the roller flex and save weight",
+      "instead_of": "a full-width hex shaft",
+      "basis": "observer",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "3/8 in intake axles",
+      "because": "a reply that reads as the team's says the bearings were lighter and fit better in the tube plugs",
+      "basis": "observer",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "One driver, with software as the human operator",
+      "because": "the team wants only one driver, so mechanisms and software are built to be as drivable as possible",
+      "basis": "team",
+      "src": [
+        "s9"
+      ]
+    },
+    {
+      "choice": "Long-distance launcher",
+      "because": "shooting from further away cuts driving time",
+      "basis": "team",
+      "src": [
+        "s9"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "Comp Robot",
+        "url": "https://cad.onshape.com/documents/201f606d504f880810571715/w/853b3ad6f05fc11c952eff08/e/d5e7c596d3f7c0b01175d779",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "Team 604 Quixilver Presents: Our 2024 Robot CAD and Code Release",
+        "url": "https://www.chiefdelphi.com/t/team-604-quixilver-presents-our-2024-robot-cad-and-code-release/477799",
+        "format": "thread",
+        "state": "listed",
+        "src": "s4",
+        "holds": "Onshape"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=bGivb7bY7kI",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/xbfCjJd",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "FRC Team 604 Quixilver | Leland High School Robotics",
+        "url": "https://604robotics.com/history",
+        "format": "web page",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "604 Quixilver Flickr albums",
+        "url": "https://www.flickr.com/photos/129895537@N08/albums",
+        "format": "photos",
+        "state": "listed",
+        "src": "s7"
+      },
+      {
+        "what": "Full robot on field, red bumpers, orange ring in flight",
+        "url": "https://imgur.com/5zUZ0Pa",
+        "img": "https://i.imgur.com/5zUZ0Pah.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot CAD, yellow bumpers, rollers raised",
+        "url": "https://www.chiefdelphi.com/t/team-604-quixilver-presents-our-2024-robot-cad-and-code-release/477799",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/8/e/8e45b44ca92937832e7069f436a9cf16c6772731_2_647x500.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
+      },
+      {
+        "what": "Full robot on field, blue bumpers, orange ring in flight",
+        "url": "https://604robotics.com/history",
+        "img": "https://604robotics.com/assets/2024-crescendo-Bkn0e1lO.webp",
+        "format": "image",
+        "state": "opened",
+        "src": "s5",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Labelled top view of electronics layout on drive base",
+        "url": "https://www.chiefdelphi.com/t/team-604-quixilver-presents-our-2024-robot-cad-and-code-release/477799",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/f/6/f67cd57c51e7742b799dc3106d453b9614faf28f_2_553x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "diagram"
+      },
+      {
+        "what": "Upright with black hook and chain run, close-up",
+        "url": "https://www.chiefdelphi.com/t/team-604-quixilver-presents-our-2024-robot-cad-and-code-release/477799",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/e/7/e713fb9bb8ad0c85440999b7728ae1dc6f1516df_2_357x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "mechanism"
+      },
+      {
+        "what": "Upright with elastic tubing over a pulley, close-up",
+        "url": "https://www.chiefdelphi.com/t/team-604-quixilver-presents-our-2024-robot-cad-and-code-release/477799",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/9/1/912fb8875d36d7a138b2108b650f86e65fc5958b_2_215x250.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "mechanism"
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/frc604",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "604 2024-public",
+        "url": "https://github.com/frc604/2024-public",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s6"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binder searches: Chief Delphi titles for 604, posts for Quixilver binder, 604robotics.com (7 pages)"
+  ],
+  "results": {
+    "division": "Milstein",
+    "division_opr": 57.57,
+    "opr_rank": 6,
+    "record": "58-10-1",
+    "einstein": {
+      "division": "Milstein",
+      "role": "captain"
+    },
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

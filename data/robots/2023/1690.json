@@ -1,0 +1,595 @@
+{
+  "id": "2023-1690",
+  "season": 2023,
+  "team": "1690",
+  "team_name": "Orbit",
+  "robot_name": "Dexter",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 1690 in 2023",
+      "url": "https://www.thebluealliance.com/team/1690/2023",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Galileo Division 2023",
+      "url": "https://www.thebluealliance.com/event/2023gal",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "Orbit 1690 presents: 2023 Robot Reveal",
+      "url": "https://www.chiefdelphi.com/t/orbit-1690-presents-2023-robot-reveal-dexter/427843",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "1690orbit.com 2023 Charged Up page",
+      "url": "https://www.1690orbit.com/2023-charged-up",
+      "publisher": "1690orbit.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/P35roMB",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Behind the Bumpers | 1690 Orbit | Charged Up Robot (auto-caption)",
+      "url": "https://www.youtube.com/watch?v=0QXMA6Jl3wU",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Orbit 1690 - year in review (16 actually)",
+      "url": "https://www.chiefdelphi.com/t/orbit-1690-year-in-review-16-actually/464915",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Shorten the cycle: take cones and cubes from the floor in any orientation, and shoot cubes over the charge station into the low nodes.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "A year later a team coach wrote that the team looked for an edge in a normal pick-and-place game, and that many design choices were shaped by expecting to fill a community cleanup role. By the championship it leaned toward cube shooting for playoffs.",
+        "basis": "team",
+        "src": [
+          "s7"
+        ]
+      }
+    ],
+    "auto": [],
+    "cycle": [
+      {
+        "text": "A cube cycle covers about half the field, because cubes are shot over the charge station. Cones go from the floor to the arm. The operator picks the height; the driver stops roughly in front of a node and presses one button, and the robot drives to it and scores.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "endgame": [],
+    "fallback": [],
+    "gave_up": [
+      {
+        "text": "The team tied its low chassis to a harder crossing of the charge station.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      },
+      {
+        "text": "The coach later called the whole design overcomplicated and said that, apart from cube shooting, it did not make much sense: the arm pivoted at full height, and cones were not strictly controlled during part of the handoff. It worked fairly well eventually, but not as well as the team wanted.",
+        "basis": "team",
+        "src": [
+          "s7"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "After a new rule change the team wanted more power to shoot over the charge station. It says braking the robot returns energy and raises battery voltage to about 15 V.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      },
+      {
+        "text": "Off-season: it was picked for cube shooting at IRI and reached the finals, then built a replica of 2910's robot, which led to its 2024 design.",
+        "basis": "team",
+        "src": [
+          "s7"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "49-15-1 in official play; ranked 17 of the pooled top 20 (OPR 71.09, Galileo).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Swerve drive",
+      "does": [
+        "drive"
+      ],
+      "type": "custom swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "The bevel gear connects directly to the wheel as one custom machined part",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake as a ramp wheel",
+      "solves": [
+        {
+          "text": "Get a low robot over the charge station when its drive wheels lose contact",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "drive",
+        "structure"
+      ],
+      "type": "intake acting as another wheel over the charge station",
+      "serves": [],
+      "facts": [
+        {
+          "text": "It gets the robot over the ramp while the drive modules are off the ground",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Take both pieces from the floor in any orientation and shorten the cycle",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "deliver"
+      ],
+      "type": "floor roller intake that also shoots cubes",
+      "serves": [
+        "grid-low"
+      ],
+      "facts": [
+        {
+          "text": "An upper roller keeps cubes from being thrown away when the robot reaches them at speed",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Side wheels index the cubes and also shoot them",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Cubes are shot to place them on nodes and over the charge station into the low nodes",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Handoff to the arm",
+      "pieces": [
+        "cone"
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "transfer from floor intake to arm",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Cones go from the floor intake to the arm",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The coach says cones were not strictly controlled for part of the action",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arm with differential wrist",
+      "pieces": [
+        "cone"
+      ],
+      "solves": [
+        {
+          "text": "Turn the end effector two ways without motors up high",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "arm with a two-motor differential wrist",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Moves the end effector in roll and in pitch with two motors at the base of the robot",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Belts carry the motion up and need tensioners in several places",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The coach called having the arm pivot at full height part of an overcomplicated design",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Claw",
+      "solves": [
+        {
+          "text": "Open and close the claw while keeping the center of gravity low",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "retain"
+      ],
+      "type": "claw driven by cable from the base",
+      "serves": [],
+      "facts": [
+        {
+          "text": "A motor at the bottom of the robot works the claw through a lead screw and a bicycle brake cable",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rotating Limelight",
+      "pieces": [
+        "cone"
+      ],
+      "solves": [
+        {
+          "text": "Place cones on either side of the robot",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "servo-turned camera",
+      "serves": [],
+      "facts": [
+        {
+          "text": "A servo turns the camera against a hard stop, so it stops at the same angle even though the servo is not very accurate",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cone orientation camera",
+      "pieces": [
+        "cone"
+      ],
+      "solves": [
+        {
+          "text": "Turn a cone picked up in any orientation the way the team wants it",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "transfer"
+      ],
+      "type": "camera on a Raspberry Pi",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Detects the orientation of the cone; the arm then picks it up and reorients it without a button press",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Game piece detection camera",
+      "solves": [
+        {
+          "text": "Line the robot up with a piece on the floor",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "acquire"
+      ],
+      "type": "piece-finding camera",
+      "serves": [],
+      "facts": [
+        {
+          "text": "The driver heads in the general direction of a piece and the robot aligns to it",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AprilTag localization",
+      "does": [
+        "sense"
+      ],
+      "type": "team-written tag solution",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Runs on the same Raspberry Pi as the orientation camera, and is used along with the rotating Limelight",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arm state graph",
+      "solves": [
+        {
+          "text": "Find the best arm route between any two states",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "position"
+      ],
+      "type": "graph search over arm states",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Arm states are a directed graph; a breadth-first search finds the route from the current position to the target",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Custom dashboard",
+      "does": [
+        "sense"
+      ],
+      "type": "operator dashboard and lights",
+      "serves": [],
+      "facts": [
+        {
+          "text": "The operator chooses the placing height and blinks purple or yellow lights to ask the human player for a piece",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "The operator can change shooting angle and speed, reset sensors and correct game pieces during a match",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Shoot cubes over the charge station into low nodes",
+      "because": "a cube cycle becomes about half a field long",
+      "instead_of": "going to the double substation and then all the way to the nodes",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    },
+    {
+      "choice": "Put the motors at the bottom and carry motion up with belts",
+      "because": "it keeps the center of gravity low, and belts are light and flexible in routing",
+      "cost": "tensioners all over the robot",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    },
+    {
+      "choice": "Turn the camera with a servo against hard stops",
+      "because": "the servo does not have to be accurate",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    },
+    {
+      "choice": "Use braking energy for extra power on the shot over the charge station",
+      "because": "the team says the returned energy raises battery voltage and gives extra shot power",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    },
+    {
+      "choice": "Design around a community cleanup role",
+      "because": "the team was looking for an edge and expected certain teams to specialize in it",
+      "cost": "the coach says the team was not willing to face that it was a normal pick-and-place game, and calls the design overcomplicated",
+      "basis": "team",
+      "src": [
+        "s7"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=0QXMA6Jl3wU",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=9n5jAUfXYtI",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/19ZokOA",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Orbit 1690 presents: 2023 Robot Reveal",
+        "url": "https://www.chiefdelphi.com/t/orbit-1690-presents-2023-robot-reveal-dexter/427843",
+        "format": "thread",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "1690orbit.com 2023 Charged Up page",
+        "url": "https://www.1690orbit.com/2023-charged-up",
+        "format": "web page",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "Full robot, blue bumpers, purple cube held in front rollers",
+        "url": "https://imgur.com/P35roMB",
+        "img": "https://i.imgur.com/P35roMBh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s5",
+        "kind": "robot-photo",
+        "hero": true
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/team1690",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: Chief Delphi title search \"1690\" (first page only) and post search \"Orbit binder\", 11 results; one web search; 20 pages of the team site; no binder found"
+  ],
+  "results": {
+    "division": "Galileo",
+    "division_opr": 71.09,
+    "opr_rank": 17,
+    "record": "49-15-1",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

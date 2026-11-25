@@ -1,0 +1,785 @@
+{
+  "id": "2026-1768",
+  "season": 2026,
+  "team": "1768",
+  "team_name": "Nashoba Robotics",
+  "robot_name": "Nightshift",
+  "variant": "Nightshift, the rebuild used from the WPI event (week 5) through the Galileo Division. Nightshade (V1), used from Week 0 to the URI event (week 3), is in What changed.",
+  "sources": {
+    "s1": {
+      "title": "Team 1768 in 2026",
+      "url": "https://www.thebluealliance.com/team/1768/2026",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Galileo Division 2026",
+      "url": "https://www.thebluealliance.com/event/2026gal",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Team 1768 Nashoba Robotics 2026 Robot Reveal",
+      "url": "https://www.chiefdelphi.com/t/team-1768-nashoba-robotics-2026-robot-reveal-nightshift/519386",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "1768 2026 Rebuilt Tech Slides: Nightshift (PDF)",
+      "url": "https://www.chiefdelphi.com/uploads/short-url/cSkTBJjJHHz68cz8b3rYZHDueja.pdf",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "1768 2026NashobaRobotics code",
+      "url": "https://github.com/Nashoba-Robotics/2026NashobaRobotics",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "2026 Rebuilt - Nashoba Robotics 1768",
+      "url": "https://nashobarobotics.com/our-histoy/2026-rebuilt/",
+      "publisher": "nashobarobotics.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/cvLxvaG",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/gmXMlYe",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/hiXHvG1",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Onshape document",
+      "url": "https://cad.onshape.com/documents/e69560710e95d0bc44da43f0/w/71df5c3fa572bfe86d193027",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Page with pictures of this robot",
+      "url": "https://www.chiefdelphi.com/t/team-1768-2026-cad-release/525192",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "1768 Nashoba Robotics Behind the Bumpers, filmed at the New England District Championship (auto-caption read)",
+      "url": "https://www.youtube.com/watch?v=zxBvVSZtS3E",
+      "publisher": "FUN Robotics Network (YouTube)",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "Team 1768 2026 CAD Release, post 29",
+      "url": "https://www.chiefdelphi.com/t/team-1768-2026-cad-release/525192/29",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "Tips to Win the Championship, FUNalysis (auto-caption read)",
+      "url": "https://www.youtube.com/watch?v=Aln5Wp0ieaE",
+      "publisher": "FUN Robotics Network (YouTube)",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "Team 1768 2026 CAD Release, post 25",
+      "url": "https://www.chiefdelphi.com/t/team-1768-2026-cad-release/525192/25",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "outcome": [
+      {
+        "text": "70-17-0 in official play; ranked 4 of the pooled top 20 (OPR 335.40, Galileo).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "bet": [
+      {
+        "text": "A fixed shooter and a simpler design, after the team debated an ambitious turret.",
+        "basis": "team",
+        "src": [
+          "s13"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "Fast, consistent autos and accurate shots all match, which made knowing the robot's position at all times one of the most important control goals. The robot also had to fit under the trench, full, with the intake folded.",
+        "basis": "team",
+        "src": [
+          "s13"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "Each routine is split into parts joined at safe points, and a part starts only when the last one ends, so a crash at midfield does not end it.",
+        "basis": "team",
+        "src": [
+          "s13"
+        ]
+      },
+      {
+        "text": "Unsigned reply that reads as the team's: the robot starts under the trench with its intake pointing to midfield.",
+        "basis": "observer",
+        "src": [
+          "s12"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The four-bar intake feeds a roller floor, an entry roller and the drum. The shoot control lines the robot up with the hub, spins up the rollers, moves the hood once they are at speed, then feeds. The driver has three controls: intake up, intake down, shoot.",
+        "basis": "team",
+        "src": [
+          "s13"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "In a New England Burns division match its collector was damaged, so it defended while partners scored, and the alliance came back, a commentator says.",
+        "basis": "observer",
+        "src": [
+          "s15"
+        ]
+      },
+      {
+        "text": "Unsigned reply that reads as the team's: it can pass the full field if necessary.",
+        "basis": "observer",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "Nightshade had a double shooter and double spindexer; the drum came with the WPI rebuild.",
+        "basis": "team",
+        "src": [
+          "s13"
+        ]
+      },
+      {
+        "text": "Unsigned replies that read as the team's say fuel jammed at the entry roller, and ball path, drop-in space and stability led to the 11-day rebuild, which kept swerves, belly pan and most of the intake; intake belts became chain after worlds.",
+        "basis": "observer",
+        "src": [
+          "s14",
+          "s12"
+        ]
+      },
+      {
+        "text": "Off-season changes reached about 28 fuel per second, with late-match brownouts.",
+        "basis": "team",
+        "src": [
+          "s16"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Swerve drive",
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Unsigned reply that reads as the team's: the swerves and belly pan are the only components carried over from Nightshade, though most of the intake was kept the same until some redesign for the district championship",
+          "basis": "observer",
+          "src": [
+            "s12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "4-Bar Intake",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Let the robot fit under the trench, full, with the intake folded",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "four-bar roller intake",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Two powered rollers driven by two Kraken X60s, with static kicker bars below",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s13"
+          ]
+        },
+        {
+          "text": "Roller plates and upper links are SRPP and the bottom link is aluminum, so side hits do not break it",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s13"
+          ]
+        },
+        {
+          "text": "A steel-reinforced bash bar protects the front",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "One Kraken X60 deploys it through a MaxSpline shaft under the roller floor and a sprocket bolted to each upper link",
+          "basis": "team",
+          "src": [
+            "s13",
+            "s4"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Unsigned reply that reads as the team's: finding geometry that cleared the trench both ways and started inside the frame took a lot of trial and error",
+          "basis": "observer",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "The motor-to-roller belts had skipping issues and were later switched to #25 chain",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Unsigned reply that reads as the team's: soon after that switch a chain slipped off, so flanges were added",
+          "basis": "observer",
+          "src": [
+            "s12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hopper",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Carry a full load under the trench",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ],
+      "does": [
+        "retain"
+      ],
+      "type": "moving and stationary hopper with a stretchy net",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Roughly 65 fuel in the reveal, roughly 60 in the later slides",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s5"
+          ]
+        },
+        {
+          "text": "The moving part folds with the intake and stays under trench height deployed and retracted; the stationary part attaches to the bumpers",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Roller Floor",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Move fuel into the shooter with some give, for more throughput",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "powered roller floor",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Two motors drive the floor and loader; three through-shafts carry squish wheels near the entry",
+          "basis": "team",
+          "src": [
+            "s13",
+            "s4"
+          ]
+        },
+        {
+          "text": "Other rollers are 1/32 in wall aluminum with silicone tubing on dead-axle stubs",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Belt distances are shortened to reduce current draw, by",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 0.03,
+          "unit": "in"
+        }
+      ]
+    },
+    {
+      "name": "Entry roller",
+      "pieces": [
+        "fuel"
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "independently driven roller",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Driven by its own Kraken X60, separately from the floor, in the reveal before the championship; off-season, it was combined with the floor",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s13",
+            "s16"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Full Width Hooded Drum Shooter",
+      "pieces": [
+        "fuel"
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "full-width drum shooter",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Four Kraken X60s power the drum, kicker wheel and two hood rollers along a J-shaped path",
+          "basis": "team",
+          "src": [
+            "s13",
+            "s4"
+          ]
+        },
+        {
+          "text": "1/16 in aluminum tube drum with CatTongue tape, and a custom flywheel",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A printed part added after WPI presses fuel against the back plates to stop it wiggling",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hood",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Keep the shot angle consistent",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "rack-driven adjustable hood",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "3D-printed segments between 1/16 in aluminum plates",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "The segments were printed roughly on purpose so the gear meshes with less backlash",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "The rack is 20 DP",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Localization and shoot sequence",
+      "solves": [
+        {
+          "text": "Make autos consistent, and shots accurate from anywhere",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "three-camera pose with staged shot",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Three cameras keep track of the field position",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Rollers feed only once heading, shooter speed and hood are in tolerance",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Fixed shooter",
+      "because": "the team chose a simpler design",
+      "instead_of": "an ambitious turret",
+      "basis": "team",
+      "src": [
+        "s13"
+      ]
+    },
+    {
+      "choice": "Rebuild after week 3",
+      "because": "ball path, drop-in space and stability problems with the spindexer (from an unsigned reply that reads as the team's)",
+      "basis": "observer",
+      "src": [
+        "s14"
+      ]
+    },
+    {
+      "choice": "Fixed kicker bars",
+      "because": "less compression significantly increased throughput",
+      "instead_of": "a powered bottom roller",
+      "basis": "team",
+      "src": [
+        "s13"
+      ]
+    },
+    {
+      "choice": "SRPP intake roller plates",
+      "because": "they are less fragile",
+      "instead_of": "polycarbonate",
+      "cost": "SRPP deforms permanently, so polycarbonate plates were added where power transmission needs tension (slides that include off-season changes)",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Autos in parts with safe points",
+      "because": "a routine can still finish after a collision",
+      "instead_of": "one very long path",
+      "basis": "team",
+      "src": [
+        "s13"
+      ]
+    },
+    {
+      "choice": "Full-width live axles on the intake",
+      "because": "cutting a shaft to length was the fastest solution, says an unsigned reply that reads as the team's",
+      "instead_of": "stub axles",
+      "cost": "stubs would have made roller width changes easier",
+      "basis": "observer",
+      "src": [
+        "s12"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "Team 1768 2026",
+        "url": "https://cad.onshape.com/documents/1d7aacb3a29f34b87ae45925",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "Team 1768 2026",
+        "url": "https://cad.onshape.com/documents/e69560710e95d0bc44da43f0",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "CAD listed on the team page",
+        "url": "https://cad.onshape.com/documents/1d7aacb3a29f34b87ae45925/w/a8253a3979c6079645b4adc6",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "CAD listed on the team page",
+        "url": "https://cad.onshape.com/documents/e69560710e95d0bc44da43f0/w/71df5c3fa572bfe86d193027",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Team 1768 2026 CAD Release (Nightshift with off-season changes, and Nightshade)",
+        "url": "https://www.chiefdelphi.com/t/team-1768-2026-cad-release/525192",
+        "format": "thread",
+        "state": "listed",
+        "src": "s12"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=zxBvVSZtS3E",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Team 1768 Nashoba Robotics 2026 Robot Reveal",
+        "url": "https://www.chiefdelphi.com/t/team-1768-nashoba-robotics-2026-robot-reveal-nightshift/519386",
+        "format": "thread",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "2026 Rebuilt - Nashoba Robotics 1768",
+        "url": "https://nashobarobotics.com/our-histoy/2026-rebuilt/",
+        "format": "web page",
+        "state": "listed",
+        "src": "s7"
+      },
+      {
+        "what": "Full robot on white, blue 1768 bumpers, netted hopper extended",
+        "url": "https://imgur.com/cvLxvaG",
+        "img": "https://i.imgur.com/cvLxvaGh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Earlier 2026 robot, marked Nightshade, red 1768 bumpers",
+        "url": "https://imgur.com/gmXMlYe",
+        "img": "https://i.imgur.com/gmXMlYeh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s9",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot on white, blue 1768 bumpers, rollers across the top",
+        "url": "https://imgur.com/hiXHvG1",
+        "img": "https://i.imgur.com/hiXHvG1h.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s10",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot CAD, green 1768 bumpers, hopper side opened",
+        "url": "https://cad.onshape.com/documents/e69560710e95d0bc44da43f0/w/71df5c3fa572bfe86d193027",
+        "img": "https://cad.onshape.com/api/thumbnails/d/e69560710e95d0bc44da43f0/w/71df5c3fa572bfe86d193027/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s11",
+        "kind": "cad"
+      },
+      {
+        "what": "Full robot CAD, green 1768 bumpers, hopper extended at back",
+        "url": "https://www.chiefdelphi.com/t/team-1768-2026-cad-release/525192",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/2/6/5/2656104285ffe30fe147abc3efee60e05ddee283_2_647x500.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s12",
+        "kind": "cad"
+      },
+      {
+        "what": "CAD of the earlier V1 robot, green bumpers",
+        "url": "https://www.chiefdelphi.com/t/team-1768-2026-cad-release/525192",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/6/4/c/64c061b7223bcd682e48a389dc5eff2f1859ef22_2_647x500.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s12",
+        "kind": "cad"
+      },
+      {
+        "what": "Drivetrain frame on a table with wiring exposed",
+        "url": "https://www.chiefdelphi.com/t/team-1768-2026-cad-release/525192",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/b/e/d/bed30267ca3a093c0d2a5baa53ed248bdf4e2549_2_375x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s12",
+        "kind": "mechanism"
+      },
+      {
+        "what": "Robot without bumpers on a table, roller bed and intake visible",
+        "url": "https://www.chiefdelphi.com/t/team-1768-2026-cad-release/525192",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/3/2/d/32d21d34ed2500c57196b44a0898089175f66f0e_2_375x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s12",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Robot with red 1768 bumpers and cardboard sides, collecting yellow balls",
+        "url": "https://www.chiefdelphi.com/t/team-1768-2026-cad-release/525192",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/7/7/0/77028f2c2e85c5a9cc8aa92ad34789446f94b5b3_2_375x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s12",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Robot CAD, green 1768 bumpers, hopper and intake arms extended",
+        "url": "https://www.chiefdelphi.com/t/team-1768-2026-cad-release/525192",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/d/1/5/d155bdc1564361d4b4d1ff20b99520a7b34d1fe0_2_690x423.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s12",
+        "kind": "cad"
+      },
+      {
+        "what": "Nightshift reveal video (not watched)",
+        "url": "https://www.youtube.com/watch?v=nvv9AfdpOD4",
+        "format": "video",
+        "state": "listed",
+        "src": "s4"
+      }
+    ],
+    "documents": [
+      {
+        "what": "1768 2026 Rebuilt Tech Slides: Nightshift (PDF)",
+        "url": "https://www.chiefdelphi.com/uploads/short-url/cSkTBJjJHHz68cz8b3rYZHDueja.pdf",
+        "format": "PDF",
+        "state": "opened",
+        "src": "s5"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/nashoba-robotics",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "1768 2026NashobaRobotics code",
+        "url": "https://github.com/Nashoba-Robotics/2026NashobaRobotics",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s6"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: a Chief Delphi title search and 16 pages of the team site; the tech slides were found, no full binder"
+  ],
+  "results": {
+    "division": "Galileo",
+    "division_opr": 335.4,
+    "opr_rank": 4,
+    "record": "70-17-0",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

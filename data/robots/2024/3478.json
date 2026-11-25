@@ -1,0 +1,389 @@
+{
+  "id": "2024-3478",
+  "season": 2024,
+  "team": "3478",
+  "team_name": "PrepaTec - LamBot",
+  "robot_name": null,
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 3478 in 2024",
+      "url": "https://www.thebluealliance.com/team/3478/2024",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Newton Division 2024",
+      "url": "https://www.thebluealliance.com/event/2024new",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/mVqKS13",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "3478 LamBot | Behind the Bumpers | FRC CRESCENDO Robot",
+      "url": "https://www.youtube.com/watch?v=cXPduxI0fCU",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [],
+    "demand": [],
+    "auto": [
+      {
+        "text": "The robot is told to go to points on the field from its odometry, which the team says is more precise than motor encoders.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The intake roller passes the note by a second roller to the shooter; sensors detect it and hold it in the same place. Odometry sets the shooter angle and the robot angle for the shot.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "The hooks rise, then lower a little; the elevator goes up and takes several angles to ease the climb. At the final angle the note slides along a small metal piece into the trap.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "fallback": [],
+    "gave_up": [],
+    "changed": [
+      {
+        "text": "The first large intake roller's covering was changed to wheels, and grip covering went on the other rollers. The center of mass was well balanced, but the team wanted the robot to lean forward, so the hooks moved backward for more tilt.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "49-11-1 in official play; ranked 8 of the pooled top 20 (OPR 56.33, Newton).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Intake",
+      "pieces": [
+        "note"
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "roller intake",
+      "serves": [
+        "speaker",
+        "amp",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "One large roller, first with a different covering, then changed to wheels; other rollers got a grip covering for the best grip",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Transfer",
+      "pieces": [
+        "note"
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "roller transfer",
+      "serves": [
+        "speaker",
+        "amp",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "Four rollers separate from the shooter, where the shooter's own movement helps the note pass",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Spin the note so it does not wobble much in the air",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "angle-adjusting wheel shooter",
+      "serves": [
+        "speaker"
+      ],
+      "facts": [
+        {
+          "text": "The shooter, which has compliant wheels, spins the note so it wobbles less in the air",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "An encoder gives the shooter angle",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elevator",
+      "pieces": [
+        "note"
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "elevator",
+      "serves": [
+        "amp",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "One elevator serves both the trap and the amp, with different positions for the trap",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climbing hooks",
+      "solves": [
+        {
+          "text": "Keep the robot stable when it climbs a little sideways",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "two independent hooks",
+      "serves": [
+        "onstage"
+      ],
+      "facts": [
+        {
+          "text": "Each hook has its own sensors; if the robot climbs a little sideways, the code corrects it",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Magnetic limit switches protect the climb from damage",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Odometry and note sensing",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Shoot precisely by setting shooter and robot angle from position",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "two Limelights with distance sensors",
+      "serves": [
+        "speaker"
+      ],
+      "facts": [
+        {
+          "text": "Two Limelights, one on each side, update the odometry",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Three distance sensors keep the note always in the same position",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Independent hooks",
+      "because": "the robot can climb a little sideways",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "Move the hooks backward",
+      "because": "the team wanted the robot to lean more and face the trap",
+      "instead_of": "hooks placed further forward",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "Odometry in autonomous",
+      "because": "it is more precise than the motor encoders",
+      "instead_of": "motor encoders",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=cXPduxI0fCU",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/6eBuh2z",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/Fc1Ah30",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/K1mb5Ry",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/h7SrIi7",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/rzoL9wp",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/yWZQnM9",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Full robot, blue bumpers, hooks raised, grey shooter wheels",
+        "url": "https://imgur.com/mVqKS13",
+        "img": "https://i.imgur.com/mVqKS13h.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s3",
+        "kind": "robot-photo",
+        "hero": true
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/frcteam3478",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: Chief Delphi title search for 3478 (0 results) and post search \"3478 binder\" (0 results); no team site found to search"
+  ],
+  "results": {
+    "division": "Newton",
+    "division_opr": 56.33,
+    "opr_rank": 8,
+    "record": "49-11-1",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

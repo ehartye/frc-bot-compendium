@@ -1,0 +1,400 @@
+{
+  "id": "2023-6329",
+  "season": 2023,
+  "team": "6329",
+  "team_name": "The Bucks' Wrath",
+  "robot_name": "Shock",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 6329 in 2023",
+      "url": "https://www.thebluealliance.com/team/6329/2023",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Curie Division 2023",
+      "url": "https://www.thebluealliance.com/event/2023cur",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "6329 The Bucks' Wrath 2023 Robot: Shock",
+      "url": "https://www.chiefdelphi.com/t/6329-the-bucks-wrath-2023-robot-shock/428274",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/Sd35dSR",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/V0qDkz4",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/VrCRcBz",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/jOAz5pV",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/rEVYeVL",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Behind the Bumpers: 6329 The Bucks' Wrath, filmed at the New England championship (auto-caption read)",
+      "url": "https://www.youtube.com/watch?v=uLgGPEvMAqA",
+      "publisher": "FUN Robotics Network (YouTube)",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "What are your favorite robots that mastered mechanical efficiency? (thread)",
+      "url": "https://www.chiefdelphi.com/t/what-are-your-favorite-robots-that-mastered-mechanical-efficiency/525130",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "outcome": [
+      {
+        "text": "55-14-0 in official play; won the Curie division; captain of the Curie alliance on Einstein; ranked 6 of the pooled top 20 (OPR 77.17, Curie).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "bet": [
+      {
+        "text": "A 24 by 24 in frame, a priority-list rule that dictated much of the design, says an unsigned reply that reads as the team's.",
+        "basis": "observer",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The driver holds a button to snap to 90 degree headings, one for the human player station and one to come back and score. A color mode, yellow for cones and purple for cubes, sets the elevator and wrist positions and the wheel direction.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "The team first tried the NEO version of its swerve modules, found it difficult in code, and moved to the Falcon version.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drivetrain",
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Frame side, square, in an unsigned reply that reads as the team's",
+          "basis": "observer",
+          "src": [
+            "s3"
+          ],
+          "value": 24,
+          "unit": "in"
+        },
+        {
+          "text": "SDS MK4i modules with Falcon motors",
+          "basis": "team",
+          "src": [
+            "s3",
+            "s10"
+          ]
+        },
+        {
+          "text": "Unsigned reply that reads as the team's: earlier robots felt at or near the frame perimeter limit, so the small frame was a huge departure",
+          "basis": "observer",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Unsigned reply that reads as the team's: the frame size was a design challenge that dictated much of the rest",
+          "basis": "observer",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tipping elevator",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "two-position tipping, two-stage cascade elevator",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Described as super rigid, consistent and very simple",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "A commenter says a large pneumatic cylinder tilts it, which let the drivebase stay small for balancing",
+          "basis": "observer",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake with a wrist",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "does": [
+        "acquire",
+        "retain"
+      ],
+      "type": "dual-motor roller intake on a wrist",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Inspired at first by the Everybot intake, with the wheel orientation changed",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "A hand-tied addition helps keep cubes intact",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Wheels turn one way for cones and the other for cubes",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Snap to heading",
+      "solves": [
+        {
+          "text": "Let the driver worry much less about alignment",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "button-held 90 degree headings",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Cardinal directions on the driver controller turn the robot while it drives",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Color modes",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "two-mode presets",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Yellow for cones and purple for cubes set the wrist and elevator heights",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Tipping two-stage cascade elevator",
+      "because": "it is rigid, consistent and simple, and the team had done it before",
+      "basis": "team",
+      "src": [
+        "s10"
+      ]
+    },
+    {
+      "choice": "Falcon motors on the swerve",
+      "because": "the NEO version proved difficult in code",
+      "instead_of": "NEO motors",
+      "basis": "team",
+      "src": [
+        "s10"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=0AOR5bi8PvY",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=uLgGPEvMAqA",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/B504pZF",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/rmtb7ZM",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "6329 The Bucks' Wrath 2023 Robot: Shock",
+        "url": "https://www.chiefdelphi.com/t/6329-the-bucks-wrath-2023-robot-shock/428274",
+        "format": "thread",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "Full robot, front view, black 6329 bumpers beside a purple cube",
+        "url": "https://imgur.com/Sd35dSR",
+        "img": "https://i.imgur.com/Sd35dSRh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Robot from directly above, green rollers at the front",
+        "url": "https://imgur.com/V0qDkz4",
+        "img": "https://i.imgur.com/V0qDkz4h.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s5",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot with black 6329 bumpers, arm raised beside a purple cube",
+        "url": "https://imgur.com/VrCRcBz",
+        "img": "https://i.imgur.com/VrCRcBzh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s6",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Green roller intake holding a purple cube, close-up",
+        "url": "https://imgur.com/jOAz5pV",
+        "img": "https://i.imgur.com/jOAz5pVh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s7",
+        "kind": "mechanism"
+      },
+      {
+        "what": "Robot with red bumpers, green rollers and lit mast, top cropped",
+        "url": "https://imgur.com/rEVYeVL",
+        "img": "https://i.imgur.com/rEVYeVLh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "robot-photo"
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/bucks-wrath",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: Chief Delphi \"6329 binder\" and \"6329 tech binder\", and a title search; no team site was known"
+  ],
+  "results": {
+    "division": "Curie",
+    "division_opr": 77.17,
+    "opr_rank": 6,
+    "record": "55-14-0",
+    "einstein": {
+      "division": "Curie",
+      "role": "captain"
+    },
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

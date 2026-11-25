@@ -1,0 +1,916 @@
+{
+  "id": "2024-254",
+  "season": 2024,
+  "team": "254",
+  "team_name": "The Cheesy Poofs",
+  "robot_name": "VORTEX",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 254 in 2024",
+      "url": "https://www.thebluealliance.com/team/254/2024",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Newton Division 2024",
+      "url": "https://www.thebluealliance.com/event/2024new",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "2024 CRESCENDO",
+      "url": "https://www.team254.com/frc/2024/",
+      "publisher": "team254.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Team 254 Presents: Vortex (reveal)",
+      "url": "https://www.chiefdelphi.com/t/team-254-presents-vortex/458449",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "254 FRC-2024-Public (Vortex)",
+      "url": "https://github.com/Team254/FRC-2024-Public",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "FRC 254 The Cheesy Poofs | B-Roll Bonus | Newton Finals 2 CRESCENDO",
+      "url": "https://www.youtube.com/watch?v=1FdpldNeaRo",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "254 The Cheesy Poofs | Behind the Glass | Chezy Champs Q66",
+      "url": "https://www.youtube.com/watch?v=Vyx4YEonxHc",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/gSrbgET",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Team 254 2024 Technical Binder",
+      "url": "https://media.team254.com/2024/10/8f2607a0-2024-Tech-Binder.pdf",
+      "publisher": "Team 254",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Team 254 Presents: 2024 VORTEX - Technical Binder, Code, Q&A",
+      "url": "https://www.chiefdelphi.com/t/team-254-presents-2024-vortex-technical-binder-code-q-a/472576",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "254 The Cheesy Poofs | Behind the Bumpers | CRESCENDO World Finalists",
+      "url": "https://www.youtube.com/watch?v=IykJdvD_h7k",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Just a thought (Newton 2024): Was 1323 the best choice for 254's 1st pick? (post 28)",
+      "url": "https://www.chiefdelphi.com/t/just-a-thought-newton-2024-was-1323-the-best-choice-for-254s-1st-pick/476468/28",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "AimFactory.java, FRC-2024-Public",
+      "url": "https://raw.githubusercontent.com/Team254/FRC-2024-Public/040f653744c9b18182be5f6bc51a7e505e346e59/src/main/java/com/team254/frc2024/command_factories/AimFactory.java",
+      "publisher": "Team 254 on GitHub",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "A Feeder that rolls notes around the Turret, so the Shooter can keep tracking the goal and never has to line up with the Intake.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "The Shooter had to score in the Speaker from different distances and very accurately, because missed shots are costly. The Turret was for shooting on the move and faster alignment; the team also chose it early for shuttling notes and quick cleanup. The climb had to take under 2 seconds and reach the Trap.",
+        "basis": "team",
+        "src": [
+          "s9",
+          "s11"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "Branching autos: if a midline note is gone the robot goes to the next in a chosen priority order, then returns to score. Interviewed at the championship, the team was mostly running sprints: score the preload, go straight to the midline, and take the three close notes afterward.",
+        "basis": "team",
+        "src": [
+          "s11"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The under-bumper Intake pulls in and centers a note. The Feeder rolls it around the Turret and stores it while the Turret tracks the Speaker, then accelerates it into the Shooter. For the amp, the note is sent up into the Amplifier and rolled out.",
+        "basis": "team",
+        "src": [
+          "s9",
+          "s11"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "The first step raises the climber arms. One button then raises the elevator, pulls the robot up, moves the note to its staged position and releases it into the Trap.",
+        "basis": "team",
+        "src": [
+          "s11"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "A Human Player can feed notes into the raised Amplifier, an alternate intake path for the passing strategy.",
+        "basis": "team",
+        "src": [
+          "s9",
+          "s11"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "The Turret's energy chain was a big constraint on where electronics could go, and the climber's jackshaft had to run through a hole in the Turret's tubing. Heavy shooter wheels chosen for inertia made the robot very overweight.",
+        "basis": "team",
+        "src": [
+          "s11"
+        ]
+      },
+      {
+        "text": "A reply that reads as the team's says better trap scoring cost the earlier amp mechanism its backward trick shot, which never ran at competition.",
+        "basis": "observer",
+        "src": [
+          "s10"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "Between Sacramento and East Bay nearly the whole shooter was redesigned because of spin-up time: another motor, more rollers and a straighter path. Machined inertia flywheels then replaced heavy wheels.",
+        "basis": "team",
+        "src": [
+          "s11"
+        ]
+      },
+      {
+        "text": "A post that reads as the team's says it would change its strategy calls, not its alliance pick: in the Einstein finals it pivoted one match late, then lost its one chance at the new strategy to a tech foul.",
+        "basis": "observer",
+        "src": [
+          "s12"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "45-5-1 in official play; won the Newton division; championship finalist; captain of the Newton alliance on Einstein; ranked 15 of the pooled top 20 (OPR 53.89, Newton).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drivebase",
+      "solves": [
+        {
+          "text": "Maneuver quickly, avoid defense and resist tipping",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "does": [
+        "drive",
+        "structure"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "The binder gives SDS MK4i modules at an L3 reduction and 18 ft/s; the interview says the drive pinion was swapped to 13 teeth, which draws less current with little effect on speed",
+          "basis": "team",
+          "src": [
+            "s9",
+            "s11"
+          ]
+        },
+        {
+          "text": "Square frame side",
+          "basis": "team",
+          "src": [
+            "s9"
+          ],
+          "value": 27,
+          "unit": "in"
+        },
+        {
+          "text": "3x1 tubes put the bellypan 1/2 in above the floor and keep notes out of the modules",
+          "basis": "team",
+          "src": [
+            "s9",
+            "s11"
+          ]
+        },
+        {
+          "text": "Krakens on every subsystem; motor count",
+          "basis": "team",
+          "src": [
+            "s9",
+            "s11"
+          ],
+          "value": 19,
+          "unit": "motors"
+        },
+        {
+          "text": "A 1x1 solid 7075 bar and a 1/4 in plate stiffen the bumper in front of the Intake",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Pick up several notes without jamming and survive collisions in the autonomous race to the midline",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Among the most iterated subsystems, because it is so tightly integrated with the shooter, carriage and Amplifier",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "under-bumper roller intake",
+      "serves": [
+        "speaker",
+        "amp",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "Mecanum and sideways funneling wheels let notes come in from the sides",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Surface speed, about, from one Kraken",
+          "basis": "team",
+          "src": [
+            "s9"
+          ],
+          "value": 15,
+          "unit": "ft/s"
+        },
+        {
+          "text": "A one-way spring ramp lets notes in from below, then sends them up to the Amplifier on exhaust",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Feeder",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Take notes from the Intake to the Shooter with the Turret at any position",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "does": [
+        "transfer",
+        "retain"
+      ],
+      "type": "roller feeder around a turret",
+      "serves": [
+        "speaker",
+        "amp",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "A flat box the team calls the \"pizza box\": rollers drag a note around it, squished horizontally, and up a ramp into the Shooter",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Two Krakens allow a direction switch, which prevents jams and takes the shortest path to the Shooter",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "It stores a note and accelerates it into the Shooter when ready",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Mounted on top of the swerve modules with velcro, so it comes off for servicing",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Based on the team's 2020 robot, and prototyped early",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Turret",
+      "solves": [
+        {
+          "text": "Track the Speaker continuously, separate from the rest of the robot",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The energy chain was a big constraint on electronics placement",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "turret on a thin-section bearing",
+      "serves": [
+        "speaker"
+      ],
+      "facts": [
+        {
+          "text": "Range of motion",
+          "basis": "team",
+          "src": [
+            "s9"
+          ],
+          "value": 720,
+          "unit": "deg"
+        },
+        {
+          "text": "A 3D printed energy chain, with a custom profile for its wires, is tensioned by a constant force spring",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Two encoders geared 1:1 and 1:2.3 give position through multiple wraps",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "One Kraken through 14:52 and 10:125 reductions",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Shoot accurately from different distances",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Heavy wheels gave the inertia but made the robot very overweight, until flywheels replaced them",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "deliver",
+        "position"
+      ],
+      "type": "quad-flywheel shooter with an adjustable hood",
+      "serves": [
+        "speaker"
+      ],
+      "facts": [
+        {
+          "text": "The Hood covers launch angles from 10 to 50 degrees above horizontal",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "One Kraken drives the feed rollers; after them one drives the top flywheel rollers and one the bottom",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Unequal wheels put spin on the note so it travels flatter and farther",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Shims between gears and hex shafts remove Hood backlash",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Inertia flywheels on the shaft ends help when shooting many notes in a row",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "The published code counts a shot as on target only when flywheel speed is within 4 percent of its set point, Turret and Hood are within tolerance and the set point is valid",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Amplifier",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Redirect notes down into the Amp or Trap, and take notes from the Human Player",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "A reply that reads as the team's says removing grip tape from the bottom roller helped the trap but lost a backward trick shot that never ran at competition",
+          "basis": "observer",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "does": [
+        "deliver",
+        "acquire",
+        "position"
+      ],
+      "type": "roller carriage on an elevator",
+      "serves": [
+        "amp",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "Elevator range",
+          "basis": "team",
+          "src": [
+            "s9"
+          ],
+          "value": 17,
+          "unit": "in"
+        },
+        {
+          "text": "The elevator covers that range in under",
+          "basis": "team",
+          "src": [
+            "s9"
+          ],
+          "value": 1,
+          "unit": "s"
+        },
+        {
+          "text": "A note is sent between two rollers like chopsticks, then scored at an angle by reversing them",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Passive wheels roll against the stage while the robot climbs",
+          "basis": "team",
+          "src": [
+            "s9",
+            "s11"
+          ]
+        },
+        {
+          "text": "For the trap, roller power is pulsed",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "The elevator can also block opponents",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Lift the robot high enough for the Amplifier to reach the Trap",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "winched hook arms on gas springs",
+      "serves": [
+        "onstage",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "Lift height",
+          "basis": "team",
+          "src": [
+            "s9"
+          ],
+          "value": 16,
+          "unit": "in"
+        },
+        {
+          "text": "Winch time, about",
+          "basis": "team",
+          "src": [
+            "s9"
+          ],
+          "value": 1,
+          "unit": "s"
+        },
+        {
+          "text": "15 lb gas springs lift the arms; Dyneema on a hex jackshaft winches both sides down",
+          "basis": "team",
+          "src": [
+            "s9",
+            "s11"
+          ]
+        },
+        {
+          "text": "One Kraken's brake mode holds the arms down after the match",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Operator modes",
+      "solves": [
+        {
+          "text": "Split operator controls by the part of the game being played",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "mode-based controls",
+      "serves": [
+        "speaker",
+        "amp"
+      ],
+      "facts": [
+        {
+          "text": "Speaker mode tracks the goal by Limelight; other modes handle the amp, human player loading and passing",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "The passing set point changes once the robot crosses the opposing alliance's wing line",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "The note is always staged in the shooter, and moved up for the amp only when needed",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Branching autos",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Keep scoring when a wanted midline note is already gone",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "split trajectories that branch on the fly",
+      "serves": [
+        "leave",
+        "speaker"
+      ],
+      "facts": [
+        {
+          "text": "Selectors set the start location and the order of midline notes",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Optimized trajectories are split so the path can change during the run",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Feed around the Turret",
+      "because": "the Shooter can track the goal without interruption, which makes aiming faster and shooting on the move reliable",
+      "instead_of": "a turret that must align with the Intake as a note comes in",
+      "basis": "team",
+      "src": [
+        "s9"
+      ]
+    },
+    {
+      "choice": "Put the Shooter on a Turret",
+      "because": "it allows shooting on the move and faster alignment, and helps shuttling and cleanup",
+      "basis": "team",
+      "src": [
+        "s9",
+        "s11"
+      ]
+    },
+    {
+      "choice": "Under-bumper Intake",
+      "because": "it is robust to collisions, especially in the autonomous race to the midline",
+      "basis": "team",
+      "src": [
+        "s9"
+      ]
+    },
+    {
+      "choice": "3x1 frame rails",
+      "because": "they lower the center of gravity and keep the robot from running notes into the swerve modules",
+      "instead_of": "2x1 rails",
+      "basis": "team",
+      "src": [
+        "s11"
+      ]
+    },
+    {
+      "choice": "13 tooth drive pinion",
+      "because": "it lowers current draw",
+      "cost": "a small loss of speed",
+      "basis": "team",
+      "src": [
+        "s11"
+      ]
+    },
+    {
+      "choice": "Machined inertia flywheels",
+      "because": "they keep the moment of inertia while staying light",
+      "instead_of": "very heavy wheels",
+      "basis": "team",
+      "src": [
+        "s11"
+      ]
+    },
+    {
+      "choice": "Pulse the rollers when scoring the trap",
+      "because": "it pushes the note in slowly and is more consistent",
+      "instead_of": "constant roller power",
+      "basis": "team",
+      "src": [
+        "s11"
+      ]
+    },
+    {
+      "choice": "Many branching autos",
+      "because": "the team expected many counter autos",
+      "basis": "team",
+      "src": [
+        "s11"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "The team says it does not publish CAD",
+        "format": "none",
+        "state": "withheld",
+        "src": "s10"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=IykJdvD_h7k",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "2024 CRESCENDO",
+        "url": "https://www.team254.com/frc/2024/",
+        "format": "web page",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "Team 254 Presents: Vortex (reveal)",
+        "url": "https://www.chiefdelphi.com/t/team-254-presents-vortex/458449",
+        "format": "thread",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "FRC 254 The Cheesy Poofs | B-Roll Bonus | Newton Finals 2 CRESCENDO",
+        "url": "https://www.youtube.com/watch?v=1FdpldNeaRo",
+        "format": "video",
+        "state": "listed",
+        "src": "s6"
+      },
+      {
+        "what": "254 The Cheesy Poofs | Behind the Glass | Chezy Champs Q66",
+        "url": "https://www.youtube.com/watch?v=Vyx4YEonxHc",
+        "format": "video",
+        "state": "listed",
+        "src": "s7"
+      },
+      {
+        "what": "Full robot, studio view, round turntable shooter with black wheels",
+        "url": "https://imgur.com/gSrbgET",
+        "img": "https://i.imgur.com/gSrbgETh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Video on the team's season page",
+        "url": "https://www.youtube.com/watch?v=6_xE955lP1c",
+        "format": "video",
+        "state": "listed",
+        "src": "s3"
+      }
+    ],
+    "documents": [
+      {
+        "what": "2024 technical binder",
+        "url": "https://media.team254.com/2024/10/8f2607a0-2024-Tech-Binder.pdf",
+        "format": "PDF",
+        "state": "opened",
+        "src": "s9"
+      },
+      {
+        "what": "Technical binder and code thread",
+        "url": "https://www.chiefdelphi.com/t/team-254-presents-2024-vortex-technical-binder-code-q-a/472576",
+        "format": "thread",
+        "state": "listed",
+        "src": "s10"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/team254",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "254 FRC-2024-Public (Vortex)",
+        "url": "https://github.com/Team254/FRC-2024-Public",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s5"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)"
+  ],
+  "results": {
+    "division": "Newton",
+    "division_opr": 53.89,
+    "opr_rank": 15,
+    "record": "45-5-1",
+    "einstein": {
+      "division": "Newton",
+      "role": "captain"
+    },
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

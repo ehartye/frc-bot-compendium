@@ -1,0 +1,874 @@
+{
+  "id": "2025-3005",
+  "season": 2025,
+  "team": "3005",
+  "team_name": "RoboChargers",
+  "robot_name": "Relay",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 3005 in 2025",
+      "url": "https://www.thebluealliance.com/team/3005/2025",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Curie Division 2025",
+      "url": "https://www.thebluealliance.com/event/2025cur",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "3005 RoboChargers 2025: Relay",
+      "url": "https://www.chiefdelphi.com/t/3005-robochargers-2025-relay/493529",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Building a Serial Excellence in Engineering Team - 3005 2025 FMC Presentation",
+      "url": "https://www.chiefdelphi.com/t/building-a-serial-excellence-in-engineering-team-3005-2025-fmc-presentation/505868",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "3005 2025 Build FMEA (example sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1EXRH-3Oguy3a9r_bBVRI9PKOn1OiJfzPMonc1V1rIvQ/edit?usp=sharing",
+      "publisher": "docs.google.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "3005 Reefscape-2025",
+      "url": "https://github.com/FRC3005/Reefscape-2025",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "RoboChargers SmugMug",
+      "url": "https://robochargers.smugmug.com/",
+      "publisher": "robochargers.smugmug.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "3005 RoboChargers 2025 Engineering Portfolio (RELAY, 3-17-25)",
+      "url": "https://www.chiefdelphi.com/uploads/short-url/fqtPgUhOlihuWQBACM0D0bt5pBA.pdf",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Onshape document",
+      "url": "https://cad.onshape.com/documents/be7ecb57773083221899273d/w/3ffbf14ecde31212fdcb4a6a/e/fe6648ecf44d2b65b2b452a4",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Onshape document",
+      "url": "https://cad.onshape.com/documents/ae9f878df96e104c784e1b6d/w/450e030be1894e0ba539f010/e/e3c2d30ebc6aa38a376831bf",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Page with pictures of this robot",
+      "url": "https://www.chiefdelphi.com/t/3005-robochargers-cad-release-2025/504887",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "3005 RoboChargers Behind the Bumpers, FRC 2025 REEFSCAPE, filmed at the championship (auto-caption read)",
+      "url": "https://www.youtube.com/watch?v=oTLDniUNgBQ",
+      "publisher": "FUN Robotics Network (YouTube)",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "How did 2056 win a banner as a 6th captain? (auto-caption read)",
+      "url": "https://www.youtube.com/watch?v=dB1lmxKE_I0",
+      "publisher": "RoboReplay (YouTube)",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "outcome": [
+      {
+        "text": "56-9-2 in official play; ranked 9 of the pooled top 20 (OPR 107.15, Curie).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "bet": [
+      {
+        "text": "Positive engagement with the reef: touch it, so every coral goes directly onto a branch.",
+        "basis": "team",
+        "src": [
+          "s13"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "Reach all four reef levels, score algae directly in the barge and climb the deep cage. The team expected most teams, itself included, to skip a ground intake and litter the floor with coral, so every mechanism had to reach outside the frame.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "At the championship the team said its four-piece autos were very consistent, sometimes with a fifth coral in hand. In March its core auto was three L4 coral and one algae; another pushed partners over the line first.",
+        "basis": "team",
+        "src": [
+          "s13",
+          "s9"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The human player tosses coral in and the serializer feeds the ejector. The driver picks left or right and a level, the robot locks its angle to that reef section, and a through-beam fires when it meets the reef.",
+        "basis": "team",
+        "src": [
+          "s13"
+        ]
+      },
+      {
+        "text": "Algae can be pulled as the elevator descends.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "A flap guides the deep cage into place, locks grip it and the side climber rotates down. A ratchet-like stage holds even a partial climb after power is cut.",
+        "basis": "team",
+        "src": [
+          "s13",
+          "s9"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "A ground coral intake. Packaging was tight, and ballast in the drivetrain offsets the moving mass.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      },
+      {
+        "text": "A commentator names the lack of a ground intake on its alliance as one of the biggest reasons for a Curie playoff loss, along with penalties while it was blocked in by defenders. It adds that the alliance would still have lost without them.",
+        "basis": "observer",
+        "src": [
+          "s14"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "In week one the robot tipped easily at L4, so the laterator and ejector were redesigned around a passive cam. Coral jams led to a new powered serializer just before championship. A servo climb lock that cost a couple of climbs became a ratchet-like stage.",
+        "basis": "team",
+        "src": [
+          "s13"
+        ]
+      },
+      {
+        "text": "Unsigned reply that reads as the team's: the laterator loosened over time and was shimmed for an off-season event.",
+        "basis": "observer",
+        "src": [
+          "s12"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drivetrain",
+      "does": [
+        "drive"
+      ],
+      "type": "swerve with printed wheels",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Frame side, square",
+          "basis": "team",
+          "src": [
+            "s9"
+          ],
+          "value": 29,
+          "unit": "in"
+        },
+        {
+          "text": "REV MAXSwerve with custom 3D-printed TPU wheels",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Ballast in the drivetrain offsets the moving mass above",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elevator",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "three-stage elevator",
+      "serves": [
+        "reef-branches",
+        "net"
+      ],
+      "facts": [
+        {
+          "text": "All major subsystems sit inside it",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "It is set toward the back of the robot for a clean coral path",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Unsigned reply that reads as the team's: the elevator uses chain mostly because the team knew it",
+          "basis": "observer",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Unsigned reply that reads as the team's: bearing-to-gusset hard stops began as Markforged Onyx and moved to MaxComposite to save weight",
+          "basis": "observer",
+          "src": [
+            "s12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Laterator",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Take and score coral without regard to coral on the floor, which the team says saves seconds per cycle",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "lateral elevator nested in the third elevator stage",
+      "serves": [
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "Carries the coral serializer, the coral ejector and the algae gripper outside the frame",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "A passive cam with printed parts sprung by surgical tubing gives separate intake and score positions as the ejector stows",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Scoring L4 made the robot very tippy in week one",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Unsigned reply that reads as the team's: it generally derailed when the robot climbed onto the reef, which it was not designed for, and it loosened left to right over time",
+          "basis": "observer",
+          "src": [
+            "s12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Coral serializer",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Turn coral tossed in from above into one orientation without sticking",
+          "basis": "team",
+          "src": [
+            "s13",
+            "s9"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "transfer"
+      ],
+      "type": "chute with powered molded flaps",
+      "serves": [
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "Custom-molded polyurethane flaps all spin on one Vortex, so coral in any position hits a roller",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "The team says the new version saves, per cycle, about",
+          "basis": "team",
+          "src": [
+            "s13"
+          ],
+          "value": 1,
+          "unit": "s"
+        },
+        {
+          "text": "It keeps the chute's slope so the human player can toss from odd angles under defense",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The earlier version, polycarbonate parts and one belt, left coral stuck unless the driver rocked the robot",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Coral ejector",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Know the coral will land on the branch, and fire without waiting to check alignment",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ],
+      "does": [
+        "deliver",
+        "retain",
+        "position"
+      ],
+      "type": "sloped-roller ejector with mechanical guides",
+      "serves": [
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "Four rollers, all sloped to orient the coral",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "The inner through-beam detects the coral; the outer one retracts coral that is too far out and fires when it meets the reef",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "SRPP flaps close the last gap mechanically, so the robot need not be perfectly aligned",
+          "basis": "team",
+          "src": [
+            "s9",
+            "s13"
+          ]
+        },
+        {
+          "text": "Unsigned reply that reads as the team's: mostly carbon fiber tube and MaxComposite, quite strong in tension",
+          "basis": "observer",
+          "src": [
+            "s12"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Roller positions were changed to smooth a path that could jam",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Algae gripper",
+      "pieces": [
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Take algae from the reef and the floor with no wasted movement",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "retain",
+        "deliver"
+      ],
+      "type": "two pivoting arms with belt-driven rollers",
+      "serves": [
+        "processor",
+        "net"
+      ],
+      "facts": [
+        {
+          "text": "The arms pivot open to fit and compress the algae",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "It pivots on the laterator base, so it can pull an algae as the elevator comes down from a coral",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "A 15 lb gas shock did not hold algae in build testing; the team's failure sheet recommended 30 to 45 lb. In March the team tested 3D prints in place of gas shocks on its practice robot",
+          "basis": "team",
+          "src": [
+            "s6",
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Latch the cage quickly and stay up even if time runs out partway",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "side-mounted rotating climber",
+      "serves": [
+        "cage"
+      ],
+      "facts": [
+        {
+          "text": "Rods hook inside the cage and rotate down, pulling the robot up and steadying the chain",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "A guide flap pushes the cage into the position needed",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "An added stage locks like a drill chuck as it spins, similar to a ratchet",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "In February the robot climbed twice but began to lower once disabled, so a lock was added",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vision and reef targeting",
+      "does": [
+        "sense"
+      ],
+      "type": "single-camera vision",
+      "serves": [
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "One front camera through PhotonVision",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "The reef is divided like a pie chart; in a section the robot targets only its two branches and locks to that angle",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "One driver picks the side and the level",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Carpet characterization",
+      "solves": [
+        {
+          "text": "Wheels travel a different distance with and against the carpet nap; the team says an out-and-back auto run can be off by 6 in or more",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "direction-dependent odometry correction",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Travel was measured with a tape against the robot's own reading in 8 directions relative to the carpet nap, with linear interpolation between them",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "The correction uses each module's field position and angle",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MaxComposite parts",
+      "does": [
+        "structure"
+      ],
+      "type": "self-reinforced polypropylene",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Used where parts need high strength at low weight",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Contact with the reef",
+      "because": "it assures the coral lands and lets the robot fire by itself",
+      "instead_of": "firing coral at the branches, which looked inaccurate on early robots",
+      "basis": "team",
+      "src": [
+        "s13"
+      ]
+    },
+    {
+      "choice": "Elevator at the back of the robot",
+      "because": "it gives the coral a clean path and makes a laterator worthwhile",
+      "instead_of": "an elevator toward the front",
+      "basis": "team",
+      "src": [
+        "s13"
+      ]
+    },
+    {
+      "choice": "Mechanical guides on the ejector",
+      "because": "the team thought vision would not be accurate enough to get within about 2 in",
+      "basis": "team",
+      "src": [
+        "s13"
+      ]
+    },
+    {
+      "choice": "Two reef targets per section",
+      "because": "it limits complexity; the driver only picks left or right",
+      "instead_of": "choosing among all 12",
+      "basis": "team",
+      "src": [
+        "s13"
+      ]
+    },
+    {
+      "choice": "Ratchet-like climb lock",
+      "because": "it locks as it climbs and holds a partial climb",
+      "instead_of": "a servo latch that did not act in time in a couple of matches",
+      "basis": "team",
+      "src": [
+        "s13"
+      ]
+    },
+    {
+      "choice": "MaxComposite elevator hard stops",
+      "because": "they weigh less, says an unsigned reply that reads as the team's",
+      "instead_of": "Markforged Onyx",
+      "basis": "observer",
+      "src": [
+        "s12"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "Full competition robot (Reefscape - Relay)",
+        "url": "https://cad.onshape.com/documents/be7ecb57773083221899273d/w/3ffbf14ecde31212fdcb4a6a/e/fe6648ecf44d2b65b2b452a4",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "Full competition robot (Reefscape - Relay)",
+        "url": "https://cad.onshape.com/documents/ae9f878df96e104c784e1b6d/w/450e030be1894e0ba539f010/e/e3c2d30ebc6aa38a376831bf",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "CAD listed on the team page",
+        "url": "https://cad.onshape.com/documents/ae9f878df96e104c784e1b6d/w/450e030be1894e0ba539f010",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "CAD listed on the team page",
+        "url": "https://cad.onshape.com/documents/be7ecb57773083221899273d/w/3ffbf14ecde31212fdcb4a6a",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "3005 RoboChargers CAD Release 2025",
+        "url": "https://www.chiefdelphi.com/t/3005-robochargers-cad-release-2025/504887",
+        "format": "thread",
+        "state": "listed",
+        "src": "s12"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=kVqYEoLIWE0",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=oTLDniUNgBQ",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/sWw0gRG",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "3005 RoboChargers 2025: Relay",
+        "url": "https://www.chiefdelphi.com/t/3005-robochargers-2025-relay/493529",
+        "format": "thread",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "RoboChargers SmugMug",
+        "url": "https://robochargers.smugmug.com/",
+        "format": "web page",
+        "state": "listed",
+        "src": "s8"
+      },
+      {
+        "what": "Full robot CAD, red bumpers",
+        "url": "https://cad.onshape.com/documents/be7ecb57773083221899273d/w/3ffbf14ecde31212fdcb4a6a/e/fe6648ecf44d2b65b2b452a4",
+        "img": "https://cad.onshape.com/api/thumbnails/d/be7ecb57773083221899273d/w/3ffbf14ecde31212fdcb4a6a/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s10",
+        "kind": "cad",
+        "hero": true
+      },
+      {
+        "what": "Robot CAD with mechanisms colored, red cage model in place",
+        "url": "https://cad.onshape.com/documents/ae9f878df96e104c784e1b6d/w/450e030be1894e0ba539f010/e/e3c2d30ebc6aa38a376831bf",
+        "img": "https://cad.onshape.com/api/thumbnails/d/ae9f878df96e104c784e1b6d/w/450e030be1894e0ba539f010/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s11",
+        "kind": "cad"
+      },
+      {
+        "what": "Large blue sprocket, CAD close-up",
+        "url": "https://www.chiefdelphi.com/t/3005-robochargers-cad-release-2025/504887",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/b/4/3/b43b56ce00a3658c12f9917314f9803c281dfcdd_2_573x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s12",
+        "kind": "cad"
+      },
+      {
+        "what": "Wiring harness modelled in CAD, isolated",
+        "url": "https://www.chiefdelphi.com/t/3005-robochargers-cad-release-2025/504887",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/7/5/a/75a6a104dd3b5778f03b2ed67fccd2dbc209d677_2_480x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s12",
+        "kind": "cad"
+      },
+      {
+        "what": "Roller bearing and riveted plates, CAD close-up",
+        "url": "https://www.chiefdelphi.com/t/3005-robochargers-cad-release-2025/504887",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/e/5/0/e505a1ae56fd1fb4366dc852baf9c65d9ed58f61_2_344x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s12",
+        "kind": "cad"
+      },
+      {
+        "what": "Talk on laying out wiring in CAD, 2025 season (not watched)",
+        "url": "https://www.youtube.com/watch?v=igt5m3B21Fk&list=PLkZ6_Ld1x9Y-vRuH1q1Nt6vXIk8j2np7P&index=8",
+        "format": "video",
+        "state": "listed",
+        "src": "s12"
+      }
+    ],
+    "documents": [
+      {
+        "what": "Building a Serial Excellence in Engineering Team - 3005 2025 FMC Presentation",
+        "url": "https://www.chiefdelphi.com/t/building-a-serial-excellence-in-engineering-team-3005-2025-fmc-presentation/505868",
+        "format": "thread",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "3005 2025 Build FMEA (example sheet)",
+        "url": "https://docs.google.com/spreadsheets/d/1EXRH-3Oguy3a9r_bBVRI9PKOn1OiJfzPMonc1V1rIvQ/edit?usp=sharing",
+        "format": "Google Sheet",
+        "state": "opened",
+        "src": "s6"
+      },
+      {
+        "what": "3005 RoboChargers 2025 Engineering Portfolio (RELAY, 3-17-25)",
+        "url": "https://www.chiefdelphi.com/uploads/short-url/fqtPgUhOlihuWQBACM0D0bt5pBA.pdf",
+        "format": "PDF",
+        "state": "opened",
+        "src": "s9"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/frc3005",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "3005 Reefscape-2025",
+        "url": "https://github.com/FRC3005/Reefscape-2025",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s7"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: Chief Delphi \"3005 binder\" (found the 2025 portfolio) and \"RoboChargers binder\", a title search, one web search and 29 pages of the team site"
+  ],
+  "results": {
+    "division": "Curie",
+    "division_opr": 107.15,
+    "opr_rank": 9,
+    "record": "56-9-2",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

@@ -1,0 +1,518 @@
+{
+  "id": "2024-1323",
+  "season": 2024,
+  "team": "1323",
+  "team_name": "MadTown Robotics",
+  "robot_name": null,
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 1323 in 2024",
+      "url": "https://www.thebluealliance.com/team/1323/2024",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Newton Division 2024",
+      "url": "https://www.thebluealliance.com/event/2024new",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/bdVVTHY",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "1323 MadTown Robotics | Behind the Bumpers | CRESCENDO World Finalists",
+      "url": "https://www.youtube.com/watch?v=chskc15AZ9o",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Just a thought (Newton 2024): Was 1323 the best choice for 254's 1st pick? Post 28",
+      "url": "https://www.chiefdelphi.com/t/just-a-thought-newton-2024-was-1323-the-best-choice-for-254s-1st-pick/476468/28",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Just a thought (Newton 2024): Was 1323 the best choice for 254's 1st pick?",
+      "url": "https://www.chiefdelphi.com/t/just-a-thought-newton-2024-was-1323-the-best-choice-for-254s-1st-pick/476468",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Any thoughts on G420 (5-Count Pin Rule for Defense) following 321's defense in the Einstein Finals?",
+      "url": "https://www.chiefdelphi.com/t/any-thoughts-on-g420-5-count-pin-rule-for-defense-following-321s-defense-in-the-einstein-finals/463609",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "254 Alliance Strategy in Einstein Playoffs",
+      "url": "https://www.chiefdelphi.com/t/254-alliance-strategy-in-einstein-playoffs/463655",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Make the whole path of the note as seamless as possible, starting with an intake across the full width of the robot.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "Short cycles: drivers can run into a note and pick it up instead of spending time on it. The team says it thinks about high-level play and strategies at the start of the season, when it designs the robot. It shoots from the wing line.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "A commenter says its auto consistently won two center notes in division eliminations and on Einstein.",
+        "basis": "observer",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "Drive into a note; side rollers funnel it to the center, a ramp leads it to the feeder rollers, and the cannon shoots. For the amp, the shooter comes down and the note follows its path and shoots back out.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "Championship playoff commenters saw it mainly passing to 254, and one saw a move to cycling in Finals 2.",
+        "basis": "observer",
+        "src": [
+          "s6",
+          "s8"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "Unspooling the winch lets the hanger arms come up; at a certain height the hanger forks come out. The driver lines up and starts the hanging sequence, which winches the arms down on the chain.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "Commenters credit it with a consistent trap.",
+        "basis": "observer",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "A reply that reads as 254's says 1323 could change roles, for example stealing notes in the opponent's front court and passing them, or cover for losing a robot early.",
+        "basis": "observer",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "The team had to use a rectangular drivetrain, and says the under-bumper intake compensates.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "After the Einstein finals commenters said its large size made it easier to defend, and one that its high bumpers let 321 get underneath; another later said it was not that bad under defense.",
+        "basis": "observer",
+        "src": [
+          "s7",
+          "s8",
+          "s6"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "A reply that reads as 254's says the alliance changed its strategy one match too late in the Einstein finals. It had put an earlier close match against Daly down to other factors, such as 1323 running a dead battery, instead of 321's defense.",
+        "basis": "observer",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "45-7-1 in official play; won the Newton division; championship finalist; pick 1 of the Newton alliance on Einstein; ranked 2 of the pooled top 20 (OPR 59.80, Newton).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Under the bumper intake",
+      "does": [
+        "acquire"
+      ],
+      "type": "full-width under-bumper roller intake",
+      "pieces": [
+        "note"
+      ],
+      "serves": [],
+      "solves": [
+        {
+          "text": "Pick up a note by driving into it, with short cycle times",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Spans the entire width of the robot",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Side funneling rollers, on a different gearbox, move the note toward the center",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tunnel and feeder",
+      "does": [
+        "transfer",
+        "retain"
+      ],
+      "type": "ramp into a roller feeder",
+      "pieces": [
+        "note"
+      ],
+      "serves": [
+        "speaker",
+        "amp"
+      ],
+      "solves": [
+        {
+          "text": "Draw the note in without stretching or compressing it before the shot",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "A 3D printed ramp and a polycarbonate sheet direct the note into the feeder rollers",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Combines dead-axle and live-axle rollers",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A removable protective cover prevents notes from getting stuck",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Very similar to the system used the year before",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cannon",
+      "does": [
+        "position",
+        "deliver"
+      ],
+      "type": "pivoting shooter with two roller sets",
+      "pieces": [
+        "note"
+      ],
+      "serves": [
+        "speaker",
+        "amp"
+      ],
+      "solves": [
+        {
+          "text": "Shoot consistently from as far as the wing line, with a stable note",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Low pivot toward the back of the robot, which the team says lets it shoot from farther away",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "One gearbox and a transfer tube turn both sides, with a custom machined gear",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Front rollers, about",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 4,
+          "unit": "in"
+        },
+        {
+          "text": "Second set of rollers, about",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 3,
+          "unit": "in"
+        },
+        {
+          "text": "One motor per side lets the two sides run at different speeds",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Comes down for the amp, and the note follows its path and shoots back out",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hanger",
+      "does": [
+        "endgame"
+      ],
+      "type": "winched arms with forks",
+      "serves": [
+        "onstage"
+      ],
+      "solves": [
+        {
+          "text": "Climb the chain with a sequence the driver starts",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Two sets of arms: hanger arms that are winched down on the chain, and hanger forks; both are on gas struts",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "The forks come out once the arms reach a certain height",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Drivetrain and side plates",
+      "does": [
+        "structure",
+        "drive"
+      ],
+      "type": "rectangular drivetrain with integrating side plates",
+      "serves": [],
+      "solves": [
+        {
+          "text": "Maximize the amount of robot in the packaging",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "The team says it typically uses the maximum frame perimeter and weight",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "The side plates tie the drivetrain and hanger together and carry the side funneling rollers",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Commenters say the size was a problem under defense; another says it was not that bad",
+          "basis": "observer",
+          "src": [
+            "s7",
+            "s8",
+            "s6"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Use the maximum size and weight",
+      "because": "the team wants to maximize the amount of robot in its packaging",
+      "cost": "a rectangular drivetrain, which the team says the full-width intake makes up for",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "Do not manipulate the note until it is shot",
+      "because": "keeping its original shape gives consistent shots",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "Drive both sides of the shooter pivot from one gearbox through a tube",
+      "because": "there is no slippage between the sides",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "Power each side of the shooter independently",
+      "because": "different speeds keep the note's flight stable from different positions on the field",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=chskc15AZ9o",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/IOQlM5a",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/ckUEaX1",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/p16qKZf",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Full robot in pit, blue bumpers, side panel with logos",
+        "url": "https://imgur.com/bdVVTHY",
+        "img": "https://i.imgur.com/bdVVTHYh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s3",
+        "kind": "robot-photo",
+        "hero": true
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/team1323",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binder searches: Chief Delphi titles for 1323, posts for 1323 tech binder, titles for 1323 binder, one web search, 28 pages of the team site"
+  ],
+  "results": {
+    "division": "Newton",
+    "division_opr": 59.8,
+    "opr_rank": 2,
+    "record": "45-7-1",
+    "einstein": {
+      "division": "Newton",
+      "role": "pick 1"
+    },
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

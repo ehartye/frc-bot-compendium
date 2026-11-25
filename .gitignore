@@ -1,0 +1,6 @@
+# private research inputs, never published
+/local/
+/dist/
+__pycache__/
+
+/.playwright-mcp/

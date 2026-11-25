@@ -1,0 +1,674 @@
+{
+  "id": "2023-5460",
+  "season": 2023,
+  "team": "5460",
+  "team_name": "Strike Zone",
+  "robot_name": "VIPER",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 5460 in 2023",
+      "url": "https://www.thebluealliance.com/team/5460/2023",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Daly Division 2023",
+      "url": "https://www.thebluealliance.com/event/2023dal",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "5460 Strike Zone 2023 CAD Release",
+      "url": "https://www.chiefdelphi.com/t/5460-strike-zone-2023-cad-release/438026",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "5460 Strike Zone 2023 Reveal",
+      "url": "https://www.chiefdelphi.com/t/5460-strike-zone-2023-reveal/428689",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "2023 FRC",
+      "url": "https://www.first5460.com/2023-frc/",
+      "publisher": "first5460.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/4Zk2t1a",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/8Il7jFu",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/G3Ocm2h",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Onshape document",
+      "url": "https://cad.onshape.com/documents/0b20b359a25b9a8142fe9631/w/263949fda713f005d5add009/e/9ff2797a21aae7b8fea3933c",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Behind the Bumpers | 5460 Strike Zone | Charged Up Robot",
+      "url": "https://www.youtube.com/watch?v=lKJdv6xgWM4",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Keep the entire upper structure as light as possible, because past robots had center of gravity trouble.",
+        "basis": "team",
+        "src": [
+          "s11"
+        ]
+      }
+    ],
+    "demand": [],
+    "auto": [],
+    "cycle": [
+      {
+        "text": "Cubes go from the ground intake out to the low nodes. Forward and reverse station buttons let it pick up from both sides without a full turn.",
+        "basis": "team",
+        "src": [
+          "s11"
+        ]
+      },
+      {
+        "text": "A reply that reads as the team's, before the state championship, says the claw took cubes from the shelf for high and mid nodes, with no handoff for now.",
+        "basis": "observer",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "endgame": [],
+    "fallback": [
+      {
+        "text": "Driver-station overrides cover the gyro and other sensors such as beam breaks.",
+        "basis": "team",
+        "src": [
+          "s11"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "A reply that reads as the team's, before the state championship, says it did no cube handoff from intake to claw, because testing found inconsistencies that put the arm in vulnerable positions; mid and high cubes came from the shelf, to avoid a popped cube or a damaged robot.",
+        "basis": "observer",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "After the first event a roller was added so the intake takes cones too.",
+        "basis": "team",
+        "src": [
+          "s11"
+        ]
+      },
+      {
+        "text": "Two Limelights on AprilTags gave way to targeting the nodes.",
+        "basis": "team",
+        "src": [
+          "s11"
+        ]
+      },
+      {
+        "text": "A post that reads as the team's lists, before the state championship, L3 drive gearing, a 120:1 distal arm, and a half pound off the end effector.",
+        "basis": "observer",
+        "src": [
+          "s5"
+        ]
+      },
+      {
+        "text": "Offseason: two more drive motors, for ten.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "64-28-0 in official play; won the Daly division; championship finalist; captain of the Daly alliance on Einstein; ranked 19 of the pooled top 20 (OPR 70.01, Daly).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Ground intake",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Pick up from the ground and spit cubes straight into low nodes",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "deliver"
+      ],
+      "type": "wide drop-down roller intake",
+      "serves": [
+        "grid-low"
+      ],
+      "facts": [
+        {
+          "text": "Took cubes only at the first event; an added roller lets it take cones",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Uses no pneumatics, which the team calls more consistent",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Carbon fiber arm",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Reach the nodes with a low center of gravity",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "jointed arm of large carbon fiber tube",
+      "serves": [
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Driven from a gearbox low in the robot",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Upper structure without the Falcon is under about 7 lb",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Inserts are press fit and epoxied, with one hot glued",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "A post that reads as the team's gives the distal joint, changed before the state championship, as",
+          "basis": "observer",
+          "src": [
+            "s5"
+          ],
+          "value": 120,
+          "unit": ":1"
+        },
+        {
+          "text": "A commenter notes angled inserts that bring the end effector to the middle of the robot",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The tube is expensive, so the team feared cracking it",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "A reply that reads as the team's says the part joining the vertical tube split along print layers in Onyx and became laser-sintered Nylon 12",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Claw",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "does": [
+        "retain",
+        "deliver",
+        "acquire"
+      ],
+      "type": "geared claw with driven wheels",
+      "serves": [
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "One Falcon at",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 8.4,
+          "unit": ":1"
+        },
+        {
+          "text": "Weight at the reveal",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 2.7,
+          "unit": "lb"
+        },
+        {
+          "text": "Thrifty Bot wheels",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Printed gears on nylon hex shaft with aluminum bolts; deeper teeth held better",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "A reply that reads as the team's says gears and pulleys were printed in Onyx to keep the arm's swinging inertia low",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Drivetrain",
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "A post that reads as the team's says its MK4i modules went to L3 gearing before the state championship, for speed",
+          "basis": "observer",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Node targeting",
+      "pieces": [
+        "cone"
+      ],
+      "solves": [
+        {
+          "text": "Aim at the nodes and score more easily",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "Limelight aimed at the nodes",
+      "serves": [
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "It was easier to target and score with than two Limelights on AprilTags",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Replies that read as the team's say it tracks the reflective tape on the node poles and fits the driver better than tags did; lack of tuning time was the trouble with tags, which could match it with much development",
+          "basis": "observer",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arm states",
+      "solves": [
+        {
+          "text": "Keep the arm from clipping something and cracking",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "nested switch statement for arm motion",
+      "serves": [],
+      "facts": [
+        {
+          "text": "It forces intermediate states, so the arm is never sent from a low position straight to a high score",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Driver-station PCB",
+      "solves": [
+        {
+          "text": "Give drivers many buttons and overrides",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "custom input board at the driver station",
+      "serves": [],
+      "facts": [
+        {
+          "text": "About 8 analog and 32 digital inputs",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Home, strike, spit and forward or reverse station buttons",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Frame and layout",
+      "solves": [
+        {
+          "text": "Counteract the arm's weight",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "compact frame with the battery as counterweight",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Robot weight on the team's season page",
+          "basis": "team",
+          "src": [
+            "s6"
+          ],
+          "value": 87,
+          "unit": "lb"
+        },
+        {
+          "text": "Size on the season page is 24 x 24 x 48 in",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "The battery lies flat on the side opposite the arm, with the RoboRIO there for short wires",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Gearbox low, printed claw gears, carbon tube",
+      "because": "low mass up high keeps the center of gravity low",
+      "basis": "team",
+      "src": [
+        "s11"
+      ]
+    },
+    {
+      "choice": "No intake-to-claw handoff for cubes, for now (before the state championship)",
+      "because": "a reply that reads as the team's says testing showed inconsistencies that left the arm vulnerable",
+      "cost": "mid and high cubes come from the shelf",
+      "basis": "observer",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Node targeting instead of AprilTags",
+      "because": "it was easier to target and to score with",
+      "instead_of": "two Limelights on AprilTags",
+      "basis": "team",
+      "src": [
+        "s11"
+      ]
+    },
+    {
+      "choice": "Loose claw belt",
+      "because": "the belt slips before the wheels tear or mark a game piece",
+      "instead_of": "a tight belt, with wheels that slipped on the pieces",
+      "basis": "team",
+      "src": [
+        "s11"
+      ]
+    },
+    {
+      "choice": "Nylon 12 for the arm tube joint",
+      "because": "a reply that reads as the team's says it is solid and does not delaminate",
+      "instead_of": "a two-piece Onyx print with dowel pins and epoxy",
+      "basis": "observer",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "Clearwater Composites tubes",
+      "because": "a reply that reads as the team's says they shipped next day and gave an educational discount",
+      "basis": "observer",
+      "src": [
+        "s4"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "Comp Robot",
+        "url": "https://cad.onshape.com/documents/0b20b359a25b9a8142fe9631/w/263949fda713f005d5add009/e/9ff2797a21aae7b8fea3933c",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "CAD listed on the team page",
+        "url": "https://cad.onshape.com/documents/0b20b359a25b9a8142fe9631/w/263949fda713f005d5add009",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "5460 Strike Zone 2023 CAD Release",
+        "url": "https://www.chiefdelphi.com/t/5460-strike-zone-2023-cad-release/438026",
+        "format": "thread",
+        "state": "listed",
+        "src": "s4",
+        "holds": "SolidWorks exported to Onshape"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=00IDeFjyJYw",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=ff1TQMWaZ9M",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=lKJdv6xgWM4",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "5460 Strike Zone 2023 Reveal",
+        "url": "https://www.chiefdelphi.com/t/5460-strike-zone-2023-reveal/428689",
+        "format": "thread",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "2023 FRC",
+        "url": "https://www.first5460.com/2023-frc/",
+        "format": "web page",
+        "state": "opened",
+        "src": "s6"
+      },
+      {
+        "what": "Full robot cut-out, jointed arm extended",
+        "url": "https://imgur.com/8Il7jFu",
+        "img": "https://i.imgur.com/8Il7jFuh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot on white, arm raised, roller intake in front",
+        "url": "https://imgur.com/G3Ocm2h",
+        "img": "https://i.imgur.com/G3Ocm2hh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s9",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Full robot CAD seen from underneath",
+        "url": "https://cad.onshape.com/documents/0b20b359a25b9a8142fe9631/w/263949fda713f005d5add009/e/9ff2797a21aae7b8fea3933c",
+        "img": "https://cad.onshape.com/api/thumbnails/d/0b20b359a25b9a8142fe9631/w/263949fda713f005d5add009/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s10",
+        "kind": "cad"
+      },
+      {
+        "what": "Photo page (picture not shown here)",
+        "url": "https://imgur.com/4Zk2t1a",
+        "format": "image",
+        "state": "opened",
+        "src": "s7"
+      }
+    ],
+    "documents": [],
+    "code": []
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: Chief Delphi title search for 5460 (8 topics) and '5460 binder' (3 posts), 22 pages of the team site"
+  ],
+  "results": {
+    "division": "Daly",
+    "division_opr": 70.01,
+    "opr_rank": 19,
+    "record": "64-28-0",
+    "einstein": {
+      "division": "Daly",
+      "role": "captain"
+    },
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

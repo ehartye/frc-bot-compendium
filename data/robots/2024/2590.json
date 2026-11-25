@@ -1,0 +1,451 @@
+{
+  "id": "2024-2590",
+  "season": 2024,
+  "team": "2590",
+  "team_name": "Nemesis",
+  "robot_name": "Kronos",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 2590 in 2024",
+      "url": "https://www.thebluealliance.com/team/2590/2024",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Curie Division 2024",
+      "url": "https://www.thebluealliance.com/event/2024cur",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "Kronos | FRC 2590",
+      "url": "https://frc2590.org/robots/kronos/",
+      "publisher": "frc2590.org",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "2590 Nemesis FRC2024-Robot-Code (Kronos)",
+      "url": "https://github.com/Team2590/FRC2024-Robot-Code",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Robots | FRC 2590",
+      "url": "https://frc2590.org/robots",
+      "publisher": "frc2590.org",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Nemesis 2590 Flickr sets",
+      "url": "https://www.flickr.com/photos/frc2590/sets/",
+      "publisher": "flickr.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/atunxJ9",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "2024 Week 1: Team Journal | FRC 2590",
+      "url": "https://www.frc2590.org/blog/2024-week-1-team-journal",
+      "publisher": "frc2590.org",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [],
+    "demand": [],
+    "auto": [
+      {
+        "text": "The team page, written before its first event, lists many paths that combine notes near the speaker and at the center, for both alliance colors, and says the robot can take in and score up to five notes in one auto.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "An intake camera finds a note and the robot can turn to face it. The note passes through a full-width intake to a handoff point and into the shooter, and the shoulder snaps to the angle set from the AprilTags.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "The same page says a chain pulls a hook from the top of the robot nearly to the belly pan, high enough to score in the trap without tipping; the shoulder then pivots up and forces the note into the trap door.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "fallback": [],
+    "gave_up": [],
+    "changed": [
+      {
+        "text": "Halfway through prototyping, a few prototypes had not worked and the team was still experimenting with ideas such as a one-bar intake.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "46-21-0 in official play; won the Curie division; captain of the Curie alliance on Einstein; ranked 13 of the pooled top 20 (OPR 54.44, Curie).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Swerve drive",
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Speed up to",
+          "basis": "team",
+          "src": [
+            "s3"
+          ],
+          "value": 15.5,
+          "unit": "ft/s"
+        },
+        {
+          "text": "Robot size 24 x 29 x 24.7 in",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Roller intake",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Take in a note across the full width of the robot and bring it to the center",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "transfer"
+      ],
+      "type": "full-width belted roller intake with diverters",
+      "serves": [
+        "speaker",
+        "amp",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "Custom aluminum rollers, belted together in a row, guide the note to the handoff point",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Rollers mount on custom turned and threaded screws that engage 3D printed pulleys",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "3D printed diverter plates and wheels move the note to the center",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Double flywheel shooter",
+      "pieces": [
+        "note"
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "top and bottom flywheel shooter",
+      "serves": [
+        "speaker"
+      ],
+      "facts": [
+        {
+          "text": "Wheels on the top and bottom of the note accelerate it",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shoulder",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Set the angle for a speaker shot, and score the amp and trap with the same pivot",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "position",
+        "deliver"
+      ],
+      "type": "pivot carrying the chamber, shooter and diverter",
+      "serves": [
+        "speaker",
+        "amp",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "For the amp and trap it pivots upward and forces the note down",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Climb high enough to score in the trap without tipping",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "chain and sprocket hook climber",
+      "serves": [
+        "onstage",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "The custom hook travels from the top of the robot nearly to the belly pan",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Note camera",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Face a note automatically",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "acquire"
+      ],
+      "type": "intake camera with automatic turn",
+      "serves": [
+        "speaker",
+        "amp"
+      ],
+      "facts": [
+        {
+          "text": "The camera in the intake detects notes",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AprilTag camera",
+      "solves": [
+        {
+          "text": "Set the shot angle for where the robot is",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "position"
+      ],
+      "type": "front AprilTag camera that sets the shoulder angle",
+      "serves": [
+        "speaker"
+      ],
+      "facts": [
+        {
+          "text": "The shoulder snaps to an angle based on the robot's position relative to the tag",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wiring",
+      "solves": [
+        {
+          "text": "Faster communication to critical motors and a more reliable electrical system",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "daisy chain plus CANivore loop",
+      "serves": [],
+      "facts": [
+        {
+          "text": "All critical motors are on a CANivore loop that ends with a terminating resistor",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "3D printed caps and custom connector shields improve reliability",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Climb hook that pulls nearly to the belly pan",
+      "because": "the page written before its first event says it lifts the robot high enough to score in the trap without tipping",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "Critical motors on a CANivore loop",
+      "because": "it is a faster CAN system than the standard daisy chain",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Kronos | FRC 2590",
+        "url": "https://frc2590.org/robots/kronos/",
+        "format": "web page",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "Robots | FRC 2590",
+        "url": "https://frc2590.org/robots",
+        "format": "web page",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "Nemesis 2590 Flickr sets",
+        "url": "https://www.flickr.com/photos/frc2590/sets/",
+        "format": "photos",
+        "state": "listed",
+        "src": "s6"
+      },
+      {
+        "what": "Full robot on the field, climbing hooks raised",
+        "url": "https://imgur.com/atunxJ9",
+        "img": "https://i.imgur.com/atunxJ9h.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s7",
+        "kind": "robot-photo",
+        "hero": true
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "2590 Nemesis FRC2024-Robot-Code (Kronos)",
+        "url": "https://github.com/Team2590/FRC2024-Robot-Code",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s4"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "team robot page (written before its first event, photo not read); week 1 journal; season recap, which does not describe the robot",
+    "binders: Chief Delphi searches for 2590 binder (none) and 2590 in titles, 23 team-site pages"
+  ],
+  "results": {
+    "division": "Curie",
+    "division_opr": 54.44,
+    "opr_rank": 13,
+    "record": "46-21-0",
+    "einstein": {
+      "division": "Curie",
+      "role": "captain"
+    },
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

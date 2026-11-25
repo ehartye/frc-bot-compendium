@@ -1,0 +1,736 @@
+{
+  "id": "2024-3005",
+  "season": 2024,
+  "team": "3005",
+  "team_name": "RoboChargers",
+  "robot_name": "Surge",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 3005 in 2024",
+      "url": "https://www.thebluealliance.com/team/3005/2024",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Galileo Division 2024",
+      "url": "https://www.thebluealliance.com/event/2024gal",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "3005 RoboChargers - High Fidelity Block CAD",
+      "url": "https://www.chiefdelphi.com/t/3005-robochargers-high-fidelity-block-cad/470483",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "3005 Robochargers public CAD release 2024",
+      "url": "https://www.chiefdelphi.com/t/3005-robochargers-public-cad-release-2024/462933",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "3005 RoboChargers 2024: Surge",
+      "url": "https://www.chiefdelphi.com/t/3005-robochargers-2024-surge/456489",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "High Fidelity Block CAD slides (3005, FIRST Mentor Conference)",
+      "url": "https://docs.google.com/presentation/d/1xWj62HjiANdADNsP5ZN-zCswwD9ZUl7yibvG5EnrUBg/edit",
+      "publisher": "docs.google.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "3005 Crescendo-2024-Public",
+      "url": "https://github.com/FRC3005/Crescendo-2024-Public",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "RoboChargers SmugMug",
+      "url": "https://robochargers.smugmug.com/",
+      "publisher": "robochargers.smugmug.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "High Fidelity Block CAD (FIRST Mentor Conference presentation)",
+      "url": "https://www.youtube.com/watch?v=GBdY-TMNkeI",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/dDk5nyE",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "Onshape document",
+      "url": "https://cad.onshape.com/documents/f1c0c9ce2309b0be3a22a379/w/c8169ca8774f2b499875ab45/e/b1639093afdfd702347929f0",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "3005 RoboChargers Behind the Bumpers, FRC CRESCENDO, filmed at the championship (auto-caption read)",
+      "url": "https://www.youtube.com/watch?v=rmW-vyC5Gdo",
+      "publisher": "FUN Robotics Network (YouTube)",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "Did the 2 passing bots strategy just break the game? (thread)",
+      "url": "https://www.chiefdelphi.com/t/did-the-2-passing-bots-strategy-by-citrus-and-cheesy-just-broke-the-game/461687",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "outcome": [
+      {
+        "text": "59-10-0 in official play; ranked 1 of the pooled top 20 (OPR 64.03, Galileo).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "One item on the team's early season list was a quick climb that leaves partners room to harmonize. In matches the robot switches between scoring up close and passing, depending on whether its alliance has other effective scorers.",
+        "basis": "team",
+        "src": [
+          "s14"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The note enters the under-bumper intake from either side and stops on through-beam sensors. The pivot hands it to the launcher, and a lookup table gives angle and speed. Passes are tuned to land in the protected corner by the amp, where they are harder to steal.",
+        "basis": "team",
+        "src": [
+          "s14",
+          "s6"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "It climbs at the side of the stage to leave space for a partner. Moving a servo-driven part frees the climber to spring up, and a magnet keeps hook and chain together when the robot hits the chain.",
+        "basis": "team",
+        "src": [
+          "s14"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "At the Texas district championship, after a defender shut down the two partners feeding it and 118 had robot problems, a commenter says 3005 and 118 ran full-field cycles instead. Scores fell to the 90s from 120 or more, and they won their division. A later post cites a broken swerve pod on 6672 in finals two and three.",
+        "basis": "observer",
+        "src": [
+          "s15"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "Wheel life, for grip: the printed TPU wheels are changed every two matches, three at most, and a batch takes about 24 hours to print.",
+        "basis": "team",
+        "src": [
+          "s14"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "The launcher went through about 11 versions; two rollers above and below gave too little contact, so it has four and four. The magnet came after finding the hook was hard at an event. An aluminum plate with Teflon tape was added to cut friction on the note.",
+        "basis": "team",
+        "src": [
+          "s14"
+        ]
+      },
+      {
+        "text": "Leaving the battery out of block CAD made it harder to package.",
+        "basis": "team",
+        "src": [
+          "s11"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Swerve drive with TPU wheels",
+      "solves": [
+        {
+          "text": "Grip the carpet at once, where the stock version 2 wheels took time",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ],
+      "does": [
+        "drive"
+      ],
+      "type": "swerve with printed wheels",
+      "serves": [],
+      "facts": [
+        {
+          "text": "REV MAXSwerve modules with directly driven Vortex motors",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Unsigned reply in the reveal thread: EH4 speed gearing",
+          "basis": "observer",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Custom 3D-printed TPU wheels have small spikes that grip the carpet at once; they mount on printed Markforged hub caps",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Swapping a wheel takes less than",
+          "basis": "team",
+          "src": [
+            "s14"
+          ],
+          "value": 1,
+          "unit": "min"
+        },
+        {
+          "text": "Unsigned reply that reads as the team's: modules that have run for a while are taken off and kept as known-good spares",
+          "basis": "observer",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Wheels are changed every two matches, three at most",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Take a note in from either side of the robot",
+          "basis": "team",
+          "src": [
+            "s14",
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "under-the-bumper, double-sided intake",
+      "serves": [
+        "speaker",
+        "amp"
+      ],
+      "facts": [
+        {
+          "text": "Two through-beam sensors stop the intake when a note passes",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "The bumper is raised so the note goes in more easily",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "An aluminum plate with Teflon tape removes friction on the note",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "It is packed tightly around drivetrain parts, so its belts, plates and mounting blocks were all in block CAD",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pivot",
+      "pieces": [
+        "note"
+      ],
+      "does": [
+        "transfer",
+        "position"
+      ],
+      "type": "pivot that takes the note from the intake",
+      "serves": [
+        "speaker",
+        "amp"
+      ],
+      "facts": [
+        {
+          "text": "Keeps vertical compression on the note as it goes into the launcher",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "A turnbuckle pivots the assembly to change chain tension",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Unsigned reply that reads as the team's: surgical tubing counterbalances the launcher",
+          "basis": "observer",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Launcher",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Get enough contact with a flexible ring to launch it at the needed speed and direction",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "pivoting launcher with eight rollers",
+      "serves": [
+        "speaker"
+      ],
+      "facts": [
+        {
+          "text": "Eight rollers of about 3 in, four above and four below; buildup rollers bring the note up to speed first",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Unsigned reply that reads as the team's: four Vortex motors have no mechanical linkage between the four corners",
+          "basis": "observer",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Unsigned reply that reads as the team's: a speed difference between the two sides puts spin on the note, which it says four motors are not needed for",
+          "basis": "observer",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Unsigned reply that reads as the team's: velocity stayed within about 1% of the setpoint, from about 1900 to 5100 RPM",
+          "basis": "observer",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "A lookup table of field positions gives angle and speed and fills in between points",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "About 11 versions",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Diverter",
+      "pieces": [
+        "note"
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "diverter on the launcher",
+      "serves": [
+        "amp",
+        "speaker"
+      ],
+      "facts": [
+        {
+          "text": "Lets the pivoting launcher make both amp and speaker shots",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The team got stuck on the amp for a long time, which delayed its design process",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Climb quickly and leave room for a partner",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "single telescoping climber with constant-force springs",
+      "serves": [
+        "onstage"
+      ],
+      "facts": [
+        {
+          "text": "Springs are held down until a servo moves a printed part that locks the gear; a NEO speeds it up",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "A string reels the hook back in after the match",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Unsigned reply that reads as the team's: a long part keeps notes from getting stuck on the climber",
+          "basis": "observer",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Field odometry",
+      "does": [
+        "sense"
+      ],
+      "type": "AprilTag vision fused with odometry",
+      "serves": [],
+      "facts": [
+        {
+          "text": "When the camera sees AprilTags it corrects the wheel odometry, so the robot knows its position anywhere and can pass accurately",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SRPP plates",
+      "does": [
+        "structure"
+      ],
+      "type": "self-reinforced polypropylene",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Two kinds of polypropylene woven together",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Unsigned reply that reads as the team's: it gives little to no accuracy benefit over polycarbonate",
+          "basis": "observer",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Laser cutting it lets the team run the laser and the gantry mill at the same time",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "SRPP plates",
+      "because": "compared with polycarbonate it is less dense and stronger in tension; it is also Loctite resistant and laser cuttable",
+      "basis": "team",
+      "src": [
+        "s14"
+      ]
+    },
+    {
+      "choice": "Four Vortex motors on the launcher",
+      "because": "with no extra shafts or gears they save space and weight and waste no energy",
+      "basis": "team",
+      "src": [
+        "s14"
+      ]
+    },
+    {
+      "choice": "Printed TPU wheels",
+      "because": "their spikes grip at once",
+      "instead_of": "stock version 2 wheels",
+      "cost": "they run down and are changed every two matches",
+      "basis": "team",
+      "src": [
+        "s14"
+      ]
+    },
+    {
+      "choice": "Climb at the side of the stage",
+      "because": "the team wanted to be friendly to partners who harmonize",
+      "basis": "team",
+      "src": [
+        "s14"
+      ]
+    },
+    {
+      "choice": "Simplified block CAD for the launcher",
+      "because": "it stuck out into open space, so only overall size and wheel positions mattered",
+      "basis": "team",
+      "src": [
+        "s11"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "Comp Robot",
+        "url": "https://cad.onshape.com/documents/f1c0c9ce2309b0be3a22a379/w/c8169ca8774f2b499875ab45/e/b1639093afdfd702347929f0",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "CAD listed on the team page",
+        "url": "https://cad.onshape.com/documents/f1c0c9ce2309b0be3a22a379/w/c8169ca8774f2b499875ab45",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "3005 RoboChargers - High Fidelity Block CAD",
+        "url": "https://www.chiefdelphi.com/t/3005-robochargers-high-fidelity-block-cad/470483",
+        "format": "thread",
+        "state": "listed",
+        "src": "s4",
+        "holds": "Onshape"
+      },
+      {
+        "what": "3005 Robochargers public CAD release 2024",
+        "url": "https://www.chiefdelphi.com/t/3005-robochargers-public-cad-release-2024/462933",
+        "format": "thread",
+        "state": "opened",
+        "src": "s5",
+        "holds": "Onshape"
+      },
+      {
+        "what": "Block CAD of Surge",
+        "url": "https://cad.onshape.com/documents/cd9a03c642cd9b7cc0651b62/w/4f65d328e8a62edf40f89dc1/e/6ee982c539d652ac6243ba60",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s5"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=8Q35zErAfHI",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=rmW-vyC5Gdo",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "3005 RoboChargers 2024: Surge",
+        "url": "https://www.chiefdelphi.com/t/3005-robochargers-2024-surge/456489",
+        "format": "thread",
+        "state": "listed",
+        "src": "s6"
+      },
+      {
+        "what": "RoboChargers SmugMug",
+        "url": "https://robochargers.smugmug.com/",
+        "format": "web page",
+        "state": "listed",
+        "src": "s10"
+      },
+      {
+        "what": "High Fidelity Block CAD (conference talk by 3005)",
+        "url": "https://www.youtube.com/watch?v=GBdY-TMNkeI",
+        "format": "video",
+        "state": "listed",
+        "src": "s11"
+      },
+      {
+        "what": "Full robot with blue bumpers, shooter pivoted up",
+        "url": "https://imgur.com/dDk5nyE",
+        "img": "https://i.imgur.com/dDk5nyEh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s12",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Full robot CAD, shooter pivoted up",
+        "url": "https://cad.onshape.com/documents/f1c0c9ce2309b0be3a22a379/w/c8169ca8774f2b499875ab45/e/b1639093afdfd702347929f0",
+        "img": "https://cad.onshape.com/api/thumbnails/d/f1c0c9ce2309b0be3a22a379/w/c8169ca8774f2b499875ab45/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s13",
+        "kind": "cad"
+      },
+      {
+        "what": "Robot hanging from a chain on a wooden practice stage",
+        "url": "https://www.chiefdelphi.com/t/3005-robochargers-2024-surge/456489",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/4/d/4d4ee879579f998f66e6727d4ba602185c79603f_2_690x461.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s6",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Robot CAD, pivot chain and tensioner highlighted",
+        "url": "https://www.chiefdelphi.com/t/3005-robochargers-public-cad-release-2024/462933",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/8/3/83858496a1137e1833fe57bb63a663ef4aafd798_2_576x499.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s5",
+        "kind": "cad"
+      },
+      {
+        "what": "Robot CAD, upper plate and bracket highlighted",
+        "url": "https://www.chiefdelphi.com/t/3005-robochargers-public-cad-release-2024/462933",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/7/9/79c3630a3e6aa39f573e9fb629f6ba25db5e7fcf_2_690x443.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s5",
+        "kind": "cad"
+      },
+      {
+        "what": "Full robot CAD, shooter parts highlighted",
+        "url": "https://www.chiefdelphi.com/t/3005-robochargers-public-cad-release-2024/462933",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/9/6/96576a15f47039bfdc3ffcb6d43337ecd6c825d9_2_411x330.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s5",
+        "kind": "cad"
+      }
+    ],
+    "documents": [
+      {
+        "what": "High Fidelity Block CAD slides (3005, FIRST Mentor Conference)",
+        "url": "https://docs.google.com/presentation/d/1xWj62HjiANdADNsP5ZN-zCswwD9ZUl7yibvG5EnrUBg/edit",
+        "format": "Google Slides",
+        "state": "listed",
+        "src": "s8"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/frc3005",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "3005 Crescendo-2024-Public",
+        "url": "https://github.com/FRC3005/Crescendo-2024-Public",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s9"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: Chief Delphi \"3005 binder\" and \"RoboChargers binder\", a title search, one web search and 29 pages of the team site"
+  ],
+  "results": {
+    "division": "Galileo",
+    "division_opr": 64.03,
+    "opr_rank": 1,
+    "record": "59-10-0",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

@@ -1,0 +1,558 @@
+{
+  "id": "2023-3005",
+  "season": 2023,
+  "team": "3005",
+  "team_name": "RoboChargers",
+  "robot_name": "AMP",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 3005 in 2023",
+      "url": "https://www.thebluealliance.com/team/3005/2023",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Galileo Division 2023",
+      "url": "https://www.thebluealliance.com/event/2023gal",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "3005 RoboChargers CAD Release 2023",
+      "url": "https://www.chiefdelphi.com/t/3005-robochargers-cad-release-2023/434083",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Resources – RoboChargers",
+      "url": "https://robochargers.io/educational-resources/",
+      "publisher": "robochargers.io",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "3005 RoboChargers 2023: AMP",
+      "url": "https://www.chiefdelphi.com/t/3005-robochargers-2023-amp/428495",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "3005 Charged-Up-2023-Public",
+      "url": "https://github.com/FRC3005/Charged-Up-2023-Public",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "RoboChargers SmugMug",
+      "url": "https://robochargers.smugmug.com/",
+      "publisher": "robochargers.smugmug.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Onshape document",
+      "url": "https://cad.onshape.com/documents/230339548ba1828471e00cef/w/7608c62ea34bc84ee4acccd6/e/6a002e572ec5e1812bae3918?renderMode=0&uiState=6436b79f99bcb7580ba64f8e",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Behind the Bumpers: 3005 RoboChargers, FiT Dallas (auto-caption read)",
+      "url": "https://www.youtube.com/watch?v=_k9of7qRoeY",
+      "publisher": "FUN Robotics Network (YouTube)",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "High Fidelity Block CAD, FIRST Mentor Conference talk (auto-caption read)",
+      "url": "https://www.youtube.com/watch?v=GBdY-TMNkeI",
+      "publisher": "FRC3005 RoboChargers (YouTube)",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "outcome": [
+      {
+        "text": "58-12-0 in official play; ranked 13 of the pooled top 20 (OPR 73.73, Galileo).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "bet": [],
+    "demand": [
+      {
+        "text": "After kickoff the team set goals: be very light and fast, pick up a cone in any orientation, and score high and mid. Cones came first, because the team thought other teams might not pick them up as efficiently.",
+        "basis": "team",
+        "src": [
+          "s11"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "Lights show the human player which piece to hand out, and the same change switches the intake mode. The telescoping arm picks up pieces standing or lying flat, cones from the front or the back, and scores high and mid.",
+        "basis": "team",
+        "src": [
+          "s11"
+        ]
+      }
+    ],
+    "endgame": [],
+    "changed": [
+      {
+        "text": "By the Dallas event the cone intake was on its 11th version and the cube intake on its fourth. After the first gripper version the team stopped using block CAD for it and modeled changes directly. It kept improving the robot between events.",
+        "basis": "team",
+        "src": [
+          "s11",
+          "s13",
+          "s5"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Swerve drive",
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "REV MAXSwerve modules, which the team says were inspired by its own custom modules of the year before",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pivoting telescoping arm",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Reach the mid and high rows with something lighter, and believed faster, than an elevator",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "pivoting telescoping arm",
+      "serves": [
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Range of motion, about",
+          "basis": "team",
+          "src": [
+            "s11"
+          ],
+          "value": 180,
+          "unit": "deg"
+        },
+        {
+          "text": "Picks up cones from the front and the back",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "A hole pattern in the belt tensioner changes tension in small steps; it was set once and left",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Unsigned reply that reads as the team's: two turnbuckles tension the pivot chain by turning the whole gearbox about the round cross tube at the tower base",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Unsigned reply that reads as the team's: the gearbox mount is a slip fit on that tube, with collars to hold it along the tube",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Unsigned reply that reads as the team's: the arm's speed puts a lot of force in the chain, so its tension would need tweaking",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake and wrist",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Take any piece from the floor in any orientation",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "retain",
+        "position"
+      ],
+      "type": "rotating wrist with separate cone and cube intakes",
+      "serves": [
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Range of motion, about",
+          "basis": "team",
+          "src": [
+            "s11"
+          ],
+          "value": 360,
+          "unit": "deg"
+        },
+        {
+          "text": "Turning the wrist lets it take cones that are standing up as well as on their side",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Eleven cone versions and four cube versions by the first event, with most effort on cones",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "A-frame and cables",
+      "solves": [
+        {
+          "text": "Stop the robot wobbling as it drives, at low weight",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "A-frame braced by tension cables",
+      "serves": [],
+      "facts": [
+        {
+          "text": "The A-frame sits slightly off center from the base for balance",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Whole robot without ballast, in an unsigned reply that reads as the team's, about",
+          "basis": "observer",
+          "src": [
+            "s6"
+          ],
+          "value": 60,
+          "unit": "lb"
+        },
+        {
+          "text": "Whole robot with ballast at that time, in the same reply",
+          "basis": "observer",
+          "src": [
+            "s6"
+          ],
+          "value": 81.8,
+          "unit": "lb"
+        },
+        {
+          "text": "Unsigned reply that reads as the team's: printed parts are almost all PLA or PLA+; a few are Markforged Onyx where it matters, such as the cable-chain support on the telescope",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cable carrier",
+      "solves": [
+        {
+          "text": "Unsigned reply that reads as the team's: carry wires into a sheath and back without a spring",
+          "basis": "observer",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "bent thin polycarbonate strip",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Unsigned reply that reads as the team's: a bend down the length makes the strip rigid when straight and flexible once bent",
+          "basis": "observer",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Unsigned reply that reads as the team's: no spring pushes it into its sheath, and the bend keeps it from bending the wrong way",
+          "basis": "observer",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Unsigned reply that reads as the team's: holes in the strip are only for zip ties, and the method is credited to 971",
+          "basis": "observer",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bumper mounts",
+      "does": [
+        "structure"
+      ],
+      "type": "slide-snap latches",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Unsigned reply that reads as the team's: Slide-Snap latches, part 1872A111, with bushings drilled out for #10-32 bolts at the frame and M3 at the bumper",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Pivoting telescoping arm",
+      "because": "it was lighter and the team believed it would be faster",
+      "instead_of": "a slanted elevator with an extending arm",
+      "basis": "team",
+      "src": [
+        "s11"
+      ]
+    },
+    {
+      "choice": "Arm gearbox pivots on a structural cross tube",
+      "because": "unsigned replies that read as the team's say the tube was wanted anyway, the chain needs retensioning, and rotation keeps shafts parallel with fewer, simpler parts",
+      "instead_of": "a rigid mount or a linear adjuster",
+      "basis": "observer",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "Bracing cables on the A-frame",
+      "because": "they kept the robot light and fast, a main team goal",
+      "basis": "team",
+      "src": [
+        "s11"
+      ]
+    },
+    {
+      "choice": "Most intake effort on cones",
+      "because": "the team thought other teams might not pick them up as efficiently",
+      "basis": "team",
+      "src": [
+        "s11"
+      ]
+    },
+    {
+      "choice": "A short list of bolt sizes",
+      "because": "it is easier for the pit crew, says an unsigned reply that reads as the team's",
+      "instead_of": "smaller bolts that would fit the latches",
+      "basis": "observer",
+      "src": [
+        "s4"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "Comp Robot",
+        "url": "https://cad.onshape.com/documents/230339548ba1828471e00cef/w/7608c62ea34bc84ee4acccd6/e/6a002e572ec5e1812bae3918?renderMode=0&uiState=6436b79f99bcb7580ba64f8e",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "CAD listed on the team page",
+        "url": "https://cad.onshape.com/documents/230339548ba1828471e00cef/w/7608c62ea34bc84ee4acccd6",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "3005 RoboChargers CAD Release 2023",
+        "url": "https://www.chiefdelphi.com/t/3005-robochargers-cad-release-2023/434083",
+        "format": "thread",
+        "state": "opened",
+        "src": "s4",
+        "holds": "Onshape"
+      },
+      {
+        "what": "Resources – RoboChargers",
+        "url": "https://robochargers.io/educational-resources/",
+        "format": "web page",
+        "state": "listed",
+        "src": "s5",
+        "holds": "Onshape"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=63VciN6goR8",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=_k9of7qRoeY",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/gIbmEhp",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "3005 RoboChargers 2023: AMP",
+        "url": "https://www.chiefdelphi.com/t/3005-robochargers-2023-amp/428495",
+        "format": "thread",
+        "state": "listed",
+        "src": "s6"
+      },
+      {
+        "what": "RoboChargers SmugMug",
+        "url": "https://robochargers.smugmug.com/",
+        "format": "web page",
+        "state": "listed",
+        "src": "s9"
+      },
+      {
+        "what": "Full robot CAD with red bumpers, arm extended",
+        "url": "https://cad.onshape.com/documents/230339548ba1828471e00cef/w/7608c62ea34bc84ee4acccd6/e/6a002e572ec5e1812bae3918?renderMode=0&uiState=6436b79f99bcb7580ba64f8e",
+        "img": "https://cad.onshape.com/api/thumbnails/d/230339548ba1828471e00cef/w/7608c62ea34bc84ee4acccd6/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s10",
+        "kind": "cad"
+      },
+      {
+        "what": "Full robot CAD with red bumpers, arm folded down",
+        "url": "https://robochargers.io/educational-resources/",
+        "img": "https://robochargers.io/wp-content/uploads/2023/04/robot-cad-2048x1426.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s5",
+        "kind": "cad",
+        "hero": true
+      },
+      {
+        "what": "Wiring run inside clear plastic guides, close-up",
+        "url": "https://www.chiefdelphi.com/t/3005-robochargers-2023-amp/428495",
+        "img": "https://www.chiefdelphi.com/uploads/default/original/3X/9/1/91cf9f2235714dca1430c1852192470d7a503ccd.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s6",
+        "kind": "mechanism"
+      },
+      {
+        "what": "CAD close-up of the base electronics and wheel bracket",
+        "url": "https://www.chiefdelphi.com/t/3005-robochargers-cad-release-2023/434083",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/9/4/94d86ae25271d48cc01b1799ec3a612907af3163_2_517x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/frc3005",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "3005 Charged-Up-2023-Public",
+        "url": "https://github.com/FRC3005/Charged-Up-2023-Public",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s8"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: Chief Delphi \"3005 binder\" and \"RoboChargers binder\", a title search, one web search and 29 pages of the team site"
+  ],
+  "results": {
+    "division": "Galileo",
+    "division_opr": 73.73,
+    "opr_rank": 13,
+    "record": "58-12-0",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

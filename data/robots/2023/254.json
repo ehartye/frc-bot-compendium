@@ -1,0 +1,934 @@
+{
+  "id": "2023-254",
+  "season": 2023,
+  "team": "254",
+  "team_name": "The Cheesy Poofs",
+  "robot_name": "BREAKDOWN",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 254 Presents: 2023 BREAKDOWN - Technical Binder, Code, Q&A",
+      "url": "https://www.chiefdelphi.com/t/443167",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Team 254 in 2023",
+      "url": "https://www.thebluealliance.com/team/254/2023",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "Archimedes Division 2023",
+      "url": "https://www.thebluealliance.com/event/2023arc",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "2023 CHARGED UP",
+      "url": "https://www.team254.com/frc/2023/",
+      "publisher": "team254.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Team 254 Presents: Breakdown",
+      "url": "https://www.chiefdelphi.com/t/team-254-presents-breakdown/431344",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Team 254 Presents: 2023 BREAKDOWN - Technical Binder, Code, Q&A (post 56)",
+      "url": "https://www.chiefdelphi.com/t/team-254-presents-2023-breakdown-technical-binder-code-q-a/443167/56",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Team 254 Presents: 2023 BREAKDOWN - Technical Binder, Code, Q&A (first page)",
+      "url": "https://www.chiefdelphi.com/t/team-254-presents-2023-breakdown-technical-binder-code-q-a/443167",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Page with pictures of this robot",
+      "url": "https://www.chiefdelphi.com/t/progression-of-cad/440533",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Team 254 2023 Technical Binder",
+      "url": "https://media.team254.com/2023/10/90bc07c6-2023-Tech-Binder-V6.pdf",
+      "publisher": "Team 254",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Team 254 Presents: 2023 BREAKDOWN - Technical Binder, Code, Q&A (post 31)",
+      "url": "https://www.chiefdelphi.com/t/team-254-presents-2023-breakdown-technical-binder-code-q-a/443167/31",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Behind the Bumpers | 254 The Cheesy Poofs | + Bonus Pit Tour | Charged Up (filmed at Chezy Champs)",
+      "url": "https://www.youtube.com/watch?v=D_-aiikeOH8",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "\"Touch it, own it\": take a piece the moment the robot touches it, bouncing off the substation wall without slowing down.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "Qualification goals: balance the charge station in auto with the preload and one object, score 3 to 4 links alone, and leave partners room to balance. Playoff goals: preload plus two objects in auto, short cycles, always moving to the next object, and speed to avoid defenders.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "At the off-season Chezy Champs the team listed autos on both sides and over the bridge. The bump-side auto scores a high cone, a high cube and a mid cube; the bridge auto takes two pieces and balances using the gyro.",
+        "basis": "team",
+        "src": [
+          "s11"
+        ]
+      },
+      {
+        "text": "A reply that reads as the team's says the elevator starts midway up for a faster first placement.",
+        "basis": "observer",
+        "src": [
+          "s7"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "Slam the double substation with the Laterator in its \"springy\" mode; the claw's arms latch on and a sensor reports the piece.",
+        "basis": "team",
+        "src": [
+          "s9",
+          "s11"
+        ]
+      },
+      {
+        "text": "A reply that reads as the team's describes the score as a dunk: the elevator drops fast onto the pole and rises again while the rollers run backwards.",
+        "basis": "observer",
+        "src": [
+          "s10"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "Climb last, to fit one more cycle. The Forks swing down beneath partners and raise the robot beside the bridge.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "Sideways cones on the ground were left out as mechanically difficult and, at high levels of play, unnecessary.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      },
+      {
+        "text": "A reply that reads as the team's says intaking and scoring on one side made autonomous much harder than expected, and that extra driving time was accepted for a cycle the driver could repeat.",
+        "basis": "observer",
+        "src": [
+          "s7"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "The front frame rail kept bending and became solid aluminum, the elevator was stiffened after uprights twisted and welds broke, a ground intake joined a robot first planned without one, and aluminum tubes went inside the Laterator's carbon tubes.",
+        "basis": "team",
+        "src": [
+          "s11",
+          "s6"
+        ]
+      },
+      {
+        "text": "A reply that reads as the team's adds that the Articulating Roller Claw replaced the Pinchy Claw after about a month.",
+        "basis": "observer",
+        "src": [
+          "s10"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "36-5-0 in official play; ranked 7 of the pooled top 20 (OPR 76.04, Archimedes).",
+        "basis": "record",
+        "src": [
+          "s2",
+          "s3"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drivebase",
+      "solves": [
+        {
+          "text": "Drive fast, avoid defense and resist tipping",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "does": [
+        "drive",
+        "structure"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "SDS MK4i modules with Falcon 500s for drive and steering",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Drive speed",
+          "basis": "team",
+          "src": [
+            "s9"
+          ],
+          "value": 18,
+          "unit": "ft/s"
+        },
+        {
+          "text": "The binder gives a 26 in square frame; the interview caption says 26.5 in, smaller than usual to save weight and go faster",
+          "basis": "team",
+          "src": [
+            "s9",
+            "s11"
+          ]
+        },
+        {
+          "text": "Two steel bellypans lower the center of gravity; each weighs",
+          "basis": "team",
+          "src": [
+            "s9"
+          ],
+          "value": 15.5,
+          "unit": "lb"
+        },
+        {
+          "text": "A chamfered steel edge plate and wedges over the wheels help it cross the bridge and the bump",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Floor Intake",
+      "pieces": [
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Pull cubes from the floor into the Roller Claw instead of letting pieces bounce off it",
+          "basis": "team",
+          "src": [
+            "s9",
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "linear rack-and-pinion roller intake",
+      "serves": [
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "One Falcon 500 drives the roller and another extends the intake by a rack milled into one of two stacked polycarbonate plates",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "It slides on Teflon and 3D printed blocks instead of bearings, to save weight",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "A reply that reads as the team's says the sliding blocks were inspired by Team 125's early reveal",
+          "basis": "observer",
+          "src": [
+            "s7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Articulating Roller Claw",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Take and firmly hold upright cones and any cubes with one mechanism",
+          "basis": "team",
+          "src": [
+            "s9",
+            "s11"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "A reply that reads as the team's lists complexity and weight as its downsides, both cut down by the time it went on the robot, and says that in cold weather one roller could articulate while the other stayed still, until better springs and warmer weather",
+          "basis": "observer",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "retain",
+        "deliver"
+      ],
+      "type": "articulating roller claw for both pieces",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Arms flip back to make space for a cube, or go over-center to grip a cone at 3 points",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Flex wheels center pieces and hold cubes; a Fairlane roller grips cones",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Mounted below horizontal by",
+          "basis": "team",
+          "src": [
+            "s9"
+          ],
+          "value": 16,
+          "unit": "deg"
+        },
+        {
+          "text": "One Falcon 500 powers the wheels, and a retroreflective sensor triggers when a piece is acquired",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "A reply that reads as the team's says it took cones without direct alignment, at almost any height, and at very high speed from the double substation",
+          "basis": "observer",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elevator",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Set the height of the Laterator and Forks so the robot can score at every Grid level",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "In testing it twisted easily, some A-frames bent and welds broke",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "one-stage belt-driven vertical elevator",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Full range of motion",
+          "basis": "team",
+          "src": [
+            "s9"
+          ],
+          "value": 41.5,
+          "unit": "in"
+        },
+        {
+          "text": "Time for full range",
+          "basis": "team",
+          "src": [
+            "s9"
+          ],
+          "value": 0.4,
+          "unit": "s"
+        },
+        {
+          "text": "One Falcon 500 through a 4.64:1 gearbox",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Crossbars and an A-frame stiffen the uprights against twist and impacts",
+          "basis": "team",
+          "src": [
+            "s9",
+            "s11"
+          ]
+        },
+        {
+          "text": "The team says it has no counterbalance and holds at about 16 A all match",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Laterator",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Give enough reach and height to score the furthest pieces, and take the hit when the robot slams the substation",
+          "basis": "team",
+          "src": [
+            "s9",
+            "s11"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The team calls it the most iterated subsystem of the season: the practice robot's carbon tubes broke on a peg, and bolt holes wore and cracked; with aluminum tubes added inside, it still ran when tubes slightly cracked. It suggests no holes, thicker tube and more bushing contact area next time",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "three-stage cascade lateral elevator",
+      "serves": [
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Tilted up",
+          "basis": "team",
+          "src": [
+            "s9"
+          ],
+          "value": 15,
+          "unit": "deg"
+        },
+        {
+          "text": "Total range of motion",
+          "basis": "team",
+          "src": [
+            "s9"
+          ],
+          "value": 49.875,
+          "unit": "in"
+        },
+        {
+          "text": "Carbon fiber tubes and plates for stiffness and low weight; PEEK rollers on dowel pins instead of heavier steel bearings",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "A \"springy\" mode at the Substation reduces the impact of collisions",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Cascade rigged so that all stages extend at once",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Forks",
+      "solves": [
+        {
+          "text": "Let the robot hang beside the bridge so the alliance balances quickly",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "A reply that reads as the team's says they found less use by the championship and Chezy Champs, because most drivers could triple balance fast; they stayed on for Chezy because they did no harm and added rear weight against tipping",
+          "basis": "observer",
+          "src": [
+            "s7"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "pivoting carbon fiber lift forks",
+      "serves": [
+        "charge-station"
+      ],
+      "facts": [
+        {
+          "text": "Carriage travel",
+          "basis": "team",
+          "src": [
+            "s9"
+          ],
+          "value": 6.75,
+          "unit": "in"
+        },
+        {
+          "text": "Time for the travel",
+          "basis": "team",
+          "src": [
+            "s9"
+          ],
+          "value": 1,
+          "unit": "s"
+        },
+        {
+          "text": "One Falcon 500 through 14.6:1 pulls Dyneema; surgical tubing raises the carriage to deploy",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Superstructure state machine",
+      "solves": [
+        {
+          "text": "Move the Elevator and Laterator together quickly without collisions",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "coordinated state machine",
+      "serves": [],
+      "facts": [
+        {
+          "text": "It generates intermediate states from the current and previous goal, and passes through them faster when less precision is needed",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "A heading controller snaps the robot to desired directions while driving",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Hall effect sensors serve the Elevator and Forks, and one zeroes the Laterator",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Autonomous path following",
+      "solves": [
+        {
+          "text": "Follow autonomous paths without wheel slip",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "spline trajectories with Pure Pursuit",
+      "serves": [
+        "mobility",
+        "charge-station"
+      ],
+      "facts": [
+        {
+          "text": "Quintic Hermite splines are optimized for small changes in curvature",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Pure Pursuit follows them, with P controllers on translation and rotation error",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Localization",
+      "solves": [
+        {
+          "text": "Know the robot's position relative to the nearest AprilTag",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "Limelight AprilTag vision fused with odometry",
+      "serves": [],
+      "facts": [
+        {
+          "text": "A Limelight at the top of the Elevator is tilted down",
+          "basis": "team",
+          "src": [
+            "s9"
+          ],
+          "value": 40,
+          "unit": "deg"
+        },
+        {
+          "text": "A Kalman filter fuses vision with odometry; teleop uses a pinhole model for tag distance, and SolvePnP runs while disabled",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Slam the feeder station every cycle",
+      "because": "the team wanted a consistent, simple cycle the driver could repeat, with no chance of a human player mishandling a dropped cone (from a reply that reads as the team's)",
+      "cost": "extra driving time",
+      "basis": "observer",
+      "src": [
+        "s7"
+      ]
+    },
+    {
+      "choice": "Vertical elevator at the back, then a three-stage Laterator",
+      "because": "slamming the station needs an up-and-in pose, and the Laterator's tilt adds height for high cones (from a reply that reads as the team's)",
+      "instead_of": "an extended arm or angled elevator that has to sneak up on the station",
+      "basis": "observer",
+      "src": [
+        "s7"
+      ]
+    },
+    {
+      "choice": "Do not pick up sideways cones from the ground",
+      "because": "it is mechanically difficult, and at high levels of play cones are not loose on the ground",
+      "basis": "team",
+      "src": [
+        "s9"
+      ]
+    },
+    {
+      "choice": "Articulating Roller Claw",
+      "because": "it takes cones from a wider area and at different heights, and needs no beam break to capture (from a reply that reads as the team's)",
+      "instead_of": "the Pinchy Claw, whose thin scoop had durability problems and whose size ruled out a smooth floor intake deploy",
+      "cost": "complexity and weight, both cut down by the time it went on the robot",
+      "basis": "observer",
+      "src": [
+        "s10"
+      ]
+    },
+    {
+      "choice": "Drop the 2-Roller Floor Intake prototype",
+      "because": "it would have needed a full-width Laterator intake, and the team preferred one that keeps the piece position certain (from a reply that reads as the team's)",
+      "basis": "observer",
+      "src": [
+        "s10"
+      ]
+    },
+    {
+      "choice": "Cascade rigging on the Laterator",
+      "because": "all stages go out at once, which is faster",
+      "instead_of": "stages that extend one at a time",
+      "basis": "team",
+      "src": [
+        "s11"
+      ]
+    },
+    {
+      "choice": "Forks with a more vertical extension",
+      "because": "the tall elevator keeps the robot from making the full pivot of low robots",
+      "instead_of": "forks that tilt the whole robot up, as on Team 1678",
+      "basis": "team",
+      "src": [
+        "s11"
+      ]
+    },
+    {
+      "choice": "Solid aluminum front frame rail",
+      "because": "slamming the substation bent thinner rails, which had to be replaced constantly",
+      "cost": "weight, placed low at the front",
+      "basis": "team",
+      "src": [
+        "s11"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "The team says it does not publish CAD",
+        "format": "none",
+        "state": "withheld",
+        "src": "s1"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Behind the Bumpers video",
+        "url": "https://youtu.be/D_-aiikeOH8",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=D_-aiikeOH8",
+        "format": "video",
+        "state": "listed",
+        "src": "s2"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/8tYYbRz",
+        "format": "image",
+        "state": "listed",
+        "src": "s2"
+      },
+      {
+        "what": "Team 254 Presents: Breakdown",
+        "url": "https://www.chiefdelphi.com/t/team-254-presents-breakdown/431344",
+        "format": "thread",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "Bushings on pins at the corners of a plate, CAD",
+        "url": "https://www.chiefdelphi.com/t/team-254-presents-2023-breakdown-technical-binder-code-q-a/443167/56",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/b/3/b32a1e9b9c3aaeef449ba8aeebf67cd836ab32b5_2_690x269.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s6",
+        "kind": "cad"
+      },
+      {
+        "what": "Full robot with a tall blue elevator and extending arm",
+        "url": "https://www.chiefdelphi.com/t/team-254-presents-breakdown/431344",
+        "img": "https://media.team254.com/2023/03/8ee707a1-2023robot_1200_withswoosh.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s5",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Machined end cap with bushings on pins, CAD",
+        "url": "https://www.chiefdelphi.com/t/team-254-presents-2023-breakdown-technical-binder-code-q-a/443167/56",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/d/a/dae6ee87c9d8aa11d5aef548814893ca20a5a269_2_548x500.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s6",
+        "kind": "cad"
+      },
+      {
+        "what": "Elevator speed and gear ratio calculation sheet",
+        "url": "https://www.chiefdelphi.com/t/team-254-presents-2023-breakdown-technical-binder-code-q-a/443167",
+        "img": "https://www.chiefdelphi.com/uploads/default/original/3X/2/5/25d961add58ad632d892cd6dfede8a7c1d7543ab.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s7",
+        "kind": "diagram"
+      },
+      {
+        "what": "Side-view layout sketch, arm reaching over the scoring nodes",
+        "url": "https://www.chiefdelphi.com/t/progression-of-cad/440533",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/5/7/57d7de252b6e21005c4c610710c02648c1d7e1ff_2_517x368.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "drawing"
+      },
+      {
+        "what": "Linear mechanism speed and gear ratio calculation sheet",
+        "url": "https://www.chiefdelphi.com/t/team-254-presents-2023-breakdown-technical-binder-code-q-a/443167",
+        "img": "https://www.chiefdelphi.com/uploads/default/original/3X/4/b/4b43af7b723e683479a5ccc6244b724a36ba32e9.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s7",
+        "kind": "diagram"
+      },
+      {
+        "what": "Simplified robot CAD beside the charge station, cone on board",
+        "url": "https://www.chiefdelphi.com/t/progression-of-cad/440533",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/e/0/e0e9850f017d44f48f7be80509f55b54a95a29dc_2_517x320.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "cad"
+      },
+      {
+        "what": "Broken carbon fiber tube beside a belt, close-up",
+        "url": "https://www.chiefdelphi.com/t/team-254-presents-2023-breakdown-technical-binder-code-q-a/443167/56",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/8/3/8329b4ce4531bf4c674769748a91898d58f616bb_2_690x441.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s6",
+        "kind": "mechanism"
+      },
+      {
+        "what": "Carbon fiber tube with a worn bolt hole, close-up",
+        "url": "https://www.chiefdelphi.com/t/team-254-presents-2023-breakdown-technical-binder-code-q-a/443167/56",
+        "img": "https://www.chiefdelphi.com/uploads/default/original/3X/2/f/2f2c8bda11c1f7a2560f688d0868a3d5dbed1568.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s6",
+        "kind": "mechanism"
+      },
+      {
+        "what": "Match video linked by the team",
+        "url": "https://www.youtube.com/watch?v=PDmQtIqCUHs",
+        "format": "video",
+        "state": "listed",
+        "src": "s4"
+      }
+    ],
+    "documents": [
+      {
+        "what": "2023 technical binder",
+        "url": "https://media.team254.com/2023/10/90bc07c6-2023-Tech-Binder-V6.pdf",
+        "format": "PDF",
+        "state": "opened",
+        "src": "s1"
+      },
+      {
+        "what": "2023 CHARGED UP",
+        "url": "https://www.team254.com/frc/2023/",
+        "format": "web page",
+        "state": "listed",
+        "src": "s4"
+      }
+    ],
+    "code": [
+      {
+        "what": "FRC-2023-Public",
+        "url": "https://github.com/Team254/FRC-2023-Public",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/team254",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s2"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "2023 technical binder (OCR text; figures not read)",
+    "three captured pages of the binder thread (first page, posts 31 and 56)",
+    "reveal thread, season page and Behind the Bumpers interview"
+  ],
+  "results": {
+    "division": "Archimedes",
+    "division_opr": 76.04,
+    "opr_rank": 7,
+    "record": "36-5-0",
+    "einstein": null,
+    "src": [
+      "s2",
+      "s3"
+    ]
+  }
+}
