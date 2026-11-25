@@ -1,4 +1,4 @@
-// Flip bumpers, hide pictures whose host no longer serves them, and search design examples.
+// Flip bumpers, step through line-ups, hide pictures whose host no longer serves them, and search design examples.
 const root = document.documentElement;
 const flip = document.querySelector(".flip");
 function setAlliance(a) {
@@ -12,6 +12,21 @@ flip?.addEventListener("click", () => setAlliance(root.dataset.alliance === "red
 for (const img of document.querySelectorAll("img[data-hot]")) {
   const gone = () => { const f = img.closest("figure"); if (f && !f.classList.contains("keep")) f.classList.add("broken"); else img.remove(); };
   if (img.complete && !img.naturalWidth) gone(); else img.addEventListener("error", gone);
+}
+
+for (const lane of document.querySelectorAll(".lane")) {
+  const row = lane.querySelector(".lineup"), steps = lane.querySelector(".steps");
+  if (!row || !steps) continue;
+  const [back, on] = steps.children;
+  const calm = matchMedia("(prefers-reduced-motion: reduce)");
+  const show = () => { back.disabled = row.scrollLeft < 8; on.disabled = row.scrollLeft > row.scrollWidth - row.clientWidth - 8; };
+  const go = (d) => row.scrollBy({ left: d * row.clientWidth * .8, behavior: calm.matches ? "auto" : "smooth" });
+  back.addEventListener("click", () => go(-1));
+  on.addEventListener("click", () => go(1));
+  row.addEventListener("scroll", show, { passive: true });
+  addEventListener("resize", show);
+  steps.hidden = false;
+  show();
 }
 
 const form = document.querySelector(".finder");

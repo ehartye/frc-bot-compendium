@@ -38,7 +38,7 @@ def page(path, title, body, depth, season=None, desc=""):
     nav = "".join(f'<a href="{b}{y}/">{y}</a>' for y in SS)
     out = f"""<!doctype html>
 <html lang="en" data-alliance="red"{f' data-season="{season}"' if season else ''}>
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#2b2180">
 <title>{E(title)}</title><meta name="description" content="{E(desc)}"><link rel="stylesheet" href="{b}site.css">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect y='8' width='32' height='16' rx='5' fill='%23c3142d'/%3E%3C/svg%3E">
 <script>try{{document.documentElement.dataset.alliance=localStorage.getItem("alliance")||"red"}}catch{{}}</script></head>
@@ -111,11 +111,17 @@ def ranked(y):
     return sorted((r for r in RS.values() if r["season"] == y), key=lambda r: r["results"]["opr_rank"])
 
 
+def seat(r):
+    h, name = hero(r), r.get("robot_name") or r["team_name"]
+    img = f'<img data-hot loading="lazy" referrerpolicy="no-referrer" src="{E(h["img"])}" alt="">' if h else ""
+    return f'<a class="seat" href="{r["season"]}/{r["team"]}/" aria-label="{E(label(r))}{": " + E(r["robot_name"]) if r.get("robot_name") else ""}, {r["season"]}"><figure class="keep">{ART[r["season"]]}{img}</figure><span class="bumper">{r["team"]}</span><small>{E(name)}</small></a>'
+
+
 def home():
     lanes = ""
     for y, s in SS.items():
-        wall = "".join(f'<a class="bumper" href="{y}/{r["team"]}/" aria-label="{E(label(r))}, {y}">{r["team"]}<small>{E(r["team_name"])}{": " + E(r["robot_name"]) if r.get("robot_name") else ""}</small></a>' for r in ranked(y))
-        lanes += f'<section class="lane" data-season="{y}"><header><a href="{y}/">{ART[y]}<div><h2>{y} {s["name"].title()}</h2><span>Ranked 1 to 20</span></div></a></header><div class="wall">{wall}</div></section>'
+        wall = "".join(seat(r) for r in ranked(y))
+        lanes += f'<section class="lane" data-season="{y}"><header><a href="{y}/">{ART[y]}<div><h2>{y} {s["name"].title()}</h2><span>Ranked 1 to 20</span></div></a><div class="steps" hidden><button type="button" aria-label="Earlier {y} robots">←</button><button type="button" aria-label="More {y} robots">→</button></div></header><div class="lineup" tabindex="0" role="region" aria-label="{y} robots, ranked">{wall}</div></section>'
     opts = "".join(f'<option value="{f}">{f}</option>' for f in FUNCTIONS)
     ys = "".join(f'<option value="{y}">{y}</option>' for y in SS)
     n = sum(len(list(examples(r, SS[r["season"]]))) for r in RS.values())
@@ -130,7 +136,7 @@ def home():
 
 def card(r, base):
     h = hero(r)
-    pic = f'<figure class="pic keep" style="margin:0 .5rem -.5rem"><img data-hot loading="lazy" referrerpolicy="no-referrer" src="{E(h["img"])}" alt="{E(h["what"])}"></figure>' if h else f'<div class="pic">{ART[r["season"]]}</div>'
+    pic = f'<figure class="pic keep">{ART[r["season"]]}<img data-hot loading="lazy" referrerpolicy="no-referrer" src="{E(h["img"])}" alt="{E(h["what"])}"></figure>' if h else f'<div class="pic">{ART[r["season"]]}</div>'
     bet = (r["story"].get("bet") or [{}])[0].get("text", "")
     return f'<a class="card" href="{base}{r["season"]}/{r["team"]}/">{pic}<span class="bumper">{r["team"]}</span><strong>{E(r["team_name"])}{": " + E(r["robot_name"]) if r.get("robot_name") else ""}</strong><p>{E(bet)}</p><span class="have">{has(r)}</span></a>'
 
@@ -254,7 +260,7 @@ def about():
 <h2>How the 20 were chosen</h2><p>For each season, the OPR tables of the championship division pages (eight divisions, six in 2022) on The Blue Alliance are pooled, and the 20 highest are kept. We recomputed OPR from every division's qualification scores and it matched to two decimals in all 38 divisions. OPR credits partners' points to a robot, and teams that missed the championship cannot appear. The cut is close: the 20th and 21st robots differ by 0.03 in 2022, 0.01 in 2024 and 0.04 in 2026.</p>
 <h2>How to read a page</h2><p>A statement with only a source number is the team's own claim, not a measurement. Others are tagged. <span class="tag observer">observer says</span> is someone else. <span class="tag record">on record</span> comes from results or rules. <span class="tag inference">our reading</span> is our inference, with its sources.</p><p>For 2022, whole forum threads were read. For 2023 to 2026, threads were usually read for the first page plus a few single posts, so a correction further on can be missing. Each claim was checked against its source by a reader who did not write it.</p><p>Parts of the story with no source are listed once under "What isn't public", with where we looked. Not found does not mean it does not exist.</p>
 <h2>Pictures and files</h2><p>Pictures load from the sites where they were published and link back there. Each was looked at first, and pictures with recognizable faces were left out. If your team wants something changed or removed, say so and it will be.</p><p>CAD and files are links only. Fusion is marked only when the link is an Autodesk share link. "Not opened by us" means we saw the link on a page but did not open the file.</p>
-<h2>Fonts</h2><p>Sofia Sans Extra Condensed, Schibsted Grotesk and Martian Mono, under the SIL Open Font License 1.1.</p>"""
+<h2>Fonts</h2><p>Anybody, Hanken Grotesk, JetBrains Mono and Sofia Sans Extra Condensed, under the <a href="../fonts/OFL.txt">SIL Open Font License 1.1</a>.</p>"""
     page("about/index.html", "About - FRC bot compendium", body, 1, desc="How robots were chosen and how to read a page.")
     page("404.html", "Not found - FRC bot compendium", '<div class="lead"><h1>Wrong pit</h1><p>That page is not here. Start from the <a href="/frc-bot-compendium/">wall of bumpers</a>.</p></div>', 0)
 
