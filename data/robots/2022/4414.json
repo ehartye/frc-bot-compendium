@@ -3,7 +3,7 @@
   "season": 2022,
   "team": "4414",
   "team_name": "HighTide",
-  "robot_name": null,
+  "robot_name": "Cutback",
   "variant": null,
   "sources": {
     "s1": {
@@ -17,9 +17,209 @@
       "url": "https://www.thebluealliance.com/event/2022tur",
       "publisher": "The Blue Alliance",
       "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "Behind the Bumpers: 4414 HighTide, Rapid React",
+      "url": "https://www.youtube.com/watch?v=eaLhQbCd6_I",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "HighTide 2022 robot: Cutback (post 25)",
+      "url": "https://www.chiefdelphi.com/t/404398/25",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Behind the Bumpers: 4414 High Tide, World Finalists (post 11)",
+      "url": "https://www.chiefdelphi.com/t/410351/11",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Behind the Bumpers: 4414 High Tide, World Finalists (post 16)",
+      "url": "https://www.chiefdelphi.com/t/410351/16",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Behind the Bumpers: 4414 High Tide, World Finalists (post 15)",
+      "url": "https://www.chiefdelphi.com/t/410351/15",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "NAVFAC EXWC mentors youth-based robotics program, places 2nd in world championships",
+      "url": "https://www.navy.mil/Press-Office/Press-Releases/display-pressreleases/Article/3033829/navfac-exwc-mentors-youth-based-robotics-program-places-2nd-in-world-championsh/",
+      "publisher": "U.S. Navy",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "FRC Recap: Championship Divisions and Einstein, Rapid React",
+      "url": "https://www.youtube.com/watch?v=vKLxBkhyMwg",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Who had the fastest traversal climb in the world? (post 38)",
+      "url": "https://www.chiefdelphi.com/t/412515/38",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Traversal climb falls (post 26)",
+      "url": "https://www.chiefdelphi.com/t/404942/26",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Event winners without a traversal climber (post 9)",
+      "url": "https://www.chiefdelphi.com/t/408415/9",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "FRC 6328 2022 build thread (post 145)",
+      "url": "https://www.chiefdelphi.com/t/398645/145",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "Best intake system designs for Rapid React (post 7)",
+      "url": "https://www.chiefdelphi.com/t/438049/7",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
     }
   },
   "story": {
+    "bet": [
+      {
+        "text": "Shooting would dominate high-level play, so the climber ranked lower, and a 360 degree turret was planned to shoot from anywhere on the field.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "Scoring cargo first. The team wanted to traverse from the start, but lower on its list. Before the championship it theorized that a traversal climb would be of little use to a team shooting to the end, and it brought both a traversal and a high-rung option.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "In the first Einstein final it scored two, then picked up a blue cargo and rolled it under the red hangar side.",
+        "basis": "observer",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "A wide intake clamps bouncing balls from a halfway preset. Two sensed chambers hold one ball each; a wrong color is ejected by the shooter at low speed. Hood and wheel speeds follow the robot's position, and the turret leads when it moves.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      },
+      {
+        "text": "A recap counts about 23, 25 and 19 cargo in the Einstein finals.",
+        "basis": "observer",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "Two telescoping tubes on gas shocks pivot outside the frame to the next rung; the gyro tells when the swing is steadier. Traversal in about five seconds.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      },
+      {
+        "text": "A poster times one climb at eight seconds from entering the hangar.",
+        "basis": "observer",
+        "src": [
+          "s10"
+        ]
+      },
+      {
+        "text": "It missed traversal in its one round-robin loss.",
+        "basis": "observer",
+        "src": [
+          "s9"
+        ]
+      },
+      {
+        "text": "At Ventura, a post says, it used L3 climbs.",
+        "basis": "observer",
+        "src": [
+          "s12"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "A prototype high-rung climber, with a passive arm swung out by surgical tubing as the elevator lifts, takes about three seconds. It came to the championship as an alternative.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "The turret's cable chain is a lot of weight and space and took several printed versions. The team was on the fence about 2x2 rails until inset MK4i modules gave back the lost inch.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "The outer frame may not be a weight-efficient way to hold a turret, but saved it from countless faceplants.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      },
+      {
+        "text": "A post reports a fall at Ventura.",
+        "basis": "observer",
+        "src": [
+          "s11"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "Intake: pneumatic four-bar with 3 in flex wheels, then 4 in, then chain and sprocket, then a wrapped roller. Hood: linear servos, then a Falcon, for speed and range. The Limelight moved to the top.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      },
+      {
+        "text": "Accelerator wheels did more harm than good and went before the third event to save weight.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "The climber reached a third version.",
+        "basis": "team",
+        "src": [
+          "s7"
+        ]
+      }
+    ],
     "outcome": [
       {
         "text": "68-8-1 in official play; won the Turing division; pick 1 of the Turing alliance on Einstein; championship finalist; ranked 22 by championship OPR (55.95, Turing).",
@@ -31,8 +231,581 @@
       }
     ]
   },
-  "functions": [],
-  "decisions": [],
+  "functions": [
+    {
+      "name": "Drive frame",
+      "solves": [
+        {
+          "text": "Keep mounting modular and flexible",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "drive",
+        "structure"
+      ],
+      "type": "swerve on 2x2 rails",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Off-the-shelf SDS swerve modules, two Falcons and a CANcoder each",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Inset MK4i modules and notched tubes give back the inch lost to 2x2 rails",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Tube inserts in 2x2 rails give mounting versatility",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "solves": [
+        {
+          "text": "Collect balls quickly, including bouncing ones",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "chain-driven over-bumper roller intake",
+      "pieces": [
+        "cargo"
+      ],
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "A Falcon, chain and sprocket and a cross shaft move both sides",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "2.5 in thin-wall aluminum roller wrapped in anti-slip material",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Roller hubs are a light press into the tube with three bolts",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Mecanum wheels bias balls in from the side so two do not jam",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Bent polycarbonate flaps replaced an aluminum part",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "A halfway preset lets it clamp bouncing balls when they land",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Cordura-like bumper fabric replaced sail cloth the day before the first regional, because sail cloth was too slippery to pick up balls",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "A forum post praises its late-season intake for bouncing balls",
+          "basis": "observer",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hopper",
+      "solves": [
+        {
+          "text": "Know how many balls are held and of which color",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "transfer",
+        "retain",
+        "sense"
+      ],
+      "type": "two-chamber flex wheel ball path",
+      "pieces": [
+        "cargo"
+      ],
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "Flex wheels all the way up",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Two chambers, each with a banner sensor",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "A plate with a hole pattern lets sensors and parts move",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "A color sensor and field data reject the other alliance's ball through the shooter at lower RPM",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Accelerator wheels geared for about half the shooter's surface speed did more harm than good and were removed",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dead zone wheel",
+      "solves": [
+        {
+          "text": "Feed a ball past the gap under the turret",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "feed wheel in the turret",
+      "pieces": [
+        "cargo"
+      ],
+      "serves": [],
+      "facts": [
+        {
+          "text": "Its only job is to move the ball out of the turret's dead zone",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "The dead zone came from packaging double hood rollers with an 80 degree shot",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Turret",
+      "solves": [
+        {
+          "text": "Shoot from any angle when pinned to a wall or under defense",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "turret of just over 360 degrees",
+      "pieces": [
+        "cargo"
+      ],
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "Bearing stacks and a laser-cut gear rack",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "A little over 360 degrees, so the overlap avoids swinging back through a dead zone",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Third version of turret and shooter",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Bi-directional igus chain manages the wiring",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The cable chain is a lot of weight and space",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Motorized hood",
+      "solves": [
+        {
+          "text": "Reach far shots and shots right against the hub",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "Falcon-driven rack hood",
+      "pieces": [
+        "cargo"
+      ],
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "Falcon on a gearbox and a laser-cut rack",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "A member of another team reads it that the rack is the stationary part at the edge of the turret and the pinion moves",
+          "basis": "observer",
+          "src": [
+            "s13"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Position-based shooting",
+      "solves": [
+        {
+          "text": "Make it as easy as possible for the driver and shoot on the move",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "position"
+      ],
+      "type": "odometry corrected by Limelight",
+      "pieces": [
+        "cargo"
+      ],
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "Limelight distance corrects odometry drift",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Field position sets hood angle and the speeds of shooter and roller",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "The turret leads opposite to the robot's velocity when moving",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "The Limelight sits on top to see the hub even up against it",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Telescoping climber",
+      "solves": [
+        {
+          "text": "Traverse, on a robot that puts shooting first",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "dual telescoping tubes pivoting outside the frame",
+      "serves": [
+        "rung-traversal"
+      ],
+      "facts": [
+        {
+          "text": "Similar to 1678's climber",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "On gas shocks; the robot's weight pulls the tube out of the frame so the other bar can reach the next rung",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Traversal climb, about",
+          "basis": "team",
+          "src": [
+            "s3"
+          ],
+          "value": 5,
+          "unit": "s"
+        },
+        {
+          "text": "The gyro sees the swing, and the next arm goes up once it steadies",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "A plate holds the climber cantilevered from the back rail without an extra cross tube",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "It missed traversal in the only round-robin match its alliance lost",
+          "basis": "observer",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "High-rung climber",
+      "solves": [
+        {
+          "text": "Suit a team that shoots to the end of the match",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "passive swing-out arm on the elevator, prototype",
+      "serves": [
+        "rung-high"
+      ],
+      "facts": [
+        {
+          "text": "Surgical tubing swings the arm out when the elevator lifts; laser-cut hubs carry the torque",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Reaches the high rung in about",
+          "basis": "team",
+          "src": [
+            "s3"
+          ],
+          "value": 3,
+          "unit": "s"
+        }
+      ]
+    },
+    {
+      "name": "Outer box frame",
+      "does": [
+        "structure"
+      ],
+      "type": "external box frame",
+      "serves": [],
+      "facts": [
+        {
+          "text": "The only part not iterated between the second and third events; by the championship mainly a surface for the cable chain",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "It saved the turret from countless faceplants",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The team doubts it is the most weight-efficient way to hold a turret",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Drop pneumatics",
+      "because": "pistons added weight and complexity, and no other component needed them",
+      "instead_of": "a four-bar intake with pneumatic pistons, which worked well",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "A wrapped roller on the intake",
+      "because": "it is easy to wrap and replace, and flex wheels needed spacers and were a lot heavier",
+      "instead_of": "flex wheels",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "A turret of more than 360 degrees",
+      "because": "it can shoot from anywhere while pinned or defended, and the overlap avoids a dead zone",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "2x2 drive rails",
+      "because": "modular mounting keeps the design flexible",
+      "instead_of": "2x1 tube",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "Remove the accelerator wheels",
+      "because": "they did more harm than good, and removing them saved weight",
+      "instead_of": "an accelerator stage as on the 2020 robot",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "Drive the hood with a Falcon",
+      "because": "it is much faster and gives the range for far shots and shots against the hub",
+      "instead_of": "linear servos",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "Make 80 to 90 percent of the robot in-house",
+      "because": "constant iteration always needs new parts",
+      "instead_of": "outside manufacturing",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    }
+  ],
   "assets": {
     "cad": [],
     "graphics": [
@@ -51,14 +824,36 @@
         "src": "s1"
       },
       {
-        "what": "Video listed on the team page (not watched)",
+        "what": "Cutback reveal video (not watched)",
         "url": "https://www.youtube.com/watch?v=0e666EBIfzE",
         "format": "video",
         "state": "listed",
         "src": "s1"
+      },
+      {
+        "what": "Pit interview (captions read, not watched)",
+        "url": "https://www.youtube.com/watch?v=eaLhQbCd6_I",
+        "format": "video",
+        "state": "listed",
+        "src": "s3"
       }
     ],
-    "documents": [],
+    "documents": [
+      {
+        "what": "U.S. Navy article naming the robot",
+        "url": "https://www.navy.mil/Press-Office/Press-Releases/display-pressreleases/Article/3033829/navfac-exwc-mentors-youth-based-robotics-program-places-2nd-in-world-championsh/",
+        "format": "web page",
+        "state": "listed",
+        "src": "s8"
+      },
+      {
+        "what": "Team answers in the reveal thread (text read)",
+        "url": "https://www.chiefdelphi.com/t/404398/25",
+        "format": "thread",
+        "state": "opened",
+        "src": "s4"
+      }
+    ],
     "code": [
       {
         "what": "Team GitHub account (no season release identified)",

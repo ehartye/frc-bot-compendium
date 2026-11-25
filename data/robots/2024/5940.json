@@ -3,7 +3,7 @@
   "season": 2024,
   "team": "5940",
   "team_name": "BREAD",
-  "robot_name": null,
+  "robot_name": "Roti",
   "variant": null,
   "sources": {
     "s1": {
@@ -23,9 +23,178 @@
       "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
       "publisher": "Spectrum 3847 community sheet",
       "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "5940 2024 \"Roti\" Technical Binder",
+      "url": "https://drive.google.com/file/d/1JueptXU9TRB6N2dDGX-fZ-d9fCz3nMKs/view",
+      "publisher": "Team 5940",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "2024 season page",
+      "url": "https://www.team5940.org/2024",
+      "publisher": "Team 5940",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "2024-Onseason README",
+      "url": "https://github.com/BREAD5940/2024-Onseason/blob/72a8fd872f1e6f9de83fb1d200a3f1d9ab8dd47f/README.md",
+      "publisher": "Team 5940 on GitHub",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Roti Repair Binder (electrical), revision 0.3",
+      "url": "https://drive.google.com/file/d/1zfYqLdwT_1B9t92o7QsDoBC2Qs8EvY-t/view?usp=sharing",
+      "publisher": "Team 5940",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "5940 2024 alpha robot and 6-piece auto",
+      "url": "https://www.chiefdelphi.com/t/450606",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "5940 2024 alpha robot and 6-piece auto, post 70",
+      "url": "https://www.chiefdelphi.com/t/450606/70",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "5940 BREAD 2024 CAD and code release, post 14",
+      "url": "https://www.chiefdelphi.com/t/466729/14",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "5940 BREAD 2024 CAD and code release, post 13",
+      "url": "https://www.chiefdelphi.com/t/466729/13",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "5940 BREAD 2024 CAD and code release, post 17",
+      "url": "https://www.chiefdelphi.com/t/466729/17",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "5940 BREAD 2024 CAD and code release, post 20",
+      "url": "https://www.chiefdelphi.com/t/466729/20",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "5940 2024 alpha robot and 6-piece auto, post 73",
+      "url": "https://www.chiefdelphi.com/t/450606/73",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "5940 BREAD 2024 CAD and code release",
+      "url": "https://www.chiefdelphi.com/t/466729",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "5940 BREAD 2024 robot reveal, post 16",
+      "url": "https://www.chiefdelphi.com/t/457863/16",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
     }
   },
   "story": {
+    "bet": [
+      {
+        "text": "Shooter on an elevator: one mechanism scores in the speaker, amp and trap, and the elevator can also pull the robot onto the chain.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "Its list: the ranking points (win, 18 notes in teleop or 15 with coopertition, 10 endgame points with two robots onstage); the amp; the trap, to make the endgame point likelier; be short enough to pass under the stage, away from defenders and traffic; and shoot over 48 in defenders from the podium.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "The code lists a 6-note mode, and dynamic 3-note rush autos for the source and amp sides.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      },
+      {
+        "text": "The team says it won the autonomous award at each of its three regionals.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The under-bumper intake picks a note off the floor and centers it; rollers hold it until the robot is in position. Cameras on the AprilTags position the robot to score.",
+        "basis": "team",
+        "src": [
+          "s5",
+          "s4"
+        ]
+      },
+      {
+        "text": "It can drive under the stage with the elevator down, and raise it to shoot over defenders.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "Carriage hooks pull the robot off the ground until passive hooks near its bottom latch the chain; the elevator is then free to extend to the trap. The robot wants to tip toward the trap.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "The elevator holds the trap open and the note reverses out of the back of the shooter.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "A January alpha robot, all on Falcons, was meant to reduce risk in the shooter and ran a 6-piece routine. Krakens had only just arrived.",
+        "basis": "team",
+        "src": [
+          "s8",
+          "s9"
+        ]
+      },
+      {
+        "text": "The competition robot has Krakens on drive, elevator and shooter.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "The first-stage elevator tube is 1/8 in wall, since those tubes dented most after a few competitions.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      }
+    ],
     "outcome": [
       {
         "text": "47-13-0 in official play; ranked 100 by championship OPR (42.23, Hopper).",
@@ -37,12 +206,418 @@
       }
     ]
   },
-  "functions": [],
-  "decisions": [],
+  "functions": [
+    {
+      "name": "Drivebase",
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "WCP Swerve X inverted modules with Kraken X60s, X3 gears and a 10-tooth pinion; free speed",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 19,
+          "unit": "ft/s"
+        },
+        {
+          "text": "Frame 26 by 28 in; 30.5 by 28 in with the intake",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Black nitrile tread",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Robot weight, around; the question was about weight without batteries or bumpers",
+          "basis": "team",
+          "src": [
+            "s11"
+          ],
+          "value": 120,
+          "unit": "lb"
+        }
+      ]
+    },
+    {
+      "name": "Ground Intake",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Collect notes from the ground and center them before the shooter",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "full-width under-the-bumper roller intake",
+      "serves": [
+        "speaker",
+        "amp",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "Width",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 28,
+          "unit": "in"
+        },
+        {
+          "text": "Three 1 in aluminum rollers covered with silicone tubing, 1.3:1; surface speed",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 19.6,
+          "unit": "ft/s"
+        },
+        {
+          "text": "Four centering wheels of 3 and 4 in, 4.8:1; surface speed",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 16.4,
+          "unit": "ft/s"
+        },
+        {
+          "text": "One bumper side is raised for it",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Makes the drivetrain 4.5 in longer",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Often hands the note to the shooter in a very deformed state",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Score in every location with one mechanism, with consistent shots from deformed notes",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "deliver",
+        "retain"
+      ],
+      "type": "flywheel shooter with spin, on the elevator carriage",
+      "serves": [
+        "speaker",
+        "amp",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "Two Kraken X60s each spin two sets of 4 in wheels; upduction",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 2,
+          "unit": ":1"
+        },
+        {
+          "text": "Wheels on opposite sides run at different speeds to spin the note",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Printed conical wheels and mecanum wheels spread the note inside the shooter",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "The mecanums do the opposite of centering, so the note expands to its original shape; testing found them and the tapered rollers really important for consistent shots",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Tapered rollers are printed PLA wrapped in cat tongue grip tape; compression in the center, none at the sides",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "The front roller pair is angled down relative to the exit path, for the trap",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Six 1 in polycarbonate idler rollers reduce friction on the note",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Shooter weight, about",
+          "basis": "team",
+          "src": [
+            "s11"
+          ],
+          "value": 18,
+          "unit": "lb"
+        }
+      ]
+    },
+    {
+      "name": "Pivot",
+      "solves": [
+        {
+          "text": "Adjust the shooter angle for speaker, amp and trap",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "chain-driven shooter pivot with gas springs",
+      "serves": [
+        "speaker",
+        "amp",
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "Overall reduction, with a 25:1 MAXPlanetary and a last stage of two #25 chain runs",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 114.58,
+          "unit": ":1"
+        },
+        {
+          "text": "Two 50 lb gas springs counter the torque of the shooter and dampen it",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "The springs more than cancel the shooter weight, so backlash stays on one side and the functional backlash is pretty much zero; gears are also shimmed and the chain has inline tensioners",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "The gas springs also counter the movement of the elevator going up when shooting",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "A CANcoder is belted directly to the pivot shaft",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elevator",
+      "solves": [
+        {
+          "text": "Move the shooter up and down, and get the robot onstage",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "position",
+        "endgame"
+      ],
+      "type": "two-stage continuous rope elevator with overextending carriage",
+      "serves": [
+        "speaker",
+        "amp",
+        "trap",
+        "onstage"
+      ],
+      "facts": [
+        {
+          "text": "Two Kraken X60s; reduction",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 10.37,
+          "unit": ":1"
+        },
+        {
+          "text": "Rigged internally with UHMWPE rope; 1.5 in printed spools",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Crossbars on the base and first stage are lowered so the robot can shoot into the speaker while below stage height",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "First-stage tube 1/8 in wall, base 1/16 in; 1/16 in wall tube had dented in the first stage of the 2023 robot, and countersunk bolts need the thickness",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Climb hooks are integrated in the pivot side plates; passive hooks near the bottom of the robot latch the chain, then the elevator is free",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AprilTag cameras",
+      "does": [
+        "sense"
+      ],
+      "type": "camera localization with shoot on the move",
+      "serves": [
+        "speaker"
+      ],
+      "facts": [
+        {
+          "text": "Cameras sense AprilTags to position the robot for scoring",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "The code release lists shoot on the move",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "A plate protects the cameras; its ends bend outward so it can flex in a hit without touching them",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Shooter on an elevator",
+      "because": "one mechanism reaches speaker, amp and trap, and the robot can pass under the stage and still shoot over defenders",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "Mecanums that do the opposite of centering",
+      "because": "forcing a deformed note back to its shape made shots much more consistent",
+      "instead_of": "mecanums that center the note, as most intakes do",
+      "basis": "team",
+      "src": [
+        "s11"
+      ]
+    },
+    {
+      "choice": "One connector on the main CAN line, with insulation-displacement taps",
+      "because": "it minimizes connectors on any line that takes down the whole bus if broken",
+      "instead_of": "soldering, which causes stress concentrations, is hard to inspect and takes a long time",
+      "basis": "team",
+      "src": [
+        "s12",
+        "s13"
+      ]
+    },
+    {
+      "choice": "Alpha robot in January",
+      "because": "it was meant to reduce risk in critical mechanical design, this year the shooter, and give software students a robot as quickly as possible",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    },
+    {
+      "choice": "Develop what you can before the season",
+      "because": "the team calls it the key to its early autonomous demonstrations",
+      "basis": "team",
+      "src": [
+        "s14"
+      ]
+    }
+  ],
   "assets": {
     "cad": [
       {
-        "what": "Comp Robot",
+        "what": "Roti CAD release (document linked by the team)",
         "url": "https://5940.onshape.com/documents/fc2ed487a3bcc1f0e49a6d9d/w/6c480d72591c00009984731f/e/6eefccfefe0d553debd9163f?aa=true",
         "format": "Onshape",
         "state": "listed",
@@ -65,28 +640,86 @@
         "src": "s1"
       },
       {
-        "what": "Video listed on the team page (not watched)",
+        "what": "Reveal video (not watched)",
         "url": "https://www.youtube.com/watch?v=b_z8SFSKbFU",
         "format": "video",
         "state": "listed",
         "src": "s1"
+      },
+      {
+        "what": "6-piece auto video (not watched)",
+        "url": "https://www.youtube.com/watch?v=vGajw5-vbo8",
+        "format": "video",
+        "state": "listed",
+        "src": "s15"
+      },
+      {
+        "what": "Video linked in the reveal thread after the San Francisco Regional (not watched)",
+        "url": "https://www.youtube.com/watch?v=3gSovmrPrt0",
+        "format": "video",
+        "state": "listed",
+        "src": "s16"
+      },
+      {
+        "what": "Alpha robot video, January 2024 (not watched)",
+        "url": "https://youtu.be/KKQocsCjGuI",
+        "format": "video",
+        "state": "listed",
+        "src": "s8"
       }
     ],
-    "documents": [],
+    "documents": [
+      {
+        "what": "Technical binder, text extraction (figures not read)",
+        "url": "https://drive.google.com/file/d/1JueptXU9TRB6N2dDGX-fZ-d9fCz3nMKs/view",
+        "format": "PDF",
+        "state": "opened",
+        "src": "s4"
+      },
+      {
+        "what": "Electrical and repair binder, text extraction (diagrams not read)",
+        "url": "https://drive.google.com/file/d/1zfYqLdwT_1B9t92o7QsDoBC2Qs8EvY-t/view?usp=sharing",
+        "format": "PDF",
+        "state": "opened",
+        "src": "s7"
+      },
+      {
+        "what": "Team season page",
+        "url": "https://www.team5940.org/2024",
+        "format": "web page",
+        "state": "opened",
+        "src": "s5"
+      },
+      {
+        "what": "CAD and code release thread",
+        "url": "https://www.chiefdelphi.com/t/466729",
+        "format": "thread",
+        "state": "opened",
+        "src": "s15"
+      }
+    ],
     "code": [
       {
-        "what": "Team GitHub account (no season release identified)",
+        "what": "Team GitHub account",
         "url": "https://github.com/bread5940",
         "format": "GitHub",
         "state": "listed",
         "src": "s1"
+      },
+      {
+        "what": "2024-Onseason (README read)",
+        "url": "https://github.com/BREAD5940/2024-Onseason/",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s15"
       }
     ]
   },
   "searched": [
     "The Blue Alliance team page",
     "community CAD sheet",
-    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)"
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "release thread, season page and both binders; video search for a 2024 interview"
   ],
   "results": {
     "division": "Hopper",

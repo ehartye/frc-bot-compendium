@@ -3,7 +3,7 @@
   "season": 2022,
   "team": "2056",
   "team_name": "OP Robotics",
-  "robot_name": null,
+  "robot_name": "Declaration",
   "variant": null,
   "sources": {
     "s1": {
@@ -17,9 +17,141 @@
       "url": "https://www.thebluealliance.com/event/2022tur",
       "publisher": "The Blue Alliance",
       "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "Behind the Bumpers: 2056 OP Robotics, Rapid React",
+      "url": "https://www.youtube.com/watch?v=yiXl7dlhDzY",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "History: Declaration",
+      "url": "https://2056.ca/history/",
+      "publisher": "Team 2056",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Once-in-a-lifetime opportunity",
+      "url": "https://2056.ca/news/international-robotics-competition-a-once-in-a-lifetime-opportunity-for-many-hamilton-students/",
+      "publisher": "The Hamilton Spectator, reposted by Team 2056",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "FRC Recap: Championship Divisions and Einstein, Rapid React",
+      "url": "https://www.youtube.com/watch?v=vKLxBkhyMwg",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Was there a robot that did not use pneumatics in 2022 Rapid React, post 10",
+      "url": "https://www.chiefdelphi.com/t/436276/10",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Let's review Reefscape's elite robots, post 30",
+      "url": "https://www.chiefdelphi.com/t/500055/30",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Behind the Glass with 2056 at IRI",
+      "url": "https://www.chiefdelphi.com/t/413766",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
     }
   },
   "story": {
+    "bet": [
+      {
+        "text": "Have a very good shooter first: a rotating turret developed from the team's 2020 robot.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "Shooting was the main design goal. Climbing is weighed against it: with two quick, sure traversal partners, the team stays out and shoots.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The intake centers cargo into the elevator, the turret aims by Limelight, and a wrong-color ball is missed on purpose.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      },
+      {
+        "text": "The operator points out cargo the driver cannot see.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "Two kinds of hooks work rung by rung to traversal; the fastest time given is about 10 to 15 seconds.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      },
+      {
+        "text": "It usually starts around the endgame, sometimes after one more scoring cycle.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "A low rung hang in about two to three seconds, added by the championship, for when a partner may fall or the ranking point looks lost.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      },
+      {
+        "text": "A recap of the Turing semifinals describes it and 2468 rotating on defense.",
+        "basis": "observer",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "Building started late: in-person activities were cancelled for four weeks of the build season.",
+        "basis": "team",
+        "src": [
+          "s5",
+          "s3"
+        ]
+      },
+      {
+        "text": "The intake was destroyed at the Waterloo event and rebuilt stronger, with two fewer mecanum wheels on one side.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      },
+      {
+        "text": "After the first event a beam break and LED signal were added for balls behind the hub and in the far hangar.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
     "outcome": [
       {
         "text": "47-12-0 in official play; ranked 26 by championship OPR (54.07, Turing).",
@@ -31,8 +163,317 @@
       }
     ]
   },
-  "functions": [],
-  "decisions": [],
+  "functions": [
+    {
+      "name": "Drive train",
+      "does": [
+        "drive",
+        "structure"
+      ],
+      "type": "single-speed tank drive",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Six 4 in tread wheels",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Robot weight",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 125,
+          "unit": "lb"
+        },
+        {
+          "text": "Robot size 32 x 28 x 39.5 in",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A forum poster lists the robot among the big names without pneumatics",
+          "basis": "observer",
+          "src": [
+            "s7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Cargo leaving the hub jumps around and takes a long time to settle",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The first version was destroyed at the Waterloo event",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "mecanum centering intake",
+      "serves": [
+        "hub-upper",
+        "hub-lower"
+      ],
+      "facts": [
+        {
+          "text": "Mecanum wheels spinning opposite ways center a ball and send it up the conveyor",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "After the Waterloo event it was made thicker, and two mecanum wheels were removed on the other side without hurting centering",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elevator and color sorting",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Know when a ball is in, and do not score the opponent's",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "transfer",
+        "sense"
+      ],
+      "type": "conveyor with beam breaks and color sensor",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "A lower beam break flashes the LEDs white when a ball passes",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "A color sensor near the top compares two color values of the ball",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "The turret turns a little to miss an opposite-color ball on purpose",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "The second ball is delayed so the sensor reads it properly",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Turret",
+      "pieces": [
+        "cargo"
+      ],
+      "cost": [
+        {
+          "text": "A forum poster later argued a turret may not have been the ideal choice for most teams in 2022",
+          "basis": "observer",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "rotating turret with umbilical",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "Rotation in each direction",
+          "basis": "team",
+          "src": [
+            "s3"
+          ],
+          "value": 175,
+          "unit": "deg"
+        },
+        {
+          "text": "What was learned from the 2020 robot's umbilical was used to increase rotation",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Be very good at shooting, the first design goal",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "deliver",
+        "position"
+      ],
+      "type": "flywheel with two-position hood",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "Limelight distance sets the flywheel speed",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "The hood goes up past an upper distance limit and down past a lower one",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Reach the traversal rung, or hang low fast",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "At IRI, an off-season event, it missed the traversal climb in qualification 59",
+          "basis": "observer",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "ratchet hooks with telescopic arms",
+      "serves": [
+        "rung-low",
+        "rung-mid",
+        "rung-high",
+        "rung-traversal"
+      ],
+      "facts": [
+        {
+          "text": "Ratchet hooks take the mid rung; telescopic arms extend, pivot and take the next rung, and the cycle repeats",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Fastest traversal time given, about 10 to 15 seconds",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "A low rung hang takes about two to three seconds",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Rotating turret",
+      "because": "a very good shooter was the main goal",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "Mecanum wheels on the intake",
+      "because": "balls leaving the hub jump around and take long to settle, and the wheels center them",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "Stronger intake after the Waterloo event",
+      "because": "the first one was destroyed there",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "Skip the climb when two partners have a sure traversal",
+      "because": "the team is a strong shooter",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    }
+  ],
   "assets": {
     "cad": [],
     "graphics": [
@@ -42,6 +483,27 @@
         "format": "image",
         "state": "listed",
         "src": "s1"
+      },
+      {
+        "what": "Behind the Bumpers interview (transcript read, not watched)",
+        "url": "https://www.youtube.com/watch?v=yiXl7dlhDzY",
+        "format": "video",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "Mic'd up at IRI 2022, off-season (not watched)",
+        "url": "https://youtu.be/qg2kbzFWSA8",
+        "format": "video",
+        "state": "listed",
+        "src": "s9"
+      },
+      {
+        "what": "Robot picture on the team's history page",
+        "url": "https://2056.ca/history/",
+        "format": "image",
+        "state": "listed",
+        "src": "s4"
       }
     ],
     "documents": [],
@@ -58,7 +520,8 @@
   "searched": [
     "The Blue Alliance team page",
     "community CAD sheet",
-    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)"
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "2056.ca pages and PDFs, GitHub, Chief Delphi and YouTube searches for a 2022 binder, CAD, reveal or design thread: none found"
   ],
   "results": {
     "division": "Turing",

@@ -17,9 +17,193 @@
       "url": "https://www.thebluealliance.com/event/2026arc",
       "publisher": "The Blue Alliance",
       "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "RUSH Review, Showcase issue, February 27 2026",
+      "url": "https://drive.google.com/uc?export=download&id=1zUmgoXzuIfPuTOCKUP0M3q87hDDJmhsi",
+      "publisher": "Team RUSH",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Team RUSH 2026 tech documentation (images on the team's 2026 page)",
+      "url": "https://www.teamrush27.net/history/2026-rebuilt",
+      "publisher": "Team RUSH",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "27 Team RUSH | Behind the Bumpers | FRC REBUILT Robot (auto-captions)",
+      "url": "https://www.youtube.com/watch?v=p9H80uFyuu8",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "RUSH Review, Michigan State Championship 2026",
+      "url": "https://drive.google.com/uc?export=download&id=1UKpkrKYHAN-Gj5Qj70rCtb2nxKx6Cdm2",
+      "publisher": "Team RUSH",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Fuel Theft is going to break the Meta wide open (Michigan finals, auto-captions)",
+      "url": "https://www.youtube.com/watch?v=BT2P26TOLwo",
+      "publisher": "RoboReplay",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "1678 might have solved the game (Chelsea match, auto-captions)",
+      "url": "https://www.youtube.com/watch?v=AOAG5SgewT4",
+      "publisher": "RoboReplay",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Post-season reflect: how was Rebuilt, post 106",
+      "url": "https://www.chiefdelphi.com/t/519847/106",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "RUSH Review, Week 5 2026",
+      "url": "https://drive.google.com/uc?export=download&id=1VjYUAWY34LvWkpNGLWpVGZoseozkbosL",
+      "publisher": "Team RUSH",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "RUSH Review, Week 2 2026",
+      "url": "https://drive.google.com/uc?export=download&id=15EIPbz6S4BV5JUgZTjDoKkSpxJPqQs-4",
+      "publisher": "Team RUSH",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "How Starving DOMINATED IRI (off-season, auto-captions)",
+      "url": "https://www.youtube.com/watch?v=fHAHlAcGqoA",
+      "publisher": "RoboReplay",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "Public RUSH Robot CAD (Drive folder listing)",
+      "url": "https://drive.google.com/drive/folders/1pA-TsioMWhkhwoAEp40nxM4JrbYOb4cK",
+      "publisher": "Team RUSH",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "Team RUSH technical resources",
+      "url": "https://www.teamrush27.net/resources/technical-resources",
+      "publisher": "Team RUSH",
+      "read": "2026-11-25"
     }
   },
   "story": {
+    "bet": [
+      {
+        "text": "An efficient roller floor and indexer, for the most fuel per second.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      },
+      {
+        "text": "The stated objective: score 20+ fuel per second with 90%+ accuracy, as far as the Tower.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "The software group split the game into auto and teleop: simple, efficient autos, and a teleop kept as easy as possible for the drive team.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      },
+      {
+        "text": "At the state championship the team says it focused on playing smart, avoiding defense and adapting to every match.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "A beam break shows whether fuel is still flowing. The robot keeps shooting while it is, then is ready for its next sweep instead of waiting out a timeout.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      },
+      {
+        "text": "In a state final an opponent parked in the trench blocked its second pass, worth at least 40 fuel by an analyst's estimate.",
+        "basis": "observer",
+        "src": [
+          "s7"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "It shoots from almost anywhere in the alliance zone and feeds almost anywhere in the neutral zone.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      },
+      {
+        "text": "In one Chelsea playoff match, an analyst says, it dumped whole hoppers back, angled into a corner where a fixed shooter can collect, turn slightly and shoot, and herded fuel with its bumpers.",
+        "basis": "observer",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "In a state final it and 7769 took the fuel in front of the opponents' hub, so a large bump robot got little from its last trip, an analyst says.",
+        "basis": "observer",
+        "src": [
+          "s7"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "The intake, the robot's \"fighting face\", is very prone to breaking. At about 113 lb there was little weight to spare, so most things were made light.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      },
+      {
+        "text": "Autos that scored a lot were upset when other robots hit it.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      },
+      {
+        "text": "A forum poster says 7407's defense on 27 and 1114 in Archimedes beat the otherwise stronger alliance.",
+        "basis": "observer",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "The shooter was retrofitted into a robot not designed for it. A belted roller in the feed path shoved balls down and jammed, so it now spins freely. Autos were restructured after hits from other robots.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      },
+      {
+        "text": "In build week 5 the first functional climb prototype was done for the practice robot.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      }
+    ],
     "outcome": [
       {
         "text": "83-6-0 in official play; finalist in the Archimedes division; ranked 26 by championship OPR (269.27, Archimedes).",
@@ -31,10 +215,648 @@
       }
     ]
   },
-  "functions": [],
-  "decisions": [],
+  "functions": [
+    {
+      "name": "Intake",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Collect fuel with the part of the robot that takes the hits",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "roller intake",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Main roller has two Kraken X44s at about 2.5:1",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "A free-spinning carbon fiber roller sits on top, with three passive tubes inside",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "The team's undated tech documentation differs: rollers on one Kraken X60 and the intake driven by one Kraken X44",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Polycarbonate rollers covered in grip tape, a rigid aluminum intake head and SRPP arms",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A WCP Throughbore encoder gives position; absolute encoders keep control accurate through power cycles",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Built to be very easy to fix",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Very prone to breaking",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Deploy speed is limited by its chain",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hopper",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Hold 60 fuel in the robot (objective)",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "retain"
+      ],
+      "type": "expanding hopper",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Driven passively by the intake",
+          "basis": "team",
+          "src": [
+            "s5",
+            "s4"
+          ]
+        },
+        {
+          "text": "3D printed sliding system; impact-resistant polycarbonate walls",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A net and polycarbonate flaps let the hopper expand vertically",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Enough storage in the hopper to meet the scoring needs was a stated goal of the chassis and intake subteam",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Roller floor and indexer",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Speed fuel up into a three-wide shooter",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "powered roller floor with funnel",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Two Kraken X60s run it, one at the bottom and one near the back by the indexer",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Rollers are polycarbonate; five of them have cat tongue; roller size",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 1,
+          "unit": "in"
+        },
+        {
+          "text": "Dead axles with 3D prints funnel the fuel into three-wide",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "The front, angled part runs 1:1 and the back about 17:19, so fuel speeds up into the shooter",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "A free-spinning roller only stops fuel from being caught above it",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "PEM nuts make rollers easy to remove and install",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The same roller, when belted, shoved fuel down and jammed",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Shoot from almost anywhere in the alliance zone within a tight space and weight",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "deliver",
+        "position"
+      ],
+      "type": "drum shooter with adjustable hood",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "One steel 3 in drum on four Kraken X60s; two hood rollers run from the same motors",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "The 1 in hood rollers spin about two times as fast as the drum, to keep backspin low",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "One Kraken X44 adjusts the hood, rack and pinion style",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Almost all of it is SRPP plastic, for weight",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Carbon fiber structure lets the hood take hits from the trench",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Compression changes along the path: about 5/8, 3/8 and a final 1/2 (units not spoken)",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "The feeder accelerates fuel first, so the shooter gives only the final boost",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "The team's undated tech documentation differs from the interview: up to 20 fuel per second through a launcher three fuel wide, wheels on a REV MAXSpline axle, a three-stage collapsible hood that scores and feeds from the front or back, and a Hall effect sensor for hood angle",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake agitation",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Get the last fuel out of the hopper without the driver thinking about it",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "transfer",
+        "sense"
+      ],
+      "type": "software-prioritized intake motion",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Commands interrupt each other in three levels: intake deployed and running is highest, a full agitate override by the joystick driver is next, a slow default agitate while shooting is lowest",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "A high-velocity Motion Magic profile makes the agitation quick",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fuel-flow beam break",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Know in auto whether fuel is still flowing",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "beam break",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Shooting continues while fuel flows past it; when flow stops the next sweep starts",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Odometry and aiming",
+      "solves": [
+        {
+          "text": "Keep a good pose while shooting and while feeding",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "position"
+      ],
+      "type": "AprilTag vision with odometry",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "The main Limelight 4 is weighted heavily because the robot shoots in that orientation",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Left and right Limelights act as almost one unit with a fused pose estimate while feeding or when the back cannot see",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "The constantly updated pose sets shooter speed and hood angle",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Predicting the future fuel position, with velocity and acceleration, lets it shoot while moving",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Global autonomous generator",
+      "solves": [
+        {
+          "text": "Write an auto path once for all four corners of the field",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "auto path tool",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Created in build week 2: one path can be translated to all four corners",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Autos were developed with PathPlanner; pathfinding also runs autonomous features in teleop",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Swerve chassis",
+      "solves": [
+        {
+          "text": "Be fast, highly maneuverable and all-terrain capable (objective)",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "drive",
+        "structure"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "WCP X2ST modules; maximum speed",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 17,
+          "unit": "ft/s"
+        },
+        {
+          "text": "Frame of 29.5 in by 25 in, for stability, a centered point of rotation and the most hopper volume",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Four Kraken X44s steer and four Kraken X60s drive",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Wheels of 3.5 in diameter and 1.75 in width, for stability",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Skids built into the bumpers help over the bump and protect the swerve motors",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Riveted frame, to avoid welding warp; REV Grid tube with riveted gussets",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "18 motors and one servo on the robot",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electrical layout",
+      "solves": [
+        {
+          "text": "Make room for the roller floor and the shooter",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "bottom-mounted electronics",
+      "serves": [],
+      "facts": [
+        {
+          "text": "All electrical components are mounted on the bottom",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "The cover that protects them is attached to the bumpers, so its weight counts with the bumpers",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Breaker, camera and RSL mounts are 3D printed",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "An inverted, water-jetted aluminum belly pan holds the electronics",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Two CAN buses: a CANivore bus for drivetrain and critical systems, a REV bus for subsystems and sensors",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "A floor of connected polycarbonate rollers",
+      "because": "it has been really successful",
+      "instead_of": "belt, \"sushi roll\" and chain ideas",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Different compressions along the shooter path",
+      "because": "the shooter had to fit, as a retrofit, in space the robot already had; testing and benchmarking found almost no effect on the output",
+      "instead_of": "consistent compression",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Mount all electronics on the bottom, under a cover on the bumpers",
+      "because": "it saves space for the floor and shooter, and the cover's weight goes to the bumpers instead of the robot",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Build in phases: initial prototype, high-fidelity prototype, practice robot, practice robot v2 upgrades and competition robot",
+      "because": "it promotes iteration toward the functional objectives",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "Let the team choose autos and modify them on the field",
+      "because": "hits from other robots had upset autos that scored a lot",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Leave its own depot fuel unscored in the transition period (off-season IRI, first match analyzed)",
+      "because": "an analyst reads it as keeping that fuel out of the opponents' reach",
+      "basis": "observer",
+      "src": [
+        "s12"
+      ]
+    }
+  ],
   "assets": {
-    "cad": [],
+    "cad": [
+      {
+        "what": "2026 folder in the team's public CAD folder, holding 2026_FRC27_Robot_STEP",
+        "url": "https://drive.google.com/drive/folders/1I2eZBBU_503jlijQppGvvGUbCxW3fLEz",
+        "format": "STEP",
+        "state": "listed",
+        "src": "s13"
+      },
+      {
+        "what": "Team's public CAD archive (parent folder)",
+        "url": "https://drive.google.com/drive/folders/1pA-TsioMWhkhwoAEp40nxM4JrbYOb4cK",
+        "format": "Google Drive",
+        "state": "listed",
+        "src": "s14"
+      }
+    ],
     "graphics": [
       {
         "what": "Photo listed on the team page (not opened)",
@@ -79,35 +901,43 @@
         "src": "s1"
       },
       {
-        "what": "Video listed on the team page (not watched)",
+        "what": "2026 robot reveal video (not watched)",
         "url": "https://www.youtube.com/watch?v=VXgU9GQKOjM",
         "format": "video",
         "state": "listed",
         "src": "s1"
       },
       {
-        "what": "Video listed on the team page (not watched)",
+        "what": "Behind the Bumpers interview, state championship (captions read)",
         "url": "https://www.youtube.com/watch?v=p9H80uFyuu8",
-        "format": "video",
-        "state": "listed",
-        "src": "s1"
-      },
-      {
-        "what": "Video listed on the team page (not watched)",
-        "url": "https://www.youtube.com/watch?v=1rE67fTRl98",
-        "format": "video",
-        "state": "listed",
-        "src": "s1"
-      },
-      {
-        "what": "Video listed on the team page (not watched)",
-        "url": "https://www.youtube.com/watch?v=BCz2yTVPxbM",
         "format": "video",
         "state": "listed",
         "src": "s1"
       }
     ],
-    "documents": [],
+    "documents": [
+      {
+        "what": "Team RUSH 2026 tech documentation (images on the team's 2026 page)",
+        "url": "https://www.teamrush27.net/history/2026-rebuilt",
+        "format": "web page",
+        "state": "opened",
+        "src": "s4"
+      },
+      {
+        "what": "Match strategy and selection sheet, 2026 World Championship",
+        "url": "https://docs.google.com/spreadsheets/d/1DMF5YlXaKNUxdscXNYrdwN0xsERBY4HGHaoqFzD6ZIw/edit?usp=sharing",
+        "format": "Google Sheet",
+        "state": "listed",
+        "src": "s14"
+      },
+      {
+        "what": "RUSH Review, Showcase issue",
+        "url": "https://drive.google.com/uc?export=download&id=1zUmgoXzuIfPuTOCKUP0M3q87hDDJmhsi",
+        "format": "PDF",
+        "state": "opened",
+        "src": "s3"
+      }
+    ],
     "code": [
       {
         "what": "Team GitHub account (no season release identified)",
@@ -121,7 +951,8 @@
   "searched": [
     "The Blue Alliance team page",
     "community CAD sheet",
-    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)"
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "team site, its newsletters and CAD folder listing; web, video and forum searches for a 2026 interview, match analysis and technical document"
   ],
   "results": {
     "division": "Archimedes",

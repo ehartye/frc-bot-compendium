@@ -3,7 +3,7 @@
   "season": 2025,
   "team": "3683",
   "team_name": "Team DAVE",
-  "robot_name": null,
+  "robot_name": "Suzuki",
   "variant": null,
   "sources": {
     "s1": {
@@ -11,9 +11,189 @@
       "url": "https://www.thebluealliance.com/team/3683/2025",
       "publisher": "The Blue Alliance",
       "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Team Dave 3683 Presents its 2025 Robot: SUZUKI",
+      "url": "https://www.chiefdelphi.com/t/493251",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "Team Dave 3683 Presents its 2025 Robot: SUZUKI, post 6",
+      "url": "https://www.chiefdelphi.com/t/493251/6",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Team Dave 3683 Presents its 2025 Robot: SUZUKI, post 11",
+      "url": "https://www.chiefdelphi.com/t/493251/11",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Team Dave 3683 Presents its 2025 Robot: SUZUKI, post 13",
+      "url": "https://www.chiefdelphi.com/t/493251/13",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Behind the Bumpers: 3683 Team DAVE, REEFSCAPE",
+      "url": "https://www.youtube.com/watch?v=a8JU7LOml3Q",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "2025 Robot: Suzuki",
+      "url": "https://teamdave.ca/first/2025-reefscape/2025-robot-suzuki/",
+      "publisher": "Team DAVE",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "2025 Ontario Provincial Championship",
+      "url": "https://teamdave.ca/2025/04/22/2025-ontario-provincial-championship/",
+      "publisher": "Team DAVE",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Algae is Setting World Records: FUNalysis, Ontario Waterloo",
+      "url": "https://www.youtube.com/watch?v=Q9OMYPmPONE",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "4 coral autos thread, post 13",
+      "url": "https://www.chiefdelphi.com/t/496424/13",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Is ground intake of coral worth it, post 213",
+      "url": "https://www.chiefdelphi.com/t/479718/213",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Let's review Reefscape's elite robots, post 30",
+      "url": "https://www.chiefdelphi.com/t/500055/30",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "FRC3683/Dave2025Public",
+      "url": "https://github.com/FRC3683/Dave2025Public",
+      "publisher": "Team 3683 on GitHub",
+      "read": "2026-11-25"
     }
   },
   "story": {
+    "demand": [
+      {
+        "text": "Auto is really important, the team says, after some struggles with it the year before; it changed how it makes autos.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "Four coral from the station: the far back of the reef first, two on the direct line from the source, then the back again. The order cuts driving time, and the back keeps clear of partners who score on the front.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      },
+      {
+        "text": "It dropped PathPlanner for a method seen on 2056.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "Hybrid cycles: a coral waits in the ramp while the robot carries an algae.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      },
+      {
+        "text": "An analyst shows it scoring the algae in the net, then turning to place the coral on L4 seconds later, in two 249 point matches at Waterloo.",
+        "basis": "observer",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "No climb at the first event. A deep cage climb was added by the Ontario championship, where it helped secure the barge ranking point in five of six matches on the first day.",
+        "basis": "team",
+        "src": [
+          "s4",
+          "s8"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "Two ramp sensors track the coral, and one that comes in sideways can be unjammed and oriented the right way.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      },
+      {
+        "text": "It can pick algae up from the ground.",
+        "basis": "team",
+        "src": [
+          "s7"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "Coral comes only from the human player station. A poster who names its funnel as a success says a funnel can slightly lengthen cycles and be easier to defend, but is light.",
+        "basis": "observer",
+        "src": [
+          "s7",
+          "s10",
+          "s11"
+        ]
+      },
+      {
+        "text": "The donut climb planned at first did not work, so it started the season without one.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "The elevator went from 5:1 to 3:1 because 5:1 was not fast enough for the four-piece auto.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      },
+      {
+        "text": "After Niagara, where coral bounced out of the ramp, a piece was added so it can be fed from farther away.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      },
+      {
+        "text": "The deep cage climb came before the Ontario championship.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
     "outcome": [
       {
         "text": "46-8-0 in official play; won the OPC - Science division of the Ontario District Championship; did not play in a championship division.",
@@ -24,8 +204,371 @@
       }
     ]
   },
-  "functions": [],
-  "decisions": [],
+  "functions": [
+    {
+      "name": "Swerve base",
+      "does": [
+        "drive",
+        "structure"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "SDS MK4i modules",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Robot weight",
+          "basis": "team",
+          "src": [
+            "s7"
+          ],
+          "value": 111.1,
+          "unit": "lb"
+        },
+        {
+          "text": "Robot height",
+          "basis": "team",
+          "src": [
+            "s7"
+          ],
+          "value": 40,
+          "unit": "in"
+        }
+      ]
+    },
+    {
+      "name": "Ramp",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Take coral from the human player station and hold one during algae handling",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "At Niagara coral would bounce out",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "A poster says a funnel can slightly lengthen cycles and be easier to defend",
+          "basis": "observer",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "retain",
+        "transfer"
+      ],
+      "type": "station-fed pass-through funnel",
+      "serves": [
+        "reef-branches",
+        "reef-l1"
+      ],
+      "facts": [
+        {
+          "text": "Two sensors track the coral",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "They are also used to unjam a coral that enters sideways",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "It can hold a coral while the robot holds an algae",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "An added piece after Niagara lets coral be fed from farther away",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "A forum poster named it one of two incredibly simple funnel robots for the performance",
+          "basis": "observer",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "It is attached to the elevator uprights by a servo linkage and can drop at the end to let the cage in",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elevator",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Be fast enough for a four-piece auto",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The first 5:1 ratio was too slow for the four-piece auto",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "three-stage elevator with continuous belt rigging",
+      "serves": [
+        "reef-branches",
+        "reef-l1",
+        "net"
+      ],
+      "facts": [
+        {
+          "text": "Full extension in",
+          "basis": "team",
+          "src": [
+            "s7"
+          ],
+          "value": 0.6,
+          "unit": "s"
+        },
+        {
+          "text": "Two Kraken X60s at 3:1",
+          "basis": "team",
+          "src": [
+            "s5",
+            "s6"
+          ]
+        },
+        {
+          "text": "Two tie rods on each side for stiffness",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "A constant force spring keeps the wires from flopping",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gantry",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Score coral by simply lifting it to the right height and ejecting",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "deliver",
+        "retain",
+        "acquire"
+      ],
+      "type": "fixed-angle coral rollers with a pivoting algae roller",
+      "serves": [
+        "reef-branches",
+        "reef-l1",
+        "net",
+        "processor"
+      ],
+      "facts": [
+        {
+          "text": "Six rollers at a fixed angle take coral from the ramp",
+          "basis": "team",
+          "src": [
+            "s3",
+            "s6"
+          ]
+        },
+        {
+          "text": "One Kraken X44 drives the coral rollers and the algae roller through printed bevel gears",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "An X60 turns the algae roller's pivot",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "The top wheel orients coral and brings in and holds algae",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "For L1 the roller comes down to turn coral more horizontal, so it sits in the trough",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Algae comes from the reef or the ground and goes to net or processor",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Deep cage climb",
+      "cost": [
+        {
+          "text": "The original donut climb did not work",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "deep cage climber",
+      "serves": [
+        "cage"
+      ],
+      "facts": [
+        {
+          "text": "Added before the Ontario championship, where it helped secure the barge ranking point in five of six first-day matches",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Four-coral auto",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Score four coral without meeting partners at the front of the reef",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "autonomous routine",
+      "serves": [
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "It runs on the left or the right side",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "A forum poster says it hit four pieces consistently at a station, with the last one sometimes missed",
+          "basis": "observer",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Score auto coral on the back of the reef",
+      "because": "partners such as 2056 score on the front and two robots do not fit there",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    },
+    {
+      "choice": "Elevator at 3:1",
+      "because": "5:1 was not fast enough for the four-piece auto",
+      "instead_of": "5:1",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Hold a coral in the ramp during algae cycles",
+      "because": "hybrid cycles are more efficient",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    },
+    {
+      "choice": "Drop PathPlanner",
+      "because": "the method seen on 2056 worked well there",
+      "instead_of": "PathPlanner, used the year before",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    }
+  ],
   "assets": {
     "cad": [],
     "graphics": [
@@ -37,28 +580,50 @@
         "src": "s1"
       },
       {
-        "what": "Video listed on the team page (not watched)",
+        "what": "Reveal video (not watched)",
         "url": "https://www.youtube.com/watch?v=g7N1Je1avWc",
         "format": "video",
         "state": "listed",
-        "src": "s1"
+        "src": "s2"
+      },
+      {
+        "what": "Behind the Bumpers interview (transcript read, not watched)",
+        "url": "https://www.youtube.com/watch?v=a8JU7LOml3Q",
+        "format": "video",
+        "state": "listed",
+        "src": "s6"
+      },
+      {
+        "what": "FUNalysis of two Waterloo matches (transcript read, not watched)",
+        "url": "https://www.youtube.com/watch?v=Q9OMYPmPONE",
+        "format": "video",
+        "state": "listed",
+        "src": "s9"
       }
     ],
     "documents": [],
     "code": [
       {
-        "what": "Team GitHub account (no season release identified)",
+        "what": "Team GitHub account",
         "url": "https://github.com/frc3683",
         "format": "GitHub",
         "state": "listed",
         "src": "s1"
+      },
+      {
+        "what": "Dave2025Public (Suzuki code)",
+        "url": "https://github.com/FRC3683/Dave2025Public",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s13"
       }
     ]
   },
   "searched": [
     "The Blue Alliance team page",
     "community CAD sheet",
-    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)"
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "teamdave.ca 2025 pages and PDFs, reveal thread 493251 and a web search for a 2025 binder or CAD: no binder or CAD found"
   ],
   "results": {
     "division": null,

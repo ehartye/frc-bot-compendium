@@ -3,7 +3,7 @@
   "season": 2025,
   "team": "1778",
   "team_name": "Chill Out",
-  "robot_name": null,
+  "robot_name": "SubZero",
   "variant": null,
   "sources": {
     "s1": {
@@ -23,9 +23,323 @@
       "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
       "publisher": "Spectrum 3847 community sheet",
       "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "1778 Chill Out | Behind the Bumpers | 2025 FRC REEFSCAPE Robot (automatic captions)",
+      "url": "https://www.youtube.com/watch?v=pStoPwcBj98",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Mountlake Terrace High robotics team heads to world championships",
+      "url": "https://lynnwoodtimes.com/2025/04/13/chill-out/",
+      "publisher": "Lynnwood Times",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Conclusions from the 2025 competition season, post 96",
+      "url": "https://www.chiefdelphi.com/t/492978/96",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "1778 Chill Out 2025 SubZero reveal, post 14",
+      "url": "https://www.chiefdelphi.com/t/493591/14",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "1778 Chill Out 2025 SubZero reveal, post 16",
+      "url": "https://www.chiefdelphi.com/t/493591/16",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "1778 Chill Out 2025 CAD and code release, post 50",
+      "url": "https://www.chiefdelphi.com/t/501460/50",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "1778 Chill Out 2025 CAD and code release, post 30",
+      "url": "https://www.chiefdelphi.com/t/501460/30",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Deep climb in division playoffs, 2025",
+      "url": "https://www.chiefdelphi.com/t/500548",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "1778 Chill Out 2025 SubZero reveal, post 30",
+      "url": "https://www.chiefdelphi.com/t/493591/30",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "Conclusions from the 2025 competition season, post 101",
+      "url": "https://www.chiefdelphi.com/t/492978/101",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "1778 Chill Out 2025 SubZero reveal, post 28",
+      "url": "https://www.chiefdelphi.com/t/493591/28",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "Conclusions from the 2025 competition season, post 105",
+      "url": "https://www.chiefdelphi.com/t/492978/105",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "1778 Chill Out 2025 SubZero reveal, post 8",
+      "url": "https://www.chiefdelphi.com/t/493591/8",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "1778 Chill Out 2025 SubZero reveal, post 27",
+      "url": "https://www.chiefdelphi.com/t/493591/27",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "1778 Chill Out 2025 CAD and code release, post 47",
+      "url": "https://www.chiefdelphi.com/t/501460/47",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "1778 Chill Out 2025 CAD and code release, post 2",
+      "url": "https://www.chiefdelphi.com/t/501460/2",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "1778 Chill Out 2025 CAD and code release, post 44",
+      "url": "https://www.chiefdelphi.com/t/501460/44",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "1778 Chill Out 2025 SubZero reveal, post 10",
+      "url": "https://www.chiefdelphi.com/t/493591/10",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s22": {
+      "title": "WildStang 2025 build blog, post 331",
+      "url": "https://www.chiefdelphi.com/t/477716/331",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s23": {
+      "title": "1778 Chill Out 2025 CAD and code release, post 33",
+      "url": "https://www.chiefdelphi.com/t/501460/33",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s24": {
+      "title": "1778 Chill Out 2025 CAD and code release, post 57",
+      "url": "https://www.chiefdelphi.com/t/501460/57",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s25": {
+      "title": "1778 Chill Out 2025 SubZero reveal, post 25",
+      "url": "https://www.chiefdelphi.com/t/493591/25",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s26": {
+      "title": "1778 Chill Out 2025 SubZero reveal, post 35",
+      "url": "https://www.chiefdelphi.com/t/493591/35",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s27": {
+      "title": "1778 Chill Out 2025 SubZero reveal, post 23",
+      "url": "https://www.chiefdelphi.com/t/493591/23",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s28": {
+      "title": "1778 Chill Out 2025 CAD and code release, post 8",
+      "url": "https://www.chiefdelphi.com/t/501460/8",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s29": {
+      "title": "1778 Chill Out 2025 SubZero reveal, post 37",
+      "url": "https://www.chiefdelphi.com/t/493591/37",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s30": {
+      "title": "1778 Chill Out 2025 CAD and code release, post 19",
+      "url": "https://www.chiefdelphi.com/t/501460/19",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s31": {
+      "title": "1778 Chill Out 2025 CAD and code release, post 22",
+      "url": "https://www.chiefdelphi.com/t/501460/22",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s32": {
+      "title": "1778 Chill Out 2025 CAD and code release, post 31",
+      "url": "https://www.chiefdelphi.com/t/501460/31",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s33": {
+      "title": "1778 Chill Out 2025 CAD and code release, post 14",
+      "url": "https://www.chiefdelphi.com/t/501460/14",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s34": {
+      "title": "1778 Chill Out 2025 CAD and code release",
+      "url": "https://www.chiefdelphi.com/t/501460",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
     }
   },
   "story": {
+    "bet": [
+      {
+        "text": "A wide ground intake: match simulations right after kickoff showed defense would hurt a robot with only a source pickup, and a human player can launch coral towards the reef.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "The team says the systems it knew helped it cycle coral every match, get the coral ranking point and win.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "A week one observer says it seemed to ignore climbing completely in favor of coral cycles.",
+        "basis": "observer",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "It picks coral up from the ground in auto, which the team says a skinny intake would have ruled out.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "A newspaper lists the Autonomous Award.",
+        "basis": "observer",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "A linebreak sees coral; the intake rises by itself, centers it and hands it to the arm.",
+        "basis": "team",
+        "src": [
+          "s7"
+        ]
+      },
+      {
+        "text": "The driver lets go of the sticks, the robot drives to the nearest branch, and the driver confirms.",
+        "basis": "team",
+        "src": [
+          "s7",
+          "s8"
+        ]
+      },
+      {
+        "text": "Arm and elevator move down together with the bumpers against the reef.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "No climber was added: the team was at maximum weight with little room.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      },
+      {
+        "text": "By one count it was one of seven teams that played in the 2025 division playoffs without a deep climb.",
+        "basis": "observer",
+        "src": [
+          "s11"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "The climb: adding one before the championship meant lightening many parts, with about a week to make it and about one day with the robot.",
+        "basis": "team",
+        "src": [
+          "s12"
+        ]
+      },
+      {
+        "text": "A week one observer gave it no ability to do algae or climb; in April another credited its end effector with algae too.",
+        "basis": "observer",
+        "src": [
+          "s13",
+          "s14"
+        ]
+      },
+      {
+        "text": "Another says a climber was designed but left off in week one for mechanical or weight issues.",
+        "basis": "observer",
+        "src": [
+          "s15"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "A skinny intake came first, to avoid centering; it gave middling ground and source pickups, so the team went wide.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "Before the championship it added LEDs and improved scoring, autos and the state machine.",
+        "basis": "team",
+        "src": [
+          "s12"
+        ]
+      },
+      {
+        "text": "In hindsight the A-frame should have reached the corners: the elevator had some wobble.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      }
+    ],
     "outcome": [
       {
         "text": "53-12-0 in official play; ranked 21 by championship OPR (96.75, Newton).",
@@ -37,12 +351,424 @@
       }
     ]
   },
-  "functions": [],
-  "decisions": [],
+  "functions": [
+    {
+      "name": "Ground intake",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Pick coral up away from the source, where defense makes a big difference, and center it for the arm",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s16"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "transfer"
+      ],
+      "type": "wide ground intake with centering wheels and handoff to an arm",
+      "serves": [
+        "reef-l1",
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "One center linebreak: coral is centered by the time the intake is up",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "The upper wheels spin the coral while it is centered, so the centering wheels meet a changing surface",
+          "basis": "team",
+          "src": [
+            "s17"
+          ]
+        },
+        {
+          "text": "The bottom roller is kept from spinning; when it spun freely the coral just spun in the intake",
+          "basis": "team",
+          "src": [
+            "s18"
+          ]
+        },
+        {
+          "text": "Gorilla tape on the bottom axle did this all season, as new plates were not worth it",
+          "basis": "team",
+          "src": [
+            "s19",
+            "s18"
+          ]
+        },
+        {
+          "text": "Tape on a wheel in the middle helps push the coral out",
+          "basis": "team",
+          "src": [
+            "s18"
+          ]
+        },
+        {
+          "text": "A perpendicular coral is grabbed, flops in as the robot rotates and gets centered",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        },
+        {
+          "text": "Two Kraken X60s; the team expected to change to X44s",
+          "basis": "team",
+          "src": [
+            "s21"
+          ]
+        },
+        {
+          "text": "A 111 post on adding this style of intake to its own robot says it would need a complete arm redesign there and left packaging issues for the climb",
+          "basis": "observer",
+          "src": [
+            "s22"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Two Kraken X60s are a lot of weight, the team says",
+          "basis": "team",
+          "src": [
+            "s21"
+          ]
+        },
+        {
+          "text": "In some matches the arm was not centered at handoff, so coral was grabbed off center; the team is pretty sure that is why coral got thrown out",
+          "basis": "team",
+          "src": [
+            "s18"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elevator",
+      "solves": [
+        {
+          "text": "Carry the arm to the scoring heights with a system the team had already practiced building",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "internal belted continuous elevator",
+      "serves": [
+        "reef-l1",
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "A second robot built in the 2024 off-season for experience had basically this elevator; the team solved many of its problems here",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Two open-ended belts, about 13.5 ft long",
+          "basis": "team",
+          "src": [
+            "s23"
+          ]
+        },
+        {
+          "text": "Two motors with 9-tooth pinions on 36-tooth gears, each on a shaft with a 24-tooth pulley",
+          "basis": "team",
+          "src": [
+            "s24"
+          ]
+        },
+        {
+          "text": "Belts are clamped on the carriage between aluminum and a profiled PLA part",
+          "basis": "team",
+          "src": [
+            "s24"
+          ]
+        },
+        {
+          "text": "Carriage weight about 7 lb; with the arm, about",
+          "basis": "team",
+          "src": [
+            "s24"
+          ],
+          "value": 13.5,
+          "unit": "lb"
+        },
+        {
+          "text": "Zeroed by current sensing",
+          "basis": "team",
+          "src": [
+            "s25"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Some wobble; the robot wobbled when it braked while extending a couple of times",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arm and manipulator",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Place coral on either side of the robot without ever hitting the reef or the belly pan",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "position",
+        "deliver",
+        "retain"
+      ],
+      "type": "rotating arm with a roller manipulator",
+      "serves": [
+        "reef-l1",
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "Pivot reduction",
+          "basis": "team",
+          "src": [
+            "s26"
+          ],
+          "value": 64.5,
+          "unit": ":1"
+        },
+        {
+          "text": "Manipulator roller reduction, about",
+          "basis": "team",
+          "src": [
+            "s26"
+          ],
+          "value": 11,
+          "unit": ":1"
+        },
+        {
+          "text": "Range limits are given differently: 700 degrees in March, 580 in the release thread, to protect the power wires",
+          "basis": "team",
+          "src": [
+            "s27",
+            "s28"
+          ]
+        },
+        {
+          "text": "A 2.22 ratio on the absolute encoder gives 800 degrees and tells turns apart; it is not a whole number on purpose, and is used only to initialize the arm",
+          "basis": "team",
+          "src": [
+            "s28"
+          ]
+        },
+        {
+          "text": "Software mirrors the angle to the side nearer the reef, prefers to rotate away from it, and clamps moves through the reef or into the belly pan",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Arm and elevator wait for each other through an interpolation table taken from CAD",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Current sensing tells whether it holds coral",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Wires pass through the pivot tube in wire wrap with slack to twist; printed parts inside keep the aluminum from shredding the wrap",
+          "basis": "team",
+          "src": [
+            "s29"
+          ]
+        },
+        {
+          "text": "Scoring moves the arm down with the elevator while the bumpers rest on the reef; the robot does not move",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Auto align and vision",
+      "solves": [
+        {
+          "text": "Line up with the branch although scoring is offset from the center of the robot",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "full-field pose estimate with driver-confirmed auto align",
+      "serves": [
+        "reef-l1",
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "Four OV9281 cameras on two Orange Pi 5s running PhotonVision, at 800 by 600 and about 40 fps",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s30",
+            "s31"
+          ]
+        },
+        {
+          "text": "The branch is chosen by weighted rotation and translation distance",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Most camera time went into positions, mounts and lenses that see tags from as close as possible",
+          "basis": "team",
+          "src": [
+            "s31"
+          ]
+        },
+        {
+          "text": "The team says an equivalent setup with LL3Gs would have cost it $1600",
+          "basis": "team",
+          "src": [
+            "s30"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Monolithic state machine",
+      "solves": [
+        {
+          "text": "Make a complicated handoff and scoring sequence predictable",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "one state machine for every subsystem",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Every state holds set points for intake, elevator, arm and rollers, with an explicit list of transitions",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Written in Kotlin, which the team has used since 2020",
+          "basis": "team",
+          "src": [
+            "s32"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Ground intake",
+      "because": "match simulations showed defense would make a big difference at the source",
+      "instead_of": "only a source pickup",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "Wide intake",
+      "because": "the team knew it from 2024 and it allows ground pickup in auto",
+      "instead_of": "a skinny intake that avoids centering",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "No climber",
+      "because": "the robot was at maximum weight with little room, and before the championship there was about a week to make an untested one",
+      "basis": "team",
+      "src": [
+        "s10",
+        "s12"
+      ]
+    },
+    {
+      "choice": "Full-field pose for alignment",
+      "because": "scoring is offset from the center of the robot",
+      "instead_of": "AprilTag tx/ty",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    },
+    {
+      "choice": "Keep the bottom roller from spinning",
+      "because": "it makes the handoff and trough scoring better",
+      "instead_of": "a passive free-spinning roller",
+      "basis": "team",
+      "src": [
+        "s21"
+      ]
+    },
+    {
+      "choice": "Gearbox shafts turned down from hex",
+      "because": "smaller 0.875 in bearings make gearboxes compact, and the shafts add rigidity between plates",
+      "instead_of": "hex bearings and shaft end screws",
+      "cost": "about a week of lathe work for a student",
+      "basis": "team",
+      "src": [
+        "s33"
+      ]
+    }
+  ],
   "assets": {
     "cad": [
       {
-        "what": "Comp Robot",
+        "what": "SubZero CAD release (document linked by the team)",
         "url": "https://cad.onshape.com/documents/07beed2a16f5d7898cc42c9c/w/a74e4d796ba952dabae8ff7e/e/42c6b0e68334934d197bf369?renderMode=0&uiState=681d78400ee2693e5d5605f0",
         "format": "Onshape",
         "state": "listed",
@@ -65,56 +791,71 @@
         "src": "s1"
       },
       {
-        "what": "Forum thread listed on the team page",
+        "what": "Reveal thread, read in full (images not read)",
         "url": "https://www.chiefdelphi.com/t/493591",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s1"
       },
       {
-        "what": "Forum thread listed on the team page",
+        "what": "CAD and code release thread, read in full (images not read)",
         "url": "https://www.chiefdelphi.com/t/501460",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s1"
       },
       {
-        "what": "Video listed on the team page (not watched)",
+        "what": "SubZero robot POV, Finals 1 of the PNW district championship (not watched)",
         "url": "https://www.youtube.com/watch?v=QjgmQr1kNBo",
         "format": "video",
         "state": "listed",
         "src": "s1"
       },
       {
-        "what": "Video listed on the team page (not watched)",
-        "url": "https://www.youtube.com/watch?v=SkbpHfbKaIE",
+        "what": "Reveal video (not watched)",
+        "url": "https://www.youtube.com/watch?v=phEZEa4yo0o",
         "format": "video",
         "state": "listed",
         "src": "s1"
       },
       {
-        "what": "Video listed on the team page (not watched)",
-        "url": "https://www.youtube.com/watch?v=phEZEa4yo0o",
+        "what": "Behind the Bumpers interview (transcript read)",
+        "url": "https://www.youtube.com/watch?v=pStoPwcBj98",
+        "format": "video",
+        "state": "opened",
+        "src": "s4"
+      },
+      {
+        "what": "Short video of the centering and handoff in auto (not watched)",
+        "url": "https://youtube.com/shorts/6BC1oIhyX-A",
         "format": "video",
         "state": "listed",
-        "src": "s1"
+        "src": "s16"
       }
     ],
     "documents": [],
     "code": [
       {
-        "what": "Team GitHub account (no season release identified)",
+        "what": "Team GitHub account",
         "url": "https://github.com/first1778",
         "format": "GitHub",
         "state": "listed",
         "src": "s1"
+      },
+      {
+        "what": "2025-Robot-Code-Public, Kotlin",
+        "url": "https://github.com/FIRST1778/2025-Robot-Code-Public",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s34"
       }
     ]
   },
   "searched": [
     "The Blue Alliance team page",
     "community CAD sheet",
-    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)"
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "both team threads in full, team website, and a web search for a technical binder"
   ],
   "results": {
     "division": "Newton",

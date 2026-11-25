@@ -3,7 +3,7 @@
   "season": 2022,
   "team": "148",
   "team_name": "Robowranglers",
-  "robot_name": null,
+  "robot_name": "Quickdraw",
   "variant": null,
   "sources": {
     "s1": {
@@ -17,9 +17,131 @@
       "url": "https://www.thebluealliance.com/event/2022hop",
       "publisher": "The Blue Alliance",
       "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "Behind the Bumpers: 148 Robowranglers, Rapid React",
+      "url": "https://www.youtube.com/watch?v=qvxmqMO1hv8",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Robowranglers 2022 reveal: Quickdraw",
+      "url": "https://www.chiefdelphi.com/t/404469",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Team148 FRC-2022 README",
+      "url": "https://github.com/Team148/FRC-2022/blob/85e8e35ea87a2b87ee59afb20156d5b6f0a9d441/README.md",
+      "publisher": "Team 148 on GitHub",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "FUNalysis: Texas DCMP Grand Finals 2, 148 tips back over",
+      "url": "https://www.youtube.com/watch?v=W0x1eumyPxk",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Rapid React Defense (post 9)",
+      "url": "https://www.chiefdelphi.com/t/407127/9",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Request for pit scouting data from CMP please (post 3)",
+      "url": "https://www.chiefdelphi.com/t/410352/3",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "How does 254's squishy mode on their laterator work? (post 3)",
+      "url": "https://www.chiefdelphi.com/t/436037/3",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "FRC Recap: Championship Divisions and Einstein, Rapid React",
+      "url": "https://www.youtube.com/watch?v=vKLxBkhyMwg",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "RoboZone Podcast episode 160: FRC design process with Team 148",
+      "url": "https://www.youtube.com/watch?v=aWT0gc3P2kQ",
+      "publisher": "RoboZone Show",
+      "read": "2026-11-25"
     }
   },
   "story": {
+    "auto": [
+      {
+        "text": "In the Irving playoffs, with 3310's auto on the feeder side, 148 scored its preload and the nearest ball from the hangar side, then collected two blue balls and put them in red's hangar zone.",
+        "basis": "observer",
+        "src": [
+          "s7"
+        ]
+      },
+      {
+        "text": "Hopper pit scouting posted on the forum lists five high shots in auto.",
+        "basis": "observer",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The intake comes down low over bouncing cargo and passes it to the indexer, which stops at a limit switch. A color sensor reads it, and a wrong-color ball is sent away from the other alliance. The turret shoots, with a favored spot around the hangar truss.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "It starts at the second rung and locks on, rotates its arm to lock on the third, rotates again to hook the traversal rung, then lifts its arm to hang there.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      },
+      {
+        "text": "Pit scouting lists a climb of about 5 s or less.",
+        "basis": "observer",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "Tipped over in the second Texas championship final, the drive team tried the climber; its arm and a push from a partner stood the robot up, and it went on to a traversal climb.",
+        "basis": "observer",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "The turret cannot really shoot in one position, because the hanging mechanism is there.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "The intake came after several mini prototypes. Leaning on walls to collect was destroying the side foam wheels, so the team added guards it calls finger guns.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
     "outcome": [
       {
         "text": "60-14-1 in official play; finalist in the Hopper division; ranked 25 by championship OPR (54.33, Hopper).",
@@ -31,8 +153,321 @@
       }
     ]
   },
-  "functions": [],
-  "decisions": [],
+  "functions": [
+    {
+      "name": "Inverted swerve",
+      "solves": [
+        {
+          "text": "Slip away from defenders that pin the robot, and complement the turret's targeting",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "drive"
+      ],
+      "type": "swerve with motors low",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Falcons sit toward the bottom instead of on top",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "The team says it had only one wire hump to drive over, unlike past years",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "In the second Texas championship final it hit a floor bump at full speed, seemed to brake at once, and tipped right over; the host was not sure why",
+          "basis": "observer",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "solves": [
+        {
+          "text": "Collect cargo that bounces",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "motor-driven drop-down roller intake",
+      "pieces": [
+        "cargo"
+      ],
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "Goes down to a low stance so bouncing balls do not bounce out",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Multiple rollers keep a good grip on the balls",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Side guards, the finger guns, protect the side foam wheels when collecting against a wall",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "A forum post says a very low current limit let outside forces push the intake in without breaking it",
+          "basis": "observer",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Collecting against walls was destroying the side foam wheels until the guards were added",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Indexer",
+      "solves": [
+        {
+          "text": "Hold one ball ready to shoot and reject the wrong color",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "transfer",
+        "retain",
+        "sense"
+      ],
+      "type": "indexer with limit switch and color sensor",
+      "pieces": [
+        "cargo"
+      ],
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "The ball passes a 3D printed part with Velcro, then rises into the indexer until it touches a limit switch",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "A color sensor tells which alliance's ball it is",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "A wrong-color ball is sent out another way so the other alliance cannot grab it, mainly shot straight up",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Turret shooter",
+      "solves": [
+        {
+          "text": "Turn the shooter in nearly any direction",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "position",
+        "deliver"
+      ],
+      "type": "turreted flywheel shooter",
+      "pieces": [
+        "cargo"
+      ],
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "Mounted on a routered gear that turns the turret",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Pit scouting lists a tall, turreted multi-flywheel scorer",
+          "basis": "observer",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "One turret position is blocked by the hanging mechanism",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Go from the second rung to the traversal rung",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "rotating arm climber, second rung to traversal",
+      "serves": [
+        "rung-traversal"
+      ],
+      "facts": [
+        {
+          "text": "Zip tied down; turning it slightly lets springs shoot it up",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Each rotation of the arm reaches the next rung",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "In a Hopper playoff match a partner lining up to climb got stuck underneath it and their climb points were lost",
+          "basis": "observer",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Righting the robot in the Texas final tore climber wires out of a partner, which then could not climb",
+          "basis": "observer",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rung clamps",
+      "solves": [
+        {
+          "text": "Stay attached to a rung while the robot rotates, then let go",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "passive latching hooks with servo release",
+      "serves": [
+        "rung-traversal"
+      ],
+      "facts": [
+        {
+          "text": "The bar pushes small hooks, which lock behind it so it cannot escape while the robot rotates",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Linear servos slide a panel that releases the hooks",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Deploy the intake by motor",
+      "because": "the team has more control over it, and it can come back up for hanging and other actions",
+      "instead_of": "pneumatics",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "Put the swerve motors toward the bottom",
+      "because": "on top they waste space",
+      "instead_of": "Falcons on top",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "Make a CNC routed prototype of every subsystem",
+      "because": "the head coach, in week two of the build, wanted to try as many ideas as fast as possible with high-fidelity prototypes",
+      "instead_of": "plywood and a drill, which it still sometimes uses",
+      "basis": "team",
+      "src": [
+        "s11"
+      ]
+    }
+  ],
   "assets": {
     "cad": [],
     "graphics": [
@@ -51,14 +486,36 @@
         "src": "s1"
       },
       {
-        "what": "Video listed on the team page (not watched)",
+        "what": "Quickdraw reveal video (not watched)",
         "url": "https://www.youtube.com/watch?v=tVhXE8RNocU",
         "format": "video",
         "state": "listed",
         "src": "s1"
+      },
+      {
+        "what": "Pit interview (captions read, not watched)",
+        "url": "https://www.youtube.com/watch?v=qvxmqMO1hv8",
+        "format": "video",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "Analysis of the tip and recovery in the Texas final (captions read, not watched)",
+        "url": "https://www.youtube.com/watch?v=W0x1eumyPxk",
+        "format": "video",
+        "state": "listed",
+        "src": "s6"
       }
     ],
-    "documents": [],
+    "documents": [
+      {
+        "what": "Reveal thread",
+        "url": "https://www.chiefdelphi.com/t/404469",
+        "format": "thread",
+        "state": "opened",
+        "src": "s4"
+      }
+    ],
     "code": [
       {
         "what": "Team GitHub account (no season release identified)",
@@ -66,13 +523,21 @@
         "format": "GitHub",
         "state": "listed",
         "src": "s1"
+      },
+      {
+        "what": "Quickdraw code (README read)",
+        "url": "https://github.com/Team148/FRC-2022",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s5"
       }
     ]
   },
   "searched": [
     "The Blue Alliance team page",
     "community CAD sheet",
-    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)"
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "web and forum searches for a Quickdraw binder, CAD and interviews"
   ],
   "results": {
     "division": "Hopper",

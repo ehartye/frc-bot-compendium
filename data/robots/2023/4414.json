@@ -3,7 +3,7 @@
   "season": 2023,
   "team": "4414",
   "team_name": "HighTide",
-  "robot_name": null,
+  "robot_name": "Tsunami",
   "variant": null,
   "sources": {
     "s1": {
@@ -17,9 +17,338 @@
       "url": "https://www.thebluealliance.com/event/2023hop",
       "publisher": "The Blue Alliance",
       "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "Behind the Bumpers | 4414 HighTide | World Champions | Bonus Pit Tour (automatic captions)",
+      "url": "https://www.youtube.com/watch?v=URZEkOANGHQ",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Limited Propulsion | FRC Roundup Ep. 22 | 4414 HighTide (automatic captions)",
+      "url": "https://www.youtube.com/watch?v=pYH6lFzkNyI",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Lessons learned 2023, the positive, post 76",
+      "url": "https://www.chiefdelphi.com/t/435703/76",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Team 4414 | HighTide | 2023 Robot: Tsunami, post 212",
+      "url": "https://www.chiefdelphi.com/t/428584/212",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Best robots of 2023, post 17",
+      "url": "https://www.chiefdelphi.com/t/444588/17",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Team 4414 | HighTide | 2023 Robot: Tsunami, post 55",
+      "url": "https://www.chiefdelphi.com/t/428584/55",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Team 4414 | HighTide | 2023 Robot: Tsunami, post 91",
+      "url": "https://www.chiefdelphi.com/t/428584/91",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Team 4414 | HighTide | 2023 Robot: Tsunami, post 182",
+      "url": "https://www.chiefdelphi.com/t/428584/182",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Team 4414 | HighTide | 2023 Robot: Tsunami, post 187",
+      "url": "https://www.chiefdelphi.com/t/428584/187",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Team 4414 | HighTide | 2023 Robot: Tsunami, post 36",
+      "url": "https://www.chiefdelphi.com/t/428584/36",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "Team 4414 | HighTide | 2023 Robot: Tsunami, post 37",
+      "url": "https://www.chiefdelphi.com/t/428584/37",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "Team 4414 | HighTide | 2023 Robot: Tsunami, post 103",
+      "url": "https://www.chiefdelphi.com/t/428584/103",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "Team 4414 | HighTide | 2023 Robot: Tsunami, post 97",
+      "url": "https://www.chiefdelphi.com/t/428584/97",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "Team 4414 | HighTide | 2023 Robot: Tsunami, post 73",
+      "url": "https://www.chiefdelphi.com/t/428584/73",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "Team 4414 | HighTide | 2023 Robot: Tsunami, post 118",
+      "url": "https://www.chiefdelphi.com/t/428584/118",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "Team 4414 | HighTide | 2023 Robot: Tsunami, post 79",
+      "url": "https://www.chiefdelphi.com/t/428584/79",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "Team 4414 | HighTide | 2023 Robot: Tsunami, post 89",
+      "url": "https://www.chiefdelphi.com/t/428584/89",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "Team 4414 | HighTide | 2023 Robot: Tsunami, post 122",
+      "url": "https://www.chiefdelphi.com/t/428584/122",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "Team 4414 | HighTide | 2023 Robot: Tsunami, post 120",
+      "url": "https://www.chiefdelphi.com/t/428584/120",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s22": {
+      "title": "Team 4414 | HighTide | 2023 Robot: Tsunami, post 155",
+      "url": "https://www.chiefdelphi.com/t/428584/155",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s23": {
+      "title": "Team 4414 | HighTide | 2023 Robot: Tsunami, post 138",
+      "url": "https://www.chiefdelphi.com/t/428584/138",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s24": {
+      "title": "Team 4414 | HighTide | 2023 Robot: Tsunami, post 165",
+      "url": "https://www.chiefdelphi.com/t/428584/165",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s25": {
+      "title": "Team 4414 | HighTide | 2023 Robot: Tsunami, post 167",
+      "url": "https://www.chiefdelphi.com/t/428584/167",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s26": {
+      "title": "Team 4414 | HighTide | 2023 Robot: Tsunami, post 237",
+      "url": "https://www.chiefdelphi.com/t/428584/237",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s27": {
+      "title": "Team 4414 | HighTide | 2023 Robot: Tsunami, post 170",
+      "url": "https://www.chiefdelphi.com/t/428584/170",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s28": {
+      "title": "Team 4414 | HighTide | 2023 Robot: Tsunami, post 250",
+      "url": "https://www.chiefdelphi.com/t/428584/250",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s29": {
+      "title": "Team 4414 | HighTide | 2023 Robot: Tsunami, post 111",
+      "url": "https://www.chiefdelphi.com/t/428584/111",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s30": {
+      "title": "4414 button board and trajectory thread, post 5",
+      "url": "https://www.chiefdelphi.com/t/444549/5",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s31": {
+      "title": "4414 button board and trajectory thread, post 8",
+      "url": "https://www.chiefdelphi.com/t/444549/8",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s32": {
+      "title": "Lessons learned 2023, the negative, post 33",
+      "url": "https://www.chiefdelphi.com/t/435704/33",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s33": {
+      "title": "Lessons learned 2023, the negative, post 28",
+      "url": "https://www.chiefdelphi.com/t/435704/28",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s34": {
+      "title": "4414 button board and trajectory thread, post 13",
+      "url": "https://www.chiefdelphi.com/t/444549/13",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s35": {
+      "title": "Team 4414 | HighTide | 2023 Robot: Tsunami, post 35",
+      "url": "https://www.chiefdelphi.com/t/428584/35",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s36": {
+      "title": "Team 4414 | HighTide | 2023 Robot: Tsunami, post 150",
+      "url": "https://www.chiefdelphi.com/t/428584/150",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s37": {
+      "title": "Team SCREAM 4522 build thread, post 7",
+      "url": "https://www.chiefdelphi.com/t/442547/7",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
     }
   },
   "story": {
+    "bet": [
+      {
+        "text": "Drive physically faster: the team says it realized early that this was the easiest way to shorten cycles at a higher level, and built a 12-motor swerve drive.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "Cubes first: the team acquired them much faster than cones and preferred them, though it called itself fast at both.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      },
+      {
+        "text": "At the championship the lead mentor called cones its weak spot. With most cubes covered, and the supply of cubes running out, its alliance sought third and fourth robots that could do cones.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "An observer credits the winning alliance with shuffling cubes across the field into hybrid nodes.",
+        "basis": "observer",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "Before an off-season rework it had been doing \"two mids and a high\" in auto.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      },
+      {
+        "text": "One table gives it 2.0 auto pieces and 14.8 auto points per championship qualification match.",
+        "basis": "observer",
+        "src": [
+          "s7"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "A cube passes through the wide elevator into the claw, or the claw takes a cone. The operator presses a button for one of 27 scoring locations; the robot generates a path and an elevator command. A cone is dropped straight down onto the node. Once the piece has left, the elevator lowers by itself.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "Battery: the team called itself incredibly battery limited, set current limits only to finish a match without brownouts, and used the whole battery.",
+        "basis": "team",
+        "src": [
+          "s8",
+          "s9"
+        ]
+      },
+      {
+        "text": "The lead mentor says it made a lot of compromises for that drivetrain, and that the collisions drew many red cards, especially at its first event.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "It stayed at maximum weight, to drive straight without going around congestion.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "Falcon v3 motors drew far more current and were instantly swapped back to v2.1.",
+        "basis": "team",
+        "src": [
+          "s11"
+        ]
+      },
+      {
+        "text": "The cube intake was a late addition.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      },
+      {
+        "text": "On 28 March, when a poster called it a mid-season drivetrain change, the team said everything but the elevator got some rework from it.",
+        "basis": "team",
+        "src": [
+          "s12",
+          "s13"
+        ]
+      },
+      {
+        "text": "After two regionals the arm pivot got a second motor for \"the crawl\".",
+        "basis": "team",
+        "src": [
+          "s14"
+        ]
+      },
+      {
+        "text": "Off-season: a 1323-style arm and wrist replaced the four-bar.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
     "outcome": [
       {
         "text": "60-10-1 in official play; won the Hopper division; pick 1 of the Hopper alliance on Einstein; won the championship; ranked 31 by championship OPR (68.05, Hopper).",
@@ -31,10 +360,515 @@
       }
     ]
   },
-  "functions": [],
-  "decisions": [],
+  "functions": [
+    {
+      "name": "12-motor swerve",
+      "solves": [
+        {
+          "text": "Shorten cycles by driving faster, in a straight line across the field without going around congestion",
+          "basis": "team",
+          "src": [
+            "s3",
+            "s10"
+          ]
+        }
+      ],
+      "does": [
+        "drive"
+      ],
+      "type": "swerve with two drive motors per module",
+      "serves": [],
+      "facts": [
+        {
+          "text": "SDS MK4i modules with a custom top plate; the second drive motor meshes with the same main drive gear",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Motors on the robot, all Falcons, 12 of them on the drive",
+          "basis": "team",
+          "src": [
+            "s9",
+            "s15"
+          ],
+          "value": 20,
+          "unit": "motors"
+        },
+        {
+          "text": "A 25-tooth pinion meshes both motors with a 50-tooth gear without a custom SDS bottom plate; L2 or L3 gears with it would be geared too high",
+          "basis": "team",
+          "src": [
+            "s16"
+          ]
+        },
+        {
+          "text": "The pinion is a standard hex-bore gear on a Falcon spline adapter",
+          "basis": "team",
+          "src": [
+            "s17"
+          ]
+        },
+        {
+          "text": "Hypothetical top speed, about (automatic captions)",
+          "basis": "team",
+          "src": [
+            "s3"
+          ],
+          "value": 23.3,
+          "unit": "ft/s"
+        },
+        {
+          "text": "The first module was a clip-on unit, made before the team knew whether it was any good or left enough motors",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "FOC on the motors, which the team says allows lower and lighter gear ratios",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Weight without bumpers",
+          "basis": "team",
+          "src": [
+            "s18",
+            "s19"
+          ],
+          "value": 124.9,
+          "unit": "lb"
+        },
+        {
+          "text": "Frame 26x26, against 30x30 in 2022, so it could not afford the 1 in module inset of 2022; rails are 2x1",
+          "basis": "team",
+          "src": [
+            "s20",
+            "s21"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Tuned to run about 2:45 to 3:00 before browning out on v2.1 Falcons",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "With v3 Falcons the team saw around 150% more current and about 50 s before browning out; it does not know why",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Continuous belt elevator",
+      "solves": [
+        {
+          "text": "Lift with a compact gearbox and little maintenance",
+          "basis": "team",
+          "src": [
+            "s22",
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "slanted continuous elevator with belts inside the tubes",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Reduction to a 36-tooth pulley and 18 mm wide HTD5 belt",
+          "basis": "team",
+          "src": [
+            "s22"
+          ],
+          "value": 5.6,
+          "unit": ":1"
+        },
+        {
+          "text": "Two motors, packaged in line with the bottom 2x2 to maximize travel and overlap",
+          "basis": "team",
+          "src": [
+            "s9",
+            "s22"
+          ]
+        },
+        {
+          "text": "Belts run between the stages inside the tubes, after 971 in 2011, 2910 in 2018 and 1323 in 2019; redirects are kept few",
+          "basis": "team",
+          "src": [
+            "s22",
+            "s23"
+          ]
+        },
+        {
+          "text": "WCP inline bearing blocks with 0.75 in bearings on all surfaces, after many small bearings cracked or wore into tubes",
+          "basis": "team",
+          "src": [
+            "s22"
+          ]
+        },
+        {
+          "text": "Idlers have no teeth, so the belt wraps a radius below its maker's minimum with less friction",
+          "basis": "team",
+          "src": [
+            "s24",
+            "s25"
+          ]
+        },
+        {
+          "text": "A machined block and cam tension the belt; four 10-32 screws clamp it to the 2x1",
+          "basis": "team",
+          "src": [
+            "s22"
+          ]
+        },
+        {
+          "text": "Four constant-force springs pull the middle stages down because of the pass-over; the slant also reduces the help from gravity",
+          "basis": "team",
+          "src": [
+            "s22",
+            "s26"
+          ]
+        },
+        {
+          "text": "Aim: bearing centers always this far apart, more than",
+          "basis": "team",
+          "src": [
+            "s27"
+          ],
+          "value": 6,
+          "unit": "in"
+        },
+        {
+          "text": "Stage stops cut from aluminum bent; stainless steel ones held",
+          "basis": "team",
+          "src": [
+            "s27"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "A huge upfront investment that takes precision and careful assembly",
+          "basis": "team",
+          "src": [
+            "s22"
+          ]
+        },
+        {
+          "text": "Three to four sets of constant-force springs over the season; the team's least favorite part of the elevator",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "The team says it is not low-hanging fruit: most teams would gain more from commercial parts and a better scoring subsystem",
+          "basis": "team",
+          "src": [
+            "s28"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Virtual non-parallel four-bar arm",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Take cones that stand up or lie tipped towards the robot, and reach feeder and scoring positions, with one arm motion",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "position",
+        "acquire",
+        "deliver"
+      ],
+      "type": "chain virtual four-bar with a roller claw",
+      "serves": [
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Sprockets of different size at each end turn the claw through the arm's motion",
+          "basis": "team",
+          "src": [
+            "s29"
+          ]
+        },
+        {
+          "text": "Turnbuckles on each side tune the angles",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Cones are dropped straight down onto the node, for more precise scoring",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "The stow angle keeps the center of gravity low when crossing the field",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "The pivot uses 20 DP gears to save weight",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Two motors on the pivot and one on the claw; the second pivot motor came after the first two regionals, so the arm could lift the robot for \"the crawl\"",
+          "basis": "team",
+          "src": [
+            "s9",
+            "s14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cube intake",
+      "pieces": [
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Make cube cycles faster than any others and hand the cube to the claw",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "transfer"
+      ],
+      "type": "pass-through cube intake",
+      "serves": [
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "The wide elevator leaves room for the cube to pass through",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Rollers, tapes and plain Lexan sections guide the cube into the claw",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "One motor for the rollers and one for the pivot",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Button board and auto drive",
+      "solves": [
+        {
+          "text": "Make scoring as fast and easy as possible for the drivers",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "operator-selected auto drive with on-the-fly trajectories",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Buttons, one per scoring location",
+          "basis": "team",
+          "src": [
+            "s3"
+          ],
+          "value": 27,
+          "unit": "buttons"
+        },
+        {
+          "text": "A press gives a pose, a trajectory from the current velocity and heading, and the elevator command for that height",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Three Limelights give almost 180 degrees of view; the camera with the largest target area is used",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Position comes from a pinhole model of the distance to each tag, fused with odometry in WPILib's SwerveDrivePoseEstimator",
+          "basis": "team",
+          "src": [
+            "s30"
+          ]
+        },
+        {
+          "text": "The pinhole model gave far better results than Limelight's 3D tag tracking",
+          "basis": "team",
+          "src": [
+            "s31"
+          ]
+        },
+        {
+          "text": "A poster saw green lights while it placed cones and assumed retroreflective targets were used at some point; another says it used AprilTags",
+          "basis": "observer",
+          "src": [
+            "s32",
+            "s33"
+          ]
+        },
+        {
+          "text": "Off-season, a tower was added for more reliable tracking of the retroreflective tape and a back-facing Limelight, previously difficult on the low side of the slanted elevator",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Sensors on the arm and in the intake detect cones and cubes; the elevator lowers by itself when the piece is gone, or once one is held at the feeder",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "It did not use vision to detect cones and cubes",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The team calls it one of its lowest-return optimizations: a straight-line PID drive took about 10% of the effort in the off-season and did as well, at times better",
+          "basis": "team",
+          "src": [
+            "s30"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Two drive motors per module",
+      "because": "driving faster was the easiest way to shorten cycles, and a lack of endgame left motors to play with",
+      "cost": "the team was incredibly battery limited",
+      "basis": "team",
+      "src": [
+        "s3",
+        "s8"
+      ]
+    },
+    {
+      "choice": "Stay at maximum weight",
+      "because": "the advantage was driving straight across without going around congestion",
+      "instead_of": "a lighter, faster robot, such as 90 lb at 25 fps",
+      "cost": "a lighter robot would be much more forgiving on the battery",
+      "basis": "team",
+      "src": [
+        "s10"
+      ]
+    },
+    {
+      "choice": "Belt-driven elevator",
+      "because": "it is compact, and rigid belts in the tubes are easy to rig",
+      "instead_of": "chain, cable or cord in the tubes",
+      "cost": "a large upfront effort in precision and assembly",
+      "basis": "team",
+      "src": [
+        "s22"
+      ]
+    },
+    {
+      "choice": "Generate a trajectory to the node",
+      "because": "it handled edge cases better, such as a driver fully at the wrong node when auto drive starts",
+      "instead_of": "driving directly to the target, biased PID gains, or a point a few feet in front",
+      "basis": "team",
+      "src": [
+        "s34"
+      ]
+    },
+    {
+      "choice": "Alliance partners who run cones",
+      "because": "most cubes were covered and the alliance was running out of cubes",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    }
+  ],
   "assets": {
-    "cad": [],
+    "cad": [
+      {
+        "what": "The team said it was not planning to release CAD",
+        "format": "none",
+        "state": "withheld",
+        "src": "s36"
+      },
+      {
+        "what": "Team 4522's copy of the elevator, made from the team's write-up (not the team's own model)",
+        "url": "https://cad.onshape.com/documents/d7302bb90019445e0113152f/w/4670b950f9dae311e1fb60b2/e/7ee500953cdc2ffe19b30fad",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s37"
+      }
+    ],
     "graphics": [
       {
         "what": "Photo listed on the team page (not opened)",
@@ -51,21 +885,43 @@
         "src": "s1"
       },
       {
-        "what": "Video listed on the team page (not watched)",
+        "what": "Behind the Bumpers interview and pit tour (transcript read)",
         "url": "https://www.youtube.com/watch?v=URZEkOANGHQ",
+        "format": "video",
+        "state": "opened",
+        "src": "s1"
+      },
+      {
+        "what": "Reveal video, TSUNAMI (not watched)",
+        "url": "https://www.youtube.com/watch?v=yemH1sbKSQ4",
         "format": "video",
         "state": "listed",
         "src": "s1"
       },
       {
-        "what": "Video listed on the team page (not watched)",
-        "url": "https://www.youtube.com/watch?v=yemH1sbKSQ4",
+        "what": "Second team video, 28 March 2023 (not watched)",
+        "url": "https://youtu.be/aDGuixAbkjo",
         "format": "video",
         "state": "listed",
-        "src": "s1"
+        "src": "s35"
+      },
+      {
+        "what": "FRC Roundup interview with the lead mentor (transcript read)",
+        "url": "https://www.youtube.com/watch?v=pYH6lFzkNyI",
+        "format": "video",
+        "state": "opened",
+        "src": "s4"
       }
     ],
-    "documents": [],
+    "documents": [
+      {
+        "what": "Elevator write-up with pictures",
+        "url": "https://www.chiefdelphi.com/t/428584/155",
+        "format": "thread",
+        "state": "opened",
+        "src": "s22"
+      }
+    ],
     "code": [
       {
         "what": "Team GitHub account (no season release identified)",
@@ -73,13 +929,20 @@
         "format": "GitHub",
         "state": "listed",
         "src": "s1"
+      },
+      {
+        "what": "The team said it was not planning to release code",
+        "format": "none",
+        "state": "withheld",
+        "src": "s36"
       }
     ]
   },
   "searched": [
     "The Blue Alliance team page",
     "community CAD sheet",
-    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)"
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "whole Tsunami thread, team website, and web searches for a Tsunami binder"
   ],
   "results": {
     "division": "Hopper",

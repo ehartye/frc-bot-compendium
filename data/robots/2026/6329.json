@@ -3,8 +3,8 @@
   "season": 2026,
   "team": "6329",
   "team_name": "The Bucks' Wrath",
-  "robot_name": null,
-  "variant": null,
+  "robot_name": "Roman II",
+  "variant": "Roman II, also called Big Roman: the wide-drum robot built after the first event. Roman I, the turret robot, is under What changed.",
   "sources": {
     "s1": {
       "title": "Team 6329 in 2026",
@@ -23,9 +23,254 @@
       "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
       "publisher": "Spectrum 3847 community sheet",
       "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Excited to reveal our 2026 Robot: Roman",
+      "url": "https://www.chiefdelphi.com/t/515342",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Excited to reveal our 2026 Robot: Roman, post 6",
+      "url": "https://www.chiefdelphi.com/t/515342/6",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Excited to reveal our 2026 Robot: Roman, post 9",
+      "url": "https://www.chiefdelphi.com/t/515342/9",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Excited to reveal our 2026 Robot: Roman, post 10",
+      "url": "https://www.chiefdelphi.com/t/515342/10",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Excited to reveal our 2026 Robot: Roman, post 13",
+      "url": "https://www.chiefdelphi.com/t/515342/13",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Excited to reveal our 2026 Robot: Roman, post 15",
+      "url": "https://www.chiefdelphi.com/t/515342/15",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Excited to reveal our 2026 Robot: Roman, post 17",
+      "url": "https://www.chiefdelphi.com/t/515342/17",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Excited to reveal our 2026 Robot: Roman, post 19",
+      "url": "https://www.chiefdelphi.com/t/515342/19",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Excited to reveal our 2026 Robot: Roman, post 23",
+      "url": "https://www.chiefdelphi.com/t/515342/23",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "Excited to reveal our 2026 Robot: Roman, post 28",
+      "url": "https://www.chiefdelphi.com/t/515342/28",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "Behind the Bumpers: 6329 The Bucks' Wrath, REBUILT",
+      "url": "https://www.youtube.com/watch?v=GMLfgvYYfnU",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "Bucksport readies Big Roman for robot competition",
+      "url": "https://www.risingtide.media/news1/bucksport-high-school-robotics-team-big-roman-win-031126",
+      "publisher": "The Rising Tide",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "Windham Windup 2026 Build Blog, post 189",
+      "url": "https://www.chiefdelphi.com/t/508474/189",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "An Outlier's take on the 2026 worlds strategic situation",
+      "url": "https://www.chiefdelphi.com/t/519681",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "An Outlier's take on the 2026 worlds strategic situation, post 2",
+      "url": "https://www.chiefdelphi.com/t/519681/2",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "Bump pinning thread, post 71",
+      "url": "https://www.chiefdelphi.com/t/518294/71",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "Bump pinning thread, post 41",
+      "url": "https://www.chiefdelphi.com/t/518294/41",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "Bucks-Wrath/2026DriveCode",
+      "url": "https://github.com/Bucks-Wrath/2026DriveCode",
+      "publisher": "Team 6329 on GitHub",
+      "read": "2026-11-25"
     }
   },
   "story": {
+    "bet": [
+      {
+        "text": "Throughput: a wide drum shooter fed by a ball path as wide as possible with no interruptions, in place of a turret.",
+        "basis": "team",
+        "src": [
+          "s14",
+          "s11"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "Shoot and hold more fuel: the first robot's turret shot about eight balls a second, the drum about 23, and capacity went from about 35 to about 60 to 70.",
+        "basis": "team",
+        "src": [
+          "s14"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "The stowed four-bar intake does not fit under the trench, which the team calls worse for autonomous.",
+        "basis": "team",
+        "src": [
+          "s12"
+        ]
+      },
+      {
+        "text": "Before the championship, a 5687 mentor recalled its auto as the best of the New England contenders, after 2056.",
+        "basis": "observer",
+        "src": [
+          "s17"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "Fuel goes from the intake over a roller floor, through a double roller, to the drum.",
+        "basis": "team",
+        "src": [
+          "s14",
+          "s11"
+        ]
+      },
+      {
+        "text": "One button locks onto the target or onto passing.",
+        "basis": "team",
+        "src": [
+          "s14"
+        ]
+      },
+      {
+        "text": "A partner team describes aggressive fuel poaching; a poster reports a 908 point alliance score in qualifications, called a record.",
+        "basis": "observer",
+        "src": [
+          "s16",
+          "s18"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "If pose is lost, the operator presses a button that aligns without it.",
+        "basis": "team",
+        "src": [
+          "s14"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "The intake cannot pass the trench stowed.",
+        "basis": "team",
+        "src": [
+          "s12"
+        ]
+      },
+      {
+        "text": "Cast intake wheels lasted about one event plus practice.",
+        "basis": "team",
+        "src": [
+          "s12"
+        ]
+      },
+      {
+        "text": "In the New England final a defender held it at the bump; its drive coach calls it a pin that cost a cycle.",
+        "basis": "team",
+        "src": [
+          "s19"
+        ]
+      },
+      {
+        "text": "Another poster says it was beached on fuel.",
+        "basis": "observer",
+        "src": [
+          "s20"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "Roman I had a turret and spindexer.",
+        "basis": "team",
+        "src": [
+          "s5",
+          "s8"
+        ]
+      },
+      {
+        "text": "It won its first event in March, a newspaper reports.",
+        "basis": "observer",
+        "src": [
+          "s15"
+        ]
+      },
+      {
+        "text": "Seeing 5687's robot and its advice set Roman II in motion.",
+        "basis": "team",
+        "src": [
+          "s7"
+        ]
+      },
+      {
+        "text": "CAD took about four days, building about a week and a half, with about a week left to drive and code.",
+        "basis": "team",
+        "src": [
+          "s14"
+        ]
+      },
+      {
+        "text": "The new intake is more compact, after a long bar kept bending, and a third Limelight went on the shooter.",
+        "basis": "team",
+        "src": [
+          "s14"
+        ]
+      }
+    ],
     "outcome": [
       {
         "text": "61-15-1 in official play; won the Hopper division; pick 1 of the Hopper alliance on Einstein; ranked 25 by championship OPR (273.27, Hopper).",
@@ -37,19 +282,392 @@
       }
     ]
   },
-  "functions": [],
-  "decisions": [],
+  "functions": [
+    {
+      "name": "Four-bar intake",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Survive heavy impacts at midfield",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "It does not fit under the trench while stowed, which was worse for autonomous",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Wheels lasted about one event plus hours of practice; the team says stock wheels were probably the better choice for durability",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "four-bar intake with long arms",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Geometry is made to fold during impacts, and the team says it worked",
+          "basis": "team",
+          "src": [
+            "s8",
+            "s11"
+          ]
+        },
+        {
+          "text": "Arms are stacked plates of SRPP and polycarbonate with 3/8 in spacers through the pivot, driven by SplineXL",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Wheels are cast by the team in VytaFlex 30",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Short stub shafts on 3/8 hex replace full-length roller shafts to save weight",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net hopper",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Hold more fuel than the first robot",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "In a New England Championship division final the net caught in the shooter hood rollers, and with a minute and a half left it could not shoot",
+          "basis": "observer",
+          "src": [
+            "s16"
+          ]
+        }
+      ],
+      "does": [
+        "retain"
+      ],
+      "type": "netted hopper",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "The net adds about",
+          "basis": "team",
+          "src": [
+            "s14"
+          ],
+          "value": 20,
+          "unit": "balls"
+        },
+        {
+          "text": "Total capacity about 60 to 70 balls, against about 35 with the old intake",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Roller floor",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Move a full load without jamming or sagging",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "powered roller floor",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "The path is as wide as possible with no interruptions, which made jamming virtually impossible",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "3:1 reduction to the front roller, about 2:1 to the rest, on one motor",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Rollers (which ones is not said) have spread-out flex wheels for an uneven surface and less taping, with grip tape",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "It pivots on the intake's SplineXL as a dead shaft, giving access to the electronics",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Double roller feed",
+      "pieces": [
+        "fuel"
+      ],
+      "does": [
+        "transfer",
+        "deliver"
+      ],
+      "type": "two-roller feeder into the shooter",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "It pushes balls down and around a UHMW lower hood with very low compression",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "The feed plate is laser-cut UHMW sheet bolted into shape",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Feed speed was raised until it hurt the shot",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Drum shooter",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Shoot far more balls a second than the turret did",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "wide drum with adjustable hood",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Rate claimed, about",
+          "basis": "team",
+          "src": [
+            "s14"
+          ],
+          "value": 23,
+          "unit": "balls/s"
+        },
+        {
+          "text": "Aluminum tube with custom prints around it, covered in cat tongue tape",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "No lathe was big enough, so radial holes were drilled with printed guides",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "No drive parts outside it except the hood's sector gear; axles are dead",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "The adjustable hood runs on brass bushings",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pose aim",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Aim and pass with one button",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "position"
+      ],
+      "type": "AprilTag pose aim",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Limelights track AprilTags; a third one is on the shooter",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Shooter speed and hood rise with distance",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "The hood drops by itself near the trench, in a zone that grows with speed",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Drum shooter",
+      "because": "the turret shot about eight balls a second and the drum about 23",
+      "instead_of": "the first robot's turret",
+      "basis": "team",
+      "src": [
+        "s14"
+      ]
+    },
+    {
+      "choice": "Four-bar intake",
+      "because": "it folds out of the way in heavy impacts, and the team had more experience with it",
+      "instead_of": "a linear or slapdown intake",
+      "cost": "it did not fit under the trench while stowed, worse for autonomous",
+      "basis": "team",
+      "src": [
+        "s11",
+        "s12"
+      ]
+    },
+    {
+      "choice": "Roller floor",
+      "because": "a belted floor might sag under the weight of all the balls",
+      "instead_of": "a belted floor",
+      "cost": "it took experiments with traction to get the flow right",
+      "basis": "team",
+      "src": [
+        "s11"
+      ]
+    },
+    {
+      "choice": "One motor on the floor",
+      "because": "the chosen ratio ran smoothly without an aggressive current limit, so another motor gave little benefit",
+      "instead_of": "two motors",
+      "basis": "team",
+      "src": [
+        "s13"
+      ]
+    },
+    {
+      "choice": "Flex wheels and grip tape on rollers",
+      "because": "WCP silicone was out of stock and equivalent tube was expensive",
+      "instead_of": "silicone tube",
+      "basis": "team",
+      "src": [
+        "s12"
+      ]
+    },
+    {
+      "choice": "Cast intake wheels",
+      "because": "the old wheels walked on the dead-axle tubes and there were not enough for two robots",
+      "cost": "about one event plus practice of life",
+      "basis": "team",
+      "src": [
+        "s12"
+      ]
+    }
+  ],
   "assets": {
     "cad": [
       {
-        "what": "Comp Robot",
+        "what": "Roman II CAD, with links to subassemblies and the technical binder",
         "url": "https://cad.onshape.com/documents/014716f840fdbd882c1d691f/w/6f344cfa15ef9b0a4376698f/e/cd9bc0812c3416a4d99a3e17",
         "format": "Onshape",
         "state": "listed",
         "src": "s3"
       },
       {
-        "what": "Comp Robot",
+        "what": "Roman I CAD (the first robot), with links to subassemblies and its technical binder",
         "url": "https://cad.onshape.com/documents/3b751a2d7ebe31cad43f1ec9/w/018d7ee027fd82ca76baee33/e/a05e47ce92279ac81a17313e",
         "format": "Onshape",
         "state": "listed",
@@ -72,28 +690,65 @@
         "src": "s1"
       },
       {
-        "what": "Forum thread listed on the team page",
+        "what": "Reveal, CAD release and questions thread",
         "url": "https://www.chiefdelphi.com/t/515342",
         "format": "thread",
-        "state": "listed",
+        "state": "opened",
         "src": "s1"
+      },
+      {
+        "what": "Behind the Bumpers interview about Roman II (transcript read, not watched)",
+        "url": "https://www.youtube.com/watch?v=GMLfgvYYfnU",
+        "format": "video",
+        "state": "listed",
+        "src": "s14"
+      },
+      {
+        "what": "Roman I reveal video (not watched)",
+        "url": "https://www.youtube.com/watch?v=H9qyYgOK3wk",
+        "format": "video",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "Video posted before the UVM event (not watched)",
+        "url": "https://www.youtube.com/watch?v=YicqSVNQHUs",
+        "format": "video",
+        "state": "listed",
+        "src": "s6"
       }
     ],
-    "documents": [],
+    "documents": [
+      {
+        "what": "Technical binder, reached through the Roman II Onshape document",
+        "url": "https://cad.onshape.com/documents/014716f840fdbd882c1d691f/w/6f344cfa15ef9b0a4376698f/e/cd9bc0812c3416a4d99a3e17",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s8"
+      }
+    ],
     "code": [
       {
-        "what": "Team GitHub account (no season release identified)",
+        "what": "Team GitHub account",
         "url": "https://github.com/bucks-wrath",
         "format": "GitHub",
         "state": "listed",
         "src": "s1"
+      },
+      {
+        "what": "2026DriveCode (Roman I only: turret and spindexer; last push in January 2026)",
+        "url": "https://github.com/Bucks-Wrath/2026DriveCode",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s21"
       }
     ]
   },
   "searched": [
     "The Blue Alliance team page",
     "community CAD sheet",
-    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)"
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "web searches for the 6329 binder, news and Hopper run, Chief Delphi thread 515342 in full; the binders inside the Onshape documents were not opened"
   ],
   "results": {
     "division": "Hopper",

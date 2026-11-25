@@ -3,7 +3,7 @@
   "season": 2026,
   "team": "1114",
   "team_name": "Simbotics",
-  "robot_name": null,
+  "robot_name": "Simbot Tim",
   "variant": null,
   "sources": {
     "s1": {
@@ -23,9 +23,231 @@
       "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
       "publisher": "Spectrum 3847 community sheet",
       "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "1114 Simbotics | Behind the Bumpers | FRC REBUILT Robot (automatic captions)",
+      "url": "https://www.youtube.com/watch?v=ksvuenS2gGY",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "2026-Simbot-Tim README",
+      "url": "https://github.com/Simbotics/2026-Simbot-Tim/blob/b02f50832cc0ca7694798f61d41cf230edfd62b8/README.md",
+      "publisher": "Team 1114 on GitHub",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Simbot Tim (2026)",
+      "url": "https://www.simbotics.org/robots/2026-tim",
+      "publisher": "Team 1114",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Best Alliance Combos in REBUILT - FRC FUNalysis (automatic captions)",
+      "url": "https://www.youtube.com/watch?v=Ft9xWiwDQEQ",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Tips to Win the Championship - FRC FUNalysis (automatic captions)",
+      "url": "https://www.youtube.com/watch?v=Aln5Wp0ieaE",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Fuel Theft is going to break the Meta wide open - FRC Strategy Analysis (automatic captions)",
+      "url": "https://www.youtube.com/watch?v=BT2P26TOLwo",
+      "publisher": "RoboReplay",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Team 1114 Simbotics 2026 code release",
+      "url": "https://www.chiefdelphi.com/t/524512",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Team 1114 Simbotics 2026 code release, post 4",
+      "url": "https://www.chiefdelphi.com/t/524512/4",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Team 1114 Simbotics 2026 Simbot Tim CAD release, post 6",
+      "url": "https://www.chiefdelphi.com/t/522887/6",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "Rebuilt rock paper scissors, post 2",
+      "url": "https://www.chiefdelphi.com/t/521173/2",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "Rebuilt rock paper scissors, post 3",
+      "url": "https://www.chiefdelphi.com/t/521173/3",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "Team 1114 Simbotics 2026 Simbot Tim CAD release, post 5",
+      "url": "https://www.chiefdelphi.com/t/522887/5",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "Team 1114 Simbotics 2026 Simbot Tim CAD release, post 9",
+      "url": "https://www.chiefdelphi.com/t/522887/9",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "Team 1114 Simbotics 2026 Simbot Tim CAD release",
+      "url": "https://www.chiefdelphi.com/t/522887",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "Team 1114 Simbotics 2026 reveal",
+      "url": "https://www.chiefdelphi.com/t/516924",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "Team 1114 Simbotics 2026 Simbot Tim CAD release, post 3",
+      "url": "https://www.chiefdelphi.com/t/522887/3",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "Team 1114 Simbotics 2026 code release, post 6",
+      "url": "https://www.chiefdelphi.com/t/524512/6",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "Team 1114 Simbotics 2026 code release, post 7",
+      "url": "https://www.chiefdelphi.com/t/524512/7",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s22": {
+      "title": "Simbotics Resources - Robot Archive",
+      "url": "https://resources.simbotics.org/robots",
+      "publisher": "Team 1114",
+      "read": "2026-11-25"
     }
   },
   "story": {
+    "bet": [
+      {
+        "text": "A tall robot with a big drum shooter and a hopper of around 80 fuel, which the team felt was really versatile.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "The team thought a turret would not suit its play style, did not think going under the trench a good play style at the time, and felt defense would not be extreme; it says it was somewhat correct.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "Autos were made only in the PathPlanner GUI and cross the bump several times, with three Limelights correcting the pose.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      },
+      {
+        "text": "After a crossing it drives to a point before shooting, with a timeout. Time-based paths give up and return, which makes them easier to coordinate with partners.",
+        "basis": "team",
+        "src": [
+          "s11"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "Fuel goes past a kicker bar and main roller into the extending hopper, across a rolling floor, and up a roller elevator to the drum.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "In one match a host describes it filling the hopper, sending a salvo, while 2056 picks up the pockets left over.",
+        "basis": "observer",
+        "src": [
+          "s7"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "No climber: one added on March 1 was removed by March 19, before the first event, for weight, and stayed off because of how the game developed.",
+        "basis": "team",
+        "src": [
+          "s12"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "It could only cross the bump. Posters say tall robots were easy to exploit and that it struggled under more defense at the championship.",
+        "basis": "observer",
+        "src": [
+          "s9",
+          "s13",
+          "s14"
+        ]
+      },
+      {
+        "text": "In Ontario, hosts say, 2056 pushed defenders aside so it could cross, and it was perhaps heavy enough to push through.",
+        "basis": "observer",
+        "src": [
+          "s8",
+          "s9"
+        ]
+      },
+      {
+        "text": "It gave up the climber; the weight went to rollers.",
+        "basis": "team",
+        "src": [
+          "s12"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "After the first event an active wall went in front of the shooter tower, then passive side rollers, against bridging fuel.",
+        "basis": "team",
+        "src": [
+          "s15"
+        ]
+      },
+      {
+        "text": "Rollers were switched to grip tape, which raised accuracy and rate of fire.",
+        "basis": "team",
+        "src": [
+          "s16"
+        ]
+      },
+      {
+        "text": "The kicker bar, first a cloth with a metal bar that stayed out, now folds in with the hopper when crossing the bump.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
     "outcome": [
       {
         "text": "62-7-0 in official play; finalist in the Archimedes division; ranked 23 by championship OPR (281.95, Archimedes).",
@@ -37,12 +259,345 @@
       }
     ]
   },
-  "functions": [],
-  "decisions": [],
+  "functions": [
+    {
+      "name": "Intake and kicker bar",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Feed the hopper, and fold in to cross the bump",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "front roller intake on an extending hopper",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Two Kraken X60s",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Silicone roller, with safety walk on the kicker bar",
+          "basis": "team",
+          "src": [
+            "s16"
+          ]
+        },
+        {
+          "text": "The intake can vibrate, to push balls faster into the indexer or to free a robot stuck on the bump or on balls",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "The team thanks 1678 for help with its intake iterations",
+          "basis": "team",
+          "src": [
+            "s17"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Extending hopper",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Hold a lot of fuel and feed it at a steady rate without bridging",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s15"
+          ]
+        }
+      ],
+      "does": [
+        "retain",
+        "transfer"
+      ],
+      "type": "tall extending hopper with active floor and roller walls",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Holds around",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 80,
+          "unit": "fuel"
+        },
+        {
+          "text": "The top cover was inspired by the \"magic blanket\" claw of 1124 in 2008",
+          "basis": "team",
+          "src": [
+            "s18"
+          ]
+        },
+        {
+          "text": "Active floor rollers keep balls from settling on each other",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "An active wall in front of the shooter tower and passive rollers on the sides stop fuel bridging there",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "The top two rollers on the left and right spin freely; a bottom roller is powered by a Kraken X44 through a belt across the robot",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        },
+        {
+          "text": "Roller wall and side rollers are covered in cat tongue",
+          "basis": "team",
+          "src": [
+            "s16"
+          ]
+        },
+        {
+          "text": "Fewer places where balls touch a surface that does not roll made the fire rate more consistent, without raising its high end much",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Bridged fuel was a huge limit on fire rate: output could drop until all the balls in the hopper suddenly fell and the rate returned",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Roller elevator and drum shooter",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Feed fuel to the drum faster",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "transfer",
+        "deliver"
+      ],
+      "type": "roller elevator feeding a big drum with a hood",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "3 in compliant wheels feed an elevator of belted rollers up to the drum",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Rollers with cat tongue push balls down into it, added because of trouble feeding faster",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "After the switch to skateboard grip tape, shooting accuracy rose from about 80% to around 95 to 98%",
+          "basis": "team",
+          "src": [
+            "s16"
+          ]
+        },
+        {
+          "text": "The same switch added about 2 to 3 balls per second",
+          "basis": "team",
+          "src": [
+            "s16"
+          ]
+        },
+        {
+          "text": "The grip tape never had to be cleaned; only the shooter tape was changed, before the world championship",
+          "basis": "team",
+          "src": [
+            "s16"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The biggest risk of grip tape is damaging fuel, so any place where fuel could stall stayed cat tongue or silicone",
+          "basis": "team",
+          "src": [
+            "s16"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Localization",
+      "solves": [
+        {
+          "text": "Know the pose after impacts and after crossing the bump",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "three-camera AprilTag localization",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Three Limelights; MegaTag2 is always active, MegaTag1 only zeros the gyro before the robot is first enabled",
+          "basis": "team",
+          "src": [
+            "s10",
+            "s5"
+          ]
+        },
+        {
+          "text": "The shooter camera is trusted greatly when it sees three or more tags, to make aiming more consistent",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Trust in the cameras was tuned between a noisy pose and a delay before an accurate pose after the bump",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        },
+        {
+          "text": "A lookup gives RPM and angle for passing and scoring",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "LEDs show aim, zeroing and other states",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Swerve drive",
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Code is a slightly modified AdvantageKit CTRE swerve template with a team wrapper for PID control and logging",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "A poster quotes a method in the released code that drives with the center of rotation around the intake",
+          "basis": "observer",
+          "src": [
+            "s21"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Tall robot over the bump",
+      "because": "holding around 80 fuel was a good trade-off",
+      "instead_of": "a turret, or a robot that goes under the trench",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "Remove the climber",
+      "because": "it was too heavy before the first event, and the game developed so that it stayed off",
+      "basis": "team",
+      "src": [
+        "s12"
+      ]
+    },
+    {
+      "choice": "Grip tape on rollers",
+      "because": "accuracy and balls per second rose after switching and it never needed cleaning",
+      "cost": "a risk of damaging fuel where it stalls",
+      "basis": "team",
+      "src": [
+        "s16"
+      ]
+    },
+    {
+      "choice": "PathPlanner GUI for autos",
+      "because": "fuel covers a large area with several tags always in view, and it was the quickest way in a first command-based season",
+      "basis": "team",
+      "src": [
+        "s11"
+      ]
+    },
+    {
+      "choice": "Kicker bar joined to the hopper",
+      "because": "it folds in with the hopper when crossing the bump",
+      "instead_of": "a cloth with a metal bar that dropped at the start and stayed out",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    }
+  ],
   "assets": {
     "cad": [
       {
-        "what": "Comp Robot",
+        "what": "Simbot Tim CAD release (document linked by the team)",
         "url": "https://cad.onshape.com/documents/7959d159451177786d52dd9a/w/535bc31b66b0cc442967f1d0/e/a263c1a625ed8cf2484ae82f",
         "format": "Onshape",
         "state": "listed",
@@ -114,28 +669,114 @@
         "src": "s1"
       },
       {
-        "what": "Video listed on the team page (not watched)",
-        "url": "https://www.youtube.com/watch?v=VqciMgjw-SY",
+        "what": "Behind the Bumpers interview (transcript read)",
+        "url": "https://www.youtube.com/watch?v=ksvuenS2gGY",
+        "format": "video",
+        "state": "opened",
+        "src": "s4"
+      },
+      {
+        "what": "Final hopper prototype video linked by the team (not watched)",
+        "url": "https://www.youtube.com/watch?v=p2SOBnbyEKs",
         "format": "video",
         "state": "listed",
-        "src": "s1"
+        "src": "s17"
+      },
+      {
+        "what": "First hopper shot video linked by the team (not watched)",
+        "url": "https://www.youtube.com/watch?v=qejjVUnyUo0",
+        "format": "video",
+        "state": "listed",
+        "src": "s17"
+      },
+      {
+        "what": "Shooter tuning video linked by the team (not watched)",
+        "url": "https://www.youtube.com/watch?v=kd0H5UeTNJ8",
+        "format": "video",
+        "state": "listed",
+        "src": "s17"
+      },
+      {
+        "what": "Intake iterations video linked by the team (not watched)",
+        "url": "https://www.youtube.com/watch?v=_j7Bqc7DJWo",
+        "format": "video",
+        "state": "listed",
+        "src": "s17"
+      },
+      {
+        "what": "Climber video linked by the team (not watched)",
+        "url": "https://www.youtube.com/watch?v=nnzuc4KC6G4",
+        "format": "video",
+        "state": "listed",
+        "src": "s17"
+      },
+      {
+        "what": "Match video linked by the team (not watched)",
+        "url": "https://www.youtube.com/watch?v=2zttQqUApGM",
+        "format": "video",
+        "state": "listed",
+        "src": "s17"
+      },
+      {
+        "what": "Match video linked by the team (not watched)",
+        "url": "https://www.youtube.com/watch?v=ENSYo14sCzk",
+        "format": "video",
+        "state": "listed",
+        "src": "s17"
       }
     ],
-    "documents": [],
+    "documents": [
+      {
+        "what": "CAD release thread, read in full (images not read)",
+        "url": "https://www.chiefdelphi.com/t/522887",
+        "format": "thread",
+        "state": "opened",
+        "src": "s17"
+      },
+      {
+        "what": "Code release thread",
+        "url": "https://www.chiefdelphi.com/t/524512",
+        "format": "thread",
+        "state": "opened",
+        "src": "s10"
+      },
+      {
+        "what": "Team page for Simbot Tim; robot board marked not available",
+        "url": "https://www.simbotics.org/robots/2026-tim",
+        "format": "web page",
+        "state": "opened",
+        "src": "s6"
+      },
+      {
+        "what": "Robot archive, lists Simbot Tim",
+        "url": "https://resources.simbotics.org/robots",
+        "format": "web page",
+        "state": "listed",
+        "src": "s22"
+      }
+    ],
     "code": [
       {
-        "what": "Team GitHub account (no season release identified)",
+        "what": "Team GitHub account",
         "url": "https://github.com/simbotics",
         "format": "GitHub",
         "state": "listed",
         "src": "s1"
+      },
+      {
+        "what": "2026-Simbot-Tim (README read)",
+        "url": "https://github.com/Simbotics/2026-Simbot-Tim",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s10"
       }
     ]
   },
   "searched": [
     "The Blue Alliance team page",
     "community CAD sheet",
-    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)"
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "CAD, code and reveal threads, team page and archive, and web searches for a technical binder"
   ],
   "results": {
     "division": "Archimedes",

@@ -17,9 +17,60 @@
       "url": "https://www.thebluealliance.com/event/2023new",
       "publisher": "The Blue Alliance",
       "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "4522_2023Competition README",
+      "url": "https://github.com/TeamSCREAMRobotics/4522_2023Competition/blob/bc2ae32c0125bfbc5f2badf3e264adec8ab9e376/README.md",
+      "publisher": "Team SCREAM Robotics on GitHub",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Best Robots of 2023 (including off seasons), post 17",
+      "url": "https://www.chiefdelphi.com/t/444588/17",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "1156 scouting data, Newton Division",
+      "url": "https://www.chiefdelphi.com/t/436713",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
     }
   },
   "story": {
+    "auto": [
+      {
+        "text": "The released code lists a three-piece autobalance on both sides and a \"special coast auto\", and slows the robot over the cable bump.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      },
+      {
+        "text": "A forum table gives 1.7 auto pieces per championship qualification match.",
+        "basis": "observer",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The robot places automatically from its estimated pose.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      },
+      {
+        "text": "A forum table gives 8.6 teleop pieces and 3.7 links per championship qualification match. 1156's Newton scouting calls 1538 and 4522 outliers by average individual score.",
+        "basis": "observer",
+        "src": [
+          "s4",
+          "s5"
+        ]
+      }
+    ],
     "outcome": [
       {
         "text": "55-15-0 in official play; ranked 28 by championship OPR (68.46, Newton).",
@@ -31,13 +82,161 @@
       }
     ]
   },
-  "functions": [],
+  "functions": [
+    {
+      "name": "Intake",
+      "pieces": [
+        "cube"
+      ],
+      "does": [
+        "acquire",
+        "deliver"
+      ],
+      "type": "cube intake and shooter",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Takes cubes and can shoot them out of the front or the back of the robot",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vision pose estimate",
+      "solves": [
+        {
+          "text": "Place automatically from the robot's pose estimate",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "position"
+      ],
+      "type": "front and back cameras",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Front and back Limelights estimate pose from AprilTags and retroreflective tape",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Measurements are filtered on robot speed, to discard those with motion blur",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Auto trajectories",
+      "does": [
+        "sense",
+        "drive"
+      ],
+      "type": "WPILib trajectories in segments",
+      "serves": [
+        "charge-station"
+      ],
+      "facts": [
+        {
+          "text": "A constraint limits robot speed over the cable bump",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Autos are built from segments, and the superstructure can run them in teleop",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Coordinates are mirrored but can hold offsets for each alliance",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Swerve and arm control",
+      "does": [
+        "drive",
+        "position"
+      ],
+      "type": "onboard motor control",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Swerve modules and the arm run onboard Motion Magic or PID",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "The README lists hotswap modules",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "The swerve setpoint generator is credited to 254, the pose estimator to 6328 and the superstructure setup to 1678",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Device checker",
+      "solves": [
+        {
+          "text": "Know that every device is configured properly",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "device configuration check",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Prints an error to the driver station if a device cannot be configured",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    }
+  ],
   "decisions": [],
   "assets": {
     "cad": [],
     "graphics": [
       {
-        "what": "Video listed on the team page (not watched)",
+        "what": "Team SCREAM 4522 2023 Robot Reveal (not watched)",
         "url": "https://www.youtube.com/watch?v=BCpUeEkbm6k",
         "format": "video",
         "state": "listed",
@@ -52,13 +251,21 @@
         "format": "GitHub",
         "state": "listed",
         "src": "s1"
+      },
+      {
+        "what": "2023 competition code; README read at one commit",
+        "url": "https://github.com/TeamSCREAMRobotics/4522_2023Competition",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s3"
       }
     ]
   },
   "searched": [
     "The Blue Alliance team page",
     "community CAD sheet",
-    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)"
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "web, video and forum searches for a 2023 interview, CAD, binder or article"
   ],
   "results": {
     "division": "Newton",

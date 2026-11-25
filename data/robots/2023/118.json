@@ -3,8 +3,8 @@
   "season": 2023,
   "team": "118",
   "team_name": "Robonauts",
-  "robot_name": null,
-  "variant": null,
+  "robot_name": "Echo",
+  "variant": "Two robots, red and blue, kept as identical as possible",
   "sources": {
     "s1": {
       "title": "Team 118 in 2023",
@@ -23,9 +23,195 @@
       "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
       "publisher": "Spectrum 3847 community sheet",
       "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Behind the Bumpers | 118 Robonauts | Charged Up Robot (auto-captions)",
+      "url": "https://www.youtube.com/watch?v=bPuOgj_urzc",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Robonauts 2023 robot Echo, post 54",
+      "url": "https://www.chiefdelphi.com/t/429565/54",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Robonauts 2023 robot Echo, post 52",
+      "url": "https://www.chiefdelphi.com/t/429565/52",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "The Robonauts 2023 Technical Binder (Echo)",
+      "url": "https://www.118robonauts.org/_files/ugd/209e0c_40103d44bfcb4b2b877c4b14bb9d1563.pdf",
+      "publisher": "FRC Team 118",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Best Robots of 2023 (including off seasons), post 17",
+      "url": "https://www.chiefdelphi.com/t/444588/17",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Robonauts 2023 robot Echo, post 49",
+      "url": "https://www.chiefdelphi.com/t/429565/49",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Robonauts 2023 robot Echo, post 58",
+      "url": "https://www.chiefdelphi.com/t/429565/58",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Robonauts 2023 robot Echo, post 60",
+      "url": "https://www.chiefdelphi.com/t/429565/60",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Robonauts robots page",
+      "url": "https://www.118robonauts.org/robots",
+      "publisher": "FRC Team 118",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "Robonauts 2023 robot Echo, post 47",
+      "url": "https://www.chiefdelphi.com/t/429565/47",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "Robonauts Recap - FiT District Championship 2023",
+      "url": "https://www.youtube.com/watch?v=fIY_KmRrE84",
+      "publisher": "YouTube",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "Robonauts 2023 robot Echo",
+      "url": "https://www.chiefdelphi.com/t/429565",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
     }
   },
   "story": {
+    "bet": [
+      {
+        "text": "A base designed around swerve modules as far out in the corners as possible, leaving the inside of the robot for a handoff and a wide intake.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "Watching a week 3 event moved a team member from two offense robots and one defender to three offense robots in strict lanes.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      },
+      {
+        "text": "The team weighed a triple balance (10 points) against two hybrid cycles, a link and a park; balancing all three robots became the default.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "The Blooper launches the preloaded cube as soon as the match starts, so auto finishes a little faster.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "Scripted sequences, team path planning and a gyro PID for balancing.",
+        "basis": "team",
+        "src": [
+          "s7"
+        ]
+      },
+      {
+        "text": "A forum table gives 1.5 auto pieces per championship qualification match.",
+        "basis": "observer",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The driver picks cone or cube mode. In cube mode a limit switch stops the intake rollers, closes the flippers and starts the handoff; flippers hold a cone in the same place for the arm, stowed near the middle of the robot.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "A forum table gives 8.5 teleop pieces per championship qualification match.",
+        "basis": "observer",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "Carbon fiber Forks go under an alliance partner, and a four-bar lifts and tilts the robot away from the floor.",
+        "basis": "team",
+        "src": [
+          "s7"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "With all three opponents balancing, the Swiper was meant to take cubes from their loading zone for quick cycles. The triple balance was the default, so the team used it perhaps once or twice in matches.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "L2 gearing is slower but helped keep a pretty tall robot steady; a ballast of about seven or eight pounds and a stainless belly pan were added against tipping.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "A suction end effector kept weight low and handled both pieces on a prototype, but could not be packaged with a handoff of both from a separate floor intake.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "After the reveal: a lighter end effector, grout sponge rollers, L2 instead of L1 gears, a stronger belly pan and ballast. Red's frame bent during reveal filming, so the team set out to preserve and reinforce blue for the championships.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      },
+      {
+        "text": "The Edgewalker was removed after Magnolia, because triple balancing proved far easier than expected; its space took the Swiper's vacuums.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      }
+    ],
     "outcome": [
       {
         "text": "88-16-0 in official play; ranked 22 by championship OPR (69.58, Archimedes).",
@@ -37,16 +223,630 @@
       }
     ]
   },
-  "functions": [],
-  "decisions": [],
+  "functions": [
+    {
+      "name": "Chassis",
+      "solves": [
+        {
+          "text": "Keep a tall robot steady and leave the inside free",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "drive",
+        "structure"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Square frame of custom sheet metal and billet; side",
+          "basis": "team",
+          "src": [
+            "s7"
+          ],
+          "value": 26,
+          "unit": "in"
+        },
+        {
+          "text": "Swerve Drive Specialties Mk4 modules at L2, mounted \"backwards\" to increase the footprint",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Superstructure of aluminum sheet, 1/16 in",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "A stainless steel ballast plate lowers the center of gravity",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "A bumper bracket has a lip over each module plate, because plates had bent near the mounting holes the year before",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "L2 is the slower gear ratio",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arm",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "pivoting telescoping arm",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Pivot ratio on a Falcon 500",
+          "basis": "team",
+          "src": [
+            "s7"
+          ],
+          "value": 118,
+          "unit": ":1"
+        },
+        {
+          "text": "Telescope ratio on a Falcon 500",
+          "basis": "team",
+          "src": [
+            "s7"
+          ],
+          "value": 15.58,
+          "unit": ":1"
+        },
+        {
+          "text": "Shimmed hex interfaces minimize backlash",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Aluminum sheet of 0.040 in, carbon fiber telescope tubes and many Markforged printed parts",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Pick up cones from multiple directions, and cubes without popping them",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "retain",
+        "transfer"
+      ],
+      "type": "vector roller and dustpan floor intake",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Grout sponge wheels, waterjet cut, run over a pool noodle roller; sponge sticks to cones and grabs cubes",
+          "basis": "team",
+          "src": [
+            "s7",
+            "s4"
+          ]
+        },
+        {
+          "text": "Cones can enter from almost 180 degrees; the V-shaped roller brings the cone base to the back",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Roller 6.25:1 on two Falcon 500s; pivot 60:1 on a Falcon 500",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Flappers, 40:1 on a Falcon 500, center the cone and secure it through the handoff",
+          "basis": "team",
+          "src": [
+            "s7",
+            "s4"
+          ]
+        },
+        {
+          "text": "A cone detection camera, plus a plunger limit switch that works only in cube mode",
+          "basis": "team",
+          "src": [
+            "s7",
+            "s4"
+          ]
+        },
+        {
+          "text": "Bent polycarbonate takes impacts; waterjet sector gears deploy it",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "End Effector",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Take cones and cubes from the floor intake by handoff",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "retain",
+        "deliver"
+      ],
+      "type": "double-roller end effector",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Double rollers on one Falcon 500; dead-axle carbon fiber tubes save weight",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Rollers are covered in high-temperature silicone tubing",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "White rollers take the cones and an open space takes the cubes",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A simple reaction bar sits on the other end from the Everybot-style cone rollers, for cubes",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blooper",
+      "pieces": [
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Score a preloaded cube at once in auto",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "single-use catapult",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Adjustable extension spring and hard stop; servo-driven pin-puller release",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Mostly 3D printed with carbon fiber rods; the release is a drone fishing payload release",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "100% accuracy stated for championship events",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Single use",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Swiper",
+      "pieces": [
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Take cubes from the opponents' loading zone without extending outside the frame perimeter",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "retain"
+      ],
+      "type": "suction cups inside the frame perimeter",
+      "serves": [
+        "grid-low",
+        "link"
+      ],
+      "facts": [
+        {
+          "text": "Two suction cups in the bumper cutout, each with its own vacuum pump",
+          "basis": "team",
+          "src": [
+            "s6",
+            "s7"
+          ]
+        },
+        {
+          "text": "Off-the-shelf pumps were refitted with legal 775 motors, whose speed must be held to the stock motor's, about 6000 rpm",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Single-bellows cups held more firmly than double-bellows; vacuum-saving valves cut the holding force",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "A valve must vent the vacuum to release a light piece, as close to the cup as possible",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Motor current drops and stays lower once a piece is held, which can be used to detect it",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Built in about 24 to 36 hours (interview caption), three days (binder) or under four days (a team post)",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s7",
+            "s6"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "A valve on the chassis with tubing up an arm added around a second or two to the release",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Forks",
+      "solves": [
+        {
+          "text": "Lift and tilt the robot away from the floor under a partner",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "partner lift",
+      "serves": [
+        "charge-station"
+      ],
+      "facts": [
+        {
+          "text": "Solid carbon fiber rods that fit under a partner; diameter 3/4 in",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "A non-parallel four-bar lifts and tilts the robot away from the floor",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Lift 230:1 and fork deploy 28:1, each on a Falcon 500",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Over-center deploy linkage, servo-released ratchet pawl and a camera for driver alignment",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Edgewalker",
+      "solves": [
+        {
+          "text": "Balance actively with two wheels hanging off the charge station",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "powered edge rollers (removed)",
+      "serves": [
+        "charge-station"
+      ],
+      "facts": [
+        {
+          "text": "Two rollers on two BAG motors worked with the two swerve modules on the station to move sideways along its edge",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Removed after the Magnolia regional",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Not enough competitive advantage to keep improving once triple balancing proved far easier than expected",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dead-shaft end bolts",
+      "does": [
+        "structure"
+      ],
+      "type": "bolts in hollow dead shafts",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Hex bolts are machined down, drilled and hex-broached, and thread into tapped hollow tubes of 1 in outside diameter and 1/8 in wall",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Aluminum bolts are recommended over stainless for machinability",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "A hex shaft through the inside of the driving features keeps them from loosening",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Avionics",
+      "does": [
+        "structure"
+      ],
+      "type": "custom CAN and power boards",
+      "serves": [],
+      "facts": [
+        {
+          "text": "A 10-channel CAN board puts one device on each channel in a star topology",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "A power board feeds low-current devices, with four switchable channels, short-circuit, over-current and over-temperature protection and soft start",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Software",
+      "does": [
+        "sense"
+      ],
+      "type": "scripted and hybrid driver control",
+      "serves": [
+        "charge-station"
+      ],
+      "facts": [
+        {
+          "text": "C++ with Lua-scripted autonomous and driver sequences, team swerve code and path planning",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "When locked on, the driver controls translation and vision tracking controls orientation",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "The gyro feeds a PID that balances on the charge station in auto",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Rollers with a reaction bar for cubes",
+      "because": "suction on the arm could not be packaged with a handoff of both pieces from a floor intake",
+      "instead_of": "a suction end effector, which kept weight low",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    },
+    {
+      "choice": "Grout sponge intake rollers",
+      "because": "it sticks to cones, grabs cubes without tearing and is durable",
+      "instead_of": "other prototypes",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "L2 swerve gearing",
+      "because": "it helps keep the robot steady while it sprints across the field",
+      "instead_of": "L1 at the reveal",
+      "cost": "a slower speed",
+      "basis": "team",
+      "src": [
+        "s4",
+        "s9"
+      ]
+    },
+    {
+      "choice": "Add a suction Swiper between week 4 and week 5",
+      "because": "cubes lay in the opponents' loading zone while all three opponents would be balancing",
+      "cost": "used perhaps once or twice in matches",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    },
+    {
+      "choice": "Preserve the blue robot and reinforce its frame for the championship events",
+      "because": "the red robot's frame was bent during reveal filming",
+      "basis": "team",
+      "src": [
+        "s9"
+      ]
+    }
+  ],
   "assets": {
     "cad": [
       {
-        "what": "Comp Robot",
+        "what": "Echo, competition robot",
         "url": "https://grabcad.com/library/robonauts-118-2023-robot-echo-1",
         "format": "STEP/IGES",
         "state": "listed",
         "src": "s3"
+      },
+      {
+        "what": "Echo CAD, STEP archive on the team site",
+        "url": "https://www.118robonauts.org/_files/archives/209e0c_b22c659539774e9cb891321677887ee7.zip?dn=2023_Robonauts_Echo.zip",
+        "format": "STEP",
+        "state": "listed",
+        "src": "s12"
       }
     ],
     "graphics": [
@@ -58,43 +858,94 @@
         "src": "s1"
       },
       {
-        "what": "Video listed on the team page (not watched)",
-        "url": "https://www.youtube.com/watch?v=DojyJ9bZ4fk",
-        "format": "video",
-        "state": "listed",
-        "src": "s1"
-      },
-      {
-        "what": "Video listed on the team page (not watched)",
+        "what": "Robonauts Recap, Channelview 2023 (not watched)",
         "url": "https://www.youtube.com/watch?v=IzC9Ru_KzCs",
         "format": "video",
         "state": "listed",
         "src": "s1"
       },
       {
-        "what": "Video listed on the team page (not watched)",
+        "what": "Behind the Bumpers interview, championship (captions read)",
         "url": "https://www.youtube.com/watch?v=bPuOgj_urzc",
         "format": "video",
         "state": "listed",
         "src": "s1"
       },
       {
-        "what": "Video listed on the team page (not watched)",
+        "what": "The Robonauts 2023 Impact video (not about the robot)",
         "url": "https://www.youtube.com/watch?v=b_fa29P0N-w",
         "format": "video",
         "state": "listed",
         "src": "s1"
       },
       {
-        "what": "Video listed on the team page (not watched)",
+        "what": "Echo reveal video (not watched)",
         "url": "https://www.youtube.com/watch?v=f98i5S6zu9A",
         "format": "video",
         "state": "listed",
         "src": "s1"
+      },
+      {
+        "what": "Swiper on the practice field at Space City (not watched)",
+        "url": "https://www.youtube.com/watch?v=S5eLsYXQAIY",
+        "format": "video",
+        "state": "listed",
+        "src": "s6"
+      },
+      {
+        "what": "Magnolia Regional recap (not watched)",
+        "url": "https://youtu.be/9loH_MzgF40",
+        "format": "video",
+        "state": "listed",
+        "src": "s13"
+      },
+      {
+        "what": "Robonauts Recap, Houston 2023 (not watched)",
+        "url": "https://www.youtube.com/watch?v=odX8PUOp72I",
+        "format": "video",
+        "state": "listed",
+        "src": "s13"
+      },
+      {
+        "what": "Robonauts Recap, FiT District Championship 2023 (not watched)",
+        "url": "https://www.youtube.com/watch?v=fIY_KmRrE84",
+        "format": "video",
+        "state": "listed",
+        "src": "s14"
       }
     ],
-    "documents": [],
-    "code": []
+    "documents": [
+      {
+        "what": "2023 technical binder (text read, figures not)",
+        "url": "https://www.118robonauts.org/_files/ugd/209e0c_40103d44bfcb4b2b877c4b14bb9d1563.pdf",
+        "format": "PDF",
+        "state": "opened",
+        "src": "s7"
+      },
+      {
+        "what": "Echo reveal and questions thread, read in full",
+        "url": "https://www.chiefdelphi.com/t/429565",
+        "format": "thread",
+        "state": "opened",
+        "src": "s15"
+      },
+      {
+        "what": "2023 avionics boards archive on the team site",
+        "url": "https://www.118robonauts.org/_files/archives/209e0c_6541a12a8e4d4c8d9473ec3c1556c780.zip?dn=2023%20Avionics%20Boards.zip",
+        "format": "zip",
+        "state": "listed",
+        "src": "s12"
+      }
+    ],
+    "code": [
+      {
+        "what": "2023 software release archive on the team site",
+        "url": "https://www.118robonauts.org/_files/archives/209e0c_fd88b7e2e4884ca392a15802a3512b48.zip?dn=FRC118_software_release_2023.zip",
+        "format": "zip",
+        "state": "listed",
+        "src": "s12"
+      }
+    ]
   },
   "searched": [
     "The Blue Alliance team page",

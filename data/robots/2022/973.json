@@ -3,7 +3,7 @@
   "season": 2022,
   "team": "973",
   "team_name": "Greybots",
-  "robot_name": null,
+  "robot_name": "WildFire",
   "variant": null,
   "sources": {
     "s1": {
@@ -17,9 +17,108 @@
       "url": "https://www.thebluealliance.com/event/2022new",
       "publisher": "The Blue Alliance",
       "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "2022 Wildfire pit scouting information",
+      "url": "https://www.greybots.com/2022wildfire.html",
+      "publisher": "Greybots 973",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "The Robots",
+      "url": "https://www.greybots.com/the-robots.html",
+      "publisher": "Greybots 973",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Team973 2022-inseason README",
+      "url": "https://github.com/Team973/2022-inseason/blob/d4ba8955555977692bf534a268888130358c2ab0/README.md",
+      "publisher": "Team 973 on GitHub",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Behind the Bumpers: 973 Greybots at Chezy Champs (off-season robot)",
+      "url": "https://www.youtube.com/watch?v=cT4phIjFtoo",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "The Fall of the House of Tank Drive (post 119)",
+      "url": "https://www.chiefdelphi.com/t/410025/119",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "The Fall of the House of Tank Drive (post 123)",
+      "url": "https://www.chiefdelphi.com/t/410025/123",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Was there a robot that did not use pneumatics in 2022 Rapid React (post 10)",
+      "url": "https://www.chiefdelphi.com/t/436276/10",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
     }
   },
   "story": {
+    "auto": [
+      {
+        "text": "A five ball auto (preload, three on the terminal side and one from the human player) and a two ball auto, as listed before its third regional.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "Cargo is picked up from the floor over the bumper and goes by conveyor to a turreted shooter. Code sets shooting RPM from distance and uses the Limelight with the turret.",
+        "basis": "team",
+        "src": [
+          "s3",
+          "s5"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "Climbs to level 2 and level 3, returning with about 15 to 10 seconds left, as listed before its third regional. The driver steps through the climb states with a button.",
+        "basis": "team",
+        "src": [
+          "s3",
+          "s5"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "Manual overrides are always built in, so the robot does not rely on automation if something fails.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "An opponent says its swerve was dominant over this tank drive during 30 seconds of contact in Newton match 115. It agrees that 973's intake had broken early in that match.",
+        "basis": "observer",
+        "src": [
+          "s8",
+          "s7"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "Off-season (October 2022): a new robot used swerve, timing belts instead of the polycord indexer, omni wheels to funnel balls, a bar to stop balls sticking in the intake, and a shooter moved 1 in forward against unwanted backspin.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
     "outcome": [
       {
         "text": "61-16-0 in official play; won the Newton division; pick 1 of the Newton alliance on Einstein; ranked 72 by championship OPR (47.01, Newton).",
@@ -31,8 +130,259 @@
       }
     ]
   },
-  "functions": [],
-  "decisions": [],
+  "functions": [
+    {
+      "name": "West Coast Drive",
+      "does": [
+        "drive"
+      ],
+      "type": "six-wheel tank drive",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Motors",
+          "basis": "team",
+          "src": [
+            "s3"
+          ],
+          "value": 6,
+          "unit": "Falcons"
+        },
+        {
+          "text": "4 in roughtop primary wheels and 4 in Colson secondary wheels",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "An opponent judged its own swerve dominant over it in one Newton match",
+          "basis": "observer",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Frame",
+      "does": [
+        "structure"
+      ],
+      "type": "28 x 34 in frame",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Frame is 28 x 34 in",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Weight",
+          "basis": "team",
+          "src": [
+            "s3"
+          ],
+          "value": 124.5,
+          "unit": "lb"
+        },
+        {
+          "text": "A forum post lists it among robots without pneumatics",
+          "basis": "observer",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "does": [
+        "acquire"
+      ],
+      "type": "over-bumper four-bar intake",
+      "pieces": [
+        "cargo"
+      ],
+      "serves": [],
+      "facts": [
+        {
+          "text": "Floor pickup, one Falcon; the spec page calls it a Citrus Intake",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "It broke early in Newton qualification match 115, a post says",
+          "basis": "observer",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Said at an off-season event: balls were still getting stuck between the pool noodles",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Conveyor",
+      "does": [
+        "transfer"
+      ],
+      "type": "polycord conveyor",
+      "pieces": [
+        "cargo"
+      ],
+      "serves": [],
+      "facts": [
+        {
+          "text": "One Falcon and two 775pro motors",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "In season it used orange polycord belting",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Balls pushed out and stretched the cord, leaving dead zones, and the 3D printed pulleys failed after a while",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Funneling balls into it was another big issue in season",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Turret",
+      "does": [
+        "position",
+        "sense"
+      ],
+      "type": "Limelight turret",
+      "pieces": [
+        "cargo"
+      ],
+      "serves": [],
+      "facts": [
+        {
+          "text": "One Falcon; code ties it to the Limelight",
+          "basis": "team",
+          "src": [
+            "s3",
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter",
+      "does": [
+        "deliver"
+      ],
+      "type": "flywheel shooter",
+      "pieces": [
+        "cargo"
+      ],
+      "serves": [],
+      "facts": [
+        {
+          "text": "Motors",
+          "basis": "team",
+          "src": [
+            "s3"
+          ],
+          "value": 2,
+          "unit": "Falcons"
+        },
+        {
+          "text": "RPM is calculated from distance",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "The team says it just worked without a ton of tuning",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The ball met the front roller well before the back ones, giving some unwanted backspin",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climb",
+      "does": [
+        "endgame"
+      ],
+      "type": "two-Falcon climber",
+      "serves": [
+        "rung-mid",
+        "rung-high"
+      ],
+      "facts": [
+        {
+          "text": "Reaches level 2 and level 3",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "The driver changes climb states with a button",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Always build in manual overrides",
+      "because": "the robot then does not rely on automation if something fails",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    }
+  ],
   "assets": {
     "cad": [],
     "graphics": [
@@ -44,14 +394,29 @@
         "src": "s1"
       },
       {
-        "what": "Video listed on the team page (not watched)",
+        "what": "Off-season robot interview, October 2022: another robot, compared with WildFire (captions read, not watched)",
         "url": "https://www.youtube.com/watch?v=cT4phIjFtoo",
         "format": "video",
         "state": "listed",
         "src": "s1"
+      },
+      {
+        "what": "WildFire entry with photo on the team's robots page (text read)",
+        "url": "https://www.greybots.com/the-robots.html",
+        "format": "web page",
+        "state": "listed",
+        "src": "s4"
       }
     ],
-    "documents": [],
+    "documents": [
+      {
+        "what": "WildFire pit scouting page",
+        "url": "https://www.greybots.com/2022wildfire.html",
+        "format": "web page",
+        "state": "opened",
+        "src": "s3"
+      }
+    ],
     "code": [
       {
         "what": "Team GitHub account (no season release identified)",
@@ -59,13 +424,21 @@
         "format": "GitHub",
         "state": "listed",
         "src": "s1"
+      },
+      {
+        "what": "2022 in-season code (README read)",
+        "url": "https://github.com/Team973/2022-inseason",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s5"
       }
     ]
   },
   "searched": [
     "The Blue Alliance team page",
     "community CAD sheet",
-    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)"
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "team website, code README, and web, video and forum searches for an interview about the season robot"
   ],
   "results": {
     "division": "Newton",

@@ -265,6 +265,7 @@ def find(args):
 
 
 def main():
+    sys.stdout.reconfigure(encoding="utf-8")
     if len(sys.argv) < 2 or sys.argv[1] not in ("check", "story", "find"):
         raise SystemExit(__doc__)
     ss = seasons()
