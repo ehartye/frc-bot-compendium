@@ -1,0 +1,446 @@
+{
+  "id": "2022-1323",
+  "season": 2022,
+  "team": "1323",
+  "team_name": "MadTown Robotics",
+  "robot_name": null,
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 1323 in 2022",
+      "url": "https://www.thebluealliance.com/team/1323/2022",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Carver Division 2022",
+      "url": "https://www.thebluealliance.com/event/2022carv",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "1323 Robot Pictures and Technical Details?",
+      "url": "https://www.chiefdelphi.com/t/1323-robot-pictures-and-technical-details/420122",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "2022 Madtown season page: 1323 2022 FRC Season",
+      "url": "https://team1323.com/first/frc/2022-frc-season/",
+      "publisher": "team1323.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "2022 Carver F2 / FRC 1323 / Clean Robot Video",
+      "url": "https://www.youtube.com/watch?v=pSQX5c7G8yg",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "MBR MAD WIN 2022",
+      "url": "https://www.youtube.com/watch?v=7XCYHuyG_QI",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "1323 Robot Pictures and Technical Details? (post 2)",
+      "url": "https://www.chiefdelphi.com/t/420122/2",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "1323 Robot Pictures and Technical Details? (post 7)",
+      "url": "https://www.chiefdelphi.com/t/420122/7",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "1323 Robot Pictures and Technical Details? (post 10)",
+      "url": "https://www.chiefdelphi.com/t/420122/10",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Favorite 2022 Robots (post 16)",
+      "url": "https://www.chiefdelphi.com/t/412608/16",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "Who had the Fastest Traversal Climb in the World? (post 38)",
+      "url": "https://www.chiefdelphi.com/t/412515/38",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "Was there a robot that did not use pneumatics in 2022 rapid react? (post 5)",
+      "url": "https://www.chiefdelphi.com/t/436276/5",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "The search after good shooting robots (post 15)",
+      "url": "https://www.chiefdelphi.com/t/509590/15",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Swerve Drive at the 2022 Championship (post 31)",
+      "url": "https://www.chiefdelphi.com/t/410032/31",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Swerve Drive at the 2022 Championship (post 30)",
+      "url": "https://www.chiefdelphi.com/t/410032/30",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/fyOduzP",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "cycle": [
+      {
+        "text": "A spectator at the championship says it shot from most anywhere, sometimes while moving, and that shots entered the hub softly with no bounce-out they saw.",
+        "basis": "observer",
+        "src": [
+          "s7"
+        ]
+      },
+      {
+        "text": "Another post says it would frequently take opponent balls and sort them into the hangars and terminals.",
+        "basis": "observer",
+        "src": [
+          "s12"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "A post leaves it out of a list of similar quick climbs because its reach from the high rung to traversal, without a reverse hook, needed an extra swing.",
+        "basis": "observer",
+        "src": [
+          "s13"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "53-7-0 in official play; won the Carver division; pick 1 of the Carver alliance on Einstein; ranked 8 of the pooled top 20 (OPR 60.88, Carver).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Swerve drive",
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Two posts in a thread on swerve at the championship say it used off-the-shelf WCP modules, one naming the Swerve X",
+          "basis": "observer",
+          "src": [
+            "s9",
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Take bouncing cargo as well as cargo on the floor",
+          "basis": "observer",
+          "src": [
+            "s10",
+            "s7"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "fold-down over-bumper intake",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "Folds down on top of balls, which a post says worked to some degree",
+          "basis": "observer",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "A post calls its over-bumper intake slightly more effective than that of 1690",
+          "basis": "observer",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "A spectator saw it trap a few bouncing balls, pick up off the wall and take hits",
+          "basis": "observer",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "A post names it with 4414's late-season intake as a step beyond 1678's, since it can take bouncing balls",
+          "basis": "observer",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "A poster who groups it with their own team and 148 as without pneumatics says a motor-pivot intake with a single plate is much lighter than a four-bar",
+          "basis": "observer",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cargo sorter",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Eject opponent cargo to strategic places",
+          "basis": "observer",
+          "src": [
+            "s7"
+          ]
+        }
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "cargo sorter",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Sends opponent balls into the hangars and terminals",
+          "basis": "observer",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "The thread opener calls it a sideways outtake",
+          "basis": "observer",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Turret shooter",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Score from most places on the field",
+          "basis": "observer",
+          "src": [
+            "s7"
+          ]
+        }
+      ],
+      "does": [
+        "position",
+        "deliver"
+      ],
+      "type": "turret shooter",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "A post that calls it the most effective robot lists a turret, an accurate shooter and shooting while moving as things expected of top teams; a spectator saw it sometimes shoot while moving",
+          "basis": "observer",
+          "src": [
+            "s12",
+            "s7"
+          ]
+        },
+        {
+          "text": "A spectator suggests that being a bit taller, and so releasing higher than many robots, was part of the soft entry into the hub",
+          "basis": "observer",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "A post says 254, 1678 and this robot had noticeably fewer misses than 1690",
+          "basis": "observer",
+          "src": [
+            "s15"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Reach the traversal rung",
+          "basis": "observer",
+          "src": [
+            "s13"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Reaching traversal from the high rung took an extra swing, with no reverse hook",
+          "basis": "observer",
+          "src": [
+            "s13"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "swinging climb to traversal",
+      "serves": [
+        "rung-high",
+        "rung-traversal"
+      ],
+      "facts": [
+        {
+          "text": "A post that calls it the most effective robot lists a pretty fast climb as expected of top teams",
+          "basis": "observer",
+          "src": [
+            "s12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "No pneumatics",
+      "solves": [
+        {
+          "text": "Move mechanisms without an air system",
+          "basis": "observer",
+          "src": [
+            "s14"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "motor-only actuation",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Forum posts list it among robots that used no pneumatics",
+          "basis": "observer",
+          "src": [
+            "s14",
+            "s11"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "1323 Robot Pictures and Technical Details?",
+        "url": "https://www.chiefdelphi.com/t/1323-robot-pictures-and-technical-details/420122",
+        "format": "thread",
+        "state": "opened",
+        "src": "s3"
+      },
+      {
+        "what": "2022 Madtown season page: 1323 2022 FRC Season",
+        "url": "https://team1323.com/first/frc/2022-frc-season/",
+        "format": "web page",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "2022 Carver F2 / FRC 1323 / Clean Robot Video",
+        "url": "https://www.youtube.com/watch?v=pSQX5c7G8yg",
+        "format": "video",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "MBR MAD WIN 2022",
+        "url": "https://www.youtube.com/watch?v=7XCYHuyG_QI",
+        "format": "video",
+        "state": "listed",
+        "src": "s6"
+      },
+      {
+        "what": "Full robot on field, red bumpers, red cargo inside",
+        "url": "https://imgur.com/fyOduzP",
+        "img": "https://i.imgur.com/fyOduzPh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s17",
+        "kind": "robot-photo",
+        "hero": true
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/team1323",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "Chief Delphi searches \"tags:frc1323\", \"1323 in:title\", \"1323 binder\" and \"madtown 1323 climber design\" for 2022, and the team site",
+    "a forum thread says the team does not release binders or CAD"
+  ],
+  "results": {
+    "division": "Carver",
+    "division_opr": 60.88,
+    "opr_rank": 8,
+    "record": "53-7-0",
+    "einstein": {
+      "division": "Carver",
+      "role": "pick 1"
+    },
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

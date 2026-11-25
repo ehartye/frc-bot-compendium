@@ -1,0 +1,1511 @@
+{
+  "id": "2022-6328",
+  "season": 2022,
+  "team": "6328",
+  "team_name": "Mechanical Advantage",
+  "robot_name": "Bot-Bot Awakens",
+  "variant": "As played at the championship: motorized hood and redesigned climber from Greater Boston on, color sensor added before Houston",
+  "sources": {
+    "s1": {
+      "title": "Team 6328 in 2022",
+      "url": "https://www.thebluealliance.com/team/6328/2022",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Roebling Division 2022",
+      "url": "https://www.thebluealliance.com/event/2022roe",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "FRC 6328 Mechanical Advantage 2022 Build Thread",
+      "url": "https://www.chiefdelphi.com/t/frc-6328-mechanical-advantage-2022-build-thread/398645",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "6328-22-KICKOFF-MAIN (completed kickoff worksheet)",
+      "url": "https://docs.google.com/document/d/1WaAafYE6pshWqR_Tc4xV4XfwxMJMScPiVGWj6lOygSo/edit",
+      "publisher": "docs.google.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "6328 Robot Stats (2022 Championship)",
+      "url": "https://docs.google.com/document/d/1Ye1d5_1Yo2naj4rR5X6rvDmZXy_-G6mmcfCzodOmfQM/edit",
+      "publisher": "docs.google.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Mechanical-Advantage/RobotCode2022 (Bot-Bot Awakens)",
+      "url": "https://github.com/Mechanical-Advantage/RobotCode2022",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "6328 Just Did a Gremlin Auto!",
+      "url": "https://www.chiefdelphi.com/t/6328-just-did-a-gremlin-auto/409813",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "CAD & Design Update",
+      "url": "https://www.littletonrobotics.org/cad-design-update/",
+      "publisher": "littletonrobotics.org",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "Greater Boston Recap",
+      "url": "https://www.littletonrobotics.org/greater-boston-recap/",
+      "publisher": "littletonrobotics.org",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "Hood Update – FRC 6328",
+      "url": "https://www.littletonrobotics.org/hood-update/",
+      "publisher": "littletonrobotics.org",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "Initial Design Iterations",
+      "url": "https://www.littletonrobotics.org/initial-design-iterations/",
+      "publisher": "littletonrobotics.org",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "Pre Granite State Climber Update",
+      "url": "https://www.littletonrobotics.org/pre-granite-state-climber-update/",
+      "publisher": "littletonrobotics.org",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "Software Update #3: “Follow the yellow brick trajectory!”",
+      "url": "https://www.littletonrobotics.org/software-update-3-follow-the-yellow-brick-trajectory/",
+      "publisher": "littletonrobotics.org",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "Software Update #4: Pre-Competition Smorgasbord",
+      "url": "https://www.littletonrobotics.org/software-update-4-pre-competition-smorgasbord/",
+      "publisher": "littletonrobotics.org",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "Software Update #6: The Hood Trifecta",
+      "url": "https://www.littletonrobotics.org/software-update-6-the-hood-trifecta/",
+      "publisher": "littletonrobotics.org",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "Software Update #8: One Fish, Two Fish, Red Cargo, Blue Cargo",
+      "url": "https://www.littletonrobotics.org/software-update-8-one-fish-two-fish-red-cargo-blue-cargo/",
+      "publisher": "littletonrobotics.org",
+      "read": "2026-11-25"
+    },
+    "s22": {
+      "title": "5 Ball Auto | Robot Frame | CAD Overview | 6328 Mechanical Advantage | The Open Alliance Show",
+      "url": "https://www.youtube.com/watch?v=NUEpCExVE2Q",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s23": {
+      "title": "Catapult Prototype, Odometry and Scouting App 6328 Mechanical Advantage The Open Alliance",
+      "url": "https://www.youtube.com/watch?v=tybAu22mLz4",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s24": {
+      "title": "FRC 6328 Mechanical Advantage 2022 Build Thread (post 8)",
+      "url": "https://www.chiefdelphi.com/t/398645/8",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s25": {
+      "title": "FRC 6328 Mechanical Advantage 2022 Build Thread (post 20)",
+      "url": "https://www.chiefdelphi.com/t/398645/20",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s26": {
+      "title": "FRC 6328 Mechanical Advantage 2022 Build Thread (post 51)",
+      "url": "https://www.chiefdelphi.com/t/398645/51",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s27": {
+      "title": "FRC 6328 Mechanical Advantage 2022 Build Thread (post 38)",
+      "url": "https://www.chiefdelphi.com/t/398645/38",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s28": {
+      "title": "FRC 6328 Mechanical Advantage 2022 Build Thread (post 62)",
+      "url": "https://www.chiefdelphi.com/t/398645/62",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s29": {
+      "title": "FRC 6328 Mechanical Advantage 2022 Build Thread (post 48)",
+      "url": "https://www.chiefdelphi.com/t/398645/48",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s30": {
+      "title": "FRC 6328 Mechanical Advantage 2022 Build Thread (post 113)",
+      "url": "https://www.chiefdelphi.com/t/398645/113",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s31": {
+      "title": "FRC 6328 Mechanical Advantage 2022 Build Thread (post 89)",
+      "url": "https://www.chiefdelphi.com/t/398645/89",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s32": {
+      "title": "FRC 6328 Mechanical Advantage 2022 Build Thread (post 106)",
+      "url": "https://www.chiefdelphi.com/t/398645/106",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s33": {
+      "title": "FRC 6328 Mechanical Advantage 2022 Build Thread (post 118)",
+      "url": "https://www.chiefdelphi.com/t/398645/118",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s34": {
+      "title": "FRC 6328 Mechanical Advantage 2022 Build Thread (post 134)",
+      "url": "https://www.chiefdelphi.com/t/398645/134",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s35": {
+      "title": "FRC 6328 Mechanical Advantage 2022 Build Thread (post 145)",
+      "url": "https://www.chiefdelphi.com/t/398645/145",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s36": {
+      "title": "FRC 6328 Mechanical Advantage 2022 Build Thread (post 69)",
+      "url": "https://www.chiefdelphi.com/t/398645/69",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s37": {
+      "title": "FRC 6328 Mechanical Advantage 2022 Build Thread (post 65)",
+      "url": "https://www.chiefdelphi.com/t/398645/65",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s38": {
+      "title": "FRC 6328 Mechanical Advantage 2022 Build Thread (post 77)",
+      "url": "https://www.chiefdelphi.com/t/398645/77",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s39": {
+      "title": "FRC 6328 Mechanical Advantage 2022 Build Thread (post 133)",
+      "url": "https://www.chiefdelphi.com/t/398645/133",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s40": {
+      "title": "FRC 6328 Mechanical Advantage 2022 Build Thread (post 171)",
+      "url": "https://www.chiefdelphi.com/t/398645/171",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s41": {
+      "title": "FRC 6328 Mechanical Advantage 2022 Build Thread (post 59)",
+      "url": "https://www.chiefdelphi.com/t/398645/59",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s42": {
+      "title": "FRC 6328 Mechanical Advantage 2022 Build Thread (post 82)",
+      "url": "https://www.chiefdelphi.com/t/398645/82",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s43": {
+      "title": "FRC 6328 Mechanical Advantage 2022 Build Thread (post 86)",
+      "url": "https://www.chiefdelphi.com/t/398645/86",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s44": {
+      "title": "FRC 6328 Mechanical Advantage 2022 Build Thread (post 21)",
+      "url": "https://www.chiefdelphi.com/t/398645/21",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s45": {
+      "title": "FRC 6328 Mechanical Advantage 2022 Build Thread (post 112)",
+      "url": "https://www.chiefdelphi.com/t/398645/112",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s49": {
+      "title": "FRC 6328 Mechanical Advantage 2022 Build Thread (post 68)",
+      "url": "https://www.chiefdelphi.com/t/398645/68",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s50": {
+      "title": "FRC 6328 Mechanical Advantage 2022 Build Thread (post 40)",
+      "url": "https://www.chiefdelphi.com/t/398645/40",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s51": {
+      "title": "FRC 6328 Mechanical Advantage 2022 Build Thread (post 172)",
+      "url": "https://www.chiefdelphi.com/t/398645/172",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s46": {
+      "title": "1678 Robot Reveal 2022 (post 91)",
+      "url": "https://www.chiefdelphi.com/t/404113/91",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s47": {
+      "title": "6328 Just Did a Gremlin Auto! (post 31)",
+      "url": "https://www.chiefdelphi.com/t/409813/31",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s48": {
+      "title": "1678 Robot Reveal 2022 (post 90)",
+      "url": "https://www.chiefdelphi.com/t/404113/90",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s52": {
+      "title": "FRC 6328 Mechanical Advantage 2022 Build Thread (post 103)",
+      "url": "https://www.chiefdelphi.com/t/398645/103",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s53": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/q4f2Md6",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s54": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/rLKwIC7",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s55": {
+      "title": "Onshape document",
+      "url": "https://cad.onshape.com/documents/b83cb8e60cea7c17cbee6692/w/13284a7a33c1b2621631c2ee/e/ee2cff08193b9fc024e2c99f",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s56": {
+      "title": "Page this picture is from",
+      "url": "https://www.littletonrobotics.org/additional-intake-info/",
+      "publisher": "littletonrobotics.org",
+      "read": "2026-11-25"
+    },
+    "s57": {
+      "title": "Page this picture is from",
+      "url": "https://www.littletonrobotics.org/climber-hooks/",
+      "publisher": "littletonrobotics.org",
+      "read": "2026-11-25"
+    },
+    "s58": {
+      "title": "Page this picture is from",
+      "url": "https://www.chiefdelphi.com/t/frc-6328-mechanical-advantage-2022-build-thread/398645/145",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s59": {
+      "title": "Page this picture is from",
+      "url": "https://www.chiefdelphi.com/t/frc-6328-mechanical-advantage-2022-build-thread/398645/59",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s60": {
+      "title": "Page this picture is from",
+      "url": "https://www.chiefdelphi.com/t/frc-6328-mechanical-advantage-2022-build-thread/398645/90",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Have a simple robot working as early as possible, then iterate all season; the goals centered on a simple, reliable robot for the district level.",
+        "basis": "team",
+        "src": [
+          "s5",
+          "s33"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "At kickoff the low hub was non-optional: low risk, competitive points, best for the cargo ranking point, harder to defend. In tight and elimination matches the team expected a reliable upper hub scorer to be stronger. Low and mid rungs were must-haves; traversal only a could-have.",
+        "basis": "team",
+        "src": [
+          "s24"
+        ]
+      },
+      {
+        "text": "A week later passing under the low rung became a must.",
+        "basis": "team",
+        "src": [
+          "s25"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "Five cargo (February version): shoot two, then one, then two taken at the terminal, always ending at 14.9 s, without vision.",
+        "basis": "team",
+        "src": [
+          "s28",
+          "s29"
+        ]
+      },
+      {
+        "text": "A steal routine hits a staged cargo across the midline with a shot from the intake, then collects it; run on Einstein, it helped win a match by four points.",
+        "basis": "team",
+        "src": [
+          "s30",
+          "s47"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "A flexible over-bumper intake feeds omni wheels that center cargo into the tower; a color sensor lets it eject opponent cargo. The driver stops at an opening, and hood angle and flywheel speed follow the distance from odometry.",
+        "basis": "team",
+        "src": [
+          "s26",
+          "s30",
+          "s31",
+          "s32"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "The telescopes pull the robot up; passive hooks take its weight and tilt, and the telescopes hook the next rung on the swing. One button runs a timed sequence. After the redesign, missed traversals at Greater Boston came from late timing or partners in the way.",
+        "basis": "team",
+        "src": [
+          "s36",
+          "s38",
+          "s31"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "Override switches on the operator console select shooter presets when odometry is inaccurate. Shorter autos, from four cargo down to one, were kept in case the complex ones were unreliable.",
+        "basis": "team",
+        "src": [
+          "s34",
+          "s28"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "A west coast drive with no turret made accurate odometry harder to keep through a match when not shooting; the fender auto-drive was not used in competition because odometry was not reliable enough between target detections.",
+        "basis": "team",
+        "src": [
+          "s34",
+          "s40"
+        ]
+      },
+      {
+        "text": "Three of the four failures it lists at the championship were on the intake, which went to the top of the off-season redesign list.",
+        "basis": "team",
+        "src": [
+          "s33"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "Before week 1: one top shooter roller became three, to cure bounce-out. For Greater Boston: a motorized hood replaced two pneumatic positions, and the climber got bearing blocks and flat strap because sliders bound and spools wound unevenly. For Houston: a color sensor, and re-homing after shots because the hood belt slipped.",
+        "basis": "team",
+        "src": [
+          "s37",
+          "s31",
+          "s30",
+          "s35"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "46-10-2 in official play; won the Roebling division; pick 1 of the Roebling alliance on Einstein; ranked 20 of the pooled top 20 (OPR 56.10, Roebling).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drivetrain",
+      "cost": [
+        {
+          "text": "With a fixed camera and no turret, accurate odometry is harder to keep through a match",
+          "basis": "team",
+          "src": [
+            "s34",
+            "s40"
+          ]
+        }
+      ],
+      "does": [
+        "drive"
+      ],
+      "type": "six-motor west coast drive",
+      "serves": [],
+      "facts": [
+        {
+          "text": "NEO motors",
+          "basis": "team",
+          "src": [
+            "s26"
+          ],
+          "value": 6,
+          "unit": "motors"
+        },
+        {
+          "text": "In a January interview: three NEOs per side, omni wheels on the corners and traction wheels in the middle (auto-captions)",
+          "basis": "team",
+          "src": [
+            "s23"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Frame and layout",
+      "solves": [
+        {
+          "text": "Let parts be adjusted easily when something does not work or breaks",
+          "basis": "team",
+          "src": [
+            "s26"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "gusset and tube construction",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Length x width x height 30 x 29 x 40 in the February CAD post (units not stated)",
+          "basis": "team",
+          "src": [
+            "s26"
+          ]
+        },
+        {
+          "text": "CAD weight in February without battery or bumpers, about",
+          "basis": "team",
+          "src": [
+            "s26"
+          ],
+          "value": 94.702,
+          "unit": "lb"
+        },
+        {
+          "text": "One ball sits at the top of the tower and one on the curve at its bottom; to minimize the center of gravity, tower height was lowered by",
+          "basis": "team",
+          "src": [
+            "s41"
+          ],
+          "value": 6,
+          "unit": "in"
+        },
+        {
+          "text": "The red main power wire pulled out of its connector and the robot missed a Granite State qualification match; the team traced it to a crimp tool sized for metric wire",
+          "basis": "team",
+          "src": [
+            "s52"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Pick cargo off the floor and survive hits by being flexible rather than rigid",
+          "basis": "team",
+          "src": [
+            "s39",
+            "s27"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "At the championship a polycarbonate link cracked, a roller shaft bent, presumably in an impact, and the intake seemed not to work for about 30 s of one match",
+          "basis": "team",
+          "src": [
+            "s33"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "over-bumper roller intake on a four-bar with a surgical tubing link",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "The fourth bar is surgical tubing: slack when stowed, taut when out, pulling the roller plate into place",
+          "basis": "team",
+          "src": [
+            "s27",
+            "s50"
+          ]
+        },
+        {
+          "text": "The motor sits inside the frame at the pivot, which keeps the moving part light",
+          "basis": "team",
+          "src": [
+            "s27"
+          ]
+        },
+        {
+          "text": "Cylinders are retracted when the intake is out, to reduce the risk of bending their rods",
+          "basis": "team",
+          "src": [
+            "s27",
+            "s39"
+          ]
+        },
+        {
+          "text": "Gear ratio 60:16; the top roller is slightly slower in the hope that fewer balls jump out",
+          "basis": "team",
+          "src": [
+            "s26"
+          ]
+        },
+        {
+          "text": "A passive dropdown bar, held down by tubing that goes over center, gave the prototype more favorable compression on the bumper",
+          "basis": "team",
+          "src": [
+            "s26"
+          ]
+        },
+        {
+          "text": "Aluminum support gusset added after a part broke in practice",
+          "basis": "team",
+          "src": [
+            "s39"
+          ],
+          "value": 0.09,
+          "unit": "in"
+        }
+      ]
+    },
+    {
+      "name": "\"Hopper\"",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Center cargo into the tower, including balls that enter at the edges of the intake",
+          "basis": "team",
+          "src": [
+            "s26"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "A forum post says the intake sometimes had problems taking two cargo at once",
+          "basis": "observer",
+          "src": [
+            "s48"
+          ]
+        }
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "omni-wheel centering stage",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "It centers cargo and does not store it",
+          "basis": "team",
+          "src": [
+            "s26"
+          ]
+        },
+        {
+          "text": "Two mostly independent halves with one belt across keep the compressor and pneumatic hub reachable",
+          "basis": "team",
+          "src": [
+            "s41"
+          ]
+        },
+        {
+          "text": "A 1678 member who compared the two CAD models gives the omni wheel spacing as",
+          "basis": "observer",
+          "src": [
+            "s46"
+          ],
+          "value": 12,
+          "unit": "in"
+        }
+      ]
+    },
+    {
+      "name": "Tower and feeder",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Hold two cargo and send each one to the shooter or out",
+          "basis": "team",
+          "src": [
+            "s41",
+            "s30"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Balls occasionally stuck at the tower entrance at the championship; grippier tape was the fix",
+          "basis": "team",
+          "src": [
+            "s33"
+          ]
+        }
+      ],
+      "does": [
+        "transfer",
+        "retain"
+      ],
+      "type": "tower ball path run by a feeder state machine",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "One NEO 550 each for hopper, tower and feeder wheel",
+          "basis": "team",
+          "src": [
+            "s26"
+          ]
+        },
+        {
+          "text": "A feeder state machine runs hopper, tower and kicker wheels from operator controls, proximity sensors and the color sensor",
+          "basis": "team",
+          "src": [
+            "s30"
+          ]
+        },
+        {
+          "text": "Opponent cargo leaves by the shooter if it is the first ball and by the intake if it is the second",
+          "basis": "team",
+          "src": [
+            "s30"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Make repeatable shots that do not bounce out of the hub",
+          "basis": "team",
+          "src": [
+            "s37",
+            "s28"
+          ]
+        }
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "single main flywheel with top rollers",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "Main flywheel diameter",
+          "basis": "team",
+          "src": [
+            "s26"
+          ],
+          "value": 6,
+          "unit": "in"
+        },
+        {
+          "text": "Three top rollers, with \"tuning forks\" between the wheels that support the ball; heavily inspired by 2168",
+          "basis": "team",
+          "src": [
+            "s37"
+          ]
+        },
+        {
+          "text": "Bearings on the roller shafts support the forks if they flex",
+          "basis": "team",
+          "src": [
+            "s49"
+          ]
+        },
+        {
+          "text": "A trapezoidal speed profile reduces overshoot; speed dips to a similar value on each shot",
+          "basis": "team",
+          "src": [
+            "s28"
+          ]
+        },
+        {
+          "text": "Two NEOs in the February CAD",
+          "basis": "team",
+          "src": [
+            "s26"
+          ]
+        },
+        {
+          "text": "The February CAD drove the single top roller separately; before week 1 the main flywheel and top rollers were connected mechanically",
+          "basis": "team",
+          "src": [
+            "s26",
+            "s28"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Motorized hood",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Let the driver stop at any opening and shoot, instead of lining up at two fixed distances",
+          "basis": "team",
+          "src": [
+            "s31"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Far shots bounced out a lot because hood travel is limited",
+          "basis": "team",
+          "src": [
+            "s31"
+          ]
+        },
+        {
+          "text": "A printed pulley was crushed, and at Greater Boston the belt could slip one tooth, about 10 degrees of error; re-homing a few seconds after each shot worked around it",
+          "basis": "team",
+          "src": [
+            "s35"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "belt-driven hood pivot",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "NEO 550 with a reduction of about",
+          "basis": "team",
+          "src": [
+            "s31"
+          ],
+          "value": 270,
+          "unit": ":1"
+        },
+        {
+          "text": "Shoots from against the hub to the alliance wall",
+          "basis": "team",
+          "src": [
+            "s31"
+          ]
+        },
+        {
+          "text": "Profiled PID on the RIO typically holds the angle within",
+          "basis": "team",
+          "src": [
+            "s32"
+          ],
+          "value": 0.5,
+          "unit": "deg"
+        },
+        {
+          "text": "Homes by driving down at 0.5 V until speed falls below 1 degree per second",
+          "basis": "team",
+          "src": [
+            "s32"
+          ]
+        },
+        {
+          "text": "Angle and flywheel speed are linearly interpolated from hand-tuned shots, kept flat to reduce bounce-out",
+          "basis": "team",
+          "src": [
+            "s32"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vision and odometry",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Know the field position well enough to aim and set the shot",
+          "basis": "team",
+          "src": [
+            "s44",
+            "s32"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "In one Greater Boston match heavy defense made odometry drift and several volleys of shots missed; gains were retuned from logs",
+          "basis": "team",
+          "src": [
+            "s45"
+          ]
+        },
+        {
+          "text": "In two Einstein matches target tracking was very unreliable; the team was not sure why",
+          "basis": "team",
+          "src": [
+            "s34"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "Limelight circle fit fused with wheel odometry",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "Fits a circle to the corners of the hub tape and blends the result into odometry by weighted average",
+          "basis": "team",
+          "src": [
+            "s44"
+          ]
+        },
+        {
+          "text": "The Limelight is mounted on the hood, with the hood angle latency compensated",
+          "basis": "team",
+          "src": [
+            "s32"
+          ]
+        },
+        {
+          "text": "Median odometry error while shooting on Einstein, against Zebra tracking",
+          "basis": "team",
+          "src": [
+            "s34"
+          ],
+          "value": 47,
+          "unit": "cm"
+        },
+        {
+          "text": "Auto-aim turns the robot while the driver keeps linear motion",
+          "basis": "team",
+          "src": [
+            "s28"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Color sensor",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Stop the robot from scoring opponent cargo",
+          "basis": "team",
+          "src": [
+            "s30"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "color sensor beside the ball path",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "A color counts when the red or blue channel is more than 150% of the other",
+          "basis": "team",
+          "src": [
+            "s30"
+          ]
+        },
+        {
+          "text": "Changes in lighting made very little difference",
+          "basis": "team",
+          "src": [
+            "s30"
+          ]
+        },
+        {
+          "text": "In the steal auto it decides which cargo to score and which to eject",
+          "basis": "team",
+          "src": [
+            "s30"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Reach the traversal rung with no pneumatics in the high and traversal system",
+          "basis": "team",
+          "src": [
+            "s36"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "At week 1 printed sliders bound and rope spools wound unevenly; the team would not recommend copying that telescope",
+          "basis": "team",
+          "src": [
+            "s42"
+          ]
+        },
+        {
+          "text": "The team says the passive system relies heavily on mounting location, center of gravity and timing",
+          "basis": "team",
+          "src": [
+            "s42"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "winched telescopes with passive tilting hooks",
+      "serves": [
+        "rung-mid",
+        "rung-high",
+        "rung-traversal"
+      ],
+      "facts": [
+        {
+          "text": "Single-stage telescopes, 2x2 and 1x1 tube, raised by constant force springs and winched by two NEOs",
+          "basis": "team",
+          "src": [
+            "s26"
+          ]
+        },
+        {
+          "text": "A shifter shaft and PTO kit act as the brake",
+          "basis": "team",
+          "src": [
+            "s26"
+          ]
+        },
+        {
+          "text": "Spring-loaded hooks take the weight and tilt; the telescope hooks the next rung as the robot swings",
+          "basis": "team",
+          "src": [
+            "s36"
+          ]
+        },
+        {
+          "text": "The hook structure pivots on a 1/2 in aluminum standoff; a rope is the hard stop",
+          "basis": "team",
+          "src": [
+            "s43"
+          ]
+        },
+        {
+          "text": "For Greater Boston: bearing blocks, more overlap between telescope and hooks, and flat strap",
+          "basis": "team",
+          "src": [
+            "s31"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Flywheel shooter",
+      "because": "the catapult prototype was not quite fast enough to score two cargo comfortably, loading might be a challenge, and the team lacked the bandwidth",
+      "instead_of": "a pneumatic double catapult",
+      "basis": "team",
+      "src": [
+        "s27"
+      ]
+    },
+    {
+      "choice": "No turret",
+      "because": "the team thought it likely unnecessary complexity: most of a cycle is transit, pickup or scoring near the goal",
+      "basis": "team",
+      "src": [
+        "s24"
+      ]
+    },
+    {
+      "choice": "Intake and shooter on opposite sides",
+      "because": "it makes the auto routines much simpler",
+      "basis": "team",
+      "src": [
+        "s29"
+      ]
+    },
+    {
+      "choice": "Collect one cargo before the first shots in the five-cargo auto",
+      "because": "shooting first waits for the flywheels, and joining the two tarmac balls needs a back-up and turn that is inefficient on a differential drive",
+      "instead_of": "shooting the preload at once",
+      "basis": "team",
+      "src": [
+        "s29"
+      ]
+    },
+    {
+      "choice": "A flexible intake",
+      "because": "the team aimed to deal with twisting without issue rather than prevent it",
+      "instead_of": "a rigid intake",
+      "basis": "team",
+      "src": [
+        "s39"
+      ]
+    },
+    {
+      "choice": "Drive the hood by a belt at its pivot",
+      "because": "the shooter sits near the frame perimeter and the existing hood left little room behind it",
+      "instead_of": "a printed rack and pinion",
+      "cost": "a crushed printed pulley and belt slip; a future hood would more than likely be rack and pinion",
+      "basis": "team",
+      "src": [
+        "s31",
+        "s35"
+      ]
+    },
+    {
+      "choice": "Linear interpolation of tuned shots",
+      "because": "it is simpler and follows the tuning closely at the edges of the range",
+      "instead_of": "the previous year's regressions",
+      "basis": "team",
+      "src": [
+        "s32"
+      ]
+    },
+    {
+      "choice": "Run the climb on a timed sequence",
+      "because": "the swing is predictable, and a gyro condition could stop the sequence",
+      "instead_of": "using the robot's pitch",
+      "basis": "team",
+      "src": [
+        "s38"
+      ]
+    },
+    {
+      "choice": "Passive tilting hooks",
+      "because": "they avoid any pneumatics on the high and traversal system",
+      "basis": "team",
+      "src": [
+        "s36"
+      ]
+    },
+    {
+      "choice": "Go back to the Limelight software",
+      "because": "PhotonVision gave camera trouble, low frame rates and failed connections, and Limelight now provided corner data",
+      "instead_of": "PhotonVision on the Limelight",
+      "basis": "team",
+      "src": [
+        "s28"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "2022 robot CAD",
+        "url": "https://cad.onshape.com/documents/b83cb8e60cea7c17cbee6692/w/13284a7a33c1b2621631c2ee/e/ee2cff08193b9fc024e2c99f",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "FRC 6328 Mechanical Advantage 2022 Build Thread",
+        "url": "https://www.chiefdelphi.com/t/frc-6328-mechanical-advantage-2022-build-thread/398645",
+        "format": "thread",
+        "state": "opened",
+        "src": "s5",
+        "holds": "Onshape"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Chairman's Award video (not watched)",
+        "url": "https://www.youtube.com/watch?v=4xwLSJy8TMQ",
+        "format": "video",
+        "state": "listed",
+        "src": "s31"
+      },
+      {
+        "what": "Battlecry recap video (not watched)",
+        "url": "https://www.youtube.com/watch?v=MGDfcpn3ouY",
+        "format": "video",
+        "state": "listed",
+        "src": "s51"
+      },
+      {
+        "what": "Summer Heat recap video, an off-season event (not watched)",
+        "url": "https://www.youtube.com/watch?v=RqgyzU6aVQg",
+        "format": "video",
+        "state": "listed",
+        "src": "s51"
+      },
+      {
+        "what": "Greater Boston recap video (not watched)",
+        "url": "https://www.youtube.com/watch?v=vqE9pJ7EwIw",
+        "format": "video",
+        "state": "listed",
+        "src": "s51"
+      },
+      {
+        "what": "Season recap video (not watched)",
+        "url": "https://www.youtube.com/watch?v=xtd7vvHCy5M",
+        "format": "video",
+        "state": "listed",
+        "src": "s51"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/GAsnDFX",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/SGso9vW",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "6328 Just Did a Gremlin Auto! (thread on the steal auto)",
+        "url": "https://www.chiefdelphi.com/t/6328-just-did-a-gremlin-auto/409813",
+        "format": "thread",
+        "state": "opened",
+        "src": "s11"
+      },
+      {
+        "what": "CAD & Design Update",
+        "url": "https://www.littletonrobotics.org/cad-design-update/",
+        "format": "web page",
+        "state": "opened",
+        "src": "s12"
+      },
+      {
+        "what": "Greater Boston Recap",
+        "url": "https://www.littletonrobotics.org/greater-boston-recap/",
+        "format": "web page",
+        "state": "opened",
+        "src": "s13"
+      },
+      {
+        "what": "Hood Update – FRC 6328",
+        "url": "https://www.littletonrobotics.org/hood-update/",
+        "format": "web page",
+        "state": "opened",
+        "src": "s14"
+      },
+      {
+        "what": "Initial Design Iterations",
+        "url": "https://www.littletonrobotics.org/initial-design-iterations/",
+        "format": "web page",
+        "state": "opened",
+        "src": "s15"
+      },
+      {
+        "what": "Pre Granite State Climber Update",
+        "url": "https://www.littletonrobotics.org/pre-granite-state-climber-update/",
+        "format": "web page",
+        "state": "opened",
+        "src": "s16"
+      },
+      {
+        "what": "Traversal climb from the driver cameras, video (not watched)",
+        "url": "https://www.youtube.com/watch?v=Gp1FRCqdvSg",
+        "format": "video",
+        "state": "listed",
+        "src": "s36"
+      },
+      {
+        "what": "5 Ball Auto | Robot Frame | CAD Overview | 6328 Mechanical Advantage | The Open Alliance Show",
+        "url": "https://www.youtube.com/watch?v=NUEpCExVE2Q",
+        "format": "video",
+        "state": "listed",
+        "src": "s22"
+      },
+      {
+        "what": "Catapult Prototype, Odometry and Scouting App 6328 Mechanical Advantage The Open Alliance",
+        "url": "https://www.youtube.com/watch?v=tybAu22mLz4",
+        "format": "video",
+        "state": "listed",
+        "src": "s23"
+      },
+      {
+        "what": "Full traversal climb, video (not watched)",
+        "url": "https://youtu.be/NZtyj75FFJA",
+        "format": "video",
+        "state": "listed",
+        "src": "s36"
+      },
+      {
+        "what": "Five cargo auto, video (not watched)",
+        "url": "https://youtu.be/F9gy7UqCZYM",
+        "format": "video",
+        "state": "listed",
+        "src": "s28"
+      },
+      {
+        "what": "Steal auto, video (not watched)",
+        "url": "https://youtu.be/N5HtowAhG7I",
+        "format": "video",
+        "state": "listed",
+        "src": "s30"
+      },
+      {
+        "what": "Color ejection demo, video (not watched)",
+        "url": "https://youtu.be/qsL5HES2C1k",
+        "format": "video",
+        "state": "listed",
+        "src": "s30"
+      },
+      {
+        "what": "Full robot on field, blue bumpers, roller intake extended",
+        "url": "https://imgur.com/q4f2Md6",
+        "img": "https://i.imgur.com/q4f2Md6h.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s53",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Robot on field from the side, red bumpers, red cargo inside",
+        "url": "https://imgur.com/rLKwIC7",
+        "img": "https://i.imgur.com/rLKwIC7h.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s54",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot CAD, blue bumpers, intake extended",
+        "url": "https://cad.onshape.com/documents/b83cb8e60cea7c17cbee6692/w/13284a7a33c1b2621631c2ee/e/ee2cff08193b9fc024e2c99f",
+        "img": "https://cad.onshape.com/api/thumbnails/d/b83cb8e60cea7c17cbee6692/w/13284a7a33c1b2621631c2ee/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s55",
+        "kind": "cad"
+      },
+      {
+        "what": "Intake CAD, three roller shafts, pneumatic cylinders",
+        "url": "https://www.littletonrobotics.org/additional-intake-info/",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/e/1/e114a3786624846c43234024df2e5a841bbd4fb4_2_690x376.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s56",
+        "kind": "cad"
+      },
+      {
+        "what": "Full robot CAD, shooter at top, two climber hooks",
+        "url": "https://www.littletonrobotics.org/cad-design-update/",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/e/f/efa9b353279bf8b9eea98e3f55f4bd60d09fe3c0_2_647x500.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s12",
+        "kind": "cad"
+      },
+      {
+        "what": "CAD close-up, slotted bracket and gearing beside blue upright tube",
+        "url": "https://www.littletonrobotics.org/climber-hooks/",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/f/b/fb6c30624e91c1c53168076d799ea40e1082374d_2_517x303.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s57",
+        "kind": "cad"
+      },
+      {
+        "what": "Belt and crushed 3D printed pulley, close-up",
+        "url": "https://www.chiefdelphi.com/t/frc-6328-mechanical-advantage-2022-build-thread/398645/145",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/d/2/d20b6a8a89fca702d54bb914974a4503bf989325_2_281x375.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s58",
+        "kind": "mechanism"
+      },
+      {
+        "what": "Early full robot CAD, shooter hood and intake",
+        "url": "https://www.chiefdelphi.com/t/frc-6328-mechanical-advantage-2022-build-thread/398645/59",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/8/2/82b037fc43f7189bf883b49e4e80d51165a81c31_2_386x499.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s59",
+        "kind": "cad"
+      },
+      {
+        "what": "Full robot CAD without bumpers, intake extended",
+        "url": "https://www.chiefdelphi.com/t/frc-6328-mechanical-advantage-2022-build-thread/398645/90",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/6/3/6344edfd99ef6a91290d4c1b8a0b1341a217dee6_2_647x500.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s60",
+        "kind": "cad"
+      }
+    ],
+    "documents": [
+      {
+        "what": "6328-22-KICKOFF-MAIN (completed kickoff worksheet)",
+        "url": "https://docs.google.com/document/d/1WaAafYE6pshWqR_Tc4xV4XfwxMJMScPiVGWj6lOygSo/edit",
+        "format": "Google Doc",
+        "state": "opened",
+        "src": "s6"
+      },
+      {
+        "what": "6328 Robot Stats (2022 Championship)",
+        "url": "https://docs.google.com/document/d/1Ye1d5_1Yo2naj4rR5X6rvDmZXy_-G6mmcfCzodOmfQM/edit",
+        "format": "Google Doc",
+        "state": "opened",
+        "src": "s8"
+      },
+      {
+        "what": "Robot statistics, Granite State",
+        "url": "https://docs.google.com/document/d/1_hM5VbrNu7B0b5oz9ip02NJZmFGd_QePJbQlkZi0i9w/edit?usp=sharing",
+        "format": "Google Doc",
+        "state": "listed",
+        "src": "s34"
+      },
+      {
+        "what": "Robot statistics, Greater Boston",
+        "url": "https://docs.google.com/document/d/1wYuE_IIGT8h1RsJQc99QhVi19wZgsiAOl1XHMqD_wQg/edit?usp=sharing",
+        "format": "Google Doc",
+        "state": "listed",
+        "src": "s34"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/mechanical-advantage",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Mechanical-Advantage/RobotCode2022 (Bot-Bot Awakens)",
+        "url": "https://github.com/Mechanical-Advantage/RobotCode2022",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s10"
+      },
+      {
+        "what": "Software Update #3: “Follow the yellow brick trajectory!”",
+        "url": "https://www.littletonrobotics.org/software-update-3-follow-the-yellow-brick-trajectory/",
+        "format": "web page",
+        "state": "opened",
+        "src": "s17"
+      },
+      {
+        "what": "Software Update #4: Pre-Competition Smorgasbord",
+        "url": "https://www.littletonrobotics.org/software-update-4-pre-competition-smorgasbord/",
+        "format": "web page",
+        "state": "opened",
+        "src": "s18"
+      },
+      {
+        "what": "Software Update #6: The Hood Trifecta",
+        "url": "https://www.littletonrobotics.org/software-update-6-the-hood-trifecta/",
+        "format": "web page",
+        "state": "opened",
+        "src": "s19"
+      },
+      {
+        "what": "Software Update #8: One Fish, Two Fish, Red Cargo, Blue Cargo",
+        "url": "https://www.littletonrobotics.org/software-update-8-one-fish-two-fish-red-cargo-blue-cargo/",
+        "format": "web page",
+        "state": "opened",
+        "src": "s20"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)"
+  ],
+  "results": {
+    "division": "Roebling",
+    "division_opr": 56.1,
+    "opr_rank": 20,
+    "record": "46-10-2",
+    "einstein": {
+      "division": "Roebling",
+      "role": "pick 1"
+    },
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

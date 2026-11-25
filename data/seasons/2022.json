@@ -1,0 +1,62 @@
+{
+  "year": 2022,
+  "name": "RAPID REACT",
+  "manual": {
+    "url": "https://firstfrc.blob.core.windows.net/frc2022/Manual/2022FRCGameManual.pdf",
+    "publisher": "FIRST",
+    "read": "2026-11-25",
+    "note": "Cited by link and restated in our words."
+  },
+  "pieces": [
+    {
+      "id": "cargo",
+      "shape": "ball",
+      "size": "9 1/2 in diameter",
+      "compliance": "soft, fuzzy, inflated"
+    }
+  ],
+  "phases": [
+    "auto",
+    "teleop",
+    "endgame"
+  ],
+  "objectives": [
+    {
+      "id": "taxi",
+      "label": "Leave the tarmac in auto",
+      "auto_points": 2
+    },
+    {
+      "id": "hub-lower",
+      "label": "Score cargo in the lower hub",
+      "auto_points": 2,
+      "teleop_points": 1
+    },
+    {
+      "id": "hub-upper",
+      "label": "Score cargo in the upper hub",
+      "auto_points": 4,
+      "teleop_points": 2
+    },
+    {
+      "id": "rung-low",
+      "label": "Hang from the low rung",
+      "teleop_points": 4
+    },
+    {
+      "id": "rung-mid",
+      "label": "Hang from the mid rung",
+      "teleop_points": 6
+    },
+    {
+      "id": "rung-high",
+      "label": "Hang from the high rung",
+      "teleop_points": 10
+    },
+    {
+      "id": "rung-traversal",
+      "label": "Hang from the traversal rung",
+      "teleop_points": 15
+    }
+  ]
+}

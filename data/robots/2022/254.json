@@ -1,0 +1,1549 @@
+{
+  "id": "2022-254",
+  "season": 2022,
+  "team": "254",
+  "team_name": "The Cheesy Poofs",
+  "robot_name": "Sideways",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 254 in 2022",
+      "url": "https://www.thebluealliance.com/team/254/2022",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Galileo Division 2022",
+      "url": "https://www.thebluealliance.com/event/2022gal",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "Champs Elims Strategies (254 Google Slides)",
+      "url": "https://docs.google.com/presentation/d/18P3VFlvblZgh41UapDc4OaVzFM36uS-afNejkgXWp70/edit",
+      "publisher": "docs.google.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Team 254 Presents: 2022 Code for Sideways",
+      "url": "https://www.chiefdelphi.com/t/team-254-presents-2022-code-for-sideways/420971",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Team 254 Presents: 2022 Recap, Technical Binder, and Strategy Presentation",
+      "url": "https://www.chiefdelphi.com/t/team-254-presents-2022-recap-technical-binder-and-strategy-presentation/415951",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Team 254 Presents: Sideways",
+      "url": "https://www.chiefdelphi.com/t/team-254-presents-sideways/406523",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "2022 RAPID REACT",
+      "url": "https://www.team254.com/frc/2022/",
+      "publisher": "team254.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Team 254 2022 Technical Binder (Sideways)",
+      "url": "https://media.team254.com/2022/10/8f2407a5-Team_254_Tech_Binder_2022.pdf",
+      "publisher": "media.team254.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Carnegie Mellon Robotics Academy interviews the Cheesy Poofs (two videos)",
+      "url": "https://www.chiefdelphi.com/t/carnegie-mellon-robotics-academy-interviews-the-cheesy-poofs/416109",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "2022 Galileo Q42 / FRC 254 / Clean Robot Video",
+      "url": "https://www.youtube.com/watch?v=cAQ-dh6PVz0",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "2022 Recap Video (Team 254)",
+      "url": "https://www.youtube.com/watch?v=onkTq9ga6Xc",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Team254/FRC-2022-Public (Sideways code)",
+      "url": "https://github.com/Team254/FRC-2022-Public",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "How do these 254 mechanisms work? (bearing retention)",
+      "url": "https://www.chiefdelphi.com/t/how-do-these-254-mechanisms-work-bearing-retention/409093",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "254: 2022 FIRST Championship recap",
+      "url": "https://www.team254.com/2022cmp/",
+      "publisher": "team254.com",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "Carnegie Mellon Robotics Academy interview with Team 254 \"The Cheesy Poofs\" Pt.2",
+      "url": "https://www.youtube.com/watch?v=OKMUD3FdBIM",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "Carnegie Mellon Robotics Academy interview with Team 254 \"The Cheesy Poofs\" Pt.1",
+      "url": "https://www.youtube.com/watch?v=PUtC7YyPtuM",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "FRC Recap: Championship Divisions and Einstein, Rapid React (automatic captions)",
+      "url": "https://www.youtube.com/watch?v=vKLxBkhyMwg",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "Behind the Bumpers: 254 The Cheesy Poofs, Rapid React (automatic captions)",
+      "url": "https://www.youtube.com/watch?v=cKDmHCTDQW8",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "Team 254 Presents: Sideways, post 159",
+      "url": "https://www.chiefdelphi.com/t/406523/159",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "Team 254 Presents: Sideways, post 157",
+      "url": "https://www.chiefdelphi.com/t/406523/157",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "2022 FRC World Champions, Team 254 blog",
+      "url": "https://blog.team254.com/2022cmp/",
+      "publisher": "team254.com",
+      "read": "2026-11-25"
+    },
+    "s22": {
+      "title": "Team 254 Presents: Sideways, post 162",
+      "url": "https://www.chiefdelphi.com/t/406523/162",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s23": {
+      "title": "Team 254 2022 binder thread, post 16",
+      "url": "https://www.chiefdelphi.com/t/415951/16",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s24": {
+      "title": "Team 254 Presents: Sideways, post 202",
+      "url": "https://www.chiefdelphi.com/t/406523/202",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s25": {
+      "title": "Team 254 Presents: Sideways, post 170",
+      "url": "https://www.chiefdelphi.com/t/406523/170",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s26": {
+      "title": "Team 254 2022 binder thread, post 28",
+      "url": "https://www.chiefdelphi.com/t/415951/28",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s27": {
+      "title": "Team 254 2022 binder thread, post 29",
+      "url": "https://www.chiefdelphi.com/t/415951/29",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s28": {
+      "title": "Team 254 Presents: Sideways, post 121",
+      "url": "https://www.chiefdelphi.com/t/406523/121",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s29": {
+      "title": "Team 254 2022 binder thread, post 61",
+      "url": "https://www.chiefdelphi.com/t/415951/61",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s30": {
+      "title": "Team 254 Presents: Sideways, post 146",
+      "url": "https://www.chiefdelphi.com/t/406523/146",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s31": {
+      "title": "Team 254 Presents: Sideways, post 190",
+      "url": "https://www.chiefdelphi.com/t/406523/190",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s32": {
+      "title": "Team 254 Presents: Sideways, post 131",
+      "url": "https://www.chiefdelphi.com/t/406523/131",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s33": {
+      "title": "Team 254 Presents: Sideways, post 135",
+      "url": "https://www.chiefdelphi.com/t/406523/135",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s34": {
+      "title": "How do these 254 mechanisms work? (bearing retention), post 9",
+      "url": "https://www.chiefdelphi.com/t/409093/9",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s35": {
+      "title": "Team 254 Presents: Sideways, post 153",
+      "url": "https://www.chiefdelphi.com/t/406523/153",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s36": {
+      "title": "Team 254 2022 binder thread, post 14",
+      "url": "https://www.chiefdelphi.com/t/415951/14",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s37": {
+      "title": "Team 254 2022 binder thread, post 38",
+      "url": "https://www.chiefdelphi.com/t/415951/38",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s38": {
+      "title": "Team 254 Presents: Sideways, post 173",
+      "url": "https://www.chiefdelphi.com/t/406523/173",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s39": {
+      "title": "Favorite 2022 Robots, post 8",
+      "url": "https://www.chiefdelphi.com/t/412608/8",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s40": {
+      "title": "Team 254 Presents: Sideways, post 171",
+      "url": "https://www.chiefdelphi.com/t/406523/171",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s41": {
+      "title": "Team 254 Presents: Sideways, post 209",
+      "url": "https://www.chiefdelphi.com/t/406523/209",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s42": {
+      "title": "Who had the Fastest Traversal Climb in the World?, post 32",
+      "url": "https://www.chiefdelphi.com/t/412515/32",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s43": {
+      "title": "Who had the Fastest Traversal Climb in the World?",
+      "url": "https://www.chiefdelphi.com/t/412515",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s44": {
+      "title": "Team 254 Presents: Sideways, post 145",
+      "url": "https://www.chiefdelphi.com/t/406523/145",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s45": {
+      "title": "Team 254 2022 binder thread, post 34",
+      "url": "https://www.chiefdelphi.com/t/415951/34",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s46": {
+      "title": "Team 254 Presents: Sideways, post 134",
+      "url": "https://www.chiefdelphi.com/t/406523/134",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s47": {
+      "title": "Team 254 2022 binder thread, post 11",
+      "url": "https://www.chiefdelphi.com/t/415951/11",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s48": {
+      "title": "Team 254 Presents: Sideways, post 123",
+      "url": "https://www.chiefdelphi.com/t/406523/123",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s49": {
+      "title": "Team 254 Presents: Sideways, post 213",
+      "url": "https://www.chiefdelphi.com/t/406523/213",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s50": {
+      "title": "Team 254 2022 binder thread, post 15",
+      "url": "https://www.chiefdelphi.com/t/415951/15",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s51": {
+      "title": "Team 254 2022 binder thread, post 17",
+      "url": "https://www.chiefdelphi.com/t/415951/17",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s52": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/HSHpnyg",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s53": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/MdhOTCR",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s55": {
+      "title": "Page this picture is from",
+      "url": "https://www.chiefdelphi.com/t/team-254-presents-2022-recap-technical-binder-and-strategy-presentation/415951/37",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s56": {
+      "title": "Page this picture is from",
+      "url": "https://www.chiefdelphi.com/t/team-254-presents-2022-recap-technical-binder-and-strategy-presentation/415951/38",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s57": {
+      "title": "Page this picture is from",
+      "url": "https://www.chiefdelphi.com/t/team-254-presents-2022-recap-technical-binder-and-strategy-presentation/415951/30",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Always be on the move: take cargo the moment the robot touches it, on either side, and shoot while moving from many positions.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "In qualifications, all ranking points: score 18 or 20 cargo without relying heavily on partners, and climb to the traversal rung while leaving partners room. In playoffs more alliances climb that high, so cargo in the upper hub must make the difference, starting in auto, where points are doubled and there is no defense.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "The robot follows precalculated splines with feedforward and feedback. The binder notes that five cargo in auto lowers the alliance's cargo ranking point threshold.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      },
+      {
+        "text": "In the first Einstein final an analyst saw it shoot an opponent cargo to the hangar zone and later score two of three.",
+        "basis": "observer",
+        "src": [
+          "s17"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "Either intake feeds the Serializer, which stores the first cargo opposite the active intake and sends wrong-color cargo out through the shooter. The turret tracks the goal. While the driver allows it, the robot shoots when turret, hood and wheel speed are right, mostly from the edge of the tarmac.",
+        "basis": "team",
+        "src": [
+          "s8",
+          "s18",
+          "s19"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "Automated, with manual overrides: the Elevator pulls on the mid rung, the Reaction Arm meets the underside of the truss and levels the robot, and the Stinger hooks the traversal rung. It leaves space for partners; the team counts two triple traversal climbs at one regional.",
+        "basis": "team",
+        "src": [
+          "s8",
+          "s18",
+          "s19"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "The operator can move the turret by hand when the camera tracks a bad target. The playoff slides prepared three scorers in a triangle, or two scorers and a defender; the alliance changed its third robot for the last Einstein final.",
+        "basis": "team",
+        "src": [
+          "s20",
+          "s3",
+          "s21"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "Swerve, turret and two intakes left the drivers a few afternoons of practice before the first event. At 124.9 lb the team fought weight all season. Feeding and shooting takes several hundred milliseconds, so sudden acceleration could spoil a shot.",
+        "basis": "team",
+        "src": [
+          "s22",
+          "s23",
+          "s19"
+        ]
+      },
+      {
+        "text": "The team says 1678 was far better at crossing the whole field for any ball.",
+        "basis": "team",
+        "src": [
+          "s22"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "After the reveal: totally different intakes, several climber parts and small shooter tweaks. The original shooter's small Fairlane wheels had given way to a 9 in flywheel. The elevator went from two motors to one to gain weight for a hooded shooter.",
+        "basis": "team",
+        "src": [
+          "s24",
+          "s18",
+          "s25"
+        ]
+      },
+      {
+        "text": "After its second regional the team added aimed ejection of opponent cargo, and at the championship corrected it for robot velocity.",
+        "basis": "team",
+        "src": [
+          "s26",
+          "s27"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "50-5-1 in official play; won the Galileo division, won the championship; pick 1 of the Galileo alliance on Einstein; ranked 2 of the pooled top 20 (OPR 68.28, Galileo).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drivebase",
+      "does": [
+        "drive",
+        "structure"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "solves": [
+        {
+          "text": "Cover the field quickly and avoid defense",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "SDS MK4i modules with Falcons and L3 reduction; free speed",
+          "basis": "team",
+          "src": [
+            "s8"
+          ],
+          "value": 18,
+          "unit": "ft/s"
+        },
+        {
+          "text": "Chosen over MK4 for the inverted motors and wider track",
+          "basis": "team",
+          "src": [
+            "s28"
+          ]
+        },
+        {
+          "text": "2x1x1/16 in aluminum tube frame with a 1/8 in bellypan without pockets and the battery in the middle",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Module setpoints are coordinated, also in teleop, and module flips are decided globally; some scrub was allowed because the drivers preferred it",
+          "basis": "team",
+          "src": [
+            "s29"
+          ]
+        },
+        {
+          "text": "At boot the code waits for several valid readings from each absolute encoder, which took over 10 seconds",
+          "basis": "team",
+          "src": [
+            "s30"
+          ]
+        },
+        {
+          "text": "Bearings were added to the modules to support the Falcon shafts; the team does not know whether they were necessary or helpful",
+          "basis": "team",
+          "src": [
+            "s50"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The solid bellypan was heavy: the writer thinks it should have been pocketed",
+          "basis": "team",
+          "src": [
+            "s23"
+          ]
+        },
+        {
+          "text": "The L3 gears were already in hand; everything else equal, L2 would have been better; another team post says that with so much power a suboptimal ratio matters less than it used to",
+          "basis": "team",
+          "src": [
+            "s31",
+            "s49"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dual intakes",
+      "does": [
+        "acquire"
+      ],
+      "type": "over-bumper roller intakes on both sides",
+      "pieces": [
+        "cargo"
+      ],
+      "serves": [
+        "hub-upper"
+      ],
+      "solves": [
+        {
+          "text": "Grab cargo at any driving speed or angle and shorten retrieval",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Robot-width rollers on a pneumatic four-bar; one Falcon drives two belt-driven rollers per intake",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Front roller: 3 in polycarbonate tube with anti-slip tape; back roller: 1 in aluminum tube with heat shrink",
+          "basis": "team",
+          "src": [
+            "s8",
+            "s34"
+          ]
+        },
+        {
+          "text": "Side plates of 1/4 in polycarbonate, compliant to impacts",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Compression on the cargo judged optimal in prototypes, about",
+          "basis": "team",
+          "src": [
+            "s16"
+          ],
+          "value": 1.5,
+          "unit": "in"
+        },
+        {
+          "text": "The tape is a non-abrasive 3M anti-slip textured vinyl. Two team posts disagree on grip: one says no more than clean gum rubber, surgical tubing or Fairlane wheels, its gain being light rollers; a later one calls that wrong and says it had the most grip without ball damage",
+          "basis": "team",
+          "src": [
+            "s32",
+            "s33"
+          ]
+        },
+        {
+          "text": "The links turn directly on greased anodized aluminum, with short dead axles clamped by a bolt; only the two rollers join the sides",
+          "basis": "team",
+          "src": [
+            "s34"
+          ]
+        },
+        {
+          "text": "The operator deploys and retracts them, with no sensor",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        },
+        {
+          "text": "The championship intake was the fifth version; the deploy geometry was revised after the first regional to be quicker and need less force",
+          "basis": "team",
+          "src": [
+            "s18",
+            "s35"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Serializer",
+      "does": [
+        "transfer",
+        "retain"
+      ],
+      "type": "two-sided funnel with color sorting",
+      "pieces": [
+        "cargo"
+      ],
+      "serves": [
+        "hub-upper"
+      ],
+      "solves": [
+        {
+          "text": "Bring cargo from two wide intakes into one stream for the shooter without jamming",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Per side: two 6 in polycarbonate wheels with grip tape and powered 1 in top rollers, on one Falcon through bevel gears",
+          "basis": "team",
+          "src": [
+            "s8",
+            "s36"
+          ]
+        },
+        {
+          "text": "Holds a ball on each side and one in the center",
+          "basis": "team",
+          "src": [
+            "s18"
+          ]
+        },
+        {
+          "text": "Surgical tubing gives way to the ball, then pushes it up from below against the feeder rollers, in both directions",
+          "basis": "team",
+          "src": [
+            "s18",
+            "s36"
+          ]
+        },
+        {
+          "text": "A stored ball is shuffled across so a second ball, perhaps of the wrong color, can pass to the shooter",
+          "basis": "team",
+          "src": [
+            "s36"
+          ]
+        },
+        {
+          "text": "Three beam breaks count and locate the balls",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Square nuts pressed into the printed mounts spun free in the off-season, which made it hard to take the Serializer off",
+          "basis": "team",
+          "src": [
+            "s36"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Turret",
+      "does": [
+        "position"
+      ],
+      "type": "turret on a large thin bearing",
+      "pieces": [
+        "cargo"
+      ],
+      "serves": [
+        "hub-upper"
+      ],
+      "solves": [
+        {
+          "text": "Shoot accurately while moving, from a variety of positions",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "12 in inside diameter thin-section bearing held by clamp rings",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Range, each way from center",
+          "basis": "team",
+          "src": [
+            "s8"
+          ],
+          "value": 120,
+          "unit": "degrees"
+        },
+        {
+          "text": "One Falcon; reduction",
+          "basis": "team",
+          "src": [
+            "s8"
+          ],
+          "value": 45,
+          "unit": ":1"
+        },
+        {
+          "text": "Three hall sensors trigger at center and at the soft stops",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "A two-way energy chain with a constant-force-spring tensioner guides the wires over a flat top plate",
+          "basis": "team",
+          "src": [
+            "s8",
+            "s37"
+          ]
+        },
+        {
+          "text": "Being thin puts the feeder rollers close to the shooter wheel; overall thickness, about",
+          "basis": "team",
+          "src": [
+            "s37"
+          ],
+          "value": 0.8,
+          "unit": "in"
+        }
+      ]
+    },
+    {
+      "name": "Shooter",
+      "does": [
+        "deliver"
+      ],
+      "type": "single large flywheel with back rollers and adjustable hood",
+      "pieces": [
+        "cargo"
+      ],
+      "serves": [
+        "hub-upper"
+      ],
+      "solves": [
+        {
+          "text": "Shoot accurately over a large range with few bounce-outs",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Two Falcons drive the back rollers and a billet aluminum flywheel with a diameter of",
+          "basis": "team",
+          "src": [
+            "s8"
+          ],
+          "value": 9,
+          "unit": "in"
+        },
+        {
+          "text": "Five 1.75 in printed back rollers match its surface speed, so the ball has almost no spin",
+          "basis": "team",
+          "src": [
+            "s8",
+            "s18"
+          ]
+        },
+        {
+          "text": "Hood stroke, one Falcon",
+          "basis": "team",
+          "src": [
+            "s8"
+          ],
+          "value": 35,
+          "unit": "degrees"
+        },
+        {
+          "text": "The team tries to maximize the path length in the shooter, so balls in different condition leave closer to the wheel speed",
+          "basis": "team",
+          "src": [
+            "s48"
+          ]
+        },
+        {
+          "text": "The flywheel idles slowly whenever the robot is enabled, as a safety signal",
+          "basis": "team",
+          "src": [
+            "s38"
+          ]
+        },
+        {
+          "text": "One commenter counted 34 of 35 cargo in an Einstein round robin match",
+          "basis": "observer",
+          "src": [
+            "s39"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elevator Climber and Reaction Arm",
+      "does": [
+        "endgame"
+      ],
+      "type": "single-stage elevator with a truss reaction arm",
+      "serves": [
+        "rung-traversal"
+      ],
+      "solves": [
+        {
+          "text": "Reach the traversal rung fast, with space for partners",
+          "basis": "team",
+          "src": [
+            "s8",
+            "s18"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "The Elevator grabs the second rung and pulls; the Reaction Arm hits the underside of the truss and tilts the robot level",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "One Falcon and #25 chain; the binder gives a 41:1 reduction, a team post says 21.5:1 was used at Silicon Valley and the championship",
+          "basis": "team",
+          "src": [
+            "s8",
+            "s25"
+          ]
+        },
+        {
+          "text": "Load: the binder says over 500 lb, a team post about 380 lb on the elevator",
+          "basis": "team",
+          "src": [
+            "s8",
+            "s25"
+          ]
+        },
+        {
+          "text": "With a slower ratio the arm met the truss as the robot swung away, which made much higher loads; after the ratio changed, it met the truss on the swing back and momentum helped; the post does not name the ratios",
+          "basis": "team",
+          "src": [
+            "s40"
+          ]
+        },
+        {
+          "text": "Surgical tubing pulls the arm out; printed hooks on the arm stay caught on the hook standoffs until the carriage rises",
+          "basis": "team",
+          "src": [
+            "s41",
+            "s8"
+          ]
+        },
+        {
+          "text": "A plate on the hooks is pushed against the truss to align the robot",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "A team post says the climb, from starting to pull on the mid rung, took just under",
+          "basis": "team",
+          "src": [
+            "s42"
+          ],
+          "value": 2,
+          "unit": "s"
+        },
+        {
+          "text": "The same post says that once the tail is past the traversal rung, gravity back-drives the elevator and finishes the transfer without power",
+          "basis": "team",
+          "src": [
+            "s42"
+          ]
+        },
+        {
+          "text": "A commenter timed one climb at 4.76 s off the floor and 11.98 s from entering the hangar zone",
+          "basis": "observer",
+          "src": [
+            "s43"
+          ]
+        },
+        {
+          "text": "The carriage rolls on bearing blocks with 12 mm bearings, which held through the championship and were replaced in the off-season",
+          "basis": "team",
+          "src": [
+            "s51"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Stinger",
+      "does": [
+        "endgame"
+      ],
+      "type": "passive telescoping arm",
+      "serves": [
+        "rung-traversal"
+      ],
+      "solves": [
+        {
+          "text": "Reach the traversal rung just within the extension limits with a light, simple part",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Telescoping tubes of 2, 1.5 and 1 in are extended by four 4 lb constant-force springs",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "It never retracts under load, so printed end plugs serve as bearings",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "A pancake cylinder pulls the pin and a 30 lb gas spring pushes it out; a strap keeps it within the extension limits",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Sprung plates latch the traversal rung",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wrong-ball rejection",
+      "does": [
+        "sense",
+        "deliver"
+      ],
+      "type": "color sensing with aimed ejection",
+      "pieces": [
+        "cargo"
+      ],
+      "serves": [],
+      "solves": [
+        {
+          "text": "Keep collecting while opponent cargo goes where opponents reach it with difficulty",
+          "basis": "team",
+          "src": [
+            "s18",
+            "s26"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Two REV color sensors feed a Teensy, which sends one PWM signal with the red to blue ratio",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Thresholds stay on the roboRIO so the Teensy code never has to change",
+          "basis": "team",
+          "src": [
+            "s44"
+          ]
+        },
+        {
+          "text": "Aimed ejection uses gyro, encoders and Limelight to send opponent cargo to places such as the hangar or the team's alliance wall",
+          "basis": "team",
+          "src": [
+            "s26",
+            "s27"
+          ]
+        },
+        {
+          "text": "Where the hub is in the way or the turret cannot reach, it does a normal soft eject",
+          "basis": "team",
+          "src": [
+            "s27",
+            "s45"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The first version ignored robot velocity and could throw balls off the field",
+          "basis": "team",
+          "src": [
+            "s27"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Goal tracking",
+      "does": [
+        "sense"
+      ],
+      "type": "Limelight with a remembered goal position",
+      "serves": [
+        "hub-upper"
+      ],
+      "solves": [
+        {
+          "text": "Keep aiming when the goal is out of view",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Limelight 2+; target corners and known height give the goal's position, kept and smoothed all match even when unseen",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Old tracks were weighted heavily against false targets, which failed after wheel slip; the robot then switched after seeing a new target for",
+          "basis": "team",
+          "src": [
+            "s46"
+          ],
+          "value": 250,
+          "unit": "ms"
+        }
+      ]
+    },
+    {
+      "name": "Shooting on the fly",
+      "does": [
+        "sense",
+        "position"
+      ],
+      "type": "turret feedforward plus regression",
+      "pieces": [
+        "cargo"
+      ],
+      "serves": [
+        "hub-upper"
+      ],
+      "solves": [
+        {
+          "text": "Shoot while moving, with the turret always lined up",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Turret feedforward comes from robot rotation and angular velocity relative to the goal",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Wheel speed and hood angle come from a linear regression on the ball's vertical and horizontal velocity",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "The driver has an allow-shoot button; the robot fires when turret, hood and wheel speed are right",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Sudden acceleration during the feed could spoil a shot; the team relied on driver practice",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Autonomous path following",
+      "does": [
+        "sense",
+        "drive"
+      ],
+      "type": "quintic Hermite splines",
+      "serves": [
+        "taxi",
+        "hub-upper"
+      ],
+      "solves": [
+        {
+          "text": "Follow paths smoothly and reliably",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Splines are optimized for small curvature change to limit torque, slip and inaccuracy",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Feedforward from precomputed velocity plus proportional feedback on position and heading",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Swerve",
+      "because": "the field was flat and open, and earlier barriers to swerve were gone",
+      "instead_of": "the West Coast drives of the past 20 years",
+      "basis": "team",
+      "src": [
+        "s47",
+        "s18",
+        "s8"
+      ]
+    },
+    {
+      "choice": "React against the truss and skip the high rung",
+      "because": "reacting on the high bar needed a large swept space, and climbing below the truss may leave room for a third robot",
+      "instead_of": "a high bar reaction like 125's",
+      "basis": "team",
+      "src": [
+        "s18"
+      ]
+    },
+    {
+      "choice": "Grip tape on polycarbonate rollers",
+      "because": "it saved a few pounds on each intake and still worked",
+      "instead_of": "flex wheels",
+      "basis": "team",
+      "src": [
+        "s18"
+      ]
+    },
+    {
+      "choice": "Eject opponent cargo through the shooter",
+      "because": "the intakes can keep collecting",
+      "instead_of": "ejecting through the intake",
+      "basis": "team",
+      "src": [
+        "s18"
+      ]
+    },
+    {
+      "choice": "A 9 in flywheel",
+      "because": "its long acceleration is consistent with balls in different condition",
+      "instead_of": "much smaller Fairlane wheels",
+      "basis": "team",
+      "src": [
+        "s18"
+      ]
+    },
+    {
+      "choice": "One motor on the elevator",
+      "because": "it gained over a pound for the new hooded shooter",
+      "instead_of": "two motors at 11.5:1",
+      "basis": "team",
+      "src": [
+        "s25"
+      ]
+    },
+    {
+      "choice": "Keep pneumatic intakes",
+      "because": "motorizing them was too big a change in mid-season",
+      "instead_of": "motorized intakes for faster deploy and retract",
+      "basis": "team",
+      "src": [
+        "s35"
+      ]
+    },
+    {
+      "choice": "Solid 1/8 in bellypan",
+      "because": "low center of gravity, free mounting holes and less dust pulled into the robot",
+      "instead_of": "a pocketed pan",
+      "cost": "weight, fought all season, and dirt that could not be blown out through the pan",
+      "basis": "team",
+      "src": [
+        "s23"
+      ]
+    },
+    {
+      "choice": "Stacked polycarbonate funnel wheels",
+      "because": "they worked as well and saved at least another 0.5 lb across the robot",
+      "instead_of": "6 in omni wheels, whole or sawn in half",
+      "basis": "team",
+      "src": [
+        "s26"
+      ]
+    },
+    {
+      "choice": "REV color sensors through a Teensy",
+      "because": "the industrial sensors were annoying to calibrate and less accurate than wanted, and other teams had issues with the roboRIO I2C port",
+      "instead_of": "industrial color sensors",
+      "basis": "team",
+      "src": [
+        "s18"
+      ]
+    },
+    {
+      "choice": "In playoffs, fetch the hard-to-reach cargo early",
+      "because": "it comes back into play later as easy cargo",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Behind the Bumpers: 254 The Cheesy Poofs (captions read, video not watched)",
+        "url": "https://www.youtube.com/watch?v=cKDmHCTDQW8",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/OpDqehn",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Team 254 Presents: Sideways (reveal thread with design answers)",
+        "url": "https://www.chiefdelphi.com/t/team-254-presents-sideways/406523",
+        "format": "thread",
+        "state": "opened",
+        "src": "s6"
+      },
+      {
+        "what": "Carnegie Mellon Robotics Academy interviews the Cheesy Poofs (two videos)",
+        "url": "https://www.chiefdelphi.com/t/carnegie-mellon-robotics-academy-interviews-the-cheesy-poofs/416109",
+        "format": "thread",
+        "state": "listed",
+        "src": "s9"
+      },
+      {
+        "what": "2022 Galileo Q42 / FRC 254 / Clean Robot Video",
+        "url": "https://www.youtube.com/watch?v=cAQ-dh6PVz0",
+        "format": "video",
+        "state": "listed",
+        "src": "s10"
+      },
+      {
+        "what": "2022 Recap Video (Team 254)",
+        "url": "https://www.youtube.com/watch?v=onkTq9ga6Xc",
+        "format": "video",
+        "state": "listed",
+        "src": "s11"
+      },
+      {
+        "what": "How do these 254 mechanisms work? (bearing retention)",
+        "url": "https://www.chiefdelphi.com/t/how-do-these-254-mechanisms-work-bearing-retention/409093",
+        "format": "thread",
+        "state": "opened",
+        "src": "s13"
+      },
+      {
+        "what": "254: 2022 FIRST Championship recap",
+        "url": "https://www.team254.com/2022cmp/",
+        "format": "web page",
+        "state": "listed",
+        "src": "s14"
+      },
+      {
+        "what": "Carnegie Mellon Robotics Academy interview with Team 254, part 2 (captions read, video not watched)",
+        "url": "https://www.youtube.com/watch?v=OKMUD3FdBIM",
+        "format": "video",
+        "state": "listed",
+        "src": "s15"
+      },
+      {
+        "what": "Carnegie Mellon Robotics Academy interview with Team 254, part 1 (captions read, video not watched)",
+        "url": "https://www.youtube.com/watch?v=PUtC7YyPtuM",
+        "format": "video",
+        "state": "listed",
+        "src": "s16"
+      },
+      {
+        "what": "Einstein round robin 2 match video named by the team (not watched)",
+        "url": "https://youtu.be/-HI1RpdORwI",
+        "format": "video",
+        "state": "listed",
+        "src": "s26"
+      },
+      {
+        "what": "Full robot, blue bumpers, intakes on both ends, shooter in centre",
+        "url": "https://imgur.com/HSHpnyg",
+        "img": "https://i.imgur.com/HSHpnygh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s52",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Full robot from the end, blue bumpers, climber uprights; people cropped",
+        "url": "https://imgur.com/MdhOTCR",
+        "img": "https://i.imgur.com/MdhOTCRh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s53",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Animated photo, intakes, turret and climber moving",
+        "url": "https://www.chiefdelphi.com/t/415951",
+        "img": "https://media.team254.com/2022/03/8e51079d-sideways.gif",
+        "format": "image",
+        "state": "opened",
+        "src": "s5",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Intake side plate close-up, red arrows mark fasteners",
+        "url": "https://www.chiefdelphi.com/t/how-do-these-254-mechanisms-work-bearing-retention/409093",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/6/2/6228652568f9a8a5636d6a4ac0ba8b8e496edd87_2_343x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s13",
+        "kind": "mechanism"
+      },
+      {
+        "what": "Turret plate drawing with cable chain paths sketched",
+        "url": "https://www.chiefdelphi.com/t/team-254-presents-2022-recap-technical-binder-and-strategy-presentation/415951/37",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/7/0/700928fc812036360232a86b3a9abb8db5ffb56d_2_690x482.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s55",
+        "kind": "drawing"
+      },
+      {
+        "what": "Section CAD through turret ring, bearing and gear teeth",
+        "url": "https://www.chiefdelphi.com/t/team-254-presents-2022-recap-technical-binder-and-strategy-presentation/415951/38",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/4/4/44bfdcdee865df298a8e069dfd802cb8d5efe73f_2_690x480.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s56",
+        "kind": "cad"
+      },
+      {
+        "what": "Field map of ball ejection zones, labelled 254 ball eject diagram",
+        "url": "https://www.chiefdelphi.com/t/team-254-presents-2022-recap-technical-binder-and-strategy-presentation/415951/30",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/f/2/f2a2b56a4a06a357d17f3f94c588bcef423c9ace_2_690x366.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s57",
+        "kind": "diagram"
+      },
+      {
+        "what": "Cable chain CAD, screen says BIGUS Assembly 2022",
+        "url": "https://www.chiefdelphi.com/t/team-254-presents-2022-recap-technical-binder-and-strategy-presentation/415951/37",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/3/d/3d6a401c1a08f25ac482059a5056937a8addf236_2_690x314.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s55",
+        "kind": "cad"
+      },
+      {
+        "what": "Binder excerpt, turret CAD fragment and bearing notes",
+        "url": "https://www.chiefdelphi.com/t/team-254-presents-2022-recap-technical-binder-and-strategy-presentation/415951",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/1/f/1fbf429d8c416c52a3a3b32f4a9937bd902b8d2c_2_517x262.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s5",
+        "kind": "diagram"
+      },
+      {
+        "what": "CAD close-up of cable chain on plate below blue shooter wheel",
+        "url": "https://www.chiefdelphi.com/t/team-254-presents-2022-recap-technical-binder-and-strategy-presentation/415951/37",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/7/b/7b9022da56e99e60982e7044d0fe6e16af54956f_2_690x366.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s55",
+        "kind": "cad"
+      },
+      {
+        "what": "Side-view CAD of turret ring with motor below",
+        "url": "https://www.chiefdelphi.com/t/team-254-presents-2022-recap-technical-binder-and-strategy-presentation/415951/38",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/f/c/fcfc7ed5f9ed536fe4025443cad5cfc668da7a3e_2_690x248.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s56",
+        "kind": "cad"
+      },
+      {
+        "what": "CAD close-up, shooter side plate joined to turret ring by blue blocks",
+        "url": "https://www.chiefdelphi.com/t/team-254-presents-2022-recap-technical-binder-and-strategy-presentation/415951",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/7/f/7f0383506dfd68e4f155f46afcdb3239b0503a05_2_690x280.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s5",
+        "kind": "cad"
+      }
+    ],
+    "documents": [
+      {
+        "what": "Championship playoff strategy slides (text read, diagrams not)",
+        "url": "https://docs.google.com/presentation/d/18P3VFlvblZgh41UapDc4OaVzFM36uS-afNejkgXWp70/edit",
+        "format": "Google Slides",
+        "state": "opened",
+        "src": "s3"
+      },
+      {
+        "what": "Team 254 Presents: 2022 Recap, Technical Binder, and Strategy Presentation",
+        "url": "https://www.chiefdelphi.com/t/team-254-presents-2022-recap-technical-binder-and-strategy-presentation/415951",
+        "format": "thread",
+        "state": "opened",
+        "src": "s5"
+      },
+      {
+        "what": "2022 RAPID REACT",
+        "url": "https://www.team254.com/frc/2022/",
+        "format": "web page",
+        "state": "listed",
+        "src": "s7"
+      },
+      {
+        "what": "Team 254 2022 technical binder (Sideways; text read, figures not)",
+        "url": "https://media.team254.com/2022/10/8f2407a5-Team_254_Tech_Binder_2022.pdf",
+        "format": "PDF",
+        "state": "opened",
+        "src": "s8"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/team254",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Team 254 Presents: 2022 Code for Sideways",
+        "url": "https://www.chiefdelphi.com/t/team-254-presents-2022-code-for-sideways/420971",
+        "format": "thread",
+        "state": "opened",
+        "src": "s4"
+      },
+      {
+        "what": "Team254/FRC-2022-Public (Sideways code)",
+        "url": "https://github.com/Team254/FRC-2022-Public",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s12"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)"
+  ],
+  "results": {
+    "division": "Galileo",
+    "division_opr": 68.28,
+    "opr_rank": 2,
+    "record": "50-5-1",
+    "einstein": {
+      "division": "Galileo",
+      "role": "pick 1"
+    },
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

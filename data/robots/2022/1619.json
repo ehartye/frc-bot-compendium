@@ -1,0 +1,663 @@
+{
+  "id": "2022-1619",
+  "season": 2022,
+  "team": "1619",
+  "team_name": "Up-A-Creek Robotics",
+  "robot_name": "Vertigo",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 1619 in 2022",
+      "url": "https://www.thebluealliance.com/team/1619/2022",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Galileo Division 2022",
+      "url": "https://www.thebluealliance.com/event/2022gal",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "Champs Elims Strategies (254 Google Slides)",
+      "url": "https://docs.google.com/presentation/d/18P3VFlvblZgh41UapDc4OaVzFM36uS-afNejkgXWp70/edit",
+      "publisher": "docs.google.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Team1619/2022_Public",
+      "url": "https://github.com/Team1619/2022_Public",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Behind the Bumpers - 1619 Up-A-Creek Robotics Robot Overview",
+      "url": "https://www.chiefdelphi.com/t/behind-the-bumpers-1619-up-a-creek-robotics-robot-overview/415796",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "FRC Team 1619, Longmont CO - Robots & Achievements (names the 2022 robot)",
+      "url": "https://team1619.org/about-team-1619/robots-achievements",
+      "publisher": "team1619.org",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "254: 2022 FIRST Championship recap",
+      "url": "https://www.team254.com/2022cmp/",
+      "publisher": "team254.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Behind the Bumpers 1619 Up-A-Creek Robotics | Rapid React Robot",
+      "url": "https://www.youtube.com/watch?v=MlXF9CxDrlg",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "FRC Recap Championship Divisions and Einstein | Rapid React",
+      "url": "https://www.youtube.com/watch?v=vKLxBkhyMwg",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Longmont robotics teams dominate at world tournament",
+      "url": "https://www.longmontleader.com/local-news/longmont-robotics-teams-dominate-at-world-tournament-5310097",
+      "publisher": "The Longmont Leader",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Are turrets still worth it with swerve drive? (post 10)",
+      "url": "https://www.chiefdelphi.com/t/436509/10",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Are turrets still worth it with swerve drive? (post 18)",
+      "url": "https://www.chiefdelphi.com/t/436509/18",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "2022 FRC World Champions - Team 254 Blog",
+      "url": "https://blog.team254.com/2022cmp/",
+      "publisher": "Team 254",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/teGiYbx",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "In an off-season interview: the collector follows \"we touch it we keep it\": very wide, flexible in both directions, meant to take in any ball the team can.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "When laying out the robot, the main thing the team wanted was the climber in the center, so the robot could be on whichever side of the hangar it needed.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      },
+      {
+        "text": "Its championship partner 254 says the alliance wanted a triple traversal climb, for strategic flexibility and a higher points ceiling.",
+        "basis": "observer",
+        "src": [
+          "s13"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "A dashboard selector holds many tested autos, to fit what partners run. At the championship the team left 254's part of the field to 254 and ran its own two-ball.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      },
+      {
+        "text": "A host's recap says that in the first Einstein final it scored two in the upper hub, then pushed an opposing ball to the hidden side of the hub.",
+        "basis": "observer",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "In an off-season interview: wheels push cargo to an off-center tunnel, where beam breaks help tell its color; the wrong color goes out the back. Belts running in opposite directions hold a ball. An indicator turns blue with two balls; on the prime button the drivetrain faces the hub, the Limelight corrects, and it turns red.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "In an off-season interview: pneumatics raise the climber until it latches. It climbs to the second bar, shifts the center of gravity to lift to the third, shifts again on the traversal and releases, all automated. The fastest climb was about nine seconds.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "A centered climber led to an off-center shooter and a center of gravity problem. To balance the robot the team belted and shafted three gearboxes and the flywheel over to the other side.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      },
+      {
+        "text": "A host's recap says that in one qualification match the robot fell off the traversal rung with five seconds left.",
+        "basis": "observer",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "In an off-season interview: the shooter did not start with back rollers or a ball stopper. The rollers keep two balls at the same speed; the stopper, added between the regionals as a team member believes, keeps balls from coming out early. About halfway the team found latching that avoided two claws on each side.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "55-3-1 in official play; won the Galileo division, won the championship; captain of the Galileo alliance on Einstein; ranked 17 of the pooled top 20 (OPR 57.03, Galileo).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Swerve drive",
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "A post lists 1619 among 2022 teams with swerve and a fixed shooter",
+          "basis": "observer",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Collector",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Take in any ball, and stand up to defense",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "very wide flexible collector",
+      "serves": [],
+      "facts": [
+        {
+          "text": "In an off-season interview: flexible in both directions, which helps with defense",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Wheels push the ball to the side, to an off-center ball tunnel and elevator",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Several spacings of its three rungs were tried; the one used was the most effective",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elevator",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Hold a ball in place or send it up to the shooter",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "does": [
+        "transfer",
+        "retain"
+      ],
+      "type": "belt elevator with independent sides",
+      "serves": [],
+      "facts": [
+        {
+          "text": "In an off-season interview: the front and back belts have separate gearboxes",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Belts spinning in opposite directions hold the ball; the same direction shoots it up to the hood",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Beam breaks and color sorting",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Cue the robot and determine a ball's color",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "transfer"
+      ],
+      "type": "beam breaks with rear ejection",
+      "serves": [],
+      "facts": [
+        {
+          "text": "In an off-season interview: multiple beam breaks sit along the ball path",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "A wrong-color ball is ejected out the back",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Give both balls the correct velocity so they have the right trajectory",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "off-center flywheel shooter with adjustable hood",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "In an off-season interview: back rollers help keep the two balls at the same speed",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "A ball stopper keeps balls from coming out of the shooter early",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "The flywheel, shooter and two elevator gearboxes sit on the other side of the robot for balance",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "The team says it can shoot from anywhere and calls around the front of the hangar a great place",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "A host's recap counts about 21 upper hub cargo in the first Einstein final, with one miss",
+          "basis": "observer",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "A post lists 1619 among 2022 teams without a turret",
+          "basis": "observer",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "The backing wheels are connected to a flywheel at the bottom, which helps keep the ball velocity",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Limelight with IMU odometry",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Aim at the hub without targeting stadium lights",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "position"
+      ],
+      "type": "drivetrain aiming",
+      "serves": [],
+      "facts": [
+        {
+          "text": "In an off-season interview: the Limelight is on only while priming and pointed at the target",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "A Pigeon IMU gives a rough estimate of where the robot is",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "On the prime button the drivetrain points toward the hub, then the Limelight corrects",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "An indicator light is blue with two balls collected and red when primed",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rotary climber",
+      "solves": [
+        {
+          "text": "Climb from the center of the robot with a simple design that can be sped up later",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "windmill climber",
+      "serves": [
+        "rung-traversal"
+      ],
+      "facts": [
+        {
+          "text": "In an off-season interview: stows in the back and middle of the robot and folds out; two pneumatic cylinders raise it",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Spring steel notches latch it so the structure cannot come back down mid-climb",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "The climb is automated",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Fastest climb, in Houston, about",
+          "basis": "team",
+          "src": [
+            "s8"
+          ],
+          "value": 9,
+          "unit": "s"
+        },
+        {
+          "text": "A flexible flap shows drivers where to line up, so the motor does not hit the wall and shear off",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Size and weight",
+      "does": [
+        "structure"
+      ],
+      "type": "overall envelope",
+      "serves": [],
+      "facts": [
+        {
+          "text": "A newspaper gives the robot as 120 pounds and 5 ft tall",
+          "basis": "observer",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Climber in the center",
+      "because": "the robot can be on whichever side of the hangar it needs",
+      "cost": "an off-center shooter and a center of gravity problem",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    },
+    {
+      "choice": "Belt and shaft gearboxes to the other side",
+      "because": "the off-center shooter left a center of gravity problem",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    },
+    {
+      "choice": "Rotary climber",
+      "because": "it would be a very simple design that could be sped up over time",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    },
+    {
+      "choice": "Limelight on only while priming",
+      "because": "it might otherwise target stadium lights",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    },
+    {
+      "choice": "Choose autos to fit partners",
+      "because": "asking other teams what autos they have shows where to be on the field",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=MlXF9CxDrlg",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=n00526sB2JI",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Behind the Bumpers - 1619 Up-A-Creek Robotics Robot Overview",
+        "url": "https://www.chiefdelphi.com/t/behind-the-bumpers-1619-up-a-creek-robotics-robot-overview/415796",
+        "format": "thread",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "FRC Team 1619, Longmont CO - Robots & Achievements",
+        "url": "https://www.team1619.org/about-team-1619/robots-achievements",
+        "format": "web page",
+        "state": "listed",
+        "src": "s6"
+      },
+      {
+        "what": "254: 2022 FIRST Championship recap",
+        "url": "https://www.team254.com/2022cmp/",
+        "format": "web page",
+        "state": "listed",
+        "src": "s7"
+      },
+      {
+        "what": "Robot on field shooting red cargo, red bumpers",
+        "url": "https://imgur.com/teGiYbx",
+        "img": "https://i.imgur.com/teGiYbxh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s14",
+        "kind": "robot-photo",
+        "hero": true
+      }
+    ],
+    "documents": [
+      {
+        "what": "Champs Elims Strategies (254 Google Slides)",
+        "url": "https://docs.google.com/presentation/d/18P3VFlvblZgh41UapDc4OaVzFM36uS-afNejkgXWp70/edit",
+        "format": "Google Slides",
+        "state": "listed",
+        "src": "s3"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/team1619",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Team1619/2022_Public",
+        "url": "https://github.com/Team1619/2022_Public",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s4"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: Chief Delphi searches for 1619 and up-a-creek in titles, one web search, the team's presentation resources page; no 2022 binder, and two decks there need sign-in"
+  ],
+  "results": {
+    "division": "Galileo",
+    "division_opr": 57.03,
+    "opr_rank": 17,
+    "record": "55-3-1",
+    "einstein": {
+      "division": "Galileo",
+      "role": "captain"
+    },
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

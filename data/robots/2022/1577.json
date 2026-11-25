@@ -1,0 +1,523 @@
+{
+  "id": "2022-1577",
+  "season": 2022,
+  "team": "1577",
+  "team_name": "Steampunk",
+  "robot_name": "Oasis",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 1577 in 2022",
+      "url": "https://www.thebluealliance.com/team/1577/2022",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Turing Division 2022",
+      "url": "https://www.thebluealliance.com/event/2022tur",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "Behind the Bumpers - 1577 Steampunk - World Finalist Alliance Captain",
+      "url": "https://www.chiefdelphi.com/t/behind-the-bumpers-1577-steampunk-world-finalist-alliance-captain/410324",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Steampunk 1577: Robot Reveal 2022",
+      "url": "https://www.chiefdelphi.com/t/steampunk-1577-robot-reveal-2022/404820",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Steampunk 1577 2022 Season Recap",
+      "url": "https://www.chiefdelphi.com/t/steampunk-1577-2022-season-recap/415249",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "FUNalysis ISR 1 QF 5 | 146 High Score | 1690 1577 6104 | Rapid React",
+      "url": "https://www.youtube.com/watch?v=8aPQPJv5mGw",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Behind the Bumpers 1577 Steampunk | Rapid React Robot",
+      "url": "https://www.youtube.com/watch?v=WrTNg9g2tJ4",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Behind the Bumpers - 1577 Steampunk - World Finalist Alliance Captain (post 3)",
+      "url": "https://www.chiefdelphi.com/t/410324/3",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Are turrets still worth it with swerve drive? (post 10)",
+      "url": "https://www.chiefdelphi.com/t/436509/10",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Was there a robot that did not use pneumatics in 2022 rapid react (post 5)",
+      "url": "https://www.chiefdelphi.com/t/436276/5",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "FRC Recap Championship Divisions and Einstein | Rapid React (automatic transcript)",
+      "url": "https://www.youtube.com/watch?v=vKLxBkhyMwg",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/OatqX9C",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "auto": [
+      {
+        "text": "A match breakdown shows a two-ball auto in a quarterfinal at the first Israel district event, beside 1690's five-ball.",
+        "basis": "observer",
+        "src": [
+          "s6"
+        ]
+      },
+      {
+        "text": "A recap describes a five-ball auto in the first Einstein final, with four scored in the upper hub.",
+        "basis": "observer",
+        "src": [
+          "s11"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "Cargo passes a color sensor; a wheel spins out to throw the wrong color out the back or in to send the right one up the conveyor. With two in, the Limelight gives angle and distance to the hub and a formula gives the shooter's angle and speed.",
+        "basis": "team",
+        "src": [
+          "s7"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "The driver touches the rung with the telescopes; they close, hand over to static arms, angle back, open past the next rung, angle in until motor current rises, and close. The team gives 10 seconds to traversal.",
+        "basis": "team",
+        "src": [
+          "s7"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "In the second Einstein final, a recap commentator says, it spun out of good defense many times to reach the launch pad area for its shots.",
+        "basis": "observer",
+        "src": [
+          "s11"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "Side pieces on the intake were removed because two balls could enter the dribbler together and get stuck.",
+        "basis": "team",
+        "src": [
+          "s7"
+        ]
+      },
+      {
+        "text": "The video's host says the team missed a few shots at its first event and was accurate by the third Israel event and the championship.",
+        "basis": "observer",
+        "src": [
+          "s7"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "66-12-0 in official play; won the Turing division, championship finalist; captain of the Turing alliance on Einstein; ranked 5 of the pooled top 20 (OPR 65.95, Turing).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drivetrain",
+      "solves": [],
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Swerve, as a team member mentions",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "A commenter lists it among swerve robots with a fixed shooter",
+          "basis": "observer",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Collect cargo from every side with as much surface contact as possible",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "dribbler-style belt and cord intake",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "Works like a dribbler, with flat belt and poly cords",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Chosen to suit other subassemblies, the swerve drivetrain among them (garbled captions)",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cargo sorter",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Eject wrong-color cargo automatically",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ],
+      "does": [
+        "transfer",
+        "sense"
+      ],
+      "type": "two-direction wheel with color sensor",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "The team color comes from the field system",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Incoming cargo touches the intake's back roller and a black wheel; that wheel spins out to eject it, past the roller and an orange wheel above, out the back, or in toward a wall of churros and the conveyor",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "One infrared sensor shows when an ejected cargo has left, another when a kept cargo is in place",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Shoot from many places around the field",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ],
+      "does": [
+        "deliver",
+        "position"
+      ],
+      "type": "flywheel with meshing arc hood",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "Static arcs, cut on the team's own CNC, mesh with similar arcs on a moving hood",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "A main wheel and back wheels mitigate spin",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "A Limelight gives angle and distance to the hub",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Preferred spot is around the edge of the tarmac and a bit further",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "A recap of the Einstein finals says two cargo shot up against the hub under defense bounced into each other and one or both missed; in the second and third it shot almost only from the launch pad area",
+          "basis": "observer",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Climb rung to rung in a sensor-driven sequence",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "tilting telescopic arms with static arms",
+      "serves": [
+        "rung-high",
+        "rung-traversal"
+      ],
+      "facts": [
+        {
+          "text": "Bumper switches on the static arms show contact with the bar",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Springs tilt the telescopes to a 3D printed mechanical stop as a winch gives rope; the rope pulls them back",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Motor current shows when the telescopes meet the next rung",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Climb to traversal by the team's account, about",
+          "basis": "team",
+          "src": [
+            "s7"
+          ],
+          "value": 10,
+          "unit": "s"
+        },
+        {
+          "text": "A 1 g zip tie between two gears of the climber arm brakes it; reversing the motor drops the tie, and the software backup never had to run in competition",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "A commenter names it among simple climbers without pneumatics",
+          "basis": "observer",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Aim for the middle of the hub, near the back side",
+      "because": "it lowers the chance of cargo bouncing upward",
+      "basis": "team",
+      "src": [
+        "s7"
+      ]
+    },
+    {
+      "choice": "No side pieces on the intake",
+      "because": "two balls could go into the dribbler together and get stuck",
+      "instead_of": "the side pieces first fitted",
+      "basis": "team",
+      "src": [
+        "s7"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Robot reveal video, \"Oasis\" (not watched)",
+        "url": "https://www.youtube.com/watch?v=-61gXj3da-o",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=0s1eaYDkrts",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Behind the Bumpers - 1577 Steampunk - World Finalist Alliance Captain",
+        "url": "https://www.chiefdelphi.com/t/behind-the-bumpers-1577-steampunk-world-finalist-alliance-captain/410324",
+        "format": "thread",
+        "state": "opened",
+        "src": "s3"
+      },
+      {
+        "what": "Steampunk 1577: Robot Reveal 2022",
+        "url": "https://www.chiefdelphi.com/t/steampunk-1577-robot-reveal-2022/404820",
+        "format": "thread",
+        "state": "opened",
+        "src": "s4"
+      },
+      {
+        "what": "Steampunk 1577 2022 Season Recap",
+        "url": "https://www.chiefdelphi.com/t/steampunk-1577-2022-season-recap/415249",
+        "format": "thread",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "FUNalysis ISR 1 QF 5 | 146 High Score | 1690 1577 6104 | Rapid React",
+        "url": "https://www.youtube.com/watch?v=8aPQPJv5mGw",
+        "format": "video",
+        "state": "listed",
+        "src": "s6"
+      },
+      {
+        "what": "Behind the Bumpers 1577 Steampunk | Rapid React Robot (transcript read, video not watched)",
+        "url": "https://www.youtube.com/watch?v=WrTNg9g2tJ4",
+        "format": "video",
+        "state": "listed",
+        "src": "s7"
+      },
+      {
+        "what": "Robot on field with intake extended, red bumpers, blue cargo",
+        "url": "https://imgur.com/OatqX9C",
+        "img": "https://i.imgur.com/OatqX9Ch.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s12",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Robot in pit, red bumpers, intake lowered; title text overlaid",
+        "url": "https://www.chiefdelphi.com/t/behind-the-bumpers-1577-steampunk-world-finalist-alliance-captain/410324",
+        "img": "https://www.chiefdelphi.com/uploads/default/original/3X/9/8/98318f88023c15feffe162399b2a4f1677c4bd62.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s3",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Robot on field, red bumpers, climber hooks at top",
+        "url": "https://www.chiefdelphi.com/t/behind-the-bumpers-1577-steampunk-world-finalist-alliance-captain/410324",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/c/d/cd5846501d27e2df9c7990e79dd647729cfe81e4_2_334x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s3",
+        "kind": "robot-photo",
+        "hero": true
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/frc1577",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "Chief Delphi search \"1577 binder\" (2022 to 2023), a web search for a 2022 technical book, and the team's own site, which refused connections (no binder found)"
+  ],
+  "results": {
+    "division": "Turing",
+    "division_opr": 65.95,
+    "opr_rank": 5,
+    "record": "66-12-0",
+    "einstein": {
+      "division": "Turing",
+      "role": "captain"
+    },
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

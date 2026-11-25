@@ -16,7 +16,7 @@ spec.loader.exec_module(opr)
 
 DATA = Path(sys.argv[1])
 NAMES = {"arc": "Archimedes", "cur": "Curie", "dal": "Daly", "gal": "Galileo",
-         "hop": "Hopper", "joh": "Johnson", "mil": "Milstein", "new": "Newton"}
+         "hop": "Hopper", "carv": "Carver", "roe": "Roebling", "tur": "Turing", "joh": "Johnson", "mil": "Milstein", "new": "Newton"}
 
 
 def solve(rows, teams):
@@ -58,7 +58,7 @@ with open(sheet, encoding="utf-8-sig", newline="") if sheet.exists() else io.Str
 result = {}
 for y in opr.YEARS:
     pool, check = [], {}
-    for d in opr.DIVS:
+    for d in opr.divisions(y):
         key = f"{y}{d}"
         page = opr.fetch(key)
         m = re.search(r"const coprs = JSON\.parse\('(.*?)'\)", page, re.S)

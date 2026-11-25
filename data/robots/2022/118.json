@@ -1,0 +1,1159 @@
+{
+  "id": "2022-118",
+  "season": 2022,
+  "team": "118",
+  "team_name": "Robonauts",
+  "robot_name": "Horizon",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 118 in 2022",
+      "url": "https://www.thebluealliance.com/team/118/2022",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Galileo Division 2022",
+      "url": "https://www.thebluealliance.com/event/2022gal",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "1323 Robot Pictures and Technical Details?",
+      "url": "https://www.chiefdelphi.com/t/1323-robot-pictures-and-technical-details/420122",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Robonauts 118 - 2022 CAD, Code, and Build Blog Release",
+      "url": "https://www.chiefdelphi.com/t/robonauts-118-2022-cad-code-and-build-blog-release/420872",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "The Robonauts 118",
+      "url": "https://www.chiefdelphi.com/t/the-robonauts-118-2022-video/404429",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Robonauts 2022 build blog (Tumblr)",
+      "url": "https://robonauts2022.tumblr.com/",
+      "publisher": "robonauts2022.tumblr.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "118 Robonauts robots page, 2022 Horizon section",
+      "url": "https://www.118robonauts.org/robots",
+      "publisher": "118robonauts.org",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Robonauts (118) 2022 Robot - Horizon (GrabCAD)",
+      "url": "https://grabcad.com/library/robonauts-118-2022-robot-horizon-1",
+      "publisher": "grabcad.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "2022 Galileo Playoffs",
+      "url": "https://www.chiefdelphi.com/t/2022-galileo-playoffs/410217",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Behind the Bumpers 118 Robonauts Robot | Rapid React",
+      "url": "https://www.youtube.com/watch?v=cxhs6sPw3Ys",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "118 Horizon source code (team site archive)",
+      "url": "https://www.118robonauts.org/_files/archives/209e0c_3a2eb56c5e1e4b529090cc92b3325f5c.zip?dn=FRC118-Robonauts-2022-Horizon-SourceCode.zip",
+      "publisher": "118robonauts.org",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "118 Horizon CAD-Step File (team site archive)",
+      "url": "https://www.118robonauts.org/_files/archives/209e0c_69c363af81614cc58d96d0406c72146d.zip?dn=00_top_robot_2022_asm.zip",
+      "publisher": "118robonauts.org",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "2022 Rapid React Climbing Breakdown | FRC 118 Robonauts | FLYSET Workshop",
+      "url": "https://www.youtube.com/watch?v=XRPd9WukyVk",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "Behind the Bumpers - FRC 118 Robonauts Robot Breakdown (post 2)",
+      "url": "https://www.chiefdelphi.com/t/413580/2",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "Behind the Bumpers - FRC 118 Robonauts Robot Breakdown (post 4, gearing of each mechanism)",
+      "url": "https://www.chiefdelphi.com/t/413580/4",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "The Robonauts 118 - 2022 Video (post 41)",
+      "url": "https://www.chiefdelphi.com/t/404429/41",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "2022 Galileo Playoffs (post 10)",
+      "url": "https://www.chiefdelphi.com/t/410217/10",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "Team 254 Presents: 2022 Recap, Technical Binder, and Strategy Presentation (post 19)",
+      "url": "https://www.chiefdelphi.com/t/415951/19",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "Robonauts 2022 build blog: first robotic climb test",
+      "url": "https://www.tumblr.com/robonauts2022/705682396770664448",
+      "publisher": "robonauts2022.tumblr.com",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "1323 Robot Pictures and Technical Details? (post 7)",
+      "url": "https://www.chiefdelphi.com/t/420122/7",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s22": {
+      "title": "1323 Robot Pictures and Technical Details? (post 8)",
+      "url": "https://www.chiefdelphi.com/t/420122/8",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "demand": [
+      {
+        "text": "Endgame points are essentially independent of opponents, so the team strived to maximize them. It kept the upper structure and shooter head narrow with a triple traversal in mind; hangar points were also the Einstein round robin tie-breaker.",
+        "basis": "team",
+        "src": [
+          "s14"
+        ]
+      },
+      {
+        "text": "It started the season knowing it would not stop trying until it could reach the highest point.",
+        "basis": "team",
+        "src": [
+          "s13"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "In an off-season interview: rollers center cargo from the intake, and an omni-wheel feeder takes it in. A kicker keeps it away from the flywheel, which spins throughout the match, until it is run to release the ball. The turret can whip around while the robot turns.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "In an off-season interview: a NEO 550 raises the climber until clips lock it. With the hood down, it latches onto the first bar and climbs to the high bar. The team can stay, or release the claw and take the traversal. Climbs took about five or six seconds.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "The climb worked nominally with one of its three motors disconnected, the backup plan while losing weight before tournaments.",
+        "basis": "team",
+        "src": [
+          "s14"
+        ]
+      },
+      {
+        "text": "When a hit in the third Galileo quarterfinal left the intake stuck up, the robot switched to defense and could not climb.",
+        "basis": "team",
+        "src": [
+          "s18"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "Large intake wheels led to long arms, whose length led to some bending after long practices and hard hits; the team often brought an entire spare intake.",
+        "basis": "team",
+        "src": [
+          "s14"
+        ]
+      },
+      {
+        "text": "The climb arm needs the turret clear, so a stuck intake also cost the climb.",
+        "basis": "team",
+        "src": [
+          "s18"
+        ]
+      },
+      {
+        "text": "Despite trying to stay light, the robot weighed in at 125 lb at every tournament.",
+        "basis": "team",
+        "src": [
+          "s15"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "An off-season interview says drive gearing went from L3 to L1 after the state championship showed too little acceleration under defense.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      },
+      {
+        "text": "The hood wheel was re-geared and moved from a NEO 550 to a Falcon 500 the week before the championship.",
+        "basis": "team",
+        "src": [
+          "s15"
+        ]
+      },
+      {
+        "text": "A later team post says three days before.",
+        "basis": "team",
+        "src": [
+          "s15"
+        ]
+      },
+      {
+        "text": "A NEO 550 replaced a lackluster pneumatic climb deploy.",
+        "basis": "team",
+        "src": [
+          "s14"
+        ]
+      },
+      {
+        "text": "Lessons: gear for acceptable performance at 8 V; use good batteries.",
+        "basis": "team",
+        "src": [
+          "s15"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "65-15-0 in official play; ranked 14 of the pooled top 20 (OPR 57.86, Galileo).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Swerve drive",
+      "solves": [
+        {
+          "text": "Maneuver around defense",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The main plates bent upward over time, the only problem seen; the team says it will likely move to MK4i modules",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ],
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "SDS MK4 modules, the team's first competition swerve to share the field in 13 years",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "L3 gearing was chosen for a light, fast robot; after the district championship L1 and L2 were tested on the practice robot, both a significant improvement around defense, with a marginal edge for L1",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "An off-season interview says the robot then ran L1 gears",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Complete spare modules brought to competitions, with CAN IDs assigned and connectors for quick replacement",
+          "basis": "team",
+          "src": [
+            "s14"
+          ],
+          "value": 4,
+          "unit": "modules"
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Run quick cycles under defense and survive hits from robots and field elements",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The long arms bent after long practices and especially hard hits with the lower exits and hangar trusses",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "The foam rollers get damaged; a spare roller is kept on hand and swapped in",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "large-wheel drop-down roller intake",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Larger wheels give a slightly taller capture envelope for cargo that is still bouncing",
+          "basis": "team",
+          "src": [
+            "s16"
+          ]
+        },
+        {
+          "text": "Replies by others disagree on the drop-down style: one says it was to fit large-diameter wheels, the next that 118 and 1323 both designed theirs to come down on top of bouncing balls",
+          "basis": "observer",
+          "src": [
+            "s21",
+            "s22"
+          ]
+        },
+        {
+          "text": "Front wheel diameter",
+          "basis": "team",
+          "src": [
+            "s15"
+          ],
+          "value": 6,
+          "unit": "in"
+        },
+        {
+          "text": "Started at about 2x the linear speed of the base, with a Falcon 500 and a single belt stage; the team thinks it ended at 12t to 40t",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "The reduction was slightly increased after stalling early in the season",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "The secondary roller is belted 1:1, with 2 to 4 in wheels spaced to eliminate jams and dwell zones",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Arms are 1 x 1.5 x 0.125 in aluminum box tube; the intake deploys one way over the shooter",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "In an off-season interview: foam tile wheels on a dead axle, with replaceable polycarbonate that takes wall impacts and rollers that glide along the wall",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "In an off-season interview: pneumatics give stow, a middle position and down; saddles reduce the force when it chomps down",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Feeder",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Feed cargo through quickly in a tight package",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "omni wheel feeder",
+      "serves": [],
+      "facts": [
+        {
+          "text": "One gear stage from a NEO 550, which the team believes is 12:40, to 2 in omni wheels; run below full output",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Driven on one side only, so the ball goes at half the roller's linear speed",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kicker",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Keep the ball away from a flywheel that spins throughout the match",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "does": [
+        "retain"
+      ],
+      "type": "powered kicker",
+      "serves": [],
+      "facts": [
+        {
+          "text": "In an off-season interview: it keeps the ball away from the flywheel and is run to release it",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Turret",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Keep up with the turning rate of the drivetrain, with the possibility of shooting on the run",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The turret bearings took about 6 weeks to ship and arrived just in time for the reveal video",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "hollow-gear turret",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Free speed, about, 2 to 3 times faster than the team's past turrets",
+          "basis": "team",
+          "src": [
+            "s15"
+          ],
+          "value": 600,
+          "unit": "deg/s"
+        },
+        {
+          "text": "Total rotation, plus or minus 112 degrees",
+          "basis": "team",
+          "src": [
+            "s16"
+          ],
+          "value": 224,
+          "unit": "degrees"
+        },
+        {
+          "text": "NEO 550 through a swappable 32dp gear reduction to a 20dp hollow gear that game pieces pass through",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "In a July, off-season post, its multi-turn potentiometer is the only sensor still on the robot; other positional mechanisms start the match against a hard stop",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "The turret bearings cost just under the $600 limit",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hood",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Match the turret's speed in a small space, to keep the shooter head's sweep small",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "adjustable hood",
+      "serves": [],
+      "facts": [
+        {
+          "text": "NEO 550 with only a very light spur gear reduction to a large sector gear",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "The structure it lifts weighs only a couple of pounds",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "In an off-season interview the team says the hood skipped during the season and its rack was changed",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Eliminate backspin and bounce-outs",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "main wheel with separately geared hood wheel",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Two Falcons drive the main wheel",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Its free speed was set for terminal shots, which were never used",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "The hood wheel's NEO 550 could not reach the speed the shot table asked for when voltage dropped to about 8 to 10 V, and shots missed",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "The hood wheel was re-geared so the free speed at 8 V gives the speed needed for long shots, and moved to a Falcon 500",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "A later post gives the hood wheel a 1:1.5 upduction",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "In an off-season interview: wheels are covered in splicing tape for traction",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climb rotary joint",
+      "solves": [
+        {
+          "text": "Climb fast without tripping the main breaker or the PDH fuses",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The rotating climb ripped the back of the shooter off during the season",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Climbing needs a set shooter position: one talk says pointed left, an off-season interview says straight",
+          "basis": "team",
+          "src": [
+            "s13",
+            "s10"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "rotating windmill arm",
+      "serves": [
+        "rung-high",
+        "rung-traversal"
+      ],
+      "facts": [
+        {
+          "text": "Motors",
+          "basis": "team",
+          "src": [
+            "s15"
+          ],
+          "value": 3,
+          "unit": "Falcon 500s"
+        },
+        {
+          "text": "Ratio, with a final #35 chain reduction of 12:48",
+          "basis": "team",
+          "src": [
+            "s15"
+          ],
+          "value": 120,
+          "unit": ":1"
+        },
+        {
+          "text": "Geared for 60 A per motor at full robot weight on the arm's radius, from the breakers' time-current graphs",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Mostly ran at lower speeds to keep the routine smooth",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "The joint rotates about 500 degrees; a service loop carries one pneumatic tube and four wires to two solenoids on the arm",
+          "basis": "team",
+          "src": [
+            "s16"
+          ]
+        },
+        {
+          "text": "The climb sits in the dead center of the robot along its center of gravity",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Shifting the center of gravity by rotating the arm back, instead of swinging, saved one or two seconds (off-season interview)",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "In the first robotic end-to-end climb test a robot (two were in work, and the post does not say which) fell after letting go of the first rung; hook geometry was suspected",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        },
+        {
+          "text": "About six climbers were built through the season; the climb on the first full prototype robot did not work at first",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Over-centering hooks",
+      "solves": [
+        {
+          "text": "Direct a high load into a hard stop and release with very little input",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Worn hooks bent out and caused a fall maybe every 20th climb until replaced; the same talk says about three falls in all",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "over-centering linkage latch",
+      "serves": [
+        "rung-traversal"
+      ],
+      "facts": [
+        {
+          "text": "The linkage replaced an earlier hook that rotated on a gear",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climb deploy",
+      "solves": [
+        {
+          "text": "Raise the arm once per match into latches",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "one-time motorized pivot",
+      "serves": [
+        "rung-traversal"
+      ],
+      "facts": [
+        {
+          "text": "Designed to draw a maximum of 30 A through a NEO 550",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Three-stage spur gear reduction",
+          "basis": "team",
+          "src": [
+            "s16"
+          ]
+        },
+        {
+          "text": "Commanded to half output to stop it smashing into the latches; it still takes well under a second",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "The latches take all the load during the climb",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Narrow upper structure",
+      "solves": [
+        {
+          "text": "Allow a triple traversal with partners",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ],
+      "does": [
+        "structure",
+        "endgame"
+      ],
+      "type": "packaging for triple traversal",
+      "serves": [
+        "rung-traversal"
+      ],
+      "facts": [
+        {
+          "text": "Traversal rung width used, less than",
+          "basis": "team",
+          "src": [
+            "s14"
+          ],
+          "value": 14,
+          "unit": "in"
+        },
+        {
+          "text": "The triple traversal was shown at IRI, an off-season event",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "MK4 swerve modules",
+      "because": "they were lighter and easier to swap in the team's first competition swerve to share the field in 13 years",
+      "instead_of": "MK4i modules, also on hand",
+      "cost": "main plates that bent upward over time",
+      "basis": "team",
+      "src": [
+        "s14"
+      ]
+    },
+    {
+      "choice": "A big, rigid intake",
+      "because": "a large wheel diameter had benefits and the team expected quick cycles under defense",
+      "instead_of": "a floppy intake",
+      "cost": "long arms that bent; it may reconsider after seeing how rule G204 was enforced",
+      "basis": "team",
+      "src": [
+        "s14"
+      ]
+    },
+    {
+      "choice": "L1 drive gearing",
+      "because": "the driver did not get enough acceleration under defense at the robot's weight, the team says in an off-season interview",
+      "instead_of": "the L3 ratio used at the start of the season",
+      "basis": "team",
+      "src": [
+        "s10"
+      ]
+    },
+    {
+      "choice": "Three Falcons on the climb",
+      "because": "power distribution slots were free once other subsystems were allocated and the team wanted to climb fast",
+      "basis": "team",
+      "src": [
+        "s14",
+        "s15"
+      ]
+    },
+    {
+      "choice": "Climb in the dead center of the robot",
+      "because": "along the center of gravity the team expected it not to swing, and it had the most information backing it; the first climb test on the final robot still swung violently",
+      "instead_of": "a hook-and-pull climb or a design with the intake on the side",
+      "basis": "team",
+      "src": [
+        "s13"
+      ]
+    },
+    {
+      "choice": "A fast turret ratio",
+      "because": "turrets in 2012, 2017 and 2020 felt geared down too much",
+      "basis": "team",
+      "src": [
+        "s15"
+      ]
+    },
+    {
+      "choice": "Re-gear the hood wheel and move it to a Falcon 500",
+      "because": "at about 8 to 10 V the old motor missed the speed needed, and the new ratio reaches it at 8 V",
+      "instead_of": "a NEO 550 run at about its free speed",
+      "basis": "team",
+      "src": [
+        "s15"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "Robonauts 118 - 2022 CAD, Code, and Build Blog Release",
+        "url": "https://www.chiefdelphi.com/t/robonauts-118-2022-cad-code-and-build-blog-release/420872",
+        "format": "thread",
+        "state": "listed",
+        "src": "s4",
+        "holds": "STEP, GrabCAD"
+      },
+      {
+        "what": "118 Robonauts robots page, 2022 Horizon section",
+        "url": "https://www.118robonauts.org/robots",
+        "format": "web page",
+        "state": "listed",
+        "src": "s7",
+        "holds": "STEP"
+      },
+      {
+        "what": "Robonauts (118) 2022 Robot - Horizon (GrabCAD)",
+        "url": "https://grabcad.com/library/robonauts-118-2022-robot-horizon-1",
+        "format": "GrabCAD",
+        "state": "listed",
+        "src": "s8"
+      },
+      {
+        "what": "118 Horizon CAD-Step File (team site archive)",
+        "url": "https://www.118robonauts.org/_files/archives/209e0c_69c363af81614cc58d96d0406c72146d.zip?dn=00_top_robot_2022_asm.zip",
+        "format": "zip",
+        "state": "listed",
+        "src": "s12"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=B5GjWMvkfR4",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=J53Jx74uus4",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=Tww0kyhMVgk",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=VQ-kuRe3rQg",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=qQX1eJFwlHA",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/7RhJ1IX",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/QLX2r1h",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/UV9UVGb",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "1323 Robot Pictures and Technical Details?",
+        "url": "https://www.chiefdelphi.com/t/1323-robot-pictures-and-technical-details/420122",
+        "format": "thread",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "The Robonauts 118 - 2022 Video (Horizon reveal thread)",
+        "url": "https://www.chiefdelphi.com/t/the-robonauts-118-2022-video/404429",
+        "format": "thread",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "2022 Galileo Playoffs",
+        "url": "https://www.chiefdelphi.com/t/2022-galileo-playoffs/410217",
+        "format": "thread",
+        "state": "listed",
+        "src": "s9"
+      },
+      {
+        "what": "Behind the Bumpers 118 Robonauts Robot | Rapid React",
+        "url": "https://www.youtube.com/watch?v=cxhs6sPw3Ys",
+        "format": "video",
+        "state": "listed",
+        "src": "s10"
+      },
+      {
+        "what": "2022 Rapid React Climbing Breakdown | FRC 118 Robonauts | FLYSET Workshop",
+        "url": "https://www.youtube.com/watch?v=XRPd9WukyVk",
+        "format": "video",
+        "state": "listed",
+        "src": "s13"
+      },
+      {
+        "what": "Electronics panel, power distribution hub, dented twin cylinders",
+        "url": "https://www.chiefdelphi.com/t/2022-galileo-playoffs/410217",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/8/c/8c4c5a1829fb1ae8a8d7aa6e92633d1ebe421b74_2_666x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s9",
+        "kind": "mechanism"
+      },
+      {
+        "what": "Robot without bumpers hanging from practice rungs, intake extended",
+        "url": "https://www.tumblr.com/robonauts2022/705682396770664448",
+        "img": "https://64.media.tumblr.com/efe180a338794587dcc63b1d98133a4a/569b200d27230aa4-3d/s2048x3072/a4e8f06b6066df52a9ecdaa8e87e76407e1e5f36.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s20",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Full robot CAD, climber arm raised",
+        "url": "https://www.chiefdelphi.com/t/robonauts-118-2022-cad-code-and-build-blog-release/420872",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/4/a/4a55c0aad4817d925ad9bf82f41343684382ce8c_2_495x375.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
+      },
+      {
+        "what": "CAD close-up, motor inside the frame",
+        "url": "https://www.chiefdelphi.com/t/robonauts-118-2022-cad-code-and-build-blog-release/420872",
+        "img": "https://www.chiefdelphi.com/uploads/default/original/3X/7/8/78a47ba712fd10502866a2d45fd54063d6cd343c.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
+      }
+    ],
+    "documents": [
+      {
+        "what": "Robonauts 2022 build blog (Tumblr)",
+        "url": "https://robonauts2022.tumblr.com/",
+        "format": "web page",
+        "state": "listed",
+        "src": "s6"
+      }
+    ],
+    "code": [
+      {
+        "what": "118 Horizon source code (team site archive)",
+        "url": "https://www.118robonauts.org/_files/archives/209e0c_3a2eb56c5e1e4b529090cc92b3325f5c.zip?dn=FRC118-Robonauts-2022-Horizon-SourceCode.zip",
+        "format": "zip",
+        "state": "listed",
+        "src": "s11"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: Chief Delphi searches for 118 and robonauts in titles, the team's robots page and archived PDFs from its site; no 2022 binder; the build blog's site refused automated reading, and one of its posts was read"
+  ],
+  "results": {
+    "division": "Galileo",
+    "division_opr": 57.86,
+    "opr_rank": 14,
+    "record": "65-15-0",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

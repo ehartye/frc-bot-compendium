@@ -25,6 +25,7 @@ QUESTION = {"drive": "How does the robot move?", "acquire": "How does it get a p
 SAY = {"team": "team says", "observer": "observer says", "record": "on record", "inference": "our reading"}
 KINDS = {"cad": "CAD", "documents": "Binders, notebooks and documents", "code": "Code", "graphics": "Video and photo pages"}
 ART = {  # each season's game piece, drawn
+    2022: '<svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="36" cy="38" r="26" fill="#c8102e"/><path d="M16 22q20 14 8 40M56 20q-22 16-6 41" fill="none" stroke="#fdfdfb" stroke-width="3.5"/><circle cx="66" cy="68" r="26" fill="#1c5fae"/><path d="M46 52q20 14 8 40M86 50q-22 16-6 41" fill="none" stroke="#fdfdfb" stroke-width="3.5"/></svg>',
     2023: '<svg viewBox="0 0 100 100" aria-hidden="true"><path d="M33 12h14l17 62H16z" fill="#f2c230"/><path d="M10 74h60v10H10z" fill="#f2c230"/><rect x="60" y="52" width="34" height="32" rx="9" fill="#6a3fa0"/></svg>',
     2024: '<svg viewBox="0 0 100 100" aria-hidden="true"><ellipse cx="50" cy="52" rx="40" ry="26" fill="none" stroke="#f0691c" stroke-width="15"/></svg>',
     2025: '<svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="66" cy="60" r="28" fill="#00a08f"/><rect x="8" y="14" width="64" height="26" rx="4" fill="#fdfdfb" stroke="#14181c" stroke-width="2" transform="rotate(-14 40 27)"/><ellipse cx="13" cy="35" rx="6" ry="13" fill="#aeb3b6" stroke="#14181c" stroke-width="2" transform="rotate(-14 13 35)"/></svg>',
@@ -118,13 +119,13 @@ def home():
     opts = "".join(f'<option value="{f}">{f}</option>' for f in FUNCTIONS)
     ys = "".join(f'<option value="{y}">{y}</option>' for y in SS)
     n = sum(len(list(examples(r, SS[r["season"]]))) for r in RS.values())
-    body = f"""<div class="lead"><h1>Pick a bumper</h1><p>The top 20 robots of each FRC season from 2023 to 2026: how each one worked, what it gave up, and where its team put the CAD, pictures, binder and code.</p></div>
+    body = f"""<div class="lead"><h1>Pick a bumper</h1><p>The top 20 robots of each FRC season from 2022 to 2026: how each one worked, what it gave up, and where its team put the CAD, pictures, binder and code.</p></div>
 {lanes}
 <h2 id="find">Find a design example</h2><p>Search {n} mechanisms and decisions by the job you are working on.</p>
 <form class="finder" data-base=""><input name="q" type="search" placeholder="align without stopping" aria-label="What are you trying to do?"><select name="fn" aria-label="Job"><option value="">Any job</option>{opts}</select><select name="season" aria-label="Season"><option value="">Any season</option>{ys}</select></form>
 <ul class="hits" aria-live="polite"></ul>
 <noscript><p>Search needs JavaScript. Every example is also listed <a href="functions/">by job</a>.</p></noscript>"""
-    page("index.html", "FRC bot compendium", body, 0, desc="Design examples from the top 20 FRC robots of each season, 2023 to 2026.")
+    page("index.html", "FRC bot compendium", body, 0, desc="Design examples from the top 20 FRC robots of each season, 2022 to 2026.")
 
 
 def card(r, base):
@@ -250,8 +251,8 @@ def team_pages():
 def about():
     body = """<div class="season-head" style="grid-template-columns:1fr"><h1>About</h1></div>
 <p>The compendium helps people, and programs that help them, find how other teams solved a step of robot design: what they built, why, what it cost, and where to study it.</p>
-<h2>How the 20 were chosen</h2><p>For each season, the OPR tables of the eight championship division pages on The Blue Alliance are pooled, and the 20 highest are kept. We recomputed OPR from every division's qualification scores and it matched to two decimals in all 32 divisions. OPR credits partners' points to a robot, and teams that missed the championship cannot appear. The cut is close: the 20th and 21st robots differ by 0.01 in 2024 and 0.04 in 2026.</p>
-<h2>How to read a page</h2><p>A statement with only a source number is the team's own claim, not a measurement. Others are tagged. <span class="tag observer">observer says</span> is someone else. <span class="tag record">on record</span> comes from results or rules. <span class="tag inference">our reading</span> is our inference, with its sources.</p><p>Forum threads were read only as far as they were captured: usually the first page plus a few single posts, so a correction further on can be missing. Each claim was checked against its source by a reader who did not write it.</p><p>Parts of the story with no source are listed once under "What isn't public", with where we looked. Not found does not mean it does not exist.</p>
+<h2>How the 20 were chosen</h2><p>For each season, the OPR tables of the championship division pages (eight divisions, six in 2022) on The Blue Alliance are pooled, and the 20 highest are kept. We recomputed OPR from every division's qualification scores and it matched to two decimals in all 38 divisions. OPR credits partners' points to a robot, and teams that missed the championship cannot appear. The cut is close: the 20th and 21st robots differ by 0.03 in 2022, 0.01 in 2024 and 0.04 in 2026.</p>
+<h2>How to read a page</h2><p>A statement with only a source number is the team's own claim, not a measurement. Others are tagged. <span class="tag observer">observer says</span> is someone else. <span class="tag record">on record</span> comes from results or rules. <span class="tag inference">our reading</span> is our inference, with its sources.</p><p>For 2022, whole forum threads were read. For 2023 to 2026, threads were usually read for the first page plus a few single posts, so a correction further on can be missing. Each claim was checked against its source by a reader who did not write it.</p><p>Parts of the story with no source are listed once under "What isn't public", with where we looked. Not found does not mean it does not exist.</p>
 <h2>Pictures and files</h2><p>Pictures load from the sites where they were published and link back there. Each was looked at first, and pictures with recognizable faces were left out. If your team wants something changed or removed, say so and it will be.</p><p>CAD and files are links only. Fusion is marked only when the link is an Autodesk share link. "Not opened by us" means we saw the link on a page but did not open the file.</p>
 <h2>Fonts</h2><p>Sofia Sans Extra Condensed, Schibsted Grotesk and Martian Mono, under the SIL Open Font License 1.1.</p>"""
     page("about/index.html", "About - FRC bot compendium", body, 1, desc="How robots were chosen and how to read a page.")
@@ -273,7 +274,7 @@ def data():
         w(d / f"{y}.json", [e for e in ex if e["season"] == y])
     for r in RS.values():
         w(d / f"robots/{r['id']}.json", r)
-    (DIST / "llms.txt").write_text("# FRC bot compendium\n\nDesign examples from the top 20 FRC robots of each season, 2023 to 2026. An example is a precedent to study under its own season's rules, not a design to copy.\n\n## Data\n- data/examples.json: every mechanism and decision. Fields: id, kind, name, type, functions, pieces, serves, solves, facts, cost, basis, sources, season, team, outcome, study (CAD, documents, code, graphics links). claims lists every statement with its part, basis and source URLs: use it to tell a team claim from anyone else's.\n- data/<year>.json: the same for one season. data/seasons.json: pieces and objectives.\n- data/index.json: all robots. data/robots/<year>-<team>.json: one full record.\n\n## Functions\n" + "".join(f"- {f}: {QUESTION[f]}\n" for f in FUNCTIONS) + "\n## Basis\nteam = the team's claim; observer = someone else; record = results or rules; inference = this site's reading.\n", encoding="utf-8")
+    (DIST / "llms.txt").write_text("# FRC bot compendium\n\nDesign examples from the top 20 FRC robots of each season, 2022 to 2026. An example is a precedent to study under its own season's rules, not a design to copy.\n\n## Data\n- data/examples.json: every mechanism and decision. Fields: id, kind, name, type, functions, pieces, serves, solves, facts, cost, basis, sources, season, team, outcome, study (CAD, documents, code, graphics links). claims lists every statement with its part, basis and source URLs: use it to tell a team claim from anyone else's.\n- data/<year>.json: the same for one season. data/seasons.json: pieces and objectives.\n- data/index.json: all robots. data/robots/<year>-<team>.json: one full record.\n\n## Functions\n" + "".join(f"- {f}: {QUESTION[f]}\n" for f in FUNCTIONS) + "\n## Basis\nteam = the team's claim; observer = someone else; record = results or rules; inference = this site's reading.\n", encoding="utf-8")
     (DIST / ".nojekyll").write_text("")
 
 

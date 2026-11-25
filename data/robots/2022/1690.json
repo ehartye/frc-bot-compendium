@@ -1,0 +1,1181 @@
+{
+  "id": "2022-1690",
+  "season": 2022,
+  "team": "1690",
+  "team_name": "Orbit",
+  "robot_name": "Parker",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 1690 in 2022",
+      "url": "https://www.thebluealliance.com/team/1690/2022",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Carver Division 2022",
+      "url": "https://www.thebluealliance.com/event/2022carv",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC team 1690 Orbit 2022 robot reveal",
+      "url": "https://www.chiefdelphi.com/t/frc-team-1690-orbit-2022-robot-reveal-parker/403533",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "ORBIT 1690 - 2022 Rapid React page",
+      "url": "https://www.1690orbit.com/2022-rapid-react",
+      "publisher": "1690orbit.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "1690 Orbit 2022 Season Recap video",
+      "url": "https://www.chiefdelphi.com/t/1690-orbit-2022-season-recap-video/412352",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Off with his head! (Turret)",
+      "url": "https://www.chiefdelphi.com/t/off-with-his-head-turret/409548",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Orbit 1690 Robot image",
+      "url": "https://www.chiefdelphi.com/t/orbit-1690-robot-image/405408",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "FUNalysis ISR 1 QF 5 | 146 High Score | 1690 1577 6104 | Rapid React",
+      "url": "https://www.youtube.com/watch?v=8aPQPJv5mGw",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "1690 Presents: 2022 Pregional Week 0 Event",
+      "url": "https://www.chiefdelphi.com/t/1690-presents-2022-pregional-week-0-event/402682",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Proposal: New Extension Rules to Fix Contact in Frame Perimeter Damage",
+      "url": "https://www.chiefdelphi.com/t/proposal-new-extension-rules-to-fix-contact-in-frame-perimeter-damage/413524",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Orbit 1690 Software Sessions Part II - PoseTracker & Shoot on the Move",
+      "url": "https://www.youtube.com/watch?v=N6ogT5DjGOk",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Behind the Bumpers: 1690 Orbit, Rapid React robot (automatic captions)",
+      "url": "https://www.youtube.com/watch?v=rnpB8KXTd7U",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "FRC Recap: Championship Divisions and Einstein, Rapid React (automatic captions)",
+      "url": "https://www.youtube.com/watch?v=vKLxBkhyMwg",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "FRC team 1690 Orbit 2022 robot reveal, post 28",
+      "url": "https://www.chiefdelphi.com/t/403533/28",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "FRC team 1690 Orbit 2022 robot reveal, post 90",
+      "url": "https://www.chiefdelphi.com/t/403533/90",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "FRC team 1690 Orbit 2022 robot reveal, post 46",
+      "url": "https://www.chiefdelphi.com/t/403533/46",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "FRC team 1690 Orbit 2022 robot reveal, post 45",
+      "url": "https://www.chiefdelphi.com/t/403533/45",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "The search after good shooting robots, post 15",
+      "url": "https://www.chiefdelphi.com/t/509590/15",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "Off with his head! (Turret), post 7",
+      "url": "https://www.chiefdelphi.com/t/409548/7",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "FRC team 1690 Orbit 2022 robot reveal, post 107",
+      "url": "https://www.chiefdelphi.com/t/403533/107",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s22": {
+      "title": "Was there a robot that did not use pneumatics in 2022 rapid react?, post 30",
+      "url": "https://www.chiefdelphi.com/t/436276/30",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s23": {
+      "title": "FRC team 1690 Orbit 2022 robot reveal, post 96",
+      "url": "https://www.chiefdelphi.com/t/403533/96",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s24": {
+      "title": "FRC team 1690 Orbit 2022 robot reveal, post 92",
+      "url": "https://www.chiefdelphi.com/t/403533/92",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s25": {
+      "title": "FRC team 1690 Orbit 2022 robot reveal, post 94",
+      "url": "https://www.chiefdelphi.com/t/403533/94",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s26": {
+      "title": "FRC team 1690 Orbit 2022 robot reveal, post 51",
+      "url": "https://www.chiefdelphi.com/t/403533/51",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s27": {
+      "title": "FRC team 1690 Orbit 2022 robot reveal, post 57",
+      "url": "https://www.chiefdelphi.com/t/403533/57",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s28": {
+      "title": "FRC team 1690 Orbit 2022 robot reveal, post 48",
+      "url": "https://www.chiefdelphi.com/t/403533/48",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s29": {
+      "title": "FRC team 1690 Orbit 2022 robot reveal, post 88",
+      "url": "https://www.chiefdelphi.com/t/403533/88",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s30": {
+      "title": "FRC team 1690 Orbit 2022 robot reveal, post 59",
+      "url": "https://www.chiefdelphi.com/t/403533/59",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s31": {
+      "title": "FRC team 1690 Orbit 2022 robot reveal, post 64",
+      "url": "https://www.chiefdelphi.com/t/403533/64",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s32": {
+      "title": "FRC team 1690 Orbit 2022 robot reveal, post 70",
+      "url": "https://www.chiefdelphi.com/t/403533/70",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s33": {
+      "title": "FRC team 1690 Orbit 2022 robot reveal, post 66",
+      "url": "https://www.chiefdelphi.com/t/403533/66",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s34": {
+      "title": "FRC team 1690 Orbit 2022 robot reveal, post 69",
+      "url": "https://www.chiefdelphi.com/t/403533/69",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s35": {
+      "title": "2022 Cargo shooting record, post 12",
+      "url": "https://www.chiefdelphi.com/t/414734/12",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s36": {
+      "title": "2022 Cargo shooting record, post 16",
+      "url": "https://www.chiefdelphi.com/t/414734/16",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s37": {
+      "title": "FRC team 1690 Orbit 2022 robot reveal, post 37",
+      "url": "https://www.chiefdelphi.com/t/403533/37",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s38": {
+      "title": "FRC team 1690 Orbit 2022 robot reveal, post 110",
+      "url": "https://www.chiefdelphi.com/t/403533/110",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s39": {
+      "title": "FRC team 1690 Orbit 2022 robot reveal, post 99",
+      "url": "https://www.chiefdelphi.com/t/403533/99",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s40": {
+      "title": "FRC team 1690 Orbit 2022 robot reveal, post 101",
+      "url": "https://www.chiefdelphi.com/t/403533/101",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s41": {
+      "title": "FRC team 1690 Orbit 2022 robot reveal, post 108",
+      "url": "https://www.chiefdelphi.com/t/403533/108",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s43": {
+      "title": "146 unpenalized points sets Rapid React high score at ISR 1, post 9",
+      "url": "https://www.chiefdelphi.com/t/405066/9",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s44": {
+      "title": "FRC team 1690 Orbit 2022 robot reveal, post 54",
+      "url": "https://www.chiefdelphi.com/t/403533/54",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s45": {
+      "title": "How much does a turret actually help? (post 13)",
+      "url": "https://www.chiefdelphi.com/t/406771/13",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s46": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/ScxJvaj",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Shoot while moving, at any angle: a turret with at least one full rotation on a robot that decides by itself when to shoot.",
+        "basis": "team",
+        "src": [
+          "s12"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "The team planned from day one on shooting while moving, because the game is called Rapid React and there is a lot of defense. It wanted a climber that reaches the traversal rung with the fewest actions.",
+        "basis": "team",
+        "src": [
+          "s12"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "Analysts describe a five-ball auto in an ISR 1 quarterfinal and in the Carver division finals.",
+        "basis": "observer",
+        "src": [
+          "s8",
+          "s13"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The single driver collects cargo. Belts stow the first ball under the shooter and hold the second at the handoff. The robot decides when to shoot, also while moving, unless the driver presses a button that stops it. It shoots opponent cargo away from the goal automatically.",
+        "basis": "team",
+        "src": [
+          "s12",
+          "s14",
+          "s15"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "From the mid rung straight to the traversal rung: the telescope pulls the robot up, an arm that goes against the truss lifts it at an angle that lets a hook take the traversal rung, then the telescope lets go.",
+        "basis": "team",
+        "src": [
+          "s12",
+          "s16"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "The driver can stop the automatic shot, and the position estimate can be readjusted manually.",
+        "basis": "team",
+        "src": [
+          "s12",
+          "s14"
+        ]
+      },
+      {
+        "text": "In one ISR 1 quarterfinal the robot kept shooting instead of climbing; an analyst counted nine endgame shots and six scored, three points short of a traversal climb.",
+        "basis": "observer",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "Moving the center of mass slowly between rungs costs 2 to 3 seconds, and in February the climber could not let go of the mid rung early. The robot must be placed very precisely left to right on the bar.",
+        "basis": "team",
+        "src": [
+          "s17",
+          "s16",
+          "s12"
+        ]
+      },
+      {
+        "text": "A commenter calls its shoot-on-the-fly and turret game changing, but says 254, 1678 and 1323 missed noticeably fewer shots, and a miss took scarce cargo out of play.",
+        "basis": "observer",
+        "src": [
+          "s18"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "After balls jumped out of the hub at the first event, the team built a new shooter with a top roller in one week. Aiming took the most time in the climb there, so it added a camera arm. Skid detection came before the championship.",
+        "basis": "team",
+        "src": [
+          "s12"
+        ]
+      },
+      {
+        "text": "Observers say the turret fell off in a championship practice match, during auto rather than on impact, and was back before the first match.",
+        "basis": "observer",
+        "src": [
+          "s6",
+          "s19",
+          "s13"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "63-7-0 in official play; finalist in the Carver division; ranked 10 of the pooled top 20 (OPR 59.22, Carver).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Swerve drive",
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "solves": [
+        {
+          "text": "Run bevel gears near the carpet without grease, which would pick up dirt",
+          "basis": "team",
+          "src": [
+            "s21"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "The same module as the season before, with a self-made aluminum wheel",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "The smaller bevel gear is brass and the larger is aluminum anodized with a Teflon-infused ceramic coating",
+          "basis": "team",
+          "src": [
+            "s21"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Clutch intake",
+      "does": [
+        "acquire"
+      ],
+      "type": "rigid deployed intake with a compliant drive",
+      "pieces": [
+        "cargo"
+      ],
+      "serves": [
+        "hub-upper"
+      ],
+      "solves": [
+        {
+          "text": "Take impacts without breaking the robot or the intake motor, and without frequent replacement",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "A lever on the driven sprocket pulls the arm through surgical tubing, so the arm collapses back into the robot on impact",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "The robot uses no pneumatics",
+          "basis": "team",
+          "src": [
+            "s22"
+          ]
+        },
+        {
+          "text": "The intake shares a Falcon with the floor belts",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Two-part conveyor with IR sensors",
+      "does": [
+        "transfer",
+        "retain",
+        "sense"
+      ],
+      "type": "belt conveyor, horizontal and vertical",
+      "pieces": [
+        "cargo"
+      ],
+      "serves": [
+        "hub-upper"
+      ],
+      "solves": [
+        {
+          "text": "Know where each ball is and what color it is, so the robot can shoot or eject it",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "The floor belts share the intake's Falcon and the vertical belts have their own, so the feed to the shooter is controlled",
+          "basis": "team",
+          "src": [
+            "s12",
+            "s15"
+          ]
+        },
+        {
+          "text": "Three IR sensors mark the entrance, the handoff between belts and the stow position just under the shooter",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "The entrance sensor also lets the robot detect and eject a third ball",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "After the first ball is stowed the intake runs until a second reaches the handoff, then stops",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "The color is read only after the IR sensor sees the ball, at a distance of about",
+          "basis": "team",
+          "src": [
+            "s23"
+          ],
+          "value": 10,
+          "unit": "mm"
+        },
+        {
+          "text": "The ball advances only when thresholds on magnitude and red to blue ratio are met",
+          "basis": "team",
+          "src": [
+            "s23"
+          ]
+        },
+        {
+          "text": "IR sensor: an LED and a phototransistor, with a 100 ohm resistor on the LED and a 10k ohm pullup",
+          "basis": "team",
+          "src": [
+            "s24"
+          ]
+        },
+        {
+          "text": "Color sensor: REV",
+          "basis": "team",
+          "src": [
+            "s25"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Turret",
+      "does": [
+        "position"
+      ],
+      "type": "turret with more than one rotation",
+      "pieces": [
+        "cargo"
+      ],
+      "serves": [
+        "hub-upper"
+      ],
+      "solves": [
+        {
+          "text": "Shoot at any angle at any time",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "The gearbox is at the bottom of the robot and drives the turret through a pipe, for a low center of mass",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Driven by two Falcons",
+          "basis": "team",
+          "src": [
+            "s26",
+            "s12"
+          ]
+        },
+        {
+          "text": "Target travel was about 420 to 450 degrees; the practice robot had about 380 to 400, and the competition robot a longer wire and sleeve for more",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "It runs on six shoulder bolts with three bearings each, the base plate sandwiched between the larger top and bottom bearings",
+          "basis": "team",
+          "src": [
+            "s27"
+          ]
+        },
+        {
+          "text": "The cable runs in a durable sleeve with both ends directed by 3D printed parts",
+          "basis": "team",
+          "src": [
+            "s28"
+          ]
+        },
+        {
+          "text": "It wraps around near its limits; the margin depends on whether the robot holds balls or is ready to shoot",
+          "basis": "team",
+          "src": [
+            "s29"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Overshoots, rare, on fast motions such as wrap-around, from the turret's inertia and the spinning wheel's angular momentum",
+          "basis": "team",
+          "src": [
+            "s30"
+          ]
+        },
+        {
+          "text": "In February the team was not entirely comfortable with the cable arrangement, though it had not pinched or caught",
+          "basis": "team",
+          "src": [
+            "s28"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter and hood",
+      "does": [
+        "deliver"
+      ],
+      "type": "single flywheel with adjustable hood and top roller",
+      "pieces": [
+        "cargo"
+      ],
+      "serves": [
+        "hub-upper"
+      ],
+      "solves": [
+        {
+          "text": "Keep balls from jumping out of the hub",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "The top roller came with the shooter built after the first event",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Before that rebuild: wheel of three 6 in WCP aluminum wheels with the black roughtop tread of the drive wheels",
+          "basis": "team",
+          "src": [
+            "s31"
+          ]
+        },
+        {
+          "text": "Before that rebuild: the hood backing was uncoated SLS nylon 12",
+          "basis": "team",
+          "src": [
+            "s32"
+          ]
+        },
+        {
+          "text": "Before that rebuild: compression went from 1.5 in to 1 in along the hood, only because that was easier to build",
+          "basis": "team",
+          "src": [
+            "s33",
+            "s34"
+          ]
+        },
+        {
+          "text": "At the reveal: shots up to about 4 m tended not to bounce out; from either alliance wall every 2 to 3 balls did",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooting simulation",
+      "does": [
+        "deliver",
+        "sense"
+      ],
+      "type": "physics simulation fitted to polynomials",
+      "pieces": [
+        "cargo"
+      ],
+      "serves": [
+        "hub-upper"
+      ],
+      "solves": [
+        {
+          "text": "Find hood angle and wheel speed for every distance and robot velocity, with a shooter whose ball spin changes with its speed",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Models gravity, air drag and the Magnus force, with equations from a paper on shooting tennis balls",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "For each distance and robot velocity it picks the trajectory least sensitive to small errors, with a preference for lower ones that bounce out less",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "It runs off the robot; polynomials up to third degree give hood pitch and wheel speed from distance and radial velocity",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "The tangential velocity is subtracted from the 3D shot vector",
+          "basis": "team",
+          "src": [
+            "s12",
+            "s11"
+          ]
+        },
+        {
+          "text": "One commenter counted 36 teleop cargo in a championship match, another 34",
+          "basis": "observer",
+          "src": [
+            "s35",
+            "s36"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Truss reactor climber",
+      "does": [
+        "endgame"
+      ],
+      "type": "telescope plus arm braced on the truss",
+      "serves": [
+        "rung-traversal"
+      ],
+      "solves": [
+        {
+          "text": "Reach the traversal rung with the fewest actions",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Two main actions: the telescope pulls the robot up while the V-shaped truss reactor goes against the truss and a hook takes the traversal rung; then the telescope lets go",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "The center of mass moves slowly from under the mid rung to under the traversal rung",
+          "basis": "team",
+          "src": [
+            "s16"
+          ]
+        },
+        {
+          "text": "Tested early with an improvised truss on the team version of the field",
+          "basis": "team",
+          "src": [
+            "s37"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The robot must be very precisely placed left to right; in February the mid rung could not be released early",
+          "basis": "team",
+          "src": [
+            "s12",
+            "s17"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climb aiming camera",
+      "does": [
+        "endgame",
+        "sense"
+      ],
+      "type": "deployed camera arm",
+      "serves": [
+        "rung-traversal"
+      ],
+      "solves": [
+        {
+          "text": "Aiming at the bar took the most time of the climb",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "A small arm on a carbon tube is released when the truss reactor falls, and a rubber band opens it",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Its camera looks at a line on the floor, so the robot gets parallel to it and at a set distance",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Position tracker and skid detection",
+      "does": [
+        "sense"
+      ],
+      "type": "odometry, gyro and Limelight fusion",
+      "serves": [
+        "hub-upper"
+      ],
+      "solves": [
+        {
+          "text": "Know the robot's position when a wall or defender makes the wheels unreliable",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Merges the encoders (about 12 in the captions), the gyro and the Limelight",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "A wheel moving much faster than the robot's calculated motion is probably skidding, and odometry uses the other wheels",
+          "basis": "team",
+          "src": [
+            "s38"
+          ]
+        },
+        {
+          "text": "After a skid, odometry gets less weight and shooting is blocked until the camera has seen the target and agrees with the estimate",
+          "basis": "team",
+          "src": [
+            "s38"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "A recap video says the positioning system had some issues in one Carver qualification match",
+          "basis": "observer",
+          "src": [
+            "s13"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fault checks and LEDs",
+      "does": [
+        "sense"
+      ],
+      "type": "periodic self-checks with driver lights",
+      "serves": [],
+      "solves": [
+        {
+          "text": "Tell the driver the robot's state and its sensor and subsystem faults",
+          "basis": "team",
+          "src": [
+            "s39"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Hall sensors on turret and hood are compared with the encoders; a mismatch declares a fault",
+          "basis": "team",
+          "src": [
+            "s40"
+          ]
+        },
+        {
+          "text": "The hood resets on the hall sensor or on motor current above a threshold",
+          "basis": "team",
+          "src": [
+            "s41"
+          ]
+        },
+        {
+          "text": "Blink speed shows the number of balls, green an opponent ball being shot, red a fault",
+          "basis": "team",
+          "src": [
+            "s39"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Corner guards",
+      "does": [
+        "structure"
+      ],
+      "type": "panels at the frame corners",
+      "serves": [],
+      "facts": [
+        {
+          "text": "A photo posted in September 2022 shows guards on the intake side just tall enough to protect the swerve modules, and taller ones at the other corners",
+          "basis": "observer",
+          "src": [
+            "s29"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Shooting while moving, planned from day one",
+      "because": "the game would have a lot of defense",
+      "basis": "team",
+      "src": [
+        "s12"
+      ]
+    },
+    {
+      "choice": "A rigid intake with a clutch",
+      "because": "the flexible one had to be replaced many times",
+      "instead_of": "the flexible intake of the season before",
+      "basis": "team",
+      "src": [
+        "s12"
+      ]
+    },
+    {
+      "choice": "A shooting simulation",
+      "because": "testing every distance at every velocity seemed impossible",
+      "instead_of": "a map of measured shots by distance",
+      "basis": "team",
+      "src": [
+        "s12"
+      ]
+    },
+    {
+      "choice": "Two Falcons on the turret",
+      "because": "the turret's inertia, the spinning wheel and unpredictable motion while driving need high acceleration",
+      "instead_of": "one Falcon, enough in theory",
+      "basis": "team",
+      "src": [
+        "s44",
+        "s30",
+        "s12"
+      ]
+    },
+    {
+      "choice": "A truss-reacting climber",
+      "because": "it has only two main actions to reach the traversal rung",
+      "cost": "the robot must be very precisely placed left to right on the bar",
+      "basis": "team",
+      "src": [
+        "s12"
+      ]
+    },
+    {
+      "choice": "Moving the center of mass gradually between rungs",
+      "because": "the team was not sure the robot or the driver station wall would survive a fast swing",
+      "instead_of": "releasing the mid rung early",
+      "cost": "2 to 3 extra seconds",
+      "basis": "team",
+      "src": [
+        "s16"
+      ]
+    },
+    {
+      "choice": "A fast turret",
+      "because": "the team saw no other way to shoot on the run and under defense",
+      "instead_of": "no turret, as the year before, good enough for static shooting spots and safe zones",
+      "basis": "team",
+      "src": [
+        "s45"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Parker reveal video (not watched)",
+        "url": "https://www.youtube.com/watch?v=9s7zUlTgnDc",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=G6nCxSZrkdE",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Behind the Bumpers: 1690 Orbit (captions read, video not watched)",
+        "url": "https://www.youtube.com/watch?v=rnpB8KXTd7U",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/0HdFlJq",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/1Phxq7G",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/97ZDAav",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "FRC team 1690 Orbit 2022 robot reveal",
+        "url": "https://www.chiefdelphi.com/t/frc-team-1690-orbit-2022-robot-reveal-parker/403533",
+        "format": "thread",
+        "state": "opened",
+        "src": "s3"
+      },
+      {
+        "what": "ORBIT 1690 - 2022 Rapid React page",
+        "url": "https://www.1690orbit.com/2022-rapid-react",
+        "format": "web page",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "1690 Orbit 2022 Season Recap video",
+        "url": "https://www.chiefdelphi.com/t/1690-orbit-2022-season-recap-video/412352",
+        "format": "thread",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "Off with his head! (Turret)",
+        "url": "https://www.chiefdelphi.com/t/off-with-his-head-turret/409548",
+        "format": "thread",
+        "state": "opened",
+        "src": "s6"
+      },
+      {
+        "what": "Orbit 1690 Robot image",
+        "url": "https://www.chiefdelphi.com/t/orbit-1690-robot-image/405408",
+        "format": "thread",
+        "state": "listed",
+        "src": "s7"
+      },
+      {
+        "what": "FUNalysis ISR 1 QF 5 | 146 High Score | 1690 1577 6104 | Rapid React",
+        "url": "https://www.youtube.com/watch?v=8aPQPJv5mGw",
+        "format": "video",
+        "state": "listed",
+        "src": "s8"
+      },
+      {
+        "what": "1690 Presents: 2022 Pregional Week 0 Event",
+        "url": "https://www.chiefdelphi.com/t/1690-presents-2022-pregional-week-0-event/402682",
+        "format": "thread",
+        "state": "listed",
+        "src": "s9"
+      },
+      {
+        "what": "Proposal: New Extension Rules to Fix Contact in Frame Perimeter Damage (a photo of the corner guards is in post 88)",
+        "url": "https://www.chiefdelphi.com/t/proposal-new-extension-rules-to-fix-contact-in-frame-perimeter-damage/413524",
+        "format": "thread",
+        "state": "opened",
+        "src": "s10"
+      },
+      {
+        "what": "Orbit 1690 Software Sessions Part II (2022 shooting simulation in the last third; captions read, video not watched)",
+        "url": "https://www.youtube.com/watch?v=N6ogT5DjGOk",
+        "format": "video",
+        "state": "listed",
+        "src": "s11"
+      },
+      {
+        "what": "Match video of ISR 1 quarterfinal 5, posted by the team (not watched)",
+        "url": "https://youtu.be/wXUsh3G4a-s",
+        "format": "video",
+        "state": "listed",
+        "src": "s43"
+      },
+      {
+        "what": "Photo page (picture not shown here)",
+        "url": "https://imgur.com/ScxJvaj",
+        "format": "image",
+        "state": "opened",
+        "src": "s46"
+      },
+      {
+        "what": "Robot without bumper numbers beside team banner, climber arms raised",
+        "url": "https://www.chiefdelphi.com/t/frc-team-1690-orbit-2022-robot-reveal-parker/403533",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/1/c/1ca3bda7a564f4ec62b593aadf96ba7f5b46fd0f_2_666x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s3",
+        "kind": "robot-photo",
+        "hero": true
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/team1690",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)"
+  ],
+  "results": {
+    "division": "Carver",
+    "division_opr": 59.22,
+    "opr_rank": 10,
+    "record": "63-7-0",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

@@ -1,0 +1,1075 @@
+{
+  "id": "2022-1706",
+  "season": 2022,
+  "team": "1706",
+  "team_name": "Ratchet Rockers",
+  "robot_name": "Blue Widow",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 1706 in 2022",
+      "url": "https://www.thebluealliance.com/team/1706/2022",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Hopper Division 2022",
+      "url": "https://www.thebluealliance.com/event/2022hop",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "1706 Code Public Release",
+      "url": "https://www.chiefdelphi.com/t/1706-code-public-release/413415",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Shoot While Move Code (1706)",
+      "url": "https://www.chiefdelphi.com/t/shoot-while-move-code-1706/410494",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "1706 Ratchet Rockers 2022: Blue Widow",
+      "url": "https://www.chiefdelphi.com/t/1706-ratchet-rockers-2022-blue-widow/419553",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Behind the Bumpers 1706 Ratchet Rockers | Rapid React Robot",
+      "url": "https://www.youtube.com/watch?v=MyxAfBOeiJ4",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "rr1706/2022-Main (Blue Widow code)",
+      "url": "https://github.com/rr1706/2022-Main",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Behind the Bumpers - 1706 Ratchet Rockers",
+      "url": "https://www.chiefdelphi.com/t/behind-the-bumpers-1706-ratchet-rockers-1-seed-division-winners/410835",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "1706 Ratchet Rockers 2022: Blue Widow (highlight reel)",
+      "url": "https://www.youtube.com/watch?v=EbWdU92yRj0",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "RR Team 1706 - Final practice before Champs",
+      "url": "https://www.youtube.com/watch?v=fY1BiBfeRV4",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "RR 1706 - 6 Ball Auto",
+      "url": "https://www.youtube.com/watch?v=myYa9En2128",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Shoot While Move Code (1706), post 5",
+      "url": "https://www.chiefdelphi.com/t/shoot-while-move-code-1706/410494/5",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "Shoot While Move Code (1706), post 10",
+      "url": "https://www.chiefdelphi.com/t/shoot-while-move-code-1706/410494/10",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "Shoot While Move Code (1706), post 17",
+      "url": "https://www.chiefdelphi.com/t/shoot-while-move-code-1706/410494/17",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "Shoot While Move Code (1706), post 21",
+      "url": "https://www.chiefdelphi.com/t/shoot-while-move-code-1706/410494/21",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "Shoot While Move Code (1706), post 23",
+      "url": "https://www.chiefdelphi.com/t/shoot-while-move-code-1706/410494/23",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "Shoot While Move Code (1706), post 29",
+      "url": "https://www.chiefdelphi.com/t/shoot-while-move-code-1706/410494/29",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "Shoot While Move Code (1706), post 31",
+      "url": "https://www.chiefdelphi.com/t/shoot-while-move-code-1706/410494/31",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "1706 Code Public Release, post 3",
+      "url": "https://www.chiefdelphi.com/t/1706-code-public-release/413415/3",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "1706 Code Public Release, post 4",
+      "url": "https://www.chiefdelphi.com/t/1706-code-public-release/413415/4",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "2022 Hopper Division, post 5",
+      "url": "https://www.chiefdelphi.com/t/2022-hopper-division/408864/5",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s22": {
+      "title": "Are turrets still worth it with swerve drive?, post 27",
+      "url": "https://www.chiefdelphi.com/t/are-turrets-still-worth-it-with-swerve-drive/436509/27",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s23": {
+      "title": "Are turrets still worth it with swerve drive?, post 8",
+      "url": "https://www.chiefdelphi.com/t/are-turrets-still-worth-it-with-swerve-drive/436509/8",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s24": {
+      "title": "1678 Swerve, post 25",
+      "url": "https://www.chiefdelphi.com/t/1678-swerve/415738/25",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s25": {
+      "title": "2022 Cargo shooting record, post 13",
+      "url": "https://www.chiefdelphi.com/t/2022-cargo-shooting-record/414734/13",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s26": {
+      "title": "2022 Cargo shooting record, post 15",
+      "url": "https://www.chiefdelphi.com/t/2022-cargo-shooting-record/414734/15",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s27": {
+      "title": "Request for Pit Scouting data from CMP please (post 3, Hopper data)",
+      "url": "https://www.chiefdelphi.com/t/request-for-pit-scouting-data-from-cmp-please/410352/3",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s28": {
+      "title": "Adjustable Hood, post 12",
+      "url": "https://www.chiefdelphi.com/t/adjustable-hood/406629/12",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s29": {
+      "title": "Best Intake System Designs for Rapid React, post 3",
+      "url": "https://www.chiefdelphi.com/t/best-intake-system-designs-for-rapid-react/438049/3",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s30": {
+      "title": "Event winners without a traversal climber, post 3",
+      "url": "https://www.chiefdelphi.com/t/event-winners-without-a-traversal-climber/408415/3",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s31": {
+      "title": "The search after good shooting robots, post 15",
+      "url": "https://www.chiefdelphi.com/t/the-search-after-good-shooting-robots/509590/15",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s33": {
+      "title": "Shoot While Move Code (1706), post 20",
+      "url": "https://www.chiefdelphi.com/t/shoot-while-move-code-1706/410494/20",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s34": {
+      "title": "Shoot While Move Code (1706), post 19",
+      "url": "https://www.chiefdelphi.com/t/shoot-while-move-code-1706/410494/19",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s32": {
+      "title": "1706 Code Public Release, post 10",
+      "url": "https://www.chiefdelphi.com/t/1706-code-public-release/413415/10",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Shoot on the move, with a turret and two intakes. Looking back, the team said these made up for some speed and stability lost to a higher center of gravity and narrower wheel base.",
+        "basis": "team",
+        "src": [
+          "s24"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "Cargo: with such a low ball count, the team wanted to take in as much as it could. Its championship strategy was to stay out and shoot in the endgame, since the field is typically fairly open while other robots hang, and then come in for a mid climb.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      },
+      {
+        "text": "The interviewer says the team chose to climb to high and not traversal.",
+        "basis": "observer",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "Another team's championship pit data lists five high shots in auto.",
+        "basis": "observer",
+        "src": [
+          "s27"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The driver tries to keep the static arms toward the hub and takes cargo on either side, rotating at most about 90 degrees. The indexer counts balls for the operator; wrong-color cargo goes behind the hub. In Houston the robot was always in move-and-shoot mode, and in the division and on Einstein the operator did the shooting.",
+        "basis": "team",
+        "src": [
+          "s6",
+          "s13",
+          "s16"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "At the championship: shoot for about 20 seconds, then a mid climb of about 3. The high climb pulls up on mid onto stationary hooks, swings the extending arm to high by piston, then pulls up half way; once disabled, the climber extends slowly enough that the robot is still up about five seconds after the match.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "Odometry gives the position with or without the Limelight, which corrects it.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      },
+      {
+        "text": "In 2023 the team said of turrets that one also helped when pinned against the wall or other robots.",
+        "basis": "team",
+        "src": [
+          "s23"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "The team called it a bigger, slower robot than 1678's that could not consistently get open shots. With a higher center of gravity and narrower wheel base it added a significant slew rate limiter and ran lower top speed and acceleration. On average at worlds, it noted, 1678 outscored it with one intake and no turret.",
+        "basis": "team",
+        "src": [
+          "s22",
+          "s24"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "After St. Louis the team added acceleration compensation to its moving shot, and before the championship a color sensor. It said the robot needed fixing after tough Einstein matches.",
+        "basis": "team",
+        "src": [
+          "s13",
+          "s21",
+          "s4"
+        ]
+      },
+      {
+        "text": "Intake wheels became grip-taped tube; the climb stops half way up mid after swings caused early falls.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      },
+      {
+        "text": "Off-season: one button picks the intake from robot motion, the driver shoots, and the aiming was reworked.",
+        "basis": "team",
+        "src": [
+          "s14",
+          "s16",
+          "s18"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "51-6-1 in official play; won the Hopper division; captain of the Hopper alliance on Einstein; ranked 7 of the pooled top 20 (OPR 62.71, Hopper).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Swerve drive",
+      "cost": [
+        {
+          "text": "A higher center of gravity and narrower wheel base forced a significant slew rate limiter and lower top speed, acceleration and deceleration",
+          "basis": "team",
+          "src": [
+            "s24"
+          ]
+        }
+      ],
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Wheel speeds are PID controlled, which gives the robot's velocities for aiming",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "In the released code a keep-angle controller runs briefly after driving; the team thinks this counters rotation from quick deceleration, and stops so the robot does not keep trying while stationary",
+          "basis": "team",
+          "src": [
+            "s32"
+          ]
+        },
+        {
+          "text": "Another team's championship pit data lists length 33, width 25, height 44 and weight 124 (units not given)",
+          "basis": "observer",
+          "src": [
+            "s27"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Double intake",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Take in as much cargo as possible in a game with a low ball count, without rotating to face each ball",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Two intake buttons plus driving left the operator to shoot; the team put most missed shots down to miscommunication or bad timing",
+          "basis": "team",
+          "src": [
+            "s16"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "two-sided roller intake",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "The most the robot ever has to rotate to pick up balls, about",
+          "basis": "team",
+          "src": [
+            "s6"
+          ],
+          "value": 90,
+          "unit": "deg"
+        },
+        {
+          "text": "Rollers are Lexan tube covered in skateboard grip tape, the entire width of the intake",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "In the Hopper division, two buttons deployed the intakes from the driver's perspective; some cases were hard to get perfect",
+          "basis": "team",
+          "src": [
+            "s33",
+            "s15",
+            "s16"
+          ]
+        },
+        {
+          "text": "Off-season: one button puts down the intake closest to the direction the robot is moving",
+          "basis": "team",
+          "src": [
+            "s34",
+            "s14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Indexer",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Index to the same precise spot every time and keep one ball from knocking another through the shooter",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Avoid scoring opposing cargo",
+          "basis": "team",
+          "src": [
+            "s21"
+          ]
+        }
+      ],
+      "does": [
+        "transfer",
+        "retain",
+        "sense"
+      ],
+      "type": "sensor-staged ball elevator",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "A proximity sensor at the bottom detects a ball; a color sensor at the top decides where it is shot",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Sensors were moved around until balls fit in and touched without moving",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "The ball count is sent to the operator, who then knows when to shoot",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Turret",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Shoot with a defender on the bumper, because a bigger, slower robot could not consistently get open shots",
+          "basis": "team",
+          "src": [
+            "s22"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "powered turret with a dead band",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "About a 20 to 30 degree dead band at the back, set by the wiring",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "The driver's controller rumbles when the wanted angle is in the dead zone",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "In 2023 the team said it had found a little more precision and speed with a turret than in rotating a whole robot to aim",
+          "basis": "team",
+          "src": [
+            "s23"
+          ]
+        },
+        {
+          "text": "An Armabot turret, as used in previous years",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Adjustable hood",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Two piston positions, used in the previous two years, were not enough control",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "fully adjustable hood",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "Moves to any degree under PID control",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "In March a team post said it could shoot from almost anywhere, slightly less accurately farther out",
+          "basis": "team",
+          "src": [
+            "s28"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Too much backspin made the ball roll after it hit",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "flywheel with anti-backspin wheels",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "Small upper wheels deaden the ball so it does not roll back too far",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Shooter speed is PID controlled",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "By the team's own count, 33 scored and 4 missed in teleop of one match",
+          "basis": "team",
+          "src": [
+            "s25"
+          ]
+        },
+        {
+          "text": "Another scouting group's data also has 33, with 10 in the last 20 seconds",
+          "basis": "observer",
+          "src": [
+            "s26"
+          ]
+        },
+        {
+          "text": "Another team's championship pit data lists a turreted multi-flywheel shooter and five high shots in auto",
+          "basis": "observer",
+          "src": [
+            "s27"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Move and shoot",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Without acceleration in the sum, turret, hood and shooter lagged whenever the robot started or stopped",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "At St. Louis, before the factor, a stationary shot had to wait for the turret, and the team hardly used the mode",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ],
+      "does": [
+        "position",
+        "sense"
+      ],
+      "type": "virtual-goal aiming while moving",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "The goal is shifted by the ball's flight time multiplied by robot velocity plus acceleration times a factor; turret, hood and flywheel then aim at that virtual goal",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "The shot is the same as a stationary shot from the virtual goal's distance, from tables of hood and speed",
+          "basis": "team",
+          "src": [
+            "s17",
+            "s4"
+          ]
+        },
+        {
+          "text": "The acceleration factor was found by experiment: how fast the robot will be moving in about",
+          "basis": "team",
+          "src": [
+            "s13"
+          ],
+          "value": 0.1,
+          "unit": "s"
+        },
+        {
+          "text": "At times it could shoot while moving at over",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 3,
+          "unit": "m/s"
+        },
+        {
+          "text": "For 0.1 s after the color sensor sees a wrong ball, the target switches to another point",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Off-season: the virtual goal is recalculated up to five times until the flight time settles",
+          "basis": "team",
+          "src": [
+            "s18"
+          ]
+        },
+        {
+          "text": "A 2025 post says the system approached 1690's level, especially at IRI",
+          "basis": "observer",
+          "src": [
+            "s31"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Limelight pose",
+      "solves": [
+        {
+          "text": "Know position while moving, even with the target at the edge of the image",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "Limelight correcting wheel odometry",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "Distance, gyro, turret angle and target offset give a pose when the target is valid",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A lookup table gave better results than a straight trigonometric approach for this game",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "July 2022 code lowered the vertical angle by the horizontal angle divided by 12, since an off-center target makes the robot look closer",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        },
+        {
+          "text": "Off-season (August): data at four distances, turning the turret about 5 degrees at a time, gave a function that replaced that correction, so one table of vertical angle against distance works off center",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Pulling up on mid too high or too fast made the robot swing and caused a couple of early falls",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "three-stage telescoping climber with stationary hooks",
+      "serves": [
+        "rung-mid",
+        "rung-high"
+      ],
+      "facts": [
+        {
+          "text": "Machined in house from an existing design",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Stationary hooks release when the match starts and hold the robot on mid while the arm, moved by piston, reaches high",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "It stops half way up mid so the back of the robot drags and slows the swing",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "High takes probably about 12 seconds to pull up, after leaving about 3 seconds early to get there; asked how long it takes, the team says it usually goes at about 15 to 20",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "A commenter said on 10 April that none of that year's St. Louis winners, 1706 among them, could climb traversal",
+          "basis": "observer",
+          "src": [
+            "s30"
+          ]
+        },
+        {
+          "text": "On high it pulls up only half way: pulling onto the stationary hooks sometimes made the bumper hit the mid bar and the robot fall off",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Two intakes",
+      "because": "the ball count is low, and one intake would mean rotating before each pickup",
+      "instead_of": "one intake",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    },
+    {
+      "choice": "A turret on a swerve drive",
+      "because": "looking back, a bigger, slower robot probably needed to shoot with a defender on its bumper",
+      "basis": "team",
+      "src": [
+        "s22"
+      ]
+    },
+    {
+      "choice": "A hood that moves to any degree",
+      "because": "two set positions were not enough control",
+      "instead_of": "a piston hood with two positions",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    },
+    {
+      "choice": "Grip tape on a tube for the intake roller",
+      "because": "the ball bounced weirdly off separate rubber wheels",
+      "instead_of": "black rubber wheels on a hex shaft",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    },
+    {
+      "choice": "Shoot wrong-color cargo behind the hub",
+      "because": "the team found it best",
+      "instead_of": "choosing the spot by robot position",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    },
+    {
+      "choice": "Add acceleration compensation to the moving shot",
+      "because": "the turret, hood and shooter lagged when starting and stopping",
+      "basis": "team",
+      "src": [
+        "s13"
+      ]
+    },
+    {
+      "choice": "A lookup table",
+      "because": "a straight trigonometric approach gave poor results for this game",
+      "instead_of": "trigonometry",
+      "basis": "team",
+      "src": [
+        "s12"
+      ]
+    },
+    {
+      "choice": "Stay out and shoot in the endgame, then a mid climb",
+      "because": "the field is typically fairly open while other robots hang",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    },
+    {
+      "choice": "Let the driver shoot (off-season)",
+      "because": "the driver knows exactly when to move smoothly, and one person needs less reaction time",
+      "instead_of": "the operator shooting, as in the division and on Einstein",
+      "basis": "team",
+      "src": [
+        "s15",
+        "s16"
+      ]
+    },
+    {
+      "choice": "No automatic feeding (off-season)",
+      "because": "the team felt defense would be hard to program around",
+      "basis": "team",
+      "src": [
+        "s16"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/NgPtgL5",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "1706 Ratchet Rockers 2022: Blue Widow",
+        "url": "https://www.chiefdelphi.com/t/1706-ratchet-rockers-2022-blue-widow/419553",
+        "format": "thread",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "Behind the Bumpers 1706 Ratchet Rockers | Rapid React Robot",
+        "url": "https://www.youtube.com/watch?v=MyxAfBOeiJ4",
+        "format": "video",
+        "state": "listed",
+        "src": "s6"
+      },
+      {
+        "what": "Behind the Bumpers - 1706 Ratchet Rockers",
+        "url": "https://www.chiefdelphi.com/t/behind-the-bumpers-1706-ratchet-rockers-1-seed-division-winners/410835",
+        "format": "thread",
+        "state": "listed",
+        "src": "s8"
+      },
+      {
+        "what": "1706 Ratchet Rockers 2022: Blue Widow (highlight reel)",
+        "url": "https://www.youtube.com/watch?v=EbWdU92yRj0",
+        "format": "video",
+        "state": "listed",
+        "src": "s9"
+      },
+      {
+        "what": "RR Team 1706 - Final practice before Champs",
+        "url": "https://www.youtube.com/watch?v=fY1BiBfeRV4",
+        "format": "video",
+        "state": "listed",
+        "src": "s10"
+      },
+      {
+        "what": "RR 1706 - 6 Ball Auto",
+        "url": "https://www.youtube.com/watch?v=myYa9En2128",
+        "format": "video",
+        "state": "listed",
+        "src": "s11"
+      },
+      {
+        "what": "St. Louis quarterfinal linked by the team as the first use of shooting on the move",
+        "url": "https://youtu.be/UaDoNrv7IDY",
+        "format": "video",
+        "state": "listed",
+        "src": "s21"
+      },
+      {
+        "what": "Match in which the team counted 33 teleop cargo",
+        "url": "https://youtu.be/Bmkjo1buVD8",
+        "format": "video",
+        "state": "listed",
+        "src": "s25"
+      },
+      {
+        "what": "RR 1706 - Shoot and Move",
+        "url": "https://www.youtube.com/watch?v=V1hFQcEPkn8",
+        "format": "video",
+        "state": "listed",
+        "src": "s29"
+      },
+      {
+        "what": "Geometry of robot, turret and limelight angles to goal",
+        "url": "https://www.chiefdelphi.com/t/1706-code-public-release/413415",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/4/7/47ceee22dc2ae17a2081fd77cfcda64508737866_2_690x390.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s3",
+        "kind": "diagram"
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/rr1706",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "1706 Code Public Release",
+        "url": "https://www.chiefdelphi.com/t/1706-code-public-release/413415",
+        "format": "thread",
+        "state": "opened",
+        "src": "s3"
+      },
+      {
+        "what": "Shoot While Move Code (1706)",
+        "url": "https://www.chiefdelphi.com/t/shoot-while-move-code-1706/410494",
+        "format": "thread",
+        "state": "opened",
+        "src": "s4"
+      },
+      {
+        "what": "rr1706/2022-Main (Blue Widow code)",
+        "url": "https://github.com/rr1706/2022-Main",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s7"
+      },
+      {
+        "what": "Limelight Target Correction Data Tuner (spreadsheet, August 2022)",
+        "url": "https://docs.google.com/spreadsheets/d/1JH6fi8_Nq6-OitZIZxuNL-Oa0yudN---ppAI2IdjeOE/edit?usp=sharing",
+        "format": "Google Sheets",
+        "state": "listed",
+        "src": "s20"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)"
+  ],
+  "results": {
+    "division": "Hopper",
+    "division_opr": 62.71,
+    "opr_rank": 7,
+    "record": "51-6-1",
+    "einstein": {
+      "division": "Hopper",
+      "role": "captain"
+    },
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

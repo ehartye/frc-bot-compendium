@@ -1,0 +1,791 @@
+{
+  "id": "2022-5940",
+  "season": 2022,
+  "team": "5940",
+  "team_name": "BREAD",
+  "robot_name": "Brioche",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 5940 in 2022",
+      "url": "https://www.thebluealliance.com/team/5940/2022",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Roebling Division 2022",
+      "url": "https://www.thebluealliance.com/event/2022roe",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC 5940 BREAD's 2022 Robot: Brioche",
+      "url": "https://www.chiefdelphi.com/t/frc-5940-breads-2022-robot-brioche/412602",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "BREAD 2022 season page (Meet Brioche)",
+      "url": "https://www.team5940.org/2022",
+      "publisher": "team5940.org",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "5940 BREAD 2022 Teaser | Brioche",
+      "url": "https://www.chiefdelphi.com/t/5940-bread-2022-teaser-brioche-6-cargo-auto/404133",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "BREAD 2022 Tech Binder (Brioche, Google Doc)",
+      "url": "https://docs.google.com/document/d/1PAp1KZtO0AWkfComA1-C95xSTY71_W9LfnUAKwccu8U/edit",
+      "publisher": "docs.google.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "FRC 5940 BREAD | 2022 First Championship Recap",
+      "url": "https://www.youtube.com/watch?v=rti9HgQL37I",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Brioche CAD (Google Drive folder)",
+      "url": "https://drive.google.com/drive/folders/1dfmoy9ifio9D6NkCJLpp7tA9KlsyfclU",
+      "publisher": "drive.google.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "BREAD5940/2022-Onseason (Brioche code)",
+      "url": "https://github.com/BREAD5940/2022-Onseason",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "6328 Just Did a Gremlin Auto!",
+      "url": "https://www.chiefdelphi.com/t/6328-just-did-a-gremlin-auto/409813",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "Behind the Bumpers: 5940 BREAD, division winners",
+      "url": "https://www.chiefdelphi.com/t/behind-the-bumpers-5940-bread-division-winners-first-2-bbs-ever/416427",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "TBA 5940 robot image",
+      "url": "https://www.chiefdelphi.com/t/tba-5940-robot-image/407027",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "MBR MAD WIN 2022",
+      "url": "https://www.youtube.com/watch?v=7XCYHuyG_QI",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "FRC 5940 BREAD's 2022 Robot: Brioche (post 6)",
+      "url": "https://www.chiefdelphi.com/t/412602/6",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "FRC 5940 BREAD's 2022 Robot: Brioche (post 8)",
+      "url": "https://www.chiefdelphi.com/t/412602/8",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "5940 BREAD 2022 Teaser, Brioche, 6 Cargo Auto (post 9)",
+      "url": "https://www.chiefdelphi.com/t/404133/9",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "Behind the Bumpers 5940 BREAD Rapid React Robot (off-season interview)",
+      "url": "https://www.youtube.com/watch?v=GbeIEkqZO9Q",
+      "publisher": "FIRST Updates Now",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "6328 Just Did a Gremlin Auto! (post 22)",
+      "url": "https://www.chiefdelphi.com/t/409813/22",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s22": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/ucb78yd",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "auto": [
+      {
+        "text": "Six cargo: preload, three from the ring on its side, two by the terminal. It planned last shots from farther back, so partners could leave.",
+        "basis": "team",
+        "src": [
+          "s18",
+          "s16"
+        ]
+      },
+      {
+        "text": "Off-season interview: a defensive routine at regionals and championship collected five and dispersed two opponent cargo into the truss.",
+        "basis": "team",
+        "src": [
+          "s20"
+        ]
+      },
+      {
+        "text": "A post that reads as the team's: a steal auto dialed in on the practice field.",
+        "basis": "observer",
+        "src": [
+          "s21"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "In an off-season interview: the driver has two buttons, intake left and intake right; sensors store own cargo and pass opponent cargo straight out the other side.",
+        "basis": "team",
+        "src": [
+          "s20"
+        ]
+      },
+      {
+        "text": "Flywheel speed and hood angle are interpolated from the distance to the target.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "In season it used the high rung, about 5 s.",
+        "basis": "team",
+        "src": [
+          "s16"
+        ]
+      },
+      {
+        "text": "An off-season interview shows the climb: the belted arm takes the mid rung, pistons tilt it back to the high rung, then a second static hook takes the traversal.",
+        "basis": "team",
+        "src": [
+          "s20"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "Traversal: about 15 s against 5 s for the high rung, and after the climber was turned around before the championship it swung too much to be reliable. The team says the extra time could go to cargo, and that only ranking points were lost since its alliance partners could traverse.",
+        "basis": "team",
+        "src": [
+          "s16"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "An oversight in CAD first made the climber extend past the 16 in limit. With three people on CAD it was harder to get every design right.",
+        "basis": "team",
+        "src": [
+          "s16"
+        ]
+      },
+      {
+        "text": "In an off-season interview: a first single-intake design became two to make autos easier, and shooting on the move was added before the championship.",
+        "basis": "team",
+        "src": [
+          "s20"
+        ]
+      },
+      {
+        "text": "After the championship the team planned to make the climber traverse for the off-season.",
+        "basis": "team",
+        "src": [
+          "s16"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "49-12-0 in official play; won the Roebling division; captain of the Roebling alliance on Einstein; ranked 15 of the pooled top 20 (OPR 57.73, Roebling).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drivetrain",
+      "solves": [
+        {
+          "text": "Counter defense, open more auto paths, and aim easily without a turret",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "drive",
+        "structure"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Four MK4i modules with blue nitrile tread and eight Falcon 500s",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Base 31 x 25 in, described as easy to turn and an optimal fit for a double traversal climb",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intakes",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Avoid the jams and inconsistency seen when indexing an earlier game's pieces, by sending cargo into the gut one at a time",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "In an off-season interview: mecanum vectoring was reliable after about 20 iterations, but the team would not recommend it to others",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "two full-width four-bar intakes with mecanum vectoring",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "Two intakes allow color sorting and make cargo easier to find",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Each runs on one Falcon 500; 3 in compliant wheels pick up, 2 in mecanum wheels vector cargo against a backplate",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Four-bar arms are shaped into hard stops at both ends; pneumatic cylinders stow them",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "1/4 in polycarbonate, with 1/8 in aluminum at the motor mount to prevent belt skipping",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Off-season interview: width of each, about",
+          "basis": "team",
+          "src": [
+            "s20"
+          ],
+          "value": 30.5,
+          "unit": "in"
+        }
+      ]
+    },
+    {
+      "name": "Gut",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Track and control each cargo, and get rid of opponent cargo",
+          "basis": "team",
+          "src": [
+            "s6",
+            "s20"
+          ]
+        }
+      ],
+      "does": [
+        "transfer",
+        "retain",
+        "sense"
+      ],
+      "type": "two-run belt path with pass-through color sorting",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "Vertical and horizontal belt runs, powered separately by two Falcon 500s",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Beam breaks track cargo; a color sensor filters opponent cargo",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "In an off-season interview: single-sided belts move a ball through and out the far side, or lift and store it",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        },
+        {
+          "text": "Off-season interview: code can collect only opponent cargo and put it in chosen places; the team had never needed it",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dual flywheel launcher",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Minimize backspin so that cargo does not bounce out of the hub",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "dual flywheel shooter",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "2 in top wheel and 4 in bottom wheel geared to the same surface speed, two Falcon 500s at 1:1",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "A 2 in kick wheel keeps constant contact with cargo",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "A 4 in brass flywheel on a 2.16:1 upduction makes shots more consistent",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rack and pinion hood",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Shoot accurately from variable distances",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "rack and pinion hood",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "NEO 550 with a reduction to the pinion of",
+          "basis": "team",
+          "src": [
+            "s6"
+          ],
+          "value": 5,
+          "unit": ":1"
+        },
+        {
+          "text": "3D printed rack",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "The binder names a REV Throughbore Encoder in one section and an absolute MA3 encoder in another",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vision and control",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "See the upper hub from anywhere on the field and set the shot",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "Limelight on the climber arm with PhotonVision",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "Limelight 2+ running PhotonVision on the front of the climber arm",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "A median filter removes inaccurate vision samples",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Off-season interview: shooting on the move aims at a virtual target moved by the robot's velocity",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        },
+        {
+          "text": "Webcams let drivers see cargo behind the hub",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "cost": [
+        {
+          "text": "Turned 180 degrees before the championship, it could climb only with a lot of swinging and would often fail, so the team stayed with the high rung",
+          "basis": "team",
+          "src": [
+            "s16"
+          ]
+        },
+        {
+          "text": "In an off-season interview: the belts stretch, and the team skips them to retighten",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "belt-driven telescoping arm with two static hooks",
+      "serves": [
+        "rung-mid",
+        "rung-high"
+      ],
+      "facts": [
+        {
+          "text": "Two Falcon 500s drive the belt extension at",
+          "basis": "team",
+          "src": [
+            "s6"
+          ],
+          "value": 12.86,
+          "unit": ":1"
+        },
+        {
+          "text": "Rotation is pneumatic; the hooks are 1/4 in aluminum on the gut structure",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "The large tube fits both belts inside it",
+          "basis": "team",
+          "src": [
+            "s16"
+          ]
+        },
+        {
+          "text": "Dyneema tie downs steady the hooks; elastic lets them bend",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "The binder and team page call it capable of traversal; a later team post says it stuck to the high climb",
+          "basis": "team",
+          "src": [
+            "s6",
+            "s4",
+            "s16"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "High rung climb in season",
+      "because": "it took about 5 s against about 15 s, and the extra time could be used to score",
+      "instead_of": "the traversal rung",
+      "cost": "ranking points",
+      "basis": "team",
+      "src": [
+        "s16"
+      ]
+    },
+    {
+      "choice": "Swerve, with no turret",
+      "because": "it gives maneuverability against defense, more auto paths and easy aiming",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    },
+    {
+      "choice": "Two intakes",
+      "because": "two would make autos significantly easier with the six-ball routine (off-season interview)",
+      "instead_of": "a first single-intake design",
+      "basis": "team",
+      "src": [
+        "s20"
+      ]
+    },
+    {
+      "choice": "Belt-driven climber",
+      "because": "constant force springs had caused issues the year before (off-season interview, auto-captions)",
+      "basis": "team",
+      "src": [
+        "s20"
+      ]
+    },
+    {
+      "choice": "Its own drive controller in code",
+      "because": "the WPILib one does not enable continuous output on heading, and its profiled PID behaved erratically at times (the team never learned whether its own use or the library was at fault)",
+      "instead_of": "the WPILib holonomic drive controller",
+      "basis": "team",
+      "src": [
+        "s17"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "FRC 5940 BREAD's 2022 Robot: Brioche",
+        "url": "https://www.chiefdelphi.com/t/frc-5940-breads-2022-robot-brioche/412602",
+        "format": "thread",
+        "state": "opened",
+        "src": "s3",
+        "holds": "STEP, Parasolid"
+      },
+      {
+        "what": "Brioche CAD (Google Drive folder)",
+        "url": "https://drive.google.com/drive/folders/1dfmoy9ifio9D6NkCJLpp7tA9KlsyfclU",
+        "format": "Google Drive",
+        "state": "listed",
+        "src": "s10",
+        "holds": "STEP, Parasolid"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Behind the Bumpers interview, filmed at an off-season event (transcript read, video not watched)",
+        "url": "https://www.youtube.com/watch?v=GbeIEkqZO9Q",
+        "format": "video",
+        "state": "listed",
+        "src": "s20"
+      },
+      {
+        "what": "Six-cargo auto teaser video (not watched)",
+        "url": "https://www.youtube.com/watch?v=Yx3drL6_gKI",
+        "format": "video",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/REZybhg",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "5940 BREAD 2022 Teaser | Brioche",
+        "url": "https://www.chiefdelphi.com/t/5940-bread-2022-teaser-brioche-6-cargo-auto/404133",
+        "format": "thread",
+        "state": "opened",
+        "src": "s5"
+      },
+      {
+        "what": "FRC 5940 BREAD | 2022 First Championship Recap",
+        "url": "https://www.youtube.com/watch?v=rti9HgQL37I",
+        "format": "video",
+        "state": "listed",
+        "src": "s7"
+      },
+      {
+        "what": "6328 Just Did a Gremlin Auto!",
+        "url": "https://www.chiefdelphi.com/t/6328-just-did-a-gremlin-auto/409813",
+        "format": "thread",
+        "state": "opened",
+        "src": "s12"
+      },
+      {
+        "what": "Behind the Bumpers: 5940 BREAD, division winners",
+        "url": "https://www.chiefdelphi.com/t/behind-the-bumpers-5940-bread-division-winners-first-2-bbs-ever/416427",
+        "format": "thread",
+        "state": "listed",
+        "src": "s13"
+      },
+      {
+        "what": "TBA 5940 robot image",
+        "url": "https://www.chiefdelphi.com/t/tba-5940-robot-image/407027",
+        "format": "thread",
+        "state": "listed",
+        "src": "s14"
+      },
+      {
+        "what": "MBR MAD WIN 2022",
+        "url": "https://www.youtube.com/watch?v=7XCYHuyG_QI",
+        "format": "video",
+        "state": "listed",
+        "src": "s15"
+      },
+      {
+        "what": "Full robot, red bumpers, intake rollers raised, awards in front",
+        "url": "https://imgur.com/ucb78yd",
+        "img": "https://i.imgur.com/ucb78ydh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s22",
+        "kind": "robot-photo",
+        "hero": true
+      }
+    ],
+    "documents": [
+      {
+        "what": "Team season page: Meet Brioche",
+        "url": "https://www.team5940.org/2022",
+        "format": "web page",
+        "state": "opened",
+        "src": "s4"
+      },
+      {
+        "what": "BREAD 2022 Tech Binder (Brioche, Google Doc)",
+        "url": "https://docs.google.com/document/d/1PAp1KZtO0AWkfComA1-C95xSTY71_W9LfnUAKwccu8U/edit",
+        "format": "Google Doc",
+        "state": "opened",
+        "src": "s6"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/bread5940",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "BREAD5940/2022-Onseason (Brioche code)",
+        "url": "https://github.com/BREAD5940/2022-Onseason",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s11"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "technical binder text (its list of priorities is not in it)",
+    "Chief Delphi searches \"tags:frc5940\" and \"5940 in:title\" for 2022, web search for a Brioche technical binder"
+  ],
+  "results": {
+    "division": "Roebling",
+    "division_opr": 57.73,
+    "opr_rank": 15,
+    "record": "49-12-0",
+    "einstein": {
+      "division": "Roebling",
+      "role": "captain"
+    },
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

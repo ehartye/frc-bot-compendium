@@ -1,0 +1,599 @@
+{
+  "id": "2022-67",
+  "season": 2022,
+  "team": "67",
+  "team_name": "The HOT Team",
+  "robot_name": null,
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 67 in 2022",
+      "url": "https://www.thebluealliance.com/team/67/2022",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Roebling Division 2022",
+      "url": "https://www.thebluealliance.com/event/2022roe",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "67 - The HOT Team 2022 Reveal",
+      "url": "https://www.chiefdelphi.com/t/67-the-hot-team-2022-reveal/405549",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Behind the Bumpers: FRC 67 The HOT Team at IRI 2022",
+      "url": "https://www.chiefdelphi.com/t/behind-the-bumpers-frc-67-the-hot-team-at-iri-2022/413548",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Behind the Bumpers 67 The HOT Team Robot | Rapid React",
+      "url": "https://www.youtube.com/watch?v=kAfsfsOL3Fg",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "The Milford Messenger, March 2022: 'The 2022 HOT Team Impresses' (PDF)",
+      "url": "https://drive.google.com/file/d/1XayZYzOseCPmrjcggfjzeNjW96kI3RZj/view",
+      "publisher": "drive.google.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "67 - The HOT Team 2023 Reveal, post 16: Altair motion simulation of 2022 intake brackets",
+      "url": "https://www.chiefdelphi.com/t/67-the-hot-team-2023-reveal/428675",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "2022 FIM DTE Q36 / FRC 67 and 1684 / Clean Robot Video",
+      "url": "https://www.youtube.com/watch?v=NiX7I3RAyLg",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "FRC Recap Championship Divisions and Einstein | Rapid React",
+      "url": "https://www.youtube.com/watch?v=vKLxBkhyMwg",
+      "publisher": "FUN Robotics Network on YouTube",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Request for Pit Scouting data from CMP please (post 5, Roebling data)",
+      "url": "https://www.chiefdelphi.com/t/request-for-pit-scouting-data-from-cmp-please/410352/5",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/ANCzgzZ",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "A double intake on a swerve drive: easy to maneuver, with two sides that the team felt would pick up balls better.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "For the shooter the team picked field positions first. The one it knew was crucial was around the hangar, along with the protected shot: the robot could get away from defenders and have a free shot. A wall shot also helped, since it was harder for others to push the robot off course while shooting.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "In an off-season interview: cargo enters from either side; rollers spin it to the center, where surgical tubing centers it and it goes up. An upper stage stops the ball at a sensor until the shooter is activated, and a lower stage holds another in a very similar way.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "In an off-season interview: pneumatics pop the windmill up, and it spins as it lifts because the intakes block it. It latches onto the bar, spins up to mid, then goes up, spins back a little to release the right latch, and ends hanging vertical. Climbs are sometimes under about 10 seconds.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "The intakes block the climber, so it has to spin as it lifts (in an off-season interview).",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "Backspin was an issue: opposite-spinning wheels were added just before Milford, unpowered, then powered almost directly after it. From an off-season interview, undated: a three-bar intake idea gave way to a four bar, and a lining stopped balls popping out; a gate came off the indexer; Motion Magic overshot and swung violently, so the climber spins to an angle and stops.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "49-18-0 in official play; finalist in the Roebling division; ranked 3 of the pooled top 20 (OPR 67.69, Roebling).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drive",
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "SDS MK4i modules with Falcons; L2 ratio 6.75:1",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Frame 28 in by 28 in",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "The school paper called it a new drive type that lets the robot move in any direction",
+          "basis": "observer",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Double intake",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Pick up balls better, from two sides, while maneuvering on swerve",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The intakes block the climber from simply rising (off-season interview)",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "two-sided four-bar roller intake",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "Falcon driven, HTD belt 2:1; the upper roller uses \"surgical\" for compression",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "In an off-season interview: a four bar reaches out, and a lining (captioned acrylic) stops balls popping out when the intakes are down",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "By that interview it had taken about three to four iterations",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "The team favors one intake over the other",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "A recap host said that in the third division final 67 could not retract its intakes and had difficulty shooting; the captions garble the cause",
+          "basis": "observer",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Indexer",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Take balls from both sides without jamming, and stage two",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "transfer",
+        "retain",
+        "sense"
+      ],
+      "type": "two-zone centering ball elevator",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "Two NEO 550s hidden inside a 3D printed ramp, with an upper and a lower zone",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Linear speed, as written",
+          "basis": "team",
+          "src": [
+            "s3"
+          ],
+          "value": 10,
+          "unit": "FPS"
+        },
+        {
+          "text": "In an off-season interview: rollers spin balls from both sides to the middle, where two pieces of surgical tubing center the ball",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "In that interview: a sensor on each stage stops that stage when a ball is there",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "In that interview: the floor is not stopped, in case a third ball comes in and has to get out",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "In that interview: about three iterations; the first had trouble getting balls into the robot (garbled captions)",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "In that interview: the newer intakes fold in a way that centers the ball more easily, and nothing in the ball path had to change for them",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Combat backspin, since balls slide out of the top goal easily",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "deliver",
+        "position"
+      ],
+      "type": "flywheel shooter with a second set of opposite-spinning wheels",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "Dual Falcon, with four-position pneumatic actuation",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Top roller to improve shot consistency",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "A second set of wheels spins in the opposite direction to combat backspin; the team says almost all its shots stay inside the top goal",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Another team's championship pit data lists no turret",
+          "basis": "observer",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "cost": [
+        {
+          "text": "It has to spin as it lifts so that it does not hit parts of the intakes (off-season interview)",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "windmill climber with pneumatic latches",
+      "serves": [
+        "rung-mid"
+      ],
+      "facts": [
+        {
+          "text": "Single Falcon geared 347:1",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Pneumatics punch the latches open; the latches always default to closed",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "In an off-season interview: pneumatics pop it up and everything except the spinning is pneumatic",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "In that interview: it spins up to mid, then spins back a little so the angle releases the right latch",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "About seven iterations after the first try",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "The school paper wrote in March that the drive, the two intakes and a robust climber would let the team traverse quickly to the highest bar",
+          "basis": "observer",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Two intakes on a swerve drive",
+      "because": "the team felt it would be easy to maneuver and would pick up balls better",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "A four bar for the intake",
+      "because": "it reaches out and bounces less, so it pulls the ball in better (off-season interview)",
+      "instead_of": "an initial three-bar idea, which bounced on the ball as it came down",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "A windmill climber",
+      "because": "the team liked an animation it saw of one",
+      "instead_of": "a two-bar climber that grabs and moves over",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Spin the climber to an angle and stop",
+      "because": "Motion Magic swung violently when it overshot; this was much smoother and about 5 to 10 seconds faster, the team says in an off-season interview",
+      "instead_of": "a Motion Magic profile",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Remove the gate at the top of the indexer",
+      "because": "the program did not need it and it was excess weight (off-season interview)",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Keep the floor running",
+      "because": "a third ball might come in and need to get out (off-season interview)",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=pg5F_01MkH4",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Behind the Bumpers: FRC 67 The HOT Team at IRI 2022",
+        "url": "https://www.chiefdelphi.com/t/behind-the-bumpers-frc-67-the-hot-team-at-iri-2022/413548",
+        "format": "thread",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "Behind the Bumpers 67 The HOT Team Robot | Rapid React",
+        "url": "https://www.youtube.com/watch?v=kAfsfsOL3Fg",
+        "format": "video",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "67 - The HOT Team 2023 Reveal, post 16: Altair motion simulation of 2022 intake brackets",
+        "url": "https://www.chiefdelphi.com/t/67-the-hot-team-2023-reveal/428675",
+        "format": "thread",
+        "state": "listed",
+        "src": "s7"
+      },
+      {
+        "what": "2022 FIM DTE Q36 / FRC 67 and 1684 / Clean Robot Video",
+        "url": "https://www.youtube.com/watch?v=NiX7I3RAyLg",
+        "format": "video",
+        "state": "listed",
+        "src": "s8"
+      },
+      {
+        "what": "Full robot, red bumpers, orange wheel intake, climber arms",
+        "url": "https://imgur.com/ANCzgzZ",
+        "img": "https://i.imgur.com/ANCzgzZh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s11",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Full robot, blue bumpers, both intakes extended",
+        "url": "https://www.chiefdelphi.com/t/67-the-hot-team-2022-reveal/405549",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/4/7/472e4bfa255d0690c517e3c4d06c27d85644471a_2_404x375.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s3",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot from behind, blue bumpers, climber hooks",
+        "url": "https://www.chiefdelphi.com/t/67-the-hot-team-2022-reveal/405549",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/c/9/c9e74f9b7c64a5ac291b3d3b2307d2423108daa2_2_272x375.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s3",
+        "kind": "robot-photo"
+      }
+    ],
+    "documents": [
+      {
+        "what": "67 - The HOT Team 2022 Reveal",
+        "url": "https://www.chiefdelphi.com/t/67-the-hot-team-2022-reveal/405549",
+        "format": "thread",
+        "state": "opened",
+        "src": "s3"
+      },
+      {
+        "what": "The Milford Messenger, March 2022: 'The 2022 HOT Team Impresses' (PDF)",
+        "url": "https://drive.google.com/file/d/1XayZYzOseCPmrjcggfjzeNjW96kI3RZj/view",
+        "format": "Google Drive",
+        "state": "listed",
+        "src": "s6"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/hot67",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders and documents: Chief Delphi post searches \"67 binder\" (5 results) and \"HOT 67 climber design 2022\" (3); a web search found no binder; the team history page offers none for 2022"
+  ],
+  "results": {
+    "division": "Roebling",
+    "division_opr": 67.69,
+    "opr_rank": 3,
+    "record": "49-18-0",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}
