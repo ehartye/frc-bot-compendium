@@ -1,0 +1,487 @@
+{
+  "id": "2022-5172",
+  "season": 2022,
+  "team": "5172",
+  "team_name": "Gators",
+  "robot_name": null,
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 5172 in 2022",
+      "url": "https://www.thebluealliance.com/team/5172/2022",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Turing Division 2022",
+      "url": "https://www.thebluealliance.com/event/2022tur",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "Team 5172 Gators Pre Champs Reveal",
+      "url": "https://www.chiefdelphi.com/t/team-5172-gators-pre-champs-reveal/409138",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Behind the Bumpers 5172 Gators Robot | Rapid React",
+      "url": "https://www.youtube.com/watch?v=5pX6RHlKFR0",
+      "publisher": "FIRST Updates Now",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "5172 POV - Great Northern Finals 1",
+      "url": "https://www.youtube.com/watch?v=sobZ_maPvKQ",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Event winners without a traversal climber (post 13)",
+      "url": "https://www.chiefdelphi.com/t/408415/13",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Event winners without a traversal climber (post 24)",
+      "url": "https://www.chiefdelphi.com/t/408415/24",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/dM9XDUf",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "cycle": [
+      {
+        "text": "In a championship interview: wheels on the intake guide balls to the middle, and a ramp conveyor pushes a ball up and holds it until the shot. The flywheel runs all match, its speed following the distance the Limelight sees; dark blue LEDs mean lined up.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "A powered hook takes the mid rung and pulls up until other hooks snap on; those deploy so the powered hook can reach the next rung, and the sequence repeats. About 15 to 20 s to traversal.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "Forum posts say it was undefeated at the Great Northern Regional without climbing in qualification, for unstated reasons, though able to.",
+        "basis": "observer",
+        "src": [
+          "s6",
+          "s7"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "The first climber had narrower hooks and a single hook on one part. At the second regional a four-stage, two-arm climber was really fast but had mechanical issues. The team then returned to the first, with wider hooks that clear the turret and two hooks for less swinging.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "36-7-0 in official play; ranked 6 of the pooled top 20 (OPR 64.65, Turing).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Swerve drive",
+      "solves": [
+        {
+          "text": "Go in any direction and rotate",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The driver says it takes time and a lot of practice to learn",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "The team's first year of swerve, after tank drives",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "One joystick moves the robot and the other rotates it",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Bring balls over the bumper and toward the middle of the robot",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "non-parallel four-bar pneumatic intake",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "A Lexan guard drops down when the intake first deploys, and helps balls over the bumper into the chute",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Custom foam roller with a carbon fiber rod inside",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "3D printed mecanum wheels, with larger ones at the ends to guide balls to the middle",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "It is compliant: with balls against a wall it bounces back in, which helps protect it",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Conveyor",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Push the ball up and hold it until it is ready to shoot",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "transfer",
+        "retain"
+      ],
+      "type": "ramp with one set of wheels",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "Pretty much a ramp with a single set of wheels in the middle",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Color sensor",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Avoid scoring opponent cargo",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "color sensor in the conveyor",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Sits toward the top of the conveyor",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "For a wrong-color ball the turret turns a little and shoots it off target",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Turret",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Aim almost completely automatically",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "position",
+        "sense"
+      ],
+      "type": "Limelight-controlled turret",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "A Limelight on top controls it",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "LEDs tell driver and operator the state: dark blue for lined up and ready, lighter blue for close",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Keep shots from bouncing out of the hub",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "single flywheel with backspin-cancelling top wheels",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "Aluminum flywheel with blue nitrile tread and a brass counterweight on either side to hold momentum",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Green wheels at the top cancel backspin",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Runs the entire match; speed changes with the distance the Limelight sees",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Reach the traversal rung by repeating one sequence",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "powered hook with deployable fixed hooks",
+      "serves": [
+        "rung-mid",
+        "rung-high",
+        "rung-traversal"
+      ],
+      "facts": [
+        {
+          "text": "About 15 to 20 s to the traversal rung",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "The hooks it rests on deploy to the angle where the powered hook can reach the next rung",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Two hooks on the changed part reduce swinging",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Return to the first climber",
+      "because": "the four-stage climber had some mechanical issues",
+      "instead_of": "a four-stage climber with two arms, which was really fast",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "Wider climber hooks",
+      "because": "narrower ones hit the turret",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "A compliant intake",
+      "because": "when the robot comes in fast at balls against a wall it bounces back in, which helps protect it",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Pre-championship robot reveal video (not watched)",
+        "url": "https://www.youtube.com/watch?v=PULGf4Zvps0",
+        "format": "video",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "Team 5172 Gators Pre Champs Reveal",
+        "url": "https://www.chiefdelphi.com/t/team-5172-gators-pre-champs-reveal/409138",
+        "format": "thread",
+        "state": "opened",
+        "src": "s3"
+      },
+      {
+        "what": "Behind the Bumpers 5172 Gators Robot | Rapid React",
+        "url": "https://www.youtube.com/watch?v=5pX6RHlKFR0",
+        "format": "video",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "5172 POV - Great Northern Finals 1",
+        "url": "https://www.youtube.com/watch?v=sobZ_maPvKQ",
+        "format": "video",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "Full robot on field, blue bumpers, shooter hood tilted back",
+        "url": "https://imgur.com/dM9XDUf",
+        "img": "https://i.imgur.com/dM9XDUfh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "robot-photo",
+        "hero": true
+      }
+    ],
+    "documents": [],
+    "code": []
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "championship interview transcript",
+    "Chief Delphi searches \"tags:frc5172\", \"5172 in:title\", \"5172 binder\" and \"gators 5172 climber design\" for 2022; no team site found"
+  ],
+  "results": {
+    "division": "Turing",
+    "division_opr": 64.65,
+    "opr_rank": 6,
+    "record": "36-7-0",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

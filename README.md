@@ -2,7 +2,7 @@
 
 Site: https://ehartye.github.io/frc-bot-compendium/
 
-Design examples from the top 20 FRC robots of each season, 2023 to 2026: what each one was built around, how it worked, what it cost, and where its team published the CAD, pictures, binder and code. It is meant for people designing a robot and for programs helping them.
+Design examples from the top 20 FRC robots of each season, 2022 to 2026: what each one was built around, how it worked, what it cost, and where its team published the CAD, pictures, binder and code. It is meant for people designing a robot and for programs helping them.
 
 - `data/robots/<year>/<team>.json`: one record per robot. `data/seasons/<year>.json`: the game.
 - `docs/robot-model.md`: what a record holds and the evidence rules.

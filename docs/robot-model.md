@@ -1,6 +1,6 @@
 # Robot model and story format
 
-Status: version 1, approved by the owner on 2026-11-25. Tested on four robots before approval. The functions, the six beats, the evidence rules and the record shape are frozen; a change needs the owner. All 80 robots get a page, including those with almost nothing public.
+Status: version 1, approved by the owner on 2026-11-25. Tested on four robots before approval. The functions, the six beats, the evidence rules and the record shape are frozen; a change needs the owner. All robots get a page, including those with almost nothing public.
 
 ## Who this is for
 
@@ -38,7 +38,7 @@ Function names follow the stages agent-frc already uses to walk one game piece t
 | `sense` | How does it know where it and the piece are, and what is automated? |
 | `structure` | What packaging, frame or weight choice makes the rest possible? |
 
-Mechanism types and archetypes stay free text. They will be frozen from what the sources say once all 80 robots are read.
+Mechanism types and archetypes stay free text. They will be frozen from what the sources say once all robots are read.
 
 ## Design examples
 
@@ -58,7 +58,7 @@ A model finds examples in two ways:
 
 ## The story: six beats, in this order
 
-Word limits keep 80 robots comparable.
+Word limits keep robots comparable.
 
 | Beat | Question | Limit (words) |
 |---|---|---|

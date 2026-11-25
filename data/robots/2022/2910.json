@@ -1,0 +1,1137 @@
+{
+  "id": "2022-2910",
+  "season": 2022,
+  "team": "2910",
+  "team_name": "Jack in the Bot",
+  "robot_name": "Thor",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 2910 in 2022",
+      "url": "https://www.thebluealliance.com/team/2910/2022",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Newton Division 2022",
+      "url": "https://www.thebluealliance.com/event/2022new",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "2910 Robot, 2022",
+      "url": "https://www.chiefdelphi.com/t/2910-robot-2022/404659",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Team 2910 Code Release 2022",
+      "url": "https://www.chiefdelphi.com/t/team-2910-code-release-2022/417181",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "2910 Thor Onshape import - intake deployed",
+      "url": "https://cad.onshape.com/documents/23b1c72a8c8fed45d462c943",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "2910 Thor Onshape import - climber extended",
+      "url": "https://cad.onshape.com/documents/6d982305f940a10db2b1ed60/w/89a5c915eae64021ccb1647b/e/865b936c58dbe56831fc7d25",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "2910 Thor Onshape import - starting configuration",
+      "url": "https://cad.onshape.com/documents/fc767a1f3ab6a68b0fe25f7d",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "2910 Thor CAD (official GrabCAD Workbench link)",
+      "url": "https://workbench.grabcad.com/workbench/projects/gcRFsmK4Ty55x-o2gVNi0UJ4HzCwYKfo-MxhPcImhUsXSM",
+      "publisher": "workbench.grabcad.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "FRCTeam2910/2022CompetitionRobot",
+      "url": "https://github.com/FRCTeam2910/2022CompetitionRobot",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "FRC 2910, 2022 Robot Testing 2_27_22",
+      "url": "https://www.youtube.com/watch?v=G1mpWFiLv7M",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "FRC 2910, 2021-2022 School Year Recap",
+      "url": "https://www.youtube.com/watch?v=tbmPoPXksOg",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "2910 Robot, 2022 (post 5)",
+      "url": "https://www.chiefdelphi.com/t/404659/5",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "2910 Robot, 2022 (post 11)",
+      "url": "https://www.chiefdelphi.com/t/404659/11",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "2910 Robot, 2022 (post 13)",
+      "url": "https://www.chiefdelphi.com/t/404659/13",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "2910 Robot, 2022 (post 24)",
+      "url": "https://www.chiefdelphi.com/t/404659/24",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "2910 Robot, 2022 (post 28)",
+      "url": "https://www.chiefdelphi.com/t/404659/28",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "2910 Robot, 2022 (post 29)",
+      "url": "https://www.chiefdelphi.com/t/404659/29",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "2910 Robot, 2022 (post 35)",
+      "url": "https://www.chiefdelphi.com/t/404659/35",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "2910 Robot, 2022 (post 37)",
+      "url": "https://www.chiefdelphi.com/t/404659/37",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "2910 Robot, 2022 (post 46)",
+      "url": "https://www.chiefdelphi.com/t/404659/46",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s22": {
+      "title": "2910 Robot, 2022 (post 52)",
+      "url": "https://www.chiefdelphi.com/t/404659/52",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s24": {
+      "title": "2910 Robot, 2022 (post 58)",
+      "url": "https://www.chiefdelphi.com/t/404659/58",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s25": {
+      "title": "2910 Robot, 2022 (post 60)",
+      "url": "https://www.chiefdelphi.com/t/404659/60",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s26": {
+      "title": "2910 Robot, 2022 (post 63)",
+      "url": "https://www.chiefdelphi.com/t/404659/63",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s27": {
+      "title": "2910 Robot, 2022 (post 67)",
+      "url": "https://www.chiefdelphi.com/t/404659/67",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s28": {
+      "title": "2910 Robot, 2022 (post 69)",
+      "url": "https://www.chiefdelphi.com/t/404659/69",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s29": {
+      "title": "2910 Robot, 2022 (post 72)",
+      "url": "https://www.chiefdelphi.com/t/404659/72",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s30": {
+      "title": "2910 Robot, 2022 (post 75)",
+      "url": "https://www.chiefdelphi.com/t/404659/75",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s31": {
+      "title": "2910 Robot, 2022 (post 79)",
+      "url": "https://www.chiefdelphi.com/t/404659/79",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s32": {
+      "title": "2910 Robot, 2022 (post 83)",
+      "url": "https://www.chiefdelphi.com/t/404659/83",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s33": {
+      "title": "2910 Robot, 2022 (post 84)",
+      "url": "https://www.chiefdelphi.com/t/404659/84",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s34": {
+      "title": "2910 Robot, 2022 (post 93)",
+      "url": "https://www.chiefdelphi.com/t/404659/93",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s35": {
+      "title": "Behind the Bumpers 2910 Jack in the Bot | Rapid React Robot (automatic transcript)",
+      "url": "https://www.youtube.com/watch?v=hP9RhZaW5fA",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s36": {
+      "title": "Competition History (2022 section)",
+      "url": "https://frcteam2910.org/competition-history/",
+      "publisher": "frcteam2910.org",
+      "read": "2026-11-25"
+    },
+    "s37": {
+      "title": "2910 Robot, 2022 (post 80)",
+      "url": "https://www.chiefdelphi.com/t/404659/80",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s38": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/Ld41e8s",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s39": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/S916RRu",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s40": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/YDB4QvL",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s41": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/dbMofwT",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s42": {
+      "title": "Page this picture is from",
+      "url": "https://www.chiefdelphi.com/t/2910-robot-2022/404659/88",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s43": {
+      "title": "Page this picture is from",
+      "url": "https://www.chiefdelphi.com/t/2910-robot-2022/404659/55",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "One adjustable hood that both shoots cargo and climbs the hangar, on a really short compact robot.",
+        "basis": "team",
+        "src": [
+          "s36",
+          "s15",
+          "s13"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "The team listed a high hub shooter, a traversal climb, multi-ball autos, and simple one-driver teleop with lots of automation.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      },
+      {
+        "text": "It wanted the climb automated from the very beginning, to mitigate human error and keep one driver.",
+        "basis": "team",
+        "src": [
+          "s35"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "Nine autonomous modes with different starting positions and cargo counts, for compatibility with partners.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "A six-ball auto ran in a match at Bonney Lake; the path drives through the hangar to get behind the sixth ball.",
+        "basis": "team",
+        "src": [
+          "s21",
+          "s20"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "A mecanum wheel intake takes cargo in, and a feeder driven by long belts from a rear motor carries it up to the shooter.",
+        "basis": "team",
+        "src": [
+          "s35",
+          "s36"
+        ]
+      },
+      {
+        "text": "Shooting uses vision targeting and interpolation.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "A heavy flywheel keeps enough energy to shoot two in a row.",
+        "basis": "team",
+        "src": [
+          "s35"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "The telescopes rise over the mid bar and lower so the driver can check both hooks, then one button runs the climb in about seven seconds.",
+        "basis": "team",
+        "src": [
+          "s35"
+        ]
+      },
+      {
+        "text": "Hooking the hood on the top bar is not needed to score; the team did it a lot at championships to leave room for partners.",
+        "basis": "team",
+        "src": [
+          "s14",
+          "s22"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "Dashboard sliders change shooter tuning mid-match, and a chooser picks one of six climb stages from a mid rung hang to traversal.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "After losing its shooter belt in a Bonney Lake match, the team played some defense.",
+        "basis": "team",
+        "src": [
+          "s21"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "Shooting from the intake side was a packaging compromise for a really short, compact robot whose hood needs a ton of wrap for the climb.",
+        "basis": "team",
+        "src": [
+          "s15"
+        ]
+      },
+      {
+        "text": "One-piece side plates make changes a bit more difficult and need lots of double checking.",
+        "basis": "team",
+        "src": [
+          "s30"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "At the SunDome event the climber dented at every traverse and was undented after every match; it was redesigned in thicker aluminum.",
+        "basis": "team",
+        "src": [
+          "s35"
+        ]
+      },
+      {
+        "text": "Climb gearing went from about 19.6:1 to 13.2:1 to speed up the sequence.",
+        "basis": "team",
+        "src": [
+          "s33"
+        ]
+      },
+      {
+        "text": "In April the team had power to go faster but risked jumping off the bars.",
+        "basis": "team",
+        "src": [
+          "s19"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "86-8-0 in official play; won the Newton division; captain of the Newton alliance on Einstein; ranked 11 of the pooled top 20 (OPR 58.93, Newton).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Swerve drivetrain",
+      "solves": [
+        {
+          "text": "Keep the center of gravity really low",
+          "basis": "team",
+          "src": [
+            "s35"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The team calls the weight more than most would expect and says some design practices need adjusting for a full size robot",
+          "basis": "team",
+          "src": [
+            "s27"
+          ]
+        }
+      ],
+      "does": [
+        "drive",
+        "structure"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "SDS MK4i modules with Falcon 500 motors, at the L3 ratio",
+          "basis": "team",
+          "src": [
+            "s36",
+            "s34"
+          ]
+        },
+        {
+          "text": "Motors are flipped to hang down into the frame",
+          "basis": "team",
+          "src": [
+            "s35"
+          ]
+        },
+        {
+          "text": "Frame perimeter 26 in x 26 in; 24 in tall with hood and climber down",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Weight at championships without battery and bumpers",
+          "basis": "team",
+          "src": [
+            "s27"
+          ],
+          "value": 112,
+          "unit": "lb"
+        },
+        {
+          "text": "The team tried no other ratio and thinks it would have been very happy with L2 as well",
+          "basis": "team",
+          "src": [
+            "s34"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Grip and take in cargo quickly",
+          "basis": "team",
+          "src": [
+            "s29",
+            "s36"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "mecanum wheel intake",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "4 in mecanum wheels; the team listed it as a \"VIW intake\"",
+          "basis": "team",
+          "src": [
+            "s29",
+            "s3"
+          ]
+        },
+        {
+          "text": "Compliant wheels were also prototyped",
+          "basis": "team",
+          "src": [
+            "s35"
+          ]
+        },
+        {
+          "text": "Powered by Falcons with 3D printed pulleys; the pneumatics are said to be unchanged from 2021",
+          "basis": "team",
+          "src": [
+            "s35"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Feeder",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Move cargo to the shooter in very little space",
+          "basis": "team",
+          "src": [
+            "s35"
+          ]
+        }
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "top-driven belt feeder",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "Powered only on the top, so the path runs across the battery and saves space",
+          "basis": "team",
+          "src": [
+            "s35"
+          ]
+        },
+        {
+          "text": "Its motor sits at the back with long belts, where there was room",
+          "basis": "team",
+          "src": [
+            "s35"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter and hood",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Shoot two cargo back to back from a hood that also serves as climbing hooks",
+          "basis": "team",
+          "src": [
+            "s35",
+            "s36"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The shooter belt came off in a match when another robot popped a wheelie onto Thor",
+          "basis": "team",
+          "src": [
+            "s21"
+          ]
+        }
+      ],
+      "does": [
+        "deliver",
+        "position"
+      ],
+      "type": "flywheel with adjustable 3D printed hood",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "The hood turns about 90 degrees only for the climb; shooting uses about 30 degrees",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Compression at the shooter, roughly",
+          "basis": "team",
+          "src": [
+            "s35"
+          ],
+          "value": 1,
+          "unit": "in"
+        },
+        {
+          "text": "The hood is Onyx, printed in two parts to fit the bed",
+          "basis": "team",
+          "src": [
+            "s18"
+          ]
+        },
+        {
+          "text": "Hood rack and pinion reuse Vex 10DP gear profiles, scaled slightly",
+          "basis": "team",
+          "src": [
+            "s32"
+          ]
+        },
+        {
+          "text": "The hood was a five-day print; at the championship the team said it had never needed the backup",
+          "basis": "team",
+          "src": [
+            "s35"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Climb from a really short retracted height with very generous stage overlap when extended",
+          "basis": "team",
+          "src": [
+            "s16"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "At SunDome it dented at every traverse and had to be taken apart and undented after every match",
+          "basis": "team",
+          "src": [
+            "s35"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "multi-stage telescopes plus hood hooks",
+      "serves": [
+        "rung-mid",
+        "rung-high",
+        "rung-traversal"
+      ],
+      "facts": [
+        {
+          "text": "Each stage has four 2.3 lb constant force springs per telescope, about 18.4 lb over both telescopes less stage weight",
+          "basis": "team",
+          "src": [
+            "s25",
+            "s26"
+          ]
+        },
+        {
+          "text": "Geared 13.2:1 on a pulley of about 2 in diameter",
+          "basis": "team",
+          "src": [
+            "s25"
+          ]
+        },
+        {
+          "text": "Spring-loaded hooks hold it down until the robot homes it, because the springs can back-drive the gearboxes with power off",
+          "basis": "team",
+          "src": [
+            "s24"
+          ]
+        },
+        {
+          "text": "3D printed spools hide the string's knot in a pocket and lay it in a helical groove",
+          "basis": "team",
+          "src": [
+            "s17"
+          ]
+        },
+        {
+          "text": "Fully automated traversal climb time",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 7,
+          "unit": "s"
+        }
+      ]
+    },
+    {
+      "name": "Aiming and autonomous software",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Aim shots and fit different partners' autos",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "vision interpolation and SolidWorks-drawn paths",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "Vision targeting with interpolation for shooting",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Paths are drawn as lines and arcs on a SolidWorks field model, and the coordinates go into the code",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Parallel plate structure",
+      "solves": [
+        {
+          "text": "Assemble very quickly from parts a router sponsor cuts",
+          "basis": "team",
+          "src": [
+            "s30"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Changes are a bit more difficult, so belt center distances must be right before the plates are made",
+          "basis": "team",
+          "src": [
+            "s30"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "one-piece routed side plates",
+      "serves": [],
+      "facts": [
+        {
+          "text": "The whole robot is built like a big parallel plate gearbox",
+          "basis": "team",
+          "src": [
+            "s30"
+          ]
+        },
+        {
+          "text": "Long 3/8 in standoffs are cut from Vex shaft stock, then faced and tapped",
+          "basis": "team",
+          "src": [
+            "s28"
+          ]
+        },
+        {
+          "text": "Many smaller plates were remade as the design iterated, usually on a Brother Speedio to get a one-day turn",
+          "basis": "team",
+          "src": [
+            "s37"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Shoot from the intake side",
+      "because": "it was a packaging compromise: the team wanted a really short compact robot and the hood needs a ton of wrap for the climb",
+      "basis": "team",
+      "src": [
+        "s15"
+      ]
+    },
+    {
+      "choice": "Short multi-stage climber",
+      "because": "it gives a really short retracted height with very generous stage overlap when extended",
+      "basis": "team",
+      "src": [
+        "s16"
+      ]
+    },
+    {
+      "choice": "4 in mecanum intake wheels",
+      "because": "they gripped and took in cargo better on a prototyping chassis",
+      "instead_of": "2 in single-print wheels, among other types",
+      "basis": "team",
+      "src": [
+        "s29"
+      ]
+    },
+    {
+      "choice": "Custom climber gearbox",
+      "because": "no off-the-shelf gearbox fit the space, and the superstructure plate already served as one gearbox plate",
+      "instead_of": "an off-the-shelf gearbox",
+      "basis": "team",
+      "src": [
+        "s33"
+      ]
+    },
+    {
+      "choice": "Heavy flywheel",
+      "because": "tests without it showed the inertia was needed to shoot twice in a row",
+      "instead_of": "running without the heavy flywheels",
+      "basis": "team",
+      "src": [
+        "s35"
+      ]
+    },
+    {
+      "choice": "Automated climb from the start",
+      "because": "it mitigates human error, keeps one driver, and can be sped up by testing numbers",
+      "basis": "team",
+      "src": [
+        "s35"
+      ]
+    },
+    {
+      "choice": "Parallel plate construction",
+      "because": "a router sponsor cuts most parts, assembly is very quick, and the team was familiar with it",
+      "cost": "changes are a bit more difficult",
+      "basis": "team",
+      "src": [
+        "s30"
+      ]
+    },
+    {
+      "choice": "26 in x 26 in frame",
+      "because": "it squared up the 26 in x 28 in size the team had used for a few years",
+      "basis": "team",
+      "src": [
+        "s31"
+      ]
+    },
+    {
+      "choice": "Climber gearboxes outside the telescopes",
+      "because": "easier disassembly and assembly if something breaks",
+      "instead_of": "gearboxes inside the telescopes",
+      "cost": "the team says it was probably not the greatest decision: at SunDome the climber dented at every traverse",
+      "basis": "team",
+      "src": [
+        "s35"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "CAD listed on the team page",
+        "url": "https://grabcad.com/library/2910-robots-1",
+        "format": "GrabCAD",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "2910 Robot, 2022",
+        "url": "https://www.chiefdelphi.com/t/2910-robot-2022/404659",
+        "format": "thread",
+        "state": "opened",
+        "src": "s3",
+        "holds": "GrabCAD Workbench (SolidWorks design; Parasolid exports), Onshape imports"
+      },
+      {
+        "what": "2910 Thor Onshape import - intake deployed",
+        "url": "https://cad.onshape.com/documents/23b1c72a8c8fed45d462c943",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "2910 Thor Onshape import - climber extended",
+        "url": "https://cad.onshape.com/documents/6d982305f940a10db2b1ed60/w/89a5c915eae64021ccb1647b/e/865b936c58dbe56831fc7d25",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s6"
+      },
+      {
+        "what": "2910 Thor Onshape import - starting configuration",
+        "url": "https://cad.onshape.com/documents/fc767a1f3ab6a68b0fe25f7d",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s7"
+      },
+      {
+        "what": "2910 Thor CAD (official GrabCAD Workbench link)",
+        "url": "https://workbench.grabcad.com/workbench/projects/gcRFsmK4Ty55x-o2gVNi0UJ4HzCwYKfo-MxhPcImhUsXSM",
+        "format": "GrabCAD",
+        "state": "listed",
+        "src": "s8"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Behind the Bumpers interview (transcript read, video not watched)",
+        "url": "https://www.youtube.com/watch?v=hP9RhZaW5fA",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/8XJNofd",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/O8Orh1R",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "FRC 2910, 2022 Robot Testing 2_27_22",
+        "url": "https://www.youtube.com/watch?v=G1mpWFiLv7M",
+        "format": "video",
+        "state": "listed",
+        "src": "s10"
+      },
+      {
+        "what": "FRC 2910, 2021-2022 School Year Recap",
+        "url": "https://www.youtube.com/watch?v=tbmPoPXksOg",
+        "format": "video",
+        "state": "listed",
+        "src": "s11"
+      },
+      {
+        "what": "Climbing test (video, not watched)",
+        "url": "https://www.youtube.com/watch?v=aTXpzVADzbo",
+        "format": "video",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "Six-ball auto (video, not watched)",
+        "url": "https://www.youtube.com/watch?v=MHDndt4Ca7g",
+        "format": "video",
+        "state": "listed",
+        "src": "s21"
+      },
+      {
+        "what": "Faster climb test, April 2022 (video, not watched)",
+        "url": "https://www.youtube.com/watch?v=0EmK8uuePwA",
+        "format": "video",
+        "state": "listed",
+        "src": "s19"
+      },
+      {
+        "what": "Robot from above, shooter flywheel, hood rollers and climber hooks",
+        "url": "https://imgur.com/Ld41e8s",
+        "img": "https://i.imgur.com/Ld41e8sh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s38",
+        "kind": "mechanism"
+      },
+      {
+        "what": "Full robot on field from the side, red bumpers, climber hooks",
+        "url": "https://imgur.com/S916RRu",
+        "img": "https://i.imgur.com/S916RRuh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s39",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Robot on cart, blue bumpers, mecanum intake wheels raised",
+        "url": "https://imgur.com/YDB4QvL",
+        "img": "https://i.imgur.com/YDB4QvLh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s40",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Robot on cart, red bumpers, climber hooks; people cropped",
+        "url": "https://imgur.com/dbMofwT",
+        "img": "https://i.imgur.com/dbMofwTh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s41",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot CAD, climber arms fully extended",
+        "url": "https://cad.onshape.com/documents/6d982305f940a10db2b1ed60/w/89a5c915eae64021ccb1647b/e/865b936c58dbe56831fc7d25",
+        "img": "https://cad.onshape.com/api/thumbnails/d/6d982305f940a10db2b1ed60/w/89a5c915eae64021ccb1647b/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s6",
+        "kind": "cad"
+      },
+      {
+        "what": "Side-view design sketch with dimensions, flywheel and hood",
+        "url": "https://www.chiefdelphi.com/t/2910-robot-2022/404659/88",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/e/6/e6d27ab6bb5477a980546d2b45aea3949c8b7edf_2_690x404.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s42",
+        "kind": "drawing"
+      },
+      {
+        "what": "Full robot CAD, green bumpers, mecanum intake, climber hooks",
+        "url": "https://www.chiefdelphi.com/t/2910-robot-2022/404659/55",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/2/2/2253182c302de912120f1fb98c124960be066227_2_625x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s43",
+        "kind": "cad"
+      },
+      {
+        "what": "Full robot, blue bumpers, mecanum intake raised",
+        "url": "https://www.chiefdelphi.com/t/2910-robot-2022/404659",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/2/8/28d80f868c02f136bc726e1dc34f43dac990f128_2_666x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s3",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Side plates and belts CAD, side view",
+        "url": "https://www.chiefdelphi.com/t/2910-robot-2022/404659/88",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/b/6/b6b161e95d48d9ebfae1bdac3518697a0eb5a74f_2_690x389.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s42",
+        "kind": "cad"
+      },
+      {
+        "what": "CAD close-up of intake, limelight and flywheel, one part circled",
+        "url": "https://www.chiefdelphi.com/t/2910-robot-2022/404659/55",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/b/3/b38d587f3da2f0d198793374ce2e3a8523ea30a2_2_687x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s43",
+        "kind": "cad"
+      },
+      {
+        "what": "Full robot from the other side, blue bumpers, climber hooks",
+        "url": "https://www.chiefdelphi.com/t/2910-robot-2022/404659",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/1/0/1039ba1f1d3e5e1003b174d75157e1f10c38ffa3_2_666x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s3",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Hood CAD, curved toothed plate and roller arms",
+        "url": "https://www.chiefdelphi.com/t/2910-robot-2022/404659/88",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/5/b/5b7c41ad140a0b85ae979996d9700a53df47d526_2_482x500.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s42",
+        "kind": "cad"
+      },
+      {
+        "what": "Full robot, hood raised, mecanum intake up",
+        "url": "https://www.chiefdelphi.com/t/2910-robot-2022/404659",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/5/d/5d786a18ff26e5e85453fa164de157e1321fd449_2_666x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s3",
+        "kind": "robot-photo"
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/frcteam2910",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Team 2910 Code Release 2022",
+        "url": "https://www.chiefdelphi.com/t/team-2910-code-release-2022/417181",
+        "format": "thread",
+        "state": "opened",
+        "src": "s4"
+      },
+      {
+        "what": "FRCTeam2910/2022CompetitionRobot",
+        "url": "https://github.com/FRCTeam2910/2022CompetitionRobot",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s9"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)"
+  ],
+  "results": {
+    "division": "Newton",
+    "division_opr": 58.93,
+    "opr_rank": 11,
+    "record": "86-8-0",
+    "einstein": {
+      "division": "Newton",
+      "role": "captain"
+    },
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

@@ -1,0 +1,524 @@
+{
+  "id": "2022-176",
+  "season": 2022,
+  "team": "176",
+  "team_name": "Aces High",
+  "robot_name": null,
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 176 in 2022",
+      "url": "https://www.thebluealliance.com/team/176/2022",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Roebling Division 2022",
+      "url": "https://www.thebluealliance.com/event/2022roe",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "Behind the Bumpers - FRC 176 Aces High",
+      "url": "https://www.chiefdelphi.com/t/behind-the-bumpers-frc-176-aces-high/410479",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Behind the Bumpers 176 Aces High | Rapid React Robot",
+      "url": "https://www.youtube.com/watch?v=rfqTnel-P8U",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Request for Pit Scouting data from CMP please (post 5, Roebling data)",
+      "url": "https://www.chiefdelphi.com/t/410352/5",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "The search after good shooting robots (post 15)",
+      "url": "https://www.chiefdelphi.com/t/509590/15",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "demand": [
+      {
+        "text": "In qualification matches the team said it had to climb for the ranking point, since some partners could not reach the traversal or high rung. In playoffs with two partners able to traverse, a team member would stay out and shoot for more points.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "A post says 176 made 49 of 50 autonomous shots in qualification matches at the championship.",
+        "basis": "observer",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The intake lifts cargo over the bumper and belts push it to the middle of the tunnel. Two color sensors fill the LED strips when two balls are in. In soft lock the turret follows the hub wherever it is; the robot stops briefly to focus and shoots.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "The operator presses one button. The climber takes the mid bar, skipping the low one, then repeats its move to the high bar and the traversal.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "If soft lock holds a different target, the robot goes to hard lock and back to soft lock before shooting; this happened in the match before the interview. Wrong-color cargo is ejected by an operator button.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "The climber was designed a couple of times: another design would have been a little faster, but the team prototyped it and could not get it to work. Metal plates were added to the intake's stressed points, and flaps where balls pinched. A team member says the turret or shooter had to be redesigned because it was too heavy with the climber on.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "65-6-0 in official play; ranked 18 of the pooled top 20 (OPR 56.94, Roebling).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drivetrain",
+      "does": [
+        "drive"
+      ],
+      "type": "tank",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Listed as tank drive in a post of Roebling pit scouting data",
+          "basis": "observer",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Four-bar intake",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Pick up cargo and survive hits while the intake is out",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "over-bumper four-bar intake",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Compliant, so it moves around when the robot is hit",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "The pneumatic cylinders are retracted while the intake is out and extend to raise it, so they do not get bent",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Compression had to be found by experiment so the ball would rise over the bumper",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Screws keep the bearings in the polycarbonate, and metal plates back the points most likely to be hit",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Flaps keep balls from getting stuck where they pinched",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tunnel",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Keep a ball from getting stuck on the way into the tunnel",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "transfer",
+        "retain"
+      ],
+      "type": "belt feed",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Two NEOs run the belts, which push the ball toward the middle",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Inner wheels and sticky tape help hold the balls in place",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Color sensors and LED strips",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Tell the drivers from afar how many balls are in and what mode the robot is in",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "sensor feedback to drivers",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Color sensors",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 2,
+          "unit": "sensors"
+        },
+        {
+          "text": "With one ball one strip lights; with two the whole strip lights",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "The LEDs change color for climb mode",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Programmed in Java, with a Raspberry Pi on the robot",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Turret",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Aim well at the hub from wherever the robot is on the field",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "position",
+        "sense"
+      ],
+      "type": "turret with Limelight",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Base 3D printed in sections",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 4,
+          "unit": "sections"
+        },
+        {
+          "text": "Soft lock follows a rough estimate of the hub; hard lock locks onto the target and shoots",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Soft lock became precise enough that the robot only stops for a little to focus before shooting",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Described as able to spin 360 degrees, stopping because of the hose",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Roebling pit scouting data in a post also lists a turret",
+          "basis": "observer",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Put spin on the ball so it is less likely to bounce out of the hub",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "flywheel shooter",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Two wheel sizes, about 2 in and about 4 in",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "One set spins a little faster, and the wheels give the ball spin",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A team member thinks the ball leaves with a little top spin",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "One set of wheels is harder than most teams use but expand a little when shooting; several durometers were tried",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Machined in the team's shop",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Climb from the mid bar to the traversal with one operator button",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "pivoting elevator with fixed hooks",
+      "serves": [
+        "rung-traversal"
+      ],
+      "facts": [
+        {
+          "text": "The elevator hooks the mid bar and pulls down until the bar latches onto fixed hooks",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Pneumatics then pivot the elevator out, about",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 15,
+          "unit": "degrees"
+        },
+        {
+          "text": "It then goes under the next bar, hits it and pulls up, which releases the hooks from the bar below and brings them to the next one",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Skips the low bar to be faster",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Almost fully automated",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Keep the intake cylinders retracted while the intake is out",
+      "because": "the cylinders are protected and do not get bent, an issue the team had in the past",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "Build the elevator climb",
+      "because": "the other design could not be made to work in prototyping",
+      "instead_of": "another climber design that would be a little faster",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "Give the ball some spin with one set of wheels running faster",
+      "because": "it has less of a chance of bouncing out of the hub",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/Ya99HBc",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Behind the Bumpers - FRC 176 Aces High",
+        "url": "https://www.chiefdelphi.com/t/behind-the-bumpers-frc-176-aces-high/410479",
+        "format": "thread",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "Behind the Bumpers 176 Aces High | Rapid React Robot",
+        "url": "https://www.youtube.com/watch?v=rfqTnel-P8U",
+        "format": "video",
+        "state": "listed",
+        "src": "s4"
+      }
+    ],
+    "documents": [],
+    "code": []
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: Chief Delphi searches for 176 and aces high in titles, one web search for technical documentation, two guessed team site addresses that did not resolve; no document found"
+  ],
+  "results": {
+    "division": "Roebling",
+    "division_opr": 56.94,
+    "opr_rank": 18,
+    "record": "65-6-0",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

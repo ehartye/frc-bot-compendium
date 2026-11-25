@@ -1,0 +1,687 @@
+{
+  "id": "2022-1771",
+  "season": 2022,
+  "team": "1771",
+  "team_name": "North Gwinnett Robotics",
+  "robot_name": null,
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 1771 in 2022",
+      "url": "https://www.thebluealliance.com/team/1771/2022",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Galileo Division 2022",
+      "url": "https://www.thebluealliance.com/event/2022gal",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "Behind the Bumpers - 1771 North Gwinnett Robotics",
+      "url": "https://www.chiefdelphi.com/t/behind-the-bumpers-1771-north-gwinnett-robotics/409952",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "1771 TBA Photo",
+      "url": "https://www.chiefdelphi.com/t/1771-tba-photo/407039",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Traversal climb falls - FIRST / General Forum",
+      "url": "https://www.chiefdelphi.com/t/traversal-climb-falls/404942",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Behind the Bumpers 1771 North Gwinnett Robotics | Rapid React Robot",
+      "url": "https://www.youtube.com/watch?v=ZYonfJLN_q8",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "3 Ball Steal 2 Hide: Autonomous Routine Testing (1771)",
+      "url": "https://www.youtube.com/watch?v=mBihobC-ijA",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Behind the Bumpers - 1771 North Gwinnett Robotics (post 2)",
+      "url": "https://www.chiefdelphi.com/t/409952/2",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Event winners without a traversal climber (post 17)",
+      "url": "https://www.chiefdelphi.com/t/408415/17",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Event winners without a traversal climber (post 22)",
+      "url": "https://www.chiefdelphi.com/t/408415/22",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Was there a robot that did not use pneumatics in 2022 rapid react (post 16)",
+      "url": "https://www.chiefdelphi.com/t/436276/16",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "FRC Recap Championship Divisions and Einstein | Rapid React (automatic transcript)",
+      "url": "https://www.youtube.com/watch?v=vKLxBkhyMwg",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/bU3K4BR",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "auto": [
+      {
+        "text": "A six-ball routine that the team says runs with the Limelight taken off, on paths followed by wheel odometry.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      },
+      {
+        "text": "A post speaking for the team credits a week 2 six-ball auto for a #1 autonomous OPR.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The intake takes in and holds up to two balls, which go up a two-stage elevator. The operator turns the turret toward the goal and the camera takes over once locked. A wrong-color ball turns the turret about 10 degrees, drops speed and hood, and is thrown away.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "A middle arm latches the mid bar and other arms hold it; the robot tilts nearly horizontal and swings to the next bar, with each step triggered by gyro angle. Times given: high two to three seconds, traversal nine to ten.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      },
+      {
+        "text": "A commenter says traversal was used only once through the district championship, as it had not been necessary.",
+        "basis": "observer",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "If the Limelight fails, drive the bumpers up against the goal and shoot from there.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "The traversal swing toward the alliance station is, the team says, really violent.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      },
+      {
+        "text": "A commenter judged traversal not worth the falling risk and lost scoring time.",
+        "basis": "observer",
+        "src": [
+          "s10"
+        ]
+      },
+      {
+        "text": "A recap video says overnight humidity at the championship swelled the wood and hurt performance, and a makeshift dehumidifier took out a pound of water.",
+        "basis": "observer",
+        "src": [
+          "s12"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "After the first event the flimsy intake got bracing and extra wood pieces.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      },
+      {
+        "text": "Aiming the turret by odometry was dropped for teleop because it drifted with defense, contact and slip.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      },
+      {
+        "text": "The robot fell from the traversal at its first competition; the team says nothing important broke.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "62-7-0 in official play; ranked 16 of the pooled top 20 (OPR 57.72, Galileo).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drivetrain",
+      "solves": [
+        {
+          "text": "Protect the modules and keep a tall robot from tipping",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "drive",
+        "structure"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Swerve Drive Specialties inverted modules, captioned \"mark iv\"",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "The team says 11 motors sit within about 4 in of the bottom",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "A post speaking for the team calls it the team's first in-season swerve robot",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Take in anything in front of the robot, from the corners in",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "At first it was flimsy; bracing was added after the first event",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "floating roller intake",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "When it drops it rides along the robot's own bumpers",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Parts on it pull the ball to the center, with Velcro on the sides and on the bottom and top rollers",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Can take two balls at a time",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "A NEO 550 on a VersaPlanetary drove it through laser-cut aluminum gears on a shaft",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elevator",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Throw away a wrong-color ball and give the shooter time to recover",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "transfer",
+        "retain",
+        "sense"
+      ],
+      "type": "two-stage elevator with color sorting",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "A color sensor is in the upper stage",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "On a wrong color the turret turns about 10 degrees while shooter speed and hood drop",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "The elevator lowers and raises the next ball so the shooter has time to recover",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "The intake section holds two balls so a third cannot enter; for one competition the team wanted to carry and shoot three, with a ball pulled into the upper stage",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Turreted shooter",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Shoot at once from practically anywhere on the field",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "deliver",
+        "position"
+      ],
+      "type": "turret with hooded flywheel",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "Runs at about 2000 to 2900 rpm, so it does not wait to spin up for range",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "The team calls both the shooter and the turret its fifth generation",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Backspin was added for 2022",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "The team's sweet spot is the ring around the tarmac",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Use the momentum of the swing to reach the next bar",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The traversal swing is really violent: fully extended, the robot acts as a pendulum toward the alliance station",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "center arm plus pivoted arms, swing driven",
+      "serves": [
+        "rung-mid",
+        "rung-high",
+        "rung-traversal"
+      ],
+      "facts": [
+        {
+          "text": "Steps are triggered by gyro angle, with no timers",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Mid climb about one second by the team's account",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "The first climber is aluminum tubing raised by a constant force spring and lowered through a ratchet; the second climbers are little arms pivoted by a Falcon, a VersaPlanetary and laser-cut aluminum gears",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Odometry and paths",
+      "solves": [
+        {
+          "text": "Follow drawn autonomous paths and turn while moving",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Drifts over a match from defense, hitting walls or robots and carpet slip",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "wheel odometry with drawn paths",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "Tuned over about two months on the previous year's swerve robot",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Relied on mainly in the first 15 seconds",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wooden structure",
+      "solves": [
+        {
+          "text": "Stay adaptable and durable through a season",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "A recap video says humidity at the championship swelled the wood and hurt performance",
+          "basis": "observer",
+          "src": [
+            "s12"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "wood robot",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Support blocks can be added with wood glue and screws",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "The team says it did no prototyping and spent much of its time in CAD",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "A post speaking for the team gives a 7-week design and a 6-day build",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "The robot used no pneumatics",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "A wooden robot",
+      "because": "the team finds wood highly adaptable and very durable, and has always built with it",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    },
+    {
+      "choice": "Inverted swerve modules",
+      "because": "the team expected robots to be run over a lot and wanted the modules protected and the weight down low",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    },
+    {
+      "choice": "Gyro angle to time the climb",
+      "because": "a timer can be thrown off by the swing or by a robot hitting it",
+      "instead_of": "timers",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    },
+    {
+      "choice": "Operator and camera aim the turret in teleop",
+      "because": "odometry aiming drifted too much over a match",
+      "instead_of": "aiming the turret by odometry",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Robot reveal video (not watched)",
+        "url": "https://www.youtube.com/watch?v=xTFYlIfzoio",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Behind the Bumpers - 1771 North Gwinnett Robotics",
+        "url": "https://www.chiefdelphi.com/t/behind-the-bumpers-1771-north-gwinnett-robotics/409952",
+        "format": "thread",
+        "state": "opened",
+        "src": "s3"
+      },
+      {
+        "what": "1771 TBA Photo",
+        "url": "https://www.chiefdelphi.com/t/1771-tba-photo/407039",
+        "format": "thread",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "Traversal climb falls (thread on many robots; post 37 links a 1771 fall video)",
+        "url": "https://www.chiefdelphi.com/t/traversal-climb-falls/404942",
+        "format": "thread",
+        "state": "opened",
+        "src": "s5"
+      },
+      {
+        "what": "Behind the Bumpers 1771 North Gwinnett Robotics | Rapid React Robot (transcript read, video not watched)",
+        "url": "https://www.youtube.com/watch?v=ZYonfJLN_q8",
+        "format": "video",
+        "state": "listed",
+        "src": "s6"
+      },
+      {
+        "what": "3 Ball Steal 2 Hide: Autonomous Routine Testing (1771)",
+        "url": "https://www.youtube.com/watch?v=mBihobC-ijA",
+        "format": "video",
+        "state": "listed",
+        "src": "s7"
+      },
+      {
+        "what": "1771 traversal climb fall (video, not watched)",
+        "url": "https://www.youtube.com/watch?v=OT1czn4v_hg",
+        "format": "video",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "Robot beside 2022 winner banner, blue bumpers, intake at left",
+        "url": "https://imgur.com/bU3K4BR",
+        "img": "https://i.imgur.com/bU3K4BRh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s13",
+        "kind": "robot-photo",
+        "hero": true
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/team1771",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "Chief Delphi titles and tags for 1771, team1771.com and a web search for 2022 technical documentation (no document found)"
+  ],
+  "results": {
+    "division": "Galileo",
+    "division_opr": 57.72,
+    "opr_rank": 16,
+    "record": "62-7-0",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

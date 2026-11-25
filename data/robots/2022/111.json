@@ -1,0 +1,905 @@
+{
+  "id": "2022-111",
+  "season": 2022,
+  "team": "111",
+  "team_name": "WildStang",
+  "robot_name": null,
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 111 in 2022",
+      "url": "https://www.thebluealliance.com/team/111/2022",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Newton Division 2022",
+      "url": "https://www.thebluealliance.com/event/2022new",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "WildStang 2022 Robot Reveal",
+      "url": "https://www.chiefdelphi.com/t/wildstang-2022-robot-reveal/405703",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "WildStang 2022 CAD Release",
+      "url": "https://www.chiefdelphi.com/t/wildstang-2022-cad-release/410318",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Rapid React Week 1 Recap – WildStang Robotics Program",
+      "url": "https://www.wildstang.org/ws_wp/2022/01/17/rapid-react-week-1-recap/",
+      "publisher": "wildstang.org",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Rapid React Week 9 Recap – WildStang Robotics Program",
+      "url": "https://www.wildstang.org/ws_wp/2022/03/14/rapid-react-week-9-recap/",
+      "publisher": "wildstang.org",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "wildstang/2022_111_robot_software",
+      "url": "https://github.com/wildstang/2022_111_robot_software",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "111 WildStang Behind the Bumpers and mic'd match, Central Illinois Regional",
+      "url": "https://www.chiefdelphi.com/t/111-wildstang-behind-the-bumpers-micd-match-qf5-central-illinois-regional-behind-the-glass/406218",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "WildStang Robotics Program: Team 111 and 112 Build Blog",
+      "url": "https://www.chiefdelphi.com/t/wildstang-robotics-program-team-111-and-112-build-blog-2023/420243",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "WildStang: 111 2022 Robot Reveal post",
+      "url": "https://www.wildstang.org/ws_wp/2022/03/14/111-wildstang-2022-robot-reveal/",
+      "publisher": "wildstang.org",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "111 Wildstang Robot Breakdown | Behind the Bumpers Rapid React",
+      "url": "https://www.youtube.com/watch?v=dQxUV3jSOuQ",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "WildStang Robotics Program: Team 111 and 112 Build Blog - 2023 (post 12, 2022 code release)",
+      "url": "https://www.chiefdelphi.com/t/420243/12",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "WildStang 2022 Robot Reveal (post 9)",
+      "url": "https://www.chiefdelphi.com/t/405703/9",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "WildStang 2022 Robot Reveal (post 13)",
+      "url": "https://www.chiefdelphi.com/t/405703/13",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "WildStang 2022 Robot Reveal (post 16)",
+      "url": "https://www.chiefdelphi.com/t/405703/16",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "WildStang 2022 Robot Reveal (post 19)",
+      "url": "https://www.chiefdelphi.com/t/405703/19",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "WildStang 2022 Robot Reveal (post 26)",
+      "url": "https://www.chiefdelphi.com/t/405703/26",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "WildStang Robotics Program: Team 111 and 112 Build Blog - 2023 (post 8)",
+      "url": "https://www.chiefdelphi.com/t/420243/8",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "WildStang Robotics Program: Team 111 and 112 Build Blog - 2023 (post 25)",
+      "url": "https://www.chiefdelphi.com/t/420243/25",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "WildStang Robotics Program: Team 111 and 112 Build Blog - 2023 (post 215)",
+      "url": "https://www.chiefdelphi.com/t/420243/215",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s22": {
+      "title": "WildStang Robotics Program: Team 111 and 112 Build Blog - 2023 (post 243)",
+      "url": "https://www.chiefdelphi.com/t/420243/243",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s23": {
+      "title": "Rapid React Week 7 Recap – WildStang Robotics Program",
+      "url": "https://www.wildstang.org/ws_wp/2022/02/28/rapid-react-week-7-recap/",
+      "publisher": "wildstang.org",
+      "read": "2026-11-25"
+    },
+    "s24": {
+      "title": "Rapid React Week 10 Recap and CIR – WildStang Robotics Program",
+      "url": "https://www.wildstang.org/ws_wp/2022/03/28/rapid-react-week-10-recap-and-cir/",
+      "publisher": "wildstang.org",
+      "read": "2026-11-25"
+    },
+    "s26": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/3B5kVbf",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s27": {
+      "title": "Onshape document",
+      "url": "https://cad.onshape.com/documents/7e546e827c2c9eb53c640101/w/05fff6a71dee438f0c142167/e/f31e2941325c435f08b172b8?renderMode=0&uiState=6268358f21e49719303e9573",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "auto": [
+      {
+        "text": "A five-ball program much like the standard one, parked slightly farther from the human player station so its ramp would not interfere with the intake. Of four two-ball programs ready to run, three also took opposing cargo, to hide it beside the hub, shoot it into the team's hangar, or (blue alliance only) displace a ball to score a third.",
+        "basis": "team",
+        "src": [
+          "s13"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "Polybelt and a roller pull cargo over the bumper into the feed, which shuts off at two balls.",
+        "basis": "team",
+        "src": [
+          "s12"
+        ]
+      },
+      {
+        "text": "The Limelight's distance sets hood angle and flywheel speed while the robot takes over rotation to aim. The team also shot while moving, at limited speed.",
+        "basis": "team",
+        "src": [
+          "s13"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "Hooks rise, the robot drives into the bar, and they pull down until flip-up hooks hold the robot. The hooks go up again, come back in and pull down, repeating as far as the traversal.",
+        "basis": "team",
+        "src": [
+          "s12"
+        ]
+      },
+      {
+        "text": "The operator controlled every part of the climb by hand.",
+        "basis": "team",
+        "src": [
+          "s13"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "Without a turret, shooting while moving ended up simplistic, and speed had to be limited or the target would leave the Limelight's field of view.",
+        "basis": "team",
+        "src": [
+          "s13"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "Two extra intake wheels and a support bar where cargo got stuck were removed; a kicker wheel was added to the shooter for more consistent shots.",
+        "basis": "team",
+        "src": [
+          "s12"
+        ]
+      },
+      {
+        "text": "Orange flags went on the climber after robots were seen falling off the hangar.",
+        "basis": "team",
+        "src": [
+          "s7"
+        ]
+      },
+      {
+        "text": "The robot went through three intakes in eliminations at its first event.",
+        "basis": "team",
+        "src": [
+          "s18"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "42-5-0 in official play; ranked 13 of the pooled top 20 (OPR 58.10, Newton).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Swerve drive",
+      "solves": [
+        {
+          "text": "Be fast without being unstable, and give the driver one less thing to worry about",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ],
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "SDS MK3 modules, with no issues in 2021 and 2022",
+          "basis": "team",
+          "src": [
+            "s10",
+            "s20"
+          ]
+        },
+        {
+          "text": "The code release calls the modules SDS MKIIs",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Square frame side",
+          "basis": "team",
+          "src": [
+            "s15"
+          ],
+          "value": 26,
+          "unit": "in"
+        },
+        {
+          "text": "The translation stick gives up to 60% of available power and a trigger unlocks the last 40%",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Heading-lock buttons turn the robot to a cardinal direction or to a hub angle for shots against the hub",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Snake mode points the intake where the robot is moving, mostly for grabbing cargo while crossing the field",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "A camera and robot-centric control, with slower rotation, serve pickups in the blind spot behind the hub",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Steel belly plate and clean frame",
+      "solves": [
+        {
+          "text": "Push the center of gravity lower",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "ballast and packaging",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Steel plate on the bottom, about 13 x 26 x 0.100 in",
+          "basis": "team",
+          "src": [
+            "s16"
+          ]
+        },
+        {
+          "text": "Weight was 108 before ballast and 118 and change after",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Center of gravity is about 9 in high per Onshape",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "No brackets on the outside of the frame; the intake plate used a printed mount on the top of the rail",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        },
+        {
+          "text": "Motors on the robot of the year before, per a 2023 post, with pneumatics and four CAN encoders; the post does not name which of the two teams' robots",
+          "basis": "team",
+          "src": [
+            "s21"
+          ],
+          "value": 18,
+          "unit": "motors"
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Pick up cargo without dead zones or pinching points",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Defense at the first event broke the intake multiple times",
+          "basis": "team",
+          "src": [
+            "s24"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "over-bumper compliant wheel intake",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Early prototypes used compliant wheels of about 2 in and quite different geometry",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Cargo got stuck beside two additional compliant wheels; removing them fixed it",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "A support bar at the back was removed because cargo was pushed up and pinched there when the wheels ran backward or at the wrong speed",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Intake wheels were replaced in week 7 for better grip",
+          "basis": "team",
+          "src": [
+            "s23"
+          ]
+        },
+        {
+          "text": "Asked for intake details, the team gave a NEO with a 3:1 belt reduction",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Feed system",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Keep cargo out of the shooter until wanted, and not pick up more than two",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ],
+      "does": [
+        "transfer",
+        "retain",
+        "sense"
+      ],
+      "type": "polybelt feed with pneumatic kicker",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Polybelt on both sides and a roller pull the ball over the bumper, then over a polycarbonate sheet",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "A pneumatic kicker lets cargo rotate in the feed; the piston takes it back down so cargo can go up to the shooter",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "A kicker motor regulates the speed at which cargo goes to the flywheel and made shots more consistent",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Sensors that find cargo in the ball path",
+          "basis": "team",
+          "src": [
+            "s13"
+          ],
+          "value": 2,
+          "unit": "banner sensors"
+        },
+        {
+          "text": "With two balls sensed the feed motors shut off at once, so cargo is not pushed through the pneumatic gate",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter with adjustable hood",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Reduce top spin so balls are less likely to bounce out",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "flywheel shooter with adjustable hood, no turret",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Colson wheels, chosen to be light and to spin up faster than the team's 2020 wheels",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Stealth wheels at the back reduce top spin",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Limelight aiming",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Make the shot from a range of distances without a turret",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "position"
+      ],
+      "type": "vision aiming with the drivetrain",
+      "serves": [],
+      "facts": [
+        {
+          "text": "The robot takes over the rotation stick to aim at the goal",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Distance goes into two piecewise quadratic regressions, for hood angle and flywheel speed",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "The regressions come from a few points between the inside of the tarmac and the alliance station wall",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "For shots on the move, the distance and target angle are altered by the translation stick values; a static horizontal offset was tried first",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "The team calls the moving shot fairly successful because the goal is large",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Auto path follower",
+      "does": [
+        "sense",
+        "drive"
+      ],
+      "type": "custom path following",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Follows BobTrajectory paths: the path's direction sets the translation and a control loop holds the heading",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Feedforward comes from two tests: power to overcome friction, and power to velocity",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Robot coordinates came from sketches in Onshape",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Climb to the traversal while keeping the drive base small",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Cabling wrapped at different diameters under load, so encoder values did not match climber position",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "The two-team program says its printed climber pulleys without sleeves were crushed in 2022; the post does not say on which robot",
+          "basis": "team",
+          "src": [
+            "s22"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "hook climber with flip-up holding hooks",
+      "serves": [
+        "rung-traversal"
+      ],
+      "facts": [
+        {
+          "text": "Moving hooks pull the bar past hooks that flip up and then hold the robot",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "The climber hook was being modified in week 7",
+          "basis": "team",
+          "src": [
+            "s23"
+          ]
+        },
+        {
+          "text": "Orange flags show the driver and operator where the robot is, to help center on the hangar",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "With enough practice, manual control was error-free",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Pick the climber that keeps the drive base small",
+      "because": "a really small drive base can get around anywhere on the field",
+      "basis": "team",
+      "src": [
+        "s12"
+      ]
+    },
+    {
+      "choice": "No turret",
+      "because": "the swerve drive and Limelight already aim the robot",
+      "cost": "shooting while moving was simplistic and had to be slow enough to keep the target in view",
+      "basis": "team",
+      "src": [
+        "s12",
+        "s13"
+      ]
+    },
+    {
+      "choice": "Manual operator control of the climb",
+      "because": "the automation had issues from encoder values that did not match climber position",
+      "instead_of": "an automated state system",
+      "basis": "team",
+      "src": [
+        "s13"
+      ]
+    },
+    {
+      "choice": "Open-loop auto driving",
+      "because": "it was accurate, and the drive team got more time to practice",
+      "instead_of": "encoder feedback",
+      "basis": "team",
+      "src": [
+        "s13"
+      ]
+    },
+    {
+      "choice": "Steel ballast plate",
+      "because": "it pushes the center of gravity lower",
+      "basis": "team",
+      "src": [
+        "s14",
+        "s16"
+      ]
+    },
+    {
+      "choice": "Bumpers that mount from underneath",
+      "because": "it was easy",
+      "cost": "the team calls the mount kinda terrible",
+      "basis": "team",
+      "src": [
+        "s17"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "Comp Robot",
+        "url": "https://cad.onshape.com/documents/7e546e827c2c9eb53c640101/w/05fff6a71dee438f0c142167/e/f31e2941325c435f08b172b8?renderMode=0&uiState=6268358f21e49719303e9573",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "WildStang 2022 CAD Release",
+        "url": "https://www.chiefdelphi.com/t/wildstang-2022-cad-release/410318",
+        "format": "thread",
+        "state": "listed",
+        "src": "s5",
+        "holds": "Onshape"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=dQxUV3jSOuQ",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "WildStang 2022 Robot Reveal",
+        "url": "https://www.chiefdelphi.com/t/wildstang-2022-robot-reveal/405703",
+        "format": "thread",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "Rapid React Week 9 Recap – WildStang Robotics Program",
+        "url": "https://www.wildstang.org/ws_wp/2022/03/14/rapid-react-week-9-recap/",
+        "format": "web page",
+        "state": "listed",
+        "src": "s7"
+      },
+      {
+        "what": "111 WildStang Behind the Bumpers and mic'd match, Central Illinois Regional",
+        "url": "https://www.chiefdelphi.com/t/111-wildstang-behind-the-bumpers-micd-match-qf5-central-illinois-regional-behind-the-glass/406218",
+        "format": "thread",
+        "state": "listed",
+        "src": "s9"
+      },
+      {
+        "what": "WildStang: 111 2022 Robot Reveal post",
+        "url": "https://www.wildstang.org/ws_wp/2022/03/14/111-wildstang-2022-robot-reveal/",
+        "format": "web page",
+        "state": "listed",
+        "src": "s11"
+      },
+      {
+        "what": "Full robot, blue bumpers, intake extended, four climber hooks",
+        "url": "https://imgur.com/3B5kVbf",
+        "img": "https://i.imgur.com/3B5kVbfh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s26",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Full robot CAD, red bumpers, intake extended",
+        "url": "https://cad.onshape.com/documents/7e546e827c2c9eb53c640101/w/05fff6a71dee438f0c142167/e/f31e2941325c435f08b172b8?renderMode=0&uiState=6268358f21e49719303e9573",
+        "img": "https://cad.onshape.com/api/thumbnails/d/7e546e827c2c9eb53c640101/w/05fff6a71dee438f0c142167/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s27",
+        "kind": "cad"
+      },
+      {
+        "what": "Driver controller layout, labelled",
+        "url": "https://www.chiefdelphi.com/t/420243",
+        "img": "https://lh4.googleusercontent.com/QcAsBRAnbZ5AlQFId0iS8Ct-0vq9LXECtptbIzyC6Lb83JOAinYIclsOVxdJAc8aumhS51beYRqj7TBBPlLtIb3k4l05fB03JLhH62USKFd8TfzZ9r1vUffvmkuen08JAHaTsVXvgm-lGTP0klzwSfj7sPyWsJroZBJngzGpuWhjJGmptnD8R7s7aFDA5g",
+        "format": "image",
+        "state": "opened",
+        "src": "s10",
+        "kind": "diagram"
+      },
+      {
+        "what": "Animated photo, intake, hood and climber in different positions",
+        "url": "https://www.chiefdelphi.com/t/wildstang-2022-robot-reveal/405703",
+        "img": "https://www.chiefdelphi.com/uploads/default/original/3X/9/0/9049de1c8785c5a89c8b6a123acebbcc2ac5a293.gif",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Operator controller layout, labelled, climber and hood presets",
+        "url": "https://www.chiefdelphi.com/t/420243",
+        "img": "https://lh5.googleusercontent.com/7zQVX490SWftTQRTvldpEHZznSrqNnDbT55uZnZDrgzmLWOVxDstARPqGKtT3bw7oiTPBk9Rh8vOHziULAMNTmBU9XzwPE864nQL7K5o_y6tIIKCkuBr6Cd57qqiXrt9ZkP_2LBOSKzRQuEEd99ihX4--bFpu3XExCiTtNSVyKRsT2Q2S6NhUmT07Oa3cQ",
+        "format": "image",
+        "state": "opened",
+        "src": "s10",
+        "kind": "diagram"
+      }
+    ],
+    "documents": [
+      {
+        "what": "Rapid React Week 1 Recap – WildStang Robotics Program",
+        "url": "https://www.wildstang.org/ws_wp/2022/01/17/rapid-react-week-1-recap/",
+        "format": "web page",
+        "state": "listed",
+        "src": "s6"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/wildstang",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "wildstang/2022_111_robot_software",
+        "url": "https://github.com/wildstang/2022_111_robot_software",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s8"
+      },
+      {
+        "what": "WildStang Robotics Program: Team 111 and 112 Build Blog",
+        "url": "https://www.chiefdelphi.com/t/wildstang-robotics-program-team-111-and-112-build-blog-2023/420243",
+        "format": "thread",
+        "state": "listed",
+        "src": "s10"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: Chief Delphi searches for 111 and wildstang in titles, one web search, the team site and its weekly recap posts; no binder, weekly recaps only"
+  ],
+  "results": {
+    "division": "Newton",
+    "division_opr": 58.1,
+    "opr_rank": 13,
+    "record": "42-5-0",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

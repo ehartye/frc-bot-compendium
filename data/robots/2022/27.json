@@ -1,0 +1,618 @@
+{
+  "id": "2022-27",
+  "season": 2022,
+  "team": "27",
+  "team_name": "Team RUSH",
+  "robot_name": null,
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 27 in 2022",
+      "url": "https://www.thebluealliance.com/team/27/2022",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Newton Division 2022",
+      "url": "https://www.thebluealliance.com/event/2022new",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "Team RUSH 27 - 2022 Robot Reveal",
+      "url": "https://www.chiefdelphi.com/t/team-rush-27-2022-robot-reveal/404549",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Team 27 - Team RUSH - 2022- Rapid React",
+      "url": "https://www.teamrush27.net/history/2022-rapid-react",
+      "publisher": "teamrush27.net",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "TeamRUSH/2022-Robot-Public",
+      "url": "https://github.com/TeamRUSH/2022-Robot-Public",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Team RUSH public robot CAD, 2022 folder (STEP and SolidWorks Pack and Go)",
+      "url": "https://drive.google.com/drive/folders/1I-07LzOpWCNdpKk22ui7EzM-JymJg2So",
+      "publisher": "drive.google.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "2022 FiMstein S2M3 / FRC 27 / Clean Robot Video",
+      "url": "https://www.chiefdelphi.com/t/2022-fimstein-s2m3-frc-27-clean-robot-video/409173",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "RoboZone Podcast Episode 174   MI State Champions stop by!",
+      "url": "https://www.youtube.com/watch?v=T60Zll6bwhc",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Team RUSH 27 Pre-Competition Season Review",
+      "url": "https://www.youtube.com/watch?v=mMyKVjlEOHI",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Behind the Bumpers: 27 Team RUSH, Rapid React (automatic captions)",
+      "url": "https://www.youtube.com/watch?v=CvrfT0So2OE",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Team RUSH 27 2022 robot reveal, post 11",
+      "url": "https://www.chiefdelphi.com/t/404549/11",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Team RUSH 27 2022 robot reveal, post 16",
+      "url": "https://www.chiefdelphi.com/t/404549/16",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "Team RUSH 27 2022 robot reveal, post 9",
+      "url": "https://www.chiefdelphi.com/t/404549/9",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/rDHHWEH",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "cycle": [
+      {
+        "text": "The intake takes cargo over the bumpers and guides lead it into the hopper, where an indexer wheel holds one ball so two can wait. One button starts the shot: the Limelight sets hood angle, wheel speed and the robot's heading, the wheels spin up, and a clutch lets the rest of the hopper feed.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "The climber lifts, clamps the second bar with pneumatic claws, swings to the third bar, clamps, releases and repeats to the fourth, like a person on monkey bars. The team's page gives 8 seconds for a traversal climb.",
+        "basis": "team",
+        "src": [
+          "s10",
+          "s4"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "A partner's coach recalls a state championship match in which something on 27 was not working: 27 offered to draw the opponents' defense and keep it away from the other scorers.",
+        "basis": "observer",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "Climber reduction was 196:1 at the reveal, with room for improvement; the team's season page gives 163:1. The first intake material was too rigid and became polycarbonate. Hopper and intake went through many iterations to get the ball to the right spot.",
+        "basis": "team",
+        "src": [
+          "s11",
+          "s4",
+          "s10"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "78-12-2 in official play; ranked 9 of the pooled top 20 (OPR 59.82, Newton).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Swerve drive",
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "SDS MK4 modules with two Falcon 500s each",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "L2 ratio",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "A practice swerve was built and tested in the year before",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "The team's page credits a low center of gravity for high swerve stability and speed",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "does": [
+        "acquire"
+      ],
+      "type": "over-bumper roller intake, pneumatic deploy",
+      "pieces": [
+        "cargo"
+      ],
+      "serves": [
+        "hub-upper"
+      ],
+      "solves": [
+        {
+          "text": "Bring cargo over the bumpers into the robot",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "One set of rollers turns faster than the other",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Made of a polycarbonate material so it can move and flex; the first material was too rigid",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hopper with clutch",
+      "does": [
+        "transfer",
+        "retain"
+      ],
+      "type": "driven roller bed in two sections",
+      "pieces": [
+        "cargo"
+      ],
+      "serves": [
+        "hub-upper"
+      ],
+      "solves": [
+        {
+          "text": "Hold two balls and feed them only when the robot is ready to shoot",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Rollers are polycarbonate tubes with epoxied 3D printed gear plugs and printed idler gears between them; all are driven",
+          "basis": "team",
+          "src": [
+            "s13",
+            "s11"
+          ]
+        },
+        {
+          "text": "Two NEO 550s drive it",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "The back section stands still until a pneumatic clutch gear connects it for the shot",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "An indexer wheel holds a ball in the middle of the robot",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Ball guides and a top deflector bring cargo that enters from the side to the right spot and keep it from popping out",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The battery sits underneath, one main reason for its unusual shape",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Launcher with automatic aim",
+      "does": [
+        "deliver",
+        "position",
+        "sense"
+      ],
+      "type": "launcher wheels with adjustable hood",
+      "pieces": [
+        "cargo"
+      ],
+      "serves": [
+        "hub-upper"
+      ],
+      "solves": [
+        {
+          "text": "Make the shot from different places with one button",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "The hood adjusts within a range of about",
+          "basis": "team",
+          "src": [
+            "s10"
+          ],
+          "value": 29,
+          "unit": "degrees"
+        },
+        {
+          "text": "The Limelight sets hood angle and wheel speed, and the whole robot turns to the target",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Two cargo into the upper hub in",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 1,
+          "unit": "s"
+        },
+        {
+          "text": "Range from the hub: 1 to 16 ft",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Colson wheels launch the ball",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Monkey bar climber",
+      "does": [
+        "endgame"
+      ],
+      "type": "elevator with rotating clawed climber",
+      "serves": [
+        "rung-traversal"
+      ],
+      "solves": [
+        {
+          "text": "Climb from the second bar to the fourth without swinging out of control",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Springs lift the elevator and pneumatic cylinders help",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Pneumatic claws at the corners of the climber clamp the bars",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Two Falcon 500s rotate it; reduction 196:1 at the reveal, 163:1 on the season page",
+          "basis": "team",
+          "src": [
+            "s10",
+            "s11",
+            "s4"
+          ]
+        },
+        {
+          "text": "The low battery and electronics lower the center of gravity, which the team says lets it control the swing",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Traversal climb time",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 8,
+          "unit": "s"
+        }
+      ]
+    },
+    {
+      "name": "Status lights",
+      "does": [
+        "sense"
+      ],
+      "type": "driver feedback lights",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Lights at the back show the drivers the robot's status, such as launching, holding balls or climbing",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "A climber that keeps hold of the bars and controls the swing",
+      "because": "a stable climb was a main goal, since swinging robots of other teams worried the team",
+      "basis": "team",
+      "src": [
+        "s10"
+      ]
+    },
+    {
+      "choice": "Polycarbonate intake",
+      "because": "it can move and flex",
+      "instead_of": "a first material that was too rigid",
+      "basis": "team",
+      "src": [
+        "s10"
+      ]
+    },
+    {
+      "choice": "Swerve for 2022",
+      "because": "it suited this game, and the team had researched it and built a practice drive in the year before",
+      "basis": "team",
+      "src": [
+        "s10"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "Team RUSH public robot CAD, 2022 folder (STEP and SolidWorks Pack and Go)",
+        "url": "https://drive.google.com/drive/folders/1I-07LzOpWCNdpKk22ui7EzM-JymJg2So",
+        "format": "Google Drive",
+        "state": "listed",
+        "src": "s6",
+        "holds": "STEP; SolidWorks"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=4LrMq9DB1Ms",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=4nzpeaQWexw",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Behind the Bumpers: 27 Team RUSH (captions read, video not watched)",
+        "url": "https://www.youtube.com/watch?v=CvrfT0So2OE",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=OV_xhLwolqY",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=RrGiI8QrMSo",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Robot reveal video (not watched)",
+        "url": "https://www.youtube.com/watch?v=XhE2_MfHbiw",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=jo2zQ_-I6u0",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=zMXicuOce3E",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/gQFa7gh",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Team RUSH 27 - 2022 Robot Reveal",
+        "url": "https://www.chiefdelphi.com/t/team-rush-27-2022-robot-reveal/404549",
+        "format": "thread",
+        "state": "opened",
+        "src": "s3"
+      },
+      {
+        "what": "Team 27 - Team RUSH - 2022- Rapid React",
+        "url": "https://www.teamrush27.net/history/2022-rapid-react",
+        "format": "web page",
+        "state": "opened",
+        "src": "s4"
+      },
+      {
+        "what": "2022 FiMstein S2M3 / FRC 27 / Clean Robot Video",
+        "url": "https://www.chiefdelphi.com/t/2022-fimstein-s2m3-frc-27-clean-robot-video/409173",
+        "format": "thread",
+        "state": "listed",
+        "src": "s7"
+      },
+      {
+        "what": "RoboZone Podcast episode 174, with the Michigan state champions (captions read, video not watched)",
+        "url": "https://www.youtube.com/watch?v=T60Zll6bwhc",
+        "format": "video",
+        "state": "listed",
+        "src": "s8"
+      },
+      {
+        "what": "Team RUSH 27 Pre-Competition Season Review",
+        "url": "https://www.youtube.com/watch?v=mMyKVjlEOHI",
+        "format": "video",
+        "state": "listed",
+        "src": "s9"
+      },
+      {
+        "what": "Full robot on field, red bumpers, red cargo inside, climber arms",
+        "url": "https://imgur.com/rDHHWEH",
+        "img": "https://i.imgur.com/rDHHWEHh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s14",
+        "kind": "robot-photo",
+        "hero": true
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/teamrush",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "TeamRUSH/2022-Robot-Public",
+        "url": "https://github.com/TeamRUSH/2022-Robot-Public",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s5"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: Chief Delphi searches including \"27 binder\" (5 results), one web search for an engineering notebook, five pages of the team site and its public CAD folder; no binder found"
+  ],
+  "results": {
+    "division": "Newton",
+    "division_opr": 59.82,
+    "opr_rank": 9,
+    "record": "78-12-2",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

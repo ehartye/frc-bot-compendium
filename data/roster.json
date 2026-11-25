@@ -1,4 +1,230 @@
 {
+ "2022": [
+  {
+   "rank": 1,
+   "team": "1678",
+   "opr": 74.13,
+   "division": "Hopper",
+   "event": "2022hop",
+   "cad": [
+    {
+     "Description": "Comp Robot",
+     "Format": "Onshape",
+     "Link": "https://cad.onshape.com/documents/5171f477c0b2b518f0252641/w/cbf30882b3a7cbd588a0ad5a/e/a8d11c6d37daaefe163e2d01"
+    }
+   ]
+  },
+  {
+   "rank": 2,
+   "team": "254",
+   "opr": 68.28,
+   "division": "Galileo",
+   "event": "2022gal",
+   "cad": []
+  },
+  {
+   "rank": 3,
+   "team": "67",
+   "opr": 67.69,
+   "division": "Roebling",
+   "event": "2022roe",
+   "cad": []
+  },
+  {
+   "rank": 4,
+   "team": "624",
+   "opr": 67.0,
+   "division": "Hopper",
+   "event": "2022hop",
+   "cad": []
+  },
+  {
+   "rank": 5,
+   "team": "1577",
+   "opr": 65.95,
+   "division": "Turing",
+   "event": "2022tur",
+   "cad": []
+  },
+  {
+   "rank": 6,
+   "team": "5172",
+   "opr": 64.65,
+   "division": "Turing",
+   "event": "2022tur",
+   "cad": []
+  },
+  {
+   "rank": 7,
+   "team": "1706",
+   "opr": 62.71,
+   "division": "Hopper",
+   "event": "2022hop",
+   "cad": []
+  },
+  {
+   "rank": 8,
+   "team": "1323",
+   "opr": 60.88,
+   "division": "Carver",
+   "event": "2022carv",
+   "cad": []
+  },
+  {
+   "rank": 9,
+   "team": "27",
+   "opr": 59.82,
+   "division": "Newton",
+   "event": "2022new",
+   "cad": []
+  },
+  {
+   "rank": 10,
+   "team": "1690",
+   "opr": 59.22,
+   "division": "Carver",
+   "event": "2022carv",
+   "cad": []
+  },
+  {
+   "rank": 11,
+   "team": "2910",
+   "opr": 58.93,
+   "division": "Newton",
+   "event": "2022new",
+   "cad": []
+  },
+  {
+   "rank": 12,
+   "team": "7034",
+   "opr": 58.3,
+   "division": "Newton",
+   "event": "2022new",
+   "cad": []
+  },
+  {
+   "rank": 13,
+   "team": "111",
+   "opr": 58.1,
+   "division": "Newton",
+   "event": "2022new",
+   "cad": [
+    {
+     "Description": "Comp Robot",
+     "Format": "Onshape",
+     "Link": "https://cad.onshape.com/documents/7e546e827c2c9eb53c640101/w/05fff6a71dee438f0c142167/e/f31e2941325c435f08b172b8?renderMode=0&uiState=6268358f21e49719303e9573"
+    }
+   ]
+  },
+  {
+   "rank": 14,
+   "team": "118",
+   "opr": 57.86,
+   "division": "Galileo",
+   "event": "2022gal",
+   "cad": [
+    {
+     "Description": "Everybot",
+     "Format": "STEP/IGES",
+     "Link": "https://grabcad.com/library/the-2022-robonauts-everybot-2"
+    }
+   ]
+  },
+  {
+   "rank": 15,
+   "team": "5940",
+   "opr": 57.73,
+   "division": "Roebling",
+   "event": "2022roe",
+   "cad": []
+  },
+  {
+   "rank": 16,
+   "team": "1771",
+   "opr": 57.72,
+   "division": "Galileo",
+   "event": "2022gal",
+   "cad": []
+  },
+  {
+   "rank": 17,
+   "team": "1619",
+   "opr": 57.03,
+   "division": "Galileo",
+   "event": "2022gal",
+   "cad": []
+  },
+  {
+   "rank": 18,
+   "team": "176",
+   "opr": 56.94,
+   "division": "Roebling",
+   "event": "2022roe",
+   "cad": []
+  },
+  {
+   "rank": 19,
+   "team": "4499",
+   "opr": 56.85,
+   "division": "Hopper",
+   "event": "2022hop",
+   "cad": []
+  },
+  {
+   "rank": 20,
+   "team": "6328",
+   "opr": 56.1,
+   "division": "Roebling",
+   "event": "2022roe",
+   "cad": [
+    {
+     "Description": "Comp Robot",
+     "Format": "Onshape",
+     "Link": "https://cad.onshape.com/documents/b83cb8e60cea7c17cbee6692/w/13284a7a33c1b2621631c2ee/e/ee2cff08193b9fc024e2c99f"
+    }
+   ]
+  },
+  {
+   "rank": 21,
+   "team": "180",
+   "opr": 56.07,
+   "division": "Hopper",
+   "event": "2022hop",
+   "cad": []
+  },
+  {
+   "rank": 22,
+   "team": "4414",
+   "opr": 55.95,
+   "division": "Turing",
+   "event": "2022tur",
+   "cad": []
+  },
+  {
+   "rank": 23,
+   "team": "4201",
+   "opr": 54.91,
+   "division": "Hopper",
+   "event": "2022hop",
+   "cad": []
+  },
+  {
+   "rank": 24,
+   "team": "4911",
+   "opr": 54.47,
+   "division": "Hopper",
+   "event": "2022hop",
+   "cad": []
+  },
+  {
+   "rank": 25,
+   "team": "148",
+   "opr": 54.33,
+   "division": "Hopper",
+   "event": "2022hop",
+   "cad": []
+  }
+ ],
  "2023": [
   {
    "rank": 1,

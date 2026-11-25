@@ -1,0 +1,671 @@
+{
+  "id": "2022-624",
+  "season": 2022,
+  "team": "624",
+  "team_name": "CRyptonite",
+  "robot_name": "Talos",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 624 in 2022",
+      "url": "https://www.thebluealliance.com/team/624/2022",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Hopper Division 2022",
+      "url": "https://www.thebluealliance.com/event/2022hop",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "624 Robot Reveal - Talos",
+      "url": "https://www.chiefdelphi.com/t/624-robot-reveal-talos/404584",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Team624/2022Robot (Talos code)",
+      "url": "https://github.com/Team624/2022Robot",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Behind the Bumpers 624 CRyptonite Robot | Rapid React",
+      "url": "https://www.youtube.com/watch?v=JhFD4KO5HRU",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Behind the Bumpers - 624 CRyptonite",
+      "url": "https://www.chiefdelphi.com/t/behind-the-bumpers-624-cryptonite-texas-dcmp-division-winners-alliance-captains/408870",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "624 Robot Reveal - Talos, post 4",
+      "url": "https://www.chiefdelphi.com/t/624-robot-reveal-talos/404584/4",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Favorite Match of the 2022 Season Thread, post 20",
+      "url": "https://www.chiefdelphi.com/t/favorite-match-of-the-2022-season-thread/415208/20",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Favorite Match of the 2022 Season Thread, post 18",
+      "url": "https://www.chiefdelphi.com/t/favorite-match-of-the-2022-season-thread/415208/18",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Who had the Fastest Traversal Climb in the World?, post 38",
+      "url": "https://www.chiefdelphi.com/t/who-had-the-fastest-traversal-climb-in-the-world/412515/38",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Request for Pit Scouting data from CMP please (post 3, Hopper data)",
+      "url": "https://www.chiefdelphi.com/t/request-for-pit-scouting-data-from-cmp-please/410352/3",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Keep it mechanically simple and let the programming do a lot of the work.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "A web app and a co-processor running ROS generate the points the robot has to reach and when to drop the intake and shoot.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      },
+      {
+        "text": "A reply to the reveal praises a six-ball auto; another team's championship pit data lists five high shots.",
+        "basis": "observer",
+        "src": [
+          "s7",
+          "s11"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "Intake, over the bumper, straight into the feeder; wrong-color cargo can be rejected. A button quick-turns the robot toward the goal by odometry, vision lines up the swerve drive, and it shoots.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      },
+      {
+        "text": "A team post says that in one Hopper qualification match it kept to the left lane, with 180 in the front court and 3538 in the right lane.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "One arm pulls down on mid; the robot tilts by its center of gravity and the other, set at an angle, clips the high bar. The motion repeats for traversal.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      },
+      {
+        "text": "A team post timed one match: into the hangar at 14, latched at 6.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "The first climber got hung up on a lot of things and needed much maintenance at one competition, so the team took it off and looked for the simplest method. The color sensor came after its first district event.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      },
+      {
+        "text": "At the championship the climb did not latch onto traversal by itself until a fix in the fourth match.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "54-12-1 in official play; ranked 4 of the pooled top 20 (OPR 67.00, Hopper).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Swerve drive",
+      "solves": [
+        {
+          "text": "Aim at the goal without a separate turret, even when the driver is facing away from it",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "drive",
+        "position"
+      ],
+      "type": "swerve that aims the shooter",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Turns the whole robot to the goal in place of a turret",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "A button, quick turn, aims it from odometry close enough for vision to take over",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Another team's championship pit data lists 26 by 26 and weight 123 (units not given)",
+          "basis": "observer",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vector intake",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Bring the ball right into the throat of a compact robot",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "over-the-bumper vector intake with mecanum wheels",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "Gap, the diameter of a ball, about",
+          "basis": "team",
+          "src": [
+            "s5"
+          ],
+          "value": 9,
+          "unit": "in"
+        },
+        {
+          "text": "Mecanum wheels",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Chosen through testing and prototyping",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "The interviewer notes that it is not as wide as other teams' intakes",
+          "basis": "observer",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Feeder",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Be quicker than the big hopper of its 2019 robot, without dead zones",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "transfer",
+        "retain"
+      ],
+      "type": "roller feeder right at the intake",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "Two green rollers of about 2 inches grip the ball and guide it; they have their own motor, so they can help reject a ball without the whole path going backward",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "A bigger roller at the bottom removes a dead zone",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Lexan on one side instead of rollers, which would need pulleys and gearing to turn the same way",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Black rollers at the back put balls in the shooter",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ball rejection",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Go anywhere for balls without worrying about having the other alliance's in the throat",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "color sensor rejection",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Added after the first district competition",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Shoot from almost anywhere without a turret",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "deliver",
+        "position"
+      ],
+      "type": "fixed two-roller shooter with a two-position hood",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "The hood alternates between two main positions",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Speed changes between the two rollers let it shoot from almost anywhere on the field",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Another team's championship pit data lists a fixed multi-flywheel shooter and five high shots in auto",
+          "basis": "observer",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vision",
+      "solves": [
+        {
+          "text": "Line the robot up to the goal and keep odometry from drifting",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "co-processor vision on reflective tape",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "A second processor (captioned up board) runs vision and path planning, used instead of a Limelight",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "It finds the contours of the tape on the goal's rim and the angle from the camera to their middle",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Bands of x and y values filter out ceiling reflections, an initial problem",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Every shot updates the odometry from the camera, to work around drift",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Autonomous system",
+      "does": [
+        "sense"
+      ],
+      "type": "web app and ROS path generation",
+      "serves": [],
+      "facts": [
+        {
+          "text": "A co-processor running ROS generates path points and when to drop the intake and shoot",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Data go to the roboRIO through NetworkTables, and the Java code works out the shot",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Replace a first climber that got hung up and needed maintenance each time",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "two-arm swinging climber",
+      "serves": [
+        "rung-mid",
+        "rung-high",
+        "rung-traversal"
+      ],
+      "facts": [
+        {
+          "text": "Two arms; one is enough to hold the robot up and swinging",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "The second arm rises while the first pulls down on mid, hooks high, and the motion alternates to traversal",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Both arms have double hooks; wire and elastic set their angles and keep them inside frame perimeter",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "A team post puts it among climbs of around 8 to 9 seconds from entering the hangar, with one match timed (enters at 14, latches at 6)",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Before the fix in its fourth championship match, latching onto the traversal rung needed manual work, and one attempt was missed",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Aim with the swerve drive",
+      "because": "the drive does the turning, and after the pandemic season the team did not want super complex robots",
+      "instead_of": "a separate turret",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "An intake opening of about 9 inches",
+      "because": "it fits the ball, and compact worked very well for the robot",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "A feeder right at the intake",
+      "because": "the 2019 hopper had a couple of issues and was not as quick",
+      "instead_of": "a big hopper",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Lexan on one side of the feeder",
+      "because": "rollers there would need a pulley and gearing system to turn the same way",
+      "instead_of": "more rollers",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Its own co-processor for vision",
+      "because": "the team can get away without buying a Limelight and it works perfectly fine",
+      "instead_of": "a Limelight",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Start the climber over with two simple arms",
+      "because": "the first design got hung up and needed a lot of maintenance",
+      "instead_of": "the original climber",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Add a color sensor",
+      "because": "the team found it vital to go anywhere without worrying about the other alliance's balls",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=UUrBm5_JU9w",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/Pb8TS8v",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "624 Robot Reveal - Talos",
+        "url": "https://www.chiefdelphi.com/t/624-robot-reveal-talos/404584",
+        "format": "thread",
+        "state": "opened",
+        "src": "s3"
+      },
+      {
+        "what": "Behind the Bumpers 624 CRyptonite Robot | Rapid React",
+        "url": "https://www.youtube.com/watch?v=JhFD4KO5HRU",
+        "format": "video",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "Behind the Bumpers - 624 CRyptonite",
+        "url": "https://www.chiefdelphi.com/t/behind-the-bumpers-624-cryptonite-texas-dcmp-division-winners-alliance-captains/408870",
+        "format": "thread",
+        "state": "listed",
+        "src": "s6"
+      },
+      {
+        "what": "Hopper division qualification match 23",
+        "url": "https://www.youtube.com/watch?v=L9bcx2mZ2cs&t=164s",
+        "format": "video",
+        "state": "listed",
+        "src": "s9"
+      },
+      {
+        "what": "Match video linked for the hangar-to-traversal time",
+        "url": "https://youtu.be/jbVYUKUjdAM",
+        "format": "video",
+        "state": "listed",
+        "src": "s10"
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/team624",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Team624/2022Robot (Talos code)",
+        "url": "https://github.com/Team624/2022Robot",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s4"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders and documents: Chief Delphi post searches \"624 binder\" (2 results) and \"cryptonite 624 climber design 2022\" (2); a web search found no binder; the team site answered with an error"
+  ],
+  "results": {
+    "division": "Hopper",
+    "division_opr": 67.0,
+    "opr_rank": 4,
+    "record": "54-12-1",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

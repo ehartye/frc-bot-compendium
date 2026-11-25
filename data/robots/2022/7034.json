@@ -1,0 +1,548 @@
+{
+  "id": "2022-7034",
+  "season": 2022,
+  "team": "7034",
+  "team_name": "2B Determined",
+  "robot_name": null,
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 7034 in 2022",
+      "url": "https://www.thebluealliance.com/team/7034/2022",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Newton Division 2022",
+      "url": "https://www.thebluealliance.com/event/2022new",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "2BDetermined-7034/2022-Rapid-React",
+      "url": "https://github.com/2BDetermined-7034/2022-Rapid-React",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Behind the Bumpers: 7034 2B Determined Robot Breakdown",
+      "url": "https://www.chiefdelphi.com/t/behind-the-bumpers-7034-2b-determined-robot-breakdown/416472",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "7034 Chezy Champ Application 2022",
+      "url": "https://www.youtube.com/watch?v=DCAblw2jYfU",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Behind the Bumpers 7034 2B Determined Rapid React Robot",
+      "url": "https://www.youtube.com/watch?v=XQcVoFaHaCU",
+      "publisher": "FUN Robotics Network on YouTube",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Newton Alliance 4 Beat Alliance 1 2-0, post 2",
+      "url": "https://www.chiefdelphi.com/t/newton-alliance-4-beat-alliance-1-2-0/409765/2",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Best non-swerve bot this year?, post 31",
+      "url": "https://www.chiefdelphi.com/t/best-non-swerve-bot-this-year/406670/31",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Request for Pit Scouting data from CMP please (post 7, Newton data)",
+      "url": "https://www.chiefdelphi.com/t/request-for-pit-scouting-data-from-cmp-please/410352/7",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/xu7bXY1",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Keep everything as simple as possible, after a tendency to over complicate things in the past.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "In an off-season interview: consistency was super important for the shooter. The team first wanted the fender shot for the consistency of driving up, but prototyping showed it could shoot accurately from farther away, and it chose to be more ambitious. It likes to shoot from the tape of the tarmac to just past the launch pad.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "In an off-season interview: green wheels grab cargo and a second set brings it to the middle. Two automated indexer sections each stop when their sensor trips; with both tripped the intake goes up. The team likes to shoot from the tape of the tarmac to just past the launch pad.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "In an off-season interview: an arm telescopes up, grabs mid and pulls down; on the way down the bar hits spring hooks that lock on, and the robot climbs to the next level, with pneumatic cylinders moving the arm. The climb is entirely manual and takes about seven seconds to traversal from inside the hangar.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "In an off-season interview: because the climb is manual, the operator can adjust on the fly when something goes wrong, without an emergency stop.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "In an off-season interview: the climber takes up a lot of space in the middle of the robot, so the indexer is L-shaped. Neither the shooter's angle nor its relative flywheel speeds adjust; from farther back shots still hit, but the balls go really high.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "From an off-season interview, undated. Intake: balls got stuck rolling in place until a center wheel of about 4 inches was added. Shooter: a fifth or sixth version; the team kept adding flywheels and it got more consistent. Climber: one cylinder could not keep the bar steady and caused a lot of swing, so a second was added.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "50-18-0 in official play; finalist in the Newton division; ranked 12 of the pooled top 20 (OPR 58.30, Newton).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drivetrain",
+      "does": [
+        "drive"
+      ],
+      "type": "tank drive",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Championship pit data a commenter posted lists a tank drive and no turret",
+          "basis": "observer",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "A commenter in March listed it among high quality Pacific Northwest WCD/KOP robots, in a district mostly on swerve",
+          "basis": "observer",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "During the division playoffs a commenter said it proved swerve is not needed to be good",
+          "basis": "observer",
+          "src": [
+            "s7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Center the balls and really contain them, which past indexers had not done",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "wheeled intake with mecanum centering",
+      "serves": [],
+      "facts": [
+        {
+          "text": "In an off-season interview: green wheels in front suck the balls in; a second set brings them toward the middle",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Mecanum wheels already in the lab from FTC robots center the balls",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "A bigger green wheel in the center, about",
+          "basis": "team",
+          "src": [
+            "s6"
+          ],
+          "value": 4,
+          "unit": "in"
+        },
+        {
+          "text": "In an off-season interview: a little padding helps bring the ball in",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "It goes up by itself when both indexer sensors are tripped",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Indexer",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Fit around the climber, and spare the operator the many buttons of past years",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "transfer",
+        "retain",
+        "sense"
+      ],
+      "type": "L-shaped two-belt indexer",
+      "serves": [],
+      "facts": [
+        {
+          "text": "In an off-season interview: a vertical belt and a horizontal belt, so each of two balls has its own section",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Photoelectric sensors: each belt stops when its sensor trips",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Each stage is a relatively tight timing belt with compliant wheels",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "The intake rises when both sensors are tripped (another member says when the bottom one is), so the robot pretty much never holds three balls",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Shoot consistently, and stop what would be a really big bounce-out problem",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "From farther back the shot still hits, but the balls go really high",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "fixed wide-flywheel shooter",
+      "serves": [],
+      "facts": [
+        {
+          "text": "In an off-season interview: about six inches of flywheel, with inertia flywheels; adding flywheels made it more and more consistent",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "A black flywheel against bounce-outs, at a distance that was tuned a lot",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Neither the relative flywheel speeds nor the angle is adjustable",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "In an off-season interview: iterated on the team's laser cutter, to a fifth or sixth version",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Keep the bar steady so that swing does not slow the climb",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "It takes up a lot of space in the middle of the robot",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "center telescoping climber with spring hooks",
+      "serves": [
+        "rung-mid",
+        "rung-traversal"
+      ],
+      "facts": [
+        {
+          "text": "In an off-season interview: a constant spring force on the arm, which telescopes up to mid",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "On the way down the bar hits spring hooks that lock on, so the robot can climb to the next level",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "In an off-season interview: two pneumatic cylinders move the arm in and out; the team says the second made the climb a lot more violent and a lot faster",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Manual climb to traversal from inside the hangar, about",
+          "basis": "team",
+          "src": [
+            "s6"
+          ],
+          "value": 7,
+          "unit": "s"
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "An L-shaped indexer",
+      "because": "the climber takes up a lot of space in the middle of the robot",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    },
+    {
+      "choice": "Fully automate the indexer",
+      "because": "in past years the operator had to press a ton of buttons to move balls through",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    },
+    {
+      "choice": "No adjustment of the shooter angle or relative flywheel speeds",
+      "because": "farther back it still hit",
+      "cost": "the balls go really high from farther back",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    },
+    {
+      "choice": "Shoot from farther out",
+      "because": "prototyping showed accurate shots from a farther distance",
+      "instead_of": "the fender shot",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    },
+    {
+      "choice": "Train the operator to climb by hand",
+      "because": "the operator can learn how the robot swings and adjust when something goes wrong",
+      "instead_of": "spending time automating the climb",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    },
+    {
+      "choice": "Two cylinders on the climber arm",
+      "because": "one did not have enough force to keep the bar steady and caused a lot of swing",
+      "instead_of": "one cylinder",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    },
+    {
+      "choice": "Mecanum wheels on the intake",
+      "because": "they worked really well at centering the balls",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Behind the Bumpers 7034 2B Determined Rapid React Robot (interview)",
+        "url": "https://www.youtube.com/watch?v=XQcVoFaHaCU",
+        "format": "video",
+        "state": "listed",
+        "src": "s6"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/11zzkKK",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Behind the Bumpers: 7034 2B Determined Robot Breakdown",
+        "url": "https://www.chiefdelphi.com/t/behind-the-bumpers-7034-2b-determined-robot-breakdown/416472",
+        "format": "thread",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "7034 Chezy Champ Application 2022",
+        "url": "https://www.youtube.com/watch?v=DCAblw2jYfU",
+        "format": "video",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "Full robot, blue bumpers, flywheel shooter, two climber hooks",
+        "url": "https://imgur.com/xu7bXY1",
+        "img": "https://i.imgur.com/xu7bXY1h.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s10",
+        "kind": "robot-photo",
+        "hero": true
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/2bdetermined-7034",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "2BDetermined-7034/2022-Rapid-React",
+        "url": "https://github.com/2BDetermined-7034/2022-Rapid-React",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s3"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders and documents: Chief Delphi title search for 7034 (2 results) and \"2b determined climber 2022\" (0); a web search found no document; no team site found"
+  ],
+  "results": {
+    "division": "Newton",
+    "division_opr": 58.3,
+    "opr_rank": 12,
+    "record": "50-18-0",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

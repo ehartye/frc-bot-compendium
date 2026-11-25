@@ -9,8 +9,12 @@ from pathlib import Path
 
 OUT = Path(sys.argv[1])
 OUT.mkdir(parents=True, exist_ok=True)
-DIVS = ["arc", "cur", "dal", "gal", "hop", "joh", "mil", "new"]
-YEARS = [2023, 2024, 2025, 2026]
+DIVS = {2022: ["carv", "gal", "hop", "new", "roe", "tur"]}  # six divisions that year; eight since
+YEARS = [2022, 2023, 2024, 2025, 2026]
+
+
+def divisions(year):
+    return DIVS.get(year, ["arc", "cur", "dal", "gal", "hop", "joh", "mil", "new"])
 
 
 def fetch(key):

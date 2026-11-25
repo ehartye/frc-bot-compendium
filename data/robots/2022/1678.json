@@ -1,0 +1,1627 @@
+{
+  "id": "2022-1678",
+  "season": 2022,
+  "team": "1678",
+  "team_name": "Citrus Circuits",
+  "robot_name": "Margie",
+  "variant": "Competition robot. The team built Alpha, Beta and Epsilon before it.",
+  "sources": {
+    "s1": {
+      "title": "Team 1678 in 2022",
+      "url": "https://www.thebluealliance.com/team/1678/2022",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Hopper Division 2022",
+      "url": "https://www.thebluealliance.com/event/2022hop",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "1678 Robot Reveal 2022",
+      "url": "https://www.chiefdelphi.com/t/1678-robot-reveal-2022/404113",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Citrus Circuits 2022 Code and CAD Release",
+      "url": "https://www.chiefdelphi.com/t/citrus-circuits-2022-code-and-cad-release/412257",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "1678 5 Ball Auto 2022",
+      "url": "https://www.chiefdelphi.com/t/1678-5-ball-auto-2022/400607",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Team 254 Presents: Sideways",
+      "url": "https://www.chiefdelphi.com/t/team-254-presents-sideways/406523",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Build Blog 2022",
+      "url": "https://www.citruscircuits.org/build-blog-2022",
+      "publisher": "citruscircuits.org",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Team 1678 Season Recap Video 2022",
+      "url": "https://www.chiefdelphi.com/t/team-1678-season-recap-video/412596",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "2022 Robot",
+      "url": "https://www.citruscircuits.org/2022-robot",
+      "publisher": "citruscircuits.org",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "1678's Rapid React Shooter",
+      "url": "https://www.frcdesign.org/mechanism-examples/shooter/1678_2022_shooter/",
+      "publisher": "frcdesign.org",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "1678 Alpha robot 2022 (Onshape)",
+      "url": "https://cad.onshape.com/documents/4725889c8ffb6be593c07598",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "1678 Beta robot 2022 (Onshape)",
+      "url": "https://cad.onshape.com/documents/fd0038469db89f113bc53109",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "FRC1678 2022 Autopsy (match log spreadsheet)",
+      "url": "https://docs.google.com/spreadsheets/d/18vDiDgYWfXMvfhSVZON0UGh3gwqYySlxK2UqFpL1XJo/edit?usp=sharing",
+      "publisher": "docs.google.com",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "frc1678/C2022-Public (Margie code)",
+      "url": "https://github.com/frc1678/C2022-Public",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "1678's Rapid React Intake",
+      "url": "https://frcdesign-org.pages.dev/mechanism-examples/intake/linkage/1678_2022_intake/",
+      "publisher": "frcdesign-org.pages.dev",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "2022 Hopper Q33 / FRC 1678 / Clean Robot Video",
+      "url": "https://www.youtube.com/watch?v=2KTDGhm7Sjc",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "FRC Design Exploration: 1678 - 2022",
+      "url": "https://www.youtube.com/watch?v=v1O_0Q4olOI",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "Citrus Circuits Fall Workshop 2022: Game Analysis (archived PDF)",
+      "url": "https://web.archive.org/web/20230321013021id_/https://www.citruscircuits.org/uploads/6/9/3/4/6934550/game_analysis_2022.pdf",
+      "publisher": "web.archive.org",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "Citrus Circuits Fall Workshop 2022: Strategic Design (archived PDF)",
+      "url": "https://web.archive.org/web/20240704005421id_/https://www.citruscircuits.org/uploads/6/9/3/4/6934550/strategic_design_2022.pdf",
+      "publisher": "web.archive.org",
+      "read": "2026-11-25"
+    },
+    "s22": {
+      "title": "1678 Robot Reveal 2022 (post 5)",
+      "url": "https://www.chiefdelphi.com/t/404113/5",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s23": {
+      "title": "1678 Robot Reveal 2022 (post 23)",
+      "url": "https://www.chiefdelphi.com/t/404113/23",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s24": {
+      "title": "1678 Robot Reveal 2022 (post 31)",
+      "url": "https://www.chiefdelphi.com/t/404113/31",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s25": {
+      "title": "1678 Robot Reveal 2022 (post 35)",
+      "url": "https://www.chiefdelphi.com/t/404113/35",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s26": {
+      "title": "1678 Robot Reveal 2022 (post 37)",
+      "url": "https://www.chiefdelphi.com/t/404113/37",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s27": {
+      "title": "1678 Robot Reveal 2022 (post 42)",
+      "url": "https://www.chiefdelphi.com/t/404113/42",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s28": {
+      "title": "1678 Robot Reveal 2022 (post 64)",
+      "url": "https://www.chiefdelphi.com/t/404113/64",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s29": {
+      "title": "1678 Robot Reveal 2022 (post 65)",
+      "url": "https://www.chiefdelphi.com/t/404113/65",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s31": {
+      "title": "1678 Robot Reveal 2022 (post 67)",
+      "url": "https://www.chiefdelphi.com/t/404113/67",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s32": {
+      "title": "1678 Robot Reveal 2022 (post 70)",
+      "url": "https://www.chiefdelphi.com/t/404113/70",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s33": {
+      "title": "1678 Robot Reveal 2022 (post 72)",
+      "url": "https://www.chiefdelphi.com/t/404113/72",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s34": {
+      "title": "1678 Robot Reveal 2022 (post 89)",
+      "url": "https://www.chiefdelphi.com/t/404113/89",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s35": {
+      "title": "1678 Robot Reveal 2022 (post 91)",
+      "url": "https://www.chiefdelphi.com/t/404113/91",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s36": {
+      "title": "1678 Robot Reveal 2022 (post 95)",
+      "url": "https://www.chiefdelphi.com/t/404113/95",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s37": {
+      "title": "1678 Robot Reveal 2022 (post 98)",
+      "url": "https://www.chiefdelphi.com/t/404113/98",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s38": {
+      "title": "1678 Robot Reveal 2022 (post 105)",
+      "url": "https://www.chiefdelphi.com/t/404113/105",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s40": {
+      "title": "1678 Robot Reveal 2022 (post 124)",
+      "url": "https://www.chiefdelphi.com/t/404113/124",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s41": {
+      "title": "1678 Robot Reveal 2022 (post 141)",
+      "url": "https://www.chiefdelphi.com/t/404113/141",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s42": {
+      "title": "1678 Robot Reveal 2022 (post 157)",
+      "url": "https://www.chiefdelphi.com/t/404113/157",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s43": {
+      "title": "1678 Robot Reveal 2022 (post 158)",
+      "url": "https://www.chiefdelphi.com/t/404113/158",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s44": {
+      "title": "1678 Robot Reveal 2022 (post 172)",
+      "url": "https://www.chiefdelphi.com/t/404113/172",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s45": {
+      "title": "1678 Robot Reveal 2022 (post 181)",
+      "url": "https://www.chiefdelphi.com/t/404113/181",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s46": {
+      "title": "1678 Robot Reveal 2022 (post 189)",
+      "url": "https://www.chiefdelphi.com/t/404113/189",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s47": {
+      "title": "Citrus Circuits 2022 Code and CAD Release (post 4)",
+      "url": "https://www.chiefdelphi.com/t/412257/4",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s48": {
+      "title": "Citrus Circuits 2022 Code and CAD Release (post 8)",
+      "url": "https://www.chiefdelphi.com/t/412257/8",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s49": {
+      "title": "Citrus Circuits 2022 Code and CAD Release (post 9)",
+      "url": "https://www.chiefdelphi.com/t/412257/9",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s50": {
+      "title": "Citrus Circuits 2022 Code and CAD Release (post 18)",
+      "url": "https://www.chiefdelphi.com/t/412257/18",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s52": {
+      "title": "Citrus Circuits 2022 Code and CAD Release (post 25)",
+      "url": "https://www.chiefdelphi.com/t/412257/25",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s53": {
+      "title": "Citrus Circuits 2022 Code and CAD Release (post 26)",
+      "url": "https://www.chiefdelphi.com/t/412257/26",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s54": {
+      "title": "Citrus Circuits 2022 Code and CAD Release (post 29)",
+      "url": "https://www.chiefdelphi.com/t/412257/29",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s55": {
+      "title": "Citrus Circuits 2022 Code and CAD Release (post 33)",
+      "url": "https://www.chiefdelphi.com/t/412257/33",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s57": {
+      "title": "Citrus Circuits 2022 Code and CAD Release (post 40)",
+      "url": "https://www.chiefdelphi.com/t/412257/40",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s60": {
+      "title": "Citrus Circuits 2022 Code and CAD Release (post 48)",
+      "url": "https://www.chiefdelphi.com/t/412257/48",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s61": {
+      "title": "Citrus Circuits 2022 Code and CAD Release (post 50)",
+      "url": "https://www.chiefdelphi.com/t/412257/50",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s63": {
+      "title": "1678 5 Ball Auto 2022 (post 125)",
+      "url": "https://www.chiefdelphi.com/t/400607/125",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s64": {
+      "title": "Behind the Bumpers 1678 Citrus Circuits | Rapid React Robot (automatic transcript)",
+      "url": "https://www.youtube.com/watch?v=ijiDMVvGc_E",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s65": {
+      "title": "2022 Season",
+      "url": "https://www.citruscircuits.org/history/2022-season",
+      "publisher": "citruscircuits.org",
+      "read": "2026-11-25"
+    },
+    "s66": {
+      "title": "Why did top teams not do swerve + turret (post 10)",
+      "url": "https://www.chiefdelphi.com/t/409897/10",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s68": {
+      "title": "1678 Swerve (post 21)",
+      "url": "https://www.chiefdelphi.com/t/415738/21",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s69": {
+      "title": "Who had the Fastest Traversal Climb in the World? (post 1)",
+      "url": "https://www.chiefdelphi.com/t/412515",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s71": {
+      "title": "Request for Pit Scouting data from CMP please (post 3)",
+      "url": "https://www.chiefdelphi.com/t/410352/3",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s72": {
+      "title": "Citrus Circuits 2022 Code and CAD Release (post 53)",
+      "url": "https://www.chiefdelphi.com/t/412257/53",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s73": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/4m0Jc6f",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s74": {
+      "title": "Onshape document",
+      "url": "https://cad.onshape.com/documents/5171f477c0b2b518f0252641/w/cbf30882b3a7cbd588a0ad5a/e/a8d11c6d37daaefe163e2d01",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s75": {
+      "title": "Page this picture is from",
+      "url": "https://www.chiefdelphi.com/t/citrus-circuits-2022-code-and-cad-release/412257/21",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Swerve without a turret: a simpler machine with its motors mounted very low, seeking its advantage in rapid acquisition and shooting of cargo.",
+        "basis": "team",
+        "src": [
+          "s66"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "Rapid acquisition and shooting of cargo, which a team mentor says the team felt would be a big competitive advantage.",
+        "basis": "team",
+        "src": [
+          "s66"
+        ]
+      },
+      {
+        "text": "A five-ball auto was already a goal in the build blog's kickoff entry.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      },
+      {
+        "text": "After Alpha the team saw that filtering out wrong-color balls was a time suck and would be a big issue in the long run.",
+        "basis": "team",
+        "src": [
+          "s41"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "A five-cargo routine.",
+        "basis": "team",
+        "src": [
+          "s65"
+        ]
+      },
+      {
+        "text": "A \"two by two\" shoots the preload and one more, then ejects two opponent cargo into its own hangar; a \"two by one\" takes only the far one. These ejects are slower so cargo does not bounce back off the alliance wall.",
+        "basis": "team",
+        "src": [
+          "s64"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The singulator runs with the intake, so cargo passes the color sensor one at a time. The ejector sends the wrong color out the back and the right color up to the shooter. Flywheel speed follows Limelight distance while driving, so the operator can shoot the moment the robot stops.",
+        "basis": "team",
+        "src": [
+          "s64"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "An automated climb: one telescope pulls the robot up, its weight leans it back to a hard stop, and the other arm extends to the next bar. The last step uses the back of the hook, then pulls down gently to calm the swing.",
+        "basis": "team",
+        "src": [
+          "s64"
+        ]
+      },
+      {
+        "text": "The team page gives eight seconds to traversal.",
+        "basis": "team",
+        "src": [
+          "s10"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "A separate fender shot that the team calls consistent even under defense.",
+        "basis": "team",
+        "src": [
+          "s64"
+        ]
+      },
+      {
+        "text": "When the goal leaves the Limelight's view, aiming uses odometry.",
+        "basis": "team",
+        "src": [
+          "s50"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "Without a turret the drivetrain is the aiming mechanism, so shooting on the move needed much more testing and tuning.",
+        "basis": "team",
+        "src": [
+          "s43"
+        ]
+      },
+      {
+        "text": "Shoot-on-the-fly ran in a few Silicon Valley practice matches and hit many shots, but it hurt stationary shots, so the team reverted it and spent the time on driver practice, auto tuning and reliability.",
+        "basis": "team",
+        "src": [
+          "s42"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "Beta's pneumatic ejector flap was too slow; star wheels replaced it.",
+        "basis": "team",
+        "src": [
+          "s41"
+        ]
+      },
+      {
+        "text": "Beta's climb skipped the high bar; it was scrapped for complexity with little gain.",
+        "basis": "team",
+        "src": [
+          "s54",
+          "s41"
+        ]
+      },
+      {
+        "text": "All pneumatics came off: \"about week two\" in an interview, though the week 4 build blog still mentions pistons. Intake winglets came near season's end, for side jams.",
+        "basis": "team",
+        "src": [
+          "s64",
+          "s8"
+        ]
+      },
+      {
+        "text": "Drive feedforward and PID were added after the first event.",
+        "basis": "team",
+        "src": [
+          "s50"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "64-7-0 in official play; won the Hopper division; pick 1 of the Hopper alliance on Einstein; ranked 1 of the pooled top 20 (OPR 74.13, Hopper).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drivetrain",
+      "solves": [
+        {
+          "text": "Drive fast without needing software to limit speed for stability",
+          "basis": "team",
+          "src": [
+            "s68"
+          ]
+        }
+      ],
+      "does": [
+        "drive",
+        "structure"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "SDS MK4i modules at the L2 ratio; a mentor called it the perfect speed when all was said and done",
+          "basis": "team",
+          "src": [
+            "s10",
+            "s29"
+          ]
+        },
+        {
+          "text": "Maximum speed",
+          "basis": "team",
+          "src": [
+            "s10"
+          ],
+          "value": 16,
+          "unit": "ft/s"
+        },
+        {
+          "text": "A team post gives a frame of 26 in x 26 in",
+          "basis": "team",
+          "src": [
+            "s28"
+          ]
+        },
+        {
+          "text": "A pit scouting sheet from a commenter at the championship lists the robot as 27 by 24, disagreeing with the team",
+          "basis": "observer",
+          "src": [
+            "s71"
+          ]
+        },
+        {
+          "text": "A team post puts the center of gravity about 6 to 8 in off the ground and weight near 120 lb",
+          "basis": "team",
+          "src": [
+            "s28"
+          ]
+        },
+        {
+          "text": "The team says a wider wheel base and low center of gravity were very important, and did not pursue software stability limits because they cost performance",
+          "basis": "team",
+          "src": [
+            "s68"
+          ]
+        },
+        {
+          "text": "Pocketed belly pan carries most of the electronics",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "A Spectrum 3847 walkthrough of the CAD shows a 2x2 central crossbar that the climber bolts to",
+          "basis": "observer",
+          "src": [
+            "s19"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The match log notes the robot dying in auto at Sacramento (CANivore replaced), again with a minute left (USB cable replaced), and with 30 seconds left in Hopper (main breaker popped)",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Tuck nearly vertical in the frame, reach out over the bumper, and stay robust",
+          "basis": "team",
+          "src": [
+            "s64"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The flex that absorbs hits makes belts slip off; fixes were oversize pulley flanges (3.75 in on the top roller) and a plate on the motor face",
+          "basis": "team",
+          "src": [
+            "s34"
+          ]
+        },
+        {
+          "text": "Polycarbonate cracked at the front of the plates in driver practice; 0.090 in metal guard plates were added, after which the designer says the plates never cracked",
+          "basis": "team",
+          "src": [
+            "s34"
+          ]
+        },
+        {
+          "text": "A 3D printed pulley flange peeled off; a chamfer was added and it did not recur",
+          "basis": "team",
+          "src": [
+            "s34"
+          ]
+        },
+        {
+          "text": "The team's match log still notes the intake broken in half in a Hopper match",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Butted up against the terminal bars, the intake may not take balls properly; the team called the ramp there its biggest lesson from five-ball autos",
+          "basis": "team",
+          "src": [
+            "s27"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "motor-driven four-bar over-bumper roller intake",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "Three rollers on an uneven four bar; thick polycarbonate plates hard stop on themselves",
+          "basis": "team",
+          "src": [
+            "s64"
+          ]
+        },
+        {
+          "text": "One gearbox turns a shaft across the robot, with a sprocket at the base of each front arm for equal force",
+          "basis": "team",
+          "src": [
+            "s64"
+          ]
+        },
+        {
+          "text": "FRCDesign.org lists one Falcon 500 at 30:1 for deployment and roller surface speed approximately 2.5x robot speed",
+          "basis": "observer",
+          "src": [
+            "s16"
+          ]
+        },
+        {
+          "text": "Roller belt at the reveal: 5 mm HTD, 9 mm wide, 18t to 36t",
+          "basis": "team",
+          "src": [
+            "s23"
+          ]
+        },
+        {
+          "text": "Deployment is sensed by motor current, then a holding voltage low enough to be back-driven is applied, so a wall pushes the intake in and it returns",
+          "basis": "team",
+          "src": [
+            "s32",
+            "s33"
+          ]
+        },
+        {
+          "text": "Slack in the deploy chain softens sudden hits on the gearbox",
+          "basis": "team",
+          "src": [
+            "s32"
+          ]
+        },
+        {
+          "text": "Winglets snap out at the first deploy and deflect cargo in from the side",
+          "basis": "team",
+          "src": [
+            "s64"
+          ]
+        },
+        {
+          "text": "No Loctite on any screw touching the polycarbonate; nylon patch screws where a Nyloc would not fit",
+          "basis": "team",
+          "src": [
+            "s31"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Singulator",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Let only one cargo at a time reach the color sensor",
+          "basis": "team",
+          "src": [
+            "s64"
+          ]
+        }
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "side omni wheels",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "Runs whenever the intake runs",
+          "basis": "team",
+          "src": [
+            "s64"
+          ]
+        },
+        {
+          "text": "Wheels about 13 in apart, 5.4 in from the indexer floor to the top of the omni wheel",
+          "basis": "team",
+          "src": [
+            "s35"
+          ]
+        },
+        {
+          "text": "The team says it did not really have singulating issues with two balls",
+          "basis": "team",
+          "src": [
+            "s35"
+          ]
+        },
+        {
+          "text": "Spectrum's CAD walkthrough: one motor, with a chain under the robot past the battery and a gear pair to reverse one wheel",
+          "basis": "observer",
+          "src": [
+            "s19"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Indexer, or \"pooper\"",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Filter out wrong-color balls without losing time, and throw the opponent's cargo around the field",
+          "basis": "team",
+          "src": [
+            "s41"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "In March the team said cargo sometimes passed without being sampled properly, cause not yet known",
+          "basis": "team",
+          "src": [
+            "s25"
+          ]
+        }
+      ],
+      "does": [
+        "transfer",
+        "sense"
+      ],
+      "type": "star-wheel indexer with color ejection",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "Three rollers: two belted together, and one on its own motor that turns either way to eject cargo out the back or send it up",
+          "basis": "team",
+          "src": [
+            "s64"
+          ]
+        },
+        {
+          "text": "Star wheels proved helpful because they are so compliant",
+          "basis": "team",
+          "src": [
+            "s64"
+          ]
+        },
+        {
+          "text": "A REV color sensor and forward, back and top beam breaks track each cargo in a slot-based system",
+          "basis": "team",
+          "src": [
+            "s64"
+          ]
+        },
+        {
+          "text": "Color is a red-to-blue ratio against a threshold; the proximity reading is not used because it updates at 100 ms and they want 20 ms",
+          "basis": "team",
+          "src": [
+            "s64"
+          ]
+        },
+        {
+          "text": "The sensor runs through a Pico, which converts I2C to serial, and cargo passes within 1/8 in of it",
+          "basis": "team",
+          "src": [
+            "s24",
+            "s26",
+            "s27"
+          ]
+        },
+        {
+          "text": "Teleop ejects run at about 12 V; autonomous ejects are slower",
+          "basis": "team",
+          "src": [
+            "s64"
+          ]
+        },
+        {
+          "text": "A second color sensor was considered to improve reliability and left off",
+          "basis": "team",
+          "src": [
+            "s52"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Score from many distances without backspin bouncing cargo out of the goal",
+          "basis": "team",
+          "src": [
+            "s10",
+            "s46"
+          ]
+        }
+      ],
+      "does": [
+        "deliver",
+        "position"
+      ],
+      "type": "fixed-direction flywheel with adjustable hood and back rollers",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "4 in Stealth wheels with SDS 4 in brass flywheels; 35A top rollers",
+          "basis": "team",
+          "src": [
+            "s38"
+          ]
+        },
+        {
+          "text": "Ball compression",
+          "basis": "team",
+          "src": [
+            "s38"
+          ],
+          "value": 1.5,
+          "unit": "in"
+        },
+        {
+          "text": "A team estimate puts wrap at about 80 degrees at a minimum; the mentor thinks long contact gives consistency and lower RPM, from experience and not strict testing",
+          "basis": "team",
+          "src": [
+            "s38"
+          ]
+        },
+        {
+          "text": "Two Falcons drive the main shaft and the back rollers",
+          "basis": "team",
+          "src": [
+            "s53"
+          ]
+        },
+        {
+          "text": "Back rollers geared 1:1 with the flywheel; the difference in outer diameter sets the spin",
+          "basis": "team",
+          "src": [
+            "s46"
+          ]
+        },
+        {
+          "text": "The team says the hood was inspired by 2910 hoods of 2020 and 2022",
+          "basis": "team",
+          "src": [
+            "s64"
+          ]
+        },
+        {
+          "text": "2050 rpm at 1 m to 3150 rpm at 7 m",
+          "basis": "team",
+          "src": [
+            "s36",
+            "s37"
+          ]
+        },
+        {
+          "text": "Hood range, about",
+          "basis": "team",
+          "src": [
+            "s36"
+          ],
+          "value": 30,
+          "unit": "deg"
+        },
+        {
+          "text": "Hood gearing was set early at about 100 to one, with a rack and pinion from a CAD gear script",
+          "basis": "team",
+          "src": [
+            "s55"
+          ]
+        },
+        {
+          "text": "The hood has no sensor but the Falcon's: it runs down at low voltage and zeroes at a current spike",
+          "basis": "team",
+          "src": [
+            "s64"
+          ]
+        },
+        {
+          "text": "On Beta, shooting too quickly sent the second ball farther and too slowly let the balls collide; hopper and flywheel speeds were tuned with slow-motion video",
+          "basis": "team",
+          "src": [
+            "s40"
+          ]
+        },
+        {
+          "text": "The team reports 1,497 shots in real matches with 88 missed, about 94%; its match log has the same 88 as teleop misses and a separate 49 auto misses",
+          "basis": "team",
+          "src": [
+            "s40",
+            "s14"
+          ]
+        },
+        {
+          "text": "A forum reply that reads as the team's ballparks 30% of Alpha's shots, taken without the back roller, bouncing out of the goal from backspin",
+          "basis": "observer",
+          "src": [
+            "s60"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vision align and snaps",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Line up the whole robot for a shot or climb with a button",
+          "basis": "team",
+          "src": [
+            "s50"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Percent output gave sluggish corrections at small errors and made long shots unviable until feedforward and PID were added after Hueneme Port",
+          "basis": "team",
+          "src": [
+            "s50"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "position"
+      ],
+      "type": "Limelight heading control through the drivetrain",
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "A snap turns to a set heading with one press, mainly for fender shots; vision align is held, and uses the Limelight",
+          "basis": "team",
+          "src": [
+            "s50"
+          ]
+        },
+        {
+          "text": "Vision align puts the drive motors in closed loop; normal teleop is percent output",
+          "basis": "team",
+          "src": [
+            "s50"
+          ]
+        },
+        {
+          "text": "A fixed-angle version lines up the climb",
+          "basis": "team",
+          "src": [
+            "s50"
+          ]
+        },
+        {
+          "text": "LED strips tell the driver hood status, climb mode and how many balls are in",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Reach traversal quickly with fewer parts and failure modes",
+          "basis": "team",
+          "src": [
+            "s54"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "In initial testing, bearing blocks dented the 1/16 in wall outer tube at full extension; clamps were added there",
+          "basis": "team",
+          "src": [
+            "s47"
+          ]
+        },
+        {
+          "text": "Extended arms are too tall to leave the hangar, so a shaft sticks out for winching them down with a drill",
+          "basis": "team",
+          "src": [
+            "s48",
+            "s49"
+          ]
+        },
+        {
+          "text": "Off-season: a climber rope broke at Madtown after being chewed up in the climber gearbox; the team says ropes never break from the normal load",
+          "basis": "team",
+          "src": [
+            "s72"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "two telescopes on passive gas-shock pivots",
+      "serves": [
+        "rung-traversal"
+      ],
+      "facts": [
+        {
+          "text": "Only the telescopes are powered; gas shocks and hard stop slots set the angles, and the robot's weight swings it",
+          "basis": "team",
+          "src": [
+            "s64"
+          ]
+        },
+        {
+          "text": "The concept was inspired by a climber shown by 5013/8825",
+          "basis": "team",
+          "src": [
+            "s22"
+          ]
+        },
+        {
+          "text": "Each step waits for the Pigeon roll angle to match bar contact and both arms to be at setpoint",
+          "basis": "team",
+          "src": [
+            "s57"
+          ]
+        },
+        {
+          "text": "The gyro angle is taken as an offset from the start of the climb, because it drifts in a match",
+          "basis": "team",
+          "src": [
+            "s64"
+          ]
+        },
+        {
+          "text": "A second hook takes traversal without waiting for the robot to rock back, and carries a latch against being knocked off",
+          "basis": "team",
+          "src": [
+            "s44"
+          ]
+        },
+        {
+          "text": "Gas shocks of 15, 30, then 60 lb were tried until the arms stopped swinging in normal driving",
+          "basis": "team",
+          "src": [
+            "s52"
+          ]
+        },
+        {
+          "text": "Dyneema cable; constant force springs believed to be 6 lb each, two per stage",
+          "basis": "team",
+          "src": [
+            "s61"
+          ]
+        },
+        {
+          "text": "No ratchet: after the match brake mode slows the arm's extension, and the robot still hangs clear when it extends",
+          "basis": "team",
+          "src": [
+            "s28"
+          ]
+        },
+        {
+          "text": "A forum observer timed 5.07 s from leaving the carpet to traversal, and 10.10 s from entering the hangar zone; another gives a match with entry at 12 s left and latching at 3",
+          "basis": "observer",
+          "src": [
+            "s69"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Low-mounted powertrain",
+      "solves": [
+        {
+          "text": "Keep the center of gravity as low as possible",
+          "basis": "team",
+          "src": [
+            "s64"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "motors at the base with long belts",
+      "serves": [],
+      "facts": [
+        {
+          "text": "The motors on the climber and one on the intake are essentially the highest; everything else is powered from the bottom",
+          "basis": "team",
+          "src": [
+            "s64"
+          ]
+        },
+        {
+          "text": "A long belt runs down from the flywheel",
+          "basis": "team",
+          "src": [
+            "s64"
+          ]
+        },
+        {
+          "text": "Epsilon's full rebuild was used to lower all of the motors into the belly pan",
+          "basis": "team",
+          "src": [
+            "s41"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "No turret",
+      "because": "the goal was large, Alpha did well with swerve alone, and the team expected an added degree of freedom to lengthen shot line-up and to add complexity and weight",
+      "instead_of": "a turret",
+      "basis": "team",
+      "src": [
+        "s66"
+      ]
+    },
+    {
+      "choice": "Swerve for its first official season",
+      "because": "the team had built practice swerve robots since 2019 (the competition robot was its ninth), purchased modules had improved, Falcons gave power overhead, and the field was flat",
+      "basis": "team",
+      "src": [
+        "s47"
+      ]
+    },
+    {
+      "choice": "Star wheels that divert cargo by spin direction",
+      "because": "the flap could not actuate quickly enough to catch the ball, even after moving the sensor and some software tweaks",
+      "instead_of": "a pneumatic flap at the back of Beta",
+      "basis": "team",
+      "src": [
+        "s41"
+      ]
+    },
+    {
+      "choice": "Gas-shock two-telescope climber",
+      "because": "it gave about the same climb time without pneumatics, with fewer parts and failure modes and more reliability",
+      "instead_of": "a climb that skips the high bar",
+      "basis": "team",
+      "src": [
+        "s54"
+      ]
+    },
+    {
+      "choice": "Wheeled shooter",
+      "because": "prototypes were still pretty accurate despite the team's worry about the fuzz",
+      "instead_of": "a catapult",
+      "basis": "team",
+      "src": [
+        "s64"
+      ]
+    },
+    {
+      "choice": "Flexible polycarbonate intake plates",
+      "because": "they comply with high impacts while staying fast and light",
+      "cost": "belts are prone to slipping off",
+      "basis": "team",
+      "src": [
+        "s34"
+      ]
+    },
+    {
+      "choice": "Back rollers at 1:1",
+      "because": "bounce-outs from backspin were a large issue, and the diameter difference turned out to be the right amount",
+      "basis": "team",
+      "src": [
+        "s46"
+      ]
+    },
+    {
+      "choice": "About 150 hours of driver practice before championships, ending in full match simulations against a swerve defender",
+      "because": "the team found that simulating real matches makes a large difference in how effective practice is",
+      "basis": "team",
+      "src": [
+        "s45"
+      ]
+    },
+    {
+      "choice": "No Hall sensor on the hood",
+      "because": "such a sensor can be unreliable and is a failure point if it disconnects",
+      "instead_of": "a Hall effect sensor",
+      "basis": "team",
+      "src": [
+        "s64"
+      ]
+    },
+    {
+      "choice": "Shoot standing still",
+      "because": "shoot-on-the-fly code hurt stationary shots and had nearly no driver practice before the event",
+      "instead_of": "shooting on the move",
+      "basis": "team",
+      "src": [
+        "s42"
+      ]
+    },
+    {
+      "choice": "Climber arms held by clamping force",
+      "because": "there was no room for fastener ends to stick out",
+      "basis": "team",
+      "src": [
+        "s27"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "Comp Robot",
+        "url": "https://cad.onshape.com/documents/5171f477c0b2b518f0252641/w/cbf30882b3a7cbd588a0ad5a/e/a8d11c6d37daaefe163e2d01",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "Citrus Circuits 2022 Code and CAD Release",
+        "url": "https://www.chiefdelphi.com/t/citrus-circuits-2022-code-and-cad-release/412257",
+        "format": "thread",
+        "state": "opened",
+        "src": "s5",
+        "holds": "Onshape"
+      },
+      {
+        "what": "2022 Robot",
+        "url": "https://www.citruscircuits.org/2022-robot",
+        "format": "web page",
+        "state": "opened",
+        "src": "s10",
+        "holds": "Onshape"
+      },
+      {
+        "what": "1678's Rapid React Shooter",
+        "url": "https://www.frcdesign.org/mechanism-examples/shooter/1678_2022_shooter/",
+        "format": "web page",
+        "state": "opened",
+        "src": "s11",
+        "holds": "Onshape"
+      },
+      {
+        "what": "1678 Alpha robot 2022 (Onshape)",
+        "url": "https://cad.onshape.com/documents/4725889c8ffb6be593c07598",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s12"
+      },
+      {
+        "what": "1678 Beta robot 2022 (Onshape)",
+        "url": "https://cad.onshape.com/documents/fd0038469db89f113bc53109",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s13"
+      },
+      {
+        "what": "2022 intake CAD linked by FRCDesign.org",
+        "url": "https://cad.onshape.com/documents/85e97134bff4283227dd7814/w/1b7989bff6276a96f0730470/e/3761d128b68089769ab731a0",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s16"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=FAD0RaqhfDw",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Robot reveal video (not watched)",
+        "url": "https://www.youtube.com/watch?v=RiUaItTKomU",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Behind the Bumpers interview (transcript read, video not watched)",
+        "url": "https://www.youtube.com/watch?v=ijiDMVvGc_E",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/J5cMIoB",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "1678 5 Ball Auto 2022 (Alpha prototype robot)",
+        "url": "https://www.chiefdelphi.com/t/1678-5-ball-auto-2022/400607",
+        "format": "thread",
+        "state": "opened",
+        "src": "s6"
+      },
+      {
+        "what": "Team 254 Presents: Sideways",
+        "url": "https://www.chiefdelphi.com/t/team-254-presents-sideways/406523",
+        "format": "thread",
+        "state": "listed",
+        "src": "s7"
+      },
+      {
+        "what": "Team 1678 Season Recap Video 2022",
+        "url": "https://www.chiefdelphi.com/t/team-1678-season-recap-video/412596",
+        "format": "thread",
+        "state": "listed",
+        "src": "s9"
+      },
+      {
+        "what": "1678's Rapid React Intake",
+        "url": "https://frcdesign-org.pages.dev/mechanism-examples/intake/linkage/1678_2022_intake/",
+        "format": "web page",
+        "state": "opened",
+        "src": "s16"
+      },
+      {
+        "what": "2022 Hopper Q33 / FRC 1678 / Clean Robot Video",
+        "url": "https://www.youtube.com/watch?v=2KTDGhm7Sjc",
+        "format": "video",
+        "state": "listed",
+        "src": "s18"
+      },
+      {
+        "what": "FRC Design Exploration: 1678 - 2022, by Spectrum 3847 (transcript read, video not watched)",
+        "url": "https://www.youtube.com/watch?v=v1O_0Q4olOI",
+        "format": "video",
+        "state": "listed",
+        "src": "s19"
+      },
+      {
+        "what": "Uncensored five-ball auto with the Alpha prototype (video, not watched)",
+        "url": "https://www.youtube.com/watch?v=ValCmzpaRnk",
+        "format": "video",
+        "state": "listed",
+        "src": "s63"
+      },
+      {
+        "what": "Shoot-on-the-fly test (video, not watched)",
+        "url": "https://youtube.com/shorts/8D50MHSoUp0",
+        "format": "video",
+        "state": "listed",
+        "src": "s43"
+      },
+      {
+        "what": "Full robot on field, red bumpers, green intake rollers",
+        "url": "https://imgur.com/4m0Jc6f",
+        "img": "https://i.imgur.com/4m0Jc6fh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s73",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Full robot CAD, climber column extended",
+        "url": "https://cad.onshape.com/documents/5171f477c0b2b518f0252641/w/cbf30882b3a7cbd588a0ad5a/e/a8d11c6d37daaefe163e2d01",
+        "img": "https://cad.onshape.com/api/thumbnails/d/5171f477c0b2b518f0252641/w/cbf30882b3a7cbd588a0ad5a/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s74",
+        "kind": "cad"
+      },
+      {
+        "what": "Intake CAD, three roller shafts",
+        "url": "https://frcdesign-org.pages.dev/mechanism-examples/intake/linkage/1678_2022_intake/",
+        "img": "https://frcdesign-org.pages.dev/img/mechanism-examples/intake/linkage/1678_2022_intake.webp",
+        "format": "image",
+        "state": "opened",
+        "src": "s16",
+        "kind": "cad"
+      },
+      {
+        "what": "Shooter CAD, hood rollers and flywheel",
+        "url": "https://www.frcdesign.org/mechanism-examples/shooter/1678_2022_shooter/",
+        "img": "https://www.frcdesign.org/_astro/1678_2022_shooter.QxlugO73_ZxXFLR.webp",
+        "format": "image",
+        "state": "opened",
+        "src": "s11",
+        "kind": "cad"
+      },
+      {
+        "what": "Full robot render, intake extended, climber hooks at top",
+        "url": "https://www.citruscircuits.org/2022-robot",
+        "img": "https://static.wixstatic.com/media/146bfa_dc4c702412d6457593d2c0ec13809c01~mv2.png/v1/fill/w_414,h_322,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/146bfa_dc4c702412d6457593d2c0ec13809c01~mv2.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s10",
+        "kind": "cad"
+      },
+      {
+        "what": "Alpha Top Level render, intake extended",
+        "url": "https://www.chiefdelphi.com/t/citrus-circuits-2022-code-and-cad-release/412257/21",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/c/5/c56cbebeebc4296e0a657ce996980ef23cd33362_2_666x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s75",
+        "kind": "cad"
+      },
+      {
+        "what": "CAD of paired gearboxes under upright tubes, one shaft circled",
+        "url": "https://www.chiefdelphi.com/t/citrus-circuits-2022-code-and-cad-release/412257",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/8/9/896102f984ffc62ccc268d5d1d93353c2edc919e_2_588x500.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s5",
+        "kind": "cad"
+      },
+      {
+        "what": "Intake CAD with power transmission highlighted",
+        "url": "https://frcdesign-org.pages.dev/mechanism-examples/intake/linkage/1678_2022_intake/",
+        "img": "https://frcdesign-org.pages.dev/img/mechanism-examples/intake/linkage/1678/1678powerbetter.webp",
+        "format": "image",
+        "state": "opened",
+        "src": "s16",
+        "kind": "cad"
+      },
+      {
+        "what": "CAD of shooter backrollers, close-up",
+        "url": "https://www.frcdesign.org/mechanism-examples/shooter/1678_2022_shooter/",
+        "img": "https://www.frcdesign.org/_astro/1678backrollers.CfArr6Ca_ZPfS4v.webp",
+        "format": "image",
+        "state": "opened",
+        "src": "s11",
+        "kind": "cad"
+      }
+    ],
+    "documents": [
+      {
+        "what": "Build Blog 2022",
+        "url": "https://www.citruscircuits.org/build-blog-2022",
+        "format": "web page",
+        "state": "opened",
+        "src": "s8"
+      },
+      {
+        "what": "FRC1678 2022 Autopsy (match log spreadsheet)",
+        "url": "https://docs.google.com/spreadsheets/d/18vDiDgYWfXMvfhSVZON0UGh3gwqYySlxK2UqFpL1XJo/edit?usp=sharing",
+        "format": "Google Sheet",
+        "state": "opened",
+        "src": "s14"
+      },
+      {
+        "what": "Citrus Circuits Fall Workshop 2022: Game Analysis (archived PDF)",
+        "url": "https://web.archive.org/web/20230321013021id_/https://www.citruscircuits.org/uploads/6/9/3/4/6934550/game_analysis_2022.pdf",
+        "format": "PDF",
+        "state": "opened",
+        "src": "s20"
+      },
+      {
+        "what": "Citrus Circuits Fall Workshop 2022: Strategic Design (archived PDF)",
+        "url": "https://web.archive.org/web/20240704005421id_/https://www.citruscircuits.org/uploads/6/9/3/4/6934550/strategic_design_2022.pdf",
+        "format": "PDF",
+        "state": "opened",
+        "src": "s21"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/frc1678",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "1678 Robot Reveal 2022",
+        "url": "https://www.chiefdelphi.com/t/1678-robot-reveal-2022/404113",
+        "format": "thread",
+        "state": "opened",
+        "src": "s4"
+      },
+      {
+        "what": "frc1678/C2022-Public (Margie code)",
+        "url": "https://github.com/frc1678/C2022-Public",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s15"
+      },
+      {
+        "what": "frc1678/C2022",
+        "url": "https://github.com/frc1678/C2022",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s43"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)"
+  ],
+  "results": {
+    "division": "Hopper",
+    "division_opr": 74.13,
+    "opr_rank": 1,
+    "record": "64-7-0",
+    "einstein": {
+      "division": "Hopper",
+      "role": "pick 1"
+    },
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

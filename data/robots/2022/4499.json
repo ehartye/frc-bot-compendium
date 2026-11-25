@@ -1,0 +1,700 @@
+{
+  "id": "2022-4499",
+  "season": 2022,
+  "team": "4499",
+  "team_name": "The Highlanders",
+  "robot_name": "Maverick",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 4499 in 2022",
+      "url": "https://www.thebluealliance.com/team/4499/2022",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Hopper Division 2022",
+      "url": "https://www.thebluealliance.com/event/2022hop",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "Behind the Bumpers - 4499 The Highlanders Robot Breakdown",
+      "url": "https://www.chiefdelphi.com/t/behind-the-bumpers-4499-the-highlanders-robot-breakdown/413940",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Highlanders 2022 Maverick spec sheet (PDF)",
+      "url": "https://highlandersfrc.com/wp-content/uploads/2026/01/2022_SpecSheet_Maverick.pdf",
+      "publisher": "highlandersfrc.com",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "HighlandersFRC/2022-Maverick",
+      "url": "https://github.com/HighlandersFRC/2022-Maverick",
+      "publisher": "github.com",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "2022 Season – Maverik",
+      "url": "https://highlandersfrc.com/2022-season-maverik/",
+      "publisher": "highlandersfrc.com",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Behind the Bumpers 4499 The Highlanders Robot -  Rapid React",
+      "url": "https://www.youtube.com/watch?v=U0vM488i2Lg",
+      "publisher": "youtube.com",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "2022 Maverik – The Highlanders",
+      "url": "https://highlandersfrc.com/portfolio/2022-maverik/",
+      "publisher": "highlandersfrc.com",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Request for Pit Scouting data from CMP please, post 3",
+      "url": "https://www.chiefdelphi.com/t/410352/3",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/ixxcNKE",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "A quick high and low goal cycle robot with a traversal climber.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "The spec sheet lists one to five ball autos, with paths from the team's own PathGen tool and constant acceleration interpolation.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "Another team's pit scouting lists five upper hub shots.",
+        "basis": "observer",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "In an off-season interview: the wide intake grabs cargo it touches, two beam breaks place two balls in the magazine, the Limelight gives target and distance, and the hood adjusts. Preferred spot: behind the tarmac. For cargo behind the hub the driver switches to a rear camera and robot-centric driving.",
+        "basis": "team",
+        "src": [
+          "s7"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "From the second bar, a one-stage elevator goes up, out to the next bar and pulls the robot onto fixed spring hooks, then repeats. The spec sheet gives 10 seconds to traversal; an off-season interview gives about 12 to 13 from the ground.",
+        "basis": "team",
+        "src": [
+          "s4",
+          "s7"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "It can climb alone to any of the four bars and shoot into either hub.",
+        "basis": "team",
+        "src": [
+          "s4",
+          "s8"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "Many climbers came before the final one; a new one came out at the Colorado Regional. The backspin roller came before the first regional, because balls bounced out. An off-season interview describes a second, shorter feeder. In it, early tries stalled and swung on bar three, so the NavX accounts for the swing.",
+        "basis": "team",
+        "src": [
+          "s8",
+          "s7"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "52-18-0 in official play; finalist in the Hopper division; ranked 19 of the pooled top 20 (OPR 56.85, Hopper).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Swerve drive",
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "SDS MK4 L2 modules, eight Falcons, with custom protectors",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Speed",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 16,
+          "unit": "ft/s"
+        },
+        {
+          "text": "The team's first competition swerve chassis",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "does": [
+        "acquire"
+      ],
+      "type": "wide four-bar ground intake, pneumatic",
+      "pieces": [
+        "cargo"
+      ],
+      "serves": [
+        "hub-upper",
+        "hub-lower"
+      ],
+      "solves": [
+        {
+          "text": "Keep any cargo the robot touches, also behind the hub where it is hard to see",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Four-bar linkage with vectored wheels",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "In an off-season interview: flexible polycarbonate, and the linkage collapses against walls",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "In that interview: pneumatics keep the front area clear of motors",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Spare intakes are kept ready in case one snaps (off-season interview)",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Feeder",
+      "does": [
+        "transfer",
+        "retain",
+        "sense"
+      ],
+      "type": "compliant wheel magazine for two balls",
+      "pieces": [
+        "cargo"
+      ],
+      "serves": [
+        "hub-upper",
+        "hub-lower"
+      ],
+      "solves": [
+        {
+          "text": "Store two balls at consistent positions without wasting height",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s7"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "In an off-season interview: compliant wheels keep every ball in contact",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "In that interview: beam breaks at the start of the magazine and just before the flywheel show where the balls are",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Two balls reach the shooter in under",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 1,
+          "unit": "s"
+        },
+        {
+          "text": "That interview describes a second version, shorter, about 12 in instead of about 14",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "In that interview a bump in the middle gives compression on both sides; it comes from a dual intake idea that was not finished",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter",
+      "does": [
+        "deliver"
+      ],
+      "type": "central flywheel with adjustable hood and backspin roller",
+      "pieces": [
+        "cargo"
+      ],
+      "serves": [
+        "hub-upper",
+        "hub-lower"
+      ],
+      "solves": [
+        {
+          "text": "Keep balls in the hub from many distances",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Flywheel on two Falcons",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "In an off-season interview: shoots from practically against the hub to the outer bounds of the field",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Two balls in",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 1,
+          "unit": "s"
+        },
+        {
+          "text": "The backspin compensation roller was critical to keeping balls in the hub; early tests bounced right out",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Limelight and driver camera",
+      "does": [
+        "sense",
+        "position"
+      ],
+      "type": "vision targeting and rear camera driving",
+      "pieces": [
+        "cargo"
+      ],
+      "serves": [
+        "hub-upper"
+      ],
+      "solves": [
+        {
+          "text": "Clear the two or three balls behind the hub that slow the robot down",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "In an off-season interview: a Limelight on the front gives the target and its distance",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "A rear camera shows cargo behind the hub; one button changes field-centric driving to robot-centric, so the driver moves toward what it shows",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "The team says it used this a lot at the championship in Houston",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "does": [
+        "endgame",
+        "sense"
+      ],
+      "type": "one-stage elevator with a rotating arm and fixed spring hooks",
+      "serves": [
+        "rung-low",
+        "rung-mid",
+        "rung-high",
+        "rung-traversal"
+      ],
+      "solves": [
+        {
+          "text": "Reach the traversal bar while the robot swings between bars",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "text": "Two Falcons and a NEO 550",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Spring-loaded hooks hold the bar below while the arm reaches the next",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s7"
+          ]
+        },
+        {
+          "text": "In an off-season interview the NavX compensates for the swing, so the hook meets the bar whichever way the robot tilts",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Pit scouting at the championship lists about 15 seconds",
+          "basis": "observer",
+          "src": [
+            "s9"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Asked whether NavX control was critical, a reply that reads as the team's says yes: the timing of the transitions was missed every time, mostly from bar 3 to bar 4",
+          "basis": "observer",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Frame size and weight",
+      "does": [
+        "structure"
+      ],
+      "type": "swerve robot frame",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Weight",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 125,
+          "unit": "lb"
+        },
+        {
+          "text": "Height",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 46,
+          "unit": "in"
+        },
+        {
+          "text": "Pit scouting at the championship lists 29 by 29 in and 122 lb",
+          "basis": "observer",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "One-stage elevator with an articulating arm (off-season interview)",
+      "because": "it is a lot more compact and the usual arrangement would not fit",
+      "instead_of": "telescoping hooks plus a second set that leans the robot back",
+      "basis": "team",
+      "src": [
+        "s7"
+      ]
+    },
+    {
+      "choice": "A backspin compensation roller",
+      "because": "balls bounced right out in early testing",
+      "basis": "team",
+      "src": [
+        "s7"
+      ]
+    },
+    {
+      "choice": "A shorter feeder with a center bump (off-season interview)",
+      "because": "it saves height and lowers the center of gravity",
+      "instead_of": "one wheel with a curve on the back, which was tall",
+      "basis": "team",
+      "src": [
+        "s7"
+      ]
+    },
+    {
+      "choice": "Robot-centric driving with a rear camera",
+      "because": "it clears balls behind the hub that are hard to see",
+      "basis": "team",
+      "src": [
+        "s7"
+      ]
+    },
+    {
+      "choice": "NavX control of the climber arm (off-season interview)",
+      "because": "early tries left the robot stalling and swinging on bar three",
+      "basis": "team",
+      "src": [
+        "s7"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=7zxfQwC24qQ",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=InmoGD5pvvM",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/Q7ZEHnH",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/lQTt8qr",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Behind the Bumpers - 4499 The Highlanders Robot Breakdown",
+        "url": "https://www.chiefdelphi.com/t/behind-the-bumpers-4499-the-highlanders-robot-breakdown/413940",
+        "format": "thread",
+        "state": "opened",
+        "src": "s3"
+      },
+      {
+        "what": "2022 Season – Maverik",
+        "url": "https://highlandersfrc.com/2022-season-maverik/",
+        "format": "web page",
+        "state": "opened",
+        "src": "s6"
+      },
+      {
+        "what": "Behind the Bumpers: 4499 The Highlanders, filmed at IRI 2022 (captions read, video not watched)",
+        "url": "https://www.youtube.com/watch?v=U0vM488i2Lg",
+        "format": "video",
+        "state": "listed",
+        "src": "s7"
+      },
+      {
+        "what": "Video of the climb swing problem, linked by the team (not watched)",
+        "url": "https://youtu.be/ZuKHFbov2rw",
+        "format": "video",
+        "state": "listed",
+        "src": "s9"
+      },
+      {
+        "what": "Full robot, blue bumpers, climber column raised, blue cargo inside",
+        "url": "https://imgur.com/ixxcNKE",
+        "img": "https://i.imgur.com/ixxcNKEh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s11",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Bare chassis from above, four corner modules, perforated belly plate",
+        "url": "https://highlandersfrc.com/portfolio/2022-maverik/",
+        "img": "https://highlandersfrc.com/wp-content/uploads/2026/01/Chassis-Large-768x576.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "mechanism"
+      },
+      {
+        "what": "Shooter prototype on a bench with a blue cargo ball",
+        "url": "https://highlandersfrc.com/portfolio/2022-maverik/",
+        "img": "https://highlandersfrc.com/wp-content/uploads/2026/01/PXL_20220117_223708303-768x576.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "mechanism"
+      },
+      {
+        "what": "Unfinished robot under practice rungs, intake rollers facing camera",
+        "url": "https://highlandersfrc.com/portfolio/2022-maverik/",
+        "img": "https://highlandersfrc.com/wp-content/uploads/2026/01/PXL_20220202_033224525-768x576.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot cut-out, climber arms raised (off-season: IRI in file name)",
+        "url": "https://highlandersfrc.com/portfolio/2022-maverik/",
+        "img": "https://highlandersfrc.com/wp-content/uploads/2026/01/Maverick_IRI-Large_2560.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "robot-photo"
+      }
+    ],
+    "documents": [
+      {
+        "what": "Highlanders 2022 Maverick spec sheet (PDF)",
+        "url": "https://highlandersfrc.com/wp-content/uploads/2026/01/2022_SpecSheet_Maverick.pdf",
+        "format": "PDF",
+        "state": "opened",
+        "src": "s4"
+      },
+      {
+        "what": "2022 Maverik – The Highlanders",
+        "url": "https://highlandersfrc.com/portfolio/2022-maverik/",
+        "format": "web page",
+        "state": "opened",
+        "src": "s8"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/highlandersfrc",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "HighlandersFRC/2022-Maverick",
+        "url": "https://github.com/HighlandersFRC/2022-Maverick",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s5"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "binders: Chief Delphi searches for 4499 and Highlanders, one web search, the team site's 2022 pages and PDFs; a one-page spec sheet found, no long binder"
+  ],
+  "results": {
+    "division": "Hopper",
+    "division_opr": 56.85,
+    "opr_rank": 19,
+    "record": "52-18-0",
+    "einstein": null,
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

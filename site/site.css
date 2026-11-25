@@ -10,10 +10,10 @@
   --display: "Sofia Sans Extra Condensed", "Arial Narrow", sans-serif;
   --body: "Schibsted Grotesk", "Segoe UI", sans-serif;
   --mono: "Martian Mono", Consolas, monospace;
-  --s2023: #6a3fa0; --s2024: #d9560f; --s2025: #007f73; --s2026: #8a6a00;
+  --s2022: #4a6b1e; --s2023: #6a3fa0; --s2024: #d9560f; --s2025: #007f73; --s2026: #8a6a00;
 }
 [data-alliance="blue"] { --bumper: var(--blue); --bumper-dark: #07356f; --link: #07356f; }
-[data-season="2023"] { --season: var(--s2023); } [data-season="2024"] { --season: var(--s2024); }
+[data-season="2022"] { --season: var(--s2022); } [data-season="2023"] { --season: var(--s2023); } [data-season="2024"] { --season: var(--s2024); }
 [data-season="2025"] { --season: var(--s2025); } [data-season="2026"] { --season: var(--s2026); }
 
 * { box-sizing: border-box; }
@@ -86,7 +86,7 @@ sup a { font: 500 .66rem var(--mono); text-decoration: none; } .muted { color: v
 .robot-head { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: 2rem 3rem; align-items: end; padding-top: 1rem; }
 .stand { position: relative; } .stand figure { margin: 0 5% -1.2rem; }
 .stand .pic { background: var(--sheet); border-radius: .6rem; aspect-ratio: 16/11; display: grid; place-items: center; overflow: hidden; padding-bottom: 1.2rem; }
-.stand .pic img { width: 100%; height: 100%; object-fit: contain; } .stand .pic svg { width: 34%; opacity: .55; }
+.stand .pic img { width: 100%; height: 100%; object-fit: contain; } .stand .pic, .card .pic { position: relative; } .stand .pic img, .card .pic img { position: absolute; inset: 0 0 .6rem; height: calc(100% - .6rem); } .stand .pic img { bottom: 1.3rem; height: calc(100% - 1.3rem); } .stand .pic svg { width: 34%; opacity: .55; }
 .stand .bumper { font-size: clamp(5rem, 15vw, 11.5rem); padding: .16em .1em .2em; }
 .credit { font-size: .82rem; color: var(--ink-soft); margin: .6rem 0 0; }
 .robot-head h1 { font-size: clamp(2.8rem, 6vw, 5rem); font-weight: 900; } .robot-head h1 span { display: block; font-size: .42em; font-weight: 800; line-height: 1.1; color: var(--ink-soft); margin-top: .25em; }
