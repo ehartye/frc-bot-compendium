@@ -1,0 +1,78 @@
+{
+  "id": "2025-3683",
+  "season": 2025,
+  "team": "3683",
+  "team_name": "Team DAVE",
+  "robot_name": null,
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 3683 in 2025",
+      "url": "https://www.thebluealliance.com/team/3683/2025",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "outcome": [
+      {
+        "text": "46-8-0 in official play; won the OPC - Science division of the Ontario District Championship; did not play in a championship division.",
+        "basis": "record",
+        "src": [
+          "s1"
+        ]
+      }
+    ]
+  },
+  "functions": [],
+  "decisions": [],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/RzpxXWK",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=g7N1Je1avWc",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/frc3683",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)"
+  ],
+  "results": {
+    "division": null,
+    "division_opr": null,
+    "opr_rank": null,
+    "record": "46-8-0",
+    "einstein": null,
+    "added": {
+      "why": "season",
+      "rank": 14
+    },
+    "note": "Listed beside the top 20: it did not play in a championship division, and ranked 14th of all 2025 robots in our rating of the whole season. The rating sees scoring only.",
+    "src": [
+      "s1"
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "2022-2056",
+  "season": 2022,
+  "team": "2056",
+  "team_name": "OP Robotics",
+  "robot_name": null,
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 2056 in 2022",
+      "url": "https://www.thebluealliance.com/team/2056/2022",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Turing Division 2022",
+      "url": "https://www.thebluealliance.com/event/2022tur",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "outcome": [
+      {
+        "text": "47-12-0 in official play; ranked 26 by championship OPR (54.07, Turing).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [],
+  "decisions": [],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/98FDwkk",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/team2056",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)"
+  ],
+  "results": {
+    "division": "Turing",
+    "division_opr": 54.07,
+    "opr_rank": 26,
+    "record": "47-12-0",
+    "einstein": null,
+    "added": {
+      "why": "blended",
+      "rank": 10
+    },
+    "note": "Listed beside the top 20: 26th by championship OPR, but 10th of the championship robots in our rating that also counts the rest of its season. The rating sees scoring only.",
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

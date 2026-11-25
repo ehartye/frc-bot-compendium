@@ -1,0 +1,107 @@
+{
+  "id": "2024-5940",
+  "season": 2024,
+  "team": "5940",
+  "team_name": "BREAD",
+  "robot_name": null,
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 5940 in 2024",
+      "url": "https://www.thebluealliance.com/team/5940/2024",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Hopper Division 2024",
+      "url": "https://www.thebluealliance.com/event/2024hop",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "outcome": [
+      {
+        "text": "47-13-0 in official play; ranked 100 by championship OPR (42.23, Hopper).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [],
+  "decisions": [],
+  "assets": {
+    "cad": [
+      {
+        "what": "Comp Robot",
+        "url": "https://5940.onshape.com/documents/fc2ed487a3bcc1f0e49a6d9d/w/6c480d72591c00009984731f/e/6eefccfefe0d553debd9163f?aa=true",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "CAD listed on the team page",
+        "url": "https://cad.onshape.com/documents/fc2ed487a3bcc1f0e49a6d9d/w/6c480d72591c00009984731f",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s1"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/fPIFRn8",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=b_z8SFSKbFU",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/bread5940",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)"
+  ],
+  "results": {
+    "division": "Hopper",
+    "division_opr": 42.23,
+    "opr_rank": 100,
+    "record": "47-13-0",
+    "einstein": null,
+    "added": {
+      "why": "blended",
+      "rank": 15
+    },
+    "note": "Listed beside the top 20: 100th by championship OPR, but 15th of the championship robots in our rating that also counts the rest of its season. The rating sees scoring only.",
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

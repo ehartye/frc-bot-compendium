@@ -1,0 +1,96 @@
+{
+  "id": "2024-4613",
+  "season": 2024,
+  "team": "4613",
+  "team_name": "Barker Redbacks",
+  "robot_name": null,
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 4613 in 2024",
+      "url": "https://www.thebluealliance.com/team/4613/2024",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Archimedes Division 2024",
+      "url": "https://www.thebluealliance.com/event/2024arc",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "outcome": [
+      {
+        "text": "44-4-1 in official play; won the Archimedes division; captain of the Archimedes alliance on Einstein; ranked 46 by championship OPR (47.26, Archimedes).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [],
+  "decisions": [],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/vp9KVxO",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=AaAfX_DwbJ0",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=wdkO128CQR8",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/team4613-barkerredbacks",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)"
+  ],
+  "results": {
+    "division": "Archimedes",
+    "division_opr": 47.26,
+    "opr_rank": 46,
+    "record": "44-4-1",
+    "einstein": {
+      "division": "Archimedes",
+      "role": "captain"
+    },
+    "added": {
+      "why": "blended",
+      "rank": 16
+    },
+    "note": "Listed beside the top 20: 46th by championship OPR, but 16th of the championship robots in our rating that also counts the rest of its season. The rating sees scoring only.",
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

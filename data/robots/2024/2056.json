@@ -1,0 +1,110 @@
+{
+  "id": "2024-2056",
+  "season": 2024,
+  "team": "2056",
+  "team_name": "OP Robotics",
+  "robot_name": null,
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 2056 in 2024",
+      "url": "https://www.thebluealliance.com/team/2056/2024",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Galileo Division 2024",
+      "url": "https://www.thebluealliance.com/event/2024gal",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "outcome": [
+      {
+        "text": "67-3-0 in official play; won the Galileo division; captain of the Galileo alliance on Einstein; ranked 50 by championship OPR (47.07, Galileo).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [],
+  "decisions": [],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/JNC1FXM",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/S2y9LGO",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/Z3CdTIq",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/jxzfQhL",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Forum thread listed on the team page",
+        "url": "https://www.chiefdelphi.com/t/465867",
+        "format": "thread",
+        "state": "listed",
+        "src": "s1"
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/team2056",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)"
+  ],
+  "results": {
+    "division": "Galileo",
+    "division_opr": 47.07,
+    "opr_rank": 50,
+    "record": "67-3-0",
+    "einstein": {
+      "division": "Galileo",
+      "role": "captain"
+    },
+    "added": {
+      "why": "blended",
+      "rank": 5
+    },
+    "note": "Listed beside the top 20: 50th by championship OPR, but 5th of the championship robots in our rating that also counts the rest of its season. The rating sees scoring only.",
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

@@ -2,9 +2,10 @@
 
 Site: https://ehartye.github.io/frc-bot-compendium/
 
-Design examples from the top 20 FRC robots of each season, 2022 to 2026: what each one was built around, how it worked, what it cost, and where its team published the CAD, pictures, binder and code. It is meant for people designing a robot and for programs helping them.
+Design examples from the top 20 FRC robots of each season, 2022 to 2026, and 26 more that were strong all season: what each one was built around, how it worked, what it cost, and where its team published the CAD, pictures, binder and code. It is meant for people designing a robot and for programs helping them.
 
 - `data/robots/<year>/<team>.json`: one record per robot. `data/seasons/<year>.json`: the game.
+- `data/roster.json`: the championship OPR ranking (`tools/roster/roster.py`). `data/added.json`: the robots it misses (`tools/roster/season.py`).
 - `docs/robot-model.md`: what a record holds and the evidence rules.
 - `python tools/compendium.py find --function deliver --text "shoot on the move"`: search the examples (functions: drive, acquire, retain, transfer, position, deliver, endgame, sense, structure). It matches words, so use the terms teams use.
 - `python tools/compendium.py check`: check every record.

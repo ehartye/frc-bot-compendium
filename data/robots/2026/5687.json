@@ -1,0 +1,78 @@
+{
+  "id": "2026-5687",
+  "season": 2026,
+  "team": "5687",
+  "team_name": "The Outliers",
+  "robot_name": null,
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 5687 in 2026",
+      "url": "https://www.thebluealliance.com/team/5687/2026",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "outcome": [
+      {
+        "text": "62-12-1 in official play; won the New England District Championship; did not play in a championship division.",
+        "basis": "record",
+        "src": [
+          "s1"
+        ]
+      }
+    ]
+  },
+  "functions": [],
+  "decisions": [],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/78Dan4m",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Forum thread listed on the team page",
+        "url": "https://www.chiefdelphi.com/t/515683",
+        "format": "thread",
+        "state": "listed",
+        "src": "s1"
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/frc5687",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)"
+  ],
+  "results": {
+    "division": null,
+    "division_opr": null,
+    "opr_rank": null,
+    "record": "62-12-1",
+    "einstein": null,
+    "added": {
+      "why": "season",
+      "rank": 13
+    },
+    "note": "Listed beside the top 20: it did not play in a championship division, and ranked 13th of all 2026 robots in our rating of the whole season. The rating sees scoring only.",
+    "src": [
+      "s1"
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "id": "2026-6329",
+  "season": 2026,
+  "team": "6329",
+  "team_name": "The Bucks' Wrath",
+  "robot_name": null,
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 6329 in 2026",
+      "url": "https://www.thebluealliance.com/team/6329/2026",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Hopper Division 2026",
+      "url": "https://www.thebluealliance.com/event/2026hop",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "outcome": [
+      {
+        "text": "61-15-1 in official play; won the Hopper division; pick 1 of the Hopper alliance on Einstein; ranked 25 by championship OPR (273.27, Hopper).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [],
+  "decisions": [],
+  "assets": {
+    "cad": [
+      {
+        "what": "Comp Robot",
+        "url": "https://cad.onshape.com/documents/014716f840fdbd882c1d691f/w/6f344cfa15ef9b0a4376698f/e/cd9bc0812c3416a4d99a3e17",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "Comp Robot",
+        "url": "https://cad.onshape.com/documents/3b751a2d7ebe31cad43f1ec9/w/018d7ee027fd82ca76baee33/e/a05e47ce92279ac81a17313e",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/Md41EOq",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/N5xJsTU",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Forum thread listed on the team page",
+        "url": "https://www.chiefdelphi.com/t/515342",
+        "format": "thread",
+        "state": "listed",
+        "src": "s1"
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/bucks-wrath",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)"
+  ],
+  "results": {
+    "division": "Hopper",
+    "division_opr": 273.27,
+    "opr_rank": 25,
+    "record": "61-15-1",
+    "einstein": {
+      "division": "Hopper",
+      "role": "pick 1"
+    },
+    "added": {
+      "why": "blended",
+      "rank": 19
+    },
+    "note": "Listed beside the top 20: 25th by championship OPR, but 19th of the championship robots in our rating that also counts the rest of its season. The rating sees scoring only.",
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

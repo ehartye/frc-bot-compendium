@@ -18,6 +18,7 @@ BEATS = {"bet": 35, "demand": 70, "auto": 60, "cycle": 60, "endgame": 60, "fallb
          "gave_up": 70, "changed": 70, "outcome": 50}
 TITLES = {"bet": "The bet", "demand": "The demand", "auto": "Auto", "cycle": "Cycle", "endgame": "Endgame",
           "fallback": "Fallback", "gave_up": "What it gave up", "changed": "What changed", "outcome": "The outcome"}
+ADDED = {(x["season"], x["team"]): x for x in json.loads((ROOT / "data/added.json").read_text(encoding="utf-8"))}
 MATCH = ("auto", "cycle", "endgame", "fallback")
 PRIVATE = re.compile(r"\[\[|wiki/(?:sources|authored|concepts)|raw/clippings|(?<![A-Za-z])[A-Za-z]:\\\\|wiki-vault|\.wiki-\w+|[\w.+-]+@[\w-]+\.(?:com|org|net|edu|us)\b")
 
@@ -78,6 +79,13 @@ def check_robot(path, rec, all_seasons):
     res = rec.get("results") or {}
     if not all(k in res for k in ("division", "division_opr", "opr_rank", "record", "src")):
         say("results incomplete")
+    else:
+        a, rank = ADDED.get((rec["season"], rec["team"])), res["opr_rank"]
+        if a and (res.get("added") != {"why": a["why"], "rank": a["blended_rank"] or a["season_rank"]} or not res.get("note")
+                  or any(res[k] != a[k] for k in ("division", "division_opr", "opr_rank"))):
+            say("results disagree with data/added.json")
+        if not a and (res.get("added") or not 1 <= rank <= 20):
+            say("neither in the championship top 20 nor in data/added.json")
     for sid in res.get("src", []):
         used.add(sid)
         if sid not in src:

@@ -24,6 +24,8 @@ QUESTION = {"drive": "How does the robot move?", "acquire": "How does it get a p
             "structure": "What packaging, frame or weight choice makes the rest possible?"}
 SAY = {"team": "team says", "observer": "observer says", "record": "on record", "inference": "our reading"}
 KINDS = {"cad": "CAD", "documents": "Binders, notebooks and documents", "code": "Code", "graphics": "Video and photo pages"}
+ALSO = "Also strong all season"
+WHY = "The championship ranking misses these robots; a rating of the whole season puts them among the best."
 ART = {  # each season's game piece, drawn
     2022: '<svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="36" cy="38" r="26" fill="#c8102e"/><path d="M16 22q20 14 8 40M56 20q-22 16-6 41" fill="none" stroke="#fdfdfb" stroke-width="3.5"/><circle cx="66" cy="68" r="26" fill="#1c5fae"/><path d="M46 52q20 14 8 40M86 50q-22 16-6 41" fill="none" stroke="#fdfdfb" stroke-width="3.5"/></svg>',
     2023: '<svg viewBox="0 0 100 100" aria-hidden="true"><path d="M33 12h14l17 62H16z" fill="#f2c230"/><path d="M10 74h60v10H10z" fill="#f2c230"/><rect x="60" y="52" width="34" height="32" rx="9" fill="#6a3fa0"/></svg>',
@@ -108,7 +110,16 @@ def has(rec):
 
 
 def ranked(y):
-    return sorted((r for r in RS.values() if r["season"] == y), key=lambda r: r["results"]["opr_rank"])
+    """The championship top 20 in order, then the added robots."""
+    def key(r):
+        a = r["results"].get("added")
+        return (bool(a), a["why"] == "season", a["rank"]) if a else (False, False, r["results"]["opr_rank"])
+    return sorted((r for r in RS.values() if r["season"] == y), key=key)
+
+
+def split(y):
+    rs = ranked(y)
+    return [r for r in rs if not r["results"].get("added")], [r for r in rs if r["results"].get("added")]
 
 
 def seat(r):
@@ -120,18 +131,19 @@ def seat(r):
 def home():
     lanes = ""
     for y, s in SS.items():
-        wall = "".join(seat(r) for r in ranked(y))
-        lanes += f'<section class="lane" data-season="{y}"><header><a href="{y}/">{ART[y]}<div><h2>{y} {s["name"].title()}</h2><span>Ranked 1 to 20</span></div></a><div class="steps" hidden><button type="button" aria-label="Earlier {y} robots">←</button><button type="button" aria-label="More {y} robots">→</button></div></header><div class="lineup" tabindex="0" role="region" aria-label="{y} robots, ranked">{wall}</div></section>'
+        top, also = ("".join(seat(r) for r in rs) for rs in split(y))
+        also = f'<h3 class="also">{ALSO}</h3><div class="lineup also" tabindex="0" role="region" aria-label="{y} robots, added">{also}</div>' if also else ""
+        lanes += f'<section class="lane" data-season="{y}"><header><a href="{y}/">{ART[y]}<div><h2>{y} {s["name"].title()}</h2><span>Ranked 1 to 20</span></div></a><div class="steps" hidden><button type="button" aria-label="Earlier {y} robots">←</button><button type="button" aria-label="More {y} robots">→</button></div></header><div class="lineup" tabindex="0" role="region" aria-label="{y} robots, ranked">{top}</div>{also}</section>'
     opts = "".join(f'<option value="{f}">{f}</option>' for f in FUNCTIONS)
     ys = "".join(f'<option value="{y}">{y}</option>' for y in SS)
     n = sum(len(list(examples(r, SS[r["season"]]))) for r in RS.values())
-    body = f"""<div class="lead"><h1>Pick a bumper</h1><p>The top 20 robots of each FRC season from 2022 to 2026: how each one worked, what it gave up, and where its team put the CAD, pictures, binder and code.</p></div>
+    body = f"""<div class="lead"><h1>Pick a bumper</h1><p>The top 20 robots of each FRC season from 2022 to 2026, and a few more that were strong all season: how each one worked, what it gave up, and where its team put the CAD, pictures, binder and code.</p></div>
 {lanes}
 <h2 id="find">Find a design example</h2><p>Search {n} mechanisms and decisions by the job you are working on.</p>
 <form class="finder" data-base=""><input name="q" type="search" placeholder="align without stopping" aria-label="What are you trying to do?"><select name="fn" aria-label="Job"><option value="">Any job</option>{opts}</select><select name="season" aria-label="Season"><option value="">Any season</option>{ys}</select></form>
 <ul class="hits" aria-live="polite"></ul>
 <noscript><p>Search needs JavaScript. Every example is also listed <a href="functions/">by job</a>.</p></noscript>"""
-    page("index.html", "FRC bot compendium", body, 0, desc="Design examples from the top 20 FRC robots of each season, 2022 to 2026.")
+    page("index.html", "FRC bot compendium", body, 0, desc="Design examples from the top FRC robots of each season, 2022 to 2026.")
 
 
 def card(r, base):
@@ -141,24 +153,33 @@ def card(r, base):
     return f'<a class="card" href="{base}{r["season"]}/{r["team"]}/">{pic}<span class="bumper">{r["team"]}</span><strong>{E(r["team_name"])}{": " + E(r["robot_name"]) if r.get("robot_name") else ""}</strong><p>{E(bet)}</p><span class="have">{has(r)}</span></a>'
 
 
+def result_row(r):
+    x = r["results"]
+    div, opr = (x["division"], f'{x["division_opr"]:.2f}') if x["division"] else ("did not play", "")
+    return f'<tr><td class="n">{x["opr_rank"] or ""}</td><td><a href="{r["team"]}/">{E(label(r))}</a></td><td>{div}</td><td class="n">{opr}</td><td class="n">{x["record"]}</td></tr>'
+
+
 def season_page(y, s):
     rows = "".join(f'<tr><td>{E(o["label"])}</td><td class="n">{o.get("auto_points", "")}</td><td class="n">{o.get("teleop_points", "")}</td><td>{E(o.get("note", ""))}</td></tr>' for o in s["objectives"])
     pieces = ", ".join(f'{E(p["id"])} ({E(p["shape"])}, {E(p["size"])}, {E(p["compliance"])})' for p in s["pieces"])
-    cards = "".join(card(r, "../") for r in ranked(y))
+    top, also = split(y)
+    cards = "".join(card(r, "../") for r in top)
+    more = f'<h2 id="also">{ALSO}</h2><p>{WHY} <a href="../about/#added">How these were chosen</a>.</p><div class="cards">{"".join(card(r, "../") for r in also)}</div>' if also else ""
     by = ""
     for f in FUNCTIONS:
         ms = [(r, m) for r in ranked(y) for m in r["functions"] if m["does"][0] == f]
         if ms:
             by += f'<h3 id="{f}">{f.title()}</h3><p class="muted">{QUESTION[f]}</p><div class="scroll"><table><tr><th>Robot</th><th>Mechanism</th><th>Type</th></tr>' + "".join(
                 f'<tr><td><a href="{r["team"]}/">{r["team"]}</a></td><td><a href="{r["team"]}/#{slug(m["name"])}">{E(m["name"])}</a></td><td>{E(m["type"])}</td></tr>' for r, m in ms) + "</table></div>"
-    res = "".join(f'<tr><td class="n">{r["results"]["opr_rank"]}</td><td><a href="{r["team"]}/">{E(label(r))}</a></td><td>{r["results"]["division"]}</td><td class="n">{r["results"]["division_opr"]:.2f}</td><td class="n">{r["results"]["record"]}</td></tr>' for r in ranked(y))
+    res = "".join(result_row(r) for r in top) + (f'<tr><th colspan="5">{ALSO}</th></tr>' + "".join(result_row(r) for r in also) if also else "")
     body = f"""<div class="season-head">{ART[y]}<h1><span>{y}</span>{s["name"].title()}</h1></div>
 <h2>The game</h2><p>Pieces: {pieces}. Scoring is restated from the <a href="{s["manual"]["url"]}">official manual</a>.</p>
 <div class="sheet scroll"><table><tr><th>Objective</th><th>Auto</th><th>Later</th><th></th></tr>{rows}</table></div>
 <h2>The robots</h2><div class="cards">{cards}</div>
+{more}
 {f'<h2>Compared by job</h2><div class="sheet">{by}</div>' if by else ''}
 <h2>Results</h2><div class="sheet scroll"><table><tr><th>Rank</th><th>Team</th><th>Division</th><th>OPR</th><th>Record</th></tr>{res}</table></div><p class="muted" style="margin-top:1rem">Rank is by OPR in the championship division qualification matches. OPR credits points partners scored, so close ranks mean little. <a href="../about/">How the 20 were chosen</a>.</p>"""
-    page(f"{y}/index.html", f"{y} {s['name'].title()} - FRC bot compendium", body, 1, y, f"The top 20 robots of {y} {s['name'].title()}.")
+    page(f"{y}/index.html", f"{y} {s['name'].title()} - FRC bot compendium", body, 1, y, f"The top robots of {y} {s['name'].title()}.")
 
 
 def robot_page(r):
@@ -172,7 +193,13 @@ def robot_page(r):
         pic = f'<figure><div class="pic">{ART[y]}</div></figure>'
         credit = '<p class="credit">No picture of this robot is cleared to show. Try the video and photo pages below.</p>'
     ein = f'{res["einstein"]["role"].capitalize()}, {res["einstein"]["division"]} alliance' if res.get("einstein") else "No"
-    facts = [("Season record", res["record"]), ("Division", f'{res["division"]}, OPR {res["division_opr"]:.2f}'), ("Top 20 rank", str(res["opr_rank"])), ("On Einstein", ein)]
+    facts = [("Season record", res["record"]), ("Division", f'{res["division"]}, OPR {res["division_opr"]:.2f}' if res["division"] else "Did not play at the championship"), ("On Einstein", ein)]
+    if res.get("added"):
+        facts.insert(2, ("Listed for", f"Rank {res['added']['rank']} in our {'season' if res['added']['why'] == 'season' else 'season and championship'} rating"))
+        if res["opr_rank"]:
+            facts.insert(3, ("Championship OPR rank", str(res["opr_rank"])))
+    else:
+        facts.insert(2, ("Top 20 rank", str(res["opr_rank"])))
     if r.get("variant"):
         facts.append(("Variant", r["variant"]))
     body = f"""<div class="robot-head"><div class="stand">{pic}<span class="bumper">{r["team"]}</span></div><div><h1>{E(name or label(r))}<span>{E(label(r)) + ', ' if name else ''}<a href="../">{y} {s["name"].title()}</a></span></h1><dl class="facts">{"".join(f"<dt>{E(a)}</dt><dd>{E(b)}</dd>" for a, b in facts)}</dl><p style="margin-top:1rem"><a href="../../teams/{r["team"]}/">Team {r["team"]} in other seasons</a></p>{credit}</div></div>"""
@@ -251,16 +278,18 @@ def team_pages():
     lst = "".join(f'<li><a href="{t}/">{E(label(rs[0]))}</a></li>' for t, rs in sorted(TEAMS.items(), key=lambda kv: int(kv[0])))
     page("teams/index.html", "Teams - FRC bot compendium", f'<div class="season-head" style="grid-template-columns:1fr"><h1>Teams</h1></div><ul class="chips">{lst}</ul>', 1, desc="All teams in the compendium.")
     for t, rs in TEAMS.items():
-        page(f"teams/{t}/index.html", f"{label(rs[0])} - FRC bot compendium", f'<div class="season-head" style="grid-template-columns:1fr"><h1><span>Team {t}</span>{E(rs[0]["team_name"])}</h1></div><div class="cards">{"".join(card(r, "../../") for r in rs)}</div><p class="muted" style="margin-top:2rem">Only seasons when this team ranked in the top 20 are listed.</p>', 2, desc=f"{label(rs[0])}'s robots in the compendium.")
+        page(f"teams/{t}/index.html", f"{label(rs[0])} - FRC bot compendium", f'<div class="season-head" style="grid-template-columns:1fr"><h1><span>Team {t}</span>{E(rs[0]["team_name"])}</h1></div><div class="cards">{"".join(card(r, "../../") for r in rs)}</div><p class="muted" style="margin-top:2rem">Only seasons when this team is in the compendium are listed.</p>', 2, desc=f"{label(rs[0])}'s robots in the compendium.")
 
 
 def about():
+    n_added = sum(bool(r["results"].get("added")) for r in RS.values())
     body = """<div class="season-head" style="grid-template-columns:1fr"><h1>About</h1></div>
 <p>The compendium helps people, and programs that help them, find how other teams solved a step of robot design: what they built, why, what it cost, and where to study it.</p>
 <h2>How the 20 were chosen</h2><p>For each season, the OPR tables of the championship division pages (eight divisions, six in 2022) on The Blue Alliance are pooled, and the 20 highest are kept. We recomputed OPR from every division's qualification scores and it matched to two decimals in all 38 divisions. OPR credits partners' points to a robot, and teams that missed the championship cannot appear. The cut is close: the 20th and 21st robots differ by 0.03 in 2022, 0.01 in 2024 and 0.04 in 2026.</p>
+<h2 id="added">The added robots</h2><p>Each robot plays about ten championship qualification matches, so luck with partners moves the cut. We also rated every robot over its whole season (968 events) and averaged that with championship OPR, weighing each by how uncertain it is. Robots in the top 20 of that blended rating that the OPR list misses are added after the 20, and so are robots in the season's top 20 that did not play in a championship division. That adds {n_added} robots. The 20 keep their places.</p><p>The blended rating is good enough to add a robot, not to rank one. On 658 championship playoff matches that neither rating had used, it picked the winner 64.1% of the time and OPR 62.5%. A gap that size could be chance (95% range -1.4 to +4.9 points). Both ratings see scoring only, so a strong defender can be missed. The code is <code>tools/roster/season.py</code>.</p>
 <h2>How to read a page</h2><p>A statement with only a source number is the team's own claim, not a measurement. Others are tagged. <span class="tag observer">observer says</span> is someone else. <span class="tag record">on record</span> comes from results or rules. <span class="tag inference">our reading</span> is our inference, with its sources.</p><p>Threads about one robot were read to the end; threads covering many robots were searched for each one. A thread we did not find or could not capture can still hold a correction. Each claim was checked against its source by a reader who did not write it.</p><p>Parts of the story with no source are listed once under "What isn't public", with where we looked. Not found does not mean it does not exist.</p>
 <h2>Pictures and files</h2><p>Pictures load from the sites where they were published and link back there. Each was looked at first, and pictures with recognizable faces were left out. If your team wants something changed or removed, say so and it will be.</p><p>CAD and files are links only. Fusion is marked only when the link is an Autodesk share link. "Not opened by us" means we saw the link on a page but did not open the file.</p>
-<h2>Fonts</h2><p>Anybody, Hanken Grotesk, JetBrains Mono and Sofia Sans Extra Condensed, under the <a href="../fonts/OFL.txt">SIL Open Font License 1.1</a>.</p>"""
+<h2>Fonts</h2><p>Anybody, Hanken Grotesk, JetBrains Mono and Sofia Sans Extra Condensed, under the <a href="../fonts/OFL.txt">SIL Open Font License 1.1</a>.</p>""".replace("{n_added}", str(n_added))
     page("about/index.html", "About - FRC bot compendium", body, 1, desc="How robots were chosen and how to read a page.")
     page("404.html", "Not found - FRC bot compendium", '<div class="lead"><h1>Wrong pit</h1><p>That page is not here. Start from the <a href="/frc-bot-compendium/">wall of bumpers</a>.</p></div>', 0)
 
@@ -275,12 +304,12 @@ def data():
 
     w(d / "examples.json", ex)
     w(d / "seasons.json", list(SS.values()))
-    w(d / "index.json", [{"id": r["id"], "season": r["season"], "team": r["team"], "team_name": r["team_name"], "robot": r.get("robot_name"), "page": f"{r['season']}/{r['team']}/", "record": f"data/robots/{r['id']}.json", "mechanisms": len(r["functions"]), "decisions": len(r["decisions"])} for r in RS.values()])
+    w(d / "index.json", [{"id": r["id"], "season": r["season"], "team": r["team"], "team_name": r["team_name"], "robot": r.get("robot_name"), "list": "added" if r["results"].get("added") else "top20", "page": f"{r['season']}/{r['team']}/", "record": f"data/robots/{r['id']}.json", "mechanisms": len(r["functions"]), "decisions": len(r["decisions"])} for r in RS.values()])
     for y in SS:
         w(d / f"{y}.json", [e for e in ex if e["season"] == y])
     for r in RS.values():
         w(d / f"robots/{r['id']}.json", r)
-    (DIST / "llms.txt").write_text("# FRC bot compendium\n\nDesign examples from the top 20 FRC robots of each season, 2022 to 2026. An example is a precedent to study under its own season's rules, not a design to copy.\n\n## Data\n- data/examples.json: every mechanism and decision. Fields: id, kind, name, type, functions, pieces, serves, solves, facts, cost, basis, sources, season, team, outcome, study (CAD, documents, code, graphics links). claims lists every statement with its part, basis and source URLs: use it to tell a team claim from anyone else's.\n- data/<year>.json: the same for one season. data/seasons.json: pieces and objectives.\n- data/index.json: all robots. data/robots/<year>-<team>.json: one full record.\n\n## Functions\n" + "".join(f"- {f}: {QUESTION[f]}\n" for f in FUNCTIONS) + "\n## Basis\nteam = the team's claim; observer = someone else; record = results or rules; inference = this site's reading.\n", encoding="utf-8")
+    (DIST / "llms.txt").write_text("# FRC bot compendium\n\nDesign examples from the top 20 FRC robots of each season, 2022 to 2026, and added robots that were strong all season but outside that 20. An example is a precedent to study under its own season's rules, not a design to copy.\n\n## Data\n- data/examples.json: every mechanism and decision. Fields: id, kind, name, type, functions, pieces, serves, solves, facts, cost, basis, sources, season, team, outcome, study (CAD, documents, code, graphics links). claims lists every statement with its part, basis and source URLs: use it to tell a team claim from anyone else's.\n- data/<year>.json: the same for one season. data/seasons.json: pieces and objectives.\n- data/index.json: all robots; list is top20 or added. data/robots/<year>-<team>.json: one full record.\n\n## Functions\n" + "".join(f"- {f}: {QUESTION[f]}\n" for f in FUNCTIONS) + "\n## Basis\nteam = the team's claim; observer = someone else; record = results or rules; inference = this site's reading.\n", encoding="utf-8")
     (DIST / ".nojekyll").write_text("")
 
 

@@ -1,0 +1,96 @@
+{
+  "id": "2022-4414",
+  "season": 2022,
+  "team": "4414",
+  "team_name": "HighTide",
+  "robot_name": null,
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 4414 in 2022",
+      "url": "https://www.thebluealliance.com/team/4414/2022",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Turing Division 2022",
+      "url": "https://www.thebluealliance.com/event/2022tur",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "outcome": [
+      {
+        "text": "68-8-1 in official play; won the Turing division; pick 1 of the Turing alliance on Einstein; championship finalist; ranked 22 by championship OPR (55.95, Turing).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [],
+  "decisions": [],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/3uEONcK",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/EOE34N4",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video listed on the team page (not watched)",
+        "url": "https://www.youtube.com/watch?v=0e666EBIfzE",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/team4414",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)"
+  ],
+  "results": {
+    "division": "Turing",
+    "division_opr": 55.95,
+    "opr_rank": 22,
+    "record": "68-8-1",
+    "einstein": {
+      "division": "Turing",
+      "role": "pick 1"
+    },
+    "added": {
+      "why": "blended",
+      "rank": 20
+    },
+    "note": "Listed beside the top 20: 22nd by championship OPR, but 20th of the championship robots in our rating that also counts the rest of its season. The rating sees scoring only.",
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}
