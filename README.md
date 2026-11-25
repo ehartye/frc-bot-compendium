@@ -14,6 +14,6 @@ Python 3.14, standard library only.
 
 Robots belong to the teams that built them. Pictures are loaded from where teams published them; nothing is copied here. Not affiliated with or endorsed by FIRST. To have something changed or removed, open an issue.
 
-Fonts in `site/fonts` are Sofia Sans Extra Condensed, Schibsted Grotesk and Martian Mono, under the SIL Open Font License 1.1.
+Fonts in `site/fonts` are Anybody, Hanken Grotesk, JetBrains Mono and Sofia Sans Extra Condensed, under the SIL Open Font License 1.1 (`site/fonts/OFL.txt`).
 
 The code and text in this repository are under the MIT License (see `LICENSE`). It does not cover the robots, or the pictures, CAD, code and documents that teams published and this site links to.
