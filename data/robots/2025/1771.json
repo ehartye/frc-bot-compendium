@@ -1,0 +1,588 @@
+{
+  "id": "2025-1771",
+  "season": 2025,
+  "team": "1771",
+  "team_name": "North Gwinnett Robotics",
+  "robot_name": "Driftwood",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 1771 in 2025",
+      "url": "https://www.thebluealliance.com/team/1771/2025",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Curie Division 2025",
+      "url": "https://www.thebluealliance.com/event/2025cur",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "1771 North Gwinnett Robotics | Behind the Bumpers | 2025 FRC REEFSCAPE Robot (auto-captions)",
+      "url": "https://www.youtube.com/watch?v=2W807-oy25U",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "How did 2056 win a banner as a 6th Captain? (Curie match, auto-captions)",
+      "url": "https://www.youtube.com/watch?v=dB1lmxKE_I0",
+      "publisher": "RoboReplay",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "What's the best way to make a twisting wrist or arm, post 3",
+      "url": "https://www.chiefdelphi.com/t/501812/3",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "North Gwinnett Robotics home page (photo captions)",
+      "url": "https://team1771.com",
+      "publisher": "North Gwinnett Robotics",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/WXirrh6",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/drXHkNG",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/nLR1B0r",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "A wrist and a pivot on one carriage: the wrist to score L1 extremely effectively, the pivot to take coral from both the station and a floor intake.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "Scoring all four levels of the reef came first. Wanting very effective L1 led to the wrist, and wanting some ground intake as well as a station feed led to the pivot.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The carriage loads at the station from its front or back, whichever is closer, or takes a handoff from the coral intake. The driver just sends the robot to score, and it scores in the next best spot it has tracked on the reef.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "In a Curie playoff match against alliance 1 an analyst says everyone hit their climbs.",
+        "basis": "observer",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "In that match, as captain, it trapped 3005 with flat bumper contact against the wall and later passed the job to 3478, giving up its own scoring for a while, the analyst says; he credits the plan to backup 166.",
+        "basis": "observer",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "Two elevator stages do not quite reach to dump coral straight onto L4, so it slides the coral back and goes around the corner.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      },
+      {
+        "text": "Control was probably the most difficult part: a pivot move at the wrong time could rip the arm in half or take out the elevator cross brace.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "65-6-0 in official play; won the Curie division; captain of the Curie alliance on Einstein; ranked 37 by championship OPR (91.80, Curie).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Elevator",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "continuous two-stage elevator",
+      "serves": [
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "Continuous two-stage, inspired by 4414's elevator from 2023",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Does not quite have the height to dump coral straight onto L4",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pivot",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Use both a station feed and a ground intake",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "position",
+        "transfer"
+      ],
+      "type": "pivot on the carriage",
+      "serves": [
+        "reef-branches",
+        "reef-l1"
+      ],
+      "facts": [
+        {
+          "text": "Works to the front and the back, so the driver can come to the station with either side",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Takes coral from the station at an up angle and from the coral intake by handoff",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "On an elevator it leaves a lot of room for collisions",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wrist",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Score L1 extremely effectively",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "transfer",
+        "deliver"
+      ],
+      "type": "twisting wrist",
+      "serves": [
+        "reef-l1"
+      ],
+      "facts": [
+        {
+          "text": "Lets the robot spit coral directly onto the L1 shelf",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "A forum poster judged the twist very well packaged with the carriage and end effector, and guessed from pictures at a 20DP gear train on a Kraken",
+          "basis": "observer",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "An analyst of a Curie playoff match calls the alliance's L1 scoring very strong because of how 1771 and 3276 score L1",
+          "basis": "observer",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Adding it was a difficult decision",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "End effector",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Hold both pieces in one end effector",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "retain",
+        "deliver"
+      ],
+      "type": "passive end effector with wheels",
+      "serves": [
+        "reef-branches",
+        "reef-l1"
+      ],
+      "facts": [
+        {
+          "text": "Passive: surgical tubing lets it open for coral and algae",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Wheels on the top pull coral in from the human player station and take the handoff from the intake",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "A centering wheel also shoots algae",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Coral centering",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Have coral in the same place every time it is shot",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "retain"
+      ],
+      "type": "two distance sensors and a wheel",
+      "serves": [
+        "reef-branches",
+        "reef-l1"
+      ],
+      "facts": [
+        {
+          "text": "Two CANrange sensors act as one-sided beam breaks",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "If only one side sees coral, the wheel slides it until both do",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "The team says this is 100% consistent",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "For L4 the coral is slid back",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "State graph",
+      "solves": [
+        {
+          "text": "Keep a pivot on an elevator from colliding",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "position"
+      ],
+      "type": "graph of safe states",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Only transitions between states joined by an edge are allowed",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "It starts from nothing allowed and adds only what has been tested, so a match never enters an untested state",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reef tracker",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Take the choice of where to score away from the driver",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "reef state model with operator input",
+      "serves": [
+        "reef-branches",
+        "reef-l1"
+      ],
+      "facts": [
+        {
+          "text": "The robot records what it has done; the operator can mark places scored or algae removed",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Objectives can be set: about seven on each level for a ranking point and then L4, L4 first in eliminations, or the closest space from the highest level down",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Add a wrist",
+      "because": "it wanted L1 extremely effective",
+      "cost": "a difficult decision",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "Add a pivot",
+      "because": "it wanted some ground intake as well as a station feed",
+      "cost": "a lot of room for collisions",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "Allow only tested state transitions",
+      "because": "every state in a match has then been tested",
+      "instead_of": "allowing everything and cutting out what is dangerous",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "Tell the robot where not to score",
+      "because": "there is very little time to decide after picking up a piece",
+      "instead_of": "telling the robot where to score",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "As captain, defend 3005 instead of scoring for part of a Curie playoff match",
+      "because": "it took away 3005's scoring, an analyst says; he credits the plan to the alliance's backup robot, 166",
+      "basis": "observer",
+      "src": [
+        "s4"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Behind the Bumpers interview, championship (captions read)",
+        "url": "https://www.youtube.com/watch?v=2W807-oy25U",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Reveal video titled \"1771 2025 Reveal Driftwood\" (not watched)",
+        "url": "https://www.youtube.com/watch?v=uqmYobZdajo",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Robot on the field, arm lowered to the intake, red bumpers",
+        "url": "https://imgur.com/WXirrh6",
+        "img": "https://i.imgur.com/WXirrh6h.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s7",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot beside a banner, red bumpers",
+        "url": "https://imgur.com/drXHkNG",
+        "img": "https://i.imgur.com/drXHkNGh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot on the field holding a coral, red bumpers",
+        "url": "https://imgur.com/nLR1B0r",
+        "img": "https://i.imgur.com/nLR1B0rh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s9",
+        "kind": "robot-photo",
+        "hero": true
+      }
+    ],
+    "documents": [
+      {
+        "what": "Team home page; a photo caption names the 2025 robot Driftwood",
+        "url": "https://team1771.com",
+        "format": "web page",
+        "state": "opened",
+        "src": "s6"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/team1771",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "web, video and forum searches for a 2025 CAD release, binder, code, recap or article; the team sites and GitHub organization"
+  ],
+  "results": {
+    "division": "Curie",
+    "division_opr": 91.8,
+    "opr_rank": 37,
+    "record": "65-6-0",
+    "einstein": {
+      "division": "Curie",
+      "role": "captain"
+    },
+    "added": {
+      "why": "blended",
+      "rank": 19
+    },
+    "note": "Listed beside the top 20: 37th by championship OPR, but 19th of the championship robots in our rating that also counts the rest of its season. The rating sees scoring only.",
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

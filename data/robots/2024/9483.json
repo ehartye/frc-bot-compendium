@@ -1,0 +1,588 @@
+{
+  "id": "2024-9483",
+  "season": 2024,
+  "team": "9483",
+  "team_name": "İstanbul Wildcats",
+  "robot_name": "Snapfire",
+  "variant": "Competed in 2024 as İstanbul Wildcats (formerly Beşiktaş Rsports); the team is now listed as Overcharge",
+  "sources": {
+    "s1": {
+      "title": "Team 9483 in 2024",
+      "url": "https://www.thebluealliance.com/team/9483/2024",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Milstein Division 2024",
+      "url": "https://www.thebluealliance.com/event/2024mil",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "9483 İstanbul Wildcats | Behind the Bumpers | FRC CRESCENDO Robot (garbled auto-captions)",
+      "url": "https://www.youtube.com/watch?v=GaLm00wcnVE",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "9483 auto video thread, post 13",
+      "url": "https://www.chiefdelphi.com/t/454957/13",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "9483 auto video thread, post 14",
+      "url": "https://www.chiefdelphi.com/t/454957/14",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Team 9483 presents Snapfire, post 14",
+      "url": "https://www.chiefdelphi.com/t/457771/14",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Team 9483 presents Snapfire, post 10",
+      "url": "https://www.chiefdelphi.com/t/457771/10",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "The search after good shooting robots, post 18",
+      "url": "https://www.chiefdelphi.com/t/509590/18",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Team 9483 presents Snapfire, post 19",
+      "url": "https://www.chiefdelphi.com/t/457771/19",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Team 9483 presents Snapfire",
+      "url": "https://www.chiefdelphi.com/t/457771",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "9483 auto video thread, February 2024",
+      "url": "https://www.chiefdelphi.com/t/454957",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Team 9483 presents Snapfire, post 15",
+      "url": "https://www.chiefdelphi.com/t/457771/15",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "Team 9483 robots page",
+      "url": "https://www.frc9483.com/robots.html",
+      "publisher": "Team 9483",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "Team 9483 presents Snapfire, post 12",
+      "url": "https://www.chiefdelphi.com/t/457771/12",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Give the driver less to do: climbing, the amp and shooting run automatically, using pose estimation as much as possible.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "More than 10 autos to select.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      },
+      {
+        "text": "A reply to a February video, before the robot's reveal, compares it with the replier's own seven-note auto.",
+        "basis": "observer",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "The team says it ran slightly out of time for an eighth note, and was unsure an eighth was worth it, since such autos would not be part of higher-level play.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "A sensor in the feeder sees the note and the shooter starts. Shooting angle and speed are set automatically. For the amp, the note stays at the intake and leaves like an outtake.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "The driver goes straight to the chain and pushes one button; the climb then runs by itself.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "When vision has trouble, the robot can still predict its location.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "The climber is one shot: once opened it cannot be closed again.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      },
+      {
+        "text": "The team called its amp scoring probably its weakest link.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "37-9-0 in official play; won the Milstein division; pick 1 of the Milstein alliance on Einstein; ranked 53 by championship OPR (46.94, Milstein).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Intake",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Grip notes with light rollers that do not break",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "transfer"
+      ],
+      "type": "roller intake on a pivot",
+      "serves": [
+        "speaker",
+        "amp"
+      ],
+      "facts": [
+        {
+          "text": "Six rollers; the front ones carry cat-tongue tape for grip, since polycarbonate has little",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Aluminum shafts in the rollers keep them from breaking",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "The pivot ratio is heard as about 1 to 7",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "In one practice match the intake took a big hit and was clearly broken; the pit students had spares out before the match ended",
+          "basis": "observer",
+          "src": [
+            "s7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Shoot from a range of places with automatic aim",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "deliver",
+        "position"
+      ],
+      "type": "pivoting dead-axle shooter",
+      "serves": [
+        "speaker"
+      ],
+      "facts": [
+        {
+          "text": "Dead axle with an aluminum tube and cat tongue",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Angle goes from about 17 to about 65 (degrees not spoken)",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Angle and speed are automatic",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "A forum poster lists 9483 among the 2024 robots to study for shooting",
+          "basis": "observer",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Amp scoring from the intake",
+      "pieces": [
+        "note"
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "intake outtake",
+      "serves": [
+        "amp"
+      ],
+      "facts": [
+        {
+          "text": "A button activates the sensors on the intake; the note stays there and leaves like an outtake",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Pose estimation lines the robot up for it",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "The season ended with the geometry drawn in CAD at its start",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "A forum poster says the team proved amp scoring from the intake could be done consistently; the team still calls it its weakest link",
+          "basis": "observer",
+          "src": [
+            "s14"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Probably the robot's weakest link, by the team's own account",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Climb with one button",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "one-shot climber",
+      "serves": [
+        "onstage"
+      ],
+      "facts": [
+        {
+          "text": "The driver goes directly to the chain and pushes a button; the rest is automatic",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "One shot: once opened it cannot be closed again",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pose estimation",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Reduce manual control and raise accuracy and consistency",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "position"
+      ],
+      "type": "vision, gyro and wheel odometry",
+      "serves": [
+        "speaker",
+        "amp"
+      ],
+      "facts": [
+        {
+          "text": "Limelights give position, a Pigeon 2 gives rotation and swerve encoders give distance",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Cameras are set at an angle to increase the field of view",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Used for shooting, for the amp, in auto and in teleop",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chassis layout",
+      "solves": [
+        {
+          "text": "Avoid tipping, notes stuck under the robot and damage in collisions",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "structure",
+        "drive"
+      ],
+      "type": "swerve with central electronics",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Weight is centered and kept close to the ground",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "The electrical board and power distribution sit in the center, away from collisions",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Little to no limits on the drive motors, as far as the writer remembers",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "A one-shot climber",
+      "because": "the driver only drives to the chain and pushes a button",
+      "cost": "once opened it cannot be closed again",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "Finish the robot as early as possible",
+      "because": "it improves driving",
+      "basis": "team",
+      "src": [
+        "s9"
+      ]
+    },
+    {
+      "choice": "Cat-tongue tape on the front intake rollers",
+      "because": "polycarbonate rollers alone have little grip",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/xNRCPcN",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Behind the Bumpers interview, championship (captions read)",
+        "url": "https://www.youtube.com/watch?v=GaLm00wcnVE",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Snapfire reveal (the team's robots page lists this address as its 7.5-note auto)",
+        "url": "https://www.youtube.com/watch?v=8yha1qAHkDs",
+        "format": "video",
+        "state": "listed",
+        "src": "s10"
+      },
+      {
+        "what": "Auto video, February 2024, before the reveal (not watched)",
+        "url": "https://www.youtube.com/watch?v=gJhbDuOYNgo",
+        "format": "video",
+        "state": "listed",
+        "src": "s11"
+      },
+      {
+        "what": "Video posted in the Snapfire thread, May 2024 (not watched)",
+        "url": "https://youtu.be/QSppnOxWbDg",
+        "format": "video",
+        "state": "listed",
+        "src": "s12"
+      },
+      {
+        "what": "Full robot, shooter rollers and intake, black bumpers",
+        "url": "https://www.frc9483.com/robots.html",
+        "img": "https://www.frc9483.com/img/snapfire.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s13",
+        "kind": "robot-photo",
+        "hero": true
+      }
+    ],
+    "documents": [
+      {
+        "what": "Snapfire thread, read in full",
+        "url": "https://www.chiefdelphi.com/t/457771",
+        "format": "thread",
+        "state": "opened",
+        "src": "s10"
+      },
+      {
+        "what": "Team robots page, 2024 section",
+        "url": "https://www.frc9483.com/robots.html",
+        "format": "web page",
+        "state": "opened",
+        "src": "s13"
+      }
+    ],
+    "code": []
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "web, video and forum searches in English and Turkish for a 2024 CAD release, binder, code or article on Snapfire"
+  ],
+  "results": {
+    "division": "Milstein",
+    "division_opr": 46.94,
+    "opr_rank": 53,
+    "record": "37-9-0",
+    "einstein": {
+      "division": "Milstein",
+      "role": "pick 1"
+    },
+    "added": {
+      "why": "blended",
+      "rank": 18
+    },
+    "note": "Listed beside the top 20: 53rd by championship OPR, but 18th of the championship robots in our rating that also counts the rest of its season. The rating sees scoring only.",
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

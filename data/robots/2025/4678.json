@@ -1,0 +1,591 @@
+{
+  "id": "2025-4678",
+  "season": 2025,
+  "team": "4678",
+  "team_name": "CyberCavs",
+  "robot_name": "Orville",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 4678 in 2025",
+      "url": "https://www.thebluealliance.com/team/4678/2025",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "4678 CyberCavs | Behind the Bumpers | 2025 FRC REEFSCAPE (automatic captions)",
+      "url": "https://www.youtube.com/watch?v=r0WVD0loIB8",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "Algae is Setting World Records - FUNalysis - Ontario Waterloo (automatic captions)",
+      "url": "https://www.youtube.com/watch?v=Q9OMYPmPONE",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "2025 University of Waterloo District Event",
+      "url": "https://teamdave.ca/2025/04/22/2025-university-of-waterloo-district-event/",
+      "publisher": "Team 3683",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Waterloo world record thread, 2025, post 18",
+      "url": "https://www.chiefdelphi.com/t/496424/18",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Woodland4678/CyberCavs_2025",
+      "url": "https://github.com/Woodland4678/CyberCavs_2025",
+      "publisher": "CyberCavs on GitHub",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Insane Gripper and Positioning by 4678 CyberCavs",
+      "url": "https://www.youtube.com/watch?v=27IfJvlQxXk",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "demand": [
+      {
+        "text": "In a Waterloo match with a world record score of 249 at the time, a host says it and a third robot concentrated on coral and filling the reef while 3683 took the algae and scored coral as well.",
+        "basis": "observer",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "In two Waterloo matches it and 3683 scored seven coral between them in auto.",
+        "basis": "observer",
+        "src": [
+          "s3"
+        ]
+      },
+      {
+        "text": "A poster reports an eight-piece auto between the two in a Waterloo playoff match.",
+        "basis": "observer",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "It drives up to the feeder station and shoves a coral down the chute straight into the end effector. The operator picks a branch and a level on a custom controller; a distance sensor and a camera align the robot to the reef.",
+        "basis": "team",
+        "src": [
+          "s2"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "A gas spring pushes the climber out, its jaws grab the cage and a motor winds it in; a ratchet holds once power is cut.",
+        "basis": "team",
+        "src": [
+          "s2"
+        ]
+      },
+      {
+        "text": "A host shows it on a deep climb in two Waterloo matches.",
+        "basis": "observer",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "One controller button forces a position if auto align does not work.",
+        "basis": "team",
+        "src": [
+          "s2"
+        ]
+      },
+      {
+        "text": "With a coral on the floor between it and the station, pushing hard enough should still get the coral into the chute.",
+        "basis": "team",
+        "src": [
+          "s2"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "Eight iterations of the end effector: the first was heavy, one had the coral pivot too far back, the fourth had four wheels that gripped only at their edges.",
+        "basis": "team",
+        "src": [
+          "s2"
+        ]
+      },
+      {
+        "text": "Bevel gears went from all ABS to UHMW hubs and nylon next to the motor.",
+        "basis": "team",
+        "src": [
+          "s2"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "50-3-0 in official play; won the Ontario District Championship; did not play in a championship division.",
+        "basis": "record",
+        "src": [
+          "s1"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Chute",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Get coral from the feeder station into the end effector as fast as possible",
+          "basis": "team",
+          "src": [
+            "s2"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "coral chute on gas shocks, released by the arm",
+      "serves": [
+        "reef-branches",
+        "reef-l1"
+      ],
+      "facts": [
+        {
+          "text": "Starts within the bumpers, hooked on the arm, and comes out when the arm rises",
+          "basis": "team",
+          "src": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Gas shocks let the robot ram the station: they absorb some of the blow and give more time",
+          "basis": "team",
+          "src": [
+            "s2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cantilevered arm",
+      "solves": [
+        {
+          "text": "Reach any height quickly",
+          "basis": "team",
+          "src": [
+            "s2"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "elevator at one side with an arm on its end",
+      "serves": [
+        "reef-l1",
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "Rest to L4 in about",
+          "basis": "team",
+          "src": [
+            "s2"
+          ],
+          "value": 0.5,
+          "unit": "s"
+        }
+      ]
+    },
+    {
+      "name": "End effector",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Hold coral well, weigh less than the first version and take coral anywhere along it",
+          "basis": "team",
+          "src": [
+            "s2"
+          ]
+        }
+      ],
+      "does": [
+        "retain",
+        "deliver"
+      ],
+      "type": "three-wheel coral gripper driven by printed bevel gears",
+      "serves": [
+        "reef-l1",
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "Three wheels hold the coral; the current version holds it really well",
+          "basis": "team",
+          "src": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Bevel gears: ABS with a milled UHMW hub, and nylon next to the motor",
+          "basis": "team",
+          "src": [
+            "s2"
+          ]
+        },
+        {
+          "text": "All-ABS hubs broke too quickly",
+          "basis": "team",
+          "src": [
+            "s2"
+          ]
+        },
+        {
+          "text": "PETG with carbon fiber was too brittle and sheared its teeth; nylon gives a little under torque",
+          "basis": "team",
+          "src": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Not too hard to fix if a bevel gear breaks",
+          "basis": "team",
+          "src": [
+            "s2"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "A little heavier than the four-wheel version, which held the coral poorly",
+          "basis": "team",
+          "src": [
+            "s2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Algae handling",
+      "pieces": [
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Clear algae from the reef, and score the processor when coopertition points are needed",
+          "basis": "team",
+          "src": [
+            "s2"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "deliver"
+      ],
+      "type": "arm knock-off and bumper carry",
+      "serves": [
+        "processor"
+      ],
+      "facts": [
+        {
+          "text": "Swings the arm up to knock off high algae, and brings it down to take low algae off and throw it aside",
+          "basis": "team",
+          "src": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Pulls algae from the floor onto the bumper, where two bars hold it",
+          "basis": "team",
+          "src": [
+            "s2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Grab the cage in a consistent place and stay up when power is cut",
+          "basis": "team",
+          "src": [
+            "s2"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "gas-spring jaws with a winch and a power-off ratchet",
+      "serves": [
+        "cage"
+      ],
+      "facts": [
+        {
+          "text": "A gas spring pushes it out and elastics open the jaws",
+          "basis": "team",
+          "src": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Feet rest on the bottom of the cage so the claws do not slide",
+          "basis": "team",
+          "src": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Slanted polycarbonate sheets guide the cage between the jaws",
+          "basis": "team",
+          "src": [
+            "s2"
+          ]
+        },
+        {
+          "text": "A Kraken winds Dyneema cord on a spool",
+          "basis": "team",
+          "src": [
+            "s2"
+          ]
+        },
+        {
+          "text": "A solenoid pushes into the ratchet when power is cut",
+          "basis": "team",
+          "src": [
+            "s2"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Someone has to reset the ratchet after the match",
+          "basis": "team",
+          "src": [
+            "s2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Auto align",
+      "solves": [
+        {
+          "text": "Align with the branch the operator picked",
+          "basis": "team",
+          "src": [
+            "s2"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "distance sensor and camera alignment",
+      "serves": [
+        "reef-l1",
+        "reef-branches"
+      ],
+      "facts": [
+        {
+          "text": "A distance sensor, captioned \"LAR\", feeds a P loop towards the reef",
+          "basis": "team",
+          "src": [
+            "s2"
+          ]
+        },
+        {
+          "text": "A camera gives the yaw to the tag; trigonometry gives the sideways distance, corrected for rotation error, for a PD loop",
+          "basis": "team",
+          "src": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Each reef button sets the tag, the side to approach and the rotation",
+          "basis": "team",
+          "src": [
+            "s2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Custom operator controller",
+      "solves": [
+        {
+          "text": "Pick a reef position and a level",
+          "basis": "team",
+          "src": [
+            "s2"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "3D-printed button controller",
+      "serves": [],
+      "facts": [
+        {
+          "text": "A ring of buttons stands for the reef, with four level buttons, rest and intake",
+          "basis": "team",
+          "src": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Climber buttons sit behind a lock switch, and the climber locks when the robot is disabled",
+          "basis": "team",
+          "src": [
+            "s2"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Meant to be handheld, it was not as comfortable as expected and stays on the driver station",
+          "basis": "team",
+          "src": [
+            "s2"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Three-wheel end effector",
+      "because": "with four wheels the coral met only the edges of the wheels and was not held well",
+      "instead_of": "a very light four-wheel version",
+      "cost": "a little more weight",
+      "basis": "team",
+      "src": [
+        "s2"
+      ]
+    },
+    {
+      "choice": "Nylon bevel gears next to the motor",
+      "because": "nylon moves a little under torque and does not shear",
+      "instead_of": "PETG with carbon fiber, which is stronger but too brittle",
+      "basis": "team",
+      "src": [
+        "s2"
+      ]
+    },
+    {
+      "choice": "UHMW hubs in the bevel gears",
+      "because": "printed ABS hubs broke too quickly",
+      "instead_of": "gears made entirely of ABS",
+      "basis": "team",
+      "src": [
+        "s2"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/RQHSeDD",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Reveal video, \"Orville\" (not watched)",
+        "url": "https://www.youtube.com/watch?v=-5fMrgzJu8o",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Behind the Bumpers interview (transcript read)",
+        "url": "https://www.youtube.com/watch?v=r0WVD0loIB8",
+        "format": "video",
+        "state": "opened",
+        "src": "s1"
+      },
+      {
+        "what": "Waterloo qualification 36, linked by team 3683 (not watched)",
+        "url": "https://www.youtube.com/watch?v=nza-QL4JWDA",
+        "format": "video",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "Waterloo playoff match 1, linked by team 3683 (not watched)",
+        "url": "https://www.youtube.com/watch?v=W7Q86Yg0tS4",
+        "format": "video",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "Short cut of the interview: gripper and positioning (not watched)",
+        "url": "https://www.youtube.com/watch?v=27IfJvlQxXk",
+        "format": "video",
+        "state": "listed",
+        "src": "s7"
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account",
+        "url": "https://github.com/woodland4678",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "CyberCavs_2025, season code (not read)",
+        "url": "https://github.com/Woodland4678/CyberCavs_2025",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s6"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "team website history, and web searches for Orville, a binder and CAD; no team thread found"
+  ],
+  "results": {
+    "division": null,
+    "division_opr": null,
+    "opr_rank": null,
+    "record": "50-3-0",
+    "einstein": null,
+    "added": {
+      "why": "season",
+      "rank": 18
+    },
+    "note": "Listed beside the top 20: it did not play in a championship division, and ranked 18th of all 2025 robots in our rating of the whole season. The rating sees scoring only.",
+    "src": [
+      "s1"
+    ]
+  }
+}

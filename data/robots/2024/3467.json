@@ -1,0 +1,1416 @@
+{
+  "id": "2024-3467",
+  "season": 2024,
+  "team": "3467",
+  "team_name": "Windham Windup",
+  "robot_name": "Nocturne",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 3467 in 2024",
+      "url": "https://www.thebluealliance.com/team/3467/2024",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Galileo Division 2024",
+      "url": "https://www.thebluealliance.com/event/2024gal",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Team 3467 2024 Build Blog, post 9",
+      "url": "https://www.chiefdelphi.com/t/445350/9",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Team 3467 2024 Build Blog, post 17",
+      "url": "https://www.chiefdelphi.com/t/445350/17",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Team 3467 2024 Build Blog, post 20",
+      "url": "https://www.chiefdelphi.com/t/445350/20",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Team 3467 2024 Build Blog, post 22",
+      "url": "https://www.chiefdelphi.com/t/445350/22",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Team 3467 2024 Build Blog, post 27",
+      "url": "https://www.chiefdelphi.com/t/445350/27",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Team 3467 2024 Build Blog, post 37",
+      "url": "https://www.chiefdelphi.com/t/445350/37",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Team 3467 2024 Build Blog, post 39",
+      "url": "https://www.chiefdelphi.com/t/445350/39",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Team 3467 2024 Build Blog, post 42",
+      "url": "https://www.chiefdelphi.com/t/445350/42",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Team 3467 2024 Build Blog, post 60",
+      "url": "https://www.chiefdelphi.com/t/445350/60",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "Team 3467 2024 Build Blog, post 62",
+      "url": "https://www.chiefdelphi.com/t/445350/62",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "Team 3467 2024 Build Blog, post 64",
+      "url": "https://www.chiefdelphi.com/t/445350/64",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "Team 3467 2024 Build Blog, post 65",
+      "url": "https://www.chiefdelphi.com/t/445350/65",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "Team 3467 2024 Build Blog, post 72",
+      "url": "https://www.chiefdelphi.com/t/445350/72",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "Team 3467 2024 Build Blog, post 73",
+      "url": "https://www.chiefdelphi.com/t/445350/73",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "Team 3467 2024 Build Blog, post 76",
+      "url": "https://www.chiefdelphi.com/t/445350/76",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "Team 3467 2024 Build Blog, post 78",
+      "url": "https://www.chiefdelphi.com/t/445350/78",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "Team 3467 2024 Build Blog, post 80",
+      "url": "https://www.chiefdelphi.com/t/445350/80",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "Team 3467 2024 Build Blog, post 82",
+      "url": "https://www.chiefdelphi.com/t/445350/82",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s22": {
+      "title": "Team 3467 2024 Build Blog, post 95",
+      "url": "https://www.chiefdelphi.com/t/445350/95",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s23": {
+      "title": "Team 3467 2024 Build Blog, post 96",
+      "url": "https://www.chiefdelphi.com/t/445350/96",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s24": {
+      "title": "Team 3467 2024 Build Blog, post 99",
+      "url": "https://www.chiefdelphi.com/t/445350/99",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s25": {
+      "title": "Team 3467 2024 Build Blog, post 107",
+      "url": "https://www.chiefdelphi.com/t/445350/107",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s26": {
+      "title": "Team 3467 2024 Build Blog, post 109",
+      "url": "https://www.chiefdelphi.com/t/445350/109",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s27": {
+      "title": "Team 3467 2024 Build Blog, post 110",
+      "url": "https://www.chiefdelphi.com/t/445350/110",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s28": {
+      "title": "Team 3467 2024 Build Blog, post 113",
+      "url": "https://www.chiefdelphi.com/t/445350/113",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s29": {
+      "title": "Team 3467 2024 Build Blog, post 116",
+      "url": "https://www.chiefdelphi.com/t/445350/116",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s30": {
+      "title": "Team 3467 2024 Build Blog, post 121",
+      "url": "https://www.chiefdelphi.com/t/445350/121",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s31": {
+      "title": "3467 blows right into the trap",
+      "url": "https://www.chiefdelphi.com/t/460678",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s32": {
+      "title": "Behind the Bumpers: 3467 Windham Windup, CRESCENDO",
+      "url": "https://www.youtube.com/watch?v=tmRQ12MZrVo",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s33": {
+      "title": "GSD Tech Binder 2024 (Nocturne)",
+      "url": "https://www.chiefdelphi.com/uploads/short-url/ih64E84mBXtAJg7fKLBo7rgi5xM.pdf",
+      "publisher": "Team 3467",
+      "read": "2026-11-25"
+    },
+    "s34": {
+      "title": "Skip-5.14-Nocturne README",
+      "url": "https://github.com/WHS-FRC-3467/Skip-5.14-Nocturne",
+      "publisher": "Team 3467 on GitHub",
+      "read": "2026-11-25"
+    },
+    "s35": {
+      "title": "2024 robot types, post 14",
+      "url": "https://www.chiefdelphi.com/t/476764/14",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s36": {
+      "title": "Windham Windup 2026 Build Blog",
+      "url": "https://www.chiefdelphi.com/t/508474",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s37": {
+      "title": "Onshape document",
+      "url": "https://cad.onshape.com/documents/2fc7c67cf0caa47d6fd88b44/w/50f8171b9e5f18a6a9f1f1d8/e/6bf3af59f010e7afe9e0d482",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s38": {
+      "title": "Page this picture is from",
+      "url": "https://www.chiefdelphi.com/t/460678/19",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    },
+    "s39": {
+      "title": "Page this picture is from",
+      "url": "https://www.chiefdelphi.com/t/445350/13",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "One decently simple single-joint arm combines amp, shooter, shooter angle and climb, fed by an under-bumper intake.",
+        "basis": "team",
+        "src": [
+          "s9",
+          "s32"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "At kickoff: be the best note scorer possible and leave the trap. It is hard, and climbing beside a partner plus a last speaker cycle gives up 1 point against climb and trap.",
+        "basis": "team",
+        "src": [
+          "s5",
+          "s6"
+        ]
+      },
+      {
+        "text": "You win events by winning matches, not by the most ranking points.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      },
+      {
+        "text": "The week 1 list started with fitting under the stage, below 26 in.",
+        "basis": "team",
+        "src": [
+          "s33"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "Five notes from the subwoofer without vision; it averaged 4 at North Shore.",
+        "basis": "team",
+        "src": [
+          "s22",
+          "s23"
+        ]
+      },
+      {
+        "text": "Midline autos find notes with a Limelight and can take another if one is gone.",
+        "basis": "team",
+        "src": [
+          "s22",
+          "s32"
+        ]
+      },
+      {
+        "text": "At the championship, an amp-side rush reached the centerline note in about 2.33 s, but shots missed often until the second playoff match.",
+        "basis": "team",
+        "src": [
+          "s29"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "Intake under the bumper, stop by beam break, then shoot from the subwoofer, from vision or on the move. Best match at North Shore: 11 notes in teleop.",
+        "basis": "team",
+        "src": [
+          "s33",
+          "s18",
+          "s23"
+        ]
+      },
+      {
+        "text": "At the championship it cycled and cleaned up as a complement to partners; its passing was a bit sloppy sometimes and cleanup relied too much on the subwoofer shot.",
+        "basis": "team",
+        "src": [
+          "s29"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "The arm hooks the chain and pulls down; alone, it climbed with 2 to 3 seconds left.",
+        "basis": "team",
+        "src": [
+          "s26",
+          "s32"
+        ]
+      },
+      {
+        "text": "Taller Harmony Hooks climbed beside another robot in four qualification matches at the New England Championship and three times, once in a replay, at the championship.",
+        "basis": "team",
+        "src": [
+          "s27",
+          "s29"
+        ]
+      },
+      {
+        "text": "The trap blower scored in practice matches, never in a qualification match.",
+        "basis": "team",
+        "src": [
+          "s27",
+          "s29"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "The subwoofer five-note auto works if cameras or arm do not.",
+        "basis": "team",
+        "src": [
+          "s22"
+        ]
+      },
+      {
+        "text": "Aim runs on robot pose, so it continues on drivebase encoders if vision is lost.",
+        "basis": "team",
+        "src": [
+          "s33"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "Seeding first is difficult without the trap or a climb on a partner's chain, the team wrote after Greater Boston.",
+        "basis": "team",
+        "src": [
+          "s24"
+        ]
+      },
+      {
+        "text": "A team member said the arm struggled for accuracy and reliability later in the season, and praised a team that moved climbing forces to separate climbers.",
+        "basis": "team",
+        "src": [
+          "s35"
+        ]
+      },
+      {
+        "text": "The intake was very difficult to repair at the first event.",
+        "basis": "team",
+        "src": [
+          "s21"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "An Alpha robot with a fixed-angle shooter was dropped in January: poor centering and a handoff sensitive to shooter angle.",
+        "basis": "team",
+        "src": [
+          "s7",
+          "s8"
+        ]
+      },
+      {
+        "text": "After intake failures ended Granite State: dead axles, 1/4 in 7075 plates, full spares.",
+        "basis": "team",
+        "src": [
+          "s21",
+          "s22"
+        ]
+      },
+      {
+        "text": "Before the championship: polybelt between rear intake rollers for jams.",
+        "basis": "team",
+        "src": [
+          "s28"
+        ]
+      },
+      {
+        "text": "A broken crimp clip on a CAN wire stopped the robot in its last Galileo match.",
+        "basis": "team",
+        "src": [
+          "s29"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "59-22-1 in official play; ranked 38 by championship OPR (48.45, Galileo).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drivebase",
+      "solves": [
+        {
+          "text": "Be fast going up and down the field",
+          "basis": "team",
+          "src": [
+            "s33"
+          ]
+        }
+      ],
+      "does": [
+        "drive",
+        "structure"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "SDS MK4i modules with L3 gearing, Krakens for steering and driving; stated free speed",
+          "basis": "team",
+          "src": [
+            "s33"
+          ],
+          "value": 18.0,
+          "unit": "ft/s"
+        },
+        {
+          "text": "Drive reduction 6.12:1",
+          "basis": "team",
+          "src": [
+            "s33"
+          ]
+        },
+        {
+          "text": "Chassis 26.875 x 31 in, 2 x 1 in MAXTube",
+          "basis": "team",
+          "src": [
+            "s33"
+          ]
+        },
+        {
+          "text": "1/8 in bellypan over most of the underside to lower the center of gravity",
+          "basis": "team",
+          "src": [
+            "s33"
+          ]
+        },
+        {
+          "text": "The front bumper plywood is shaped to rise in front and keeps the required backing; angle brackets join it to the sides",
+          "basis": "team",
+          "src": [
+            "s30"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arm",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Reach amp, subwoofer, distance-shot and climb positions with one joint",
+          "basis": "team",
+          "src": [
+            "s9",
+            "s32"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Before Week 0 a climb broke one of the 25H arm chains; the hooks were then moved 2.5 in toward the pivot",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "The climbing chain could pinch wires routed to the arm",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Accuracy and reliability struggled later in the season, a team member said",
+          "basis": "team",
+          "src": [
+            "s35"
+          ]
+        }
+      ],
+      "does": [
+        "position",
+        "deliver",
+        "endgame"
+      ],
+      "type": "single-joint arm",
+      "serves": [
+        "speaker",
+        "amp",
+        "onstage"
+      ],
+      "facts": [
+        {
+          "text": "Two Falcons, each on its own 49:1 MAX Planetary gearbox with a 90 degree output, drive one central axle",
+          "basis": "team",
+          "src": [
+            "s33"
+          ]
+        },
+        {
+          "text": "16T sprocket drives a 64T MAXSpline sprocket; the team found a large tooth ratio gives minimal backlash",
+          "basis": "team",
+          "src": [
+            "s33"
+          ]
+        },
+        {
+          "text": "Number 25H chains with turnbuckles",
+          "basis": "team",
+          "src": [
+            "s33"
+          ],
+          "value": 4,
+          "unit": "chains"
+        },
+        {
+          "text": "REV Through Bore Encoder on the arm's live ThunderHex axle, replacing 2023's printed encoder gears that were shimmed at every competition",
+          "basis": "team",
+          "src": [
+            "s10",
+            "s14",
+            "s33"
+          ]
+        },
+        {
+          "text": "Steel hex hardstop at the bottom allows a faster subwoofer shot and does not bend",
+          "basis": "team",
+          "src": [
+            "s33"
+          ]
+        },
+        {
+          "text": "Motion is a trapezoidal profile with WPILib arm feedforward",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Climbing uses an automatic setpoint that does not bottom out on the hardstops, instead of manual control",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "The shooter assembly weighed 22 lb, and the gearbox ratio was increased to make sure the arm was strong enough",
+          "basis": "team",
+          "src": [
+            "s17"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Shoot consistently from many distances while light enough for the arm",
+          "basis": "team",
+          "src": [
+            "s33"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "A shooter plate snapped in the New England Championship playoffs",
+          "basis": "team",
+          "src": [
+            "s27"
+          ]
+        },
+        {
+          "text": "The robot browned out a bit at the end of its first two Galileo playoff matches; playing only front court runs the shooter and intake motors much more than cycling",
+          "basis": "team",
+          "src": [
+            "s29"
+          ]
+        }
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "flywheels on the arm",
+      "serves": [
+        "speaker"
+      ],
+      "facts": [
+        {
+          "text": "ThriftyBot 4 in wheels",
+          "basis": "team",
+          "src": [
+            "s33"
+          ],
+          "value": 8,
+          "unit": "wheels"
+        },
+        {
+          "text": "Each side driven by one Falcon 500 at 1:1.625 for more speed",
+          "basis": "team",
+          "src": [
+            "s33"
+          ]
+        },
+        {
+          "text": "The sides ran at different speeds in January testing to spin the note",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Horizontal wheels replaced a first vertical layout because they were found more accurate",
+          "basis": "team",
+          "src": [
+            "s32"
+          ]
+        },
+        {
+          "text": "Gears changed from mixed-vendor aluminum to printed Onyx, and it ran smoother",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        },
+        {
+          "text": "A resting speed saves spin-up time",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        },
+        {
+          "text": "1/4 in polycarbonate plates",
+          "basis": "team",
+          "src": [
+            "s16"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Stage",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Hold the note behind the shooter and give it speed before the wheels, with no separate mechanism",
+          "basis": "team",
+          "src": [
+            "s33"
+          ]
+        }
+      ],
+      "does": [
+        "transfer",
+        "retain"
+      ],
+      "type": "roller feeder behind the shooter",
+      "serves": [
+        "speaker",
+        "amp"
+      ],
+      "facts": [
+        {
+          "text": "1.125 in VersaRollers on a Bag motor with a 3:1 VersaPlanetary",
+          "basis": "team",
+          "src": [
+            "s33"
+          ]
+        },
+        {
+          "text": "Grip tape on the rollers; they feed two HDPE panels for low friction",
+          "basis": "team",
+          "src": [
+            "s33"
+          ]
+        },
+        {
+          "text": "A beam break tells when a note is held",
+          "basis": "team",
+          "src": [
+            "s18"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Under-bumper intake",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Own the note on touch and survive ramming",
+          "basis": "team",
+          "src": [
+            "s33",
+            "s32"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "At Granite State it broke after a hit in the first match and again in a physical playoff match; parts were very difficult to replace and it could not be fixed before the next match, which was lost",
+          "basis": "team",
+          "src": [
+            "s21"
+          ]
+        },
+        {
+          "text": "Occasional jams cost a few seconds, or auto fouls for holding several notes",
+          "basis": "team",
+          "src": [
+            "s28"
+          ]
+        },
+        {
+          "text": "A bolt holding a dead-axle roller sheared at the New England Championship",
+          "basis": "team",
+          "src": [
+            "s27"
+          ]
+        },
+        {
+          "text": "It picks up well as long as it is driven into the note at a decent speed",
+          "basis": "team",
+          "src": [
+            "s32"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "under-bumper roller intake with passive centering",
+      "serves": [
+        "speaker",
+        "amp"
+      ],
+      "facts": [
+        {
+          "text": "1.125 in polycarbonate VersaRollers, with \"cheerio\" wheels on the front roller",
+          "basis": "team",
+          "src": [
+            "s33"
+          ]
+        },
+        {
+          "text": "The March binder says 1.5:1 off a single Falcon; team members at Greater Boston said two Falcons power the back rollers",
+          "basis": "team",
+          "src": [
+            "s33",
+            "s32"
+          ]
+        },
+        {
+          "text": "Passive centering wedges 6 in long",
+          "basis": "team",
+          "src": [
+            "s33"
+          ]
+        },
+        {
+          "text": "Teflon tape on the wedges cuts friction",
+          "basis": "team",
+          "src": [
+            "s32"
+          ]
+        },
+        {
+          "text": "Stops by itself when a beam break sees a note, since it cannot be lifted to refuse a second one",
+          "basis": "team",
+          "src": [
+            "s33",
+            "s18"
+          ]
+        },
+        {
+          "text": "From March: dead-axle rollers and 1/4 in 7075 aluminum plates, with full spares",
+          "basis": "team",
+          "src": [
+            "s22"
+          ]
+        },
+        {
+          "text": "From the championship: polybelt between the rear rollers helps pull the note up",
+          "basis": "team",
+          "src": [
+            "s28"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Harmony Hooks",
+      "solves": [
+        {
+          "text": "Reach a higher chain beside a climbed partner and still climb in the last seconds",
+          "basis": "team",
+          "src": [
+            "s26"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Four climbs beside a partner at the New England Championship gave one Ensemble ranking point, often because some robot touched the ground",
+          "basis": "team",
+          "src": [
+            "s27"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "fixed hooks on the arm",
+      "serves": [
+        "onstage"
+      ],
+      "facts": [
+        {
+          "text": "Higher reach with the same balancing point as the first hooks, so no latch is needed",
+          "basis": "team",
+          "src": [
+            "s26"
+          ]
+        },
+        {
+          "text": "A slot extra steep toward the tooth and curving down lets the chain slide into the pocket; earlier versions stopped short",
+          "basis": "team",
+          "src": [
+            "s26"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Trap blower",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Score in the trap with the robot geometry already there",
+          "basis": "team",
+          "src": [
+            "s31",
+            "s32"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Slow to line up and about half accurate in New England practice matches; missed the one qualification try",
+          "basis": "team",
+          "src": [
+            "s27"
+          ]
+        },
+        {
+          "text": "At the championship it worked in a practice match, never in a qualification match",
+          "basis": "team",
+          "src": [
+            "s29"
+          ]
+        },
+        {
+          "text": "The team wrote later that all agree the time spent on it was detrimental to its performance",
+          "basis": "team",
+          "src": [
+            "s36"
+          ]
+        }
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "leaf blower that holds the trap open",
+      "serves": [
+        "trap"
+      ],
+      "facts": [
+        {
+          "text": "Milwaukee M12 spot blower with its motor replaced by a 775 Pro on the original output shaft",
+          "basis": "team",
+          "src": [
+            "s31"
+          ]
+        },
+        {
+          "text": "Mounted between the arm uprights, under the shooter",
+          "basis": "team",
+          "src": [
+            "s31"
+          ]
+        },
+        {
+          "text": "After the New England Championship its angle was changed to hold the door open better",
+          "basis": "team",
+          "src": [
+            "s28"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Auto aim",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Travel less per cycle, and shoot even if partners or a defender are against the subwoofer",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Tables tuned at home were wrong on the Granite State field; the practice field's speaker and tags were out of place",
+          "basis": "team",
+          "src": [
+            "s21",
+            "s22"
+          ]
+        },
+        {
+          "text": "At Week 0 left-right aim was off because it sometimes turned 180 degrees away",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Longer-range shooting was worse at the championship than at the district championship; the team blames improving automation without enough time or a detailed plan",
+          "basis": "team",
+          "src": [
+            "s36"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "position"
+      ],
+      "type": "pose-based aim with lookup tables",
+      "serves": [
+        "speaker"
+      ],
+      "facts": [
+        {
+          "text": "Distance from PhotonVision sets arm angle and shooter speed by interpolating tested points",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "The drivetrain faces the speaker from pose while the driver strafes",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Shooting on the move predicts a \"future robot\" from acceleration, speed and pose",
+          "basis": "team",
+          "src": [
+            "s33"
+          ]
+        },
+        {
+          "text": "An Orange Pi running PhotonVision reads the tag camera",
+          "basis": "team",
+          "src": [
+            "s20",
+            "s33"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Auto note pickup",
+      "pieces": [
+        "note"
+      ],
+      "solves": [
+        {
+          "text": "Pick up notes that have moved, in auto or by button",
+          "basis": "team",
+          "src": [
+            "s32"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "acquire"
+      ],
+      "type": "camera note detection",
+      "serves": [
+        "speaker"
+      ],
+      "facts": [
+        {
+          "text": "Rear Limelight 3 with a Google Coral detects notes",
+          "basis": "team",
+          "src": [
+            "s22",
+            "s32"
+          ]
+        },
+        {
+          "text": "Overriding the path near its end and finishing above 1 m/s gained 0.5 to 1.0 s to the centerline",
+          "basis": "team",
+          "src": [
+            "s25"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electronics",
+      "solves": [
+        {
+          "text": "Fit controls in a small drivebase",
+          "basis": "team",
+          "src": [
+            "s33"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Metal shavings in a USB port shorted the RoboRIO between New England division finals matches; the team sat out one and then bought port plugs",
+          "basis": "team",
+          "src": [
+            "s27"
+          ]
+        },
+        {
+          "text": "A loose CAN wire with a snapped crimp clip stopped the robot in the Galileo playoffs; it ran under the arm gearbox with little to no slack",
+          "basis": "team",
+          "src": [
+            "s29"
+          ]
+        },
+        {
+          "text": "The team later designed an inline CAN terminator board because of 2024's CAN issues",
+          "basis": "team",
+          "src": [
+            "s36"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "packaging",
+      "serves": [],
+      "facts": [
+        {
+          "text": "The arm's moving parts sit above the drivebase to leave the bellypan for electronics",
+          "basis": "team",
+          "src": [
+            "s33"
+          ]
+        },
+        {
+          "text": "Battery upright with the breaker to the side so leads stay off the chains",
+          "basis": "team",
+          "src": [
+            "s33"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Put note scoring ahead of the trap at kickoff",
+      "because": "it is hard to reach, and skipping it loses only 1 point when the team climbs beside a partner after one more speaker cycle",
+      "instead_of": "geometry to score in the trap",
+      "cost": "seeding first is difficult at competitive events, the team wrote later, without the trap or a climb with a partner on the same chain",
+      "basis": "team",
+      "src": [
+        "s5",
+        "s6",
+        "s24"
+      ]
+    },
+    {
+      "choice": "Replace the Alpha concept with one arm",
+      "because": "Alpha failed to center notes consistently and its handoff was very sensitive to shooter angle",
+      "instead_of": "a floor intake handing off to separate scoring subsystems",
+      "cost": "a week of build time",
+      "basis": "team",
+      "src": [
+        "s7",
+        "s8",
+        "s9"
+      ]
+    },
+    {
+      "choice": "Under-bumper intake",
+      "because": "the robot can ram into things without risk of damage to the intake",
+      "instead_of": "an over-bumper intake",
+      "cost": "packaging it in a small area was the major challenge",
+      "basis": "team",
+      "src": [
+        "s32"
+      ]
+    },
+    {
+      "choice": "Passive centering wedges",
+      "because": "active centering wheels drew a lot of power",
+      "instead_of": "active centering wheels on the beta intake",
+      "basis": "team",
+      "src": [
+        "s32",
+        "s33"
+      ]
+    },
+    {
+      "choice": "Four arm chains",
+      "because": "the climbing work is divided over four chains",
+      "instead_of": "two chains",
+      "basis": "team",
+      "src": [
+        "s32"
+      ]
+    },
+    {
+      "choice": "L3 swerve gearing",
+      "because": "the previous game showed the robot needed to be fast up and down the field",
+      "instead_of": "L2 gearing",
+      "basis": "team",
+      "src": [
+        "s33"
+      ]
+    },
+    {
+      "choice": "Bag motor on the stage",
+      "because": "it makes the shooter lighter",
+      "instead_of": "a Falcon",
+      "basis": "team",
+      "src": [
+        "s33"
+      ]
+    },
+    {
+      "choice": "Polycarbonate shooter plates",
+      "because": "they were faster to make on the team's router",
+      "instead_of": "1/8 in aluminum, similar in mass and slightly stiffer",
+      "basis": "team",
+      "src": [
+        "s16"
+      ]
+    },
+    {
+      "choice": "PhotonVision for AprilTags",
+      "because": "the Limelight software's pose was quite noisy, and the same hardware improved at once",
+      "instead_of": "the Limelight's own software",
+      "basis": "team",
+      "src": [
+        "s13"
+      ]
+    },
+    {
+      "choice": "Pick 3683 first at the championship",
+      "because": "beating other alliances to auto notes was a big priority",
+      "instead_of": "2468, the division's best passer by the team's judgment",
+      "basis": "team",
+      "src": [
+        "s29"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "Robot CAD, linked from the build blog and the community sheet",
+        "url": "https://cad.onshape.com/documents/2fc7c67cf0caa47d6fd88b44/w/50f8171b9e5f18a6a9f1f1d8/e/6bf3af59f010e7afe9e0d482",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "Same Onshape document, as listed on the team page",
+        "url": "https://cad.onshape.com/documents/2fc7c67cf0caa47d6fd88b44/w/50f8171b9e5f18a6a9f1f1d8",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s1"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/hHFKl6V",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Behind the Bumpers interview (transcript read, not watched)",
+        "url": "https://www.youtube.com/watch?v=tmRQ12MZrVo",
+        "format": "video",
+        "state": "listed",
+        "src": "s32"
+      },
+      {
+        "what": "Trap blower test video",
+        "url": "https://www.youtube.com/watch?v=kcLbfZc4Y1A",
+        "format": "video",
+        "state": "listed",
+        "src": "s31"
+      },
+      {
+        "what": "Harmony Hooks video",
+        "url": "https://www.youtube.com/watch?v=2M0SuMmesZM",
+        "format": "video",
+        "state": "listed",
+        "src": "s26"
+      },
+      {
+        "what": "Onshape preview of the full robot, spare swerve modules alongside",
+        "url": "https://cad.onshape.com/documents/2fc7c67cf0caa47d6fd88b44/w/50f8171b9e5f18a6a9f1f1d8/e/6bf3af59f010e7afe9e0d482",
+        "img": "https://cad.onshape.com/api/thumbnails/d/2fc7c67cf0caa47d6fd88b44/w/50f8171b9e5f18a6a9f1f1d8/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s37",
+        "kind": "cad",
+        "hero": true
+      },
+      {
+        "what": "Table of robot tasks with priorities, difficulty and notes",
+        "url": "https://www.chiefdelphi.com/t/445350/17",
+        "img": "https://lh7-us.googleusercontent.com/H6j6nKSXkznpnS-NfbLJTpECH8WO5jf-DUZCpLSkkJH7fKzq5qqZNfZ2C3unHp7YQgPrcx5sHHwE5mfJvZA930SKeK4FfC7rXqFhXhViRK1rR42Or37Tpnp0YhQEQUgi112SzomDtwCS77Lky_OX-58",
+        "format": "image",
+        "state": "opened",
+        "src": "s5",
+        "kind": "diagram"
+      },
+      {
+        "what": "Side view CAD study of the climber against the stage",
+        "url": "https://www.chiefdelphi.com/t/445350/20",
+        "img": "https://lh7-us.googleusercontent.com/A6prir9JfXhYlXrTqB06yI9KY6u5oPRhr5bp0OBOXHfWjKXDCwQ7hliVCpIYCsitXRBvPxso9x12b3P4rYRHUkYG35hhHTUe79MRPJ_n2DmUM2yHFOP5oXvC9aItD6fDRacVPTu8S8JVkSlkjATd_tY",
+        "format": "image",
+        "state": "opened",
+        "src": "s6",
+        "kind": "drawing"
+      },
+      {
+        "what": "Two 775-size motors held side by side",
+        "url": "https://www.chiefdelphi.com/t/460678",
+        "img": "https://lh7-us.googleusercontent.com/UxetQwRN_OvbRZEJxnx_06SZJC31OhpYoAmAMEwy2pFk8hMeGBDo4809NKrndyPlwz-Ye_y4xjdBzR0EFiOEb8vlQmQ6QmtXkUA5u2jMMWm9gdUls74V-_v5zscgEilJZwMmd-BHAtAcspE-hk9v1F4",
+        "format": "image",
+        "state": "opened",
+        "src": "s31",
+        "kind": "mechanism"
+      },
+      {
+        "what": "CAD of the shooter with a leaf blower mounted behind it",
+        "url": "https://www.chiefdelphi.com/t/460678/19",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/6/4/64acfa42c82af38dfaa0e11b8b63ac3e5444c448_2_690x352.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s38",
+        "kind": "cad"
+      },
+      {
+        "what": "Early CAD of the chassis with a pivoting shooter holding a note",
+        "url": "https://www.chiefdelphi.com/t/445350/13",
+        "img": "https://lh7-us.googleusercontent.com/vZ8ak3yf6l42IJ7TUa6rCfKWDojSdFhAMOeEt5K-roKFBpIRN2DEKGCEEnsMDhbdkbOzGHH7yrxwJnAPS5xPNVMSrFdSNAqOcPL8pcH3_d90cxmP_c_BSxp7lOC8LAcF1C0SHJeoJJUk11mcsWg7ULQ",
+        "format": "image",
+        "state": "opened",
+        "src": "s39",
+        "kind": "cad"
+      },
+      {
+        "what": "Leaf blower taken apart on a bench",
+        "url": "https://www.chiefdelphi.com/t/460678",
+        "img": "https://lh7-us.googleusercontent.com/NER4JhwnFyt5DbswBWWIdwVxP7ByjLKc28nqG1Yh_ax-pJLZJ-vgh7JIffeZm_6c9UAVIibxBskLmwxatxxuKVvahnkNa-nGoypuf1ptJYd1bHwa_qN4B6Ji0-UL32S4KChuvYKGACDcSOhjiVYZGl8",
+        "format": "image",
+        "state": "opened",
+        "src": "s31",
+        "kind": "mechanism"
+      },
+      {
+        "what": "CAD of an intake with four rollers",
+        "url": "https://www.chiefdelphi.com/t/445350/13",
+        "img": "https://lh7-us.googleusercontent.com/0ngrgVjsIqkMUGIyAQ7VnR2CUiLtr-WUFd2Vl7wutBQDr-GMdYdWGL49dt9p0mob48oL3B76AsWV9KDzopX4fUvQH7EwwobaOc970cJYg-XWZd_kMBfJaWoF0dlAhj5ijfEh_ghhusJL77OWt7Jxc_o",
+        "format": "image",
+        "state": "opened",
+        "src": "s39",
+        "kind": "cad"
+      },
+      {
+        "what": "Robot moving on a practice field in front of a wooden stage",
+        "url": "https://www.chiefdelphi.com/t/460678",
+        "img": "https://img.youtube.com/vi/kcLbfZc4Y1A/maxresdefault.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s31",
+        "kind": "robot-photo"
+      }
+    ],
+    "documents": [
+      {
+        "what": "GSD Tech Binder 2024 (Nocturne)",
+        "url": "https://www.chiefdelphi.com/uploads/short-url/ih64E84mBXtAJg7fKLBo7rgi5xM.pdf",
+        "format": "PDF",
+        "state": "opened",
+        "src": "s33"
+      },
+      {
+        "what": "Team 3467 2024 build blog",
+        "url": "https://www.chiefdelphi.com/t/445350",
+        "format": "thread",
+        "state": "opened",
+        "src": "s4"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account",
+        "url": "https://github.com/whs-frc-3467",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Skip-5.14-Nocturne (competition code)",
+        "url": "https://github.com/WHS-FRC-3467/Skip-5.14-Nocturne",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s34"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)"
+  ],
+  "results": {
+    "division": "Galileo",
+    "division_opr": 48.45,
+    "opr_rank": 38,
+    "record": "59-22-1",
+    "einstein": null,
+    "added": {
+      "why": "blended",
+      "rank": 20
+    },
+    "note": "Listed beside the top 20: 38th by championship OPR, but 20th of the championship robots in our rating that also counts the rest of its season. The rating sees scoring only.",
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

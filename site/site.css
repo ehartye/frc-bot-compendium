@@ -62,6 +62,7 @@ ul { padding-left: 1.1rem; }
 .lane > header span { font: 500 .85rem var(--mono); color: var(--gold); }
 .steps { display: flex; gap: .4rem; flex: none; } .steps[hidden] { display: none; }
 .steps button { width: 2.75rem; height: 2.75rem; border: 2px solid var(--line); border-radius: 50%; background: transparent; color: var(--ink); font: 700 1.2rem/1 var(--body); cursor: pointer; } .steps button:hover { background: var(--line-deep); } .steps button:disabled { opacity: .35; cursor: default; background: transparent; }
+.lane h3.also { margin: 1rem 0 0; font-size: 1.05rem; color: var(--gold); }
 .lineup { display: flex; gap: 1.1rem; overflow-x: auto; scroll-snap-type: x proximity; scroll-padding-inline: max(1.25rem, calc(50vw - 37rem)); margin-inline: calc(50% - 50vw); padding: 1rem max(1.25rem, calc(50vw - 37rem)) 1.5rem; scrollbar-color: var(--line) transparent; scrollbar-width: thin; }
 .seat { flex: 0 0 13.5rem; scroll-snap-align: start; text-decoration: none; color: var(--ink); position: relative; }
 .seat figure { position: relative; margin: 0 .7rem -.6rem; aspect-ratio: 1; border-radius: .8rem .8rem 0 0; overflow: hidden; display: grid; place-items: center; background: radial-gradient(120% 90% at 50% 0, #fff, #dcd6ff 75%, #b9afef); transition: transform .25s cubic-bezier(.2, 1.3, .4, 1); }

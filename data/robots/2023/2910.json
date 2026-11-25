@@ -1,0 +1,1854 @@
+{
+  "id": "2023-2910",
+  "season": 2023,
+  "team": "2910",
+  "team_name": "Jack in the Bot",
+  "robot_name": "Phantom",
+  "variant": "Phantom, the competition robot; the team built two identical robots, and Loki was the practice robot. The 12-motor drive at IRI is off-season.",
+  "sources": {
+    "s1": {
+      "title": "Team 2910 in 2023",
+      "url": "https://www.thebluealliance.com/team/2910/2023",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Galileo Division 2023",
+      "url": "https://www.thebluealliance.com/event/2023gal",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "How Do 2910 Robots End Up So Short? (team talk, automatic transcript read)",
+      "url": "https://www.youtube.com/watch?v=JNjciwKbGn0",
+      "publisher": "FRC Team 2910 on YouTube",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "2910 robot reveal 2023, Phantom, post 43",
+      "url": "https://www.chiefdelphi.com/t/428786/43",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "2910 robot reveal 2023, Phantom, post 46",
+      "url": "https://www.chiefdelphi.com/t/428786/46",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "2910 CAD and Tech Binder Release 2023, post 63",
+      "url": "https://www.chiefdelphi.com/t/436653/63",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "2910 CAD and Tech Binder Release 2023, post 29",
+      "url": "https://www.chiefdelphi.com/t/436653/29",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Behind the Bumpers, 2910 Jack in the Bot, Charged Up Robot (automatic transcript read)",
+      "url": "https://www.youtube.com/watch?v=7ETEf__nD1I",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "2910 robot reveal 2023, Phantom",
+      "url": "https://www.chiefdelphi.com/t/428786",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "2910 robot reveal 2023, Phantom, post 102",
+      "url": "https://www.chiefdelphi.com/t/428786/102",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "2910 CAD and Tech Binder Release 2023, post 85",
+      "url": "https://www.chiefdelphi.com/t/436653/85",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "2910 robot reveal 2023, Phantom, post 47",
+      "url": "https://www.chiefdelphi.com/t/428786/47",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "2910 CAD and Tech Binder Release 2023, post 96",
+      "url": "https://www.chiefdelphi.com/t/436653/96",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "2910 CAD and Tech Binder Release 2023, post 74",
+      "url": "https://www.chiefdelphi.com/t/436653/74",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "2910 CAD and Tech Binder Release 2023, post 67",
+      "url": "https://www.chiefdelphi.com/t/436653/67",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "Team 2910 Code Release 2023, post 6",
+      "url": "https://www.chiefdelphi.com/t/443663/6",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "2910 CAD and Tech Binder Release 2023, post 55",
+      "url": "https://www.chiefdelphi.com/t/436653/55",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "2910 robot reveal 2023, Phantom, post 60",
+      "url": "https://www.chiefdelphi.com/t/428786/60",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "2910 robot reveal 2023, Phantom, post 90",
+      "url": "https://www.chiefdelphi.com/t/428786/90",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "2910 CAD and Tech Binder Release 2023, post 54",
+      "url": "https://www.chiefdelphi.com/t/436653/54",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s22": {
+      "title": "Team 2910 Code Release 2023, post 29",
+      "url": "https://www.chiefdelphi.com/t/443663/29",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s23": {
+      "title": "Team 2910 Code Release 2023, post 3",
+      "url": "https://www.chiefdelphi.com/t/443663/3",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s24": {
+      "title": "2910 CAD and Tech Binder Release 2023, post 97",
+      "url": "https://www.chiefdelphi.com/t/436653/97",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s25": {
+      "title": "2910 robot reveal 2023, Phantom, post 10",
+      "url": "https://www.chiefdelphi.com/t/428786/10",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s26": {
+      "title": "2910 robot reveal 2023, Phantom, post 61",
+      "url": "https://www.chiefdelphi.com/t/428786/61",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s27": {
+      "title": "2910 CAD and Tech Binder Release 2023, post 109",
+      "url": "https://www.chiefdelphi.com/t/436653/109",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s28": {
+      "title": "2910 CAD and Tech Binder Release 2023, post 28",
+      "url": "https://www.chiefdelphi.com/t/436653/28",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s29": {
+      "title": "2910 CAD and Tech Binder Release 2023, post 141",
+      "url": "https://www.chiefdelphi.com/t/436653/141",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s30": {
+      "title": "2910 CAD and Tech Binder Release 2023, post 65",
+      "url": "https://www.chiefdelphi.com/t/436653/65",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s31": {
+      "title": "2910 CAD and Tech Binder Release 2023, post 9",
+      "url": "https://www.chiefdelphi.com/t/436653/9",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s32": {
+      "title": "2910 CAD and Tech Binder Release 2023, post 46",
+      "url": "https://www.chiefdelphi.com/t/436653/46",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s33": {
+      "title": "2910 robot reveal 2023, Phantom, post 20",
+      "url": "https://www.chiefdelphi.com/t/428786/20",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s34": {
+      "title": "2910 robot reveal 2023, Phantom, post 33",
+      "url": "https://www.chiefdelphi.com/t/428786/33",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s35": {
+      "title": "2910 CAD and Tech Binder Release 2023, post 8",
+      "url": "https://www.chiefdelphi.com/t/436653/8",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s36": {
+      "title": "2910 CAD and Tech Binder Release 2023, post 42",
+      "url": "https://www.chiefdelphi.com/t/436653/42",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s37": {
+      "title": "2910 robot reveal 2023, Phantom, post 49",
+      "url": "https://www.chiefdelphi.com/t/428786/49",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s38": {
+      "title": "2910 CAD and Tech Binder Release 2023, post 126",
+      "url": "https://www.chiefdelphi.com/t/436653/126",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s39": {
+      "title": "2910 CAD and Tech Binder Release 2023, post 132",
+      "url": "https://www.chiefdelphi.com/t/436653/132",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s40": {
+      "title": "Team 2910 Code Release 2023, post 12",
+      "url": "https://www.chiefdelphi.com/t/443663/12",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s41": {
+      "title": "2910 robot reveal 2023, Phantom, post 39",
+      "url": "https://www.chiefdelphi.com/t/428786/39",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s42": {
+      "title": "2910 CAD and Tech Binder Release 2023, post 117",
+      "url": "https://www.chiefdelphi.com/t/436653/117",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s43": {
+      "title": "2910 CAD and Tech Binder Release 2023, post 88",
+      "url": "https://www.chiefdelphi.com/t/436653/88",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s44": {
+      "title": "2910 robot reveal 2023, Phantom, post 15",
+      "url": "https://www.chiefdelphi.com/t/428786/15",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s45": {
+      "title": "2910 CAD and Tech Binder Release 2023, post 39",
+      "url": "https://www.chiefdelphi.com/t/436653/39",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s46": {
+      "title": "1678 Citrus Circuits 2023 CAD and Code Release, post 73",
+      "url": "https://www.chiefdelphi.com/t/437632/73",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s47": {
+      "title": "2910 CAD and Tech Binder Release 2023, post 44",
+      "url": "https://www.chiefdelphi.com/t/436653/44",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s48": {
+      "title": "2910 robot reveal 2023, Phantom, post 42",
+      "url": "https://www.chiefdelphi.com/t/428786/42",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s49": {
+      "title": "2910 CAD and Tech Binder Release 2023, post 14",
+      "url": "https://www.chiefdelphi.com/t/436653/14",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s50": {
+      "title": "2910 CAD and Tech Binder Release 2023, post 105",
+      "url": "https://www.chiefdelphi.com/t/436653/105",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s51": {
+      "title": "2910 CAD and Tech Binder Release 2023, post 130",
+      "url": "https://www.chiefdelphi.com/t/436653/130",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s52": {
+      "title": "2910 CAD and Tech Binder Release 2023, post 30",
+      "url": "https://www.chiefdelphi.com/t/436653/30",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s53": {
+      "title": "2910 CAD and Tech Binder Release 2023, post 32",
+      "url": "https://www.chiefdelphi.com/t/436653/32",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s54": {
+      "title": "2910 CAD and Tech Binder Release 2023, post 34",
+      "url": "https://www.chiefdelphi.com/t/436653/34",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s55": {
+      "title": "2910 CAD and Tech Binder Release 2023, post 21",
+      "url": "https://www.chiefdelphi.com/t/436653/21",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s56": {
+      "title": "2910 CAD and Tech Binder Release 2023, post 13",
+      "url": "https://www.chiefdelphi.com/t/436653/13",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s57": {
+      "title": "Team 2910 Code Release 2023, post 13",
+      "url": "https://www.chiefdelphi.com/t/443663/13",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s58": {
+      "title": "Team 2910 Code Release 2023, post 7",
+      "url": "https://www.chiefdelphi.com/t/443663/7",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s59": {
+      "title": "2910 CAD and Tech Binder Release 2023, post 104",
+      "url": "https://www.chiefdelphi.com/t/436653/104",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s60": {
+      "title": "2910 CAD and Tech Binder Release 2023, post 68",
+      "url": "https://www.chiefdelphi.com/t/436653/68",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s61": {
+      "title": "2910 CAD and Tech Binder Release 2023, post 123",
+      "url": "https://www.chiefdelphi.com/t/436653/123",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s62": {
+      "title": "2910 Pop-Up Presentations 2023",
+      "url": "https://www.chiefdelphi.com/t/442665",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s63": {
+      "title": "PNW District Championship Recap 2023 - Week 6 | 2910",
+      "url": "https://www.youtube.com/watch?v=ru6WKOdHFHw",
+      "publisher": "YouTube",
+      "read": "2026-11-25"
+    },
+    "s64": {
+      "title": "FIRST Championship Recap 2023 | 2910",
+      "url": "https://www.youtube.com/watch?v=9bUwOEUrRUw",
+      "publisher": "YouTube",
+      "read": "2026-11-25"
+    },
+    "s65": {
+      "title": "2022-2023 Season Recap",
+      "url": "https://www.youtube.com/watch?v=vyJwnMChLss",
+      "publisher": "YouTube",
+      "read": "2026-11-25"
+    },
+    "s66": {
+      "title": "Team 2910 Code Release 2023",
+      "url": "https://www.chiefdelphi.com/t/443663",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s67": {
+      "title": "2023 Build Season, Week 7",
+      "url": "https://frcteam2910.org/2023/02/19/2023-build-season-week-7/",
+      "publisher": "FRC Team 2910",
+      "read": "2026-11-25"
+    },
+    "s68": {
+      "title": "2910 Robot Reveal, 2025, Spectre, post 154",
+      "url": "https://www.chiefdelphi.com/t/494648/154",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s69": {
+      "title": "Competition History",
+      "url": "https://frcteam2910.org/competition-history/",
+      "publisher": "FRC Team 2910",
+      "read": "2026-11-25"
+    },
+    "s70": {
+      "title": "2910 Robot Reveal, 2025, Spectre, post 63",
+      "url": "https://www.chiefdelphi.com/t/494648/63",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s71": {
+      "title": "2910 Robot Reveal, 2025, Spectre, post 66",
+      "url": "https://www.chiefdelphi.com/t/494648/66",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s72": {
+      "title": "2910 Robot Reveal, 2025, Spectre, post 68",
+      "url": "https://www.chiefdelphi.com/t/494648/68",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s73": {
+      "title": "2910 Robot Reveal, 2025, Spectre, post 71",
+      "url": "https://www.chiefdelphi.com/t/494648/71",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s74": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/Jum0f3Z",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s75": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/fTkuph0",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s76": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/h6VagDH",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s77": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/iqYxsvl",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s78": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/mUl5x7U",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s79": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/tNcQODZ",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    },
+    "s80": {
+      "title": "Onshape document",
+      "url": "https://cad.onshape.com/documents/28a885d3b8ad7de567efebbd/w/33b7dd39d54ec1ab15f2e2aa/e/3a56292a14fcabb1906c6575",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    },
+    "s81": {
+      "title": "Page this picture is from",
+      "url": "https://www.chiefdelphi.com/t/436653",
+      "publisher": "chiefdelphi.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "A center of gravity so low that the driver can cross the field and the charge station without worrying about collisions or obstacles.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "Four priorities: score on the side opposite pickup, to drive less in auto; cross the charge station quickly; specialize in the double substation; fit a triple balance.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "There are two double substations and one single, so a robot that uses the double one fits on more alliances.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "A three pieces plus balance auto, announced for SunDome; the arm reaches far out (\"Yoshi\" auto), so the robot drives less.",
+        "basis": "team",
+        "src": [
+          "s5",
+          "s6",
+          "s4"
+        ]
+      },
+      {
+        "text": "On the bump side the arm drops the first cube over the bump, and the robot crosses only twice.",
+        "basis": "team",
+        "src": [
+          "s7"
+        ]
+      },
+      {
+        "text": "By Houston auto ran without vision.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "Score, drive to the double substation, take a piece and come back.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "The operator sets the level, the piece and whether a cone is upright.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      },
+      {
+        "text": "It was always willing to be the partner that cycles over the charge station.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "The reveal lists auto balancing; being friendly to a triple balance was one priority for the 26 by 28 in frame.",
+        "basis": "team",
+        "src": [
+          "s10",
+          "s4"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "A spare arm: inline connectors are used only at the arm, so that the spare can be swapped in between matches, and it needs no calibration.",
+        "basis": "team",
+        "src": [
+          "s11",
+          "s12"
+        ]
+      },
+      {
+        "text": "A poster who was at an event says the arm was swapped during finals in about 10 minutes.",
+        "basis": "observer",
+        "src": [
+          "s13"
+        ]
+      },
+      {
+        "text": "A second, identical robot, Loki, was the practice robot.",
+        "basis": "team",
+        "src": [
+          "s68",
+          "s69"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "Teleop floor pickup: the intake was not optimized for it, and widening it was discussed and not done.",
+        "basis": "team",
+        "src": [
+          "s14",
+          "s4"
+        ]
+      },
+      {
+        "text": "Arm speed: even with about 10 lb of brass ballast at the front, the arm ran at about half its design rotation speed, because faster kicked the base up.",
+        "basis": "team",
+        "src": [
+          "s4",
+          "s15"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "A deployable full-width cube roller in the first concept was dropped.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "Forks on the arm were planned and left out; the four motors sized for them stayed.",
+        "basis": "team",
+        "src": [
+          "s16"
+        ]
+      },
+      {
+        "text": "The drive went from L3 gearing to 16T, then 18T pinions.",
+        "basis": "team",
+        "src": [
+          "s17",
+          "s18"
+        ]
+      },
+      {
+        "text": "Vision first ran at the district championship, in a limited way, and was retuned before the world championship.",
+        "basis": "team",
+        "src": [
+          "s19"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "69-16-0 in official play; ranked 29 by championship OPR (68.19, Galileo).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "MK4i swerve drivetrain",
+      "solves": [
+        {
+          "text": "Cross the long field quickly, and go over the charge station in any direction faster than going around it",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "At the start of the season, on standard L3, it could fill the whole grid twice on one battery; the off-season 12-motor drive, at its faster gearing, got through about two thirds of a grid before brownout protection",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        }
+      ],
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [
+        "charge-station"
+      ],
+      "facts": [
+        {
+          "text": "Frame 26 in wide and 28 in long",
+          "basis": "team",
+          "src": [
+            "s10",
+            "s4"
+          ]
+        },
+        {
+          "text": "SDS MK4i modules; three drive gearings in the year: standard L3, then L3 with a 16T and with an 18T pinion",
+          "basis": "team",
+          "src": [
+            "s17",
+            "s10"
+          ]
+        },
+        {
+          "text": "Drive ratio at the end of the season (18T pinion on L3 gears)",
+          "basis": "team",
+          "src": [
+            "s20"
+          ],
+          "value": 4.76,
+          "unit": ":1"
+        },
+        {
+          "text": "A custom motor spacer with two hole patterns moves the motor to fit the 16T and 18T pinions",
+          "basis": "team",
+          "src": [
+            "s21",
+            "s18",
+            "s22"
+          ]
+        },
+        {
+          "text": "Target for crossing the charge station (caption), less than about",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 3,
+          "unit": "s"
+        },
+        {
+          "text": "A tuned coefficient on angular velocity corrects the drift that came from rotating while translating",
+          "basis": "team",
+          "src": [
+            "s23"
+          ]
+        },
+        {
+          "text": "Feedforwards for path following are tuned on a long straight path with translational PID off, and were redone at every gear change",
+          "basis": "team",
+          "src": [
+            "s17"
+          ]
+        },
+        {
+          "text": "Off-season, before IRI: 12 drive motors at 4.75:1 had the same top speed as the 8-motor practice robot and gained about half a robot length by half field",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Telescoping arm",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Reach about 40 in or more past the edge of the robot to score, and stow low when driving",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s10"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The steel-cord extension belt broke a few times in practice and in SunDome final 1; a 2023 post says no true root cause was found and hold-position current limits were adjusted, and a 2025 post concludes the belt was overloaded",
+          "basis": "team",
+          "src": [
+            "s32",
+            "s70"
+          ]
+        },
+        {
+          "text": "Off-season: at Chezy Champs a 3D printed e-chain mounting point at the second arm's rear bearing block failed, the cables were no longer managed and that arm stopped working",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "two-stage cascade telescope",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "The first stage is belt driven; Dyneema cord moves the second stage from the first stage's motion; the arm is powered both ways",
+          "basis": "team",
+          "src": [
+            "s24",
+            "s25",
+            "s26"
+          ]
+        },
+        {
+          "text": "Tubes: 3 in and 2.5 in square with 1/8 in wall, pocketed, and 2 in square with 1/16 in wall, not pocketed",
+          "basis": "team",
+          "src": [
+            "s27"
+          ]
+        },
+        {
+          "text": "Half-inch tube steps in place of the usual one-inch steps, because larger tube is stiffer for the same weight",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "The received tubing was measured and the bearing block CAD adjusted to match, so there is almost no gap",
+          "basis": "team",
+          "src": [
+            "s26",
+            "s24"
+          ]
+        },
+        {
+          "text": "The cord is tensioned by inline chain turnbuckles; belts have no designed tensioner, only a clamp adjustable by one tooth and printed idlers that could change diameter",
+          "basis": "team",
+          "src": [
+            "s28",
+            "s24",
+            "s29"
+          ]
+        },
+        {
+          "text": "Width of the extension belts (a 2023 post calls them HTD; a 2025 post names Gates GT2 5 mm with steel cord)",
+          "basis": "team",
+          "src": [
+            "s24",
+            "s71"
+          ],
+          "value": 15,
+          "unit": "mm"
+        },
+        {
+          "text": "Two constant force springs only keep tension on the cable carrier",
+          "basis": "team",
+          "src": [
+            "s30"
+          ]
+        },
+        {
+          "text": "Extension waits until the shoulder is close to its target, so that the arm is not long through the swing",
+          "basis": "team",
+          "src": [
+            "s31",
+            "s8"
+          ]
+        },
+        {
+          "text": "A plate on the middle stage is the hard stop at full extension; a cascade needs one only on the first stage",
+          "basis": "team",
+          "src": [
+            "s29"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arm pivot",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Swing a long arm quickly, precisely and to the same place every time",
+          "basis": "team",
+          "src": [
+            "s33",
+            "s4"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The robot does wheelies, so arm moves were coordinated to keep it on two wheels only very briefly",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "position",
+        "structure"
+      ],
+      "type": "chain-driven rear shoulder on a dead axle",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Reduction, roughly",
+          "basis": "team",
+          "src": [
+            "s34"
+          ],
+          "value": 110,
+          "unit": ":1"
+        },
+        {
+          "text": "The pivot is at the rear, which minimizes how far the arm has to extend to score",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Four motors",
+          "basis": "team",
+          "src": [
+            "s30",
+            "s16"
+          ],
+          "value": 4,
+          "unit": "motors"
+        },
+        {
+          "text": "Pre-stretched number 35 chain with the tensioner close to the gearbox plate, and the largest output sprocket that fit, 58 teeth",
+          "basis": "team",
+          "src": [
+            "s24"
+          ]
+        },
+        {
+          "text": "REV gears on rounded hex, for a much tighter fit than other FRC gears",
+          "basis": "team",
+          "src": [
+            "s35",
+            "s24"
+          ]
+        },
+        {
+          "text": "Two X-contact bearings of 2.5 in inside diameter around a dead axle, which closes the top of the A-frame; the bearing set the axle diameter",
+          "basis": "team",
+          "src": [
+            "s36",
+            "s24",
+            "s37"
+          ]
+        },
+        {
+          "text": "The axle is 6061, machined from tube of 2.75 in outside diameter and 1/4 in wall; it stays with the arm in a swap",
+          "basis": "team",
+          "src": [
+            "s38",
+            "s37"
+          ]
+        },
+        {
+          "text": "Motion Magic without gravity feedforward: onboard PID and the high reduction were accurate enough",
+          "basis": "team",
+          "src": [
+            "s39",
+            "s40"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wrist",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Add a joint at the end of the arm at low weight, without a planetary gearbox",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "It had to be planned in early, because adding a wrist to a telescoping arm later would be very hard",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "belt-driven wrist with its motor on the intake",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Reduction, roughly",
+          "basis": "team",
+          "src": [
+            "s34"
+          ],
+          "value": 40,
+          "unit": ":1"
+        },
+        {
+          "text": "Pulleys on the intake are driven and turn the wrist around a fixed pulley at the end of the arm",
+          "basis": "team",
+          "src": [
+            "s41"
+          ]
+        },
+        {
+          "text": "Belts in every stage except the first, with 3D printed Onyx pulleys on hex inserts",
+          "basis": "team",
+          "src": [
+            "s32",
+            "s24"
+          ]
+        },
+        {
+          "text": "Intake and wrist weigh about, including motors",
+          "basis": "team",
+          "src": [
+            "s42"
+          ],
+          "value": 7.5,
+          "unit": "lb"
+        },
+        {
+          "text": "Standoffs are hard stops at both ends; one is used for zeroing",
+          "basis": "team",
+          "src": [
+            "s43"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "solves": [
+        {
+          "text": "Take cones and cubes with one light intake, including fallen cones, from the ground and the shelf",
+          "basis": "team",
+          "src": [
+            "s10",
+            "s9"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The first roller, rubber rollers on a tube, weighed about three pounds and was replaced",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Not optimized for teleop ground pickup",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "retain",
+        "deliver"
+      ],
+      "type": "dead axle roller intake for both pieces",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "A cone is held between two parallel rollers and another roller handles the cube; largely inspired by the Everybot",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "The last roller was flipped back into the intake so that it stows lower",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Rollers are McMaster 5236K255 rubber on polycarbonate tube, with printed end caps held by epoxy",
+          "basis": "team",
+          "src": [
+            "s44",
+            "s45"
+          ]
+        },
+        {
+          "text": "The sleeves go on the tubes by floating them on air",
+          "basis": "team",
+          "src": [
+            "s46"
+          ]
+        },
+        {
+          "text": "Plates are 7075-T651, 1/4 in thick with 3/16 in ribs",
+          "basis": "team",
+          "src": [
+            "s47",
+            "s48"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "A-frame superstructure and brass bar",
+      "solves": [
+        {
+          "text": "Hold a long arm stiffly and keep the robot from tipping",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s49"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Rivets with steel mandrels almost never loosen but are a slight pain to drill out; once a wrong assembly order meant drilling out a bunch",
+          "basis": "team",
+          "src": [
+            "s50"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "box tube A-frame with front ballast",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Stowed height, less than",
+          "basis": "team",
+          "src": [
+            "s10"
+          ],
+          "value": 17,
+          "unit": "in"
+        },
+        {
+          "text": "Weight, about, without additional ballast as stated at the reveal",
+          "basis": "team",
+          "src": [
+            "s10"
+          ],
+          "value": 90,
+          "unit": "lb"
+        },
+        {
+          "text": "A later talk gives about 90 lb at inspection in championship form, and about 95 lb off-season with extra drive motors, including 10 lb of brass at the front",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "The center of gravity is about four to five inches off the ground",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "The solid brass front rail weighs about 10 lb; in solid aluminum it would be about 3 lb",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Tubes and gussets are 6061; gussets are 1/8 in thick, on both sides",
+          "basis": "team",
+          "src": [
+            "s32",
+            "s50"
+          ]
+        },
+        {
+          "text": "Rivets sit 1/4 in from the tube edge, for stiffness and to remove material between them",
+          "basis": "team",
+          "src": [
+            "s50"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arm homing and LEDs",
+      "solves": [
+        {
+          "text": "Know the arm's position with no external encoders",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Off-season: one homing button failed internally, which the team suspects came from repeated high-speed collisions; it had survived the season",
+          "basis": "team",
+          "src": [
+            "s51"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "button homing on motor encoders",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Shoulder, extension and wrist use only the motors' internal encoders",
+          "basis": "team",
+          "src": [
+            "s35",
+            "s12"
+          ]
+        },
+        {
+          "text": "A button on the robot sets home with the arm in a known position; a controller button drives the joints into hard stops at low voltage until velocity nears zero",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "A second button toggles brake mode, so the arm can be put up for the start of auto",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "When disabled, LEDs are red, or green once the arm is home; when enabled, purple asks for a cube and yellow for a cone",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vision and automatic cone scoring",
+      "pieces": [
+        "cone"
+      ],
+      "solves": [
+        {
+          "text": "Line up a cone wherever it sits in the intake",
+          "basis": "team",
+          "src": [
+            "s31"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Strict thresholds kept false positives rare but cost cycle time; in many cases the driver scored faster",
+          "basis": "team",
+          "src": [
+            "s31"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "deliver"
+      ],
+      "type": "AprilTag localization with time of flight cone sensing",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "At Houston: two global shutter color cameras (OV9782), each on its own Orange Pi 5, running PhotonVision",
+          "basis": "team",
+          "src": [
+            "s52",
+            "s53",
+            "s54",
+            "s55"
+          ]
+        },
+        {
+          "text": "A time of flight sensor on the intake's inner wall finds the center of the cone",
+          "basis": "team",
+          "src": [
+            "s31"
+          ]
+        },
+        {
+          "text": "The robot aligns sideways and in angle; the driver pulls forward to confirm; it ejects when in tolerance",
+          "basis": "team",
+          "src": [
+            "s31"
+          ]
+        },
+        {
+          "text": "Tolerance: X and Y within 1 in, yaw within 1 degree, pitch within 3 degrees of 0",
+          "basis": "team",
+          "src": [
+            "s56"
+          ]
+        },
+        {
+          "text": "Vision is trusted less with distance, by a coefficient on the distance to the closest tag",
+          "basis": "team",
+          "src": [
+            "s56"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Autonomous software",
+      "solves": [
+        {
+          "text": "Build and change autos quickly, with a consistent result",
+          "basis": "team",
+          "src": [
+            "s9",
+            "s8"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "PathPlanner trajectories with custom command scheduling",
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Custom methods run commands in parallel or in sequence with a path, in place of PathPlanner's markers",
+          "basis": "team",
+          "src": [
+            "s57"
+          ]
+        },
+        {
+          "text": "Earlier in the season paths were joined at common control points; later independent trajectories were found more intuitive",
+          "basis": "team",
+          "src": [
+            "s58"
+          ]
+        },
+        {
+          "text": "All modules are pointed forward before the match so that no wheel turns in place at the start",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "On the bump side each module crosses the bump on its own, to reduce jolt and slip",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wiring",
+      "solves": [
+        {
+          "text": "Keep the robot electrically reliable and the arm quick to swap",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "It may take some time from programming or driver practice",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "soldered wiring with connectors only at the arm",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Connectors for motor power, CAN and sensor power only at the arm; everything else is soldered",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Connectors that must exist, such as roboRIO ports, are hot glued",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        },
+        {
+          "text": "A quick swap uses lever nuts first and is soldered when there is time",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Specialize in the double substation",
+      "because": "there are two, the piece is in a known place, and a robot that uses it fits on more alliances",
+      "instead_of": "the single substation or the open field",
+      "cost": "an intake not optimized for teleop ground pickup",
+      "basis": "team",
+      "src": [
+        "s4",
+        "s14"
+      ]
+    },
+    {
+      "choice": "Keep the center of gravity very low",
+      "because": "the driver should not have to care about collisions or obstacles",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "A rear pivot with a telescoping arm",
+      "because": "the game is about reaching out, not up, and a rear pivot minimizes the extension",
+      "instead_of": "tilted elevators, a double-jointed arm or a centered pivot, which were also laid out",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "Stay light",
+      "because": "driving and accelerating faster was the bigger advantage",
+      "instead_of": "more front ballast to move the arm faster",
+      "cost": "an arm that ran at about half its design rotation speed",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "Box tube and gussets",
+      "because": "the structure that holds the arm has to be extremely stiff",
+      "instead_of": "the parallel plates of earlier 2910 robots",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "Number 35 chain on the arm pivot",
+      "because": "it is much stiffer",
+      "instead_of": "a pulley",
+      "basis": "team",
+      "src": [
+        "s33"
+      ]
+    },
+    {
+      "choice": "No external encoders on the arm",
+      "because": "it simplified the design, and a replacement arm needs no calibration",
+      "basis": "team",
+      "src": [
+        "s12"
+      ]
+    },
+    {
+      "choice": "Four motors on the arm pivot",
+      "because": "forks on the arm were planned, without a shifter or a slower ratio",
+      "instead_of": "two motors, which would have run fine",
+      "basis": "team",
+      "src": [
+        "s16",
+        "s72",
+        "s73"
+      ],
+      "cost": "a 2025 team post says the four motors gave no benefit; once the forks were dropped, removing them was not worth the time"
+    },
+    {
+      "choice": "No counterbalance on the pivot",
+      "because": "the team does not think it was ever discussed: with four motors committed early it was not really necessary and would only have added complexity",
+      "basis": "team",
+      "src": [
+        "s30"
+      ]
+    },
+    {
+      "choice": "7075 intake plates",
+      "because": "they are lighter and much stiffer at the end of a fast arm, and there was little time when impact resistance was needed",
+      "instead_of": "1/4 in polycarbonate",
+      "basis": "team",
+      "src": [
+        "s14"
+      ]
+    },
+    {
+      "choice": "Keep the intake narrow",
+      "because": "a wider one has to be very precise to fit the double substation quickly, and a narrow one helps automated scoring",
+      "instead_of": "a wider intake for cubes",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "Drop the deployable full-width roller",
+      "because": "its packaging with the arm was a big challenge and it served a part of the game the team did not mean to play often",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "PhotonVision with Arducams on Orange Pis",
+      "because": "higher frame rate and lower latency, better tuning and calibration, and global shutter",
+      "instead_of": "Limelight",
+      "basis": "team",
+      "src": [
+        "s55"
+      ]
+    },
+    {
+      "choice": "No vision in autonomous",
+      "because": "wheel odometry that is consistently wrong can be adjusted for, and poor vision measurements came at random",
+      "basis": "team",
+      "src": [
+        "s8"
+      ]
+    },
+    {
+      "choice": "Leave pneumatics out",
+      "because": "inspection work was one of the reasons",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "A primary geometry part in SolidWorks",
+      "because": "every subsystem derives from the same layout sketches of the whole robot",
+      "basis": "team",
+      "src": [
+        "s59"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "Top level robot, Onshape upload (the robot was designed in SolidWorks)",
+        "url": "https://cad.onshape.com/documents/28a885d3b8ad7de567efebbd/w/33b7dd39d54ec1ab15f2e2aa/e/3a56292a14fcabb1906c6575",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "Same Onshape upload, as listed on the team page",
+        "url": "https://cad.onshape.com/documents/28a885d3b8ad7de567efebbd/w/33b7dd39d54ec1ab15f2e2aa",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Team folder of robot CAD releases",
+        "url": "https://www.dropbox.com/sh/n5333h3odoxmf33/AADEXHenP5zBvrYZdQgS4LRxa?dl=0",
+        "format": "Dropbox folder",
+        "state": "listed",
+        "src": "s60"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/2fztbo1",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/zwofaNr",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "CAD and technical binder thread",
+        "url": "https://www.chiefdelphi.com/t/436653",
+        "format": "thread",
+        "state": "opened",
+        "src": "s1"
+      },
+      {
+        "what": "Behind the Bumpers interview, March 2023 (transcript read, video not watched)",
+        "url": "https://www.youtube.com/watch?v=7ETEf__nD1I",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Reveal video, 2023 (not watched)",
+        "url": "https://www.youtube.com/watch?v=R5r28-MQqzg",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Reveal thread",
+        "url": "https://www.chiefdelphi.com/t/428786",
+        "format": "thread",
+        "state": "opened",
+        "src": "s10"
+      },
+      {
+        "what": "Team talk on the design of its robots (transcript read, video not watched)",
+        "url": "https://www.youtube.com/watch?v=JNjciwKbGn0",
+        "format": "video",
+        "state": "listed",
+        "src": "s62"
+      },
+      {
+        "what": "Three pieces plus balance auto (not watched)",
+        "url": "https://youtu.be/EYMhct3bujk",
+        "format": "video",
+        "state": "listed",
+        "src": "s5"
+      },
+      {
+        "what": "Bump-side three-piece auto (not watched)",
+        "url": "https://youtu.be/GRmIriirBhg",
+        "format": "video",
+        "state": "listed",
+        "src": "s7"
+      },
+      {
+        "what": "Automatic cone scoring (not watched)",
+        "url": "https://youtu.be/rHTqhPOUpqc",
+        "format": "video",
+        "state": "listed",
+        "src": "s31"
+      },
+      {
+        "what": "District championship recap (not watched)",
+        "url": "https://www.youtube.com/watch?v=ru6WKOdHFHw",
+        "format": "video",
+        "state": "listed",
+        "src": "s63"
+      },
+      {
+        "what": "World championship recap (not watched)",
+        "url": "https://www.youtube.com/watch?v=9bUwOEUrRUw",
+        "format": "video",
+        "state": "listed",
+        "src": "s64"
+      },
+      {
+        "what": "Season recap (not watched)",
+        "url": "https://www.youtube.com/watch?v=vyJwnMChLss",
+        "format": "video",
+        "state": "listed",
+        "src": "s65"
+      },
+      {
+        "what": "Robot in the air above the charge station, holding a cube",
+        "url": "https://imgur.com/Jum0f3Z",
+        "img": "https://i.imgur.com/Jum0f3Zh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s74",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Stowed robot on its cart, blue bumpers, seen from above",
+        "url": "https://imgur.com/fTkuph0",
+        "img": "https://i.imgur.com/fTkuph0h.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s75",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Stowed robot on its cart, red bumpers, seen from behind",
+        "url": "https://imgur.com/h6VagDH",
+        "img": "https://i.imgur.com/h6VagDHh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s76",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Stowed robot on the field with a cone in its rollers",
+        "url": "https://imgur.com/iqYxsvl",
+        "img": "https://i.imgur.com/iqYxsvlh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s77",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "Robot with a cone driving off the charge station",
+        "url": "https://imgur.com/mUl5x7U",
+        "img": "https://i.imgur.com/mUl5x7Uh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s78",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Robot with its arm raised, red bumpers",
+        "url": "https://imgur.com/tNcQODZ",
+        "img": "https://i.imgur.com/tNcQODZh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s79",
+        "kind": "robot-photo"
+      },
+      {
+        "what": "Full robot CAD, stowed, seen from behind",
+        "url": "https://cad.onshape.com/documents/28a885d3b8ad7de567efebbd/w/33b7dd39d54ec1ab15f2e2aa/e/3a56292a14fcabb1906c6575",
+        "img": "https://cad.onshape.com/api/thumbnails/d/28a885d3b8ad7de567efebbd/w/33b7dd39d54ec1ab15f2e2aa/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s80",
+        "kind": "cad"
+      },
+      {
+        "what": "Full robot CAD, stowed, gripper rollers in front",
+        "url": "https://www.chiefdelphi.com/t/436653",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/d/2/d2673b90d604b043355a34663d1635c3ef358b04_2_690x381.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s81",
+        "kind": "cad"
+      },
+      {
+        "what": "Robot on the field holding a cube",
+        "url": "https://www.chiefdelphi.com/t/443663",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/1/0/102b81b82a197b7d79e6b1c1b39af721753220ee_2_690x460.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s66",
+        "kind": "robot-photo"
+      }
+    ],
+    "documents": [
+      {
+        "what": "2023 technical binder, in the 2023 folder of the team CAD release folder",
+        "url": "https://www.dropbox.com/sh/n5333h3odoxmf33/AADEXHenP5zBvrYZdQgS4LRxa?dl=0",
+        "format": "Dropbox folder",
+        "state": "listed",
+        "src": "s61"
+      },
+      {
+        "what": "Team blog post that names Phantom, the main robot, and Loki",
+        "url": "https://frcteam2910.org/2023/02/19/2023-build-season-week-7/",
+        "format": "web page",
+        "state": "opened",
+        "src": "s67"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account",
+        "url": "https://github.com/frcteam2910",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "2023 robot code",
+        "url": "https://github.com/FRCTeam2910/2023CompetitionRobot-Public",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s66"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)"
+  ],
+  "results": {
+    "division": "Galileo",
+    "division_opr": 68.19,
+    "opr_rank": 29,
+    "record": "69-16-0",
+    "einstein": null,
+    "added": {
+      "why": "blended",
+      "rank": 8
+    },
+    "note": "Listed beside the top 20: 29th by championship OPR, but 8th of the championship robots in our rating that also counts the rest of its season. The rating sees scoring only.",
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

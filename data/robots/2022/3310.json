@@ -1,0 +1,703 @@
+{
+  "id": "2022-3310",
+  "season": 2022,
+  "team": "3310",
+  "team_name": "Black Hawk Robotics",
+  "robot_name": null,
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 3310 in 2022",
+      "url": "https://www.thebluealliance.com/team/3310/2022",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Roebling Division 2022",
+      "url": "https://www.thebluealliance.com/event/2022roe",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "Behind the Bumpers 3310 Black Hawk Robotics Robot Rapid React (automatic transcript read)",
+      "url": "https://www.youtube.com/watch?v=yl_IvDRmSDs",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Rapid React defense, post 9",
+      "url": "https://www.chiefdelphi.com/t/407127/9",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "6328 just did a gremlin auto, post 31",
+      "url": "https://www.chiefdelphi.com/t/409813/31",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Who had the fastest traversal climb in the world, post 48",
+      "url": "https://www.chiefdelphi.com/t/412515/48",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "New Meta?, post 44",
+      "url": "https://www.chiefdelphi.com/t/408343/44",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "FRC Recap: Championship Divisions and Einstein, Rapid React (automatic transcript read)",
+      "url": "https://www.youtube.com/watch?v=vKLxBkhyMwg",
+      "publisher": "YouTube",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Who had the fastest traversal climb in the world, post 38",
+      "url": "https://www.chiefdelphi.com/t/412515/38",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Who had the fastest traversal climb in the world, post 47",
+      "url": "https://www.chiefdelphi.com/t/412515/47",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Triple traversal at Houston",
+      "url": "https://www.chiefdelphi.com/t/408250",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Triple traversal at Houston, post 23",
+      "url": "https://www.chiefdelphi.com/t/408250/23",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "Favorite match of the 2022 season, post 39",
+      "url": "https://www.chiefdelphi.com/t/415208/39",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "Most creative climbers for Rapid React, post 7",
+      "url": "https://www.chiefdelphi.com/t/408068/7",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "Request for pit scouting data from the championship, post 5",
+      "url": "https://www.chiefdelphi.com/t/410352/5",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "Robots without pneumatics in 2022 Rapid React, post 10",
+      "url": "https://www.chiefdelphi.com/t/436276/10",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "What structures to design in the off-season, post 15",
+      "url": "https://www.chiefdelphi.com/t/415461/15",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "Behind the Glass and Behind the Bumpers, 3310 Black Hawk Robotics, post 2",
+      "url": "https://www.chiefdelphi.com/t/408987/2",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "Behind the Glass and Behind the Bumpers, 3310 Black Hawk Robotics",
+      "url": "https://www.chiefdelphi.com/t/408987",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "2022 ROEBLING F1 / FRC 3310 / CLEAN ROBOT VIDEO",
+      "url": "https://www.youtube.com/watch?v=WoLQaehGDb4",
+      "publisher": "YouTube",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "Team3310/FRC-2022-MK4i-Competition",
+      "url": "https://github.com/Team3310/FRC-2022-MK4i-Competition",
+      "publisher": "GitHub",
+      "read": "2026-11-25"
+    },
+    "s22": {
+      "title": "Favorite match of the 2022 season, post 28",
+      "url": "https://www.chiefdelphi.com/t/415208/28",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s23": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/6Dmz3md",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "demand": [
+      {
+        "text": "Time to shoot: a quick climb gives more freedom to shoot more balls, since less time climbing is more time scoring.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "In the Irving playoffs the top alliance ran 3310's high-scoring auto on the feeder side, which left 148 the hangar side.",
+        "basis": "observer",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "In Roebling match 74 it hid cargo behind the hub in auto and in teleop; another poster says 5895 found and scored it.",
+        "basis": "observer",
+        "src": [
+          "s5",
+          "s22"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "Take cargo in, stop the indexer when a sensor sees a ball while the intake keeps running, then feed the two balls up an S-curve into a shooter that spins all match. Speed and hood angle come from a map of field positions.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "Raise the \"swords\" and the elevator, pull up until the bumpers are about below the mid bar, react off the high bar along a cam, latch on the traversal bar, release and swing.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      },
+      {
+        "text": "In one match a poster counts about six seconds from entering the hangar to the traversal.",
+        "basis": "observer",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "A team post says it built a top-heavy robot that had tipped over.",
+        "basis": "team",
+        "src": [
+          "s7"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "At Waco the intake snapped almost half a dozen times; it got a second plate. At Irving a mesh tongue that gripped balls came with penalties; grippier bumpers and a motor that brings the intake in followed.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      },
+      {
+        "text": "In prototyping, a top shooter wheel was added against backspin.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      },
+      {
+        "text": "A recap video reports climber issues in the Roebling finals; the same video has it completing a triple traversal, barely, in final 1.",
+        "basis": "observer",
+        "src": [
+          "s8"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "65-7-0 in official play; finalist in the Roebling division; ranked 34 by championship OPR (52.35, Roebling).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Intake",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Grip cargo without snapping or collecting penalties",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "With a single plate it snapped almost half a dozen times at Waco",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Jams mostly happen at a place shown on camera, and not as much in the indexing",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "polycarbonate intake with flex wheels",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Scaled up from the 2020 intake, with some changes to the geometry",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Two plates of Lexan, about a quarter inch as captioned, where there was one; it had not snapped since, as of the Texas championship",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Flex wheels on the bottom row grip better",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "A motor brings the entire intake in; it fitted once some VRMs were removed and sensors moved",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "The bumpers are covered in a slightly adhesive material that grips the balls",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Indexer and S-curve",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Always hold two balls and index them easily over a minimal distance",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "transfer",
+        "retain",
+        "sense"
+      ],
+      "type": "indexer with an S-curve ball path",
+      "serves": [],
+      "facts": [
+        {
+          "text": "An IR sensor stops the indexer when a ball is there; the intake is a separate subsystem and can still run",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "The S-curve runs straight into the shooter and holds two balls",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Carried over from the Infinite Recharge game",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter and hood",
+      "pieces": [
+        "cargo"
+      ],
+      "solves": [
+        {
+          "text": "Shoot with less backspin, from any point on the field",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The first prototype, with one wheel, put balls in that spun out again once a real goal was used",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "deliver",
+        "position"
+      ],
+      "type": "flywheel with top wheel and variable hood",
+      "serves": [],
+      "facts": [
+        {
+          "text": "A lower wheel from the previous year's prototype, and a top wheel added through a gear ratio to reduce backspin",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "The variable hood is the previous year's, scaled up",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "An interpolating tree map gives shooter speed and hood angle at any point on the field",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Compression was chosen by testing wheel sizes for the lowest speed that works; as captioned, about",
+          "basis": "team",
+          "src": [
+            "s3"
+          ],
+          "value": 2,
+          "unit": "in"
+        },
+        {
+          "text": "The motor sits low, because there is not enough space at the top",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Reach the traversal bar quickly, to leave time for shooting",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "A recap video reports climber issues in the Roebling finals, though it has the robot completing a triple traversal, barely, in final 1",
+          "basis": "observer",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "elevator with arms that react off the high bar",
+      "serves": [
+        "rung-traversal"
+      ],
+      "facts": [
+        {
+          "text": "Of its three parts, only the elevator is controlled through the climb",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "The \"swords\" are powered up before the climb and then stay up; a third part deploys on a constant force spring",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "The robot reacts off the high bar along a cam surface, and past a bump the hooks pop into place on the traversal bar",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Climb time at the Texas championship, as the team gives it in the automatic captions, about",
+          "basis": "team",
+          "src": [
+            "s3"
+          ],
+          "value": 4,
+          "unit": "s"
+        },
+        {
+          "text": "At the Texas championship it entered the hangar at 12 s left and latched at 3",
+          "basis": "observer",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "In a Roebling match it scored 5 balls between 23 and 7 s left, entered the hangar at 6, touched the mid bar at 4 and was on the traversal at the buzzer",
+          "basis": "observer",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "A poster says the cam geometry let it make a triple traversal with practically any two traversal-capable robots",
+          "basis": "observer",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "A triple traversal with 5431 and 2687 in match 40 at Houston, the Texas championship, made a score of 160",
+          "basis": "observer",
+          "src": [
+            "s11",
+            "s12",
+            "s13"
+          ]
+        },
+        {
+          "text": "A poster groups it with 125 as climbers that skip the high bar and lever off it to swing hooks up to traversal",
+          "basis": "observer",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Drivetrain",
+      "solves": [],
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "A pit scouting list gives a swerve drive and no turret",
+          "basis": "observer",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "A poster lists it among the biggest names without pneumatics; a team that built a copy also names no use of pneumatics as something it learned",
+          "basis": "observer",
+          "src": [
+            "s16",
+            "s17"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "A fast climb",
+      "because": "it gives more freedom to shoot more balls",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "An S-curve ball path",
+      "because": "it always holds two balls and indexes them easily over a minimal distance",
+      "instead_of": "holding balls in an intake, which has not enough room",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "Keep the shooter running all match",
+      "because": "the speed stays consistent and no inertia has to be overcome each time",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "Choose compression by graphing tests",
+      "because": "it finds the setting that gets there at the lowest speed, so no power is wasted",
+      "instead_of": "a value that posts on the forum were giving",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    },
+    {
+      "choice": "Add a motor that brings the intake in",
+      "because": "it reduces penalties and snapping",
+      "cost": "some VRMs were removed and sensors moved to make room",
+      "basis": "team",
+      "src": [
+        "s3"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Behind the Bumpers interview, Texas championship (transcript read, video not watched)",
+        "url": "https://www.youtube.com/watch?v=yl_IvDRmSDs",
+        "format": "video",
+        "state": "listed",
+        "src": "s18"
+      },
+      {
+        "what": "Mic'd quarterfinal, Texas championship (not watched)",
+        "url": "https://www.youtube.com/watch?v=mV_i1Z0qfu8",
+        "format": "video",
+        "state": "listed",
+        "src": "s19"
+      },
+      {
+        "what": "Traversal climb at the Texas championship (not watched)",
+        "url": "https://youtu.be/tCrTFU7f0r0",
+        "format": "video",
+        "state": "listed",
+        "src": "s9"
+      },
+      {
+        "what": "Triple traversal match, Texas championship (not watched)",
+        "url": "https://youtu.be/hR7FDpSEh20",
+        "format": "video",
+        "state": "listed",
+        "src": "s12"
+      },
+      {
+        "what": "Triple traversal match from the stands (not watched)",
+        "url": "https://youtu.be/LkBC8mijJww",
+        "format": "video",
+        "state": "listed",
+        "src": "s12"
+      },
+      {
+        "what": "Triple traversal match from the driver station (not watched)",
+        "url": "https://youtu.be/Bw5uXQJC2wg",
+        "format": "video",
+        "state": "listed",
+        "src": "s12"
+      },
+      {
+        "what": "Roebling final 1, match video (not watched)",
+        "url": "https://www.youtube.com/watch?v=WoLQaehGDb4",
+        "format": "video",
+        "state": "listed",
+        "src": "s20"
+      },
+      {
+        "what": "Full robot on white, intake out and hook raised",
+        "url": "https://imgur.com/6Dmz3md",
+        "img": "https://i.imgur.com/6Dmz3mdh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s23",
+        "kind": "robot-photo",
+        "hero": true
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account",
+        "url": "https://github.com/team3310",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "2022 competition robot code (no README)",
+        "url": "https://github.com/Team3310/FRC-2022-MK4i-Competition",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s21"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "web searches for 3310's 2022 CAD, technical binder, code, reveal and lessons learned; the team site refused or answered empty"
+  ],
+  "results": {
+    "division": "Roebling",
+    "division_opr": 52.35,
+    "opr_rank": 34,
+    "record": "65-7-0",
+    "einstein": null,
+    "added": {
+      "why": "blended",
+      "rank": 12
+    },
+    "note": "Listed beside the top 20: 34th by championship OPR, but 12th of the championship robots in our rating that also counts the rest of its season. The rating sees scoring only.",
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

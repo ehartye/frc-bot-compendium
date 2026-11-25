@@ -1,0 +1,660 @@
+{
+  "id": "2026-5687",
+  "season": 2026,
+  "team": "5687",
+  "team_name": "The Outliers",
+  "robot_name": "Glenn",
+  "variant": "Glenn, the robot revealed on 6 March 2026; a poster says the team brought another robot to week 0 as well",
+  "sources": {
+    "s1": {
+      "title": "Team 5687 in 2026",
+      "url": "https://www.thebluealliance.com/team/5687/2026",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Glenn (2026)",
+      "url": "https://www.theoutliers.org/glenn-2026",
+      "publisher": "Team 5687",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "Fuel Theft is going to break the Meta wide open - FRC Strategy Analysis (automatic captions)",
+      "url": "https://www.youtube.com/watch?v=BT2P26TOLwo",
+      "publisher": "RoboReplay",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "1678 might have solved the game - FRC Strategy Analysis (automatic captions)",
+      "url": "https://www.youtube.com/watch?v=AOAG5SgewT4",
+      "publisher": "RoboReplay",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Tips to Win the Championship - FRC FUNalysis (automatic captions)",
+      "url": "https://www.youtube.com/watch?v=Aln5Wp0ieaE",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Turret vs big dumper, post 19",
+      "url": "https://www.chiefdelphi.com/t/516220/19",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Team 5687 2026 code release",
+      "url": "https://www.chiefdelphi.com/t/524737",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Team 5687 The Outliers Presents: Glenn, post 21",
+      "url": "https://www.chiefdelphi.com/t/515683/21",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Team 5687 The Outliers Presents: Glenn, post 7",
+      "url": "https://www.chiefdelphi.com/t/515683/7",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Team 5687 The Outliers Presents: Glenn, post 8",
+      "url": "https://www.chiefdelphi.com/t/515683/8",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Team 5687 The Outliers Presents: Glenn, post 23",
+      "url": "https://www.chiefdelphi.com/t/515683/23",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Team 5687 The Outliers Presents: Glenn, post 17",
+      "url": "https://www.chiefdelphi.com/t/515683/17",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "Team 5687 The Outliers Presents: Glenn, post 26",
+      "url": "https://www.chiefdelphi.com/t/515683/26",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "Team 5687 The Outliers Presents: Glenn, post 42",
+      "url": "https://www.chiefdelphi.com/t/515683/42",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "Team 5687 The Outliers Presents: Glenn, post 40",
+      "url": "https://www.chiefdelphi.com/t/515683/40",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "Team 5687 The Outliers Presents: Glenn, post 14",
+      "url": "https://www.chiefdelphi.com/t/515683/14",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "Team 5687 The Outliers Presents: Glenn, post 16",
+      "url": "https://www.chiefdelphi.com/t/515683/16",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "Team 5687 The Outliers Presents: Glenn, post 38",
+      "url": "https://www.chiefdelphi.com/t/515683/38",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "Team 5687 The Outliers Presents: Glenn, post 25",
+      "url": "https://www.chiefdelphi.com/t/515683/25",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "Team 5687 The Outliers Presents: Glenn, post 12",
+      "url": "https://www.chiefdelphi.com/t/515683/12",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "Team 5687 The Outliers Presents: Glenn",
+      "url": "https://www.chiefdelphi.com/t/515683",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s22": {
+      "title": "Team 5687 The Outliers Presents: Glenn, post 47",
+      "url": "https://www.chiefdelphi.com/t/515683/47",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s23": {
+      "title": "Photo listed on The Blue Alliance",
+      "url": "https://imgur.com/78Dan4m",
+      "publisher": "The Blue Alliance / Imgur",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "auto": [
+      {
+        "text": "The team lists the Autonomous Award at its UVM event.",
+        "basis": "team",
+        "src": [
+          "s2"
+        ]
+      },
+      {
+        "text": "In one Pine Tree final it reached the line just after 747 and got much less fuel; in one New England final it stuck on fuel and its alliance lost auto.",
+        "basis": "observer",
+        "src": [
+          "s4",
+          "s3"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "A poster at Pine Tree saw it feed by reversing its intake and hopper rollers instead of shooting over.",
+        "basis": "observer",
+        "src": [
+          "s6"
+        ]
+      },
+      {
+        "text": "In one New England final it collected in front of the opponents' hub to stop short cycles, then crossed the bump past a defender and emptied its hopper.",
+        "basis": "observer",
+        "src": [
+          "s3"
+        ]
+      },
+      {
+        "text": "In a Burns division match, a partner herded fuel and counter-defended for it.",
+        "basis": "observer",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "It had many power consumption issues in the season; its logs looked as good as other teams', and it guesses at a battery or connector difference.",
+        "basis": "team",
+        "src": [
+          "s7"
+        ]
+      },
+      {
+        "text": "It had autos that it never ran, and \"some shoot\" that it never used in a match.",
+        "basis": "team",
+        "src": [
+          "s7"
+        ]
+      },
+      {
+        "text": "The urethane drum coating was a real pain that the team would not recommend.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      },
+      {
+        "text": "A host says its net slowed it at the trench.",
+        "basis": "observer",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "One poster calls it a rebuild from week 0; another says the team brought both robots and drove this one in some matches.",
+        "basis": "observer",
+        "src": [
+          "s9",
+          "s10"
+        ]
+      },
+      {
+        "text": "Floor rollers became belts between the URI and UVM events, and the intake went from rack and pinion to a capstan after teeth were damaged at URI.",
+        "basis": "team",
+        "src": [
+          "s11"
+        ]
+      },
+      {
+        "text": "Another team helped diagnose its power draw at UVM.",
+        "basis": "team",
+        "src": [
+          "s12",
+          "s13"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "62-12-1 in official play; won the New England District Championship; did not play in a championship division.",
+        "basis": "record",
+        "src": [
+          "s1"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Intake",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Take fuel fast with little current, and survive hard impacts",
+          "basis": "team",
+          "src": [
+            "s14",
+            "s15"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "roller intake deployed by a capstan",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Two 2 in top rollers driven by two X44s",
+          "basis": "team",
+          "src": [
+            "s16",
+            "s17"
+          ]
+        },
+        {
+          "text": "A 1.25 in bottom kicker driven by the X44 that drives the floor",
+          "basis": "team",
+          "src": [
+            "s16",
+            "s17"
+          ]
+        },
+        {
+          "text": "Compression between top and lower rollers, about",
+          "basis": "team",
+          "src": [
+            "s17"
+          ],
+          "value": 0.5,
+          "unit": "in"
+        },
+        {
+          "text": "The lower the compression the less the motor bogged down, so the team used the least that still worked",
+          "basis": "team",
+          "src": [
+            "s17"
+          ]
+        },
+        {
+          "text": "Capstan: the middle of a rope is fixed to the hub and its ends to the front and back of the intake; turning the hub pulls one side in and pays out the other",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Since the change only rope tension needed adjusting",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "The capstan was not prototyped, since the team had used some form of it for three years; the roller positions were prototyped through several iterations",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The earlier rack sheared teeth whenever the intake took a hard impact",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Belt floor",
+      "pieces": [
+        "fuel"
+      ],
+      "solves": [
+        {
+          "text": "Feed fuel without balls spinning in place",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ],
+      "does": [
+        "transfer"
+      ],
+      "type": "belt conveyor floor",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "Drew less current and gave somewhat more balls per second than rollers, after several iterations of both",
+          "basis": "team",
+          "src": [
+            "s18"
+          ]
+        },
+        {
+          "text": "After the change both auto-shot timers had to be shortened by over half a second",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Gaps between belts make natural lanes, so volleys three to four balls wide came more consistently",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Drum shooter",
+      "pieces": [
+        "fuel"
+      ],
+      "does": [
+        "deliver",
+        "position"
+      ],
+      "type": "coated drum with rotating hood",
+      "serves": [
+        "hub"
+      ],
+      "facts": [
+        {
+          "text": "It shoots the same distance regardless of how fast or how many balls enter",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Aluminum tube 6 in in diameter and 1/8 in thick, with four layers of PMC-780 urethane, turned down and balanced with bolts in the side plates",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Moment of inertia, a little over",
+          "basis": "team",
+          "src": [
+            "s8"
+          ],
+          "value": 80,
+          "unit": "lb in^2"
+        },
+        {
+          "text": "The kicker roller that feeds it turned out not to be really needed",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "The hood covers about 24 degrees, of which about 12 are used",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The urethane coating was a real pain; the team would not recommend it if there are other options",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "C++ code",
+      "solves": [
+        {
+          "text": "Extrapolate and interpolate drivetrain, flywheel and hood states",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "state tracking and shot calculator",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Average loop time",
+          "basis": "team",
+          "src": [
+            "s7"
+          ],
+          "value": 1.5,
+          "unit": "ms"
+        },
+        {
+          "text": "Odometry thread",
+          "basis": "team",
+          "src": [
+            "s7"
+          ],
+          "value": 250,
+          "unit": "Hz"
+        },
+        {
+          "text": "Interpolating maps of hood and flywheel with drivetrain velocity compensation, for shoot on the move; the same post says it had \"some shoot\" never used in a match",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "A battery and energy logger",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Frame",
+      "does": [
+        "structure"
+      ],
+      "type": "wide frame",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Frame 30 in wide and 24 in long",
+          "basis": "team",
+          "src": [
+            "s20"
+          ]
+        },
+        {
+          "text": "A host calls it so heavy with fuel that a defender had to sit a bit forward on the bump to stop it",
+          "basis": "observer",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Capstan intake deployment",
+      "because": "hard impacts sheared the teeth of the rack",
+      "instead_of": "rack and pinion",
+      "cost": "ropes must be kept tensioned",
+      "basis": "team",
+      "src": [
+        "s15"
+      ]
+    },
+    {
+      "choice": "Belt floor",
+      "because": "it drew less current, gave more balls per second and stopped balls spinning in place",
+      "instead_of": "a roller floor",
+      "basis": "team",
+      "src": [
+        "s18",
+        "s15"
+      ]
+    },
+    {
+      "choice": "Minimal intake compression",
+      "because": "more compression bogged down the motor",
+      "basis": "team",
+      "src": [
+        "s17"
+      ]
+    },
+    {
+      "choice": "C++",
+      "because": "looking back, the team says performance, units libraries and strict compile-time checks likely made this its most reliable software season",
+      "instead_of": "Java",
+      "basis": "team",
+      "src": [
+        "s7"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [],
+    "graphics": [
+      {
+        "what": "Reveal thread, read in full (images not read)",
+        "url": "https://www.chiefdelphi.com/t/515683",
+        "format": "thread",
+        "state": "opened",
+        "src": "s1"
+      },
+      {
+        "what": "Reveal video (not watched)",
+        "url": "https://youtu.be/OtsBO5IAR44",
+        "format": "video",
+        "state": "listed",
+        "src": "s21"
+      },
+      {
+        "what": "Second reveal video (not watched)",
+        "url": "https://youtu.be/Zt5AnVfTzaY",
+        "format": "video",
+        "state": "listed",
+        "src": "s21"
+      },
+      {
+        "what": "Capstan intake movement, short video (not watched)",
+        "url": "https://youtube.com/shorts/uu8Z2KlNLlE",
+        "format": "video",
+        "state": "listed",
+        "src": "s22"
+      },
+      {
+        "what": "Post with a screenshot of the capstan intake (image not read)",
+        "url": "https://www.chiefdelphi.com/t/515683/40",
+        "format": "thread",
+        "state": "listed",
+        "src": "s15"
+      },
+      {
+        "what": "Full robot on white, red top roller, blue bumpers",
+        "url": "https://imgur.com/78Dan4m",
+        "img": "https://i.imgur.com/78Dan4mh.jpg",
+        "format": "image",
+        "state": "opened",
+        "src": "s23",
+        "kind": "robot-photo",
+        "hero": true
+      }
+    ],
+    "documents": [
+      {
+        "what": "Team page for Glenn",
+        "url": "https://www.theoutliers.org/glenn-2026",
+        "format": "web page",
+        "state": "opened",
+        "src": "s2"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account",
+        "url": "https://github.com/frc5687",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "2026-robot, C++",
+        "url": "https://github.com/frc5687/2026-robot",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s7"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "reveal and code threads in full, team website, and a web search for a binder or CAD release"
+  ],
+  "results": {
+    "division": null,
+    "division_opr": null,
+    "opr_rank": null,
+    "record": "62-12-1",
+    "einstein": null,
+    "added": {
+      "why": "season",
+      "rank": 13
+    },
+    "note": "Listed beside the top 20: it did not play in a championship division, and ranked 13th of all 2026 robots in our rating of the whole season. The rating sees scoring only.",
+    "src": [
+      "s1"
+    ]
+  }
+}

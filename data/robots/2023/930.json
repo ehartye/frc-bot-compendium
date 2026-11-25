@@ -1,0 +1,580 @@
+{
+  "id": "2023-930",
+  "season": 2023,
+  "team": "930",
+  "team_name": "Mukwonago BEARs",
+  "robot_name": "cubert Conelius",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 930 in 2023",
+      "url": "https://www.thebluealliance.com/team/930/2023",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Milstein Division 2023",
+      "url": "https://www.thebluealliance.com/event/2023mil",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Team 930: 2023",
+      "url": "https://www.team930.com/2023",
+      "publisher": "Team 930",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Behind the Bumpers: 930 Mukwonago BEARs, Charged Up",
+      "url": "https://www.youtube.com/watch?v=wzWFWZzy9C8",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Team 930 2023 CAD and code release",
+      "url": "https://www.chiefdelphi.com/t/438584",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Team 930 2023 CAD and code release (post 3)",
+      "url": "https://www.chiefdelphi.com/t/438584/3",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Wisconsin Regional Recap",
+      "url": "https://www.team930.com/newsletter/2023/4/1/wisconsin-regional-recap",
+      "publisher": "Team 930",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "WildStang Robotics Program: Team 111 and 112 Build Blog - 2023 (post 237)",
+      "url": "https://www.chiefdelphi.com/t/420243/237",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "auto": [
+      {
+        "text": "The team lists five or more auto paths and auto balance. One path picks up cubes from the ground while driving backwards, using arm positions kept for auto.",
+        "basis": "team",
+        "src": [
+          "s4",
+          "s5"
+        ]
+      },
+      {
+        "text": "A post by 111, which picked it at Midwest, cites fantastic autonomous routines and extremely consistent performance.",
+        "basis": "observer",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "Arm, intake and elevator go to preset positions. The substation preset reaches one way and the arm also goes backwards; in teleop the team prefers to pick up in front. The drop-off preset angles the cone over the pole.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "Several manipulators: the earlier one struggled as cubes bounced off it, so the team refitted an idea from WildStang's Open Alliance work. The aluminum arm became carbon fiber.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      },
+      {
+        "text": "A cube floor intake, for low scoring only, was added by the Wisconsin Regional but not yet used in a match; the team page later lists a ground cube intake.",
+        "basis": "team",
+        "src": [
+          "s5",
+          "s4"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "47-13-1 in official play; ranked 21 by championship OPR (69.74, Milstein).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Drivetrain",
+      "does": [
+        "drive",
+        "structure"
+      ],
+      "type": "four-wheel swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Four-wheel swerve",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "The page lists a steel belly pan and 2x1",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elevator",
+      "solves": [
+        {
+          "text": "Raise the arm with a low center of gravity and let it pass front to back",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "45 degree continuous elevator",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Continuous rigging: the carriage rises to the top of the first stage before the rest moves",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "First stage uses two aluminum tubes bolted together rather than one",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "The belt runs inside the tubing for packaging and protection",
+          "basis": "team",
+          "src": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Two NEOs drive it, with the gearing low",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "No bars connect the stages, so the arm passes through front to back; plates on the bearing blocks keep them together",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "A belt came loose in a Wisconsin playoff match the alliance lost 127-133",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arm and wrist drive",
+      "solves": [
+        {
+          "text": "Keep the arm light so the robot does not tip when reaching or intaking",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "carbon fiber arm and wrist on one dead axle",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "serves": [
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "Two separate spline pieces on a dead axle move arm and wrist independently while lined up",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "The carbon fiber arm is interchangeable",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Belt manipulator",
+      "solves": [
+        {
+          "text": "Pick up cubes that bounced off the earlier manipulator, and grip cones",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "retain",
+        "deliver"
+      ],
+      "type": "V-shaped polyurethane belt intake",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "serves": [
+        "grid-low",
+        "grid-mid",
+        "grid-high"
+      ],
+      "facts": [
+        {
+          "text": "The team page calls it a V-shaped polybelt intake",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Polyurethane belts grip the cone well",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "It takes pieces from a vertical position rather than horizontal, which made cubes much easier to grab",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "It can hold a cone under heavy defense",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Spacers on the ends keep the running belts from burning holes in the carpet",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ground cube intake",
+      "solves": [
+        {
+          "text": "Take cubes from the ground and score them low quickly to complete links",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "deliver"
+      ],
+      "type": "motor-extended wheeled intake for cubes",
+      "pieces": [
+        "cube"
+      ],
+      "serves": [
+        "grid-low",
+        "link"
+      ],
+      "facts": [
+        {
+          "text": "A motor extends it and wheels bring the cube in; it scores low only",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Planned for matches expected to be won, to make links for the ranking point",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "At the Wisconsin Regional it had not yet been used on the field",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Position presets",
+      "solves": [
+        {
+          "text": "Put elevator, arm and manipulator at a known position for each task",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "position"
+      ],
+      "type": "encoder-based position presets",
+      "pieces": [
+        "cone",
+        "cube"
+      ],
+      "serves": [],
+      "facts": [
+        {
+          "text": "Encoders on arm, manipulator and elevator hold stored angles and heights",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "A few positions are used only in autonomous",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Presets for picking up from the substation, for drop-off and for reaching backwards",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "A carbon fiber arm",
+      "because": "it is lighter, so the robot does not tip when going up to score or down to intake",
+      "instead_of": "the earlier aluminum arm",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "A continuous elevator",
+      "because": "a cascade would raise part of the elevator early and waste center of gravity",
+      "instead_of": "a cascading elevator, used in 2018",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Run the elevator belt inside the tubing",
+      "because": "packaging is easier and the belt is protected",
+      "basis": "team",
+      "src": [
+        "s7"
+      ]
+    },
+    {
+      "choice": "Refit WildStang's manipulator idea",
+      "because": "the earlier one struggled with cubes bouncing off",
+      "instead_of": "a very common-looking manipulator of its own",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "Off-season robot, as the community sheet labels it; not the season CAD",
+        "url": "https://cad.onshape.com/documents/b688210822ea749239838b0a/w/706c14a2350996dae82cae05/e/5054bc79952157fea14ba2e0",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "CAD listed on The Blue Alliance; the same document the community sheet labels off-season",
+        "url": "https://cad.onshape.com/documents/b688210822ea749239838b0a/w/706c14a2350996dae82cae05",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "2023 CAD release (season robot)",
+        "url": "https://cad.onshape.com/documents/c02d314fb955418d5f9176cc/w/1f468cead8ba92a8e09e7cc6/e/5608fb91a179b13d7920985a",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s6"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/0M7vYC8",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/FtM8C3p",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/Ya2fADv",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/pNGBuvn",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Pit interview at the Wisconsin Regional (captions read, not watched)",
+        "url": "https://www.youtube.com/watch?v=wzWFWZzy9C8",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Full robot CAD render, arm raised, blue bumpers",
+        "url": "https://www.chiefdelphi.com/t/438584",
+        "img": "https://lh4.googleusercontent.com/UpB1LYGULT5MgwTazkB7eoaX0XjjtwmFGxaD_-GLscm1Fob_D25F9QdI6NEaNV7M4-tHmRD7VfJqfDeC9rJO5fztAQosqP7kWxhzvPWT4oOv3K861hOBVrRqXV1k-dxBD72jN376LMMqL1C17n9TBcM",
+        "format": "image",
+        "state": "opened",
+        "src": "s6",
+        "kind": "cad",
+        "hero": true
+      },
+      {
+        "what": "Belt routing of the extending tubes, side view",
+        "url": "https://www.chiefdelphi.com/t/438584/3",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/a/4/a49937aa42d6b6316f7ad741311da397fb3853f2_2_136x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s7",
+        "kind": "drawing"
+      }
+    ],
+    "documents": [
+      {
+        "what": "Team page for the 2023 robot",
+        "url": "https://www.team930.com/2023",
+        "format": "web page",
+        "state": "opened",
+        "src": "s4"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/frc930",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "2023 code release",
+        "url": "https://github.com/FRC930/Robot2023",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s6"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "team website, newsletter, CAD and code thread, and web and forum searches for a binder"
+  ],
+  "results": {
+    "division": "Milstein",
+    "division_opr": 69.74,
+    "opr_rank": 21,
+    "record": "47-13-1",
+    "einstein": null,
+    "added": {
+      "why": "blended",
+      "rank": 15
+    },
+    "note": "Listed beside the top 20: 21st by championship OPR, but 15th of the championship robots in our rating that also counts the rest of its season. The rating sees scoring only.",
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

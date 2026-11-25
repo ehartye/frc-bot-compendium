@@ -1,0 +1,1160 @@
+{
+  "id": "2024-2056",
+  "season": 2024,
+  "team": "2056",
+  "team_name": "OP Robotics",
+  "robot_name": "LOW-KEY",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 2056 in 2024",
+      "url": "https://www.thebluealliance.com/team/2056/2024",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Galileo Division 2024",
+      "url": "https://www.thebluealliance.com/event/2024gal",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "OPR24-2056 Technical Binder",
+      "url": "https://2056.ca/wp-content/uploads/2024/05/OPR24-2056-Technical-Binder.pdf",
+      "publisher": "Team 2056",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Team 2056 2024 technical binder release",
+      "url": "https://www.chiefdelphi.com/t/465867",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Team 2056 2024 technical binder release (post 21)",
+      "url": "https://www.chiefdelphi.com/t/465867/21",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Team 2056 2024 technical binder release (post 27)",
+      "url": "https://www.chiefdelphi.com/t/465867/27",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Team 2056 2024 technical binder release (post 37)",
+      "url": "https://www.chiefdelphi.com/t/465867/37",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Team 2056 2024 technical binder release (post 46)",
+      "url": "https://www.chiefdelphi.com/t/465867/46",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Team 2056 2024 technical binder release (post 48)",
+      "url": "https://www.chiefdelphi.com/t/465867/48",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Team 2056 2024 technical binder release (post 51)",
+      "url": "https://www.chiefdelphi.com/t/465867/51",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Team 2056 2024 technical binder release (post 53)",
+      "url": "https://www.chiefdelphi.com/t/465867/53",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Team 2056 2024 technical binder release (post 58)",
+      "url": "https://www.chiefdelphi.com/t/465867/58",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "Team 2056 2024 technical binder release (post 60)",
+      "url": "https://www.chiefdelphi.com/t/465867/60",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "Team 2056 2024 technical binder release (post 66)",
+      "url": "https://www.chiefdelphi.com/t/465867/66",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "Team 2056 2024 technical binder release (post 77)",
+      "url": "https://www.chiefdelphi.com/t/465867/77",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "Team 2056 2024 technical binder release (post 80)",
+      "url": "https://www.chiefdelphi.com/t/465867/80",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "Team 2056 2024 technical binder release (post 81)",
+      "url": "https://www.chiefdelphi.com/t/465867/81",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "Team 2056 2024 technical binder release (post 33)",
+      "url": "https://www.chiefdelphi.com/t/465867/33",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "Behind the Bumpers: 2056 OP Robotics, Crescendo",
+      "url": "https://www.youtube.com/watch?v=IZindhVMrX0",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "FRC Design in the Modern Era (2024), slides linked from the team's conference page",
+      "url": "https://2056.ca/conference/",
+      "publisher": "Team 2056",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "History, Team 2056",
+      "url": "https://2056.ca/history/",
+      "publisher": "Team 2056",
+      "read": "2026-11-25"
+    },
+    "s23": {
+      "title": "Why 2056 is the best to ever do it (post 35)",
+      "url": "https://www.chiefdelphi.com/t/496352/35",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s24": {
+      "title": "2024 Einstein is the best one yet (post 3)",
+      "url": "https://www.chiefdelphi.com/t/463710/3",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s25": {
+      "title": "Team 2056 2024 technical binder release (post 76)",
+      "url": "https://www.chiefdelphi.com/t/465867/76",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s26": {
+      "title": "Team 2056 2024 technical binder release (post 57)",
+      "url": "https://www.chiefdelphi.com/t/465867/57",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Do less better: master the simple things, with one pivot that shoots, amps and shoots over a defender.",
+        "basis": "team",
+        "src": [
+          "s20"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "Score in the speaker from all reasonable distances and in the amp, and pick up notes anywhere on the open field. The trap was ignored: designing for it compromised the whole robot, its points were not worth it in eliminations, and other scoring reached the same ranking point.",
+        "basis": "team",
+        "src": [
+          "s3",
+          "s20"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "Drive-to-point paths. If the Limelight sees a note, the chassis shifts to take it; if the note is missing, the robot diverts to the next. Speaker tag angle and distance correct its position.",
+        "basis": "team",
+        "src": [
+          "s3"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The under-bumper intake takes the note and hands it to the shooter; the arm tracks the speaker and LEDs turn blue when the shot will go in. For the amp and passing, the chassis snaps to a heading. Human players stand at both source and amp.",
+        "basis": "team",
+        "src": [
+          "s3",
+          "s19"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "Drive into the chain late with hooks up, lining up about five seconds before the end with a partner; when power is lost at the buzzer the cylinders retract and lift the robot. The center hook lets it hang with a partner, and the team says late climbs earned a few ranking points.",
+        "basis": "team",
+        "src": [
+          "s3",
+          "s6",
+          "s19"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "The arm can be raised at set positions to shoot over a tall defender. The tank holds air for two hang attempts with the compressor off. The driver can let go of heading snap, or rehome the arm, by hand.",
+        "basis": "team",
+        "src": [
+          "s19",
+          "s6",
+          "s13"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "No trap. Flywheels stay at one speed, since slowing them up close hurt autos that shoot while driving; some close shots go in and out.",
+        "basis": "team",
+        "src": [
+          "s20",
+          "s12"
+        ]
+      },
+      {
+        "text": "On Einstein, a post says, both losses were close, a partner had trouble with shuttled notes and an opponent stole them. Another wonders whether it should have cycled rather than passed.",
+        "basis": "observer",
+        "src": [
+          "s23",
+          "s24"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "After the first event the flywheels were tipped down 6 degrees, because the arm could not go low enough for wing line shots. Aluminum intake side plates replaced polycarbonate, ribs stiffened the rear frame, and a second hook was added.",
+        "basis": "team",
+        "src": [
+          "s3",
+          "s7"
+        ]
+      },
+      {
+        "text": "Looking back, the intake should probably have used sushi rollers.",
+        "basis": "team",
+        "src": [
+          "s11"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "67-3-0 in official play; won the Galileo division; captain of the Galileo alliance on Einstein; ranked 50 by championship OPR (47.07, Galileo).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Swerve modules",
+      "solves": [
+        {
+          "text": "Be agile and leave room for a wide under-bumper intake",
+          "basis": "team",
+          "src": [
+            "s3",
+            "s19"
+          ]
+        }
+      ],
+      "does": [
+        "drive"
+      ],
+      "type": "swerve, two modules with inverted motors",
+      "serves": [],
+      "facts": [
+        {
+          "text": "SDS MK4i L3 with Kraken X60; stated maximum speed",
+          "basis": "team",
+          "src": [
+            "s3"
+          ],
+          "value": 16,
+          "unit": "ft/s"
+        },
+        {
+          "text": "Front modules have an inverted motor for note clearance and a custom 1/4 in plate that carries intake wheels",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "3D printed corner blocks support the bumper ends and printed covers keep debris out",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chassis and tower",
+      "solves": [
+        {
+          "text": "Be very rigid with an under-bumper intake and still fit under the stage",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "tube frame with solid baseplate",
+      "serves": [],
+      "facts": [
+        {
+          "text": "2 x 1 and 2 x 2 in tube with 1/8 in wall and a solid 1/8 in baseplate",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "A solid 1 x 1 in steel bar lets the note pass right under the chassis",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "A solid 7/8 in shaft on the tower is the shooter pivot",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Weight",
+          "basis": "team",
+          "src": [
+            "s21"
+          ],
+          "value": 124,
+          "unit": "lb"
+        },
+        {
+          "text": "Size listed as 31 x 29 x 27.5 in",
+          "basis": "team",
+          "src": [
+            "s21"
+          ]
+        },
+        {
+          "text": "The tower must fit under the stage",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Two ribs were added to the rear frame member after the first event, as a precaution",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Under-bumper intake",
+      "solves": [
+        {
+          "text": "Touch it, own it, with a large margin for lineup, and center the note for the shooter",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "acquire"
+      ],
+      "type": "under-bumper roller intake with side kickers",
+      "pieces": [
+        "note"
+      ],
+      "serves": [
+        "speaker",
+        "amp"
+      ],
+      "facts": [
+        {
+          "text": "One Kraken X60 at 2:1 on 1 in rollers; surface speed",
+          "basis": "team",
+          "src": [
+            "s14"
+          ],
+          "value": 25,
+          "unit": "ft/s"
+        },
+        {
+          "text": "A small gearbox turns top and bottom rollers in opposite directions",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "The front roller presses the note into the carpet by about",
+          "basis": "team",
+          "src": [
+            "s3"
+          ],
+          "value": 0.125,
+          "unit": "in"
+        },
+        {
+          "text": "Conveyor rollers and belts compress the note by about",
+          "basis": "team",
+          "src": [
+            "s3"
+          ],
+          "value": 0.25,
+          "unit": "in"
+        },
+        {
+          "text": "1 in polyurethane tube on 1/2 in hex, with 2 in stealth wheels as side kickers",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        },
+        {
+          "text": "A photo-eye automates the intake routine",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The polyurethane was slightly cheaper than sushi rollers but heavier and harder to install",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shoulder gearbox",
+      "solves": [
+        {
+          "text": "Hold the arm precisely when the robot accelerates or shoots, using only the motor encoder",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "single low-backlash pivot",
+      "pieces": [
+        "note"
+      ],
+      "serves": [
+        "speaker",
+        "amp"
+      ],
+      "facts": [
+        {
+          "text": "One Kraken X60; overall reduction, about",
+          "basis": "team",
+          "src": [
+            "s3"
+          ],
+          "value": 107,
+          "unit": ":1"
+        },
+        {
+          "text": "About 40:1 in gears, then about 2.66:1 in #35 chain",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Geared to go from carry to amp in about half a second, as slow as that allows",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Calculated current, about",
+          "basis": "team",
+          "src": [
+            "s15"
+          ],
+          "value": 14,
+          "unit": "A"
+        },
+        {
+          "text": "Loctite 609 bonds the gears to their shafts",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "A custom hub about 1 in long gives the last gear more bore than a 1/2 in gear",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "No external encoder and no home sensor: it zeroes on a hard stop",
+          "basis": "team",
+          "src": [
+            "s3",
+            "s13"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The 1/2 in wide sprocket is replaced once or twice a season as it wears",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        },
+        {
+          "text": "The small backlash is wound out by hand with an allen key before each match",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shooter",
+      "solves": [
+        {
+          "text": "Score from range, past the podium, where the team says less-compressed and side shooters could not",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        }
+      ],
+      "does": [
+        "deliver",
+        "transfer"
+      ],
+      "type": "top and bottom flywheel shooter",
+      "pieces": [
+        "note"
+      ],
+      "serves": [
+        "speaker",
+        "amp"
+      ],
+      "facts": [
+        {
+          "text": "Flywheel compression on the note",
+          "basis": "team",
+          "src": [
+            "s3"
+          ],
+          "value": 0.625,
+          "unit": "in"
+        },
+        {
+          "text": "Passive rollers pre-compress the note by about 1-1/8 in across its diameter",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Left and right pairs each have a Kraken X60 to spin the note: 8000 left and 4000 right RPM in the binder, about 7000 right and 4000 left in a later post",
+          "basis": "team",
+          "src": [
+            "s3",
+            "s12"
+          ]
+        },
+        {
+          "text": "Double-sided belts turn top and bottom wheels in opposite directions at the same speed",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "1 in sushi rollers feed it, and a photo-eye automates shooting",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "One flywheel speed for all shots",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Some shots go in and out at close range",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "After-buzzer climber",
+      "solves": [
+        {
+          "text": "Hang with a partner and keep scoring until the last seconds",
+          "basis": "team",
+          "src": [
+            "s3",
+            "s19"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "pneumatic hanger with single-acting solenoid",
+      "serves": [
+        "onstage"
+      ],
+      "facts": [
+        {
+          "text": "Two 1-1/2 in bore, 10 in stroke cylinders; combined retraction, about",
+          "basis": "team",
+          "src": [
+            "s3"
+          ],
+          "value": 200,
+          "unit": "lb"
+        },
+        {
+          "text": "Losing power retracts it, so it climbs after the buzzer",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Two hooks: one for solo, one for hanging with a partner",
+          "basis": "team",
+          "src": [
+            "s19",
+            "s3"
+          ]
+        },
+        {
+          "text": "The tank is charged before the match and the compressor disabled; enough air for two attempts",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "No cylinder rod bent all season on either robot",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Auto aim",
+      "solves": [
+        {
+          "text": "Hit wing line shots, where half a degree is about a foot of distance",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "position"
+      ],
+      "type": "2D tag tracking with lookup maps",
+      "pieces": [
+        "note"
+      ],
+      "serves": [
+        "speaker"
+      ],
+      "facts": [
+        {
+          "text": "One Limelight 3G reads the center speaker tag's angles as if it were reflective tape",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        },
+        {
+          "text": "A map turns vertical angle into distance, measured every 6 in and separately for each end of each field",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "A second map turns distance into arm position and does not change between events",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Robot velocity is added to arm angle and heading",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Motion Magic for far moves, plain PD to follow the target, with no gravity term",
+          "basis": "team",
+          "src": [
+            "s3",
+            "s8"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The distance map is recalibrated at every new field, and again if a camera is swapped",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Note tracking",
+      "solves": [
+        {
+          "text": "Guarantee the pickup",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "acquire"
+      ],
+      "type": "2D color tracking camera",
+      "pieces": [
+        "note"
+      ],
+      "serves": [
+        "speaker"
+      ],
+      "facts": [
+        {
+          "text": "A Limelight 3 tracks notes in 2D, by color rather than machine learning",
+          "basis": "team",
+          "src": [
+            "s3",
+            "s20"
+          ]
+        },
+        {
+          "text": "If it sees a note while the intake runs, the chassis shifts to align in proportion to its speed",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "In auto it tells whether a note is there",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Driver feedback",
+      "solves": [
+        {
+          "text": "Tell the driver when a shot will go in, although the stage hides the robot",
+          "basis": "team",
+          "src": [
+            "s3",
+            "s19"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "LEDs, rumble and heading snap for one driver",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Red with the speaker tag in view, blue when distance, arm, heading and flywheel errors are in limits",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Solid white and a rumble when a note is acquired",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Holding the amp or pass button turns the chassis to a set heading; it is used nearly every time the robot amps or passes",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "One driver and controller; two human players go to source and amp",
+          "basis": "team",
+          "src": [
+            "s19"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wiring and strain relief",
+      "solves": [
+        {
+          "text": "Keep power and data connected",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "3D printed strain reliefs",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Nearly all connections are strain relieved, many with custom printed parts",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "CAN is soldered, bolted with ring terminals or in spring-loaded terminals",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "A printed cover guards the main breaker",
+          "basis": "team",
+          "src": [
+            "s3"
+          ]
+        },
+        {
+          "text": "A PDP, smaller and lighter than a PDH, with screw terminals",
+          "basis": "team",
+          "src": [
+            "s25"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bumpers",
+      "does": [
+        "structure"
+      ],
+      "type": "single-side bumper segments",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Good plywood, supported along the full length, with studs near the ends and aluminum angle",
+          "basis": "team",
+          "src": [
+            "s26"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Ignore the trap",
+      "because": "designing for it compromised the whole robot, its points were not worth it in eliminations, and other scoring reached the ranking point",
+      "basis": "team",
+      "src": [
+        "s20"
+      ]
+    },
+    {
+      "choice": "An under-bumper intake",
+      "because": "an open field meant heavy collisions, and under the bumper nothing gets hit",
+      "basis": "team",
+      "src": [
+        "s19"
+      ]
+    },
+    {
+      "choice": "Top and bottom flywheels with high compression",
+      "because": "the team wanted to shoot from partly past the stage, and saw side and less-compressed shooters stop at the podium",
+      "instead_of": "side or lower-compression shooters",
+      "basis": "team",
+      "src": [
+        "s19"
+      ]
+    },
+    {
+      "choice": "A pneumatic climber that drops on power loss",
+      "because": "it allows very late climbs",
+      "instead_of": "a rotary hanger, which would probably go on the end of the shooter and add stress and time",
+      "basis": "team",
+      "src": [
+        "s19",
+        "s6"
+      ]
+    },
+    {
+      "choice": "2D vision only",
+      "because": "it processes at a much higher frame rate and needs no filtering or latency compensation",
+      "instead_of": "3D pose estimation",
+      "basis": "team",
+      "src": [
+        "s9"
+      ]
+    },
+    {
+      "choice": "A custom shoulder gearbox",
+      "because": "it leaves ways to reduce backlash, fits the packaging, and the team can make it",
+      "instead_of": "a planetary gearbox",
+      "basis": "team",
+      "src": [
+        "s16"
+      ]
+    },
+    {
+      "choice": "Tip the flywheels down 6 degrees",
+      "because": "it lowers the exit angle with far less effort, and leaves the note handoff alone",
+      "instead_of": "lowering the arm's lowest angle",
+      "basis": "team",
+      "src": [
+        "s7",
+        "s3"
+      ]
+    },
+    {
+      "choice": "One flywheel speed for all shots",
+      "because": "slowing up close hurt autos that shoot while driving away",
+      "instead_of": "slower shots at close range",
+      "cost": "some in-and-outs at close range",
+      "basis": "team",
+      "src": [
+        "s12"
+      ]
+    },
+    {
+      "choice": "Make assembly drawings before building",
+      "because": "they give a parts list and make assembly much easier",
+      "cost": "they take a lot of time",
+      "basis": "team",
+      "src": [
+        "s18"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "CAD drawing package",
+        "url": "https://2056.ca/wp-content/uploads/2024/05/OPR24-2056-Drawing-Package.pdf",
+        "format": "PDF drawings",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "2024 strain relief parts, which the team says it designed for 2025",
+        "url": "https://drive.google.com/file/d/1FaF-l3zrMh00vOsfi5SHeOzciaK8t-A8/view?usp=sharing",
+        "format": "STEP",
+        "state": "listed",
+        "src": "s17"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/JNC1FXM",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/S2y9LGO",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/Z3CdTIq",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/jxzfQhL",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Binder release thread with the team's answers",
+        "url": "https://www.chiefdelphi.com/t/465867",
+        "format": "thread",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "LOW-KEY teaser video (not watched)",
+        "url": "https://www.youtube.com/watch?v=nEAudu0i20E",
+        "format": "video",
+        "state": "listed",
+        "src": "s4"
+      },
+      {
+        "what": "Pit interview (captions read, not watched)",
+        "url": "https://www.youtube.com/watch?v=IZindhVMrX0",
+        "format": "video",
+        "state": "listed",
+        "src": "s19"
+      },
+      {
+        "what": "Low-Key on the binder title page, dark studio lighting",
+        "url": "https://www.chiefdelphi.com/t/465867",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/c/3/c31f507058cf0341c7f3ba3bf7491cbd81f46862_2_289x375.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "robot-photo",
+        "hero": true
+      },
+      {
+        "what": "CAD of a spur gear bolted to a hex hub, front",
+        "url": "https://www.chiefdelphi.com/t/465867/21",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/4/b/4b6cdf50b813aaa07f4eeec0e0e0adca442a9761_2_288x250.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s5",
+        "kind": "cad"
+      },
+      {
+        "what": "CAD of a spur gear with a hex hub, back",
+        "url": "https://www.chiefdelphi.com/t/465867/21",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/f/d/fde2a8fc004309d00cd3027d0ea66297757a4ca8_2_272x250.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s5",
+        "kind": "cad"
+      }
+    ],
+    "documents": [
+      {
+        "what": "LOW-KEY technical binder (text read)",
+        "url": "https://2056.ca/wp-content/uploads/2024/05/OPR24-2056-Technical-Binder.pdf",
+        "format": "PDF",
+        "state": "opened",
+        "src": "s3"
+      },
+      {
+        "what": "FRC Design in the Modern Era, slides with the 2024 robot as a case, linked from the team's conference page (text read)",
+        "url": "https://2056.ca/conference/",
+        "format": "PDF",
+        "state": "opened",
+        "src": "s20"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/team2056",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)"
+  ],
+  "results": {
+    "division": "Galileo",
+    "division_opr": 47.07,
+    "opr_rank": 50,
+    "record": "67-3-0",
+    "einstein": {
+      "division": "Galileo",
+      "role": "captain"
+    },
+    "added": {
+      "why": "blended",
+      "rank": 5
+    },
+    "note": "Listed beside the top 20: 50th by championship OPR, but 5th of the championship robots in our rating that also counts the rest of its season. The rating sees scoring only.",
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

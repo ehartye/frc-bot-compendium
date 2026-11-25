@@ -1,0 +1,1058 @@
+{
+  "id": "2022-6800",
+  "season": 2022,
+  "team": "6800",
+  "team_name": "Valor",
+  "robot_name": "Diablo",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 6800 in 2022",
+      "url": "https://www.thebluealliance.com/team/6800/2022",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Roebling Division 2022",
+      "url": "https://www.thebluealliance.com/event/2022roe",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Diablo technical document (March 2022)",
+      "url": "https://www.chiefdelphi.com/uploads/short-url/zCFdX2nzxX3hPzOB74NPXr8eYDK.pdf",
+      "publisher": "Valor 6800",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Valor 6800: 2022 Robot",
+      "url": "https://sites.google.com/view/valor6800/robot/2022-robot",
+      "publisher": "Valor 6800",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "Behind the Bumpers: 6800 Valor, Rapid React",
+      "url": "https://www.youtube.com/watch?v=auPZ9_jM3b8",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Valor 6800 2022 robot: Diablo",
+      "url": "https://www.chiefdelphi.com/t/404621",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Valor 6800 2022 robot: Diablo (post 12)",
+      "url": "https://www.chiefdelphi.com/t/404621/12",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Valor 6800 2022 robot: Diablo (post 21)",
+      "url": "https://www.chiefdelphi.com/t/404621/21",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Valor 6800 2022 robot: Diablo (post 24)",
+      "url": "https://www.chiefdelphi.com/t/404621/24",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Valor 6800 2022 robot CAD release",
+      "url": "https://www.chiefdelphi.com/t/412856",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Valor 6800 2022 robot CAD release (post 4)",
+      "url": "https://www.chiefdelphi.com/t/412856/4",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "Valor 6800 2022 robot CAD release (post 8)",
+      "url": "https://www.chiefdelphi.com/t/412856/8",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "Valor 6800 2022 robot CAD release (post 9)",
+      "url": "https://www.chiefdelphi.com/t/412856/9",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "Valor 6800 2022 robot CAD release (post 11)",
+      "url": "https://www.chiefdelphi.com/t/412856/11",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "Valor 6800 2022 robot CAD release (post 17)",
+      "url": "https://www.chiefdelphi.com/t/412856/17",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "Valor 6800 2022 robot CAD release (post 20)",
+      "url": "https://www.chiefdelphi.com/t/412856/20",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "Valor 6800 2022 robot CAD release (post 26)",
+      "url": "https://www.chiefdelphi.com/t/412856/26",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "6800 Valor winners interview, FIRST in Texas Championship",
+      "url": "https://www.youtube.com/watch?v=WdJ2DFROqTw",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s20": {
+      "title": "Square vs Rectangular Swerve Chassis (post 5)",
+      "url": "https://www.chiefdelphi.com/t/413406/5",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s21": {
+      "title": "FUNalysis Texas DCMP Grand Finals 2: 148 tips back over",
+      "url": "https://www.youtube.com/watch?v=W0x1eumyPxk",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s22": {
+      "title": "Onshape document",
+      "url": "https://cad.onshape.com/documents/a347ccbaf68f245233aadb8b/w/1078dadff6a13b8f52a83991/e/24ed58654cf353cf1731c47c",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "A swerve so fast that the robot has to be light, small and simple; everything on it is light and simple, which the team says is great for reliability.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "From scoring data: a 22 point auto, swerve for the quickest cycles, an accurate shooter and a climber that can reach traversal. The upper hub, holding 2 cargo and shooting from the tarmac were needs; the lower hub and traversal were wants.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "In the Texas finals the plan was to outshoot the opponents and climb.",
+        "basis": "team",
+        "src": [
+          "s19"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "The design goal was a 22 point auto. The robot follows smooth splines with a velocity and acceleration set for every moment.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "The intake stays on. Cargo touches moving parts all the way up; the feeder stops at the first ball and the intake at the second. The turret always tracks the hub, so the driver just presses shoot.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "The favored ring is from the tarmac to the launch pad.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "Extend, grab the mid rung and pull down. At a software set point the center arm reaches the high rung, pulls down until the static hooks ratchet on, and does it again for traversal.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      },
+      {
+        "text": "At the Texas Championship, at full power with software automation, about seven seconds from the ground.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "The intake cannot retract, which cost some minor penalties at district events. The L4 drive ratio was taken when L3 was out of stock. A second Limelight, to show drivers cargo behind the hub, was not used at the championship.",
+        "basis": "team",
+        "src": [
+          "s16",
+          "s13"
+        ]
+      },
+      {
+        "text": "After winning the Texas Championship the drive team said the playoffs were a little rough, with some reliability issues.",
+        "basis": "team",
+        "src": [
+          "s19"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "The March document lists a NEO 550 intake at 2:1, a NEO indexer and 13 degrees of hood; the Texas Championship interview gives a Falcon intake at 4:3 after five or six versions, a Falcon indexer and about 24 degrees.",
+        "basis": "team",
+        "src": [
+          "s4",
+          "s6"
+        ]
+      },
+      {
+        "text": "The climb was under manual control in mid March and automated by the Texas Championship. Black tread was added where cargo enters, because compression varied.",
+        "basis": "team",
+        "src": [
+          "s8",
+          "s6"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "62-12-0 in official play; ranked 91 by championship OPR (44.41, Roebling).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Swerve drivetrain",
+      "solves": [
+        {
+          "text": "Make as many cycles as possible while avoiding other robots",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "drive"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "SDS MK4 modules, L4 ratio",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s5"
+          ],
+          "value": 5.14,
+          "unit": ":1"
+        },
+        {
+          "text": "Stated free speed",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 21,
+          "unit": "ft/s"
+        },
+        {
+          "text": "All four modules weigh",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s5"
+          ],
+          "value": 21,
+          "unit": "lb"
+        },
+        {
+          "text": "Falcon 500 drive and azimuth, SRX Mag encoders",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "First year of swerve",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Modules are mounted under the 2x1 tube",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "Swerve software took a while to get up to speed",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "A Roebling alliance partner says various bugs appeared with its swerve there",
+          "basis": "observer",
+          "src": [
+            "s20"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chassis",
+      "solves": [
+        {
+          "text": "Keep the center of gravity low under a full-width intake",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ],
+      "does": [
+        "structure"
+      ],
+      "type": "26 in square frame",
+      "serves": [],
+      "facts": [
+        {
+          "text": "Square frame side",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 26,
+          "unit": "in"
+        },
+        {
+          "text": "2x1 tube, 1/8 in wall; ground clearance to the bumper",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 1.25,
+          "unit": "in"
+        },
+        {
+          "text": "Battery hangs below the rails in a foam cage to keep the center of gravity low",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Modules under the tube lower the cargo shelf and the whole ball path",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intake",
+      "solves": [
+        {
+          "text": "Own cargo at first touch and survive being hit",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "retain"
+      ],
+      "type": "three-roller over-bumper intake on a polycarbonate four-bar",
+      "pieces": [
+        "cargo"
+      ],
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "Three rollers belted together, 24.5 in wide",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Gap from the ground to the bottom roller",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 7.3,
+          "unit": "in"
+        },
+        {
+          "text": "Falcon 500 at 1.33:1 on the team page and in the interview; NEO 550 at 2:1 in the March document",
+          "basis": "team",
+          "src": [
+            "s5",
+            "s6",
+            "s4"
+          ]
+        },
+        {
+          "text": "Deploys with no motor: stretched surgical tubing is held by a balanced vertical link and roller friction until the roller spins over a tread plate",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Black tread was added where cargo enters, because compression varied",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "A whole spare intake, rollers and pulleys went to every event",
+          "basis": "team",
+          "src": [
+            "s16"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "It stays down; some minor penalties at district events",
+          "basis": "team",
+          "src": [
+            "s16"
+          ]
+        },
+        {
+          "text": "Season damage: one linkage, one side plate, a couple of surgical tubes, one motor",
+          "basis": "team",
+          "src": [
+            "s16"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Indexer",
+      "solves": [
+        {
+          "text": "Move cargo from intake to shooter in the least time",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "transfer",
+        "retain"
+      ],
+      "type": "curved two-axle indexer",
+      "pieces": [
+        "cargo"
+      ],
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "Cargo is always touching a moving part, to remove dead zones",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Four vertical 1x1 tubes, polycarbonate panels bent at 140 degrees as a funnel, curved rails",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "One cargo is stored inside, the other partly in the intake",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s5"
+          ]
+        },
+        {
+          "text": "Two axles turn opposite ways; a Falcon 500 at 2.88:1 on the team page, a NEO at 9:26 in the March document",
+          "basis": "team",
+          "src": [
+            "s5",
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Turret",
+      "solves": [
+        {
+          "text": "Aim at any robot orientation, under defense, and for predictive shooting",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "180 degree turret",
+      "pieces": [
+        "cargo"
+      ],
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "Travel",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s5"
+          ],
+          "value": 180,
+          "unit": "deg"
+        },
+        {
+          "text": "NEO reduction",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s5"
+          ],
+          "value": 60,
+          "unit": ":1"
+        },
+        {
+          "text": "Final stage is a custom 120 tooth 10 DP gear with an 11 in bore for cargo",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s5"
+          ]
+        },
+        {
+          "text": "A long vertical hex shaft lets the motor sit low; the short space left led to a belt and gear reduction",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Three home positions are on buttons",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Adjustable hood",
+      "solves": [
+        {
+          "text": "Score from the tarmac to the side walls",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "continuously variable hood",
+      "pieces": [
+        "cargo"
+      ],
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "NEO 550 reduction",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s5"
+          ],
+          "value": 454,
+          "unit": ":1"
+        },
+        {
+          "text": "24 degrees of motion on the team page, 13 in the March document",
+          "basis": "team",
+          "src": [
+            "s5",
+            "s4"
+          ]
+        },
+        {
+          "text": "Printed sector rack with a 20 DP profile; bearings on dowels touch it at three points, with no issues",
+          "basis": "team",
+          "src": [
+            "s18"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Flywheel",
+      "solves": [
+        {
+          "text": "Keep shots from bouncing out of the hub",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ],
+      "does": [
+        "deliver"
+      ],
+      "type": "flywheel with top roller",
+      "pieces": [
+        "cargo"
+      ],
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "One Falcon 500 at 1:1 on a 4 in, 35A neoprene roller",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s5"
+          ]
+        },
+        {
+          "text": "A 2 in top roller belted 1:1 cuts backspin by 50%, the team says, so cargo does not bounce out",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climber",
+      "solves": [
+        {
+          "text": "Reach the traversal rung; about seven seconds from the ground by the Texas Championship",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "two-stage climber with a pivoting center arm",
+      "serves": [
+        "rung-mid",
+        "rung-high",
+        "rung-traversal"
+      ],
+      "facts": [
+        {
+          "text": "Reach above the ground",
+          "basis": "team",
+          "src": [
+            "s4",
+            "s5"
+          ],
+          "value": 75,
+          "unit": "in"
+        },
+        {
+          "text": "The center arm pivots to 45 degrees and reaches 11 in off the front rail",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Two Falcons, 6.25:1 single stage, #25H chain; retracts loaded with 120 lb in under 1 s",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Arm pivot: NEO 550 at 96.7:1",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Arm is 1.25 in tube with an ash dowel inside against buckling",
+          "basis": "team",
+          "src": [
+            "s8",
+            "s10"
+          ]
+        },
+        {
+          "text": "Rubber standoffs on the hooks add friction against swinging",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Starts on the second rung to avoid lifting on a rotating rung",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Tie rods of 1/2 in hex with left and right threads spread the load to the chassis",
+          "basis": "team",
+          "src": [
+            "s17",
+            "s6"
+          ]
+        },
+        {
+          "text": "Gearbox sits 1.25 in off the ground, level with the bumpers, to lower the center of gravity and gain every inch of extension",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "In the second Texas final, a tipped partner being righted pulled out wires to its climber, and it could not climb",
+          "basis": "observer",
+          "src": [
+            "s21"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automated intake control",
+      "solves": [
+        {
+          "text": "Never take more than 2 cargo and take the task off the drivers",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "retain"
+      ],
+      "type": "state machine on a photoelectric sensor and motor current",
+      "pieces": [
+        "cargo"
+      ],
+      "serves": [],
+      "facts": [
+        {
+          "text": "A photoelectric sensor stops the feeder at the first cargo",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A running average of 20 current readings above 25 A on the intake motor stops the intake",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Limelight hub tracking",
+      "solves": [
+        {
+          "text": "Be ready to shoot at all times",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "position"
+      ],
+      "type": "camera turret tracking",
+      "pieces": [
+        "cargo"
+      ],
+      "serves": [
+        "hub-upper"
+      ],
+      "facts": [
+        {
+          "text": "Hood and flywheel speed rise as the robot moves away from the hub",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "The turret follows the hub all match, so drivers press only shoot",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Swerve and a turret together",
+      "because": "of predictive shooting and being able to intake and shoot at any orientation under defense",
+      "basis": "team",
+      "src": [
+        "s6"
+      ]
+    },
+    {
+      "choice": "L4 drive ratio",
+      "because": "an L2 tested before the season was not enough for its demands for a fast, maneuverable robot, L3 was out of stock, and the robot would be small and light enough",
+      "instead_of": "L2 or L3",
+      "basis": "team",
+      "src": [
+        "s13"
+      ]
+    },
+    {
+      "choice": "Deploy the intake passively and leave it down",
+      "because": "it is simple, and a deployment system was one more failure point that could cost ranking points",
+      "instead_of": "a retracting intake",
+      "cost": "some minor penalties at district events",
+      "basis": "team",
+      "src": [
+        "s16"
+      ]
+    },
+    {
+      "choice": "Mount the modules under the frame tube",
+      "because": "a shorter cargo shelf lowers the whole ball path and leaves room for the battery box and climber gearbox",
+      "instead_of": "modules on top",
+      "basis": "team",
+      "src": [
+        "s14"
+      ]
+    },
+    {
+      "choice": "Brace the climber with tie rods",
+      "because": "it is far more effective and lighter for spreading the load to the drive base",
+      "instead_of": "a large box tube structure",
+      "basis": "team",
+      "src": [
+        "s17"
+      ]
+    },
+    {
+      "choice": "Make tie rods from 1/2 in hex stock",
+      "because": "it is rigid and can be tightened with a wrench",
+      "instead_of": "0.75 in round tube",
+      "basis": "team",
+      "src": [
+        "s17"
+      ]
+    },
+    {
+      "choice": "Program in C++",
+      "because": "the only software mentor at the start worked in it, and the state-based structure built since is easy to teach",
+      "cost": "much effort to translate other teams' Java swerve code",
+      "basis": "team",
+      "src": [
+        "s9"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "Comp Robot",
+        "url": "https://cad.onshape.com/documents/a347ccbaf68f245233aadb8b/w/1078dadff6a13b8f52a83991/e/24ed58654cf353cf1731c47c",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "CAD listed on the team page",
+        "url": "https://cad.onshape.com/documents/a347ccbaf68f245233aadb8b/w/1078dadff6a13b8f52a83991",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s1"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/0fmZqJt",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Diablo reveal video (not watched)",
+        "url": "https://www.youtube.com/watch?v=i4QskCG2ttc",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Pit interview (captions read, not watched)",
+        "url": "https://www.youtube.com/watch?v=auPZ9_jM3b8",
+        "format": "video",
+        "state": "listed",
+        "src": "s6"
+      },
+      {
+        "what": "Onshape preview of the robot with layout sketches",
+        "url": "https://cad.onshape.com/documents/a347ccbaf68f245233aadb8b/w/1078dadff6a13b8f52a83991/e/24ed58654cf353cf1731c47c",
+        "img": "https://cad.onshape.com/api/thumbnails/d/a347ccbaf68f245233aadb8b/w/1078dadff6a13b8f52a83991/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s22",
+        "kind": "cad"
+      },
+      {
+        "what": "Diablo, full robot with intake out, red bumpers",
+        "url": "https://www.chiefdelphi.com/t/404621",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/3X/d/f/df19ade217d6fb112e03759cb5149d7c74dc7413_2_690x460.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s7",
+        "kind": "robot-photo",
+        "hero": true
+      }
+    ],
+    "documents": [
+      {
+        "what": "Diablo technical document (PDF, text read)",
+        "url": "https://www.chiefdelphi.com/uploads/short-url/zCFdX2nzxX3hPzOB74NPXr8eYDK.pdf",
+        "format": "PDF",
+        "state": "opened",
+        "src": "s4"
+      },
+      {
+        "what": "Team page for the 2022 robot",
+        "url": "https://sites.google.com/view/valor6800/robot/2022-robot",
+        "format": "web page",
+        "state": "opened",
+        "src": "s5"
+      },
+      {
+        "what": "CAD release thread with answers",
+        "url": "https://www.chiefdelphi.com/t/412856",
+        "format": "thread",
+        "state": "opened",
+        "src": "s11"
+      },
+      {
+        "what": "Reveal thread with answers",
+        "url": "https://www.chiefdelphi.com/t/404621",
+        "format": "thread",
+        "state": "opened",
+        "src": "s7"
+      }
+    ],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/valor6800",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "2022 robot code",
+        "url": "https://github.com/Valor6800/FRC-6800-2022-code",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s8"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)",
+    "the team's technical document, robot page, reveal thread, CAD thread and interview"
+  ],
+  "results": {
+    "division": "Roebling",
+    "division_opr": 44.41,
+    "opr_rank": 91,
+    "record": "62-12-0",
+    "einstein": null,
+    "added": {
+      "why": "blended",
+      "rank": 19
+    },
+    "note": "Listed beside the top 20: 91st by championship OPR, but 19th of the championship robots in our rating that also counts the rest of its season. The rating sees scoring only.",
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

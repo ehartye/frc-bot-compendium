@@ -1,0 +1,1121 @@
+{
+  "id": "2025-604",
+  "season": 2025,
+  "team": "604",
+  "team_name": "Quixilver",
+  "robot_name": "The Flush",
+  "variant": null,
+  "sources": {
+    "s1": {
+      "title": "Team 604 in 2025",
+      "url": "https://www.thebluealliance.com/team/604/2025",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s2": {
+      "title": "Archimedes Division 2025",
+      "url": "https://www.thebluealliance.com/event/2025arc",
+      "publisher": "The Blue Alliance",
+      "read": "2026-11-25"
+    },
+    "s3": {
+      "title": "FRC CAD collection (community sheet)",
+      "url": "https://docs.google.com/spreadsheets/d/1acT6PpdR5l3zVhPqrehgamPsnUbk6yg-2JC5FcwIbb4/edit",
+      "publisher": "Spectrum 3847 community sheet",
+      "read": "2026-11-25"
+    },
+    "s4": {
+      "title": "Team 604, The Flush: CAD and code release",
+      "url": "https://www.chiefdelphi.com/t/502824",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s5": {
+      "title": "Team 604, The Flush: post 44",
+      "url": "https://www.chiefdelphi.com/t/502824/44",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s6": {
+      "title": "604 Quixilver | Behind the Bumpers | 2025 FRC REEFSCAPE Robot (auto-captions)",
+      "url": "https://www.youtube.com/watch?v=vNXxb_Tdr4w",
+      "publisher": "FUN Robotics Network",
+      "read": "2026-11-25"
+    },
+    "s7": {
+      "title": "Team 604, The Flush: post 34",
+      "url": "https://www.chiefdelphi.com/t/502824/34",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s8": {
+      "title": "Team 604, The Flush: post 20",
+      "url": "https://www.chiefdelphi.com/t/502824/20",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s9": {
+      "title": "Team 604, The Flush: post 40",
+      "url": "https://www.chiefdelphi.com/t/502824/40",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s10": {
+      "title": "Team 604, The Flush: post 22",
+      "url": "https://www.chiefdelphi.com/t/502824/22",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s11": {
+      "title": "Team 604, The Flush: post 15",
+      "url": "https://www.chiefdelphi.com/t/502824/15",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s12": {
+      "title": "Team 604, The Flush: post 28",
+      "url": "https://www.chiefdelphi.com/t/502824/28",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s13": {
+      "title": "Team 604, The Flush: post 46",
+      "url": "https://www.chiefdelphi.com/t/502824/46",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s14": {
+      "title": "Team 604, The Flush: post 25",
+      "url": "https://www.chiefdelphi.com/t/502824/25",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s15": {
+      "title": "Team 604, The Flush: post 32",
+      "url": "https://www.chiefdelphi.com/t/502824/32",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s16": {
+      "title": "Team 604, The Flush: post 37",
+      "url": "https://www.chiefdelphi.com/t/502824/37",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s17": {
+      "title": "Team 604, The Flush: post 14",
+      "url": "https://www.chiefdelphi.com/t/502824/14",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s18": {
+      "title": "Team 604, The Flush: post 17",
+      "url": "https://www.chiefdelphi.com/t/502824/17",
+      "publisher": "Chief Delphi",
+      "read": "2026-11-25"
+    },
+    "s19": {
+      "title": "Onshape document",
+      "url": "https://cad.onshape.com/documents/456258752934a9d51b4e2c35/w/fc69fa497b3a80cf764a6ecd/e/946f925a33bc7c7ba6066a21",
+      "publisher": "cad.onshape.com",
+      "read": "2026-11-25"
+    }
+  },
+  "story": {
+    "bet": [
+      {
+        "text": "Rigid, low-backlash mechanisms that allow fast, consistent, fully automated scoring with a single driver.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "demand": [
+      {
+        "text": "Play all aspects of the game, prioritizing automated scoring, easy and fast loading from the coral station, and horizontal coral on L1 for space efficiency and KitBot compatibility. Parts had to be within what the team could make.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "auto": [
+      {
+        "text": "Auto uses exactly the teleop scoring logic, so teleop improvements carry over; new autos chain scoring commands for reef locations. The return to the station and part of the drive to the next location follow pre-planned Quikplan trajectories.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "A loop overrun of about 60 ms delays the start slightly.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "cycle": [
+      {
+        "text": "A human player drops coral into the Funnel from any of three sides, and rollers push it into the Gripper. The driver picks a level and holds one button; the robot lines up with the closest face and scores.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      },
+      {
+        "text": "It claims 547 of 549 on L2 to L4 at its last two events.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      }
+    ],
+    "endgame": [
+      {
+        "text": "It drives sideways into the cage, which gets stuck in the climber and is winched up into the Funnel, where flaps move out of the way.",
+        "basis": "team",
+        "src": [
+          "s6",
+          "s4"
+        ]
+      }
+    ],
+    "fallback": [
+      {
+        "text": "When a loop overrun makes the beam break stop the coral late, a couple of times per event, the team scores L1 instead.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      },
+      {
+        "text": "Scoring still runs on wheel odometry if no tag is seen.",
+        "basis": "team",
+        "src": [
+          "s7"
+        ]
+      }
+    ],
+    "gave_up": [
+      {
+        "text": "The robot is not particularly good with traffic and defense, the team says, so intaking stays with the driver.",
+        "basis": "team",
+        "src": [
+          "s6"
+        ]
+      },
+      {
+        "text": "The Arm was de-tuned to keep it from flipping the robot.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "Scoring does not need a visible AprilTag, so with odometry far off it can try to score feet away from the reef: its only two L2 to L4 misses at the last two events.",
+        "basis": "team",
+        "src": [
+          "s5"
+        ]
+      }
+    ],
+    "changed": [
+      {
+        "text": "Elevator current went from a 40 A limit to 80 A; the Arm went to one motor at 100 A.",
+        "basis": "team",
+        "src": [
+          "s4"
+        ]
+      },
+      {
+        "text": "One side's arm sprockets were removed to save weight.",
+        "basis": "team",
+        "src": [
+          "s8"
+        ]
+      },
+      {
+        "text": "In the off-season it found its climb motor limited to 50% duty all season, and learned from a copy of its robot that algae could be placed in the barge instead of thrown.",
+        "basis": "team",
+        "src": [
+          "s9"
+        ]
+      }
+    ],
+    "outcome": [
+      {
+        "text": "39-10-0 in official play; ranked 33 by championship OPR (92.92, Archimedes).",
+        "basis": "record",
+        "src": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "Chassis",
+      "solves": [
+        {
+          "text": "Stay stable when reaching high",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "drive",
+        "structure"
+      ],
+      "type": "swerve",
+      "serves": [],
+      "facts": [
+        {
+          "text": "WCP Swerve X2i; square frame side",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 29,
+          "unit": "in"
+        },
+        {
+          "text": "5.9:1 drive ratio, optimized for an average sprint of about 18 ft",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Polycarbonate and plywood panels protect electronics from falling coral",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elevator",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Move precisely without twisting",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "single-stage elevator",
+      "serves": [
+        "reef-branches",
+        "net"
+      ],
+      "facts": [
+        {
+          "text": "Uprights are 2x2 in, for more lateral stiffness than 2x1 in",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Chain on both sides keeps the carriage from twisting",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "3:1 with two Kraken X60s, optimized for a travel of",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 28,
+          "unit": "in"
+        },
+        {
+          "text": "A crossbar at maximum height is gusseted in two directions",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Each chain is held by three 4-40 screws, with three press-fit 3 mm dowel pins for shear; this pair was basically the only part that needed a mill",
+          "basis": "team",
+          "src": [
+            "s10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arm",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Reach the reef from behind coral on the floor and stay inside the extension limits",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "position"
+      ],
+      "type": "single pivoting arm",
+      "serves": [
+        "reef-branches",
+        "net"
+      ],
+      "facts": [
+        {
+          "text": "Scores with bumpers away from the reef by",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 5,
+          "unit": "in"
+        },
+        {
+          "text": "Stays within extension limits in every configuration without software",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "51:1 with a Kraken X60; gearbox shimmed against backlash",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A printed block inside the tube keeps the sprocket bolts from crushing it; a small gusset takes chain load off a single bolt hole in 1/16 in tubing and holds the shaft during assembly",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        },
+        {
+          "text": "The hex shaft passes all the way through, for carriage rigidity and easier assembly",
+          "basis": "team",
+          "src": [
+            "s8"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "De-tuned so it would not flip the robot: two motors at a 35 A limit by design, one motor at 100 A in the end",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gripper",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Score L4 with loose tolerance and lay coral flat on L1",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "retain",
+        "deliver"
+      ],
+      "type": "open-top roller gripper on a wrist",
+      "serves": [
+        "reef-branches",
+        "reef-l1",
+        "net",
+        "processor"
+      ],
+      "facts": [
+        {
+          "text": "Pivots on the Arm by",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 180,
+          "unit": "degrees"
+        },
+        {
+          "text": "Four coral rollers and two algae rollers",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Left and right sides are powered separately, to turn coral for L1",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "L1 coral per side, up to",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 4,
+          "unit": "coral"
+        },
+        {
+          "text": "Open top lets coral rotate as it leaves, so the scoring angle is shallower and L4 tolerance larger; it also keeps the robot from getting stuck on the reef",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Coral sits above the wrist pivot for reach; algae sits in line with it to stay in the extension limit",
+          "basis": "team",
+          "src": [
+            "s11"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The original gripper had too little compression on algae and could not make up for a slight lack of reach, so the team always threw algae into the barge; after the grip was improved it never tried placing",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Funnel",
+      "pieces": [
+        "coral"
+      ],
+      "solves": [
+        {
+          "text": "Accept coral from a human player on three sides, in any orientation",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "acquire",
+        "transfer"
+      ],
+      "type": "full-width funnel with powered rollers",
+      "serves": [
+        "reef-branches",
+        "reef-l1"
+      ],
+      "facts": [
+        {
+          "text": "Corrugated plastic, for stiffness at low weight; thickness",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 4,
+          "unit": "mm"
+        },
+        {
+          "text": "Two separately powered rollers plus the Gripper's left and right rollers make a four-sided roller set that centers coral",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "A horizontal coral rests at a high point, an unstable balance, and does not meaningfully touch a roller there, so any robot motion turns it",
+          "basis": "team",
+          "src": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Coral bounces out less than from thin polycarbonate",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "With algae in the Gripper the rollers stop and a coral waits in the Funnel",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        },
+        {
+          "text": "The rear ramp unfolds to clear the climber and the cage",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Climb",
+      "solves": [
+        {
+          "text": "Climb with the Funnel in the way",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "endgame"
+      ],
+      "type": "winch climber under the funnel",
+      "serves": [
+        "cage"
+      ],
+      "facts": [
+        {
+          "text": "Weight with motor and gearbox, about",
+          "basis": "team",
+          "src": [
+            "s4"
+          ],
+          "value": 3.5,
+          "unit": "lb"
+        },
+        {
+          "text": "Surgical tubing extends it",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "15:1 winch with a 2:1 pulley on one Kraken X60 retracts it",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Two Funnel flaps move back so the Funnel does not touch the chain or the top of the cage",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The climb was a bit slow; the motor turned out to be limited to 50% duty the whole season",
+          "basis": "team",
+          "src": [
+            "s9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Auto scoring",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Let one driver perform all game functions",
+          "basis": "team",
+          "src": [
+            "s6"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "position",
+        "deliver"
+      ],
+      "type": "single-button state machine",
+      "serves": [
+        "reef-branches",
+        "reef-l1",
+        "net"
+      ],
+      "facts": [
+        {
+          "text": "The closest reef face is predicted from robot position and motion; the driver picks the left or right side",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "The controller vibrates when the robot is on the boundary between two faces",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Takes over from the driver without slowing down, planning from the current position and velocity",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Will not go too close to the reef until the arm is clear, or retract it until far enough away",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "For the net only the lengthwise direction is aligned; the driver aligns sideways to avoid algae already there",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Moved from composed commands to one state machine on February 15",
+          "basis": "team",
+          "src": [
+            "s13"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "No lockout when odometry is wrong and no tag is seen: two misses",
+          "basis": "team",
+          "src": [
+            "s5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Localization",
+      "solves": [
+        {
+          "text": "Be precise at the reef and still know the whole-field pose",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "sense"
+      ],
+      "type": "two pose estimates",
+      "serves": [
+        "reef-branches",
+        "net"
+      ],
+      "facts": [
+        {
+          "text": "Reef tasks use only the closest AprilTag plus odometry, on the roboRIO for minimal latency",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Other tasks use all tags plus odometry in a particle filter on the driver station",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The driver-station filter adds some latency",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Game piece sensing",
+      "pieces": [
+        "coral",
+        "algae"
+      ],
+      "solves": [
+        {
+          "text": "Know which game piece the robot is holding",
+          "basis": "team",
+          "src": [
+            "s4"
+          ]
+        }
+      ],
+      "does": [
+        "sense",
+        "retain"
+      ],
+      "type": "beam break and motor stall",
+      "serves": [],
+      "facts": [
+        {
+          "text": "A beam break in front of the coral rollers triggers once coral is fully held and resets once it is fully out of contact",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Algae is sensed by motor stall; no clean mount was found for one beam break to do both",
+          "basis": "team",
+          "src": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Banner Q2XANR-2M and Q2XNAE-2M, the most compact the team found that work in direct sunlight",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ],
+      "cost": [
+        {
+          "text": "The sensors are pretty pricey",
+          "basis": "team",
+          "src": [
+            "s15"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "choice": "Open-top Gripper",
+      "because": "rollers between two plates were large, bulky and hard to make stiff enough to drive from one side; the open top also removed getting stuck and eased L4",
+      "instead_of": "rollers between two plates",
+      "basis": "team",
+      "src": [
+        "s11"
+      ]
+    },
+    {
+      "choice": "One driver",
+      "because": "it reduces communication errors and leaves flexibility with human players around partners and defense",
+      "basis": "team",
+      "src": [
+        "s4"
+      ]
+    },
+    {
+      "choice": "Independent arm and wrist setpoints",
+      "because": "holding a constant wrist angle has no advantage in this game",
+      "instead_of": "four-bar style linked motion",
+      "basis": "team",
+      "src": [
+        "s16"
+      ]
+    },
+    {
+      "choice": "Choose gear ratios by planning a trapezoidal move for each candidate",
+      "because": "the ratio, motor properties and mechanism inertia give the maximum velocity and acceleration, which also start the tuning on the real robot",
+      "basis": "team",
+      "src": [
+        "s17",
+        "s18"
+      ],
+      "cost": "a later team post calls the current scripts pretty sloppy, with a number of oversimplifications"
+    },
+    {
+      "choice": "Run almost all control loops on the motor controllers",
+      "because": "mechanisms can move as fast as possible without a loop overrun driving them into a hard stop",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Keep heavy logging",
+      "because": "the data are more valuable than fewer loop overruns",
+      "cost": "logging has the most effect on loop overruns",
+      "basis": "team",
+      "src": [
+        "s5"
+      ]
+    },
+    {
+      "choice": "Generally skip vision scoring tests in the pit",
+      "because": "system checks confirm each sensor and mechanism, and a ground algae plus processor run moves all scoring axes; when vision scoring did need a test, the team borrowed a portable reef or used a practice field",
+      "basis": "team",
+      "src": [
+        "s7"
+      ]
+    }
+  ],
+  "assets": {
+    "cad": [
+      {
+        "what": "The Flush, CAD release (competition robot)",
+        "url": "https://cad.onshape.com/documents/456258752934a9d51b4e2c35/w/fc69fa497b3a80cf764a6ecd/e/946f925a33bc7c7ba6066a21",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s3"
+      },
+      {
+        "what": "The Flush CAD, document root listed on the team page",
+        "url": "https://cad.onshape.com/documents/456258752934a9d51b4e2c35/w/fc69fa497b3a80cf764a6ecd",
+        "format": "Onshape",
+        "state": "listed",
+        "src": "s1"
+      }
+    ],
+    "graphics": [
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/1jKaWYZ",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/TVqji3Z",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Photo listed on the team page (not opened)",
+        "url": "https://imgur.com/mq6WzA5",
+        "format": "image",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "CAD, code and write-up thread, read in full",
+        "url": "https://www.chiefdelphi.com/t/502824",
+        "format": "thread",
+        "state": "opened",
+        "src": "s1"
+      },
+      {
+        "what": "Behind the Bumpers interview, championship (captions read)",
+        "url": "https://www.youtube.com/watch?v=vNXxb_Tdr4w",
+        "format": "video",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "Video: horizontal coral in the Funnel",
+        "url": "https://www.youtube.com/watch?v=cJjDpqV-3UM",
+        "format": "video",
+        "state": "listed",
+        "src": "s12"
+      },
+      {
+        "what": "Full robot CAD, elevator up and arm swung forward",
+        "url": "https://cad.onshape.com/documents/456258752934a9d51b4e2c35/w/fc69fa497b3a80cf764a6ecd/e/946f925a33bc7c7ba6066a21",
+        "img": "https://cad.onshape.com/api/thumbnails/d/456258752934a9d51b4e2c35/w/fc69fa497b3a80cf764a6ecd/s/600x340",
+        "format": "image",
+        "state": "opened",
+        "src": "s19",
+        "kind": "cad"
+      },
+      {
+        "what": "Arm tubes and large sprockets on an axle during assembly",
+        "url": "https://www.chiefdelphi.com/t/502824/20",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/5/4/9/5493c46187ab218d82d28eb155cc4861eb9b7b7b_2_375x500.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s8",
+        "kind": "mechanism"
+      },
+      {
+        "what": "Full robot CAD, elevator down, funnel behind",
+        "url": "https://www.chiefdelphi.com/t/502824",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/0/7/6/076d7aa1137bb2cede7c2ba3f82ca9cb4c3897a1_2_647x500.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad",
+        "hero": true
+      },
+      {
+        "what": "CAD with the chassis and swerve modules highlighted",
+        "url": "https://www.chiefdelphi.com/t/502824",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/1/7/2/1725959315547366a8a0fc45d0242dcd110fcc3c_2_647x500.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
+      },
+      {
+        "what": "Travel time against gear ratio, swerve drive",
+        "url": "https://www.chiefdelphi.com/t/502824",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/b/f/8/bf8f153e35ced2788e587d7e14256e8687422418_2_312x250.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "diagram"
+      },
+      {
+        "what": "CAD with the elevator highlighted",
+        "url": "https://www.chiefdelphi.com/t/502824",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/6/4/d/64d22f9bd71a4b0fa36686b9ae041fd03fca2c76_2_647x500.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
+      },
+      {
+        "what": "Travel time against gear ratio, elevator",
+        "url": "https://www.chiefdelphi.com/t/502824",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/c/f/6/cf6d47cea432af2658c153c7659155aaeae5e744_2_312x250.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "diagram"
+      },
+      {
+        "what": "CAD with the arm highlighted",
+        "url": "https://www.chiefdelphi.com/t/502824",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/1/9/d/19d32b8e81b88ee53493899df59a2b9a793b79c0_2_647x500.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
+      },
+      {
+        "what": "Travel time against gear ratio, arm",
+        "url": "https://www.chiefdelphi.com/t/502824",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/6/b/a/6bad49b97cfeaac89b644d168155187a7ba103b4_2_312x250.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "diagram"
+      },
+      {
+        "what": "CAD with the gripper highlighted",
+        "url": "https://www.chiefdelphi.com/t/502824",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/0/b/a/0ba5605a549c16a099b6ac06b91c6bce11696929_2_647x500.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
+      },
+      {
+        "what": "Open-top gripper placing a coral on a branch, close-up",
+        "url": "https://www.chiefdelphi.com/t/502824",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/a/2/5/a250879bd8242328bc3b2c58ca6fb31687184713_2_246x250.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "mechanism"
+      },
+      {
+        "what": "CAD with the funnel highlighted",
+        "url": "https://www.chiefdelphi.com/t/502824",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/0/a/c/0ac211ee4cb8c3c5bb957eca1b80a69be35be46e_2_647x500.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
+      },
+      {
+        "what": "Rear ramp and climb chain, seen from above",
+        "url": "https://www.chiefdelphi.com/t/502824",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/3/4/e/34ecffc5c7febac02d5b53d7ed0e3ae3203c6255_2_345x246.jpeg",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "mechanism"
+      },
+      {
+        "what": "CAD with the climb mechanism highlighted, rear view",
+        "url": "https://www.chiefdelphi.com/t/502824",
+        "img": "https://www.chiefdelphi.com/uploads/default/optimized/4X/b/9/7/b97ca3955444a55eecdce3bd7a1adae23c3d9cb8_2_647x500.png",
+        "format": "image",
+        "state": "opened",
+        "src": "s4",
+        "kind": "cad"
+      }
+    ],
+    "documents": [],
+    "code": [
+      {
+        "what": "Team GitHub account (no season release identified)",
+        "url": "https://github.com/frc604",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s1"
+      },
+      {
+        "what": "2025 code release, with the Quikplan trajectory planner",
+        "url": "https://github.com/frc604/2025-public",
+        "format": "GitHub",
+        "state": "listed",
+        "src": "s4"
+      }
+    ]
+  },
+  "searched": [
+    "The Blue Alliance team page",
+    "community CAD sheet",
+    "five discovery passes of 2026-11-25 (technical, primary documents, applied, news, critique)"
+  ],
+  "results": {
+    "division": "Archimedes",
+    "division_opr": 92.92,
+    "opr_rank": 33,
+    "record": "39-10-0",
+    "einstein": null,
+    "added": {
+      "why": "blended",
+      "rank": 15
+    },
+    "note": "Listed beside the top 20: 33rd by championship OPR, but 15th of the championship robots in our rating that also counts the rest of its season. The rating sees scoring only.",
+    "src": [
+      "s1",
+      "s2"
+    ]
+  }
+}

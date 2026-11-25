@@ -16,7 +16,7 @@ An example is a precedent to study, not a design to copy. It shows what one team
 
 | Part | What it holds |
 |---|---|
-| Identity and results | Team, robot name, variant, championship rank and record |
+| Identity and results | Team, robot name, variant, championship rank and record. A robot outside the championship top 20 carries `results.added` (why and rank) and a note; one that did not play in a championship division has no division or rank |
 | Story | Six beats, the same for every robot |
 | Mechanisms | Each filed under the functions it performs, with the problem it solves, its facts and its cost |
 | Decisions | What the team chose, why, instead of what, and what it cost |

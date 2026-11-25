@@ -1,0 +1,262 @@
+[
+ {
+  "season": 2022,
+  "team": "2056",
+  "why": "blended",
+  "blended_rank": 10,
+  "season_rank": 10,
+  "opr_rank": 26,
+  "division": "Turing",
+  "division_opr": 54.07
+ },
+ {
+  "season": 2022,
+  "team": "3310",
+  "why": "blended",
+  "blended_rank": 12,
+  "season_rank": 22,
+  "opr_rank": 34,
+  "division": "Roebling",
+  "division_opr": 52.35
+ },
+ {
+  "season": 2022,
+  "team": "973",
+  "why": "blended",
+  "blended_rank": 15,
+  "season_rank": 15,
+  "opr_rank": 72,
+  "division": "Newton",
+  "division_opr": 47.01
+ },
+ {
+  "season": 2022,
+  "team": "148",
+  "why": "blended",
+  "blended_rank": 18,
+  "season_rank": 19,
+  "opr_rank": 25,
+  "division": "Hopper",
+  "division_opr": 54.33
+ },
+ {
+  "season": 2022,
+  "team": "6800",
+  "why": "blended",
+  "blended_rank": 19,
+  "season_rank": 44,
+  "opr_rank": 91,
+  "division": "Roebling",
+  "division_opr": 44.41
+ },
+ {
+  "season": 2022,
+  "team": "4414",
+  "why": "blended",
+  "blended_rank": 20,
+  "season_rank": 14,
+  "opr_rank": 22,
+  "division": "Turing",
+  "division_opr": 55.95
+ },
+ {
+  "season": 2023,
+  "team": "2910",
+  "why": "blended",
+  "blended_rank": 8,
+  "season_rank": 19,
+  "opr_rank": 29,
+  "division": "Galileo",
+  "division_opr": 68.19
+ },
+ {
+  "season": 2023,
+  "team": "111",
+  "why": "blended",
+  "blended_rank": 11,
+  "season_rank": 10,
+  "opr_rank": 32,
+  "division": "Archimedes",
+  "division_opr": 67.94
+ },
+ {
+  "season": 2023,
+  "team": "4522",
+  "why": "blended",
+  "blended_rank": 14,
+  "season_rank": 11,
+  "opr_rank": 28,
+  "division": "Newton",
+  "division_opr": 68.46
+ },
+ {
+  "season": 2023,
+  "team": "930",
+  "why": "blended",
+  "blended_rank": 15,
+  "season_rank": 16,
+  "opr_rank": 21,
+  "division": "Milstein",
+  "division_opr": 69.74
+ },
+ {
+  "season": 2023,
+  "team": "118",
+  "why": "blended",
+  "blended_rank": 18,
+  "season_rank": 27,
+  "opr_rank": 22,
+  "division": "Archimedes",
+  "division_opr": 69.58
+ },
+ {
+  "season": 2023,
+  "team": "4414",
+  "why": "blended",
+  "blended_rank": 20,
+  "season_rank": 28,
+  "opr_rank": 31,
+  "division": "Hopper",
+  "division_opr": 68.05
+ },
+ {
+  "season": 2024,
+  "team": "2056",
+  "why": "blended",
+  "blended_rank": 5,
+  "season_rank": 9,
+  "opr_rank": 50,
+  "division": "Galileo",
+  "division_opr": 47.07
+ },
+ {
+  "season": 2024,
+  "team": "5940",
+  "why": "blended",
+  "blended_rank": 15,
+  "season_rank": 25,
+  "opr_rank": 100,
+  "division": "Hopper",
+  "division_opr": 42.23
+ },
+ {
+  "season": 2024,
+  "team": "4613",
+  "why": "blended",
+  "blended_rank": 16,
+  "season_rank": 15,
+  "opr_rank": 46,
+  "division": "Archimedes",
+  "division_opr": 47.26
+ },
+ {
+  "season": 2024,
+  "team": "9483",
+  "why": "blended",
+  "blended_rank": 18,
+  "season_rank": 16,
+  "opr_rank": 53,
+  "division": "Milstein",
+  "division_opr": 46.94
+ },
+ {
+  "season": 2024,
+  "team": "3467",
+  "why": "blended",
+  "blended_rank": 20,
+  "season_rank": 20,
+  "opr_rank": 38,
+  "division": "Galileo",
+  "division_opr": 48.45
+ },
+ {
+  "season": 2025,
+  "team": "604",
+  "why": "blended",
+  "blended_rank": 15,
+  "season_rank": 20,
+  "opr_rank": 33,
+  "division": "Archimedes",
+  "division_opr": 92.92
+ },
+ {
+  "season": 2025,
+  "team": "1778",
+  "why": "blended",
+  "blended_rank": 18,
+  "season_rank": 29,
+  "opr_rank": 21,
+  "division": "Newton",
+  "division_opr": 96.75
+ },
+ {
+  "season": 2025,
+  "team": "1771",
+  "why": "blended",
+  "blended_rank": 19,
+  "season_rank": 31,
+  "opr_rank": 37,
+  "division": "Curie",
+  "division_opr": 91.8
+ },
+ {
+  "season": 2025,
+  "team": "3683",
+  "why": "season",
+  "blended_rank": null,
+  "season_rank": 14,
+  "opr_rank": null,
+  "division": null,
+  "division_opr": null
+ },
+ {
+  "season": 2025,
+  "team": "4678",
+  "why": "season",
+  "blended_rank": null,
+  "season_rank": 18,
+  "opr_rank": null,
+  "division": null,
+  "division_opr": null
+ },
+ {
+  "season": 2026,
+  "team": "1114",
+  "why": "blended",
+  "blended_rank": 10,
+  "season_rank": 11,
+  "opr_rank": 23,
+  "division": "Archimedes",
+  "division_opr": 281.95
+ },
+ {
+  "season": 2026,
+  "team": "27",
+  "why": "blended",
+  "blended_rank": 11,
+  "season_rank": 8,
+  "opr_rank": 26,
+  "division": "Archimedes",
+  "division_opr": 269.27
+ },
+ {
+  "season": 2026,
+  "team": "6329",
+  "why": "blended",
+  "blended_rank": 19,
+  "season_rank": 16,
+  "opr_rank": 25,
+  "division": "Hopper",
+  "division_opr": 273.27
+ },
+ {
+  "season": 2026,
+  "team": "5687",
+  "why": "season",
+  "blended_rank": null,
+  "season_rank": 13,
+  "opr_rank": null,
+  "division": null,
+  "division_opr": null
+ }
+]
