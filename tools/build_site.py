@@ -13,8 +13,8 @@ from compendium import BEATS, FUNCTIONS, MATCH, PRIVATE, ROOT, TITLES, empty_bea
 
 DIST = ROOT / "dist"
 E = html.escape
-SS = seasons()
-RS = {r["id"]: r for r in robots().values()}
+SS = dict(sorted(seasons().items(), reverse=True))  # newest season first everywhere
+RS = {r["id"]: r for r in sorted(robots().values(), key=lambda r: -r["season"])}
 TEAMS = defaultdict(list)
 for r in RS.values():
     TEAMS[r["team"]].append(r)
@@ -244,8 +244,7 @@ def team_pages():
     lst = "".join(f'<li><a href="{t}/">{E(label(rs[0]))}</a></li>' for t, rs in sorted(TEAMS.items(), key=lambda kv: int(kv[0])))
     page("teams/index.html", "Teams - FRC bot compendium", f'<div class="season-head" style="grid-template-columns:1fr"><h1>Teams</h1></div><ul class="chips">{lst}</ul>', 1, desc="All teams in the compendium.")
     for t, rs in TEAMS.items():
-        rs.sort(key=lambda r: r["season"])
-        page(f"teams/{t}/index.html", f"{label(rs[0])} - FRC bot compendium", f'<div class="season-head" style="grid-template-columns:1fr"><h1><span>Team {t}</span>{E(rs[-1]["team_name"])}</h1></div><div class="cards">{"".join(card(r, "../../") for r in rs)}</div><p class="muted" style="margin-top:2rem">Only seasons when this team ranked in the top 20 are listed.</p>', 2, desc=f"{label(rs[0])}'s robots in the compendium.")
+        page(f"teams/{t}/index.html", f"{label(rs[0])} - FRC bot compendium", f'<div class="season-head" style="grid-template-columns:1fr"><h1><span>Team {t}</span>{E(rs[0]["team_name"])}</h1></div><div class="cards">{"".join(card(r, "../../") for r in rs)}</div><p class="muted" style="margin-top:2rem">Only seasons when this team ranked in the top 20 are listed.</p>', 2, desc=f"{label(rs[0])}'s robots in the compendium.")
 
 
 def about():
